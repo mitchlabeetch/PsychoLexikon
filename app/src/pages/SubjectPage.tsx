@@ -1,4 +1,5 @@
-import { useParams } from 'react-router-dom'
+import { Navigate, useParams } from 'react-router-dom'
+import NotFoundPage from './NotFoundPage'
 import Subject01 from './Subject01'
 import Subject02 from './Subject02'
 import Subject03 from './Subject03'
@@ -12,44 +13,43 @@ import Subject10 from './Subject10'
 import Subject11 from './Subject11'
 import Subject12 from './Subject12'
 
+const subjectPages = {
+  '01': Subject01,
+  '02': Subject02,
+  '03': Subject03,
+  '04': Subject04,
+  '05': Subject05,
+  '06': Subject06,
+  '07': Subject07,
+  '08': Subject08,
+  '09': Subject09,
+  '10': Subject10,
+  '11': Subject11,
+  '12': Subject12,
+} as const
+
 export default function SubjectPage() {
   const { id } = useParams<{ id: string }>()
+  const normalizedId = id?.match(/^\d{1,2}$/) ? id.padStart(2, '0') : id
 
-  switch (id) {
-    case '01':
-      return <Subject01 />
-    case '02':
-      return <Subject02 />
-    case '03':
-      return <Subject03 />
-    case '04':
-      return <Subject04 />
-    case '05':
-      return <Subject05 />
-    case '06':
-      return <Subject06 />
-    case '07':
-      return <Subject07 />
-    case '08':
-      return <Subject08 />
-    case '09':
-      return <Subject09 />
-    case '10':
-      return <Subject10 />
-    case '11':
-      return <Subject11 />
-    case '12':
-      return <Subject12 />
-    default:
-      return (
-        <div className="py-12">
-          <h1 className="font-display font-bold text-[2rem] text-text-primary mb-4">
-            Thema {id}
-          </h1>
-          <p className="font-body text-text-secondary">
-            Dieses Thema ist noch nicht verfügbar.
-          </p>
-        </div>
-      )
+  if (!normalizedId) {
+    return <Navigate to="/" replace />
   }
+
+  if (normalizedId !== id) {
+    return <Navigate to={`/thema/${normalizedId}`} replace />
+  }
+
+  const SubjectComponent = subjectPages[normalizedId as keyof typeof subjectPages]
+
+  if (!SubjectComponent) {
+    return (
+      <NotFoundPage
+        title="Dieses Thema wurde nicht gefunden"
+        description={`Für „${normalizedId}“ gibt es aktuell keine veröffentlichte Seite.`}
+      />
+    )
+  }
+
+  return <SubjectComponent />
 }

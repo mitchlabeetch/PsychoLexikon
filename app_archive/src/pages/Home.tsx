@@ -17,14 +17,14 @@ export default function Home() {
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
       >
         <h1 className="font-display font-bold text-[3rem] text-text-primary tracking-[-0.02em] leading-tight mb-3">
-          PSYCHLERN
+          PsychoLexicon
         </h1>
         <p className="font-body text-[1.125rem] text-text-secondary mb-6">
           Zwölf Kernthemen — verständlich, fundiert, adhs-freundlich
         </p>
         <div className="w-[60%] h-px bg-[#ccc] mx-auto mb-6" />
         <p className="font-body text-[1rem] text-text-primary max-w-[600px] mx-auto leading-relaxed">
-          PSYCHLERN bündelt zwölf Kernthemen des ersten Psychologie-Studienjahres. Jedes Thema ist auf ADHS-freundliches Lernen optimiert: kurze Absätze, klare Zwischentitel, erklärende Visualisierungen. Alle Inhalte sind wissenschaftlich fundiert und vollständig auf Deutsch.
+          PsychoLexicon bündelt zwölf Kernthemen des ersten Psychologie-Studienjahres. Jedes Thema ist auf ADHS-freundliches Lernen optimiert: kurze Absätze, klare Zwischentitel, erklärende Visualisierungen. Alle Inhalte sind wissenschaftlich fundiert und vollständig auf Deutsch.
         </p>
       </motion.section>
 
