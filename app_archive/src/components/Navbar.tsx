@@ -7,7 +7,7 @@ export default function Navbar() {
         to="/"
         className="font-body font-bold text-[1.25rem] text-[#1a1a1a] no-underline"
       >
-        PSYCHLERN
+        PsychoLexicon
       </Link>
     </nav>
   )

@@ -125,7 +125,7 @@ export default function Subject11() {
     <article className="pb-8">
       {/* Breadcrumb */}
       <nav className="font-body text-[0.875rem] text-text-muted mb-6">
-        <Link to="/" className="hover:underline">PSYCHLERN</Link>
+        <Link to="/" className="hover:underline">PsychoLexicon</Link>
         <span className="mx-1">/</span>
         <span>{subject_meta.discipline}</span>
         <span className="mx-1">/</span>

@@ -1,60 +1,76 @@
 import type { ReactNode } from 'react'
-import { useEffect, useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 
 interface NotebookPageProps {
   children: ReactNode
 }
 
 export default function NotebookPage({ children }: NotebookPageProps) {
+  const pageRef = useRef<HTMLDivElement>(null)
   const [holes, setHoles] = useState<number[]>([])
 
   useEffect(() => {
-    // Calculate holes based on page height dynamically
     const calculateHoles = () => {
-      const pageElement = document.getElementById('notebook-page')
+      const pageElement = pageRef.current
       if (pageElement) {
         const pageHeight = pageElement.scrollHeight
         const holePositions: number[] = []
-        const spacing = 220 // pixels between holes
-        let position = 100 // start position
+        const spacing = 220
+        let position = 100
 
         while (position < pageHeight) {
           holePositions.push(position)
           position += spacing
         }
 
-        setHoles(holePositions)
+        setHoles((currentHoles) =>
+          currentHoles.length === holePositions.length &&
+          currentHoles.every((hole, index) => hole === holePositions[index])
+            ? currentHoles
+            : holePositions,
+        )
       }
     }
 
-    // Initial calculation
-    calculateHoles()
+    let frameId: number | null = null
+    const scheduleCalculation = () => {
+      if (frameId !== null) {
+        cancelAnimationFrame(frameId)
+      }
 
-    // Recalculate on window resize
-    window.addEventListener('resize', calculateHoles)
-
-    // Use MutationObserver to detect content changes
-    const pageElement = document.getElementById('notebook-page')
-    if (pageElement) {
-      const observer = new MutationObserver(calculateHoles)
-      observer.observe(pageElement, {
-        childList: true,
-        subtree: true,
-        attributes: true,
+      frameId = requestAnimationFrame(() => {
+        frameId = null
+        calculateHoles()
       })
+    }
+
+    scheduleCalculation()
+    window.addEventListener('resize', scheduleCalculation)
+
+    const pageElement = pageRef.current
+    if (pageElement) {
+      const observer = new ResizeObserver(scheduleCalculation)
+      observer.observe(pageElement)
 
       return () => {
         observer.disconnect()
-        window.removeEventListener('resize', calculateHoles)
+        window.removeEventListener('resize', scheduleCalculation)
+        if (frameId !== null) {
+          cancelAnimationFrame(frameId)
+        }
       }
     }
 
-    return () => window.removeEventListener('resize', calculateHoles)
+    return () => {
+      window.removeEventListener('resize', scheduleCalculation)
+      if (frameId !== null) {
+        cancelAnimationFrame(frameId)
+      }
+    }
   }, [])
 
   return (
-    <div className="relative" id="notebook-page">
-      {/* Binder holes on left edge - continuous every 220px */}
+    <div ref={pageRef} className="relative" id="notebook-page">
       <div className="absolute left-0 top-0 w-8 z-10 pointer-events-none" style={{ height: '100%' }}>
         {holes.map((position) => (
           <div

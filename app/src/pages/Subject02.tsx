@@ -132,7 +132,7 @@ export default function Subject02() {
       {/* Breadcrumb */}
       <nav className="mb-6" aria-label="Breadcrumb">
         <ol className="flex items-center gap-2 font-body text-[0.875rem] text-text-muted">
-          <li><Link to="/" className="hover:underline">PSYCHLERN</Link></li>
+          <li><Link to="/" className="hover:underline">PsychoLexicon</Link></li>
           <li>/</li>
           <li>{meta.discipline}</li>
           <li>/</li>
