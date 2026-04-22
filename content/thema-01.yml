@@ -1,0 +1,150 @@
+subject_meta:
+  title: "Aktionspotential und synaptische Transmission"
+  discipline: "Biologische Psychologie / Neuropsychologie"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#98d4bb"
+  tab_number: 1
+
+content_blocks:
+  - type: "lead"
+    text: "Jeder Gedanke, jedes Gefühl, jede Bewegung beginnt als elektrischer Impuls in einer Nervenzelle. Das **Aktionspotential** und die **synaptische Übertragung** bilden das biologische Fundament aller psychischen Prozesse."
+
+  - type: "definition"
+    text: "Das **Aktionspotential** ist ein kurzzeitiger, all-oder-nichts-Spannungsimpuls entlang einer Nervenfaser, der durch den gesteuerten Austausch von Natrium- und Kaliumionen über die Zellmembran zustande kommt."
+    highlight_blue: ["Aktionspotential"]
+    tooltips:
+      Aktionspotential: "Elektrischer Nervenimpuls, der wie ein Wasserknopf funktioniert: Entweder er geht vollständig los oder gar nicht — es gibt keine halbe Stärke."
+
+  - type: "explanation"
+    text: |
+      **Das Ruhepotenzial: Die Voraussetzung für jede Erregung**
+
+      In Ruhe herrscht an der Membran eines Neurons eine elektrische Spannung von etwa −70 Millivolt. Dieses **Ruhepotenzial** entsteht, weil mehr positive Ionen außerhalb als innerhalb der Zelle vorhanden sind. Die Natrium-Kalium-Pumpe und die relative Undurchlässigkeit der Membran für geladene Teilchen halten diesen Zustand aufrecht (Schmidt et al., 2017).
+
+      **Die Depolarisation: Der Punkt ohne Umkehr**
+
+      Wenn ein Reiz die Membranspannung auf etwa −55 mV anhebt, öffnen sich spannungsabhängige Natriumkanäle am **Axonhillock**. Es strömt Na⁺ in die Zelle ein — die Membran depolarisiert und kippt kurzzeitig ins Positive. Dieser Moment ist der entscheidende Schritt, der das Aktionspotential unvermeidlich auslöst. Die **all-oder-nichts-Regel** besagt: Erreicht der Reiz die Schwelle, entsteht stets ein vollständiges Aktionspotential; unterschreitet er sie, passiert nichts (Bear et al., 2016).
+
+      **Repolarisation und Refraktärzeit: Die Erholungsphase**
+
+      Nach der Depolarisation schließen sich die Natriumkanäle, und Kaliumkanäle öffnen sich. K⁺ strömt aus der Zelle heraus, die Membran kehrt zu negativen Werten zurück — dies nennt man **Repolarisation**. Kurz darauf überschießt die Spannung kurzzeitig das Ruhepotenzial (**Hyperpolarisation**). Während der anschließenden **Refraktärzeit** ist das Neuron vorübergehend nicht oder nur schwer erregbar. Diese Phase verhindert, dass sich Impulse rückwärts ausbreiten und sichert die gerichtete Weiterleitung des Signals (Purves et al., 2018).
+
+      **Ionenkanäle als molekulare Schalter**
+
+      Die **Ionenkanäle** sind Proteine, die in die Zellmembran eingebettet sind und wie selektive Tore funktionieren. Hodgkin und Huxley (1952) formulierten das erste mathematische Modell dieser Kanäle und zeigten, dass der Ionenfluss präzise durch Spannungsänderungen gesteuert wird. Ihr Modell beschreibt drei Zustände: Ruhe (Kanäle geschlossen), Aktivierung (Kanäle geöffnet) und Inaktivierung (Kanäle blockiert trotz anhaltender Depolarisation).
+    highlight_blue: ["Ruhepotenzial", "Depolarisation", "all-oder-nichts-Regel", "Repolarisation", "Hyperpolarisation", "Refraktärzeit", "Ionenkanäle", "Axonhillock"]
+    tooltips:
+      Ruhepotenzial: "Elektrische Spannung an der Nervenzellmembran im Ausgangszustand, vergleichbar mit einem aufgeladenen Akku, der auf den Auslöser wartet."
+      Depolarisation: "Umkehr der Membranspannung durch Einstrom positiver Natriumionen — der Moment, in dem die Nervenzelle umschaltet von Ruhe auf Aktivität."
+      all-oder-nichts-Regel: "Grundprinzip des Aktionspotentials: Entweder der Reiz überschreitet die Schwelle und ein voller Impuls entsteht, oder es passiert überhaupt nichts — wie bei einem Lichtschalter, nicht wie bei einem Dimmer."
+      Repolarisation: "Rückkehr der Membranspannung zu negativen Werten durch Ausstrom von Kaliumionen — die Zelle stellt ihren Ausgangszustand wieder her."
+      Hyperpolarisation: "Kurzzeitige Überschreitung des Ruhepotenzials ins Negative — die Membran wird kurz noch undurchlässiger für neue Erregung."
+      Refraktärzeit: "Erholungsphase nach einem Aktionspotential, in der die Nervenzelle vorübergehend nicht oder nur schwer ein neues Signal auslösen kann — vergleichbar mit der Nachladezeit einer Kamera."
+      Ionenkanäle: "Spezialisierte Proteine in der Zellmembran, die wie selektive Schleusen geladene Teilchen passieren lassen, aber nur bei bestimmten Bedingungen."
+      Axonhillock: "Enger Übergangsbereich zwischen Zellkörper und Axon, an dem die Entscheidung fällt, ob ein Aktionspotential ausgelöst wird — der Schaltkreis des Neurons."
+    highlight_red: ["Hodgkin und Huxley (1952) formulierten das erste mathematische Modell dieser Kanäle", "in Ruhe herrscht an der Membran eines Neurons eine elektrische Spannung von etwa −70 Millivolt", "Die all-oder-nichts-Regel besagt: Erreicht der Reiz die Schwelle, entsteht stets ein vollständiges Aktionspotential"]
+    sources_inline:
+      "Hodgkin und Huxley (1952) formulierten das erste mathematische Modell dieser Kanäle": "Hodgkin, A. L., & Huxley, A. F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117(4), 500–544. https://doi.org/10.1113/jphysiol.1952.sp004764"
+      "in Ruhe herrscht an der Membran eines Neurons eine elektrische Spannung von etwa −70 Millivolt": "Schmidt, R. F., Lang, F., & Heckmann, M. (2017). Physiologie des Menschen: mit Pathophysiologie (32. Aufl.). Springer. https://doi.org/10.1007/978-3-662-55650-2"
+      "Die all-oder-nichts-Regel besagt: Erreicht der Reiz die Schwelle, entsteht stets ein vollständiges Aktionspotential": "Bear, M. F., Connors, B. W., & Paradiso, M. A. (2016). Neurowissenschaften: Ein grundlegendes Lehrbuch für Biologie, Medizin und Psychologie (6. Aufl., Übers. H. P. Lipp & J. Braun). Springer. https://doi.org/10.1007/978-3-662-49864-2"
+
+  - type: "visual"
+    svg_description: |
+      SVG 1 — Aktionspotential-Verlauf (ViewBox 0 0 400 300, clean line-art):
+      - X-Achse: Zeit in Millisekunden (Beschriftung: 0, 1, 2, 3, 4 ms)
+      - Y-Achse: Membranspannung in mV (Beschriftung: −70, −55, 0, +40)
+      - Kurve: Stetige Linie vom Ruhepotenzial (−70) steil ansteigend über Schwelle (−55, gestrichelte horizontale Linie) bis zum Peak (+40), dann steil abfallend unter −70 (Hyperpolarisation), schwingend zurück zu −70
+      - Farbige Segmente entlang der Kurve: grüner Bereich für Depolarisation, roter Bereich für Repolarisation, blauer Bereich für Refraktärzeit
+      - Beschriftungen in Deutsch: "Ruhepotenzial", "Schwelle", "Depolarisation", "Repolarisation", "Hyperpolarisation", "Refraktärzeit"
+      - Keine Füllungen außer leichten Akzentflächen, Stroke #1a1a1a 2px
+      Title: "Verlauf eines Aktionspotentials mit Depolarisation, Repolarisation und Refraktärzeit"
+      Desc: "Diagramm zeigt den charakteristischen Spannungsverlauf eines Nervenimpulses über vier Millisekunden mit beschrifteten Phasen"
+    caption: "Das Diagramm zeigt, wie die Membranspannung beim Überschreiten der Schwelle explosionsartig ansteigt und anschließend in die Refraktärzeit absinkt — die physikalische Basis der all-oder-nichts-Regel."
+
+  - type: "explanation"
+    text: |
+      **Von der elektrischen zur chemischen Signalübertragung**
+
+      Wenn das Aktionspotential die **präsynaptische Endigung** erreicht, öffnen sich dort spannungsabhängige Calciumkanäle. Ca²⁺ strömt in die Zelle und löst die Fusion von Synapsenvesikeln mit der Zellmembran aus. Darin gespeicherte **Neurotransmitter** — bei erregenden Synapsen vorwiegend **Glutamat**, bei hemmenden Synapsen vorwiegend **GABA** — werden in die **synaptische Spalt** freigesetzt (Purves et al., 2018).
+
+      **Die Bindung an postsynaptische Rezeptoren**
+
+      Die freigesetzten Moleküle diffundieren durch die synaptische Spalt — einen Raum von etwa 20–40 Nanometern — und binden an spezifische **postsynaptische Rezeptoren**. Diese Rezeptoren sind ebenfalls Ionenkanäle oder mit Ionenkanälen gekoppelte Proteine. Bei erregenden Synapsen öffnen sie für kurze Zeit den Weg für Na⁺, was die postsynaptische Membran depolarisiert (**exzitatorische postsynaptische Potential**, EPSP). Bei hemmenden Synapsen strömt Cl⁻ in die Zelle oder K⁺ heraus, was die Membran hyperpolarisiert (**inhibitorische postsynaptische Potential**, IPSP) (Bear et al., 2016).
+
+      **Exzitatorisch versus inhibitorisch: Das Gleichgewicht der Erregung**
+
+      Ob ein Neuron letztlich selbst ein Aktionspotential auslöst, hängt von der zeitlichen und räumlichen Summation aller eingehenden EPSPs und IPSPs am Axonhillock ab. Schmidt et al. (2017) betonen, dass dieses Prinzip die biologische Grundlage für jede Informationsverarbeitung im Gehirn bildet — von einfachen Reflexen bis zu höchsten kognitiven Leistungen.
+    highlight_blue: ["präsynaptische Endigung", "Neurotransmitter", "Glutamat", "GABA", "synaptische Spalt", "postsynaptische Rezeptoren", "exzitatorische postsynaptische Potential", "inhibitorische postsynaptische Potential"]
+    tooltips:
+      präsynaptische Endigung: "Endbereich des sendenden Neurons, in dem die Signalübertragung auf die nächste Zelle vorbereitet wird — vergleichbar mit einer Werkstatt, in der die Botenstoffe verpackt und versandfertig gemacht werden."
+      Neurotransmitter: "Chemische Botenstoffe, die als Brücke zwischen zwei Nervenzellen dienen und über den synaptischen Spalt hinweg Informationen weitergeben."
+      Glutamat: "Haupt-erregender Neurotransmitter im zentralen Nervensystem — er schaltet die nächste Zelle gewissermaßen ein und macht sie empfänglicher für weitere Signale."
+      GABA: "Haupt-hemmender Neurotransmitter im zentralen Nervensystem — er bremst die Aktivität der nachfolgenden Zelle und sorgt für Kontrolle und Balance."
+      synaptische Spalt: "Winziger Zwischenraum von etwa 20–40 Nanometern zwischen zwei Nervenzellen, den die chemischen Botenstoffe überqueren müssen, um das Signal weiterzugeben."
+      postsynaptische Rezeptoren: "Spezifische Ankerstellen auf der empfangenden Zelle, an denen Neurotransmitter andocken — vergleichbar mit Schlössern, für die nur bestimmte Schlüssel passen."
+      exzitatorische postsynaptische Potential: "Kurzzeitige Erhöhung der Membranspannung auf der empfangenden Seite, die die Wahrscheinlichkeit erhöht, dass diese Zelle selbst ein Aktionspotential auslöst."
+      inhibitorische postsynaptische Potential: "Kurzzeitige Absenkung der Membranspannung auf der empfangenden Seite, die die Wahrscheinlichkeit verringert, dass diese Zelle ein Aktionspotential auslöst."
+    highlight_red: ["Ob ein Neuron letztlich selbst ein Aktionspotential auslöst, hängt von der zeitlichen und räumlichen Summation aller eingehenden EPSPs und IPSPs am Axonhillock ab", "Ca²⁺ strömt in die Zelle und löst die Fusion von Synapsenvesikeln mit der Zellmembran aus"]
+    sources_inline:
+      "Ob ein Neuron letztlich selbst ein Aktionspotential auslöst, hängt von der zeitlichen und räumlichen Summation aller eingehenden EPSPs und IPSPs am Axonhillock ab": "Schmidt, R. F., Lang, F., & Heckmann, M. (2017). Physiologie des Menschen: mit Pathophysiologie (32. Aufl.). Springer. https://doi.org/10.1007/978-3-662-55650-2"
+      "Ca²⁺ strömt in die Zelle und löst die Fusion von Synapsenvesikeln mit der Zellmembran aus": "Purves, D., Augustine, G. J., Fitzpatrick, D., Hall, W. C., LaMantia, A. S., & White, L. E. (2018). Neuroscience (6. Aufl.). Sinauer Associates."
+
+  - type: "visual"
+    svg_description: |
+      SVG 2 — Synapse im Querschnitt (ViewBox 0 0 400 400, clean line-art, anatomisch):
+      - Oben: Präsynaptische Endigung mit runden Synapsenvesikeln darin, Calciumionen (Ca²⁺) als kleine Kreise von außen einströmend, Pfeil zeigt Ca²⁺-Fluss durch Membrankanäle
+      - Mittig: Synaptische Spalt als breiter Zwischenraum mit schraffiertem Hintergrund, darin Neurotransmittermoleküle als kleine Kreuze/X-Symbole diffundierend
+      - Unten: Postsynaptische Membran mit eingebetteten Rezeptoren als Y-förmige Strukturen, einige mit gebundenem Neurotransmitter
+      - Beschriftungen in Deutsch: "Präsynaptische Endigung", "Synapsenvesikel", "Ca²⁺-Kanäle", "Synaptische Spalt", "Neurotransmitter", "Postsynaptische Rezeptoren", "Postsynaptische Membran"
+      - Farbakzente: grün für erregende Übertragung (Na⁺-Pfeile), rot für Vesikel-Fusion
+      - Zellmembranen als dicke Linien (3px), Organelle als einfache Konturen
+      Title: "Anatomischer Querschnitt einer chemischen Synapse mit Neurotransmitter-Freisetzung"
+      Desc: "Schematische Darstellung der Signalübertragung von der präsynaptischen zur postsynaptischen Zelle über den synaptischen Spalt"
+    caption: "Das Bild verdeutlicht, wie Calciumionen die Freisetzung von Neurotransmittern auslösen und diese über die synaptische Spalt die postsynaptischen Rezeptoren erreichen — der Übergang vom elektrischen zum chemischen Signal."
+
+  - type: "deep_dive"
+    text: |
+      **Hodgkin-Huxley-Modell: Die mathematische Grundlage**
+
+      Hodgkin und Huxley (1952) entwickelten ein System von vier gekoppelten Differentialgleichungen, das den Zustand der Natrium- und Kaliumkanäle als Funktion der Membranspannung beschreibt. Dieses Modell erklärt nicht nur die Form des Aktionspotentials, sondern auch die Refraktärzeit und die Leitungsgeschwindigkeit entlang markhaltiger versus unmarkhaltiger Axone. Es gilt bis heute als Paradebeispiel für die mathematische Modellierung biologischer Prozesse und wurde 1963 mit dem Nobelpreis für Physiologie oder Medizin gewürdigt.
+
+      **Kritische Nuancen: Modifikationen des Grundmodells**
+
+      Purves et al. (2018) weisen darauf hin, dass das Hodgkin-Huxley-Modell am riesigen Axon des Tintenfischs kalibriert wurde und an menschlichen Neuronen Abweichungen zeigt. Moderne Erweiterungen berücksichtigen zusätzliche Ionenkanäle, intrazelluläre Signalkaskaden und die räumliche Verteilung von Kanälen entlang des Dendritenbaums. Dennoch bleibt das Grundprinzip — spannungsabhängige Kanäle erzeugen ein selbstverstärkendes Depolarisationsereignis — für alle erregbaren Zellen gültig.
+    highlight_red: ["Hodgkin und Huxley (1952) entwickelten ein System von vier gekoppelten Differentialgleichungen", "Purves et al. (2018) weisen darauf hin, dass das Hodgkin-Huxley-Modell am riesigen Axon des Tintenfischs kalibriert wurde"]
+    sources_inline:
+      "Hodgkin und Huxley (1952) entwickelten ein System von vier gekoppelten Differentialgleichungen": "Hodgkin, A. L., & Huxley, A. F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117(4), 500–544. https://doi.org/10.1113/jphysiol.1952.sp004764"
+      "Purves et al. (2018) weisen darauf hin, dass das Hodgkin-Huxley-Modell am riesigen Axon des Tintenfischs kalibriert wurde": "Purves, D., Augustine, G. J., Fitzpatrick, D., Hall, W. C., LaMantia, A. S., & White, L. E. (2018). Neuroscience (6. Aufl.). Sinauer Associates."
+
+  - type: "example"
+    text: "Stell dir vor, du berührst heißen Herd. Die Schmerzreize laufen als Aktionspotentiale durch Sensornerven bis ins Rückenmark. Dort übertragen sie an Zwischenneuronen über Synapsen mit Glutamat als Neurotransmitter. Gleichzeitig senden hemmende Interneuronen GABA-gestützte IPSPs, die die Bewegung kontrollieren. Erst das exakt abgestimmte Zusammenspiel von Erregung und Hemmung löst den koordinierten Rückzugreflex aus — ein Vorgang, der in Millisekunden abläuft und auf Tausenden von Aktionspotentialen und synaptischen Übertragungen beruht."
+
+  - type: "summary"
+    text: |
+      • Das Aktionspotential folgt der all-oder-nichts-Regel: Erreicht ein Reiz die Schwelle, entfaltet sich stets ein vollständiger Impuls mit charakteristischem Verlauf.
+      • Die synaptische Transmission wandelt das elektrische Signal in einen chemischen Botenstoff um und zurück — wobei Glutamat erregend und GABA hemmend wirkt.
+      • Die Summation exzitatorischer und inhibitorischer postsynaptischer Potentiale am Axonhillock entscheidet, ob ein Neuron selbst ein Aktionspotential generiert.
+
+sources:
+  - apa_citation: "Bear, M. F., Connors, B. W., & Paradiso, M. A. (2016). Neurowissenschaften: Ein grundlegendes Lehrbuch für Biologie, Medizin und Psychologie (6. Aufl., Übers. H. P. Lipp & J. Braun). Springer. https://doi.org/10.1007/978-3-662-49864-2"
+    type: "secondary"
+    tooltip_text: "Standardlehrbuch der Neurowissenschaften für Psychologiestudierende, das das Aktionspotential und die synaptische Übertragung umfassend behandelt."
+  - apa_citation: "Schmidt, R. F., Lang, F., & Heckmann, M. (2017). Physiologie des Menschen: mit Pathophysiologie (32. Aufl.). Springer. https://doi.org/10.1007/978-3-662-55650-2"
+    type: "secondary"
+    tooltip_text: "Klassisches Lehrbuch der Humanphysiologie mit detaillierten Darstellungen der Membranphysiologie und der Ionenkanäldynamik."
+  - apa_citation: "Hodgkin, A. L., & Huxley, A. F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117(4), 500–544. https://doi.org/10.1113/jphysiol.1952.sp004764"
+    type: "primary"
+    tooltip_text: "Nobelpreisgekrönte Primärstudie, die das mathematische Modell der Ionenkanäle am Tintenfischaxon formulierte und das Aktionspotential quantitativ beschrieb."
+  - apa_citation: "Purves, D., Augustine, G. J., Fitzpatrick, D., Hall, W. C., LaMantia, A. S., & White, L. E. (2018). Neuroscience (6. Aufl.). Sinauer Associates."
+    type: "secondary"
+    tooltip_text: "Englischsprachiges Grundlagenlehrbuch der Neuroscience mit aktuellen Darstellungen der synaptischen Transmission und ihrer Modifikationen."
+
+further_exploration:
+  - category: "Dokumentation"
+    title: "Das Gehirn — Unser faszinierendes Kontrollzentrum"
+    relevance: "Visualisiert die biologischen Grundlagen der Nervenkommunikation für ein breites Publikum und macht die Mikroprozesse im Gehirn greifbar."
+    url: "https://www.arte.tv/de/videos/RC-023719/das-gehirn-unser-faszinierendes-kontrollzentrum/"
+  - category: "Forschung"
+    title: "Allen Institute for Brain Science: Cell Types Database"
+    relevance: "Bietet frei zugängliche Daten zu Neuronentypen und ihrer elektrischen Eigenschaften für vertieftes Selbststudium."
+    url: "https://celltypes.brain-map.org/"

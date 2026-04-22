@@ -1,0 +1,132 @@
+subject_meta:
+  title: "Berliner Intelligenzstrukturmodell (BIS)"
+  discipline: "Differenzielle Psychologie / Intelligenzforschung"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#f4b8c5"
+  tab_number: 5
+
+content_blocks:
+  - type: "lead"
+    text: "Warum löst der eine ein Rätsel in Sekunden, der andere braucht Minuten? Jägers Berliner Intelligenzstrukturmodell trennt geistige Schnelligkeit von geistiger Tiefe — und zeigt, wie beide zusammenspielen."
+
+  - type: "definition"
+    text: "Das Berliner Intelligenzstrukturmodell (BIS) ist ein Faktorenmodell der Intelligenz, das geistige Leistung als Kreuzung von zwei Prozessfaktoren (Verarbeitungskapazität und -geschwindigkeit) mit drei Inhaltsfaktoren (verbal, numerisch, figural) beschreibt."
+    highlight_blue: ["Faktorenmodell", "Verarbeitungskapazität", "Verarbeitungsgeschwindigkeit", "Inhaltsfaktoren"]
+    tooltips:
+      Faktorenmodell: "Ein statistisches Modell, das Intelligenz als Zusammenspiel verschiedener Teilfätten darstellt, die durch Faktorenanalyse aus Testdaten gewonnen werden."
+      Verarbeitungskapazität: "Das mentale Fassungsvermögen — wie viele Informationen du gleichzeitig im Kopf halten und verknüpfen kannst, vergleichbar mit dem Arbeitsspeicher eines Computers."
+      Verarbeitungsgeschwindigkeit: "Die reine Tempo-Komponente des Denkens — wie schnell du einfache Operationen ausführst, ohne dass die Aufgabe selbst schwieriger wird."
+      Inhaltsfaktoren: "Die drei Wissensdomänen, in denen sich Intelligenz zeigt: Sprache (verbal), Zahlen (numerisch) und Bilder bzw. Formen (figural)."
+
+  - type: "explanation"
+    text: |
+      **Kernidee: Intelligenz ist ein Gitter, keine Leiter.**
+
+      Jäger (1984) lehnte die Vorstellung ab, Intelligenz lasse sich auf einen einzigen IQ-Wert reduzieren. Stattdessen schlug er ein zweidimensionales Raster vor. **Operative Faktoren** beschreiben, *wie* das Gehirn arbeitet; **Inhaltsfaktoren** beschreiben, *woran* es arbeitet.
+
+      ### Die zwei operativen Faktoren: Wie das Gehirn verarbeitet
+
+      **Verarbeitungskapazität** (Gedächtnisbandbreite) misst, wie viele Elemente du gleichzeitig erfassen kannst. Jemand mit hoher Kapazität erkennt komplexe Muster schnell, weil er mehr Bausteine parallel im Blick behält. **Verarbeitungsgeschwindigkeit** (Tempo) misst die reine Flüssigkeit elementarer Operationen — vergleichbar mit der Taktfrequenz eines Prozessors. Beide Faktoren sind korreliert, aber empirisch trennbar.
+
+      ### Die drei Inhaltsfaktoren: Womit das Gehirn arbeitet
+
+      Jede intelligente Leistung braucht einen Gegenstand. Der **verbale Faktor** erfasst Sprachverständnis und Wortfluss. Der **numerische Faktor** erfasst Rechnen und Zahlenlogik. Der **figurale Faktor** erfasst räumliches Vorstellungsvermögen und Mustererkennung in Bildern. Diese Unterscheidung erklärt, warum jemand mathematisch brillieren, aber schlecht in Analogien aus Sprache kann — oder umgekehrt.
+
+      ### Das Intersektionsmodell: 2 × 3 = 6 Facetten
+
+      Kreuzt man beide Dimensionen, entstehen sechs **Intersektionszellen**. Beispiel: "figurale Verarbeitungsgeschwindigkeit" bedeutet, schnell einfache räumliche Vergleiche zu ziehen. "Numerische Verarbeitungskapazität" bedeutet, komplexe Zahlenbeziehungen parallel zu durchschauen. Jäger (1984) postulierte zudem einen allgemeinen Faktor, der alle sechs Zellen bedingt — allerdings schwächer als im klassischen g-Faktor-Modell.
+    highlight_blue: ["Operative Faktoren", "Intersektionsmodell", "g-Faktor"]
+    highlight_red: ["Jäger (1984) lehnte die Vorstellung ab, Intelligenz lasse sich auf einen einzigen IQ-Wert reduzieren", "Jäger (1984) postulierte zudem einen allgemeinen Faktor, der alle sechs Zellen bedingt"]
+    tooltips:
+      Operative Faktoren: "Die Prozess-Komponenten des Denkens: Wie schnell und wie viel kann das Gehirn gleichzeitig verarbeiten?"
+      Intersektionsmodell: "Das mathematische Kreuzprodukt aus operativen und inhaltsbezogenen Faktoren, das 6 Teilfacetten der Intelligenz erzeugt."
+      g-Faktor: "Die allgemeine Intelligenz nach Spearman — die Annahme, dass alle intellektuellen Aufgaben von einer einzigen, übergreifenden Fähigkeit abhängen."
+    sources_inline:
+      "Jäger (1984) lehnte die Vorstellung ab, Intelligenz lasse sich auf einen einzigen IQ-Wert reduzieren": "Jäger, A. O. (1984). Intelligenzstrukturforschung: Konkurrierende Modelle, neue Entwicklungen, Perspektiven. Psychologische Rundschau, 35(1), 21–35."
+      "Jäger (1984) postulierte zudem einen allgemeinen Faktor, der alle sechs Zellen bedingt": "Jäger, A. O. (1984). Intelligenzstrukturforschung: Konkurrierende Modelle, neue Entwicklungen, Perspektiven. Psychologische Rundschau, 35(1), 21–35."
+
+  - type: "visual"
+    svg_description: |
+      Matrix-Gitter (ViewBox 0 0 400 300), clean line-art, keine Füllung außer leichtem Tab-Farbton.
+      
+      Aufbau:
+      - Vertikale Achse links beschriftet: "Inhaltsfaktoren"
+      - Horizontale Achse oben beschriftet: "Operative Faktoren"
+      
+      Oberste Zeile (Spaltenköpfe, y≈40):
+      - Spalte 1: "Verarbeitungskapazität" (x=80)
+      - Spalte 2: "Verarbeitungsgeschwindigkeit" (x=240)
+      
+      Linke Spalte (Zeilenköpfe, x≈20):
+      - Zeile 1: "Verbal" (y=90)
+      - Zeile 2: "Numerisch" (y=160)
+      - Zeile 3: "Figural" (y=230)
+      
+      Gitterzellen (2 Spalten × 3 Zeilen, jede Zelle 120×55px):
+      - Zelle (1,1): "Verbales Gedächtnis\n/ Verständnis"
+      - Zelle (2,1): "Schnelles Sprach-\nvergleichen"
+      - Zelle (1,2): "Komplexe Zahlen-\nlogik"
+      - Zelle (2,2): "Schnelles Rechnen"
+      - Zelle (1,3): "Räumliches\nVorstellen"
+      - Zelle (2,3): "Schnelle Form-\nvergleiche"
+      
+      Hintergrund: Jede Zelle hat leichten Tab-Farbton-Füllung (#f4b8c5, 10% Opazität).
+      Linien: 2px Stroke #1a1a1a für Hauptgitter, 1px für innere Linien.
+      Text: Deutsche Labels, 11px, zentriert in jeder Zelle.
+      
+      Pfeil: Kleiner Pfeil von der Mitte unten zeigt auf "Allgemeiner Faktor (g)" als schwache Überlagerung.
+      
+      <title>BIS-Intersektionsmodell: 2 operative Faktoren kreuzen 3 Inhaltsfaktoren</title>
+      <desc>Das Gitter zeigt die 6 Facetten des Berliner Intelligenzstrukturmodells, die aus der Kreuzung von Verarbeitungskapazität und -geschwindigkeit mit verbalen, numerischen und figuralen Inhalten entstehen.</desc>
+    caption: "Das Gitter zeigt, wie aus zwei Denk-Prozessen und drei Wissensdomänen sechs messbare Intelligenz-Facetten entstehen — die Bausteine des BIS-Modells."
+
+  - type: "deep_dive"
+    text: |
+      **Empirische Absicherung und der BIS-4 Test**
+
+      Das Modell ist kein bloßer Gedankenentwurf. Süß und Beauducel (2015) bestätigten die facettenanalytische Struktur in einer großzügigen Stichprobe mit konfirmatorischer Faktorenanalyse. **Der BIS-4** ist das zugehörige Standardverfahren mit je zwei Subtests pro Intersektionszelle plus einem allgemeinen Faktor. Jäger, Süß und Beauducel (1997) legten die Testmanual-Struktur so an, dass jede Zelle separat auswertbar bleibt.
+
+      ### Prozess vs. Inhalt: Warum die Trennung wichtig ist
+
+      Klassische Intelligenztests wie der HAWIK mischen beides durcheinander. Der BIS trennt sie bewusst. Das erlaubt differenziertere Diagnosen: Ein Kind mit langsamer Verarbeitungsgeschwindigkeit aber guter Kapazität braucht andere Förderung als eines mit geringer Kapazität aber gutem Tempo. Beauducel, Brocke und Holling (2001) betonen, dass diese Differenzierung klinisch und pädagogisch relevant sei.
+
+      ### Generalistische vs. Spezialisierte Intelligenz
+
+      Jägers Modell steht im Spannungsfeld zwischen zwei Lagern. Die **Generalisten** (Spearman, Cattell) behaupten, eine einzige g-Fähigkeit erkläre alles. Die **Spezialisten** (Gardner, Thurstone) postulieren viele unabhängige Intelligenzen. Das BIS nimmt eine Zwischenposition ein: Es gibt einen allgemeinen Faktor, aber er erklärt nur einen Teil der Varianz. Die sechs Intersektionszellen fangen den Rest auf.
+    highlight_red: ["Süß und Beauducel (2015) bestätigten die facettenanalytische Struktur", "Beauducel, Brocke und Holling (2001) betonen, dass diese Differenzierung klinisch und pädagogisch relevant sei"]
+    sources_inline:
+      "Süß und Beauducel (2015) bestätigten die facettenanalytische Struktur": "Süß, H.-M., & Beauducel, A. (2015). Facettenanalytische Konstruktvalidierung des Berliner Intelligenzstrukturmodells. Diagnostica, 61(3), 131–145. https://doi.org/10.1026/0012-1924/a000115"
+      "Beauducel, Brocke und Holling (2001) betonen, dass diese Differenzierung klinisch und pädagogisch relevant sei": "Beauducel, A., Brocke, B., & Holling, H. (2001). Kognitive Fähigkeiten und Intelligenz. In H. Holling (Hrsg.), Sozialwissenschaftliche Evaluation (S. 119–153). Hogrefe."
+
+  - type: "example"
+    text: "Stell dir vor, du sitzt in einer deutschen Kantine und musst schnell entscheiden, welches Menü das günstigste Preis-Leistungs-Verhältnis bietet. Du liest die Preise (verbal), rechnest Portionen pro Euro (numerisch) und schätzt visuell, welcher Teller mehr enthält (figural). Gleichzeitig musst du mehrere Angebote im Kopf halten (Kapazität) und schnell vergleichen (Geschwindigkeit). Jemand mit hoher Kapazität aber niedriger Geschwindigkeit merkt sich alle fünf Menüs, braucht aber länger für den Vergleich. Jemand mit hoher Geschwindigkeit aber niedriger Kapazität entscheidet rasch, übersieht aber das vierte, bessere Angebot."
+
+  - type: "summary"
+    text: |
+      - Intelligenz besteht im BIS-Modell aus 2 Prozessfaktoren (Kapazität, Geschwindigkeit) und 3 Inhaltsfaktoren (verbal, numerisch, figural), die 6 messbare Facetten erzeugen.
+      - Der BIS-4 Test operationalisiert jede Intersektionszelle separat und ermöglicht so differenziertere Diagnosen als klassische IQ-Eintopf-Verfahren.
+      - Das Modell vermittelt zwischen g-Faktor-Theorien und Mehrfachintelligenz-Ansätzen, indem es einen schwachen allgemeinen Faktor mit starken spezifischen Facetten kombiniert.
+
+sources:
+  - apa_citation: "Jäger, A. O. (1984). Intelligenzstrukturforschung: Konkurrierende Modelle, neue Entwicklungen, Perspektiven. Psychologische Rundschau, 35(1), 21–35."
+    type: "primary"
+    tooltip_text: "Jägers ursprüngliche Begründung des Intersektionsmodells aus der Intelligenzstrukturforschung der 1980er Jahre."
+  - apa_citation: "Jäger, A. O., Süß, H.-M., & Beauducel, A. (1997). Berliner Intelligenzstruktur-Test: BIS-Test, Form 4. Hogrefe."
+    type: "secondary"
+    tooltip_text: "Das Testmanual zum BIS-4, das die facettenbasierte Testkonstruktion mit je zwei Subtests pro Intersektionszelle beschreibt."
+  - apa_citation: "Beauducel, A., Brocke, B., & Holling, H. (2001). Kognitive Fähigkeiten und Intelligenz. In H. Holling (Hrsg.), Sozialwissenschaftliche Evaluation (S. 119–153). Hogrefe."
+    type: "review"
+    tooltip_text: "Ein Überblickskapitel zur Einordnung des BIS in die deutschsprachige Intelligenzdiagnostik und differentielle Psychologie."
+  - apa_citation: "Süß, H.-M., & Beauducel, A. (2015). Facettenanalytische Konstruktvalidierung des Berliner Intelligenzstrukturmodells. Diagnostica, 61(3), 131–145. https://doi.org/10.1026/0012-1924/a000115"
+    type: "primary"
+    tooltip_text: "Eine konfirmatorische Faktorenanalyse zur empirischen Absicherung der 2×3-Struktur des BIS in einer deutschsprachigen Stichprobe."
+
+further_exploration:
+  - category: "Forschung"
+    title: "Facettenanalytische Konstruktvalidierung des BIS — Süß & Beauducel (2015)"
+    relevance: "Die zentrale empirische Absicherung des Modells mit moderner Strukturgleichungsmodellierung, direkt im Hogrefe-Verlag zugänglich."
+    url: "https://doi.org/10.1026/0012-1924/a000115"
+  - category: "Buch"
+    title: "Intelligenz — Wolfgang Mack"
+    relevance: "Ein deutschsprachiges Lehrbuch, das das BIS-Modell im Kontext weiterer Intelligenztheorien (Cattell-Horn-Carroll, Gardner) verortet."
+    url: "https://www.beltz.de/fachmedien/psychologie/buecher/shop/produktdetails/34071-intelligenz.html"

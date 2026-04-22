@@ -1,0 +1,149 @@
+subject_meta:
+  title: "Fünf-Faktoren-Modell (Big Five)"
+  discipline: "Persönlichkeitspsychologie / Psychometrie"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#a8d8ea"
+  tab_number: 8
+
+content_blocks:
+  - type: "lead"
+    text: "Warum verhältst du dich in der Vorlesung anders als bei einer Party? Das Fünf-Faktoren-Modell behauptet, dass fünf stabile Persönlichkeitsdimensionen unser Verhalten über Situationen hinweg vorhersagen – doch diese Behauptung ist umstritten."
+
+  - type: "definition"
+    text: "Das Fünf-Faktoren-Modell (Big Five, OCEAN) beschreibt Persönlichkeit als fünf unabhängige Dimensionen: Offenheit, Gewissenhaftigkeit, Extraversion, Verträglichkeit und Neurotizismus. Es basiert auf der lexikalischen Hypothese, die besagt, dass alle bedeutsamen Persönlichkeitsunterschiede in natürlicher Sprache kodiert sind."
+    highlight_blue: ["Fünf-Faktoren-Modell", "Lexikalische Hypothese"]
+    tooltips:
+      Fünf-Faktoren-Modell: "Ein Persönlichkeitsmodell, das alle individuellen Unterschiede in fünf unabhängige Dimensionen ordnet"
+      Lexikalische Hypothese: "Die Annahme, dass bedeutsame Persönlichkeitsunterschiede in natürlicher Sprache als beschreibende Wörter kodiert sind"
+
+  - type: "explanation"
+    text: |
+      **Die lexikalische Hypothese: Sprache als Spiegel der Persönlichkeit**
+
+      McCrae und John (1992) verorten den theoretischen Ursprung des Modells in der lexikalischen Hypothese. Diese besagt, dass bedeutsame individuelle Unterschiede in natürlicher Sprache kodiert werden – je wichtiger ein Merkmal, desto mehr Begriffe existieren dafür. Die Sammlung aller adjektivischen Persönlichkeitsbeschreibungen bildet das Rohmaterial für die faktorenanalytische Extraktion.
+
+      **Die fünf Dimensionen: OCEAN**
+
+      Die faktorenanalytische Auswertung adjektivischer Selbstbeschreibungen führte zur Extraktion von fünf breiten Dimensionen. McCrae und John (1992) nennen diese Offenheit für Erfahrung, Gewissenhaftigkeit, Extraversion, Verträglichkeit und Neurotizismus. Jede Dimension umfasst sechs Facetten, die im NEO-PI-R differenziert erfasst werden.
+
+      Costa und McCrae (1992) operationalisierten die fünf Dimensionen im Revised NEO Personality Inventory mit 240 Items. Die Facetten erlauben eine nuanciertere Diagnostik als die reinen Faktorenrohwerte. Das NEO-PI-R ist eines der am weitesten verbreiteten Persönlichkeitsinventare in der klinischen und differentiellen Psychologie.
+
+      **Kurze Messung: Das BFI-K**
+
+      Rammstedt und John (2005) entwickelten den Big-Five-Inventory-Kurzversion mit nur 21 Items. Diese ökonomische Erhebungsmethode ist für Survey-Forschung und Screening geeignet. Die Konvergenz mit dem ausführlichen NEO-PI-R ist für alle fünf Dimensionen empirisch belegt.
+
+      **Block (2010): Die fundamentale Kritik**
+
+      Block (2010) richtet eine fundamentale Kritik gegen die fünffaktoriale Rahmung der Persönlichkeit. Er argumentiert, dass die Methodenvarianz der Selbstberichtsverfahren die fünf Faktoren künstlich aufbläht. Dasselbe Antwortformat über hunderte Items hinweg erzeugt gemeinsame Varianz, die nicht Persönlichkeit, sondern Antworttendenzen widerspiegelt.
+
+      Block (2010) zeigt, dass die Big Five nur moderate Vorhersagekraft für konkretes Verhalten besitzen. Die Korrelation zwischen Selbstbericht-Traitmaßen und beobachtetem Verhalten bleibt modest. Diese Diskrepanz zwischen Trait-Struktur und Verhaltensvorhersage illustriert die Situationsspezifität menschlichen Handelns.
+
+      **Kulturelle Replikation und ihre Grenzen**
+
+      McCrae und John (1992) weisen auf die kulturvergleichende Replikation der fünf Faktoren hin. Das Modell wurde in zahlreichen Sprachräumen bestätigt, doch die Replikation ist nicht universell. Alternative Modelle wie HEXACO ergänzen den theoretischen Debattenraum um eine sechste Dimension.
+    highlight_blue: ["Fünf-Faktoren-Modell", "Lexikalische Hypothese", "Offenheit", "Gewissenhaftigkeit", "Extraversion", "Verträglichkeit", "Neurotizismus", "Facetten", "NEO-PI-R", "BFI-K", "Methodenvarianz", "Situationsspezifität"]
+    highlight_red:
+      - "McCrae und John (1992) verorten den theoretischen Ursprung des Modells in der lexikalischen Hypothese"
+      - "McCrae und John (1992) nennen diese Offenheit für Erfahrung, Gewissenhaftigkeit, Extraversion, Verträglichkeit und Neurotizismus"
+      - "Costa und McCrae (1992) operationalisierten die fünf Dimensionen im Revised NEO Personality Inventory mit 240 Items"
+      - "Rammstedt und John (2005) entwickelten den Big-Five-Inventory-Kurzversion mit nur 21 Items"
+      - "Block (2010) richtet eine fundamentale Kritik gegen die fünffaktoriale Rahmung der Persönlichkeit"
+      - "Block (2010) zeigt, dass die Big Five nur moderate Vorhersagekraft für konkretes Verhalten besitzen"
+      - "McCrae und John (1992) weisen auf die kulturvergleichende Replikation der fünf Faktoren hin"
+    tooltips:
+      Fünf-Faktoren-Modell: "Ein Persönlichkeitsmodell, das alle individuellen Unterschiede in fünf unabhängige Dimensionen ordnet"
+      Lexikalische Hypothese: "Die Annahme, dass bedeutsame Persönlichkeitsunterschiede in natürlicher Sprache als beschreibende Wörter kodiert sind"
+      Offenheit: "Die Neigung, neue Erfahrungen, kreative Ideen und ästhetische Eindrücke zu suchen und zu schätzen"
+      Gewissenhaftigkeit: "Die Dimension der Ordnung, Zielstrebigkeit und Selbstdisziplin im Alltag"
+      Extraversion: "Die Neigung zu geselliger Aktivität, Positivem Erleben und Durchsetzungsfähigkeit"
+      Verträglichkeit: "Die Dimension des Altruismus, des Vertrauens und des Kooperationswillens gegenüber anderen"
+      Neurotizismus: "Die Neigung zu negativem Erleben, emotionaler Instabilität und stressreagibler Verarbeitung"
+      Facetten: "Spezifische Unterdimensionen innerhalb einer breiten Persönlichkeitsdimension, etwa 'Sorgfalt' innerhalb Gewissenhaftigkeit"
+      NEO-PI-R: "Ein standardisiertes Persönlichkeitsinventar mit 240 Items zur differenzierten Erfassung der Big Five und ihrer Facetten"
+      BFI-K: "Eine ökonomische 21-Item-Kurzversion des Big-Five-Inventars für Forschungszwecke"
+      Methodenvarianz: "Messfehlervarianz, die durch das Erhebungsverfahren selbst entsteht statt durch die gemessene Eigenschaft"
+      Situationsspezifität: "Die Beobachtung, dass sich Verhalten je nach Kontext unterscheidet, selbst bei derselben Person"
+    sources_inline:
+      "McCrae und John (1992) verorten den theoretischen Ursprung des Modells in der lexikalischen Hypothese": "McCrae, R. R., & John, O. P. (1992). An introduction to the five-factor model and its applications. Journal of Personality, 60(2), 175–215. https://doi.org/10.1111/j.1467-6494.1992.tb00970.x"
+      "McCrae und John (1992) nennen diese Offenheit für Erfahrung, Gewissenhaftigkeit, Extraversion, Verträglichkeit und Neurotizismus": "McCrae, R. R., & John, O. P. (1992). An introduction to the five-factor model and its applications. Journal of Personality, 60(2), 175–215. https://doi.org/10.1111/j.1467-6494.1992.tb00970.x"
+      "Costa und McCrae (1992) operationalisierten die fünf Dimensionen im Revised NEO Personality Inventory mit 240 Items": "Costa, P. T., Jr., & McCrae, R. R. (1992). NEO-PI-R professional manual. Psychological Assessment Resources."
+      "Rammstedt und John (2005) entwickelten den Big-Five-Inventory-Kurzversion mit nur 21 Items": "Rammstedt, B., & John, O. P. (2005). Kurzversion des Big Five Inventory (BFI-K): Entwicklung und Validierung eines ökonomischen Inventars zur Erfassung der fünf Faktoren der Persönlichkeit. Diagnostica, 51(4), 195–206. https://doi.org/10.1026/0012-1924.51.4.195"
+      "Block (2010) richtet eine fundamentale Kritik gegen die fünffaktoriale Rahmung der Persönlichkeit": "Block, J. (2010). The five-factor framing of personality and beyond: Some ruminations. Psychological Inquiry, 21(1), 43–56. https://doi.org/10.1080/10478401003596672"
+      "Block (2010) zeigt, dass die Big Five nur moderate Vorhersagekraft für konkretes Verhalten besitzen": "Block, J. (2010). The five-factor framing of personality and beyond: Some ruminations. Psychological Inquiry, 21(1), 43–56. https://doi.org/10.1080/10478401003596672"
+      "McCrae und John (1992) weisen auf die kulturvergleichende Replikation der fünf Faktoren hin": "McCrae, R. R., & John, O. P. (1992). An introduction to the five-factor model and its applications. Journal of Personality, 60(2), 175–215. https://doi.org/10.1111/j.1467-6494.1992.tb00970.x"
+
+  - type: "visual"
+    svg_description: |
+      Clean line-art matrix diagram (viewBox 0 0 400 320, stroke #1a1a1a, 2px main lines, 1px grid lines, transparent background).
+      Title at top center: "Die fünf Dimensionen des Big-Five-Modells (OCEAN)".
+      Five horizontal rows, each 52px high, separated by thin horizontal lines.
+      Left margin: factor labels in bold 12px sans-serif.
+      Right area: two opposing pole labels connected by a horizontal continuum line with 5 tick marks (center tick slightly longer for population mean).
+      Row 1: "O – Offenheit" — left pole "Traditionell / Konventionell", right pole "Experimentell / Kreativ", center marker at middle.
+      Row 2: "C – Gewissenhaftigkeit" — left pole "Ungeordnet / Lasch", right pole "Diszipliniert / Zielstrebig".
+      Row 3: "E – Extraversion" — left pole "Zurückhaltend / Reserviert", right pole "Gesellig / Aktiv".
+      Row 4: "A – Verträglichkeit" — left pole "Kritisch / Konfrontativ", right pole "Vertrauend / Hilfsbereit".
+      Row 5: "N – Neurotizismus" — left pole "Emotional Stabil / Robust", right pole "Reizbar / Ängstlich".
+      Row backgrounds alternate between transparent and faint #a8d8ea at 8% opacity for readability.
+      All text in German, 11px DM Sans. No decorative elements.
+      Title element: "Big-Five-Dimensionen OCEAN".
+      Desc element: "Matrix der fünf Persönlichkeitsdimensionen mit ihren jeweiligen Polen."
+    caption: "Das Diagramm zeigt die fünf Big-Five-Dimensionen als bipolar kontiniert, wobei die meisten Menschen in der Mitte liegen."
+
+  - type: "deep_dive"
+    text: |
+      **Die Person-Situation-Kontroverse**
+
+      Das zentrale theoretische Spannungsfeld um das Big-Five-Modell ist die Person-Situation-Kontroverse. Block (2010) argumentiert, dass die fünf Faktoren primär Methodenartefakte der Selbstberichtserhebung darstellen. Das Modell vernachlässige die beobachtbare Situationsspezifität menschlichen Verhaltens.
+
+      **Methodenvarianz als strukturelles Problem**
+
+      Die Verwendung identischer Antwortformate über hunderte Items erzeugt systematische Kovarianz. Block (2010) zeigt, dass diese Methodenvarianz die faktorenanalytische Lösung verzerrt. Die extrahierten Faktoren spiegeln dann teilweise Antwortstile wider, nicht nur Persönlichkeitseigenschaften.
+
+      **Die Zukunft: Alternative Strukturmodelle**
+
+      Moderne Persönlichkeitspsychologie tendiert zu integrativen Ansätzen, die Traits mit Situationsmerkmalen verknüpfen. Alternative Strukturmodelle ergänzen die fünf Faktoren um zusätzliche Dimensionen. Die Frage nach der optimalen Faktorenzahl bleibt Gegenstand aktiver Forschung.
+    highlight_red:
+      - "Block (2010) argumentiert, dass die fünf Faktoren primär Methodenartefakte der Selbstberichtserhebung darstellen"
+      - "Block (2010) zeigt, dass diese Methodenvarianz die faktorenanalytische Lösung verzerrt"
+    sources_inline:
+      "Block (2010) argumentiert, dass die fünf Faktoren primär Methodenartefakte der Selbstberichtserhebung darstellen": "Block, J. (2010). The five-factor framing of personality and beyond: Some ruminations. Psychological Inquiry, 21(1), 43–56. https://doi.org/10.1080/10478401003596672"
+      "Block (2010) zeigt, dass diese Methodenvarianz die faktorenanalytische Lösung verzerrt": "Block, J. (2010). The five-factor framing of personality and beyond: Some ruminations. Psychological Inquiry, 21(1), 43–56. https://doi.org/10.1080/10478401003596672"
+
+  - type: "example"
+    text: |
+      **Alltagsbeispiel: Der pflegeleichte Mitbewohner**
+
+      Dein:e Mitbewohner:in räumt nie die Spülmaschine aus, obwohl sie sonst äußerst gewissenhaft für die Uni lernt. Das Big-Five-Modell würde dies als Inkonsistenz werten – doch Block (2010) würde darauf hinweisen, dass Gewissenhaftigkeit situations-spezifisch wirkt. Akademische Kontexte aktivieren andere Verhaltensrepertoires als häusliche Alltagssituationen.
+
+      Die Beobachtung illustriert, dass Trait-Maße allein Verhalten schlecht vorhersagen, wenn die Situation nicht berücksichtigt wird. Dein:e Mitbewohner:in ist nicht "unehrlich" in der Trait-Beschreibung, sondern zeigt Kontext-Sensitivität. Dieses Phänomen ist der Kern von Blocks Kritik an der übermäßigen Fokussierung auf faktorielle Strukturen.
+
+  - type: "summary"
+    text: |
+      • Das Fünf-Faktoren-Modell (OCEAN) ordnet Persönlichkeit in fünf breite Dimensionen, die sich aus der lexikalischen Hypothese und Faktorenanalyse ableiten.
+      • NEO-PI-R und BFI-K sind die dominanten Messinstrumente; letzteres bietet ökonomische Kurzerfassung mit validierten Skalen.
+      • Block (2010) kritisiert Methodenvarianz und Situationsspezifität; alternative Modelle wie HEXACO ergänzen den Debattenraum.
+
+sources:
+  - apa_citation: "McCrae, R. R., & John, O. P. (1992). An introduction to the five-factor model and its applications. Journal of Personality, 60(2), 175–215. https://doi.org/10.1111/j.1467-6494.1992.tb00970.x"
+    type: "review"
+    tooltip_text: "Dieser Review-Artikel etabliert das Fünf-Faktoren-Modell als integrativen Rahmen für Persönlichkeitsforschung und Anwendung."
+  - apa_citation: "Costa, P. T., Jr., & McCrae, R. R. (1992). NEO-PI-R professional manual. Psychological Assessment Resources."
+    type: "secondary"
+    tooltip_text: "Das Testmanual beschreibt die Konstruktion, die Facettenstruktur und die psychometrischen Eigenschaften des NEO-PI-R."
+  - apa_citation: "Rammstedt, B., & John, O. P. (2005). Kurzversion des Big Five Inventory (BFI-K): Entwicklung und Validierung eines ökonomischen Inventars zur Erfassung der fünf Faktoren der Persönlichkeit. Diagnostica, 51(4), 195–206. https://doi.org/10.1026/0012-1924.51.4.195"
+    type: "empirical"
+    tooltip_text: "Die Primärstudie validiert die 21-Item-Kurzversion des BFI für ökonomische Persönlichkeitserfassung im deutschsprachigen Raum."
+  - apa_citation: "Block, J. (2010). The five-factor framing of personality and beyond: Some ruminations. Psychological Inquiry, 21(1), 43–56. https://doi.org/10.1080/10478401003596672"
+    type: "review"
+    tooltip_text: "Blocks programmatische Kritik hinterfragt die methodologischen Grundlagen und die überschätzte Vorhersagekraft des Big-Five-Ansatzes."
+
+further_exploration:
+  - category: "Buch"
+    title: "Asendorpf, J. B. (2007). Psychologie der Persönlichkeit (3. Aufl.)"
+    relevance: "Das deutschsprachige Standardlehrbuch behandelt Big Five, alternative Modelle und die Person-Situation-Kontroverse umfassend."
+    url: "https://link.springer.com/book/10.1007/978-3-540-71686-0"
+  - category: "Forschung"
+    title: "Ashton, M. C., & Lee, K. (2009). The HEXACO–60"
+    relevance: "Die Validierungsstudie des HEXACO-60 stellt die sechsfaktorielle Alternative zum Big-Five-Modell vor."
+    url: "https://doi.org/10.1080/00223890802645291"
