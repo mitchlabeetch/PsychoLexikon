@@ -41,13 +41,13 @@ export default function Layout({ children }: LayoutProps) {
   )
 
   return (
-    <div className="min-h-[100dvh] bg-bg-outer flex justify-center overflow-x-clip px-3 py-6 sm:px-6 lg:px-8">
+    <div className="min-h-[100dvh] bg-bg-outer flex justify-center overflow-x-clip pl-3 pr-6 py-6 sm:px-6 lg:px-8">
       <div className="w-full max-w-[1100px] relative">
         <div className="relative flex items-start gap-1.5 sm:gap-3">
           {/* Book — higher stacking order so it covers the tabs */}
           <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible z-10">
             <NotebookPage>
-              <div className="px-3 py-8 sm:px-10 sm:py-12 lg:px-16 lg:py-12">
+              <div className="px-1.5 py-8 text-[10px] sm:px-10 sm:py-12 sm:text-base lg:px-16 lg:py-12">
                 {children}
               </div>
             </NotebookPage>
