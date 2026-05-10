@@ -1,0 +1,508 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "04",
+  "slug": "thema-04",
+  "legacy": {
+    "sourceFormat": "yaml-v1",
+    "sourcePath": "content/thema-04.yml"
+  },
+  "meta": {
+    "title": "Klassische und Operante Konditionierung",
+    "discipline": "Lernpsychologie / Verhaltensanalyse",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "tabColor": "#f4b8c5",
+    "tabNumber": 4,
+    "estimatedReadMinutes": 5,
+    "leadTeaser": "Warum läuft dein Hund zur Küche, wenn du die Dose öffnest? Warum prüfst du reflexartig dein Handy, obwohl keine Benachrichtigung kam? Diese automatischen Reaktionen sind das Produkt zweier fundamentaler Lernmechanismen, die unser Verhalten formen, bevor wir überhaupt bewusst entscheiden."
+  },
+  "taxonomy": {
+    "categoryId": "learning-and-development",
+    "keywords": [
+      "konditionierung",
+      "verstaerkung",
+      "lernen"
+    ],
+    "audience": [
+      "erstsemester",
+      "adhs-freundlich",
+      "selbststudium"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-04",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-04",
+      "learning-and-development"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Lernen & Entwicklung"
+      ],
+      "audience": [
+        "erstsemester",
+        "adhs-freundlich",
+        "selbststudium"
+      ],
+      "keywords": [
+        "konditionierung",
+        "verstaerkung",
+        "lernen"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "04-lead-1",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Warum läuft dein Hund zur Küche, wenn du die Dose öffnest? Warum prüfst du reflexartig dein Handy, obwohl keine Benachrichtigung kam? Diese automatischen Reaktionen sind das Produkt zweier fundamentaler Lernmechanismen, die unser Verhalten formen, bevor wir überhaupt bewusst entscheiden.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "04-definition-2",
+      "type": "definition",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Konditionierung beschreibt Lernprozesse, bei denen ein Organismus durch wiederholte Erfahrung neue Reiz-Reaktions-Verknüpfungen erwirbt. Klassische Konditionierung koppelt Reize aneinander; operante Konditionierung formt Verhalten durch seine Konsequenzen.",
+            "annotations": [
+              {
+                "id": "04-definition-2-def-1",
+                "text": "Konditionierung",
+                "kind": "definition",
+                "tooltip": "Ein Lernprozess, bei dem ein ursprünglich neutraler Reiz durch wiederholte Kopplung mit einem bedeutsamen Reiz eine Reaktion auslöst oder Verhalten durch Konsequenzen geformt wird.",
+                "tone": "blue"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "04-explanation-3",
+      "type": "explanation",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Klassische Konditionierung: Das Lernen von Signalen"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Pawlow entdeckte, dass ein neutraler Reiz nach wiederholter Paarung mit Nahrung allein die Speichelsekretion auslösen kann. Diese **Reiz-Reaktions-Koppelung** bildet den Kern der klassischen **Konditionierung**: Ein **unbedingter Reiz** (Nahrung) erzeugt eine ungelernte Reaktion (Speichel), und ein **bedingter Reiz** (Glocke) erlernt diese Reaktion durch Assoziation. Lutz (2007) beschreibt dies als das fundamentale Prinzip der Signalbildung im Verhalten.",
+            "annotations": [
+              {
+                "id": "04-explanation-3-def-1",
+                "text": "unbedingter Reiz",
+                "kind": "definition",
+                "tooltip": "Ein Reiz, der von Natur aus eine ungelernte, automatische Reaktion hervorruft — wie Nahrung, die Speichelfluss auslöst.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-def-2",
+                "text": "bedingter Reiz",
+                "kind": "definition",
+                "tooltip": "Ein zunächst neutraler Reiz, der durch Paarung mit einem unbedingten Reiz eine gelernte Reaktion auslöst — wie die Glocke bei Pawlows Hunden.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-src-13",
+                "text": "Pawlow entdeckte, dass ein neutraler Reiz nach wiederholter Paarung mit Nahrung allein die Speichelsekretion auslösen kann",
+                "kind": "citation",
+                "tooltip": "Lutz & J. (2007)",
+                "tone": "red",
+                "sourceIds": [
+                  "04-source-3"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Rescorla (1988) argumentierte, dass klassische Konditionierung primär ein Lernen über vorhersagbare Beziehungen zwischen Reizen ist, nicht bloß ein Reflex-Lernen. Der Organismus lernt, welche Reize andere ankündigen — ein kognitiver Prozess, der weit über mechanische Paarung hinausgeht.",
+            "annotations": [
+              {
+                "id": "04-explanation-3-src-14",
+                "text": "Rescorla (1988) argumentierte, dass klassische Konditionierung primär ein Lernen über vorhersagbare Beziehungen zwischen Reizen ist, nicht bloß ein Reflex-Lernen",
+                "kind": "citation",
+                "tooltip": "Rescorla & R. A. (1988)",
+                "tone": "red",
+                "sourceIds": [
+                  "04-source-2"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Extinktion und die Unberechenbarkeit des Vergessens"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die **Extinktion** tritt ein, wenn der bedingte Reiz wiederholt ohne den unbedingten Reiz erscheint — die Glocke läutet, aber es gibt keine Nahrung. Die Reaktion lässt allmählich nach, doch die **Spontanerholung** zeigt: Das ursprüngliche Lernen ist nicht gelöscht, sondern lediglich überlagert. Bouton (2007) wies nach, dass Extinktion kein Löschen, sondern neues Lernen ist — die ursprüngliche Assoziation bleibt erhalten.",
+            "annotations": [
+              {
+                "id": "04-explanation-3-def-3",
+                "text": "Extinktion",
+                "kind": "definition",
+                "tooltip": "Das schrittweise Verschwinden einer gelernten Reaktion, wenn der bedingte Reiz wiederholt ohne den unbedingten Reiz auftritt.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-def-4",
+                "text": "Spontanerholung",
+                "kind": "definition",
+                "tooltip": "Die Wiederkehr einer scheinbar ausgelöschten Reaktion nach einer Pause — ein Zeichen dafür, dass das Lernen nicht vollständig vergessen wurde.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-src-15",
+                "text": "Bouton (2007) wies nach, dass Extinktion kein Löschen, sondern neues Lernen ist — die ursprüngliche Assoziation bleibt erhalten",
+                "kind": "citation",
+                "tooltip": "Bouton & M. E. (2007)",
+                "tone": "red",
+                "sourceIds": [
+                  "04-source-4"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Generalisierung und Diskrimination im Alltag"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die **Generalisierung** führt dazu, dass ähnliche Reize die gleiche Reaktion auslösen — alle Elektro-Glocken klingen gleich bedrohlich. Die **Diskrimination** lernt der Organismus durch Differenzierung: Nur die ursprüngliche Glocke, nicht die andere, kündigt Nahrung an. Beide Prozesse sind essenziell für flexibles Überleben in komplexen Umgebungen.",
+            "annotations": [
+              {
+                "id": "04-explanation-3-def-5",
+                "text": "Generalisierung",
+                "kind": "definition",
+                "tooltip": "Die Tendenz, eine gelernte Reaktion auch auf ähnliche, aber nicht identische Reize zu zeigen.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-def-6",
+                "text": "Diskrimination",
+                "kind": "definition",
+                "tooltip": "Die Fähigkeit, zwischen dem ursprünglichen bedingten Reiz und ähnlichen Reizen zu unterscheiden und nur auf den korrekten zu reagieren.",
+                "tone": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Operante Konditionierung: Verhalten formt die Welt"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Domjan (2014) systematisierte die Grundlage der operanten Konditionierung: Verhalten wird durch seine Konsequenzen geformt, nicht durch vorangehende Reize. Die **operante Kontingenz** beschreibt dieses Wenn-dann-Muster: Wenn ein Verhalten eine bestimmte Konsequenz hat, dann ändert sich seine Häufigkeit. Diese Konsequenzen können als **Verstärkung** die Häufigkeit erhöhen oder als **Bestrafung** sie senken.",
+            "annotations": [
+              {
+                "id": "04-explanation-3-def-7",
+                "text": "operante Kontingenz",
+                "kind": "definition",
+                "tooltip": "Die Abhängigkeit eines Verhaltens von seinen Konsequenzen in der Umwelt — das 'Wenn-dann'-Muster zwischen Handlung und Ergebnis.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-def-10",
+                "text": "Bestrafung",
+                "kind": "definition",
+                "tooltip": "Ein Vorgang, der die Wahrscheinlichkeit eines Verhaltens reduziert — entweder durch Hinzufügen von Unangenehmem oder Wegnahme von Angenehmem.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-src-16",
+                "text": "Domjan (2014) systematisierte die Grundlage der operanten Konditionierung: Verhalten wird durch seine Konsequenzen geformt, nicht durch vorangehende Reize",
+                "kind": "citation",
+                "tooltip": "Domjan & M. (2014)",
+                "tone": "red",
+                "sourceIds": [
+                  "04-source-1"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Positive und negative Verstärkung im Detail"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Bei der **positive Verstärkung** wird ein erwünschter Reiz hinzugefügt — das Klickern eines Trainers, wenn ein Hund sitzt. Bei der **negative Verstärkung** wird ein unangenehmer Reiz entfernt — der Alarm verstummt, wenn du den Gurt anlegst. Beide erhöhen die Verhaltenshäufigkeit, obwohl sie sich subjektiv völlig unterschiedlich anfühlen.",
+            "annotations": [
+              {
+                "id": "04-explanation-3-def-8",
+                "text": "positive Verstärkung",
+                "kind": "definition",
+                "tooltip": "Verstärkung durch Hinzufügen eines erwünschten Reizes nach dem Verhalten — wie Lob nach einer guten Leistung.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-def-9",
+                "text": "negative Verstärkung",
+                "kind": "definition",
+                "tooltip": "Verstärkung durch Entfernen eines unangenehmen Reizes nach dem Verhalten — wie das Aufhören eines Alarms, wenn du den Knopf drückst.",
+                "tone": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Verstärkerpläne: Wann wird verstärkt?"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Domjan (2014) systematisierte die vier Haupt**Verstärkerplan**typen und ihre unterschiedlichen Wirkungen auf Verhaltensrate und -stabilität. Im Verstärkerplan entscheidet das Schema, ob jede Reaktion (kontinuierlich) oder nur ein Teil (teilweise) verstärkt wird. Teilweise Verstärkung erzeugt widerstandsstärkeres Verhalten als kontinuierliche Verstärkung — ein Phänomen, das für Suchtverhalten und Glücksspiel relevant ist.",
+            "annotations": [
+              {
+                "id": "04-explanation-3-def-11",
+                "text": "Verstärkerplan",
+                "kind": "definition",
+                "tooltip": "Ein systematisches Schema, das festlegt, nach welcher Regel Verstärkung für ein Verhalten gegeben wird.",
+                "tone": "blue"
+              },
+              {
+                "id": "04-explanation-3-src-17",
+                "text": "Domjan (2014) systematisierte die vier Hauptverstärkerplantypen und ihre unterschiedlichen Wirkungen auf Verhaltensrate und -stabilität",
+                "kind": "citation",
+                "tooltip": "Domjan & M. (2014)",
+                "tone": "red",
+                "sourceIds": [
+                  "04-source-1"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Shaping: Schritt für Schritt zum Ziel"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Das **Shaping** nutzt sukzessive Approximation: Zunächst wird jede Annäherung an das Zielverhalten verstärkt, dann nur noch genauere Ausführungen. Ein Delphin lernt so, aus dem Wasser zu springen — nicht auf einen Schlag, sondern durch viele kleine Fortschritte. Diese Technik ist fundamental für Verhaltenstherapie und Tiertraining gleichermaßen.",
+            "annotations": [
+              {
+                "id": "04-explanation-3-def-12",
+                "text": "Shaping",
+                "kind": "definition",
+                "tooltip": "Das schrittweise Annähern an ein Zielverhalten durch Verstärkung immer näher kommender Zwischenschritte — wie das Training eines Hundes.",
+                "tone": "blue"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "04-visual-4",
+      "type": "visual",
+      "asset": {
+        "kind": "svg-component",
+        "assetId": "04-visual-1",
+        "description": "Zwei nebeneinander angeordnete Prozessdiagramme im Stil clean line-art (Stroke #1a1a1a, 2px Hauptlinien, ViewBox 0 0 400 300, Hintergrund #f8f6f1), getrennt durch eine vertikale Linie.\nLinks: Label \"Klassische Konditionierung\" oben.\nDarunter zwei abgerundete Rechtecke (rx=\"4\"): oben \"Unbedingter Reiz (Nahrung)\" mit Pfeil zu \"Unbedingte Reaktion (Speichel)\".\nDaneben ein weiterer Reiz \"Neutraler Reiz (Glocke)\".\nEin Pfeil vom neutralen Reiz zum unbedingten Reiz zeigt die zeitliche Paarung.\nDarunter ein Ergebnis-Pfeil: \"Gelernte Kopplung\" führt zu \"Bedingte Reaktion auf Glocke allein\".\nRechts: Label \"Operante Konditionierung\" oben.\nEin abgerundetes Rechteck \"Verhalten (Hund hebt Pfote)\" mit Pfeil zu zwei möglichen Konsequenzen:\noben \"Verstärkung (Leckerli)\" mit Pfeil zurück zum Verhalten (Pluszeichen),\nunten \"Bestrafung (Kein Leckerli)\" mit Pfeil zurück zum Verhalten (Minuszeichen).\nBeschriftungen in 12px deutscher Fachsprache.\nTitel-Element: \"Klassische und Operante Konditionierung im Vergleich\".\nDesc-Element: \"Diagramm zeigt den Lernprozess bei klassischer Konditionierung durch Reizpaarung und bei operanter Konditionierung durch Verhaltenskonsequenzen.\"",
+        "alt": "Das SVG zeigt den entscheidenden Unterschied: Klassische Konditionierung koppelt zwei Reize miteinander, operante Konditionierung formt Verhalten durch seine Konsequenzen."
+      },
+      "caption": "Das SVG zeigt den entscheidenden Unterschied: Klassische Konditionierung koppelt zwei Reize miteinander, operante Konditionierung formt Verhalten durch seine Konsequenzen."
+    },
+    {
+      "id": "04-deep_dive-5",
+      "type": "deep_dive",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Rescorlas kognitive Wendung"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Rescorla (1988) revolutionierte das Verständnis der klassischen Konditionierung, indem er zeigte, dass der Organismus nicht einfach Reize assoziiert, sondern die vorhersagbare Struktur der Umwelt lernt. Kontingenz, nicht bloße Kontiguität, ist die entscheidende Variable.",
+            "annotations": [
+              {
+                "id": "04-deep_dive-5-src-1",
+                "text": "Rescorla (1988) revolutionierte das Verständnis der klassischen Konditionierung, indem er zeigte, dass der Organismus nicht einfach Reize assoziiert, sondern die vorhersagbare Struktur der Umwelt lernt",
+                "kind": "citation",
+                "tooltip": "Rescorla & R. A. (1988)",
+                "tone": "red",
+                "sourceIds": [
+                  "04-source-2"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Die Resistenz teilweiser Verstärkung"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Teilweise Verstärkung erzeugt widerstandsstärkeres Verhalten als kontinuierliche Verstärkung — ein Phänomen, das für Suchtverhalten und Glücksspiel zentral ist. Domjan (2014) wies nach, dass dieses Paradoxon entsteht, weil der Organismus bei intermittierender Belohnung nie vollständig lernt, dass die Kontingenz aufgehoben wurde.",
+            "annotations": [
+              {
+                "id": "04-deep_dive-5-src-2",
+                "text": "Domjan (2014) wies nach, dass dieses Paradoxon entsteht, weil der Organismus bei intermittierender Belohnung nie vollständig lernt, dass die Kontingenz aufgehoben wurde",
+                "kind": "citation",
+                "tooltip": "Domjan & M. (2014)",
+                "tone": "red",
+                "sourceIds": [
+                  "04-source-1"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Extinktion als Kontext-abhängiges Lernen"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Bouton (2007) demonstrierte, dass ausgelöschte Reaktionen in neuen Kontexten spontan wiederkehren können. Die Extinktion ist kein stabiler Zustand, sondern ein kontextsensitives Gegengewicht zur ursprünglichen Assoziation. Dies hat fundamentale Implikationen für die Verhaltenstherapie bei Ängsten und Sucht.",
+            "annotations": [
+              {
+                "id": "04-deep_dive-5-src-3",
+                "text": "Bouton (2007) demonstrierte, dass ausgelöschte Reaktionen in neuen Kontexten spontan wiederkehren können",
+                "kind": "citation",
+                "tooltip": "Bouton & M. E. (2007)",
+                "tone": "red",
+                "sourceIds": [
+                  "04-source-4"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "04-example-6",
+      "type": "example",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Du steigst morgens in den Bus und spürst sofort Übelkeit, weil du vor drei Wochen dort eine Magen-Darm-Grippe ausgebildet hast. Der Bus ist zum bedingten Reiz geworden — klassische Konditionierung. Gleichzeitig prüfst du reflexartig dein Handy, weil du dort oft Nachrichten erhältst: Diese Gewohnheit wurde durch jahrzehntelange variable Verstärkung operant konditioniert.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "04-summary-7",
+      "type": "summary",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Klassische Konditionierung verbindet zwei Reize miteinander: Ein neutraler Reiz wird zum bedingten Reiz durch Paarung mit einem unbedingten Reiz. • Operante Konditionierung formt Verhalten durch seine Konsequenzen: Verstärkung erhöht, Bestrafung reduziert die Verhaltenshäufigkeit. • Extinktion ist kein Löschen, sondern neues Lernen — Spontanerholung und Kontexteffekte zeigen die bleibende Präsenz ursprünglicher Assoziationen.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "04-source-1",
+      "kind": "secondary",
+      "shortCitation": "Domjan & M. (2014)",
+      "apaCitation": "Domjan, M. (2014). The principles of learning and behavior (7. Aufl.). Cengage Learning.",
+      "tooltip": "Ein umfassendes Lehrbuch zur Lernpsychologie, das klassische und operante Konditionierung systematisch darstellt und die empirische Grundlage beider Paradigmen resümiert.",
+      "verification": {
+        "status": "legacy-imported",
+        "checkedAgainst": [
+          "legacy-source-list"
+        ]
+      }
+    },
+    {
+      "id": "04-source-2",
+      "kind": "review",
+      "shortCitation": "Rescorla & R. A. (1988)",
+      "apaCitation": "Rescorla, R. A. (1988). Pavlovian conditioning: It's not what you think it is. American Psychologist, 43(3), 151–160. https://doi.org/10.1037/0003-066X.43.3.151",
+      "tooltip": "Ein einflussreicher Überblicksartikel, der klassische Konditionierung als Lernen über Reizkontingenz neu interpretiert und über den Reflex-Lernansatz hinausführt.",
+      "url": "https://doi.org/10.1037/0003-066X.43.3.151",
+      "doi": "10.1037/0003-066X.43.3.151",
+      "verification": {
+        "status": "legacy-imported",
+        "checkedAgainst": [
+          "legacy-source-list"
+        ]
+      }
+    },
+    {
+      "id": "04-source-3",
+      "kind": "secondary",
+      "shortCitation": "Lutz & J. (2007)",
+      "apaCitation": "Lutz, J. (2007). Einführung in die Lernpsychologie: Klassische Konditionierung (3. Aufl.). Kohlhammer.",
+      "tooltip": "Eine deutschsprachige Einführung in die klassische Konditionierung, die Pawlows Versuche und ihre theoretischen Implikationen für das Lernverständnis erläutert.",
+      "verification": {
+        "status": "legacy-imported",
+        "checkedAgainst": [
+          "legacy-source-list"
+        ]
+      }
+    },
+    {
+      "id": "04-source-4",
+      "kind": "review",
+      "shortCitation": "Bouton & M. E. (2007)",
+      "apaCitation": "Bouton, M. E. (2007). Learning and behavior: A contemporary synthesis. Sinauer Associates.",
+      "tooltip": "Ein integrativer Überblicksband, der Extinktion als kontextabhängiges Lernen konzeptualisiert und die therapeutischen Konsequenzen für Verhaltenstherapien diskutiert.",
+      "verification": {
+        "status": "legacy-imported",
+        "checkedAgainst": [
+          "legacy-source-list"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "04-resource-1",
+      "category": "Forschung",
+      "title": "Pavlovian conditioning: It's not what you think it is",
+      "relevance": "Rescorlas klassischer Artikel reformuliert klassische Konditionierung als kognitives Lernen über vorhersagbare Strukturen — Pflichtlektüre für das Verständnis moderner Konditionierungstheorien.",
+      "url": "https://doi.org/10.1037/0003-066X.43.3.151"
+    },
+    {
+      "id": "04-resource-2",
+      "category": "Buch",
+      "title": "The principles of learning and behavior",
+      "relevance": "Domjans Standardwerk deckt systematisch beide Konditionierungsformen ab und bietet eine fundierte empirische Grundlage für das Bachelor-Studium.",
+      "url": "https://www.cengage.com"
+    }
+  ]
+}

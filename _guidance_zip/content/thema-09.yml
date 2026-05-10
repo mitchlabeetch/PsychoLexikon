@@ -1,0 +1,136 @@
+subject_meta:
+  title: "Experimentelle Versuchsplanung: Interne und Externe Validität"
+  discipline: "Methodenlehre"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#ffe6a7"
+  tab_number: 9
+
+content_blocks:
+  - type: "lead"
+    text: "Wenn eine Firma behauptet, ihr neues Lern-App wirke besser als Bücher — wie weißt du, dass nicht einfach nur motiviertere Schüler die App gewählt haben? Gute Versuchsplanung schützt vor genau diesem Irrtum. Sie unterscheidet echte Ursachen von Zufall und Schein."
+
+  - type: "definition"
+    text: "Die **interne Validität** sichert, dass eine beobachtete Wirkung tatsächlich von der vermuteten Ursache herrührt. Die **externe Validität** prüft, ob dieses Ergebnis über das Labor hinaus gilt. Beide Dimensionen bestimmen, ob ein Experiment Erkenntnis oder Illusion produziert."
+    highlight_blue:
+      - "interne Validität"
+      - "externe Validität"
+    tooltips:
+      interne Validität: "Der Grad der Sicherheit, mit dem eine Veränderung der abhängigen Variablen tatsächlich auf die unabhängige Variable zurückzuführen ist — nicht auf Nebeneffekte wie Zeit oder Selbstselektion."
+      externe Validität: "Der Grad, in dem Ergebnisse eines Experiments auf andere Personen, Situationen oder Zeitpunkte übertragbar sind — die Generalisierbarkeit des Befunds."
+
+  - type: "explanation"
+    text: |
+      ### Die zwei Seiten der Validitätsmedaille
+
+      Jedes Experiment steht vor einem Dilemma: Je strenger du die Bedingungen kontrollierst, desto sicherer wird die innere Kausalität — aber desto künstlicher wirkt die Situation. **Campbell und Stanley (1963)** formulierten diesen Spannungsbogen als systematischen Katalog von Validitätsbedrohungen. Sie unterschieden dabei Störquellen, die die innere Ursache-Wirkungsschätzung trüben, von jenen, die die Übertragbarkeit auf die Realwelt einschränken.
+
+      ### Störvariablen, die interne Validität angreifen
+
+      Die **Störvariable** ist der heimliche Feind jeder Kausalschätzung. Sie verfälscht das Ergebnis, weil sie mit der unabhängigen Variablen verknüpft ist. Campbell und Stanley nannten vier klassische Bedrohungen: **History** (ein Ereignis tritt während des Experiments auf und wirkt auf alle oder eine Gruppe), **Maturation** (die Versuchspersonen verändern sich einfach durch Zeitablauf), **Selection** (die Gruppen unterschieden sich schon vor dem Experiment) und **Mortality** (ein systematischer Ausfall von Probanden verzerrt die Stichprobe).
+
+      ### Randomisierung als Schlüssel zur internen Validität
+
+      Die **Randomisierung** verteilt alle bekannten und unbekannten Störvariablen zufällig über die Bedingungen. Sie ist das stärkste Instrument, um Selection und andere Bedrohungen zu neutralisieren. **West und Thoemmes (2010)** zeigten, dass randomisierte Designs kausale Schlüsse am robustesten absichern, weil sie die Gruppen im Erwartungswert gleichsetzen.
+
+      Die **Kontrollgruppe** ergänzt dies: Sie erhält keine Behandlung und dient als Maßstab für den natürlichen Verlauf. Ohne sie weiß man nicht, was „ohnehin“ passiert wäre.
+
+      ### Placebo und Doppelblind — Schutz vor Erwartungseffekten
+
+      Selbst bei Randomisierung bleibt eine Bedrohung: Die Erwartung der Versuchspersonen oder des Experimentators kann das Ergebnis verfälschen. Die **Placebo**-Kontrolle gibt einer Kontrollgruppe eine scheinbare Behandlung, um Erwartungseffekte auszugleichen. Das **Doppelblind**-Verfahren geht weiter: Weder Proband noch Versuchsleiter wissen, wer welche Bedingung erhält.
+
+      So wird verhindert, dass subtile Verhaltensänderungen — freundlichere Rückfragen, unbewusste Bewertungstendenzen — die Messung trüben.
+
+      ### Externe Validität: Gilt das Ergebnis auch draußen?
+
+      Ein perfekt intern valides Experiment nützt wenig, wenn es nur für 19-jährige Psychologie-Studierende um 10 Uhr vormittags im weißen Labor gilt. **Shadish et al. (1991)** betonten, dass interne und externe Validität sich gegenseitig ausschließen können: Je künstlicher die Kontrolle, desto geringer die Übertragbarkeit.
+
+      Die **ökologische Validität** fragt, ob die Untersuchungssituation die Alltagswelt abbildet. Die **Kriteriumsvalidität** prüft, ob das Messinstrument wirklich das misst, was es beansprucht — abgeglichen mit einem externen Kriterium wie Berufserfolg oder Therapieverlauf.
+    highlight_blue:
+      - "Störvariable"
+      - "History"
+      - "Maturation"
+      - "Selection"
+      - "Mortality"
+      - "Randomisierung"
+      - "Kontrollgruppe"
+      - "Placebo"
+      - "Doppelblind"
+      - "ökologische Validität"
+      - "Kriteriumsvalidität"
+    tooltips:
+      Störvariable: "Ein Einflussfaktor, der das Ergebnis verfälschen kann, weil er systematisch mit der unabhängigen Variablen verknüpft ist und so eine Scheinursache suggeriert."
+      History: "Externes Ereignis während der Studie, das das Ergebnis beeinflusst — zum Beispiel eine Nachrichtenmeldung, die alle Versuchspersonen erreicht."
+      Maturation: "Natürliche Veränderung der Versuchspersonen über Zeit — etwa Lernzuwachs, Müdigkeit oder Entwicklungsprozesse, die unabhängig von der Behandlung wirken."
+      Selection: "Systematische Unterschiede zwischen den Gruppen bereits vor der Behandlung — zum Beispiel wenn sich Motivierte freiwillig für die Therapiegruppe melden."
+      Mortality: "Ein systematischer Ausfall von Probanden während der Studie, der die verbleibende Stichprobe verzerrt — etwa wenn Frustrierte die Kontrollgruppe verlassen."
+      Randomisierung: "Die zufällige Zuordnung von Versuchspersonen zu Bedingungen, um Störvariablen gleichmäßig zu verteilen und systematische Gruppenunterschiede auszuschließen."
+      Kontrollgruppe: "Eine Vergleichsgruppe, die keine Behandlung erhält und als Maßstab dient — ohne sie weiß man nicht, was 'ohnehin' passiert wäre."
+      Placebo: "Eine Scheinbehandlung, die aussehen und fühlen soll wie die echte — um zu prüfen, ob ein Effekt wirklich von der Substanz oder nur von der Erwartung herrührt."
+      Doppelblind: "Ein Verfahren, bei dem weder Versuchsperson noch Experimentator wissen, wer welche Bedingung erhält — verhindert Erwartungseffekte auf beiden Seiten."
+      ökologische Validität: "Die Frage, ob ein Experiment die Alltagswelt so abbildet, dass die Ergebnisse dort auch gelten — ohne Laborartefakte."
+      Kriteriumsvalidität: "Der Grad, in dem ein Messinstrument tatsächlich das gemessen hat, was es messen soll — abgeglichen mit einem externen Kriterium wie Berufserfolg oder Therapieverlauf."
+    highlight_red:
+      - "Campbell und Stanley (1963) formulierten diesen Spannungsbogen als systematischen Katalog von Validitätsbedrohungen"
+      - "West und Thoemmes (2010) zeigten, dass randomisierte Designs kausale Schlüsse am robustesten absichern"
+      - "Shadish et al. (1991) betonten, dass interne und externe Validität sich gegenseitig ausschließen können"
+    sources_inline:
+      Campbell und Stanley (1963) formulierten diesen Spannungsbogen als systematischen Katalog von Validitätsbedrohungen: "Campbell, D. T., & Stanley, J. C. (1963). Experimental and quasi-experimental designs for research. Rand McNally."
+      West und Thoemmes (2010) zeigten, dass randomisierte Designs kausale Schlüsse am robustesten absichern: "West, S. G., & Thoemmes, F. J. (2010). Campbell's and Rubin's perspectives on causal inference. Psychological Methods, 15(1), 18–37. https://doi.org/10.1037/a0015917"
+      Shadish et al. (1991) betonten, dass interne und externe Validität sich gegenseitig ausschließen können: "Shadish, W. R., Cook, T. D., & Leviton, L. C. (1991). Foundations of program evaluation: Theories of practice. Sage."
+
+  - type: "visual"
+    svg_description: "Clean line-art SVG, ViewBox 0 0 400 300, stroke #1a1a1a 2px. Zentrales Flussdiagramm: Links eine Raute 'Ursache (UV)', rechts eine Raute 'Wirkung (AV)'. Dazwischen ein breiter Pfeil. Unter dem Pfeil vier kleine 'Leck'-Symbole (gewellte Linien nach unten) mit Beschriftungen: 'History', 'Maturation', 'Selection', 'Mortality'. Oben zwei horizontale Balken als Schutzschild über dem Pfeil, beschriftet 'Randomisierung' und 'Kontrollgruppe'. Rechts außerhalb des Hauptpfeils ein gestrichelter Bogen zurück zur Ursache mit Label 'Bedingungskonfounding'. Unten zwei Skalen: 'Interne Validität' (Schild dick) und 'Externe Validität' (Schild dünn) — symbolisiert den Validitäts-Trade-off."
+    caption: "Die Grafik zeigt, wie Störvariablen wie Lecks in einen Ursache-Wirkung-Schlauch zerstören — und wie Randomisierung sowie Kontrollgruppe als Schutzschilde wirken."
+
+  - type: "deep_dive"
+    text: |
+      ### Der Validitäts-Trade-off als Planungsproblem
+
+      Campbell und Stanley (1963) lieferten nicht nur eine Taxonomie, sondern auch eine Hierarchie: Ohne interne Validität ist externe Validität wertlos, denn man generalisiert dann nur Scheinursachen. Gleichzeitig warnen **Shadish et al. (1991)** davor, interne Validität als alleinigen Goldstandard zu betrachten — eine randomisierte Studie in klinisch irrelevanten Bedingungen bleibt methodisch makellos und praktisch nutzlos.
+
+      ### Konfounding versus Messfehler
+
+      Ein weiterer Unterschied ist entscheidend: Die **Bedingungskonfounding** entsteht, wenn die unabhängige Variable mit einer Störvariable vermischt ist — etwa wenn Therapie A immer von einem sympathischeren Therapeuten gegeben wird, was ein Planungsfehler ist.
+
+      Messfehler hingegen betrifft die abhängige Variable und lässt sich durch Reliabilität quantifizieren. Beide Probleme schwächen Validität, aber sie erfordern unterschiedliche Gegenmaßnahmen.
+    highlight_blue:
+      - "Bedingungskonfounding"
+    tooltips:
+      Bedingungskonfounding: "Wenn eine Störvariable systematisch mit der experimentellen Bedingung verknüpft ist — zum Beispiel ein charismatischer Therapeut, der nur die neue Methode anwendet."
+    highlight_red:
+      - "Shadish et al. (1991) warnen davor, interne Validität als alleinigen Goldstandard zu betrachten"
+    sources_inline:
+      Shadish et al. (1991) warnen davor, interne Validität als alleinigen Goldstandard zu betrachten: "Shadish, W. R., Cook, T. D., & Leviton, L. C. (1991). Foundations of program evaluation: Theories of practice. Sage."
+
+  - type: "example"
+    text: "Du testest ein neues Schlafgetränk an 20 Freunden — alle schlafen besser. Doch die Freunde wussten, dass sie etwas Neues tranken (Placebo), testeten am Wochenende (History) und zwei Schlafgestörte sind ausgestiegen (Mortality). Ohne Kontrollgruppe, Doppelblind und Randomisierung bleibt dein 'Erfolg' eine Anekdote."
+
+  - type: "summary"
+    text: |
+      • Interne Validität sichert die Ursache-Wirkung-Schätzung; externe Validität sichert die Übertragbarkeit auf die Alltagswelt.
+      • Randomisierung, Kontrollgruppe und Doppelblind sind die drei Säulen, die klassische Validitätsbedrohungen (History, Maturation, Selection, Mortality) abwehren.
+      • Interne und externe Validität können im Konflikt stehen: perfekte Kontrolle erkauft man sich oft mit künstlichen Bedingungen.
+
+sources:
+  - apa_citation: "Campbell, D. T., & Stanley, J. C. (1963). Experimental and quasi-experimental designs for research. Rand McNally."
+    type: "primary"
+    tooltip_text: "Das Standardwerk zur Taxonomie von Validitätsbedrohungen in experimentellen und quasi-experimentellen Designs."
+  - apa_citation: "Shadish, W. R., Cook, T. D., & Leviton, L. C. (1991). Foundations of program evaluation: Theories of practice. Sage."
+    type: "review"
+    tooltip_text: "Meta-theoretische Betrachtung des Spannungsfelds zwischen interner und externer Validität in der Evaluationsforschung."
+  - apa_citation: "Bortz, J., & Döring, N. (2016). Forschungsmethoden und Evaluation für Human- und Sozialwissenschaftler (5. Aufl.). Springer. https://doi.org/10.1007/978-3-662-46259-8"
+    type: "secondary"
+    tooltip_text: "Deutschsprachiges Standardlehrbuch zu Versuchsplanung, Störvariablen und Gütekriterien empirischer Forschung."
+  - apa_citation: "West, S. G., & Thoemmes, F. J. (2010). Campbell's and Rubin's perspectives on causal inference. Psychological Methods, 15(1), 18–37. https://doi.org/10.1037/a0015917"
+    type: "primary"
+    tooltip_text: "Vergleichende Analyse von Campbells und Rubins Ansätzen zur kausalen Inferenz in randomisierten und nicht-randomisierten Designs."
+
+further_exploration:
+  - category: "Buch"
+    title: "Forschungsmethoden und Evaluation für Human- und Sozialwissenschaftler"
+    relevance: "Das deutschsprachige Standardlehrbuch für methodische Grundlagen und Versuchsplanung mit zahlreichen Praxisbeispielen."
+    url: "https://doi.org/10.1007/978-3-662-46259-8"
+  - category: "Forschung"
+    title: "Experimental and quasi-experimental designs for research"
+    relevance: "Der methodologische Klassiker, der die Taxonomie der Validitätsbedrohungen und experimenteller Design-Typen begründete."
+    url: "https://psycnet.apa.org/record/1966-09917-000"

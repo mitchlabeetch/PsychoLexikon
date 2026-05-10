@@ -1,101 +1,55 @@
-# PsychoLexicon — Psychologie-Lernplattform
+# PsychoLexicon — Aktueller Projektstand
 
-Ein interaktives, wissenschaftlich fundiertes Lernportal für das erste Psychologie-Studienjahr.
+Diese Datei beschreibt den aktuellen, produktiven Stand der Repository-Architektur.
 
-## Projektübersicht
+## Kanonische Laufzeit
 
-**PsychoLexicon** (ehemals PsychoLexikon/PSYCHLERN) präsentiert 12 Kernthemen des Bachelor-Studiums Psychologie in einem ADHS-freundlichen, notebook-inspirierten Design.
+- Aktive Web-App: `app/`
+- Aktive Artikeldaten: `app/src/content/articles/*.json`
+- Aktive Schema-Definition: `app/src/content/schema.ts`
+- Aktive Routing- und Rendering-Pipeline: `app/src/pages/SubjectPage.tsx` plus `app/src/components/content/ArticleRenderer.tsx`
 
-## Design-Philosophie
+## Legacy- und Migrationsstatus
 
-### Notebook-Ästhetik
-- **Kontinuierliche Ringbuchlöcher**: Dynamisch generiert alle 220px entlang der gesamten Seitenlänge
-- **Kategorische Navigation**: Sticky Tabs auf der rechten Seite verlinken zu Themenkategorien
-- **Papier-Textur**: Warme Cream-Töne und subtile Verläufe
+- `content/thema-*.yml` bleibt als Legacy-Eingabe fuer die Migration erhalten.
+- `app/src/data/subjects.ts` ist ein Altbestand und nicht mehr die produktive Quelle fuer neue Features.
+- `app_archive/`, `app_new/`, `project/` und `project2/` sind veraltete oder duplizierte App-Staende.
 
-### ADHS-freundliche Didaktik
-- Chunking: Inhalte in überschaubare, visuell klar abgegrenzte Einheiten
-- Dual Coding: Jedes konzeptuelle Element mit visuellem Schema/Illustration
-- Progressive Disclosure: Vom Konkreten zum Abstrakten
-- Interaktive Tooltips für Definitionen (blau) und Quellen (rot)
+## Aktuelle Content-Architektur
 
-### Wissenschaftliche Akkuratheit
-- Alle Inhalte basieren auf Metaanalysen, seminale Werke und hochzitierter Literatur
-- APA-7 Zitierweise durchgängig
-- Unterscheidung zwischen etabliertem Wissen, kontroversen Positionen und aktuellen Revisionen
-- Methodische Kontextualisierung: Woher wissen wir das?
+Die produktive Content-Pipeline ist jetzt JSON-basiert und validiert:
 
-## Technische Architektur
+1. Legacy-YAML wird mit `app/scripts/migrate-legacy-content.ts` eingelesen.
+2. Die Migration ueberfuehrt die Artikel in ein einheitliches JSON-Schema.
+3. `app/scripts/validate-content.test.ts` prueft Schema, Taxonomie, Quellenreferenzen und CRM-Metadaten.
+4. `app/src/content/api.ts` laedt die JSON-Dateien, validiert sie erneut und cached sie auf Modulebene.
+5. `ArticleRenderer` rendert alle Artikel generisch ueber strukturierte Sections, Paragraphen und Annotationen.
 
-### Frontend-Stack
-- React 19.2 + TypeScript
-- Vite 7.3 als Build-Tool
-- Tailwind CSS 3.4 für Styling
-- Framer Motion für Animationen
-- React Router 7 für Navigation
+## Inhaltliche Standardisierung
 
-### Content-Management
-- YAML-basierte Content-Dateien (content/thema-01.yml bis thema-12.yml)
-- Strukturierte Datenmodelle für konsistente Darstellung
-- Inline-SVG-Illustrationen für wissenschaftliche Diagramme
+Das neue Schema deckt folgende Anforderungen ab:
 
-### Design-System
-- **Farben**: Warm-Cream-Hintergrund (#FAF7F0), Schwarz für Text (#1A1A1A)
-- **Typografie**:
-  - Display: Bodoni Moda (Überschriften, wissenschaftlicher Charakter)
-  - Body: DM Sans (Lesetext, optimale Lesbarkeit)
-- **Kategoriefarben**:
-  - Bio/Neuro: #98d4bb (Mint)
-  - Gedächtnis: #c7b8ea (Lavendel)
-  - Lernen/Entw.: #f4b8c5 (Rosa)
-  - Persönlichkeit: #a8d8ea (Hellblau)
-  - Methoden: #ffe6a7 (Gelb)
-  - Motivation: #d4a8a8 (Mauve)
+- hierarchische Kategorien mit stabilen IDs und Metadaten
+- strukturierte Erklaerungs- und Zusammenfassungsbloecke
+- verifizierbare Quellen mit APA-Zitation, Short Citation und Verifikationsstatus
+- Inline-Definitionen und Quellenmarkierungen
+- benutzerdefinierte Highlights mit Laufzeit-Styling
+- CRM-Metadaten und Cache-Tags pro Artikel
 
-## 12 Kernthemen
+## CRM- und Backend-Hinweis
 
-1. **Aktionspotential & Synaptische Transmission** — Biologische Psychologie
-2. **Gestaltgesetze & Prägnanzprinzip** — Wahrnehmungspsychologie
-3. **Arbeitsgedächtnis nach Baddeley** — Gedächtnis & Kognition
-4. **Klassische & Operante Konditionierung** — Lernpsychologie
-5. **Berliner Intelligenzstrukturmodell (BIS)** — Differentielle Psychologie
-6. **Kognitive Entwicklung nach Piaget** — Entwicklungspsychologie
-7. **Attributionstheorie** — Sozialpsychologie
-8. **Fünf-Faktoren-Modell (Big Five)** — Persönlichkeitspsychologie
-9. **Experimentelle Versuchsplanung** — Methodenlehre
-10. **Signifikanztestung & p-Werte** — Statistik
-11. **Psychometrische Gütekriterien** — Diagnostik
-12. **Theorien der Motivation & Emotion** — Motivationspsychologie
+Es gibt aktuell kein produktives Backend und keine aktive CRM-Integration im Repository. Stattdessen existiert in `app/src/content/api.ts` eine stabile Integrationsgrenze:
 
-## Entwicklung
+- CRM-Payload-Serialisierung fuer Artikel
+- optionale API-Synchronisation ueber `VITE_CONTENT_CRM_ENDPOINT`
+- statischer Fallback fuer GitHub-Pages-Deployments
+
+## Verifikation
+
+Die Produktions-Build-Pipeline fuehrt die Content-Validierung vor dem Vite-Build aus:
 
 ```bash
-# Installation
-npm install
-
-# Entwicklungsserver
-npm run dev
-
-# Linting
-npm run lint
-
-# Build für Production
+cd app
+npm run content:validate
 npm run build
-
-# Preview des Builds
-npm run preview
 ```
-
-## Quellen & Referenzen
-
-Alle Inhalte sind mit akademischen Quellen belegt:
-- Metaanalysen und Reviews aus Top-Journals
-- Seminale Originalarbeiten (z.B. Hodgkin & Huxley, 1952; Baddeley & Hitch, 1974)
-- Aktuelle Lehrbücher (z.B. Bear et al., Neurowissenschaften; Bortz & Döring, Forschungsmethoden)
-- Deutsche und englische Fachliteratur
-
-DOI-Links werden wo verfügbar bereitgestellt.
-
-## Lizenz
-
-Dieses Projekt wurde für Bildungszwecke erstellt.

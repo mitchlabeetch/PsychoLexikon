@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { HOME_PATH } from '@/routing/routes'
 
 interface NotFoundPageProps {
   title?: string
@@ -17,7 +18,7 @@ export default function NotFoundPage({
       <h1 className="mb-3 font-display text-[2.5rem] font-bold text-text-primary">{title}</h1>
       <p className="mb-8 font-body text-[1rem] leading-relaxed text-text-secondary">{description}</p>
       <Link
-        to="/"
+        to={HOME_PATH}
         className="rounded-full bg-[#1a1a1a] px-5 py-3 font-body text-sm font-medium text-white transition-colors hover:bg-[#2d2d2d]"
       >
         Zur Startseite

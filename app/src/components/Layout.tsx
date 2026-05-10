@@ -1,5 +1,8 @@
 import type { ReactNode } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
+import { getArticleById, getArticleCategory } from '@/content/api'
+import { buildCategoryPath } from '@/routing/routes'
+import { getCategoryBySlug, listCategories } from '@/content/taxonomy'
 import NotebookPage from './NotebookPage'
 
 interface LayoutProps {
@@ -8,27 +11,31 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const { pathname } = useLocation()
-  const categories = [
-    { label: 'Bio / Neuro', color: '#98d4bb', subjects: ['01', '02'] },
-    { label: 'Gedächtnis', color: '#c7b8ea', subjects: ['03'] },
-    { label: 'Lernen / Entw.', color: '#f4b8c5', subjects: ['04', '06'] },
-    { label: 'Persönlichkeit', color: '#a8d8ea', subjects: ['05', '07', '08'] },
-    { label: 'Methoden', color: '#ffe6a7', subjects: ['09', '10', '11'] },
-    { label: 'Motivation', color: '#d4a8a8', subjects: ['12'] },
-  ]
-  const activeCategory = categories.find((category) =>
-    category.subjects.some((subjectId) => pathname === `/thema/${subjectId}`),
-  )?.label
+  const categories = listCategories()
+  const activeCategoryId = (() => {
+    const categoryMatch = pathname.match(/^\/kategorie\/([^/]+)$/)
+    if (categoryMatch) {
+      return getCategoryBySlug(categoryMatch[1])?.id
+    }
+
+    const articleMatch = pathname.match(/^\/thema\/([^/]+)$/)
+    if (articleMatch) {
+      const article = getArticleById(articleMatch[1])
+      return article ? getArticleCategory(article)?.id : undefined
+    }
+
+    return undefined
+  })()
 
   const renderTab = (tab: (typeof categories)[number]) => (
     <NavLink
-      key={tab.label}
-      to={`/thema/${tab.subjects[0]}`}
+      key={tab.id}
+      to={buildCategoryPath(tab.slug)}
       className={({ isActive }) =>
         [
           'font-body font-medium text-[#1a1a1a] transition-all duration-300 hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a1a1a]/20',
           'rounded-r-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:translate-x-1 tab-vertical',
-          isActive || activeCategory === tab.label ? 'translate-x-1 shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
+          isActive || activeCategoryId === tab.id ? 'translate-x-1 shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
         ].join(' ')
       }
       style={{

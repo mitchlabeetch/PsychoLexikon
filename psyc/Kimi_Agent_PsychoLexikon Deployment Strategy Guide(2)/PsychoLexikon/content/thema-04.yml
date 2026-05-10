@@ -1,0 +1,136 @@
+subject_meta:
+  title: "Klassische und Operante Konditionierung"
+  discipline: "Lernpsychologie / Verhaltensanalyse"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#f4b8c5"
+  tab_number: 4
+
+content_blocks:
+  - type: "lead"
+    text: "Warum läuft dein Hund zur Küche, wenn du die Dose öffnest? Warum prüfst du reflexartig dein Handy, obwohl keine Benachrichtigung kam? Diese automatischen Reaktionen sind das Produkt zweier fundamentaler Lernmechanismen, die unser Verhalten formen, bevor wir überhaupt bewusst entscheiden."
+
+  - type: "definition"
+    text: "Konditionierung beschreibt Lernprozesse, bei denen ein Organismus durch wiederholte Erfahrung neue Reiz-Reaktions-Verknüpfungen erwirbt. Klassische Konditionierung koppelt Reize aneinander; operante Konditionierung formt Verhalten durch seine Konsequenzen."
+    highlight_blue: ["Konditionierung", "Reiz-Reaktions-Koppelung"]
+    tooltips:
+      Konditionierung: "Ein Lernprozess, bei dem ein ursprünglich neutraler Reiz durch wiederholte Kopplung mit einem bedeutsamen Reiz eine Reaktion auslöst oder Verhalten durch Konsequenzen geformt wird."
+      Reiz-Reaktions-Koppelung: "Die Verbindung zwischen einem bestimmten Reiz und der darauf folgenden Reaktion, die durch Übung festgelegt wird."
+
+  - type: "explanation"
+    text: |-
+      **Klassische Konditionierung: Das Lernen von Signalen**
+
+      Pawlow entdeckte, dass ein neutraler Reiz nach wiederholter Paarung mit Nahrung allein die Speichelsekretion auslösen kann. Diese **Reiz-Reaktions-Koppelung** bildet den Kern der klassischen **Konditionierung**: Ein **unbedingter Reiz** (Nahrung) erzeugt eine ungelernte Reaktion (Speichel), und ein **bedingter Reiz** (Glocke) erlernt diese Reaktion durch Assoziation. Lutz (2007) beschreibt dies als das fundamentale Prinzip der Signalbildung im Verhalten.
+
+      Rescorla (1988) argumentierte, dass klassische Konditionierung primär ein Lernen über vorhersagbare Beziehungen zwischen Reizen ist, nicht bloß ein Reflex-Lernen. Der Organismus lernt, welche Reize andere ankündigen — ein kognitiver Prozess, der weit über mechanische Paarung hinausgeht.
+
+      **Extinktion und die Unberechenbarkeit des Vergessens**
+
+      Die **Extinktion** tritt ein, wenn der bedingte Reiz wiederholt ohne den unbedingten Reiz erscheint — die Glocke läutet, aber es gibt keine Nahrung. Die Reaktion lässt allmählich nach, doch die **Spontanerholung** zeigt: Das ursprüngliche Lernen ist nicht gelöscht, sondern lediglich überlagert. Bouton (2007) wies nach, dass Extinktion kein Löschen, sondern neues Lernen ist — die ursprüngliche Assoziation bleibt erhalten.
+
+      **Generalisierung und Diskrimination im Alltag**
+
+      Die **Generalisierung** führt dazu, dass ähnliche Reize die gleiche Reaktion auslösen — alle Elektro-Glocken klingen gleich bedrohlich. Die **Diskrimination** lernt der Organismus durch Differenzierung: Nur die ursprüngliche Glocke, nicht die andere, kündigt Nahrung an. Beide Prozesse sind essenziell für flexibles Überleben in komplexen Umgebungen.
+
+      **Operante Konditionierung: Verhalten formt die Welt**
+
+      Domjan (2014) systematisierte die Grundlage der operanten Konditionierung: Verhalten wird durch seine Konsequenzen geformt, nicht durch vorangehende Reize. Die **operante Kontingenz** beschreibt dieses Wenn-dann-Muster: Wenn ein Verhalten eine bestimmte Konsequenz hat, dann ändert sich seine Häufigkeit. Diese Konsequenzen können als **Verstärkung** die Häufigkeit erhöhen oder als **Bestrafung** sie senken.
+
+      **Positive und negative Verstärkung im Detail**
+
+      Bei der **positive Verstärkung** wird ein erwünschter Reiz hinzugefügt — das Klickern eines Trainers, wenn ein Hund sitzt. Bei der **negative Verstärkung** wird ein unangenehmer Reiz entfernt — der Alarm verstummt, wenn du den Gurt anlegst. Beide erhöhen die Verhaltenshäufigkeit, obwohl sie sich subjektiv völlig unterschiedlich anfühlen.
+
+      **Verstärkerpläne: Wann wird verstärkt?**
+
+      Domjan (2014) systematisierte die vier Haupt**Verstärkerplan**typen und ihre unterschiedlichen Wirkungen auf Verhaltensrate und -stabilität. Im Verstärkerplan entscheidet das Schema, ob jede Reaktion (kontinuierlich) oder nur ein Teil (teilweise) verstärkt wird. Teilweise Verstärkung erzeugt widerstandsstärkeres Verhalten als kontinuierliche Verstärkung — ein Phänomen, das für Suchtverhalten und Glücksspiel relevant ist.
+
+      **Shaping: Schritt für Schritt zum Ziel**
+
+      Das **Shaping** nutzt sukzessive Approximation: Zunächst wird jede Annäherung an das Zielverhalten verstärkt, dann nur noch genauere Ausführungen. Ein Delphin lernt so, aus dem Wasser zu springen — nicht auf einen Schlag, sondern durch viele kleine Fortschritte. Diese Technik ist fundamental für Verhaltenstherapie und Tiertraining gleichermaßen.
+    highlight_blue: ["unbedingter Reiz", "bedingter Reiz", "Extinktion", "Spontanerholung", "Generalisierung", "Diskrimination", "operante Kontingenz", "positive Verstärkung", "negative Verstärkung", "Bestrafung", "Verstärkerplan", "Shaping"]
+    highlight_red: ["Pawlow entdeckte, dass ein neutraler Reiz nach wiederholter Paarung mit Nahrung allein die Speichelsekretion auslösen kann", "Rescorla (1988) argumentierte, dass klassische Konditionierung primär ein Lernen über vorhersagbare Beziehungen zwischen Reizen ist, nicht bloß ein Reflex-Lernen", "Bouton (2007) wies nach, dass Extinktion kein Löschen, sondern neues Lernen ist — die ursprüngliche Assoziation bleibt erhalten", "Domjan (2014) systematisierte die Grundlage der operanten Konditionierung: Verhalten wird durch seine Konsequenzen geformt, nicht durch vorangehende Reize", "Domjan (2014) systematisierte die vier Hauptverstärkerplantypen und ihre unterschiedlichen Wirkungen auf Verhaltensrate und -stabilität"]
+    tooltips:
+      unbedingter Reiz: "Ein Reiz, der von Natur aus eine ungelernte, automatische Reaktion hervorruft — wie Nahrung, die Speichelfluss auslöst."
+      bedingter Reiz: "Ein zunächst neutraler Reiz, der durch Paarung mit einem unbedingten Reiz eine gelernte Reaktion auslöst — wie die Glocke bei Pawlows Hunden."
+      Extinktion: "Das schrittweise Verschwinden einer gelernten Reaktion, wenn der bedingte Reiz wiederholt ohne den unbedingten Reiz auftritt."
+      Spontanerholung: "Die Wiederkehr einer scheinbar ausgelöschten Reaktion nach einer Pause — ein Zeichen dafür, dass das Lernen nicht vollständig vergessen wurde."
+      Generalisierung: "Die Tendenz, eine gelernte Reaktion auch auf ähnliche, aber nicht identische Reize zu zeigen."
+      Diskrimination: "Die Fähigkeit, zwischen dem ursprünglichen bedingten Reiz und ähnlichen Reizen zu unterscheiden und nur auf den korrekten zu reagieren."
+      operante Kontingenz: "Die Abhängigkeit eines Verhaltens von seinen Konsequenzen in der Umwelt — das 'Wenn-dann'-Muster zwischen Handlung und Ergebnis."
+      positive Verstärkung: "Verstärkung durch Hinzufügen eines erwünschten Reizes nach dem Verhalten — wie Lob nach einer guten Leistung."
+      negative Verstärkung: "Verstärkung durch Entfernen eines unangenehmen Reizes nach dem Verhalten — wie das Aufhören eines Alarms, wenn du den Knopf drückst."
+      Bestrafung: "Ein Vorgang, der die Wahrscheinlichkeit eines Verhaltens reduziert — entweder durch Hinzufügen von Unangenehmem oder Wegnahme von Angenehmem."
+      Verstärkerplan: "Ein systematisches Schema, das festlegt, nach welcher Regel Verstärkung für ein Verhalten gegeben wird."
+      Shaping: "Das schrittweise Annähern an ein Zielverhalten durch Verstärkung immer näher kommender Zwischenschritte — wie das Training eines Hundes."
+    sources_inline:
+      "Pawlow entdeckte, dass ein neutraler Reiz nach wiederholter Paarung mit Nahrung allein die Speichelsekretion auslösen kann": "Lutz, J. (2007). Einführung in die Lernpsychologie: Klassische Konditionierung (3. Aufl.). Kohlhammer."
+      "Rescorla (1988) argumentierte, dass klassische Konditionierung primär ein Lernen über vorhersagbare Beziehungen zwischen Reizen ist, nicht bloß ein Reflex-Lernen": "Rescorla, R. A. (1988). Pavlovian conditioning: It's not what you think it is. American Psychologist, 43(3), 151–160. https://doi.org/10.1037/0003-066X.43.3.151"
+      "Bouton (2007) wies nach, dass Extinktion kein Löschen, sondern neues Lernen ist — die ursprüngliche Assoziation bleibt erhalten": "Bouton, M. E. (2007). Learning and behavior: A contemporary synthesis. Sinauer Associates."
+      "Domjan (2014) systematisierte die Grundlage der operanten Konditionierung: Verhalten wird durch seine Konsequenzen geformt, nicht durch vorangehende Reize": "Domjan, M. (2014). The principles of learning and behavior (7. Aufl.). Cengage Learning."
+      "Domjan (2014) systematisierte die vier Hauptverstärkerplantypen und ihre unterschiedlichen Wirkungen auf Verhaltensrate und -stabilität": "Domjan, M. (2014). The principles of learning and behavior (7. Aufl.). Cengage Learning."
+
+  - type: "visual"
+    svg_description: |-
+      Zwei nebeneinander angeordnete Prozessdiagramme im Stil clean line-art (Stroke #1a1a1a, 2px Hauptlinien, ViewBox 0 0 400 300, Hintergrund #f8f6f1), getrennt durch eine vertikale Linie.
+      Links: Label "Klassische Konditionierung" oben.
+      Darunter zwei abgerundete Rechtecke (rx="4"): oben "Unbedingter Reiz (Nahrung)" mit Pfeil zu "Unbedingte Reaktion (Speichel)".
+      Daneben ein weiterer Reiz "Neutraler Reiz (Glocke)".
+      Ein Pfeil vom neutralen Reiz zum unbedingten Reiz zeigt die zeitliche Paarung.
+      Darunter ein Ergebnis-Pfeil: "Gelernte Kopplung" führt zu "Bedingte Reaktion auf Glocke allein".
+      Rechts: Label "Operante Konditionierung" oben.
+      Ein abgerundetes Rechteck "Verhalten (Hund hebt Pfote)" mit Pfeil zu zwei möglichen Konsequenzen:
+      oben "Verstärkung (Leckerli)" mit Pfeil zurück zum Verhalten (Pluszeichen),
+      unten "Bestrafung (Kein Leckerli)" mit Pfeil zurück zum Verhalten (Minuszeichen).
+      Beschriftungen in 12px deutscher Fachsprache.
+      Titel-Element: "Klassische und Operante Konditionierung im Vergleich".
+      Desc-Element: "Diagramm zeigt den Lernprozess bei klassischer Konditionierung durch Reizpaarung und bei operanter Konditionierung durch Verhaltenskonsequenzen."
+    caption: "Das SVG zeigt den entscheidenden Unterschied: Klassische Konditionierung koppelt zwei Reize miteinander, operante Konditionierung formt Verhalten durch seine Konsequenzen."
+
+  - type: "deep_dive"
+    text: |-
+      **Rescorlas kognitive Wendung**
+
+      Rescorla (1988) revolutionierte das Verständnis der klassischen Konditionierung, indem er zeigte, dass der Organismus nicht einfach Reize assoziiert, sondern die vorhersagbare Struktur der Umwelt lernt. Kontingenz, nicht bloße Kontiguität, ist die entscheidende Variable.
+
+      **Die Resistenz teilweiser Verstärkung**
+
+      Teilweise Verstärkung erzeugt widerstandsstärkeres Verhalten als kontinuierliche Verstärkung — ein Phänomen, das für Suchtverhalten und Glücksspiel zentral ist. Domjan (2014) wies nach, dass dieses Paradoxon entsteht, weil der Organismus bei intermittierender Belohnung nie vollständig lernt, dass die Kontingenz aufgehoben wurde.
+
+      **Extinktion als Kontext-abhängiges Lernen**
+
+      Bouton (2007) demonstrierte, dass ausgelöschte Reaktionen in neuen Kontexten spontan wiederkehren können. Die Extinktion ist kein stabiler Zustand, sondern ein kontextsensitives Gegengewicht zur ursprünglichen Assoziation. Dies hat fundamentale Implikationen für die Verhaltenstherapie bei Ängsten und Sucht.
+    highlight_red: ["Rescorla (1988) revolutionierte das Verständnis der klassischen Konditionierung, indem er zeigte, dass der Organismus nicht einfach Reize assoziiert, sondern die vorhersagbare Struktur der Umwelt lernt", "Domjan (2014) wies nach, dass dieses Paradoxon entsteht, weil der Organismus bei intermittierender Belohnung nie vollständig lernt, dass die Kontingenz aufgehoben wurde", "Bouton (2007) demonstrierte, dass ausgelöschte Reaktionen in neuen Kontexten spontan wiederkehren können"]
+    sources_inline:
+      "Rescorla (1988) revolutionierte das Verständnis der klassischen Konditionierung, indem er zeigte, dass der Organismus nicht einfach Reize assoziiert, sondern die vorhersagbare Struktur der Umwelt lernt": "Rescorla, R. A. (1988). Pavlovian conditioning: It's not what you think it is. American Psychologist, 43(3), 151–160. https://doi.org/10.1037/0003-066X.43.3.151"
+      "Domjan (2014) wies nach, dass dieses Paradoxon entsteht, weil der Organismus bei intermittierender Belohnung nie vollständig lernt, dass die Kontingenz aufgehoben wurde": "Domjan, M. (2014). The principles of learning and behavior (7. Aufl.). Cengage Learning."
+      "Bouton (2007) demonstrierte, dass ausgelöschte Reaktionen in neuen Kontexten spontan wiederkehren können": "Bouton, M. E. (2007). Learning and behavior: A contemporary synthesis. Sinauer Associates."
+
+  - type: "example"
+    text: "Du steigst morgens in den Bus und spürst sofort Übelkeit, weil du vor drei Wochen dort eine Magen-Darm-Grippe ausgebildet hast. Der Bus ist zum bedingten Reiz geworden — klassische Konditionierung. Gleichzeitig prüfst du reflexartig dein Handy, weil du dort oft Nachrichten erhältst: Diese Gewohnheit wurde durch jahrzehntelange variable Verstärkung operant konditioniert."
+
+  - type: "summary"
+    text: "• Klassische Konditionierung verbindet zwei Reize miteinander: Ein neutraler Reiz wird zum bedingten Reiz durch Paarung mit einem unbedingten Reiz. • Operante Konditionierung formt Verhalten durch seine Konsequenzen: Verstärkung erhöht, Bestrafung reduziert die Verhaltenshäufigkeit. • Extinktion ist kein Löschen, sondern neues Lernen — Spontanerholung und Kontexteffekte zeigen die bleibende Präsenz ursprünglicher Assoziationen."
+
+sources:
+  - apa_citation: "Domjan, M. (2014). The principles of learning and behavior (7. Aufl.). Cengage Learning."
+    type: "secondary"
+    tooltip_text: "Ein umfassendes Lehrbuch zur Lernpsychologie, das klassische und operante Konditionierung systematisch darstellt und die empirische Grundlage beider Paradigmen resümiert."
+  - apa_citation: "Rescorla, R. A. (1988). Pavlovian conditioning: It's not what you think it is. American Psychologist, 43(3), 151–160. https://doi.org/10.1037/0003-066X.43.3.151"
+    type: "review"
+    tooltip_text: "Ein einflussreicher Überblicksartikel, der klassische Konditionierung als Lernen über Reizkontingenz neu interpretiert und über den Reflex-Lernansatz hinausführt."
+  - apa_citation: "Lutz, J. (2007). Einführung in die Lernpsychologie: Klassische Konditionierung (3. Aufl.). Kohlhammer."
+    type: "secondary"
+    tooltip_text: "Eine deutschsprachige Einführung in die klassische Konditionierung, die Pawlows Versuche und ihre theoretischen Implikationen für das Lernverständnis erläutert."
+  - apa_citation: "Bouton, M. E. (2007). Learning and behavior: A contemporary synthesis. Sinauer Associates."
+    type: "review"
+    tooltip_text: "Ein integrativer Überblicksband, der Extinktion als kontextabhängiges Lernen konzeptualisiert und die therapeutischen Konsequenzen für Verhaltenstherapien diskutiert."
+
+further_exploration:
+  - category: "Forschung"
+    title: "Pavlovian conditioning: It's not what you think it is"
+    relevance: "Rescorlas klassischer Artikel reformuliert klassische Konditionierung als kognitives Lernen über vorhersagbare Strukturen — Pflichtlektüre für das Verständnis moderner Konditionierungstheorien."
+    url: "https://doi.org/10.1037/0003-066X.43.3.151"
+  - category: "Buch"
+    title: "The principles of learning and behavior"
+    relevance: "Domjans Standardwerk deckt systematisch beide Konditionierungsformen ab und bietet eine fundierte empirische Grundlage für das Bachelor-Studium."
+    url: "https://www.cengage.com"

@@ -1,0 +1,134 @@
+subject_meta:
+  title: "Signifikanztestung, p-Werte und Alpha-/Beta-Fehler"
+  discipline: "Statistik / Methodenlehre"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#ffe6a7"
+  tab_number: 10
+
+content_blocks:
+  - type: "lead"
+    text: "Ein Medikament wird als 'wirksam' verkauft, weil p < .05 — doch der Effekt ist minimal und die Studie wurde nur einmal durchgeführt. Signifikanz ist kein Siegel für Wahrheit, sondern ein Werkzeug mit scharfen Kanten. Wer die Logik dahinter nicht versteht, lässt sich von Zahlen täuschen."
+
+  - type: "definition"
+    text: "Die **Signifikanztestung** prüft, wie wahrscheinlich ein beobachtetes Ergebnis ist, wenn in Wahrheit kein Effekt existiert. Der **p-Wert** quantifiziert diese Wahrscheinlichkeit — er ist kein Maß für Effektgröße oder Wahrscheinlichkeit der Hypothese."
+    highlight_blue:
+      - "Signifikanztestung"
+      - "p-Wert"
+    tooltips:
+      Signifikanztestung: "Ein statistisches Verfahren, das prüft, ob ein beobachteter Effekt so ungewöhnlich ist, dass er sich kaum durch Zufall erklären lässt — nicht ob die Hypothese wahr ist."
+      p-Wert: "Die Wahrscheinlichkeit, das beobachtete Ergebnis (oder ein extremeres) zu erhalten, wenn die Nullhypothese wahr ist — kein Maß für die Größe oder Wichtigkeit eines Effekts."
+
+  - type: "explanation"
+    text: |
+      ### Das logische Grundgerüst: Zwei sich ausschließende Hypothesen
+
+      Jeder Signifikanztest beginnt mit zwei rivalisierenden Behauptungen. Die **Nullhypothese** (H₀) postuliert, dass es keinen Unterschied und keinen Zusammenhang gibt — der neue Schlaftrunk wirkt nicht besser als Wasser. Die **Alternativhypothese** (H₁) behauptet das Gegenteil: Es gibt einen Effekt, eine Differenz, einen Zusammenhang.
+
+      Das Experiment sammelt Daten, um zu entscheiden, ob die Evidenz stark genug ist, H₀ zu verwerfen.
+
+      ### Der p-Wert als Zufallsbarometer — nicht als Wahrscheinlichkeitsmesser
+
+      Der **p-Wert** sagt: „Wenn H₀ wahr ist, wie wahrscheinlich ist es, dieses Ergebnis (oder ein extremeres) durch Zufall zu erhalten?“ Ein p-Wert von .03 bedeutet nicht, dass die Alternativhypothese zu 97 % wahr ist. **Cohen (1994)** kritisierte genau diesen ritualisierten Missbrauch: Forscher behandelten p < .05 als magische Grenze zwischen Wahrheit und Falschheit, obwohl der p-Wert nur die Inkonsistenz mit H₀ misst, nicht die Plausibilität von H₁.
+
+      Das **Signifikanzniveau** (α) wird vor dem Test festgelegt — meist auf 5 %. Es ist die Toleranzschwelle für den **Fehler 1. Art**: die fälschliche Verwerfung einer wahren Nullhypothese. Man sieht einen Effekt, wo in Wahrheit keiner existiert.
+
+      ### Der Fehler 2. Art: Wenn wahre Effekte unsichtbar bleiben
+
+      Der **Fehler 2. Art** ist das Gegenteil: Man behält H₀ bei, obwohl H₁ wahr ist. Man übersieht einen tatsächlich vorhandenen Effekt. Die Wahrscheinlichkeit dafür nennt man β.
+
+      ### Teststärke: Die Wahrscheinlichkeit, einen wahren Effekt zu finden
+
+      Die **Teststärke** (1 − β) gibt an, wie wahrscheinlich es ist, einen wahren Effekt auch tatsächlich zu entdecken. Teststärke hängt von drei Faktoren ab: dem **Signifikanzniveau** (strengeres α verringert Fehler 1. Art, aber erhöht β), der **Effektstärke** (größere Effekte sind leichter zu finden) und der Stichprobengröße (mehr Personen reduzieren Rauschen).
+
+      ### Effektstärke: Wie groß ist der Unterschied wirklich?
+
+      Der p-Wert allein ist blind für die Größe eines Effekts. Die **Effektstärke** — etwa Cohens d oder Pearson r — standardisiert den Unterschied und macht ihn vergleichbar. Ein Medikament kann „signifikant“ wirken, weil es in einer riesigen Stichprobe getestet wurde, obwohl der klinische Nutzen minimal ist.
+
+      ### Konfidenzintervall: Unsicherheit transparent machen
+
+      Das **Konfidenzintervall** ergänzt dies: Es gibt einen Bereich an, in dem der wahre Parameter mit einer festgelegten Wahrscheinlichkeit (meist 95 %) liegt. Es zeigt Schätzunsicherheit und Effektgröße zugleich — und ist transparenter als ein isolierter p-Wert.
+    highlight_blue:
+      - "Nullhypothese"
+      - "Alternativhypothese"
+      - "Signifikanzniveau"
+      - "Fehler 1. Art"
+      - "Fehler 2. Art"
+      - "Teststärke"
+      - "Effektstärke"
+      - "Konfidenzintervall"
+    tooltips:
+      Nullhypothese: "Die Annahme, dass es keinen Unterschied und keinen Zusammenhang gibt — die Ausgangsbehauptung, die verworfen werden muss, um eine Wirkung nachzuweisen."
+      Alternativhypothese: "Die Gegenthese zur Nullhypothese — sie behauptet, dass ein Effekt, ein Unterschied oder ein Zusammenhang tatsächlich existiert."
+      Signifikanzniveau: "Die vorab festgelegte Grenze (meist 5 %), unterhalb derer der p-Wert als 'signifikant' gilt und die Nullhypothese verworfen wird."
+      Fehler 1. Art: "Der Fehler, eine wahre Nullhypothese fälschlich zu verwerfen — man sieht einen Effekt, wo in Wahrheit keiner ist."
+      Fehler 2. Art: "Der Fehler, eine falsche Nullhypothese beizubehalten — man übersieht einen tatsächlich vorhandenen Effekt."
+      Teststärke: "Die Wahrscheinlichkeit, einen wahren Effekt auch tatsächlich zu entdecken — abhängig von Effektgröße, Stichprobe und Signifikanzniveau."
+      Effektstärke: "Ein standardisiertes Maß für die Größe eines Unterschieds oder Zusammenhangs — unabhängig von der Stichprobengröße und dem p-Wert."
+      Konfidenzintervall: "Ein Bereich, in dem der wahre Parameter mit einer bestimmten Wahrscheinlichkeit (meist 95 %) liegt — zeigt Schätzunsicherheit und Effektgröße zugleich."
+    highlight_red:
+      - "Cohen (1994) kritisierte genau diesen ritualisierten Missbrauch"
+    sources_inline:
+      Cohen (1994) kritisierte genau diesen ritualisierten Missbrauch: "Cohen, J. (1994). The earth is round (p < .05). American Psychologist, 49(12), 997–1003. https://doi.org/10.1037/0003-066X.49.12.997"
+
+  - type: "visual"
+    svg_description: "Clean line-art SVG, ViewBox 0 0 400 300, stroke #1a1a1a 2px. Zentrale 2x2-Matrix als Entscheidungstabelle. Oben Beschriftung 'Tatsächlicher Zustand', links Beschriftung 'Statistische Entscheidung'. Zellen: (1) Oben-links: 'H₀ beibehalten' + 'H₀ wahr' = Label 'Richtig'. (2) Oben-rechts: 'H₀ beibehalten' + 'H₁ wahr' = Label 'Fehler 2. Art (β)' in roter Schrift. (3) Unten-links: 'H₀ verwerfen' + 'H₀ wahr' = Label 'Fehler 1. Art (α)' in roter Schrift. (4) Unten-rechts: 'H₀ verwerfen' + 'H₁ wahr' = Label 'Richtig (Teststärke = 1−β)'. Rechts neben der Matrix ein vertikaler Pfeil von α auf β mit Beschriftung 'Wenn α sinkt, steigt β'. Unten ein schmaler Pfeil von links nach rechts mit Beschriftung 'Stichprobe ↑ → beide Fehler ↓'."
+    caption: "Die Matrix zeigt die vier möglichen Ergebnisse eines Hypothesentests — und warum α und β wie auf einer Wippe balancieren."
+
+  - type: "deep_dive"
+    text: |
+      ### Cohens Kritik und die Zeremonie des Signifikanztestens
+
+      **Cohen (1994)** titelte sein berühmtes Papier „The earth is round (p < .05)“ — ein ironischer Verweis darauf, dass Forscher Signifikanz als Evidenz für eine wahre Behauptung missverstehen. Er wies nach, dass der p-Wert die a-posteriori-Wahrscheinlichkeit der Hypothese nicht liefert und dass die übliche Praxis, Signifikanz als „bewiesen“ zu werten, zu publizierten Artefakten führt. Cohen plädierte für die Berichterstattung von Effektstärken und Konfidenzintervallen statt für p-Wert-Ritualismus.
+
+      ### Die Replikationskrise als empirisches Erdbeben
+
+      **Die Open Science Collaboration (2015)** publizierte die bislang größte Replikationsstudie der Psychologie: Von 100 Befunden hochrangiger Journale konnten nur 36 % erfolgreich repliziert werden. Die durchschnittliche Effektstärke der Replikationen lag auf etwa der Hälfte der Originalstudien. Dieses Ergebnis zeigt, dass p-Wert-Signifikanz allein keine Garantie für robuste Erkenntnis ist — sie entsteht oft durch Methodenflexibilität (p-Hacking), selektive Berichterstattung und unterpowered Studien.
+
+      ### Die ASA-Erklärung und die Zukunft der Berichterstattung
+
+      **Wasserstein und Lazar (2016)** verfassten im Namen der American Statistical Association ein Statement, das sechs Prinzipien zum verantwortungsvollen Umgang mit p-Werten formulierte. Zentrale Botschaft: p-Werte zeigen die Inkonsistenz der Daten mit einem spezifischen Modell, nicht die Wahrscheinlichkeit, dass die Hypothese wahr ist. Sie plädierten für Transparenz, vollständige Berichterstattung und den Einsatz alternativer Analysemethoden — darunter Bayesianische Statistik und registered reports, bei denen die Analyseplanung vor Datenerhebung erfolgt.
+    highlight_red:
+      - "Cohen (1994) titelte sein berühmtes Papier"
+      - "Die Open Science Collaboration (2015) publizierte die bislang größte Replikationsstudie"
+      - "Wasserstein und Lazar (2016) verfassten im Namen der American Statistical Association ein Statement"
+    sources_inline:
+      Cohen (1994) titelte sein berühmtes Papier: "Cohen, J. (1994). The earth is round (p < .05). American Psychologist, 49(12), 997–1003. https://doi.org/10.1037/0003-066X.49.12.997"
+      Die Open Science Collaboration (2015) publizierte die bislang größte Replikationsstudie: "Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716. https://doi.org/10.1126/science.aac4716"
+      Wasserstein und Lazar (2016) verfassten im Namen der American Statistical Association ein Statement: "Wasserstein, R. L., & Lazar, N. A. (2016). The ASA statement on p-values: Context, process, and purpose. The American Statistician, 70(2), 129–133. https://doi.org/10.1080/00031305.2016.1154108"
+
+  - type: "example"
+    text: "Du wirfst eine Münze zehnmal und erhältst achtmal Kopf — der p-Wert liegt bei etwa .05, knapp signifikant. Doch die Effektstärke ist winzig, die Stichprobe zu klein, und ein Fehler 1. Art wäre wahrscheinlich. Signifikanz allein rechtfertigt nicht den Verdacht auf eine gezinkte Münze — Kontext und Replikation zählen."
+
+  - type: "summary"
+    text: |
+      • Der p-Wert misst die Wahrscheinlichkeit der Daten unter H₀ — nicht die Wahrscheinlichkeit, dass H₁ wahr ist.
+      • Fehler 1. Art und Fehler 2. Art balancieren wie auf einer Wippe; nur mehr Stichprobe oder weniger striktes α senkt beide zugleich.
+      • Effektstärke und Konfidenzintervall liefern mehr Information als ein isolierter p-Wert — besonders nach Cohens Kritik und der Replikationskrise.
+
+sources:
+  - apa_citation: "Cohen, J. (1994). The earth is round (p < .05). American Psychologist, 49(12), 997–1003. https://doi.org/10.1037/0003-066X.49.12.997"
+    type: "primary"
+    tooltip_text: "Der programmatische Aufsatz, der den ritualisierten Missbrauch des p-Werts als Wahrheitskriterium methodisch entlarvt und Alternativen fordert."
+  - apa_citation: "Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716. https://doi.org/10.1126/science.aac4716"
+    type: "primary"
+    tooltip_text: "Die größte systematische Replikationsstudie der Psychologie, die die Verlässlichkeit publizierter p-Wert-Befunde empirisch testete."
+  - apa_citation: "Eid, M., Gollwitzer, M., & Schmitt, M. (2017). Statistik und Forschungsmethoden: Mit Online-Materialien (5. Aufl.). Beltz PVU."
+    type: "secondary"
+    tooltip_text: "Deutschsprachiges Standardlehrbuch zur Inferenzstatistik, Testtheorie und Versuchsplanung mit didaktischen Übungen."
+  - apa_citation: "Wasserstein, R. L., & Lazar, N. A. (2016). The ASA statement on p-values: Context, process, and purpose. The American Statistician, 70(2), 129–133. https://doi.org/10.1080/00031305.2016.1154108"
+    type: "review"
+    tooltip_text: "Die offizielle Stellungnahme der American Statistical Association zum verantwortungsvollen Umgang mit p-Werten in der wissenschaftlichen Praxis."
+
+further_exploration:
+  - category: "Buch"
+    title: "Statistik und Forschungsmethoden"
+    relevance: "Das deutschsprachige Standardlehrbuch zur Inferenzstatistik mit umfassenden Erklärungen zu Hypothesentests, Fehlerarten und Effektstärken."
+    url: "https://www.beltz.de/fachmedien/psychologie/buecher/produkt_produktdetails/37277-statistik_und_forschungsmethoden.html"
+  - category: "Forschung"
+    title: "The earth is round (p < .05)"
+    relevance: "Cohens einflussreicher programmatischer Aufsatz zur Kritik am p-Wert-Ritualismus — ein Muss für jeden Methodenstudenten."
+    url: "https://doi.org/10.1037/0003-066X.49.12.997"
+  - category: "Forschung"
+    title: "Estimating the reproducibility of psychological science"
+    relevance: "Die epochale Replikationsstudie, die die Verlässlichkeit psychologischer Befunde anhand von 100 Replikationsstudie der Psychologie, die die Verlässlichkeit publizierter p-Wert-Befunde empirisch testete."
+    url: "https://doi.org/10.1126/science.aac4716"

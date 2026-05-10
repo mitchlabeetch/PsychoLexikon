@@ -1,0 +1,10 @@
+[
+  {
+    "id": "builtin_group_id",
+    "name": "Currently Open Files",
+    "files": [
+      "../../../.kiro/skills/3d-web-experience/SKILL.md"
+    ],
+    "builtIn": true
+  }
+]

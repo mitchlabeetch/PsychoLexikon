@@ -1,48 +1,24 @@
 import { Navigate, useParams } from 'react-router-dom'
+import ArticleRenderer from '@/components/content/ArticleRenderer'
+import { getArticleById } from '@/content/api'
+import { buildArticlePath, HOME_PATH, normalizeArticleId } from '@/routing/routes'
 import NotFoundPage from './NotFoundPage'
-import Subject01 from './Subject01'
-import Subject02 from './Subject02'
-import Subject03 from './Subject03'
-import Subject04 from './Subject04'
-import Subject05 from './Subject05'
-import Subject06 from './Subject06'
-import Subject07 from './Subject07'
-import Subject08 from './Subject08'
-import Subject09 from './Subject09'
-import Subject10 from './Subject10'
-import Subject11 from './Subject11'
-import Subject12 from './Subject12'
-
-const subjectPages = {
-  '01': Subject01,
-  '02': Subject02,
-  '03': Subject03,
-  '04': Subject04,
-  '05': Subject05,
-  '06': Subject06,
-  '07': Subject07,
-  '08': Subject08,
-  '09': Subject09,
-  '10': Subject10,
-  '11': Subject11,
-  '12': Subject12,
-} as const
 
 export default function SubjectPage() {
   const { id } = useParams<{ id: string }>()
-  const normalizedId = id?.match(/^\d{1,2}$/) ? id.padStart(2, '0') : id
+  const normalizedId = normalizeArticleId(id)
 
   if (!normalizedId) {
-    return <Navigate to="/" replace />
+    return <Navigate to={HOME_PATH} replace />
   }
 
   if (normalizedId !== id) {
-    return <Navigate to={`/thema/${normalizedId}`} replace />
+    return <Navigate to={buildArticlePath(normalizedId)} replace />
   }
 
-  const SubjectComponent = subjectPages[normalizedId as keyof typeof subjectPages]
+  const article = getArticleById(normalizedId)
 
-  if (!SubjectComponent) {
+  if (!article) {
     return (
       <NotFoundPage
         title="Dieses Thema wurde nicht gefunden"
@@ -51,5 +27,5 @@ export default function SubjectPage() {
     )
   }
 
-  return <SubjectComponent />
+  return <ArticleRenderer article={article} />
 }

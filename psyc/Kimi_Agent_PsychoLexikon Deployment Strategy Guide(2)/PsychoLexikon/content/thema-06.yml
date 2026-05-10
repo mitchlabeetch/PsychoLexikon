@@ -1,0 +1,142 @@
+subject_meta:
+  title: "Kognitive Entwicklung nach Piaget"
+  discipline: "Entwicklungspsychologie"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#f4b8c5"
+  tab_number: 6
+
+content_blocks:
+  - type: "lead"
+    text: "Warum begreift ein Dreijähriges, dass ein verborgener Gegenstand nicht verschwunden ist, aber ein Zweijähriges nicht? Piagets Stufentheorie erklärt, wie Kinder Schritt für Schritt zu komplexeren Denkformen gelangen."
+
+  - type: "definition"
+    text: "Die kognitive Entwicklung nach Piaget beschreibt den qualitativen Wandel des Denkens vom Säugling bis zum Erwachsenen durch vier aufeinanderfolgende Stadien, die durch biologische Reifung und Umwelterfahrung vorangetrieben werden."
+    highlight_blue: ["kognitive Entwicklung", "Stadien", "Reifung"]
+    tooltips:
+      kognitive Entwicklung: "Die Veränderung von Denk-, Wahrnehmungs- und Lernfähigkeiten im Laufe der Kindheit und Adoleszenz — nicht nur mehr Wissen, sondern bessere Denkwerkzeuge."
+      Stadien: "Abgrenzbare Entwicklungsphasen mit eigenen Denkstrukturen; jede Stufe baut auf der vorherigen auf und ersetzt deren Denkformen qualitativ."
+      Reifung: "Die biologische Heranreife des Nervensystems und des Gehirns, die Piaget als Motor der kognitiven Veränderung sah — unabhängig von Übung allein."
+
+  - type: "explanation"
+    text: |
+      **Kernidee: Kinder sind keine kleinen Erwachsenen, sondern Denker mit eigenen Gesetzen.**
+
+      Piaget (1970) verstand kognitive Entwicklung als Konstruktionsprozess. Das Kind baut aktiv **Schemata** auf — innere Baupläne für Wahrnehmung und Handlung. Wenn ein neues Erlebnis zu einem vorhandenen Schema passt, geschieht **Assimilation**. Passt es nicht, muss das Schema erweitert oder verändert werden: das ist **Akkommodation**. Beide Prozesse zusammen erzeugen **Äquilibration** (Gleichgewicht), den Rückkopplungsmechanismus, der die Entwicklung von einer Stufe zur nächsten treibt.
+
+      ### Das sensorimotorische Stadium (0–2 Jahre)
+
+      Das Neugeborene erlebt die Welt durch Greifen, Saugen, Schauen. Das zentrale kognitive Merkmal dieser Phase ist die fehlende **Objektpermanenz**: solange ein Gegenstand nicht sichtbar ist, existiert er für das Kind nicht. Erst gegen Ende dieser Phase entwickelt das Kind die Fähigkeit, sich ein inneres Bild von verborgenen Objekten zu machen. Montada (2005) betont, dass diese Errungenschaft die Basis aller späteren Symbolverwendung bilde.
+
+      ### Das präoperationale Stadium (2–7 Jahre)
+
+      Das Kind beginnt, Sprache und Symbole zu nutzen. Allerdings bleibt das Denken noch zentriert auf eine einzige Dimension. Das Kind zeigt **Egosentrizismus**: es kann die Welt nicht aus der Perspektive eines anderen betrachten. **Konservierung** — die Einsicht, dass eine Menge gleich bleibt, auch wenn ihre äußere Form sich ändert — ist noch nicht vorhanden. Das klassische Beispiel: zwei gleich große Gläsern mit Wasser — eins wird in ein hohes, dünnes Glas umgegossen. Das Kind meint, nun sei mehr Wasser da, weil es nur die Höhe, nicht die Breite berücksichtigt.
+
+      ### Das konkret-operationale Stadium (7–11 Jahre)
+
+      Die Schule öffnet neue kognitive Möglichkeiten. Das Kind beherrscht jetzt logische Operationen, aber nur bei greifbaren, konkreten Gegenständen. Es erkennt, dass die Wassermenge beim Umgießen gleich bleibt (**Dekonservierung**). Es kann Seriationen bilden, Klassen einteilen und Beziehungen reversibel denken — aber abstrakte Hypothesen ohne materiellen Bezugspunkt bleiben unzugänglich.
+
+      ### Das formal-operationale Stadium (ab 11 Jahre)
+
+      Der Jugendliche denkt nun auch hypothetisch-deduktiv. Er kann von einer Annahme ausgehen und deren Konsequenzen durchspielen, ohne dass die Situation real vorliegt. Formale Logik, Kombinatorik und propositionalales Denken werden zugänglich. Nicht jeder Erwachsene erreicht dieses Stadium in allen Bereichen vollständig; Piaget selbst räumte ein, dass Alltagskontexte die Stufenfolge modifizieren können.
+
+      **Schemata, Assimilation und Akkommodation als Motor der Entwicklung**
+
+      Piagets Theorie ist konstruktivistisch: Wissen entsteht durch aktive Auseinandersetzung mit der Umwelt, nicht durch passives Aufsaugen. Ein Baby hat ein Sau-Schema. An der Mutterbrust funktioniert es perfekt (Assimilation). Am Spielzeugtau funktioniert es nicht — das Kind muss das Schema modifizieren (Akkommodation). Dieses ständige Wechselspiel treibt die Entwicklung voran.
+    highlight_blue: ["Schemata", "Assimilation", "Akkommodation", "Äquilibration", "Objektpermanenz", "Egosentrizismus", "Konservierung", "Dekonservierung"]
+    highlight_red: ["Piaget (1970) verstand kognitive Entwicklung als Konstruktionsprozess", "Montada (2005) betont, dass diese Errungenschaft die Basis aller späteren Symbolverwendung bilde", "Piaget selbst räumte ein, dass Alltagskontexte die Stufenfolge modifizieren können"]
+    tooltips:
+      Schemata: "Mentale Baupläne oder Grundgerüste, die das Kind für wiederkehrende Situationen im Kopf speichert — wie eine innere Checkliste für 'Was mache ich, wenn ich einen Gegenstand greife?'"
+      Assimilation: "Das Einordnen neuer Erfahrungen in bereits vorhandene Denkstrukturen, ohne diese zu verändern — wie das Einordnen eines neuen Apfels in das Schema 'Obst'."
+      Akkommodation: "Das Anpassen und Erweitern eigener Denkstrukturen, wenn eine neue Erfahrung nicht hineinpasst — das Schema 'Obst' muss erweitert werden, wenn das Kind zum ersten Mal eine Kiwi sieht."
+      Äquilibration: "Der Ausgleichsprozess zwischen Assimilation und Akkommodation, der das Denken immer wieder ins Gleichgewicht bringt und zur nächsten Entwicklungsstufe führt."
+      Objektpermanenz: "Die Erkenntnis, dass Gegenstände auch dann weiterexistieren, wenn sie nicht mehr sichtbar sind — ein Meilenstein des ersten Lebensjahres."
+      Egosentrizismus: "Die Unfähigkeit des kleinen Kindes, sich in die Sichtweise eines anderen Menschen hineinzuversetzen; das eigene Erleben erscheint als einzig mögliche Realität."
+      Konservierung: "Die Einsicht, dass bestimmte Größen (Menge, Zahl, Volumen) gleich bleiben, auch wenn ihre äußere Gestalt sich verändert."
+      Dekonservierung: "Die Bezeichnung für den Erwerb des Konservierungsverständnisses — das Kind 'ent-konserviert' seinen bisherigen Irrtum und erkennt die Erhaltung."
+    sources_inline:
+      "Piaget (1970) verstand kognitive Entwicklung als Konstruktionsprozess": "Piaget, J. (1970). Science of education and the psychology of the child (Übers. D. Coltman). Orion Press. (Original 1965)"
+      "Montada (2005) betont, dass diese Errungenschaft die Basis aller späteren Symbolverwendung bilde": "Montada, L. (Hrsg.). (2005). Entwicklungspsychologie (6. Aufl.). Beltz PVU."
+      "Piaget selbst räumte ein, dass Alltagskontexte die Stufenfolge modifizieren können": "Piaget, J. (1970). Science of education and the psychology of the child (Übers. D. Coltman). Orion Press. (Original 1965)"
+
+  - type: "visual"
+    svg_description: |
+      Flussdiagramm (ViewBox 0 0 400 400), clean line-art, vertikaler Verlauf von oben nach unten.
+      
+      Aufbau:
+      - Titel oben: "Piagets vier Entwicklungsstadien" (y=20, zentriert, 14px bold)
+      
+      Vier abgerundete Rechtecke (rx="4", Breite 320px, Höhe je 65px), vertikal gestapelt mit 15px Abstand, jeweils verbunden durch Pfeile (nach unten zeigend):
+      
+      Rechteck 1 (y=45): "Sensorimotorisch (0–2 J.)"
+      Pfeil 1→2 (y=110): Doppelter Pfeil, beschriftet "Assimilation ↔ Akkommodation"
+      
+      Rechteck 2 (y=125): "Präoperational (2–7 J.)"
+      Pfeil 2→3 (y=190): Doppelter Pfeil, beschriftet "Zentriertes → Dezentriertes Denken"
+      
+      Rechteck 3 (y=205): "Konkret-operational (7–11 J.)"
+      Pfeil 3→4 (y=270): Doppelter Pfeil, beschriftet "Konkret → Abstrakt"
+      
+      Rechteck 4 (y=280): "Formal-operational (11+ J.)"
+      
+      Jedes Rechteck enthält rechts unten ein kleines Symbol:
+      - R1: Kreis mit Punkt (Symbol für Sinneseindruck)
+      - R2: Sprachblase (Symbol für Symbolverwendung)
+      - R3: Waage (Symbol für Konservierung/Logik)
+      - R4: Gedankenblase mit Fragezeichen (Symbol für Hypothesen)
+      
+      Hintergrund der Rechtecke: Leichter Tab-Farbton (#f4b8c5, 10% Opazität).
+      Linien: 2px Stroke #1a1a1a.
+      Text: Deutsche Labels, 11px.
+      
+      Unten (y=365): Kleiner Text "Äquilibration = Motor der Stufenfolge"
+      
+      <title>Piagets vier kognitive Entwicklungsstadien als aufeinanderfolgende Phasen</title>
+      <desc>Ein vertikales Flussdiagramm, das die vier Entwicklungsstadien Piagets mit ihren Altersangaben und den Übergangsmustern Assimilation, Akkommodation und Äquilibration abbildet.</desc>
+    caption: "Das Diagramm zeigt die vier Stufen als aufeinanderfolgende qualitative Denkumbrüche — jede Stufe ersetzt die vorherige Struktur, nicht nur quantitativ, sondern grundlegend."
+
+  - type: "deep_dive"
+    text: |
+      **Kontroverse: Sind Piagets Stadien universell?**
+
+      Siegler und Ellis (1996) prägten das Bild vom 'kompetenten Säugling': Neugeborene zeigen bereits früher als Piaget annahm Ansätze von Objektpermanenz — allerdings in vereinfachter Form. Lourenço und Machado (1996) verteidigten Piaget gegen die gängigsten zehn Kritikpunkte. Sie argumentieren, dass viele 'Widerlegungen' Piagets tatsächliche Positionen missverstehen. Das Modell sei ein Strukturmodell, kein Leistungsmodell: Ein Kind kann situativ mehr zeigen als seine Stufe vorsieht, ohne die zugrundeliegende Denkstruktur zu besitzen.
+
+      **Das Problem der Horizontalen Dekalage**
+
+      Piaget beobachtete selbst, dass Kinder Konservierung in einer Domäne (z. B. Flüssigkeit) früher erreichen als in einer anderen (z. B. Masse). Diese 'stufenübergreifende Unschärfe' widerspricht nicht dem Modell, sofern die grundsätzliche Stufenfolge erhalten bleibt. Allerdings zeigte sich in Kulturvergleichsstudien, dass formale Operationen nicht in allen Gesellschaften gleich ausgeprägt sind — ein Hinweis darauf, dass Umwelt und Bildungssystem die Stufenfolge beschleunigen oder verzögern können.
+    highlight_red: ["Siegler und Ellis (1996) prägten das Bild vom 'kompetenten Säugling'", "Lourenço und Machado (1996) verteidigten Piaget gegen die gängigsten zehn Kritikpunkte"]
+    sources_inline:
+      "Siegler und Ellis (1996) prägten das Bild vom 'kompetenten Säugling'": "Siegler, R. S., & Ellis, S. (1996). Piaget on childhood. Psychological Science, 7(4), 211–215. https://doi.org/10.1111/j.1467-9280.1996.tb00363.x"
+      "Lourenço und Machado (1996) verteidigten Piaget gegen die gängigsten zehn Kritikpunkte": "Lourenço, O., & Machado, A. (1996). In defense of Piaget's theory: A reply to 10 common criticisms. Psychological Review, 103(1), 143–164. https://doi.org/10.1037/0033-295X.103.1.143"
+
+  - type: "example"
+    text: "Stell dir eine fünfjährige deutsche Kita-Gruppe beim Backen vor. Die Erzieherin rollt zwei gleich große Kugeln Teig — eine flach, eine lang. 'Ist das gleich viel?' fragt sie. Das Kind zeigt auf die lange Teigrolle: 'Da ist mehr!' Es ist zentriert auf die Länge, ignoriert die Dicke. Ein konkret-operational denkendes Achtjähriges würde antworten: 'Ist gleich viel, du hast es nur umgeformt.' Und ein Jugendlicher würde hinzufügen: 'Selbst wenn wir es anders formen, bleibt das Volumen erhalten — denn die Masse bleibt konstant, solange nichts hinzukommt oder entfernt wird.' Dasselbe Teigstück, drei Denkwelten."
+
+  - type: "summary"
+    text: |
+      - Piaget beschrieb vier qualitative Stufen kognitiver Entwicklung, die durch Assimilation, Akkommodation und Äquilibration vorangetrieben werden.
+      - Jedes Stadium hat eigene Denkgesetze: Objektpermanenz erst im Sensorimotorium, Konservierung erst im Konkret-Operationalen, hypothetisches Denken erst im Formal-Operationalen.
+      - Die Kritik betrifft vor allem das Stufengerüst selbst — doch das Grundmodell des aktiven Wissenskonstrukteurs bleibt in der Entwicklungspsychologie präsent.
+
+sources:
+  - apa_citation: "Piaget, J. (1970). Science of education and the psychology of the child (Übers. D. Coltman). Orion Press. (Original 1965)"
+    type: "primary"
+    tooltip_text: "Piagets zusammenfassende Darstellung seiner Theorie der kognitiven Entwicklung und ihrer pädagogischen Implikationen."
+  - apa_citation: "Lourenço, O., & Machado, A. (1996). In defense of Piaget's theory: A reply to 10 common criticisms. Psychological Review, 103(1), 143–164. https://doi.org/10.1037/0033-295X.103.1.143"
+    type: "review"
+    tooltip_text: "Eine systematische Verteidigung Piagets gegen die gängigsten empirischen und theoretischen Kritikpunkte der 1990er Jahre."
+  - apa_citation: "Montada, L. (Hrsg.). (2005). Entwicklungspsychologie (6. Aufl.). Beltz PVU."
+    type: "secondary"
+    tooltip_text: "Ein deutschsprachiges Standardlehrbuch zur Entwicklungspsychologie mit ausführlicher Einordnung des Piaget-Modells."
+  - apa_citation: "Siegler, R. S., & Ellis, S. (1996). Piaget on childhood. Psychological Science, 7(4), 211–215. https://doi.org/10.1111/j.1467-9280.1996.tb00363.x"
+    type: "primary"
+    tooltip_text: "Ein einflussreicher Aufsatz, der Piagets Beobachtungen vor dem Hintergrund neuerer Säuglingsforschung neu bewertet."
+
+further_exploration:
+  - category: "Forschung"
+    title: "Piaget on Childhood — Siegler & Ellis (1996)"
+    relevance: "Der zentrale Aufsatz zur Neubewertung Piagets im Licht moderner Säuglingsforschung, frei zugänglich über die DOI."
+    url: "https://doi.org/10.1111/j.1467-9280.1996.tb00363.x"
+  - category: "Buch"
+    title: "Entwicklungspsychologie — Montada (Hrsg., 2005)"
+    relevance: "Das deutschsprachige Standardlehrbuch, das Piagets Stufentheorie im Kontext alternativer Modelle (Vygotsky, Information Processing) einordnet."
+    url: "https://www.beltz.de/fachmedien/psychologie/buecher/shop/produktdetails/34080-entwicklungspsychologie.html"

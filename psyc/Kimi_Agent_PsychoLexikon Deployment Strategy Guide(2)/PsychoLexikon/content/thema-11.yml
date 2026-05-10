@@ -1,0 +1,173 @@
+subject_meta:
+  title: "Psychometrische Gütekriterien"
+  discipline: "Psychometrie"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#d4a8a8"
+  tab_number: 11
+
+content_blocks:
+  - type: "lead"
+    text: |
+      Ob ein IQ-Test tatsächlich Intelligenz misst oder nur Rechengeschwindigkeit erfasst, entscheiden drei Gütekriterien. Jeder psychologische Test muss objektiv, reliabel und valide sein, damit seine Ergebnisse wissenschaftlich verwertbar sind. Diese Kriterien bilden das Fundament diagnostischer Entscheidungen in Klinik, Bildung und Arbeitspsychologie.
+
+  - type: "definition"
+    text: |
+      Die **Objektivität** (Unabhängigkeit vom Tester), **Reliabilität** (Messgenauigkeit) und **Validität** (Gültigkeit) sind die drei Kardinaltugenden psychologischer Tests. Sie gewährleisten, dass Messwerte nicht vom Beobachter abhängen, bei Wiederholung stabil bleiben und tatsächlich das erfassen, was sie vorgeben zu messen.
+    highlight_blue:
+      - "Objektivität"
+      - "Reliabilität"
+      - "Validität"
+    tooltips:
+      Objektivität: "Eigenschaft eines Tests, bei dem Durchführung, Auswertung und Interpretation unabhängig von der testenden Person erfolgen — kein Spielraum für subjektive Einflüsse."
+      Reliabilität: "Messgenauigkeit und Zuverlässigkeit eines Tests; ein reliabler Test liefert bei wiederholter Anwendung ähnliche Ergebnisse."
+      Validität: "Gültigkeit eines Tests; der zentrale Nachweis, dass ein Test tatsächlich das misst, was er beansprucht."
+
+  - type: "explanation"
+    text: |
+      ### Die drei Säulen psychometrischer Qualität
+
+      Jeder psychologische Test muss drei Bedingungen erfüllen, um wissenschaftlich akzeptabel zu sein. **Objektivität** bedeutet, dass Testdurchführung, -auswertung und -interpretation unabhängig von der testenden Person sind. Eine objektive Auswertung liefert dieselben Ergebnisse, ob der Test von einer erfahrenen Psychologin oder einer geschulten Assistentin durchgeführt wird.
+
+      ### Objektivität auf drei Ebenen
+
+      Die **Durchführungsobjektivität** verlangt eindeutige Instruktionen, die keinen Spielraum für individuelle Abweichungen lassen. Die **Auswertungsobjektivität** erfordert standardisierte Scoring-Regeln, die jede subjektive Interpretation ausschließen. Die **Interpretationsobjektivität** sichert, dass die Bedeutung der Ergebnisse nachvollziehbar und regelgeleitet ist.
+
+      ### Reliabilität: Wie stabil misst der Test?
+
+      **Reliabilität** bezeichnet die Messgenauigkeit und Zuverlässigkeit eines Verfahrens. Ein reliabler Test erzeugt bei wiederholter Anwendung unter gleichen Bedingungen ähnliche Ergebnisse. **Cronbach und Meehl (1955)** betonten, dass Reliabilität eine notwendige, aber keine hinreichende Bedingung für wissenschaftliche Brauchbarkeit ist.
+
+      ### Formen der Reliabilität
+
+      Die **Test-Retest-Reliabilität** prüft die zeitliche Stabilität durch zwei Testungen derselben Personen. Die **interne Konsistenz** erfasst, ob alle Items eines Tests denselben Konstrukt messen, quantifiziert durch **Cronbachs α** (Alpha).
+
+      Werte ab α = .80 gelten in der Regel als akzeptabel, Werte ab .90 als gut (Moosbrugger & Kelava, 2012).
+
+      ### Die Interrater-Reliabilität
+
+      Die **Interrater-Reliabilität** misst die Übereinstimmung unabhängiger Beurteiler bei der Auswertung offener Verfahren. Bei beobachtungsbasierten Diagnosen oder projektiven Tests ist diese Form besonders kritisch. Geringe Interrater-Übereinstimmung deutet auf mangelnde Auswertungsobjektivität hin.
+
+      ### Validität: Misst der Test das Richtige?
+
+      **Validität** ist die zentrale Frage, ob ein Test tatsächlich das misst, was er beansprucht. Sie gilt als der wichtigste Güteaspekt, da ein hochreliabler Test völlig irrelevante Dinge präzise messen kann. Die **AERA-Standards (2014)** definieren Validität als argumentativ gestützte Schlussfolgerung aus Testscores.
+
+      ### Die drei Validitätsformen
+
+      Die **Inhaltsvalidität** beurteilt, ob die Testitems das zu messende Merkmalsuniversum repräsentativ abbilden. Die **Kriteriumsvalidität** prüft die statistische Beziehung zwischen Testwerten und einem externen Kriterium wie Schulnoten oder Berufserfolg. Die **Konstruktvalidität** untersucht, ob empirische Befunde mit der theoretischen Annahme über das gemessene Konstrukt übereinstimmen (Cronbach & Meehl, 1955).
+
+      ### Konstruktvalidität im Detail
+
+      **Cronbach und Meehl (1955)** etablierten die **Konstruktvalidität** als den übergeordneten Validitätsbegriff. Sie erfordert die Integration verschiedener empirischer Evidenzen zu einem kohärenten theoretischen Netz. Das Konzept umfasst **konvergente Validität** (hohe Korrelation mit verwandten Messungen) und **diskriminante Validität** (geringe Korrelation mit unabhängigen Konstrukten).
+
+      ### Multitrait-Multimethod-Matrix
+
+      Die **Multitrait-Multimethod-Matrix** ist ein systematisches Schema zur Prüfung von Konstruktvalidität. Sie korreliert mehrere Merkmale, die jeweils mit mehreren Methoden erfasst wurden, miteinander. Hohe Monotrait-Monomethod-Korrelationen bei gleichzeitig niedrigen Heterotrait-Korrelationen bestätigen die konvergente und diskriminante Validität eines Konstrukts (Moosbrugger & Kelava, 2012).
+
+      ### Face Validity versus Construct Validity
+
+      Die **Face Validity** (oberflächliche Validität) beschreibt den subjektiven Eindruck, ob ein Test das Richtige misst. Sie ist keine echte psychometrische Eigenschaft, sondern eine pragmatische Anmutung, die die Testmotivation der Probanden beeinflusst. Die **Konstruktvalidität** hingegen ist ein streng wissenschaftlicher Nachweis, der empirische Evidenz und theoretische Argumentation verbindet.
+    highlight_blue:
+      - "Durchführungsobjektivität"
+      - "Auswertungsobjektivität"
+      - "Interpretationsobjektivität"
+      - "Test-Retest-Reliabilität"
+      - "interne Konsistenz"
+      - "Cronbachs α"
+      - "Interrater-Reliabilität"
+      - "Inhaltsvalidität"
+      - "Kriteriumsvalidität"
+      - "Konstruktvalidität"
+      - "konvergente Validität"
+      - "diskriminante Validität"
+      - "Multitrait-Multimethod-Matrix"
+      - "Face Validity"
+    highlight_red:
+      - "Cronbach und Meehl (1955) betonten, dass Reliabilität eine notwendige, aber keine hinreichende Bedingung für wissenschaftliche Brauchbarkeit ist"
+      - "Werte ab α = .80 gelten in der Regel als akzeptabel, Werte ab .90 als gut"
+      - "AERA-Standards (2014) definieren Validität als argumentativ gestützte Schlussfolgerung aus Testscores"
+      - "Cronbach und Meehl (1955) etablierten die Konstruktvalidität als den übergeordneten Validitätsbegriff"
+      - "Hohe Monotrait-Monomethod-Korrelationen bei gleichzeitig niedrigen Heterotrait-Korrelationen bestätigen die konvergente und diskriminante Validität"
+    tooltips:
+      Durchführungsobjektivität: "Gleichbleibende Testbedingungen für alle Probanden — keine Abweichungen in Instruktion, Zeit oder Umgebung je nach Tester."
+      Auswertungsobjektivität: "Standardisierte Bewertungsregeln, die jedem Tester dieselben Ergebnisse liefern, unabhängig von Erfahrung oder Vorurteil."
+      Interpretationsobjektivität: "Nachvollziehbare, regelgeleitete Schlussfolgerungen aus Testwerten — keine willkürliche Deutung."
+      Test-Retest-Reliabilität: "Stabilität der Messung über Zeit; gleicher Test wird nach einem Intervall erneut durchgeführt und die Ergebnisse korreliert."
+      interne Konsistenz: "Zusammengehörigkeit der Testfragen; alle Items sollten dasselbe Merkmal erfassen, nicht verschiedene Konstrukte."
+      Cronbachs α: "Statistischer Koeffizient zwischen 0 und 1, der angibt, wie stark die Items eines Tests miteinander zusammenhängen."
+      Interrater-Reliabilität: "Übereinstimmung verschiedener unabhängiger Beurteiler bei der Auswertung offener oder interpretierbarer Verfahren."
+      Inhaltsvalidität: "Repräsentativität der Testaufgaben für das gesamte zu messende Fähigkeits- oder Merkmalsgebiet."
+      Kriteriumsvalidität: "Statistische Vorhersagekraft des Tests für ein externes Erfolgskriterium wie Schulnoten oder Berufsleistung."
+      Konstruktvalidität: "Nachweis, dass ein Test ein theoretisch postuliertes Konstrukt tatsächlich erfasst — der Goldstandard der Validität."
+      konvergente Validität: "Hohe Übereinstimmung mit anderen Messungen desselben Konstrukts; zeigt, dass der Test das Richtige trifft."
+      diskriminante Validität: "Geringe Korrelation mit unabhängigen Konstrukten; belegt, dass der Test nicht etwas anderes mitmisst."
+      Multitrait-Multimethod-Matrix: "Systematische Korrelationsmatrix, die mehrere Merkmale mit mehreren Methoden kreuzt, um Validität zu prüfen."
+      Face Validity: "Oberflächlicher Eindruck der Probanden, ob ein Test sinnvoll erscheint — wichtig für Kooperation, aber kein wissenschaftlicher Gütewert."
+    sources_inline:
+      Cronbach und Meehl (1955) betonten, dass Reliabilität eine notwendige, aber keine hinreichende Bedingung für wissenschaftliche Brauchbarkeit ist: "Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological Bulletin, 52(4), 281–302. https://doi.org/10.1037/h0040957"
+      Werte ab α = .80 gelten in der Regel als akzeptabel, Werte ab .90 als gut: "Moosbrugger, H., & Kelava, A. (2012). Testtheorie und Fragebogenkonstruktion (2., aktual. u. überarb. Aufl.). Springer. https://doi.org/10.1007/978-3-642-20072-4"
+      AERA-Standards (2014) definieren Validität als argumentativ gestützte Schlussfolgerung aus Testscores: "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). Standards for educational and psychological testing. AERA."
+      Cronbach und Meehl (1955) etablierten die Konstruktvalidität als den übergeordneten Validitätsbegriff: "Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological Bulletin, 52(4), 281–302. https://doi.org/10.1037/h0040957"
+      Hohe Monotrait-Monomethod-Korrelationen bei gleichzeitig niedrigen Heterotrait-Korrelationen bestätigen die konvergente und diskriminante Validität: "Moosbrugger, H., & Kelava, A. (2012). Testtheorie und Fragebogenkonstruktion (2., aktual. u. überarb. Aufl.). Springer. https://doi.org/10.1007/978-3-642-20072-4"
+
+  - type: "visual"
+    svg_description: |
+      Clean line-art process flow. Vertical stack of three rounded rectangles (rx=4) connected by upward arrows. Bottom rectangle: "Objektivität" with three sub-labels beneath: "Durchführung", "Auswertung", "Interpretation". Middle rectangle: "Reliabilität" with three sub-labels: "Test-Retest", "Interne Konsistenz (α)", "Interrater". Top rectangle: "Validität" with three sub-labels: "Inhalt", "Kriterium", "Konstrukt". Dashed arrow from Reliabilität to Validität labeled "notwendig, aber nicht hinreichend". Dotted frame around Validität labeled "wissenschaftliche Brauchbarkeit". All text in German. ViewBox 0 0 400 400. Stroke #1a1a1a, 2px main lines, 1px sub-lines. No fill except light #d4a8a8 at 10% opacity behind Validität box.
+    caption: |
+      Die drei Gütekriterien bilden eine Hierarchie: Objektivität ist Grundvoraussetzung, Reliabilität sichert Messgenauigkeit, Validität begründet den wissenschaftlichen Nutzen — wobei jede höhere Stufe die darunterliegende voraussetzt, aber nicht automatisch erfüllt.
+
+  - type: "visual"
+    svg_description: |
+      Clean line-art matrix grid. 4x4 grid representing a Multitrait-Multimethod-Matrix schematic. Rows labeled: "Extraversion (Fragebogen)", "Extraversion (Beobachtung)", "Neurotizismus (Fragebogen)", "Neurotizismus (Beobachtung)". Same labels for columns. Diagonal cells (Monotrait-Monomethod) have bold borders and "++" symbol. Off-diagonal same-trait cells (Monotrait-Heteromethod) have medium borders and "+". Heterotrait cells have light borders and "o". German legend at bottom: "++ = konvergente Validität", "+ = methodenspezifischer Einfluss", "o = diskriminante Validität". ViewBox 0 0 500 400. Stroke #1a1a1a, 2px grid lines, 1px internal. No fill except light #d4a8a8 at 10% in diagonal cells.
+    caption: |
+      Die Multitrait-Multimethod-Matrix zeigt, wie ein Konstrukt nur dann valide ist, wenn Messungen desselben Merkmals mit verschiedenen Methoden einander ähnlich sind — nicht jedoch Messungen verschiedener Merkmale.
+
+  - type: "deep_dive"
+    text: |
+      ### Der logische Status der Validität
+
+      **Cronbach und Meehl (1955)** stellten die Konstruktvalidität in den Mittelpunkt psychometrischen Denkens. Sie verstanden Validität nicht als statische Eigenschaft, sondern als kontinuierlichen Evidenzprozess. Jeder neue empirische Befund kann die Validitätsannahme eines Tests bestätigen oder infrage stellen.
+
+      ### Die AERA-Standards und aktuelle Praxis
+
+      Die **Standards for Educational and Psychological Testing (AERA et al., 2014)** fassen alle Validitätsformen unter dem Validitätsbegriff zusammen. Sie betonen, dass Validität keine direkt beobachtbare Eigenschaft ist, sondern eine Schlussfolgerung aus dem Gesamtevidenznetz. **Wilkinson und die APA Task Force (1999)** forderten transparente Berichterstattung psychometrischer Kennwerte in allen Publikationen.
+    highlight_red:
+      - "Cronbach und Meehl (1955) stellten die Konstruktvalidität in den Mittelpunkt psychometrischen Denkens"
+      - "Standards for Educational and Psychological Testing (AERA et al., 2014) fassen alle Validitätsformen unter dem Validitätsbegriff zusammen"
+      - "Wilkinson und die APA Task Force (1999) forderten transparente Berichterstattung psychometrischer Kennwerte"
+    sources_inline:
+      Cronbach und Meehl (1955) stellten die Konstruktvalidität in den Mittelpunkt psychometrischen Denkens: "Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological Bulletin, 52(4), 281–302. https://doi.org/10.1037/h0040957"
+      Standards for Educational and Psychological Testing (AERA et al., 2014) fassen alle Validitätsformen unter dem Validitätsbegriff zusammen: "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). Standards for educational and psychological testing. AERA."
+      Wilkinson und die APA Task Force (1999) forderten transparente Berichterstattung psychometrischer Kennwerte: "Wilkinson, L., & APA Task Force on Statistical Inference. (1999). Statistical methods in psychology journals: Guidelines and explanations. American Psychologist, 54(8), 594–604. https://doi.org/10.1037/0003-066X.54.8.594"
+
+  - type: "example"
+    text: |
+      Ein deutscher Gymnasiast absolviert einen Begabungstest für die Hochschulzulassung. Wenn verschiedene Testleiter unterschiedliche Anweisungen geben, verletzt das die **Objektivität**. Wenn derselbe Test nach zwei Wochen völlig andere Ergebnisse liefert, fehlt **Reliabilität**. Und wenn der Test hervorragend Mathematikleistung vorhersagt, aber als "Kreativitätstest" verkauft wird, scheitert er an der **Validität**.
+
+  - type: "summary"
+    text: |
+      - Objektivität, Reliabilität und Validität bilden die unverzichtbare Dreifaltigkeit psychologischer Tests.
+      - Reliabilität ist notwendig, aber nicht hinreichend für Validität: Ein präziser Schuss ins Leere bleibt ein Fehlschuss.
+      - Konstruktvalidität ist der Goldstandard, da sie empirische Befunde und theoretische Annahmen in ein kohärentes Netz integriert.
+
+sources:
+  - apa_citation: "Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological Bulletin, 52(4), 281–302. https://doi.org/10.1037/h0040957"
+    type: "primary"
+    tooltip_text: "Der klassische Aufsatz, der Konstruktvalidität als zentrales Gütemerkmal etablierte und das nomologische Netz einführte."
+  - apa_citation: "Moosbrugger, H., & Kelava, A. (2012). Testtheorie und Fragebogenkonstruktion (2., aktual. u. überarb. Aufl.). Springer. https://doi.org/10.1007/978-3-642-20072-4"
+    type: "secondary"
+    tooltip_text: "Standardlehrbuch der deutschsprachigen Testpsychologie mit ausführlichen Kriterien zur Item- und Testkonstruktion."
+  - apa_citation: "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). Standards for educational and psychological testing. AERA."
+    type: "standards"
+    tooltip_text: "Die international anerkannten Standards für die Konstruktion, Evaluation und Anwendung psychologischer Tests."
+  - apa_citation: "Wilkinson, L., & APA Task Force on Statistical Inference. (1999). Statistical methods in psychology journals: Guidelines and explanations. American Psychologist, 54(8), 594–604. https://doi.org/10.1037/0003-066X.54.8.594"
+    type: "review"
+    tooltip_text: "APA-Leitlinien zur transparenten Berichterstattung statistischer Kennwerte und Effektstärken in psychologischen Publikationen."
+
+further_exploration:
+  - category: "Buch"
+    title: "Testtheorie und Fragebogenkonstruktion"
+    relevance: "Das Standardwerk für alle, die selbst psychologische Verfahren konstruieren oder bewerten möchten."
+    url: "https://doi.org/10.1007/978-3-642-20072-4"
+  - category: "Forschung"
+    title: "Standards for Educational and Psychological Testing"
+    relevance: "Die unverzichtbare Referenz für ethische und methodische Standards in der Testanwendung."
+    url: "https://www.testingstandards.net/"

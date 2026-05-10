@@ -1,0 +1,434 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "03",
+  "slug": "thema-03",
+  "legacy": {
+    "sourceFormat": "yaml-v1",
+    "sourcePath": "content/thema-03.yml"
+  },
+  "meta": {
+    "title": "Das Mehrkomponentenmodell des Arbeitsgedächtnisses",
+    "discipline": "Kognitionspsychologie / Gedächtnisforschung",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "tabColor": "#c7b8ea",
+    "tabNumber": 3,
+    "estimatedReadMinutes": 4,
+    "leadTeaser": "Warum kannst du gleichzeitig telefonisch Wegbeschreibungen entgegennehmen und durch den Stau navigieren, ohne sofort alles zu vergessen? Das Arbeitsgedächtnis arbeitet nicht als einzelnes Fach, sondern als koordiniertes Team aus spezialisierten Subsystemen."
+  },
+  "taxonomy": {
+    "categoryId": "perception-and-cognition",
+    "keywords": [
+      "arbeitsgedaechtnis",
+      "phonologische schleife",
+      "zentrale exekutive"
+    ],
+    "audience": [
+      "erstsemester",
+      "adhs-freundlich",
+      "selbststudium"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-03",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-03",
+      "perception-and-cognition"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Wahrnehmung & Kognition"
+      ],
+      "audience": [
+        "erstsemester",
+        "adhs-freundlich",
+        "selbststudium"
+      ],
+      "keywords": [
+        "arbeitsgedaechtnis",
+        "phonologische schleife",
+        "zentrale exekutive"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "03-lead-1",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Warum kannst du gleichzeitig telefonisch Wegbeschreibungen entgegennehmen und durch den Stau navigieren, ohne sofort alles zu vergessen? Das Arbeitsgedächtnis arbeitet nicht als einzelnes Fach, sondern als koordiniertes Team aus spezialisierten Subsystemen.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "03-definition-2",
+      "type": "definition",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Das Arbeitsgedächtnis ist ein kognitives System, das Informationen kurzfristig speichert und gleichzeitig bearbeitet. Es besteht aus mehreren spezialisierten Komponenten, die von einer zentralen Steuerinstanz koordiniert werden.",
+            "annotations": [
+              {
+                "id": "03-definition-2-def-1",
+                "text": "Arbeitsgedächtnis",
+                "kind": "definition",
+                "tooltip": "Ein kognitives System, das Informationen kurzfristig speichert und gleichzeitig bearbeitet — wie ein mentaler Schreibtisch, auf dem du rechnest und notierst.",
+                "tone": "blue"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "03-explanation-3",
+      "type": "explanation",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Das Arbeitsgedächtnis als vierbändiges Orchester"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Baddeley & Hitch (1974) postulierten das **Arbeitsgedächtnis** als eigenständiges System neben dem Langzeitgedächtnis. Das Modell umfasst vier Bausteine: zwei **Slave-Systeme** (passive Speicher), eine **Zentrale Exekutive** (Kontrollinstanz) und später den **Episodischen Puffer** (Integrator). Diese Architektur erklärt, warum wir gleichzeitig telefonieren und navigieren können, ohne sofort alles zu vergessen.",
+            "annotations": [
+              {
+                "id": "03-explanation-3-def-1",
+                "text": "Slave-Systeme",
+                "kind": "definition",
+                "tooltip": "Die beiden passiven Speicher (phonologische Schleife und visuell-räumlicher Notizblock), die von der zentralen Exekutive gesteuert werden.",
+                "tone": "blue"
+              },
+              {
+                "id": "03-explanation-3-def-2",
+                "text": "Zentrale Exekutive",
+                "kind": "definition",
+                "tooltip": "Die steuernde Instanz im Arbeitsgedächtnis, die entscheidet, welche Informationen bearbeitet und welche Untereinheiten koordiniert werden.",
+                "tone": "blue"
+              },
+              {
+                "id": "03-explanation-3-src-9",
+                "text": "Baddeley & Hitch (1974) postulierten das Arbeitsgedächtnis als eigenständiges System neben dem Langzeitgedächtnis",
+                "kind": "citation",
+                "tooltip": "Baddeley et al. (1974)",
+                "tone": "red",
+                "sourceIds": [
+                  "03-source-1"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die beiden Slave-Systeme arbeiten weitgehend unabhängig voneinander, solange die Zentrale Exekutive sie koordiniert. Das erklärt, warum visuelle und sprachliche Ablenkungen unterschiedliche Fehler produzieren.",
+            "annotations": [
+              {
+                "id": "03-explanation-3-def-1",
+                "text": "Slave-Systeme",
+                "kind": "definition",
+                "tooltip": "Die beiden passiven Speicher (phonologische Schleife und visuell-räumlicher Notizblock), die von der zentralen Exekutive gesteuert werden.",
+                "tone": "blue"
+              },
+              {
+                "id": "03-explanation-3-def-2",
+                "text": "Zentrale Exekutive",
+                "kind": "definition",
+                "tooltip": "Die steuernde Instanz im Arbeitsgedächtnis, die entscheidet, welche Informationen bearbeitet und welche Untereinheiten koordiniert werden.",
+                "tone": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Die Slave-Systeme als passive Speicher"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die **Phonologische Schleife** nimmt sprachliche Informationen auf und hält sie durch innere Wiederholung aktiv. Sie ist verantwortlich für die Fähigkeit, Telefonnummern zu behalten, während man sie eintippt. Die **Visuell-räumliche Notizblock** speichert Bilder und räumliche Anordnungen — etwa das Layout eines fremden Raums.",
+            "annotations": [
+              {
+                "id": "03-explanation-3-def-4",
+                "text": "Phonologische Schleife",
+                "kind": "definition",
+                "tooltip": "Ein Subsystem, das sprachliche Informationen für wenige Sekunden im Kopf behält, indem es sie stumm wiederholt — vergleichbar mit einer leisen inneren Stimme.",
+                "tone": "blue"
+              },
+              {
+                "id": "03-explanation-3-def-5",
+                "text": "Visuell-räumliche Notizblock",
+                "kind": "definition",
+                "tooltip": "Ein Subsystem, das visuelle Eindrücke und räumliche Positionen kurzfristig festhält — wie ein innerer Bildschirm für Formen und Orte.",
+                "tone": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Lautlich ähnliche Wörter wie \"Mahn\", \"Bahn\", \"Kahn\" überlagern sich in der phonologischen Schleife gegenseitig und reduzieren die **Arbeitsgedächtnisspanne**. Die **Artikulationsunterdrückung** tritt auf, wenn du gleichzeitig lallst oder sprichst — deine innere Wiederholung wird blockiert.",
+            "annotations": [
+              {
+                "id": "03-explanation-3-def-6",
+                "text": "Arbeitsgedächtnisspanne",
+                "kind": "definition",
+                "tooltip": "Die maximale Anzahl an Informationseinheiten, die das Arbeitsgedächtnis gleichzeitig fassen kann — typischerweise etwa sieben Elemente.",
+                "tone": "blue"
+              },
+              {
+                "id": "03-explanation-3-def-7",
+                "text": "Artikulationsunterdrückung",
+                "kind": "definition",
+                "tooltip": "Die Störung der phonologischen Schleife durch gleichzeitiges Sprechen oder Lallen — dein innerer Dialog wird übertönt.",
+                "tone": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Die Zentrale Exekutive als Dirigent"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die **Zentrale Exekutive** lenkt die **Aufmerksamkeitskontrolle**, wechselt zwischen Aufgaben und verbindet das Arbeitsgedächtnis mit dem Langzeitgedächtnis. Sie besitzt selbst keinen Speicher, sondern fungiert als reine Steuerinstanz. Ohne sie würden die Slave-Systeme widersprüchliche Informationen parallel verarbeiten.",
+            "annotations": [
+              {
+                "id": "03-explanation-3-def-1",
+                "text": "Slave-Systeme",
+                "kind": "definition",
+                "tooltip": "Die beiden passiven Speicher (phonologische Schleife und visuell-räumlicher Notizblock), die von der zentralen Exekutive gesteuert werden.",
+                "tone": "blue"
+              },
+              {
+                "id": "03-explanation-3-def-2",
+                "text": "Zentrale Exekutive",
+                "kind": "definition",
+                "tooltip": "Die steuernde Instanz im Arbeitsgedächtnis, die entscheidet, welche Informationen bearbeitet und welche Untereinheiten koordiniert werden.",
+                "tone": "blue"
+              },
+              {
+                "id": "03-explanation-3-def-8",
+                "text": "Aufmerksamkeitskontrolle",
+                "kind": "definition",
+                "tooltip": "Die Fähigkeit der zentralen Exekutive, den Fokus bewusst zu lenken und Ablenkung abzuwehren.",
+                "tone": "blue"
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Der Episodische Puffer als Szenen-Archiv"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Baddeley (2012) erweiterte das Modell um den **Episodischen Puffer**, um komplexe Szeneintegration zu erklären. Dieser Baustein verknüpft visuelle, sprachliche und zeitliche Informationen zu einem kohärenten Erlebnis. Er ermöglicht es, einen Filmplot zu verfolgen, während du gleichzeitig isst oder sprichst.",
+            "annotations": [
+              {
+                "id": "03-explanation-3-src-10",
+                "text": "Baddeley (2012) erweiterte das Modell um den Episodischen Puffer, um komplexe Szeneintegration zu erklären",
+                "kind": "citation",
+                "tooltip": "Baddeley & A. D. (2012)",
+                "tone": "red",
+                "sourceIds": [
+                  "03-source-2"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Empirische Basis der Komponententrennung"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Alloway et al. (2006) zeigten empirisch, dass verbale und visuell-räumliche Arbeitsgedächtniskomponenten bei Kindern tatsächlich separierbar sind. Kinder mit Defiziten in der phonologischen Schleife konnten dennoch räumliche Muster reproduzieren. Diese Doppeldissociation ist ein zentrales Evidenzkriterium für modulare Systeme.",
+            "annotations": [
+              {
+                "id": "03-explanation-3-src-11",
+                "text": "Alloway et al. (2006) zeigten empirisch, dass verbale und visuell-räumliche Arbeitsgedächtniskomponenten bei Kindern tatsächlich separierbar sind",
+                "kind": "citation",
+                "tooltip": "Alloway et al. (2006)",
+                "tone": "red",
+                "sourceIds": [
+                  "03-source-3"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "03-visual-4",
+      "type": "visual",
+      "asset": {
+        "kind": "svg-component",
+        "assetId": "03-visual-1",
+        "description": "Flussdiagramm im Stil clean line-art (Stroke #1a1a1a, 2px Hauptlinien, ViewBox 0 0 400 300, Hintergrund #f8f6f1).\nOben mittig eine abgerundete Rechteck-Box (rx=\"4\") mit Label \"Zentrale Exekutive\".\nVon dieser Box führen zwei Pfeile nach unten zu zwei weiteren abgerundeten Rechtecken:\nlinks \"Phonologische Schleife\" und rechts \"Visuell-räumlicher Notizblock\".\nVon allen drei oberen Boxen führen Pfeile nach unten zu einer vierten Box \"Episodischer Puffer\".\nDie Pfeile von der Zentrale Exekutive sind beschriftet mit \"Aufmerksamkeitskontrolle\".\nDer Pfeil von der Phonologischen Schleife ist beschriftet \"Sprachspeicher\".\nDer Pfeil vom Visuell-räumlichen Notizblock ist beschriftet \"Bildspeicher\".\nDie Pfeile zum Episodischen Puffer sind beschriftet \"Integration\".\nAlle Labels in 12px deutscher Fachsprache.\nTitel-Element: \"Mehrkomponentenmodell des Arbeitsgedächtnisses\".\nDesc-Element: \"Diagramm zeigt die vier Bausteine des Arbeitsgedächtnisses und ihre funktionalen Verbindungen.\"",
+        "alt": "Das SVG zeigt die vier Bausteine des Arbeitsgedächtnisses und ihre funktionalen Verbindungen — die Zentrale Exekutive als Dirigent über zwei Slave-Systemen und dem integrierenden Episodischen Puffer."
+      },
+      "caption": "Das SVG zeigt die vier Bausteine des Arbeitsgedächtnisses und ihre funktionalen Verbindungen — die Zentrale Exekutive als Dirigent über zwei Slave-Systemen und dem integrierenden Episodischen Puffer."
+    },
+    {
+      "id": "03-deep_dive-5",
+      "type": "deep_dive",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Das Limit der Kapazität und seine Folgen"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die Arbeitsgedächtnisspanne liegt bei etwa sieben Elementen, doch die tatsächliche Leistung hängt von der Art der Information ab. Phonologisch ähnliche Wörter verdrängen sich gegenseitig, weil sie im selben Speicherkanal kollidieren. Die Artikulationsunterdrückung demonstriert, dass die phonologische Schleife auf subvokale Repetition angewiesen ist.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Kritik und aktuelle Erweiterungen"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Baddeley (2012) räumte ein, dass die Zentrale Exekutive als homunkulus-artige Instanz zu diffus bleibt. Neuere Ansätze integrieren das Modell in neuronale Netzwerke und betonen die Interaktion mit Aufmerksamkeitsnetzwerken des Gehirns. Trotz dieser Kritik bleibt das Mehrkomponentenmodell das dominierende Rahmenwerk der Gedächtnisforschung.",
+            "annotations": [
+              {
+                "id": "03-deep_dive-5-src-1",
+                "text": "Baddeley (2012) räumte ein, dass die Zentrale Exekutive als homunkulus-artige Instanz zu diffus bleibt",
+                "kind": "citation",
+                "tooltip": "Baddeley & A. D. (2012)",
+                "tone": "red",
+                "sourceIds": [
+                  "03-source-2"
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "03-example-6",
+      "type": "example",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Du fährst mit dem Fahrrad durch eine unbekannte Stadt und hörst dir die Wegbeschreibung deines Navigations-Apps an. Die Phonologische Schleife behält die Ansage 'zweite links, dann rechts', der Visuell-räumliche Notizblock speichert die Straßenschilder, und die Zentrale Exekutive koordiniert beides, während sie gleichzeitig den Verkehr beobachtet. Der Episodische Puffer integriert die Szene zu einem kohärenten Erlebnis, das du später erzählen kannst.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "03-summary-7",
+      "type": "summary",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Das Arbeitsgedächtnis besteht aus vier Bausteinen: Phonologische Schleife, Visuell-räumlicher Notizblock, Zentrale Exekutive und Episodischer Puffer. • Die beiden Slave-Systeme speichern sprachliche und visuelle Informationen passiv, während die Zentrale Exekutive als steuernde Instanz fungiert. • Empirische Evidenz aus Doppeldissociationsstudien bestätigt die modulare Architektur des Modells.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "03-source-1",
+      "kind": "primary",
+      "shortCitation": "Baddeley et al. (1974)",
+      "apaCitation": "Baddeley, A. D., & Hitch, G. J. (1974). Working memory. In G. H. Bower (Hrsg.), The psychology of learning and motivation: Advances in research and theory (Bd. 8, S. 47–89). Academic Press.",
+      "tooltip": "Die ursprüngliche Primärstudie, die das Mehrkomponentenmodell des Arbeitsgedächtnisses als Alternative zur Einheitlichkeit des Kurzzeitgedächtnisses postulierte.",
+      "verification": {
+        "status": "legacy-imported",
+        "checkedAgainst": [
+          "legacy-source-list"
+        ]
+      }
+    },
+    {
+      "id": "03-source-2",
+      "kind": "review",
+      "shortCitation": "Baddeley & A. D. (2012)",
+      "apaCitation": "Baddeley, A. D. (2012). Working memory: Theories, models, and controversies. Annual Review of Psychology, 63, 1–29. https://doi.org/10.1146/annurev-psych-120710-100422",
+      "tooltip": "Ein Überblicksartikel, der 40 Jahre Modellentwicklung resümiert, den episodischen Puffer einführt und aktuelle Kontroversen diskutiert.",
+      "url": "https://doi.org/10.1146/annurev-psych-120710-100422",
+      "doi": "10.1146/annurev-psych-120710-100422",
+      "verification": {
+        "status": "legacy-imported",
+        "checkedAgainst": [
+          "legacy-source-list"
+        ]
+      }
+    },
+    {
+      "id": "03-source-3",
+      "kind": "secondary",
+      "shortCitation": "Alloway et al. (2006)",
+      "apaCitation": "Alloway, T. P., Gathercole, S. E., & Pickering, S. J. (2006). Verbal and visuospatial short-term and working memory in children: Are they separable? Child Development, 77(6), 1698–1716. https://doi.org/10.1111/j.1467-8624.2006.00968.x",
+      "tooltip": "Eine empirische Studie an Kindern, die die Separierbarkeit verbaler und visuell-räumlicher Arbeitsgedächtniskomponenten durch Doppeldissociation nachweist.",
+      "url": "https://doi.org/10.1111/j.1467-8624.2006.00968.x",
+      "doi": "10.1111/j.1467-8624.2006.00968.x",
+      "verification": {
+        "status": "legacy-imported",
+        "checkedAgainst": [
+          "legacy-source-list"
+        ]
+      }
+    },
+    {
+      "id": "03-source-4",
+      "kind": "secondary",
+      "shortCitation": "Gruber & H. (2011)",
+      "apaCitation": "Gruber, H. (2011). Lernen und Gedächtnis: Einführung in die Lernpsychologie (2. Aufl.). Pearson.",
+      "tooltip": "Ein einführendes Lehrbuch zur Lern- und Gedächtnispsychologie, das das Mehrkomponentenmodell im Kontext der Gedächtnisforschung verortet.",
+      "verification": {
+        "status": "legacy-imported",
+        "checkedAgainst": [
+          "legacy-source-list"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "03-resource-1",
+      "category": "Forschung",
+      "title": "Working Memory Test Battery for Children (WMTB-C)",
+      "relevance": "Ein standardisiertes Testverfahren zur Erfassung der einzelnen Komponenten des Arbeitsgedächtnisses, das in vielen deutschsprachigen Studien eingesetzt wird.",
+      "url": "https://doi.org/10.1111/j.1467-8624.2006.00968.x"
+    },
+    {
+      "id": "03-resource-2",
+      "category": "Buch",
+      "title": "Lernen und Gedächtnis: Einführung in die Lernpsychologie",
+      "relevance": "Grubers Lehrbuch bietet einen soliden deutschsprachigen Einstieg in die komplette Gedächtnisforschung mit Fokus auf Arbeitsgedächtnismodelle.",
+      "url": "https://www.pearson.de"
+    }
+  ]
+}

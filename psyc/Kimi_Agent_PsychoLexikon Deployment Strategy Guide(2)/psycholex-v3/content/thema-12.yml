@@ -1,0 +1,165 @@
+subject_meta:
+  title: "Theorien der Motivation und Emotion"
+  discipline: "Motivations- und Emotionspsychologie"
+  difficulty: "Erstsemester-Komplexitätsgrad"
+  tab_color: "#d4a8a8"
+  tab_number: 12
+
+content_blocks:
+  - type: "lead"
+    text: |
+      Warum lernt jemand drei Stunden Klavier, ohne dass ein Prüfer zuschaut — während ein anderer erst bei Drohung mit schlechter Note anfangen will? Motivation und Emotion sind zwei Seiten derselben adaptiven Medaille: Sie steuern Zielverhalten und bewerten seine Bedeutung für das Überleben. Beide Prozesse verbinden Körper und Geist mit der sozialen Umwelt.
+
+  - type: "definition"
+    text: |
+      **Motivation** (Verhaltensantrieb) erklärt die Richtung, Intensität und Persistenz menschlichen Handelns. **Emotion** (affektive Bewertung) ist ein kurzzeitiger, multidimensionaler Zustand aus subjektivem Erleben, physiologischer Aktivierung und Ausdrucksverhalten. Beide Prozesse sind funktional miteinander verwoben: Emotionen signalisieren Bedeutung, Motivationen kanalisieren Reaktionen.
+    highlight_blue:
+      - "Motivation"
+      - "Emotion"
+    tooltips:
+      Motivation: "Innerer oder äußerer Antrieb, der die Auswahl, Intensität und Dauer eines Verhaltens bestimmt — das Warum hinter dem Handeln."
+      Emotion: "Kurzzeitiger, ganzheitlicher Zustand aus Körperreaktion, subjektivem Erleben und Ausdrucksverhalten, der die Bedeutung einer Situation bewertet."
+
+  - type: "explanation"
+    text: |
+      ### Intrinsische und extrinsische Motivation
+
+      **Intrinsische Motivation** (inneres Interesse) bezeichnet Handeln, das um seiner selbst willen ausgeführt wird. **Extrinsische Motivation** (äußerer Anreiz) entsteht durch erwartete Belohnungen, Drohungen oder soziale Anerkennung. **Heckhausen und Heckhausen (2010)** zeigen, dass übermäßige extrinsische Kontrolle intrinsisches Interesse systematisch untergraben kann.
+
+      ### Selbstbestimmungstheorie: Autonomie als Kernbedürfnis
+
+      Die **Selbstbestimmungstheorie** (Self-Determination Theory, SDT) von Deci und Ryan identifiziert drei universelle psychologische Grundbedürfnisse: Autonomie, Kompetenz und soziale Eingebundenheit (Heckhausen & Heckhausen, 2010). Befriedigte Grundbedürfnisse fördern intrinsische Motivation und psychisches Wohlbefinden. Bedrohte Bedürfnisse führen zu kontrolliertem Handeln und reduzierter Leistungsqualität.
+
+      ### Leistungsmotivation: Anspruch und Vermeidung
+
+      Die **Leistungsmotivation** umfasst zwei konfligierende Tendenzen: die Hoffnung auf Erfolg und die Furcht vor Misserfolg (Heckhausen & Heckhausen, 2010). Atkinson modellierte die resultierende Tendenz als algebraische Funktion aus Motivstärke, Erfolgserwartung und Incentive-Wert. Hohe Furcht vor Misserfolg kann paradoxerweise zur Vermeidung herausfordernder Aufgaben führen, auch wenn Erfolg wahrscheinlich wäre.
+
+      ### Historische Einordnung: Maslows Hierarchie
+
+      Maslows Bedürfnishierarchie bleibt populärkulturell präsent, hat aber empirisch kaum Bestand. Die pyramidenförmige Abfolge von physiologischen über Sicherheits- und soziale Bedürfnisse bis hin zu Selbstverwirklichung ist nicht als streng sequentiell bestätigt (Rheinberg, 2008). Sie dient heute vor allem als heuristisches Einstiegsmodell, nicht als theoretisch fundierte Theorie.
+
+      ### Emotionstheorien: Körper und Bewusstsein
+
+      Emotionstheorien streiten um die kausale Reihenfolge von Körperreaktion und subjektivem Erleben. Die klassischen Positionen bilden ein Kontinuum von somatischer Dominanz bis kognitiver Kontrolle. **Rheinberg (2008)** ordnet diese Theorien nach dem Grad der Einflussnahme von Physiologie und Kognition.
+
+      ### James-Lange: Der Körper fühlt zuerst
+
+      Die **James-Lange-Theorie** besagt, dass Emotionen aus der wahrgenommenen körperlichen Reaktion auf ein Ereignis entstehen. Wir weinen nicht, weil wir traurig sind — wir sind traurig, weil wir weinen (Rheinberg, 2008). Diese rein somatische Erklärung wurde durch den Nachweis kausaler Hirnprozesse unabhängig von Körperfeedback modifiziert.
+
+      ### Cannon-Bard: Gleichzeitige Aktivierung
+
+      Die **Cannon-Bard-Theorie** postuliert, dass physiologische Erregung und emotionales Erleben unabhängig und gleichzeitig vom Thalamus ausgelöst werden. Ein und dasselbe Ereignis aktiviert somit parallel den Körper und das Bewusstsein. Diese Theorie widerlegte die Annahme, dass jede Emotion eine einzigartige körperliche Signatur besitzt.
+
+      ### Zwei-Faktoren-Theorie: Kognition konstruiert Emotion
+
+      Die **Zwei-Faktoren-Theorie** (Schachter-Singer) führt Emotionen auf die kognitive Interpretation unspezifischer körperlicher Erregung zurück. Derselbe physiologische Zustand kann als Wut, Freude oder Angst erlebt werden, je nachdem, welcher Umweltkontext zur Attribution herangezogen wird (Rheinberg, 2008). Die Theorie betont die informationsverarbeitende Rolle des Individuums bei der Emotionsentstehung.
+
+      ### Appraisal-Theorien: Bewertung vor Emotion
+
+      Die **Appraisal-Theorien** (Bewertungstheorien) vertreten die zentrale Annahme, dass Emotionen durch die kognitive Bewertung eines Ereignisses entstehen. **Scherer (in Scherer et al., 2001)** entwickelte ein komponentenprozessmodell, das multiple sequentielle Prüfungen wie Neuheit, innere Konkordanz und Zielrelevanz vorschlägt. Diese Theorie erklärt, warum dieselbe Situation bei verschiedenen Personen unterschiedliche Emotionen auslöst.
+
+      ### Basisemotionen und universelle Ausdrücke
+
+      **Basisemotionen** (Grundemotionen) sind nach **Ekman (1992)** evolutionär präparierte, universelle Affektprogramme. Er identifizierte Freude, Trauer, Wut, Angst, Ekel und Überraschung als kulturell unabhängige emotionale Grundmuster, die durch charakteristische mimische Ausdrücke erkennbar sind. Cross-kulturelle Studien bestätigten die hohe Erkennungsrate dieser Basisausdrücke selbst in visuell isolierten Gesellschaften (Ekman, 1992).
+
+      ### Display Rules: Kulturelle Maskierung
+
+      **Display Rules** (Ausdrucksregeln) sind kulturspezifische Normen, die steuern, wann, wie und gegenüber wem emotionale Ausdrücke gezeigt werden dürfen. **Ekman (1992)** differenzierte zwischen universellen Emotionsprogrammen und kulturvariablen Ausdrucksregeln. In manchen Kulturen ist öffentliche Trauer erwünscht, in anderen als Schwäche stigmatisiert — die zugrundeliegende Emotion bleibt dennoch identisch.
+    highlight_blue:
+      - "Intrinsische Motivation"
+      - "Extrinsische Motivation"
+      - "Selbstbestimmungstheorie"
+      - "Leistungsmotivation"
+      - "James-Lange-Theorie"
+      - "Cannon-Bard-Theorie"
+      - "Zwei-Faktoren-Theorie"
+      - "Appraisal-Theorien"
+      - "Basisemotionen"
+      - "Display Rules"
+    highlight_red:
+      - "Heckhausen und Heckhausen (2010) zeigen, dass übermäßige extrinsische Kontrolle intrinsisches Interesse systematisch untergraben kann"
+      - "Rheinberg (2008) ordnet diese Theorien nach dem Grad der Einflussnahme von Physiologie und Kognition"
+      - "Scherer (in Scherer et al., 2001) entwickelte ein komponentenprozessmodell"
+      - "Ekman (1992) evolutionär präparierte, universelle Affektprogramme"
+      - "Ekman (1992) differenzierte zwischen universellen Emotionsprogrammen und kulturvariablen Ausdrucksregeln"
+    tooltips:
+      Intrinsische Motivation: "Handeln aus eigenem Interesse und innerer Freude am Prozess — nicht wegen äußerer Belohnung oder Drohung."
+      Extrinsische Motivation: "Handeln, das durch externe Anreize wie Geld, Noten oder Anerkennung getrieben wird, nicht durch inneres Interesse."
+      Selbstbestimmungstheorie: "Motivationstheorie, die drei universelle Grundbedürfnisse postuliert: Autonomie, Kompetenz und soziale Eingebundenheit."
+      Leistungsmotivation: "Individuelle Bereitschaft, sich mit anspruchsvollen Aufgaben zu messen und Erfolg oder Misserfolg emotional zu verarbeiten."
+      James-Lange-Theorie: "Älteste Emotionstheorie, die besagt: Zuerst reagiert der Körper, dann erleben wir die Emotion als Wahrnehmung dieser Reaktion."
+      Cannon-Bard-Theorie: "Neurobiologische Emotionstheorie, die Gleichzeitigkeit von Körperreaktion und Bewusstsein durch den Thalamus erklärt."
+      Zwei-Faktoren-Theorie: "Emotionstheorie nach Schachter und Singer: Physiologische Erregung plus kognitive Interpretation erzeugen eine bestimmte Emotion."
+      Appraisal-Theorien: "Kognitive Emotionstheorien, die besagen: Wir bewerten eine Situation erst, und diese Bewertung erzeugt dann die Emotion."
+      Basisemotionen: "Evolutionär vorgeformte, universelle emotionale Grundmuster mit charakteristischen mimischen und physiologischen Ausdrücken."
+      Display Rules: "Kulturspezifische soziale Normen, die regeln, wann, wo und gegenüber wem welche Emotion gezeigt oder verdeckt werden darf."
+    sources_inline:
+      Heckhausen und Heckhausen (2010) zeigen, dass übermäßige extrinsische Kontrolle intrinsisches Interesse systematisch untergraben kann: "Heckhausen, J., & Heckhausen, H. (Hrsg.). (2010). Motivation und Handeln (4. Aufl.). Springer. https://doi.org/10.1007/978-3-642-12693-3"
+      Rheinberg (2008) ordnet diese Theorien nach dem Grad der Einflussnahme von Physiologie und Kognition: "Rheinberg, F. (2008). Motivation (8. Aufl.). Kohlhammer."
+      Scherer (in Scherer et al., 2001) entwickelte ein komponentenprozessmodell: "Scherer, K. R., Schorr, A., & Johnstone, T. (Hrsg.). (2001). Appraisal processes in emotion: Theory, methods, research. Oxford University Press."
+      Ekman (1992) evolutionär präparierte, universelle Affektprogramme: "Ekman, P. (1992). An argument for basic emotions. Cognition & Emotion, 6(3–4), 169–200. https://doi.org/10.1080/02699939208411068"
+      Ekman (1992) differenzierte zwischen universellen Emotionsprogrammen und kulturvariablen Ausdrucksregeln: "Ekman, P. (1992). An argument for basic emotions. Cognition & Emotion, 6(3–4), 169–200. https://doi.org/10.1080/02699939208411068"
+
+  - type: "visual"
+    svg_description: |
+      Clean line-art process diagram. Central circle labeled "Selbstbestimmung". Three surrounding rounded rectangles connected by arrows pointing to center: "Autonomie" (top left), "Kompetenz" (top right), "soziale Eingebundenheit" (bottom). Each rectangle has 2 sub-items: Autonomie has "Eigenwahl", "Selbstwirksamkeit"; Kompetenz has "Meisterschaft", "Optimale Herausforderung"; soziale Eingebundenheit has "Zugehörigkeit", "Beziehungsqualität". Arrow from center downward to vertical slider labeled "Regulationsstufen". Slider from top to bottom: "intrinsische Regulation", "identifizierte Regulation", "introjizierte Regulation", "äußere Regulation". Contrast bar on far right: greenish tint at top for "autonom", gray at bottom for "kontrolliert". ViewBox 0 0 500 400. Stroke #1a1a1a, 2px main, 1px sub. No fill except light #d4a8a8 at 10% in central circle and top slider region.
+    caption: |
+      Die Selbstbestimmungstheorie zeigt, wie die Befriedigung der drei Grundbedürfnisse intrinsische Motivation aufrechterhält — während extrinsische Regulationsstufen vom Selbst nach außen verlaufen und kontrolliertes Handeln anzeigen.
+
+  - type: "visual"
+    svg_description: |
+      Clean line-art comparison diagram. Three horizontal process flows stacked vertically, each showing "Reiz" on left and "Emotion" on right. Top flow (James-Lange): solid arrow from Reiz to "Körperreaktion" box, then solid arrow to "Bewusstsein/Emotion" box. Label above: "Körper zuerst". Middle flow (Cannon-Bard): arrow from Reiz splits at diamond node into two parallel arrows to "Körperreaktion" and "Bewusstsein/Emotion" simultaneously. Label above: "Thalamus aktiviert beides". Bottom flow (Schachter-Singer): arrow from Reiz to "unspezifische Erregung" box, then arrow to "kognitive Bewertung" diamond, then arrow to "Emotion". Dashed feedback arrow from Emotion back to Bewertung. Label above: "Erregung + Kognition". A small overlay circle at right labeled "Appraisal" with text "kognitive Bewertung moduliert alle Stufen". ViewBox 0 0 500 400. Stroke #1a1a1a, 2px main, 1px sub. No fill except light #d4a8a8 at 10% behind Emotion boxes.
+    caption: |
+      Die drei klassischen Emotionstheorien unterscheiden sich in der kausalen Reihenfolge: James-Lange lässt den Körper vorausgehen, Cannon-Bard postuliert Gleichzeitigkeit, Schachter-Singer setzt die kognitive Interpretation der unspezifischen Erregung entscheidend ein.
+
+  - type: "deep_dive"
+    text: |
+      ### Das Motivation-Emotion-Problem: Ein oder zwei Systeme?
+
+      **Heckhausen und Heckhausen (2010)** betonen die funktionale Einheit von Motivation und Emotion. Motivationen erzeugen Emotionen durch das Streben nach Zielen, Emotionen generieren Motivationen durch affektive Bewertung. Diese Wechselwirkung erschwert eine strenge Trennung beider Prozesse auf neurobiologischer Ebene.
+
+      ### Kritik an der Basisemotionsthese
+
+      **Ekman (1992)** argumentierte für universelle Basisemotionen, doch die Konstruktvalidität des Konzepts bleibt umstritten. Kulturelle Variabilität in Emotionswahrnehmung und das Fehlen eindeutiger neurobiologischer Korrelate einzelner Basisemotionen werfen Fragen auf (Scherer et al., 2001). Die Debatte zwischen Nativisten und Konstruktivisten prägt die Emotionsforschung bis heute.
+    highlight_red:
+      - "Heckhausen und Heckhausen (2010) betonen die funktionale Einheit von Motivation und Emotion"
+      - "Ekman (1992) argumentierte für universelle Basisemotionen, doch die Konstruktvalidität des Konzepts bleibt umstritten"
+      - "Kulturelle Variabilität in Emotionswahrnehmung und das Fehlen eindeutiger neurobiologischer Korrelate einzelner Basisemotionen werfen Fragen auf"
+    sources_inline:
+      Heckhausen und Heckhausen (2010) betonen die funktionale Einheit von Motivation und Emotion: "Heckhausen, J., & Heckhausen, H. (Hrsg.). (2010). Motivation und Handeln (4. Aufl.). Springer. https://doi.org/10.1007/978-3-642-12693-3"
+      Ekman (1992) argumentierte für universelle Basisemotionen, doch die Konstruktvalidität des Konzepts bleibt umstritten: "Ekman, P. (1992). An argument for basic emotions. Cognition & Emotion, 6(3–4), 169–200. https://doi.org/10.1080/02699939208411068"
+      Kulturelle Variabilität in Emotionswahrnehmung und das Fehlen eindeutiger neurobiologischer Korrelate einzelner Basisemotionen werfen Fragen auf: "Scherer, K. R., Schorr, A., & Johnstone, T. (Hrsg.). (2001). Appraisal processes in emotion: Theory, methods, research. Oxford University Press."
+
+  - type: "example"
+    text: |
+      Eine österreichische Studentin bereitet sich auf eine Statistikprüfung vor. **Intrinsisch motiviert** liest sie aus Interesse an Zahlenmustererkennung; **extrinsisch motiviert** aus Angst vor Studienabbruch. Wenn sie die Klausur besteht, empfindet sie Freude — aber ob diese Freude zuerst als Körperreaktion (Herzrasen) oder als kognitive Bewertung ("Ich habe es geschafft!") entsteht, hängt von der theoretischen Linse ab. In Japan würde sie ihre Freude möglicherweise zurückhaltender zeigen als in Italien — die **Display Rules** ihrer Kultur modulieren den Ausdruck, nicht aber die Basisemotion selbst.
+
+  - type: "summary"
+    text: |
+      - Motivation erklärt das Warum des Verhaltens, Emotion bewertet dessen Bedeutung — beide sind funktional untrennbar.
+      - Intrinsische Motivation entsteht aus befriedigten Grundbedürfnissen; extrinsische Anreize können sie untergraben oder internalisieren.
+      - Emotionen erfordern körperliche Erregung und kognitive Bewertung, doch ihre kausale Reihenfolge bleibt theoretisch kontrovers.
+
+sources:
+  - apa_citation: "Heckhausen, J., & Heckhausen, H. (Hrsg.). (2010). Motivation und Handeln (4. Aufl.). Springer. https://doi.org/10.1007/978-3-642-12693-3"
+    type: "secondary"
+    tooltip_text: "Das Standardlehrbuch der deutschsprachigen Motivationspsychologie mit umfassender Darstellung historischer und aktueller Theorien."
+  - apa_citation: "Rheinberg, F. (2008). Motivation (8. Aufl.). Kohlhammer."
+    type: "secondary"
+    tooltip_text: "Kompaktes Lehrbuch mit Fokus auf intrinsische und extrinsische Motivation sowie Anwendungen im Bildungskontext."
+  - apa_citation: "Scherer, K. R., Schorr, A., & Johnstone, T. (Hrsg.). (2001). Appraisal processes in emotion: Theory, methods, research. Oxford University Press."
+    type: "review"
+    tooltip_text: "Grundlegender Sammelband zur Appraisal-Forschung, der kognitive Bewertungsprozesse als Kern der Emotionsentstehung etabliert."
+  - apa_citation: "Ekman, P. (1992). An argument for basic emotions. Cognition & Emotion, 6(3–4), 169–200. https://doi.org/10.1080/02699939208411068"
+    type: "primary"
+    tooltip_text: "Ekmans klassischer Aufsatz zur Evolutionstheorie der Basisemotionen mit empirischen Evidenzen für universelle mimische Ausdrücke."
+
+further_exploration:
+  - category: "Buch"
+    title: "Motivation und Handeln"
+    relevance: "Die umfassendste deutschsprachige Darstellung motivationaler Prozesse von Lernmotivation bis Lebenslaufgestaltung."
+    url: "https://doi.org/10.1007/978-3-642-12693-3"
+  - category: "Forschung"
+    title: "Appraisal processes in emotion: Theory, methods, research"
+    relevance: "Der Sammelband, der die kognitive Bewertung als unverzichtbaren Mechanismus der Emotionsgenese etablierte."
+    url: "https://doi.org/10.1093/acprof:oso/9780195139605.001.0001"

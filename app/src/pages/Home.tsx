@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion'
-import { subjectsData } from '@/data/subjects'
 import Navbar from '@/components/Navbar'
 import Footer from '@/components/Footer'
 import SubjectCard from '@/components/SubjectCard'
+import { listArticles } from '@/content/api'
+
+const articles = listArticles()
 
 export default function Home() {
   return (
@@ -42,7 +44,7 @@ export default function Home() {
           },
         }}
       >
-        {subjectsData.map((subject) => (
+        {articles.map((subject) => (
           <motion.div
             key={subject.id}
             className="h-full"
