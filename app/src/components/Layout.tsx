@@ -48,7 +48,7 @@ export default function Layout({ children }: LayoutProps) {
       <div className="w-full max-w-[1100px] relative">
         <div className="relative flex items-start">
           <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible">
-            <div className="pr-4 sm:pr-6">
+            <div>
               <NotebookPage>
                 <div className="px-6 py-8 sm:px-10 sm:py-12 lg:px-16 lg:py-12">
                   {children}
