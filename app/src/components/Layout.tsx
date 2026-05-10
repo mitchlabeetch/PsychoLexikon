@@ -29,8 +29,8 @@ export default function Layout({ children }: LayoutProps) {
           'font-body font-medium text-[#1a1a1a] transition-all duration-200 hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a1a1a]/20',
           compact
             ? 'rounded-full px-4 py-2 text-sm shadow-sm'
-            : 'rounded-r-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:scale-105',
-          isActive || activeCategory === tab.label ? 'translate-x-[2px] shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
+            : 'rounded-r-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:translate-x-3',
+          isActive || activeCategory === tab.label ? 'translate-x-3 shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
         ].join(' ')
       }
       style={{
