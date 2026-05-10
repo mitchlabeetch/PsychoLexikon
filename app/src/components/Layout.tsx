@@ -20,16 +20,14 @@ export default function Layout({ children }: LayoutProps) {
     category.subjects.some((subjectId) => pathname === `/thema/${subjectId}`),
   )?.label
 
-  const renderTab = (tab: (typeof categories)[number], compact = false) => (
+  const renderTab = (tab: (typeof categories)[number]) => (
     <NavLink
       key={tab.label}
       to={`/thema/${tab.subjects[0]}`}
       className={({ isActive }) =>
         [
-          'font-body font-medium text-[#1a1a1a] transition-all duration-400 hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a1a1a]/20',
-          compact
-            ? 'rounded-full px-4 py-2 text-sm shadow-sm'
-            : 'rounded-r-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:translate-x-1 tab-vertical',
+          'font-body font-medium text-[#1a1a1a] transition-all duration-300 hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a1a1a]/20',
+          'rounded-r-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:translate-x-1 tab-vertical',
           isActive || activeCategory === tab.label ? 'translate-x-1 shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
         ].join(' ')
       }
@@ -43,7 +41,7 @@ export default function Layout({ children }: LayoutProps) {
   )
 
   return (
-    <div className="min-h-[100dvh] bg-bg-outer flex justify-center px-4 py-6 sm:px-6 lg:px-8">
+    <div className="min-h-[100dvh] bg-bg-outer flex justify-center overflow-x-clip px-4 py-6 sm:px-6 lg:px-8">
       <div className="w-full max-w-[1100px] relative">
         <div className="relative flex items-start">
           <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible">
