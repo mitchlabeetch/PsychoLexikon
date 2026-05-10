@@ -46,10 +46,6 @@ export default function Layout({ children }: LayoutProps) {
   return (
     <div className="min-h-[100dvh] bg-bg-outer flex justify-center px-4 py-6 sm:px-6 lg:px-8">
       <div className="w-full max-w-[1100px] relative">
-        <div className="mb-4 flex gap-2 overflow-x-auto pb-2 lg:hidden">
-          {categories.map((tab) => renderTab(tab, true))}
-        </div>
-
         <div className="relative flex items-start">
           <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible">
             <div className="pr-4 sm:pr-6">
