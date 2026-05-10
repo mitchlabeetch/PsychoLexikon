@@ -54,7 +54,7 @@ export default function Layout({ children }: LayoutProps) {
           </div>
 
           {/* Tabs — sibling of the book, lower z-index so book overlaps them */}
-          <div className="absolute top-0 right-0 z-0" style={{ transform: 'translateX(50%)' }}>
+          <div className="absolute top-0 right-0 h-full z-0" style={{ transform: 'translateX(50%)' }}>
             <div className="sticky top-6 flex flex-col gap-1 sm:gap-3 ml-2 sm:ml-4 mt-6 pointer-events-auto">
               {categories.map((tab) => renderTab(tab))}
             </div>
