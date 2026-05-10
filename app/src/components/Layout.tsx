@@ -44,7 +44,7 @@ export default function Layout({ children }: LayoutProps) {
     <div className="min-h-[100dvh] bg-bg-outer flex justify-center overflow-x-clip px-4 py-6 sm:px-6 lg:px-8">
       <div className="w-full max-w-[1100px] relative">
         <div className="relative flex items-start">
-          <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible">
+          <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible z-10">
             <div>
               <NotebookPage>
                 <div className="px-6 py-8 sm:px-10 sm:py-12 lg:px-16 lg:py-12">
@@ -54,8 +54,8 @@ export default function Layout({ children }: LayoutProps) {
             </div>
 
             {/* Absolute positioned sticky tabs on the right edge - partially overlapping the book */}
-            <div className="absolute top-0 right-0 flex flex-col gap-3" style={{ transform: 'translateX(50%)' }}>
-              <div className="sticky top-6 flex flex-col gap-3 ml-4 mt-6 -z-10 pointer-events-auto">
+            <div className="absolute top-0 right-0 flex flex-col gap-3 -z-10" style={{ transform: 'translateX(50%)' }}>
+              <div className="sticky top-6 flex flex-col gap-3 ml-4 mt-6 pointer-events-auto">
                 {categories.map((tab) => renderTab(tab))}
               </div>
             </div>
