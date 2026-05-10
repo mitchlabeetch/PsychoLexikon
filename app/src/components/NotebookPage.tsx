@@ -81,7 +81,7 @@ export default function NotebookPage({ children }: NotebookPageProps) {
         ))}
       </div>
 
-      <div className="pl-10">
+      <div>
         {children}
       </div>
     </div>
