@@ -45,12 +45,16 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <div className="min-h-[100dvh] bg-bg-outer flex justify-center px-4 py-6 sm:px-6 lg:px-8">
-      <div className="w-full max-w-[1100px]">
+      <div className="w-full max-w-[1100px] relative">
         <div className="mb-4 flex gap-2 overflow-x-auto pb-2 lg:hidden">
           {categories.map((tab) => renderTab(tab, true))}
         </div>
 
         <div className="flex items-start gap-4 lg:gap-6">
+          <div className="sticky top-6 left-0 flex flex-col gap-3 -translate-x-full -ml-12">
+            {categories.map((tab) => renderTab(tab))}
+          </div>
+
           <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-hidden">
             <div className="pr-4 sm:pr-6">
               <NotebookPage>
@@ -59,10 +63,6 @@ export default function Layout({ children }: LayoutProps) {
                 </div>
               </NotebookPage>
             </div>
-          </div>
-
-          <div className="sticky top-6 hidden lg:flex lg:flex-col lg:gap-3">
-            {categories.map((tab) => renderTab(tab))}
           </div>
         </div>
       </div>
