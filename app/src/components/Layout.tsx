@@ -29,13 +29,13 @@ export default function Layout({ children }: LayoutProps) {
           'font-body font-medium text-[#1a1a1a] transition-all duration-200 hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a1a1a]/20',
           compact
             ? 'rounded-full px-4 py-2 text-sm shadow-sm'
-            : 'rounded-l-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:scale-105',
-          isActive || activeCategory === tab.label ? 'translate-x-[-2px] shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
+            : 'rounded-r-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:scale-105',
+          isActive || activeCategory === tab.label ? 'translate-x-[2px] shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
         ].join(' ')
       }
       style={{
         backgroundColor: tab.color,
-        writingMode: compact ? 'horizontal-tb' : 'vertical-rl',
+        writingMode: compact ? 'horizontal-tb' : 'vertical-lr',
       }}
       title={`Springe zu ${tab.label}`}
     >
@@ -50,18 +50,21 @@ export default function Layout({ children }: LayoutProps) {
           {categories.map((tab) => renderTab(tab, true))}
         </div>
 
-        <div className="flex items-start gap-4 lg:gap-6">
-          <div className="sticky top-6 left-0 flex flex-col gap-3 -translate-x-full -ml-12">
-            {categories.map((tab) => renderTab(tab))}
-          </div>
-
-          <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-hidden">
+        <div className="relative flex items-start">
+          <div className="min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-hidden">
             <div className="pr-4 sm:pr-6">
               <NotebookPage>
                 <div className="px-6 py-8 sm:px-10 sm:py-12 lg:px-16 lg:py-12">
                   {children}
                 </div>
               </NotebookPage>
+            </div>
+          </div>
+
+          {/* Zero-width sticky column that keeps tabs glued to the right edge of the book */}
+          <div className="w-0 self-stretch">
+            <div className="sticky top-6 flex flex-col gap-3">
+              {categories.map((tab) => renderTab(tab))}
             </div>
           </div>
         </div>
