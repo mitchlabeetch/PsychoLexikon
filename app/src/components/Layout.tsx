@@ -58,7 +58,7 @@ export default function Layout({ children }: LayoutProps) {
 
             {/* Absolute positioned sticky tabs on the right edge - partially overlapping the book */}
             <div className="absolute top-0 right-0 flex flex-col gap-3" style={{ transform: 'translateX(50%)' }}>
-              <div className="sticky top-6 flex flex-col gap-3">
+              <div className="sticky top-6 flex flex-col gap-3 ml-4 mt-6">
                 {categories.map((tab) => renderTab(tab))}
               </div>
             </div>
