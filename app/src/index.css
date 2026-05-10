@@ -88,3 +88,9 @@
     font-family: var(--font-body);
   }
 }
+
+@layer utilities {
+  .tab-vertical {
+    writing-mode: vertical-rl;
+  }
+}

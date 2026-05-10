@@ -20,22 +20,19 @@ export default function Layout({ children }: LayoutProps) {
     category.subjects.some((subjectId) => pathname === `/thema/${subjectId}`),
   )?.label
 
-  const renderTab = (tab: (typeof categories)[number], compact = false) => (
+  const renderTab = (tab: (typeof categories)[number]) => (
     <NavLink
       key={tab.label}
       to={`/thema/${tab.subjects[0]}`}
       className={({ isActive }) =>
         [
-          'font-body font-medium text-[#1a1a1a] transition-all duration-200 hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a1a1a]/20',
-          compact
-            ? 'rounded-full px-4 py-2 text-sm shadow-sm'
-            : 'rounded-l-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:scale-105',
-          isActive || activeCategory === tab.label ? 'translate-x-[-2px] shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
+          'font-body font-medium text-[#1a1a1a] transition-all duration-300 hover:brightness-95 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#1a1a1a]/20',
+          'rounded-r-lg px-1.5 py-3 text-[clamp(0.5rem,1vh,0.7rem)] shadow-sm hover:translate-x-1 tab-vertical',
+          isActive || activeCategory === tab.label ? 'translate-x-1 shadow-[0_8px_20px_rgba(0,0,0,0.14)]' : '',
         ].join(' ')
       }
       style={{
         backgroundColor: tab.color,
-        writingMode: compact ? 'horizontal-tb' : 'vertical-rl',
       }}
       title={`Springe zu ${tab.label}`}
     >
@@ -44,25 +41,24 @@ export default function Layout({ children }: LayoutProps) {
   )
 
   return (
-    <div className="min-h-[100dvh] bg-bg-outer flex justify-center px-4 py-6 sm:px-6 lg:px-8">
-      <div className="w-full max-w-[1100px]">
-        <div className="mb-4 flex gap-2 overflow-x-auto pb-2 lg:hidden">
-          {categories.map((tab) => renderTab(tab, true))}
-        </div>
-
-        <div className="flex items-start gap-4 lg:gap-6">
-          <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-hidden">
-            <div className="pr-4 sm:pr-6">
+    <div className="min-h-[100dvh] bg-bg-outer flex justify-center overflow-x-clip px-4 py-6 sm:px-6 lg:px-8">
+      <div className="w-full max-w-[1100px] relative">
+        <div className="relative flex items-start">
+          <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible">
+            <div>
               <NotebookPage>
                 <div className="px-6 py-8 sm:px-10 sm:py-12 lg:px-16 lg:py-12">
                   {children}
                 </div>
               </NotebookPage>
             </div>
-          </div>
 
-          <div className="sticky top-6 hidden lg:flex lg:flex-col lg:gap-3">
-            {categories.map((tab) => renderTab(tab))}
+            {/* Absolute positioned sticky tabs on the right edge - partially overlapping the book */}
+            <div className="absolute top-0 right-0 flex flex-col gap-3" style={{ transform: 'translateX(50%)' }}>
+              <div className="sticky top-6 flex flex-col gap-3 ml-4 mt-6 z-0 pointer-events-auto">
+                {categories.map((tab) => renderTab(tab))}
+              </div>
+            </div>
           </div>
         </div>
       </div>
