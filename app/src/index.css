@@ -93,4 +93,10 @@
   .tab-vertical {
     writing-mode: vertical-rl;
   }
+  
+  /* Text wrapping utility */
+  .text-wrap {
+    overflow-wrap: break-word;
+    word-break: break-word;
+  }
 }

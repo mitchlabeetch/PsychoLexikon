@@ -71,17 +71,17 @@ export default function NotebookPage({ children }: NotebookPageProps) {
 
   return (
     <div ref={pageRef} className="relative" id="notebook-page">
-      <div className="absolute left-0 top-0 w-8 z-10 pointer-events-none" style={{ height: '100%' }}>
+      <div className="absolute left-0 top-0 w-4 sm:w-8 z-10 pointer-events-none" style={{ height: '100%' }}>
         {holes.map((position) => (
           <div
             key={position}
-            className="absolute left-2 w-3 h-3 rounded-full border-2 border-[#ccc] bg-bg-outer shadow-sm"
+            className="absolute left-1 sm:left-2 w-2 sm:w-3 h-2 sm:h-3 rounded-full border-2 border-[#ccc] bg-bg-outer shadow-sm"
             style={{ top: `${position}px` }}
           />
         ))}
       </div>
 
-      <div className="pl-8">
+      <div className="pl-3 sm:pl-8">
         {children}
       </div>
     </div>

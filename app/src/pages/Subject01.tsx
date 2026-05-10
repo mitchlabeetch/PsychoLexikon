@@ -131,23 +131,23 @@ export default function Subject01() {
     <article className="font-body text-text-primary">
       {/* Breadcrumb */}
       <nav className="mb-6" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-2 font-body text-[0.875rem] text-text-muted">
+        <ol className="flex items-center gap-1 sm:gap-2 font-body text-[0.75rem] sm:text-[0.875rem] text-text-muted flex-wrap text-wrap">
           <li><Link to="/" className="hover:underline">PsychoLexicon</Link></li>
           <li>/</li>
-          <li>{meta.discipline}</li>
+          <li className="truncate">{meta.discipline}</li>
           <li>/</li>
-          <li className="truncate max-w-[200px]">{meta.title}</li>
+          <li className="truncate max-w-[150px]">{meta.title}</li>
         </ol>
       </nav>
 
       {/* H1 */}
-      <h1 className="font-display font-bold text-[2rem] leading-tight tracking-[-0.02em] text-text-primary mb-3">
+      <h1 className="font-display font-bold text-[1.5rem] sm:text-[2rem] leading-tight tracking-[-0.02em] text-text-primary mb-3 text-wrap">
         {meta.title}
       </h1>
 
       {/* Disziplin-Tag */}
       <span
-        className="inline-block font-body font-medium text-[0.75rem] uppercase tracking-wide px-3 py-1 rounded-full mb-8"
+        className="inline-block font-body font-medium text-[0.65rem] sm:text-[0.75rem] uppercase tracking-wide px-2 sm:px-3 py-0.5 sm:py-1 rounded-full mb-8"
         style={{ backgroundColor: tabColor + '33', color: tabColor }}
       >
         {meta.discipline}
@@ -156,7 +156,7 @@ export default function Subject01() {
       {/* Lead */}
       {leadBlock?.text && (
         <div
-          className="italic text-[1.125rem] leading-relaxed p-4 pr-5 mb-8 rounded-r"
+          className="italic text-[0.95rem] sm:text-[1.125rem] leading-relaxed p-4 pr-5 mb-8 rounded-r text-wrap"
           style={{
             backgroundColor: tabColor + '14',
             borderLeft: `3px solid ${tabColor}`,
@@ -175,8 +175,8 @@ export default function Subject01() {
       {/* Definition */}
       {definitionBlock?.text && (
         <section className="mb-8">
-          <h3 className="font-display font-bold text-[1.25rem] text-text-primary mb-3">Definition</h3>
-          <p className="text-[1rem] leading-[1.7]">
+          <h3 className="font-display font-bold text-[1.05rem] sm:text-[1.25rem] text-text-primary mb-3 text-wrap">Definition</h3>
+          <p className="text-[0.95rem] sm:text-[1rem] leading-[1.7] text-wrap">
             {renderTextWithHighlights(
               definitionBlock.text,
               definitionBlock.highlight_blue,
@@ -201,9 +201,9 @@ export default function Subject01() {
                 const rest = para.slice(headingMatch[0].length);
                 return (
                   <div key={pIdx} className="mb-4">
-                    <h4 className="font-body font-semibold text-[1rem] text-text-primary mt-6 mb-2">{heading}</h4>
+                    <h4 className="font-body font-semibold text-[0.95rem] sm:text-[1rem] text-text-primary mt-6 mb-2 text-wrap">{heading}</h4>
                     {rest && (
-                      <p className="text-[1rem] leading-[1.7]">
+                      <p className="text-[0.95rem] sm:text-[1rem] leading-[1.7] text-wrap">
                         {renderTextWithHighlights(
                           rest,
                           block.highlight_blue,
@@ -218,7 +218,7 @@ export default function Subject01() {
               }
 
               return (
-                <p key={pIdx} className="text-[1rem] leading-[1.7] mb-4">
+                <p key={pIdx} className="text-[0.95rem] sm:text-[1rem] leading-[1.7] mb-4 text-wrap">
                   {renderTextWithHighlights(
                     para,
                     block.highlight_blue,
@@ -262,7 +262,7 @@ export default function Subject01() {
       {/* Deep Dive */}
       {deepDiveBlock?.text && (
         <section className="my-8 p-6 rounded-lg" style={{ backgroundColor: '#f0ece4' }}>
-          <h3 className="font-display font-bold text-[1.25rem] text-text-primary mb-4">Vertiefung</h3>
+          <h3 className="font-display font-bold text-[1.05rem] sm:text-[1.25rem] text-text-primary mb-4 text-wrap">Vertiefung</h3>
           {processParagraphs(deepDiveBlock.text).map((para, idx) => {
             const headingMatch = para.match(/^\*\*(.+?)\*\*\s*\n?/);
             if (headingMatch) {
@@ -270,9 +270,9 @@ export default function Subject01() {
               const rest = para.slice(headingMatch[0].length);
               return (
                 <div key={idx} className="mb-4">
-                  <h4 className="font-body font-semibold text-[1rem] text-text-primary mt-4 mb-2">{heading}</h4>
+                  <h4 className="font-body font-semibold text-[0.95rem] sm:text-[1rem] text-text-primary mt-4 mb-2 text-wrap">{heading}</h4>
                   {rest && (
-                    <p className="text-[1rem] leading-[1.7]">
+                    <p className="text-[0.95rem] sm:text-[1rem] leading-[1.7] text-wrap">
                       {renderTextWithHighlights(
                         rest,
                         deepDiveBlock.highlight_blue,
@@ -286,7 +286,7 @@ export default function Subject01() {
               );
             }
             return (
-              <p key={idx} className="text-[1rem] leading-[1.7] mb-4">
+              <p key={idx} className="text-[0.95rem] sm:text-[1rem] leading-[1.7] mb-4 text-wrap">
                 {renderTextWithHighlights(
                   para,
                   deepDiveBlock.highlight_blue,
@@ -303,8 +303,8 @@ export default function Subject01() {
       {/* Example */}
       {exampleBlock?.text && (
         <section className="my-8 pl-4" style={{ borderLeft: '3px solid #ccc' }}>
-          <h3 className="font-display font-bold text-[1.25rem] text-text-primary mb-3">Alltagsbeispiel</h3>
-          <p className="text-[1rem] leading-[1.7] italic">
+          <h3 className="font-display font-bold text-[1.05rem] sm:text-[1.25rem] text-text-primary mb-3 text-wrap">Alltagsbeispiel</h3>
+          <p className="text-[0.95rem] sm:text-[1rem] leading-[1.7] italic text-wrap">
             {renderTextWithHighlights(
               exampleBlock.text,
               exampleBlock.highlight_blue,
@@ -319,13 +319,13 @@ export default function Subject01() {
       {/* Summary */}
       {summaryBlock?.text && (
         <section className="my-8">
-          <h3 className="font-display font-bold text-[1.25rem] text-text-primary mb-4">Zusammenfassung</h3>
+          <h3 className="font-display font-bold text-[1.05rem] sm:text-[1.25rem] text-text-primary mb-4 text-wrap">Zusammenfassung</h3>
           <ul className="space-y-3">
             {summaryBlock.text
               .split(/\n/)
               .filter((line) => line.trim().startsWith('•') || line.trim().startsWith('-'))
               .map((line, idx) => (
-                <li key={idx} className="flex items-start gap-3 text-[1rem] leading-[1.7]">
+                <li key={idx} className="flex items-start gap-3 text-[0.95rem] sm:text-[1rem] leading-[1.7] text-wrap">
                   <span
                     className="inline-block w-2 h-2 rounded-full mt-2 shrink-0"
                     style={{ backgroundColor: tabColor }}
@@ -340,11 +340,11 @@ export default function Subject01() {
       {/* Sources */}
       {subject.sources.length > 0 && (
         <section className="mt-12 pt-8" style={{ borderTop: '1px solid #ccc' }}>
-          <h2 className="font-display font-bold text-[1.5rem] text-text-primary mb-6">Quellen</h2>
+          <h2 className="font-display font-bold text-[1.25rem] sm:text-[1.5rem] text-text-primary mb-6 text-wrap">Quellen</h2>
           <div className="space-y-4">
             {subject.sources.map((source: Source, idx) => (
               <div key={idx} className="p-4 rounded-lg bg-[#f8f6f1] border border-[#eee]">
-                <p className="font-body text-[0.875rem] text-text-primary leading-relaxed mb-2">
+                <p className="font-body text-[0.8rem] sm:text-[0.875rem] text-text-primary leading-relaxed mb-2 text-wrap">
                   {source.apa_citation}
                 </p>
                 <div className="flex items-center gap-2">
@@ -371,20 +371,20 @@ export default function Subject01() {
       {/* Further Exploration */}
       {subject.further_exploration.length > 0 && (
         <section className="mt-8 pt-6" style={{ borderTop: '1px solid #ccc' }}>
-          <h2 className="font-display font-bold text-[1.5rem] text-text-primary mb-6">Vertiefung</h2>
+          <h2 className="font-display font-bold text-[1.25rem] sm:text-[1.5rem] text-text-primary mb-6 text-wrap">Vertiefung</h2>
           <div className="space-y-4">
             {subject.further_exploration.map((item: FurtherExploration, idx) => (
               <div key={idx} className="p-4 rounded-lg border border-[#eee]">
                 <div className="flex items-center gap-2 mb-2">
                   <span
-                    className="inline-block font-body font-medium text-[0.75rem] uppercase px-2 py-0.5 rounded text-[#1a1a1a]"
+                    className="inline-block font-body font-medium text-[0.65rem] sm:text-[0.75rem] uppercase px-2 py-0.5 rounded text-[#1a1a1a]"
                     style={{ backgroundColor: tabColor + '33' }}
                   >
                     {item.category}
                   </span>
                 </div>
-                <h4 className="font-body font-semibold text-[1rem] text-text-primary mb-1">{item.title}</h4>
-                <p className="font-body text-[0.875rem] text-text-secondary leading-relaxed mb-2">{item.relevance}</p>
+                <h4 className="font-body font-semibold text-[0.95rem] sm:text-[1rem] text-text-primary mb-1 text-wrap">{item.title}</h4>
+                <p className="font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary leading-relaxed mb-2 text-wrap">{item.relevance}</p>
                 <a
                   href={item.url}
                   target="_blank"
@@ -403,7 +403,7 @@ export default function Subject01() {
       <div className="mt-12 pt-6" style={{ borderTop: '1px solid #ccc' }}>
         <Link
           to="/"
-          className="inline-flex items-center gap-2 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
+          className="inline-flex items-center gap-2 font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
         >
           <span>←</span> Zurück zur Übersicht
         </Link>
