@@ -1,0 +1,372 @@
+{
+  "corpusId": "analzy-deployment-v2",
+  "sourceRoot": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy",
+  "extractedFrom": {
+    "deployDir": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2",
+    "bundlePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js",
+    "researchDir": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_德语心理学学习APP\\research"
+  },
+  "primaryPages": [
+    {
+      "component": "Aktionspotential",
+      "route": "/aktionspotential",
+      "title": "Aktionspotential & Synaptische Transmission",
+      "imageAssets": [
+        "illu-neuron.png",
+        "illu-action-potential.png",
+        "illu-synapse.png"
+      ],
+      "citationCount": 2,
+      "definitionCount": 16,
+      "relatedRoutes": [
+        "/gestaltgesetze"
+      ]
+    },
+    {
+      "component": "Gestaltgesetze",
+      "route": "/gestaltgesetze",
+      "title": "Gestaltgesetze & Prägnanzprinzip",
+      "imageAssets": [
+        "illu-gestalt-grouping.png",
+        "illu-praegnanz.png",
+        "illu-optical-illusions.png"
+      ],
+      "citationCount": 4,
+      "definitionCount": 5,
+      "relatedRoutes": [
+        "/aktionspotential",
+        "/arbeitsgedaechtnis"
+      ]
+    },
+    {
+      "component": "Arbeitsgedaechtnis",
+      "route": "/arbeitsgedaechtnis",
+      "title": "Das Arbeitsgedächtnis nach Baddeley",
+      "imageAssets": [
+        "illu-working-memory.png",
+        "illu-phonological-loop.png"
+      ],
+      "citationCount": 4,
+      "definitionCount": 3,
+      "relatedRoutes": [
+        "/gestaltgesetze",
+        "/konditionierung"
+      ]
+    },
+    {
+      "component": "Konditionierung",
+      "route": "/konditionierung",
+      "title": "Klassische & Operante Konditionierung",
+      "imageAssets": [
+        "illu-classical-conditioning.png",
+        "illu-operant-conditioning.png",
+        "illu-skinner-box.png"
+      ],
+      "citationCount": 5,
+      "definitionCount": 5,
+      "relatedRoutes": [
+        "/arbeitsgedaechtnis"
+      ]
+    },
+    {
+      "component": "BisModell",
+      "route": "/bis-modell",
+      "title": "Berliner Intelligenzstrukturmodell (BIS)",
+      "subtitle": "Wie sich Intelligenz entfaltet — Jägers mehrdimensionales Modell",
+      "imageAssets": [
+        "illu-bis-radex.png"
+      ],
+      "citationCount": 4,
+      "definitionCount": 2,
+      "relatedRoutes": [
+        "/intelligenztheorien",
+        "/faktorenanalyse",
+        "/iq-tests"
+      ]
+    },
+    {
+      "component": "Piaget",
+      "route": "/piaget",
+      "title": "Kognitive Entwicklung nach Piaget",
+      "subtitle": "Vom Baby zum logischen Denker — Piagets Entwicklungsstufen",
+      "imageAssets": [
+        "illu-piaget-stages.png",
+        "illu-conservation-task.png"
+      ],
+      "citationCount": 5,
+      "definitionCount": 5,
+      "relatedRoutes": [
+        "/vygotsky",
+        "/sprachentwicklung",
+        "/core-knowledge"
+      ]
+    },
+    {
+      "component": "Attribution",
+      "route": "/attribution",
+      "title": "Attributionstheorie",
+      "subtitle": "Warum Menschen das tun, was sie tun — Die Psychologie der Ursachenzuschreibung",
+      "imageAssets": [
+        "illu-attribution-dimensions.png"
+      ],
+      "citationCount": 7,
+      "definitionCount": 2,
+      "relatedRoutes": [
+        "/selbstwirksamkeit",
+        "/leistungsmotivation",
+        "/sozialkognition",
+        "/lernen-hilflosigkeit"
+      ]
+    },
+    {
+      "component": "BigFive",
+      "route": "/big-five",
+      "title": "Fünf-Faktoren-Modell (Big Five)",
+      "subtitle": "OCEAN — Die fünf Dimensionen, die Persönlichkeit strukturieren",
+      "imageAssets": [
+        "illu-big-five-radar.png",
+        "illu-big-five-traits.png"
+      ],
+      "citationCount": 5,
+      "definitionCount": 2,
+      "relatedRoutes": [
+        "/hexaco",
+        "/persoenlichkeitsstoerungen",
+        "/mischel",
+        "/persoenlichkeitstests"
+      ]
+    },
+    {
+      "component": "Versuchsplanung",
+      "route": "/versuchsplanung",
+      "title": "Experimentelle Versuchsplanung",
+      "imageAssets": [
+        "illu-experimental-design.png",
+        "illu-hypothesis-testing.png"
+      ],
+      "citationCount": 4,
+      "definitionCount": 3,
+      "relatedRoutes": [
+        "/signifikanztestung",
+        "/psychometrie"
+      ]
+    },
+    {
+      "component": "Signifikanztestung",
+      "route": "/signifikanztestung",
+      "title": "Signifikanztestung & p-Werte",
+      "imageAssets": [
+        "illu-p-value.png",
+        "illu-error-types.png"
+      ],
+      "citationCount": 6,
+      "definitionCount": 2,
+      "relatedRoutes": [
+        "/versuchsplanung",
+        "/psychometrie"
+      ]
+    },
+    {
+      "component": "Psychometrie",
+      "route": "/psychometrie",
+      "title": "Psychometrische Gütekriterien",
+      "imageAssets": [
+        "illu-reliability-validity.png",
+        "illu-test-quality.png"
+      ],
+      "citationCount": 5,
+      "definitionCount": 8,
+      "relatedRoutes": [
+        "/versuchsplanung",
+        "/signifikanztestung"
+      ]
+    },
+    {
+      "component": "MotivationEmotion",
+      "route": "/motivation-emotion",
+      "title": "Theorien der Motivation & Emotion",
+      "imageAssets": [
+        "illu-maslow-pyramid.png",
+        "illu-james-lange.png",
+        "illu-schachter-singer.png"
+      ],
+      "citationCount": 10,
+      "definitionCount": 7,
+      "relatedRoutes": []
+    }
+  ],
+  "relatedRoutes": [
+    {
+      "route": "/aktionspotential",
+      "label": "← Aktionspotential"
+    },
+    {
+      "route": "/arbeitsgedaechtnis",
+      "label": "← Arbeitsgedächtnis"
+    },
+    {
+      "route": "/core-knowledge",
+      "label": "Core Knowledge Theory"
+    },
+    {
+      "route": "/faktorenanalyse",
+      "label": "Faktorenanalyse"
+    },
+    {
+      "route": "/gestaltgesetze",
+      "label": "← Gestaltgesetze"
+    },
+    {
+      "route": "/hexaco",
+      "label": "HEXACO-Modell"
+    },
+    {
+      "route": "/intelligenztheorien",
+      "label": "Intelligenztheorien im Überblick"
+    },
+    {
+      "route": "/iq-tests",
+      "label": "IQ-Tests und Diagnostik"
+    },
+    {
+      "route": "/konditionierung",
+      "label": "Konditionierung →"
+    },
+    {
+      "route": "/leistungsmotivation",
+      "label": "Leistungsmotivation"
+    },
+    {
+      "route": "/lernen-hilflosigkeit",
+      "label": "Gelernte Hilflosigkeit"
+    },
+    {
+      "route": "/mischel",
+      "label": "Mischel: Person-Situation"
+    },
+    {
+      "route": "/persoenlichkeitsstoerungen",
+      "label": "Persönlichkeitsstörungen"
+    },
+    {
+      "route": "/persoenlichkeitstests",
+      "label": "Persönlichkeitstests"
+    },
+    {
+      "route": "/selbstwirksamkeit",
+      "label": "Selbstwirksamkeit nach Bandura"
+    },
+    {
+      "route": "/sozialkognition",
+      "label": "Soziale Kognition"
+    },
+    {
+      "route": "/sprachentwicklung",
+      "label": "Sprachentwicklung im Kindesalter"
+    },
+    {
+      "route": "/vygotsky",
+      "label": "Vygotsky: Soziale Entwicklung"
+    }
+  ],
+  "imageAssets": [
+    "hero-bg.png",
+    "illu-action-potential.png",
+    "illu-attribution-dimensions.png",
+    "illu-big-five-radar.png",
+    "illu-big-five-traits.png",
+    "illu-bis-radex.png",
+    "illu-classical-conditioning.png",
+    "illu-conservation-task.png",
+    "illu-drive-reduction.png",
+    "illu-error-types.png",
+    "illu-experimental-design.png",
+    "illu-gestalt-grouping.png",
+    "illu-hypothesis-testing.png",
+    "illu-james-lange.png",
+    "illu-maslow-pyramid.png",
+    "illu-neuron.png",
+    "illu-operant-conditioning.png",
+    "illu-optical-illusions.png",
+    "illu-p-value.png",
+    "illu-phonological-loop.png",
+    "illu-piaget-stages.png",
+    "illu-praegnanz.png",
+    "illu-reliability-validity.png",
+    "illu-schachter-singer.png",
+    "illu-skinner-box.png",
+    "illu-synapse.png",
+    "illu-test-quality.png",
+    "illu-working-memory.png"
+  ],
+  "researchFiles": [
+    {
+      "fileName": "adhd_learning_papers.csv",
+      "rowCount": 2,
+      "headers": [
+        "title",
+        "authors",
+        "year",
+        "citations",
+        "abstract",
+        "result_id",
+        "publication_info",
+        "pdf_links",
+        "url",
+        "total_results",
+        "search_time"
+      ]
+    },
+    {
+      "fileName": "attention_mechanism_papers.csv",
+      "rowCount": 9,
+      "headers": [
+        "title",
+        "authors",
+        "year",
+        "citations",
+        "abstract",
+        "result_id",
+        "publication_info",
+        "pdf_links",
+        "url",
+        "total_results",
+        "search_time"
+      ]
+    },
+    {
+      "fileName": "leitner_algorithm_papers.csv",
+      "rowCount": 7,
+      "headers": [
+        "title",
+        "authors",
+        "year",
+        "citations",
+        "abstract",
+        "result_id",
+        "publication_info",
+        "pdf_links",
+        "url",
+        "total_results",
+        "search_time"
+      ]
+    },
+    {
+      "fileName": "spaced_repetition_papers.csv",
+      "rowCount": 7,
+      "headers": [
+        "title",
+        "authors",
+        "year",
+        "citations",
+        "abstract",
+        "result_id",
+        "publication_info",
+        "pdf_links",
+        "url",
+        "total_results",
+        "search_time"
+      ]
+    }
+  ]
+}

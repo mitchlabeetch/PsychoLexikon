@@ -1,0 +1,1540 @@
+{
+  "corpusId": "analzy-deployment-v2",
+  "drafts": [
+    {
+      "articleId": "01",
+      "canonicalSlug": "thema-01",
+      "component": "Aktionspotential",
+      "recoveredRoute": "/aktionspotential",
+      "title": "Aktionspotential & Synaptische Transmission",
+      "categoryId": "biological-psychology",
+      "taxonomyPath": [
+        "Biologische Psychologie"
+      ],
+      "keywords": [
+        "aktionspotential",
+        "synapse",
+        "neurotransmitter"
+      ],
+      "leadCandidate": "Aktionspotential & Synaptische Transmission",
+      "sectionHeadings": [
+        "Das Ruhepotential: -70 mV",
+        "Das Aktionspotential: Alles oder Nichts",
+        "Saltatorische Erregungsleitung: Springen statt Kriechen",
+        "Synaptische Transmission: Vom elektrischen zum chemischen Signal",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Aktionspotential & Synaptische Transmission",
+        "Wie Neurone miteinander kommunizieren — von der Ionenpumpe bis zur Synapse",
+        "Eine Nervenzelle in Ruhe trägt eine negative Ladung von etwa −70 Millivolt (mV) im Inneren relativ zum Außenraum. Diese Spannung entsteht durch drei Faktoren.",
+        "Das Aktionspotential: Alles oder Nichts",
+        "Die Phasen des Aktionspotentials: Ruhepotential, Depolarisation, Repolarisation und Hyperpolarisation.",
+        "Saltatorische Erregungsleitung: Springen statt Kriechen",
+        "Synaptische Transmission: Vom elektrischen zum chemischen Signal",
+        "Chemische Synapse: Vesikel (1) fusionieren mit der Membran (2) und setzen Neurotransmitter frei (3), die an postsynaptische Rezeptoren (4) binden.",
+        "The Journal of Physiology, 117",
+        "Nature Reviews Neuroscience, 3",
+        "Kinetic models of synaptic transmission",
+        "The Journal of Physiology, 535",
+        "2-Minute Neuroscience: The Action Potential"
+      ],
+      "definitions": [
+        {
+          "term": "Na⁺/K⁺-ATPase",
+          "definition": "Eine Energie verbrauchende Ionenpumpe, die 3 Natrium-Ionen (Na⁺) aus der Zelle pumpt und 2 Kalium-Ionen (K⁺) hineintransportiert — gegen deren Konzentrationsgradienten.",
+          "label": "Na⁺/K⁺-ATPase"
+        },
+        {
+          "term": "K⁺-Leak-Kanäle",
+          "definition": "Passiv geöffnete Ionenkanäle, die Kalium-Ionen (K⁺) aus der Zelle strömen lassen und so zur negativen Membranspannung beitragen.",
+          "label": "K⁺-Leak-Kanäle"
+        },
+        {
+          "term": "Phospholipid-Doppelschicht",
+          "definition": "Doppelschicht aus Fettmolekülen, die die Zellmembran bildet und für deren elektrische Isolationsfähigkeit sorgt.",
+          "label": "Phospholipid-Doppelschicht"
+        },
+        {
+          "term": "Ionenkanal",
+          "definition": "Protein in der Zellmembran, das den Durchtritt bestimmter Ionen ermöglicht — oft gesteuert durch Spannung, Liganden oder mechanische Reize.",
+          "label": "Ionenkanäle"
+        },
+        {
+          "term": "Konzentrationsgradient",
+          "definition": "Unterschied in der Ionenkonzentration zwischen Intra- und Extrazellulärraum, der als treibende Kraft für den passiven Ionenfluss wirkt.",
+          "label": "Konzentrationsgradient"
+        },
+        {
+          "term": "Depolarisation",
+          "definition": "Phase des Aktionspotentials, bei der die Membran durch Na⁺-Einstrom positiv wird (von −70 mV bis ca. +30 mV).",
+          "label": "depolarisiert"
+        },
+        {
+          "term": "Repolarisation",
+          "definition": "Phase des Aktionspotentials, bei der K⁺-Ausstrom die Membran wieder negativ macht (Rückkehr zum Ruhepotential).",
+          "label": "repolarisiert"
+        },
+        {
+          "term": "Hyperpolarisation",
+          "definition": "Phase, in der die Membran kurzzeitig negativer als das Ruhepotential wird (ca. −80 mV), da K⁺-Kanäle träge schließen.",
+          "label": "Hyperpolarisation"
+        },
+        {
+          "term": "Refraktärzeit",
+          "definition": "Zeitfenster nach einem Aktionspotential, in dem ein neues AP unmöglich (absolute Refraktärzeit) oder nur durch stärkere Reize ausgelöst werden kann (relative Refraktärzeit).",
+          "label": "Refraktärzeit"
+        },
+        {
+          "term": "Myelinisierung",
+          "definition": "Umhüllung von Axonen durch Gliazellen (Oligodendrozyten im ZNS, Schwann-Zellen im PNS), die eine isolierende Fettschicht bildet.",
+          "label": "myelinierten"
+        },
+        {
+          "term": "Ranvier-Schnürring",
+          "definition": "Lücken zwischen Myelinsegmenten, an denen das Aktionspotential regeneriert wird.",
+          "label": "Ranvier-Schnürring"
+        },
+        {
+          "term": "Exozytose",
+          "definition": "Prozess, bei dem synaptische Vesikel mit der präsynaptischen Membran fusionieren und Neurotransmitter in den synaptischen Spalt freisetzen.",
+          "label": "Exozytose"
+        },
+        {
+          "term": "Neurotransmitter",
+          "definition": "Chemische Botenstoffe, die über den synaptischen Spalt diffundieren und an postsynaptische Rezeptoren binden — z. B. Glutamat (erregend) oder GABA (hemmend).",
+          "label": "Neurotransmitter"
+        },
+        {
+          "term": "Ionotroper Rezeptor",
+          "definition": "Ligandengesteuerter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
+          "label": "ionotrope Rezeptoren"
+        },
+        {
+          "term": "Metabotroper Rezeptor",
+          "definition": "G-Protein-gekoppelter Rezeptor — langsame, indirekte Wirkung über Second-Messenger-Kaskaden (Sekunden bis Minuten).",
+          "label": "Metabotrope Rezeptor"
+        },
+        {
+          "term": "Reuptake-Transporter",
+          "definition": "Proteine in der präsynaptischen Membran, die Neurotransmitter aus dem synaptischen Spalt zurück in die präsynaptische Zelle transportieren.",
+          "label": "Reuptake-Transporter"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Hodgkin, A. L., & Huxley, A. F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117(4), 500–544. https://doi.org/10.1113/jphysiol.1952.sp004764",
+          "excerpt": "Hodgkin & Huxley (1952)"
+        },
+        {
+          "citation": "Katz, B. (1966). Nerve, muscle, and synapse. McGraw-Hill."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-neuron.png",
+          "publicSrc": "/recovered/analzy/illu-neuron.png"
+        },
+        {
+          "assetName": "illu-action-potential.png",
+          "publicSrc": "/recovered/analzy/illu-action-potential.png"
+        },
+        {
+          "assetName": "illu-synapse.png",
+          "publicSrc": "/recovered/analzy/illu-synapse.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/gestaltgesetze",
+          "label": "← Gestaltgesetze"
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/01-aktionspotential.bundle.txt"
+    },
+    {
+      "articleId": "02",
+      "canonicalSlug": "thema-02",
+      "component": "Gestaltgesetze",
+      "recoveredRoute": "/gestaltgesetze",
+      "title": "Gestaltgesetze & Prägnanzprinzip",
+      "categoryId": "perception-and-cognition",
+      "taxonomyPath": [
+        "Wahrnehmung & Kognition"
+      ],
+      "keywords": [
+        "gestaltgesetze",
+        "praegnanz",
+        "figur-grund"
+      ],
+      "leadCandidate": "Gestaltgesetze & Prägnanzprinzip",
+      "sectionHeadings": [
+        "Die klassischen Gestaltgesetze",
+        "Gesetz der Nähe",
+        "Gesetz der Ähnlichkeit",
+        "Gesetz der geschlossenen Form",
+        "Gesetz der guten Fortsetzung",
+        "Gesetz des gemeinsamen Schicksals",
+        "Figur-Grund-Organisation",
+        "Das Prägnanzprinzip: Das Ganze ist anders als die Summe seiner Teile",
+        "Bottom-up vs. Top-down: Zwei Wege zur Wahrnehmung",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Gestaltgesetze & Prägnanzprinzip",
+        "Warum wir mehr sehen, als vor unseren Augen ist",
+        "Die klassischen Gestaltgesetze",
+        "Ähnliche Elemente werden gruppiert — nach Farbe, Form, Größe oder Orientierung. Ein Schachbrettmuster aus schwarzen und weißen Kreisen wahrnehmen wir als Reihen gleicher Farbe, nicht als abwechselnde Diagonalen. In einem Scatterplot markieren wir verschiedene Gruppen mit unterschiedlichen Farben — genau weil unser visuelles System Ähnlichkeit nutzt.",
+        "Linien werden so wahrgenommen, dass sie sich möglichst glatt fortsetzen. Wenn zwei Linien sich kreuzen, sehen wir nicht zwei spitze Winkel, sondern zwei durchgehende Linien, die sich überkreuzen. Das erklärt, warum wir verschlungene Schnüre als separate, kontinuierliche Fäden erkennen.",
+        "Gesetz des gemeinsamen Schicksals",
+        "Elemente, die sich gemeinsam in dieselbe Richtung bewegen, werden als Einheit gesehen — unabhängig von ihrer räumlichen Nähe oder Ähnlichkeit. Ein Schwarm Vögel, der synchron durch den Himmel zieht, wird als eine Gruppe wahrgenommen, selbst wenn die einzelnen Vögel weit auseinanderliegen.",
+        "Das Prägnanzprinzip: Das Ganze ist anders als die Summe seiner Teile",
+        "Bottom-up vs. Top-down: Zwei Wege zur Wahrnehmung",
+        "Principles of Gestalt psychology",
+        "The ecological approach to visual perception",
+        "Michael Bach: Optische Täuschungen",
+        "Verywell Mind: Gestalt Psychology"
+      ],
+      "definitions": [
+        {
+          "term": "Figur",
+          "definition": "Der vordergründige, hervorgehobene Teil einer Wahrnehmung, auf den sich die Aufmerksamkeit richtet.",
+          "label": "Figur"
+        },
+        {
+          "term": "Grund",
+          "definition": "Der unauffällige Hintergrund einer Wahrnehmung, gegen den sich die Figur abhebt.",
+          "label": "Grund"
+        },
+        {
+          "term": "Necker-Würfel",
+          "definition": "Durchsichtige Zeichnung eines Würfels, bei der die Vorder- und Rückseite wechseln können — ein klassisches Beispiel für multistabile Wahrnehmung.",
+          "label": "Necker-Würfel"
+        },
+        {
+          "term": "Wahrnehmungsset",
+          "definition": "Bereitschaft, Reize in einer bestimmten Weise zu interpretieren, beeinflusst durch Erwartungen, Kontext und vorherige Erfahrungen.",
+          "label": "perceptual set"
+        },
+        {
+          "term": "Affordanz",
+          "definition": "Handlungsmöglichkeit, die ein Objekt oder eine Umgebung direkt anbietet — z. B. bietet eine Stuhlfläche das Sitzen an, ohne dass wir darüber nachdenken müssen.",
+          "label": "Affordanzen"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Wertheimer, M. (1923). Untersuchungen zur Lehre von der Gestalt. II. Psychologische Forschung, 4, 301–350."
+        },
+        {
+          "citation": "Koffka, K. (1935). Principles of Gestalt psychology. Harcourt, Brace and Company."
+        },
+        {
+          "citation": "Köhler, W. (1947). Gestalt psychology. Liveright Publishing."
+        },
+        {
+          "citation": "Gibson, J. J. (1979). The ecological approach to visual perception. Houghton Mifflin."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-gestalt-grouping.png",
+          "publicSrc": "/recovered/analzy/illu-gestalt-grouping.png"
+        },
+        {
+          "assetName": "illu-praegnanz.png",
+          "publicSrc": "/recovered/analzy/illu-praegnanz.png"
+        },
+        {
+          "assetName": "illu-optical-illusions.png",
+          "publicSrc": "/recovered/analzy/illu-optical-illusions.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/aktionspotential",
+          "label": "← Aktionspotential"
+        },
+        {
+          "route": "/arbeitsgedaechtnis",
+          "label": "← Arbeitsgedächtnis"
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/02-gestaltgesetze.bundle.txt"
+    },
+    {
+      "articleId": "03",
+      "canonicalSlug": "thema-03",
+      "component": "Arbeitsgedaechtnis",
+      "recoveredRoute": "/arbeitsgedaechtnis",
+      "title": "Das Arbeitsgedächtnis nach Baddeley",
+      "categoryId": "perception-and-cognition",
+      "taxonomyPath": [
+        "Wahrnehmung & Kognition"
+      ],
+      "keywords": [
+        "arbeitsgedaechtnis",
+        "phonologische schleife",
+        "zentrale exekutive"
+      ],
+      "leadCandidate": "Das Arbeitsgedächtnis nach Baddeley",
+      "sectionHeadings": [
+        "Vom Kurzzeitgedächtnis zum Arbeitsgedächtnis",
+        "Die phonologische Schleife",
+        "Der visuell-räumliche Notizblock",
+        "Die zentrale Exekutive: Der Dirigent im Kopf",
+        "Der episodische Puffer: Die multimodale Brücke",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Das Arbeitsgedächtnis nach Baddeley",
+        "Dein geistiger Arbeitsplatz — wie dein Gehirn Informationen am Laufen hält",
+        "Vom Kurzzeitgedächtnis zum Arbeitsgedächtnis",
+        "artikulatorische Unterdrückung",
+        "Der visuell-räumliche Notizblock",
+        "K.F. (Shallice & Warrington, 1970)",
+        "Die zentrale Exekutive: Der Dirigent im Kopf",
+        "Der episodische Puffer: Die multimodale Brücke",
+        "Trends in Cognitive Sciences, 4",
+        "Annual Review of Psychology, 63",
+        "The psychology of learning and motivation",
+        "Quarterly Journal of Experimental Psychology, 22",
+        "SimplyPsychology: Working Memory",
+        "CogniFit: Arbeitsgedächtnis-Training",
+        "The Brain Channel: Working Memory"
+      ],
+      "definitions": [
+        {
+          "term": "Phonologischer Speicher",
+          "definition": "Kurzfristiger Speicher für sprachbasierte Information mit schnellem Verfall (ca. 1,5–2 Sekunden), wenn nicht rehearsed wird.",
+          "label": "phonologischen Speicher"
+        },
+        {
+          "term": "Artikulatorisches Rehearsal",
+          "definition": "Unterdrückter Sprechprozess, der phonologische Informationen durch stilles Wiederholen aktiv im Arbeitsgedächtnis hält.",
+          "label": "artikulatorischen Rehearsal"
+        },
+        {
+          "term": "Episodische Repräsentation",
+          "definition": "Zeitlich begrenzte, zusammenhängende Darstellung eines Ereignisses, die Informationen aus verschiedenen Quellen integriert.",
+          "label": "episodischen Repräsentationen"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Baddeley, A. D., & Hitch, G. (1974). Working memory. In G. H. Bower (Ed.), The psychology of learning and motivation (Vol. 8, pp. 47–89). Academic Press.",
+          "excerpt": "Baddeley & Hitch (1974)"
+        },
+        {
+          "citation": "Shallice, T., & Warrington, E. K. (1970). Independent functioning of verbal memory stores: A neuropsychological study. Quarterly Journal of Experimental Psychology, 22(2), 261–273. https://doi.org/10.1080/00335557043000031",
+          "excerpt": "K.F. (Shallice & Warrington, 1970)"
+        },
+        {
+          "citation": "Baddeley, A. D. (2012). Working memory: Theories, models, and controversies. Annual Review of Psychology, 63, 1–29. https://doi.org/10.1146/annurev-psych-120710-100422"
+        },
+        {
+          "citation": "Baddeley, A. D. (2000). The episodic buffer: A new component of working memory? Trends in Cognitive Sciences, 4(11), 417–423. https://doi.org/10.1016/S1364-6613(00)01538-2"
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-working-memory.png",
+          "publicSrc": "/recovered/analzy/illu-working-memory.png"
+        },
+        {
+          "assetName": "illu-phonological-loop.png",
+          "publicSrc": "/recovered/analzy/illu-phonological-loop.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/gestaltgesetze",
+          "label": "← Gestaltgesetze"
+        },
+        {
+          "route": "/konditionierung",
+          "label": "Konditionierung →"
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/03-arbeitsgedaechtnis.bundle.txt"
+    },
+    {
+      "articleId": "04",
+      "canonicalSlug": "thema-04",
+      "component": "Konditionierung",
+      "recoveredRoute": "/konditionierung",
+      "title": "Klassische & Operante Konditionierung",
+      "categoryId": "learning-and-development",
+      "taxonomyPath": [
+        "Lernen & Entwicklung"
+      ],
+      "keywords": [
+        "konditionierung",
+        "verstaerkung",
+        "lernen"
+      ],
+      "leadCandidate": "Klassische & Operante Konditionierung",
+      "sectionHeadings": [
+        "Klassische Konditionierung: Pavlov und seine Hunde",
+        "Das Rescorla-Wagner-Modell: Überraschung treibt Lernen",
+        "Furchtkonditionierung und die Amygdala",
+        "Operante Konditionierung: Verhalten formt Verhalten",
+        "Verstärkungspläne",
+        "Neurobiologie: Belohnungssysteme im Gehirn",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Klassische & Operante Konditionierung",
+        "Gelernt ist gelernt? Wie Erfahrung Verhalten formt",
+        "Klassische Konditionierung: Pavlov und seine Hunde",
+        "Fünf Phänomene prägen die klassische Konditionierung:",
+        "Das Rescorla-Wagner-Modell: Überraschung treibt Lernen",
+        "Furchtkonditionierung und die Amygdala",
+        "Furcht ist die am besten erforschte emotionale Konditionierung. Ein neutraler Ton (CS), der mit einem elektrischen Schock (US) gepaart wird, löst nach wenigen Paarungen allein eine Stressantwort aus: erhöhte Herzrate, Schweißproduktion, eingefrorenes Verhalten.",
+        "Operante Konditionierung: Verhalten formt Verhalten",
+        "Negativ heißt Subtraktion, nicht Bestrafung!",
+        "Neurobiologie: Belohnungssysteme im Gehirn",
+        "Conditioned reflexes: An investigation of the physiological activity of the cerebral cortex",
+        "Annual Review of Neuroscience, 23",
+        "The behavior of organisms: An experimental analysis",
+        "The principles of learning and behavior",
+        "Behavioral and Brain Sciences, 31",
+        "Wikipedia: Klassische Konditionierung",
+        "SimplyPsychology: Operant Conditioning",
+        "Hanover College: Classical Conditioning Simulation"
+      ],
+      "definitions": [
+        {
+          "term": "Unconditioned Stimulus (US)",
+          "definition": "Natürlicher, nicht gelernt auslösender Reiz, der reflexartig eine Reaktion hervorruft (z. B. Futter → Speicheln).",
+          "label": "Unconditioned Stimulus (US)"
+        },
+        {
+          "term": "Unconditioned Response (UR)",
+          "definition": "Ungelernte, reflexartige Reaktion auf den US (z. B. Speicheln beim Anblick von Futter).",
+          "label": "Unconditioned Response (UR)"
+        },
+        {
+          "term": "Conditioned Stimulus (CS)",
+          "definition": "Zunächst neutraler Reiz, der durch wiederholte Kopplung mit dem US eine gelernte Reaktion auslöst (z. B. Glocke nach Konditionierung).",
+          "label": "Conditioned Stimulus (CS)"
+        },
+        {
+          "term": "Conditioned Response (CR)",
+          "definition": "Gelernte Reaktion auf den CS, die der UR ähnelt aber nicht identisch ist (z. B. Speicheln bei alleiniger Glocke).",
+          "label": "Conditioned Response (CR)"
+        },
+        {
+          "term": "Skinner-Box",
+          "definition": "Versuchsaufbau zur Untersuchung operanten Verhaltens, in dem ein Tier (z. B. Ratte, Taube) durch Aktivierung eines Mechanismus (Hebel, Knopf) eine Belohnung oder Bestrafung erhält.",
+          "label": "Skinner-Box"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Pavlov, I. P. (1927). Conditioned reflexes: An investigation of the physiological activity of the cerebral cortex. Oxford University Press."
+        },
+        {
+          "citation": "Rescorla, R. A., & Wagner, A. R. (1972). A theory of Pavlovian conditioning: Variations in the effectiveness of reinforcement and nonreinforcement. In A. H. Black & W. F. Prokasy (Eds.), Classical conditioning II: Current research and theory (pp. 64–99). Appleton-Century-Crofts.",
+          "excerpt": "Rescorla & Wagner (1972)"
+        },
+        {
+          "citation": "LeDoux, J. E. (1996). The emotional brain: The mysterious underpinnings of emotional life. Simon & Schuster."
+        },
+        {
+          "citation": "Skinner, B. F. (1938). The behavior of organisms: An experimental analysis. Appleton-Century."
+        },
+        {
+          "citation": "Domjan, M. (2015). The principles of learning and behavior (7th ed.). Cengage Learning."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-classical-conditioning.png",
+          "publicSrc": "/recovered/analzy/illu-classical-conditioning.png"
+        },
+        {
+          "assetName": "illu-operant-conditioning.png",
+          "publicSrc": "/recovered/analzy/illu-operant-conditioning.png"
+        },
+        {
+          "assetName": "illu-skinner-box.png",
+          "publicSrc": "/recovered/analzy/illu-skinner-box.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/arbeitsgedaechtnis",
+          "label": "← Arbeitsgedächtnis"
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/04-konditionierung.bundle.txt"
+    },
+    {
+      "articleId": "05",
+      "canonicalSlug": "thema-05",
+      "component": "BisModell",
+      "recoveredRoute": "/bis-modell",
+      "title": "Berliner Intelligenzstrukturmodell (BIS)",
+      "subtitle": "Wie sich Intelligenz entfaltet — Jägers mehrdimensionales Modell",
+      "categoryId": "differential-and-personality",
+      "taxonomyPath": [
+        "Differentielle & Persoenlichkeitspsychologie"
+      ],
+      "keywords": [
+        "bis",
+        "intelligenzstruktur",
+        "jaeger"
+      ],
+      "leadCandidate": "Berliner Intelligenzstrukturmodell (BIS)",
+      "sectionHeadings": [
+        "Das BIS als mehrdimensionales Modell",
+        "Operative Fähigkeiten (4 Faktoren)",
+        "Inhaltliche Fähigkeiten (3 Faktoren)",
+        "Jägers Forschungsprogramm: Von der Idee zum Test",
+        "Vergleich mit anderen Intelligenzmodellen",
+        "Kritik und aktuelle Bedeutung",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Berliner Intelligenzstrukturmodell (BIS)",
+        "Wie sich Intelligenz entfaltet — Jägers mehrdimensionales Modell",
+        "räumliches Vorstellungsvermögen",
+        "Das BIS als mehrdimensionales Modell",
+        "Operative Fähigkeiten (4 Faktoren)",
+        "Einfallsreichtum / Kreativität",
+        "Inhaltliche Fähigkeiten (3 Faktoren)",
+        "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektuellen Leistungsfähigkeit.",
+        "Jäger publizierte das Modell erstmals 1982 in der Fachzeitschrift Diagnostica.",
+        "Jägers Forschungsprogramm: Von der Idee zum Test",
+        "Das BIS ist kein theoretisches Gedankenspiel — es ruht auf einem der umfangreichsten Forschungsprogramme der deutschsprachigen Psychologie:",
+        "~2.000 verschiedene Aufgabentypen",
+        "4 operative + 3 inhaltliche Faktoren",
+        "Die BIS-4 stellt die umfassendste und am besten evaluierte Testform dar.",
+        "Vergleich mit anderen Intelligenzmodellen",
+        "Um das BIS einordnen zu können, hilft ein Blick auf alternative Konzeptionen:",
+        "Eine einzige übergeordnete Intelligenz",
+        "7 unabhängige Grundfähigkeiten",
+        "Fluide vs. kristalline Intelligenz",
+        "Drei Ebenen mit g an der Spitze",
+        "Operativ × Inhaltlich als Matrix; deutschsprachige Alternative",
+        "Carrolls Three-Stratum-Modell ist die vielleicht einflussreichste integrative Arbeit der Intelligenzforschung.",
+        "McGrew erweiterte das CHC-Modell (Cattell-Horn-Carroll) und machte es zum Standard in der diagnostischen Praxis.",
+        "Das BIS wird heute weniger international rezipiert als das CHC-Modell. Dennoch bleibt es in der deutschsprachigen Psychologie relevant:",
+        "mehrdimensionales Intelligenzmodell",
+        "Bearbeitungsgeschwindigkeit (B), Merkfähigkeit (M), Einfallsreichtum (E), Verarbeitungskapazität (K)",
+        "Verbal (V), Figural-bildhaft (F), Numerisch (N)",
+        "Empirisch abgesichert durch Faktorenanalyse mit 545 Probanden — einer der umfangreichsten deutschsprachigen Studien.",
+        "Das BIS steht im Dialog mit g-Faktor, Thurstones Primärfaktoren, Cattells gf/gc und dem CHC-Modell — als eigenständige deutschsprachige Alternative.",
+        "Berliner Intelligenzstruktur-Test: BIS-Test, Form 4",
+        "Human cognitive abilities: A survey of factor-analytic studies",
+        "Journal of Psychoeducational Assessment",
+        "Intelligenztheorien im Überblick"
+      ],
+      "definitions": [
+        {
+          "term": "Berliner Intelligenzstrukturmodell",
+          "definition": "Ein mehrdimensionales Intelligenzmodell nach Jörg Jäger, das operative Fähigkeiten mit inhaltlichen Fähigkeiten kreuzt.",
+          "label": "Berliner Intelligenzstrukturmodell (BIS)"
+        },
+        {
+          "term": "Faktorenanalyse",
+          "definition": "Ein statistisches Verfahren, das Korrelationen zwischen Variablen analysiert und diese zu wenigen übergeordneten Faktoren zusammenfasst.",
+          "label": "Faktorenanalyse"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Jäger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. *Diagnostica*, 28, 195–225.",
+          "excerpt": "Jäger publizierte das Modell erstmals 1982 in der Fachzeitschrift Diagnostica."
+        },
+        {
+          "citation": "Jäger, A. O., Süß, H.-M., & Beauducel, A. (1997). *Berliner Intelligenzstruktur-Test: BIS-Test, Form 4*. Hogrefe.",
+          "excerpt": "Die BIS-4 stellt die umfassendste und am besten evaluierte Testform dar."
+        },
+        {
+          "citation": "Carroll, J. B. (1993). *Human cognitive abilities: A survey of factor-analytic studies*. Cambridge University Press.",
+          "excerpt": "Carrolls Three-Stratum-Modell ist die vielleicht einflussreichste integrative Arbeit der Intelligenzforschung."
+        },
+        {
+          "citation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. *Journal of Psychoeducational Assessment*, 37(1), 8–14.",
+          "excerpt": "McGrew erweiterte das CHC-Modell (Cattell-Horn-Carroll) und machte es zum Standard in der diagnostischen Praxis."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-bis-radex.png",
+          "publicSrc": "/recovered/analzy/illu-bis-radex.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/intelligenztheorien",
+          "label": "Intelligenztheorien im Überblick"
+        },
+        {
+          "route": "/faktorenanalyse",
+          "label": "Faktorenanalyse"
+        },
+        {
+          "route": "/iq-tests",
+          "label": "IQ-Tests und Diagnostik"
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/05-bis-modell.bundle.txt"
+    },
+    {
+      "articleId": "06",
+      "canonicalSlug": "thema-06",
+      "component": "Piaget",
+      "recoveredRoute": "/piaget",
+      "title": "Kognitive Entwicklung nach Piaget",
+      "subtitle": "Vom Baby zum logischen Denker — Piagets Entwicklungsstufen",
+      "categoryId": "learning-and-development",
+      "taxonomyPath": [
+        "Lernen & Entwicklung"
+      ],
+      "keywords": [
+        "piaget",
+        "kognitive entwicklung",
+        "stadien"
+      ],
+      "leadCandidate": "Kognitive Entwicklung nach Piaget",
+      "sectionHeadings": [
+        "Die motorische Entwicklung: Assimilation und Akkommodation",
+        "Assimilation",
+        "Akkommodation",
+        "1. Sensorimotorisches Stadium (0–2 Jahre)",
+        "2. Präoperational Stadium (2–7 Jahre)",
+        "3. Konkret-operational Stadium (7–11 Jahre)",
+        "4. Formal-operational Stadium (ab ~11 Jahre)",
+        "Moderne Kritik und Neubewertung",
+        "Baillargeon: Objektpermanenz schon im Säuglingsalter",
+        "Core Knowledge Theory (Spelke & Kinzler)",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Kognitive Entwicklung nach Piaget",
+        "Vom Baby zum logischen Denker — Piagets Entwicklungsstufen",
+        "stufenmodell der kognitiven Entwicklung",
+        "Die motorische Entwicklung: Assimilation und Akkommodation",
+        "In seinem Hauptwerk beschreibt Piaget die genetische Epistemologie — wie Wissen sich durch Entwicklung konstruiert.",
+        "1. Sensorimotorisches Stadium (0–2 Jahre)",
+        "Diamond untersuchte den A-not-B-Fehler systematisch und zeigte dessen Abhängigkeit vom Arbeitsgedächtnis.",
+        "2. Präoperational Stadium (2–7 Jahre)",
+        "3. Konkret-operational Stadium (7–11 Jahre)",
+        "Logisches Denken über konkrete Objekte:",
+        "In diesem zusammenfassenden Werk systematisieren Piaget und Inhelder die Operationen des konkret-operationalen Denkens.",
+        "4. Formal-operational Stadium (ab ~11 Jahre)",
+        "Hypothetisch-deduktives Denken:",
+        "Moderne Kritik und Neubewertung",
+        "Baillargeon: Objektpermanenz schon im Säuglingsalter",
+        "Violation-of-Expectation-Paradigma",
+        "Baillargeons bahnbrechende Studie revolutionierte das Verständnis früher kognitiver Kompetenzen.",
+        "Core Knowledge Theory (Spelke & Kinzler)",
+        "domänenspezifischen Kernsystemen",
+        "Die Core Knowledge Theory ist heute ein wichtiger Gegenentwurf zu Piagets Konstruktivismus.",
+        "Assimilation, Akkommodation und Äquilibration",
+        "Origins of intelligence in the child",
+        "Sprachentwicklung im Kindesalter"
+      ],
+      "definitions": [
+        {
+          "term": "Schemata",
+          "definition": "Mentale Baupläne oder kognitive Strukturen, die Wissen organisieren und Handlungen leiten. Schemata entwickeln sich durch Erfahrung.",
+          "label": "Schemata"
+        },
+        {
+          "term": "kognitives Dissonanz",
+          "definition": "Ein Zustand psychischer Unstimmigkeit, der entsteht, wenn neue Informationen mit bestehenden Überzeugungen kollidieren.",
+          "label": "kognitives Ungleichgewicht"
+        },
+        {
+          "term": "Objektpermanenz",
+          "definition": "Die Erkenntnis, dass Objekte auch dann weiter existieren, wenn sie nicht mehr sichtbar sind. Ein Meilenstein des sensorimotorischen Stadiums.",
+          "label": "weiter existieren"
+        },
+        {
+          "term": "Three-Mountain-Task",
+          "definition": "Piagets Experiment, bei dem ein Kind eine Bergszene aus seiner Perspektive beschreiben soll und nicht erkennt, wie sie von einer anderen Position aussieht.",
+          "label": "Three-Mountain-Task"
+        },
+        {
+          "term": "Violation-of-Expectation-Paradigma",
+          "definition": "Ein experimentelles Verfahren, das misst, ob Säuglinge länger zu unerwarteten Ereignissen schauen als zu erwarteten — als Indikator für implizites Wissen.",
+          "label": "Violation-of-Expectation-Paradigma"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Piaget, J. (1936). *Origins of intelligence in the child*. Routledge & Kegan Paul.",
+          "excerpt": "In seinem Hauptwerk beschreibt Piaget die genetische Epistemologie — wie Wissen sich durch Entwicklung konstruiert."
+        },
+        {
+          "citation": "Diamond, A. (1985). Development of the ability to use recall to guide action. *Child Development*, 56(4), 868–883.",
+          "excerpt": "Diamond untersuchte den A-not-B-Fehler systematisch und zeigte dessen Abhängigkeit vom Arbeitsgedächtnis."
+        },
+        {
+          "citation": "Piaget, J., & Inhelder, B. (1969). *The psychology of the child*. Basic Books.",
+          "excerpt": "In diesem zusammenfassenden Werk systematisieren Piaget und Inhelder die Operationen des konkret-operationalen Denkens."
+        },
+        {
+          "citation": "Baillargeon, R. (1987). Object permanence in 3.5- and 4.5-month-old infants. *Developmental Psychology*, 23(5), 655–664.",
+          "excerpt": "Baillargeons bahnbrechende Studie revolutionierte das Verständnis früher kognitiver Kompetenzen."
+        },
+        {
+          "citation": "Spelke, E. S., & Kinzler, K. D. (2007). Core knowledge. *Developmental Science*, 10(1), 89–96.",
+          "excerpt": "Die Core Knowledge Theory ist heute ein wichtiger Gegenentwurf zu Piagets Konstruktivismus."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-piaget-stages.png",
+          "publicSrc": "/recovered/analzy/illu-piaget-stages.png"
+        },
+        {
+          "assetName": "illu-conservation-task.png",
+          "publicSrc": "/recovered/analzy/illu-conservation-task.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/vygotsky",
+          "label": "Vygotsky: Soziale Entwicklung"
+        },
+        {
+          "route": "/sprachentwicklung",
+          "label": "Sprachentwicklung im Kindesalter"
+        },
+        {
+          "route": "/core-knowledge",
+          "label": "Core Knowledge Theory"
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/06-piaget.bundle.txt"
+    },
+    {
+      "articleId": "07",
+      "canonicalSlug": "thema-07",
+      "component": "Attribution",
+      "recoveredRoute": "/attribution",
+      "title": "Attributionstheorie",
+      "subtitle": "Warum Menschen das tun, was sie tun — Die Psychologie der Ursachenzuschreibung",
+      "categoryId": "social-psychology",
+      "taxonomyPath": [
+        "Sozialpsychologie"
+      ],
+      "keywords": [
+        "attribution",
+        "heider",
+        "weiner"
+      ],
+      "leadCandidate": "Warum Menschen das tun, was sie tun — Die Psychologie der Ursachenzuschreibung",
+      "sectionHeadings": [
+        "Interne (dispositionelle) Attribution",
+        "Externe (situationale) Attribution",
+        "Kelleys Kovariationsmodell",
+        "Konsistenz",
+        "Unterscheidbarkeit (Distinctiveness)",
+        "Konsens",
+        "Weiners dreidimensionales Attributionsmodell",
+        "Die drei Dimensionen",
+        "Beispiel: Attributionen für Prüfungserfolg",
+        "Attribution und Leistung: Optimistisch vs. pessimistisch",
+        "Optimistischer Stil",
+        "Pessimistischer Stil",
+        "Systematische Fehler in der Attribution",
+        "Fundamentaler Attributionsfehler",
+        "Akteur-Beobachter-Differenz",
+        "Selbstwertdienliche Verzerrung",
+        "Kulturelle Unterschiede",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Warum Menschen das tun, was sie tun — Die Psychologie der Ursachenzuschreibung",
+        "Interne (dispositionelle) Attribution",
+        "Externe (situationale) Attribution",
+        "Heiders Buch gilt als Gründungswerk der Attributionstheorie und beeinflusst die Sozialpsychologie bis heute.",
+        "Unterscheidbarkeit (Distinctiveness)",
+        "Kelley formulierte das Kovariationsprinzip als systematisches Modell für Alltagsattributionen.",
+        "Weiners dreidimensionales Attributionsmodell",
+        "Kontrollierbar ↔ Nicht kontrollierbar",
+        "Beispiel: Attributionen für Prüfungserfolg",
+        "warum Attributionen gefühle und Verhalten beeinflussen",
+        "Weiners Artikel ist der einflussreichste theoretische Beitrag zur Attributionsforschung in der Leistungsmotivation.",
+        "In seinem Buch führt Weiner das 3D-Modell vollständig aus und verbindet es mit Emotionen.",
+        "Attribution und Leistung: Optimistisch vs. pessimistisch",
+        "→ Bewältigungsmotivation bleibt hoch, Depressionen unwahrscheinlicher.",
+        "→ Gelernte Hilflosigkeit, erhöhtes Depressionsrisiko.",
+        "Seligmans Monografie etablierte die gelernte Hilflosigkeit als zentrales Konzept der klinischen und Motivationspsychologie.",
+        "Systematische Fehler in der Attribution",
+        "Menschen folgen beim Attribuieren nicht immer logischen Regeln. Drei besonders robuste Fehlermuster:",
+        "Fundamentaler Attributionsfehler",
+        "Selbstwertdienliche Verzerrung",
+        "Morris und Peng zeigten kulturelle Unterschiede in der Attribution mit Zeitungsanalysen von Gewalttaten — Amerikaner attribuierten stärker dispositionell.",
+        "The psychology of interpersonal relations",
+        "Nebraska Symposium on Motivation",
+        "An attributional theory of motivation and emotion",
+        "Helplessness: On depression, development, and death",
+        "Advances in experimental social psychology",
+        "Journal of Personality and Social Psychology",
+        "Selbstwirksamkeit nach Bandura"
+      ],
+      "definitions": [
+        {
+          "term": "Attribution",
+          "definition": "Die Zuweisung von Ursachen zu Verhalten oder Ereignissen. Die Attribution beeinflusst Emotionen, Erwartungen und zukünftiges Verhalten.",
+          "label": "Ursachen zuweisen"
+        },
+        {
+          "term": "Gelernte Hilflosigkeit",
+          "definition": "Ein Zustand, in dem Menschen aufhören, aktiv Probleme zu lösen, weil sie gelernt haben, dass ihre Handlungen keine Wirkung haben. Ursprünglich bei Hunden experimentell nachgewiesen.",
+          "label": "gelernten Hilflosigkeit"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Heider, F. (1958). *The psychology of interpersonal relations*. Wiley.",
+          "excerpt": "Heiders Buch gilt als Gründungswerk der Attributionstheorie und beeinflusst die Sozialpsychologie bis heute."
+        },
+        {
+          "citation": "Kelley, H. H. (1967). Attribution theory in social psychology. In D. Levine (Ed.), *Nebraska Symposium on Motivation* (Vol. 15, pp. 192–238). University of Nebraska Press.",
+          "excerpt": "Kelley formulierte das Kovariationsprinzip als systematisches Modell für Alltagsattributionen."
+        },
+        {
+          "citation": "Weiner, B. (1985). An attributional theory of achievement motivation and emotion. *Psychological Review*, 92(4), 548–573.",
+          "excerpt": "Weiners Artikel ist der einflussreichste theoretische Beitrag zur Attributionsforschung in der Leistungsmotivation."
+        },
+        {
+          "citation": "Weiner, B. (1986). *An attributional theory of motivation and emotion*. Springer.",
+          "excerpt": "In seinem Buch führt Weiner das 3D-Modell vollständig aus und verbindet es mit Emotionen."
+        },
+        {
+          "citation": "Seligman, M. E. P. (1975). *Helplessness: On depression, development, and death*. W. H. Freeman.",
+          "excerpt": "Seligmans Monografie etablierte die gelernte Hilflosigkeit als zentrales Konzept der klinischen und Motivationspsychologie."
+        },
+        {
+          "citation": "Ross, L. (1977). The intuitive psychologist and his shortcomings. In L. Berkowitz (Ed.), *Advances in experimental social psychology* (Vol. 10, pp. 173–220). Academic Press."
+        },
+        {
+          "citation": "Morris, M. W., & Peng, K. (1994). Culture and cause: American and Chinese attributions for social and physical events. *Journal of Personality and Social Psychology*, 67(6), 949–971.",
+          "excerpt": "Morris und Peng zeigten kulturelle Unterschiede in der Attribution mit Zeitungsanalysen von Gewalttaten — Amerikaner attribuierten stärker dispositionell."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-attribution-dimensions.png",
+          "publicSrc": "/recovered/analzy/illu-attribution-dimensions.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/selbstwirksamkeit",
+          "label": "Selbstwirksamkeit nach Bandura"
+        },
+        {
+          "route": "/leistungsmotivation",
+          "label": "Leistungsmotivation"
+        },
+        {
+          "route": "/sozialkognition",
+          "label": "Soziale Kognition"
+        },
+        {
+          "route": "/lernen-hilflosigkeit",
+          "label": "Gelernte Hilflosigkeit"
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/07-attribution.bundle.txt"
+    },
+    {
+      "articleId": "08",
+      "canonicalSlug": "thema-08",
+      "component": "BigFive",
+      "recoveredRoute": "/big-five",
+      "title": "Fünf-Faktoren-Modell (Big Five)",
+      "subtitle": "OCEAN — Die fünf Dimensionen, die Persönlichkeit strukturieren",
+      "categoryId": "differential-and-personality",
+      "taxonomyPath": [
+        "Differentielle & Persoenlichkeitspsychologie"
+      ],
+      "keywords": [
+        "big five",
+        "traits",
+        "persoenlichkeit"
+      ],
+      "leadCandidate": "Fünf-Faktoren-Modell (Big Five)",
+      "sectionHeadings": [
+        "Die lexikalische Hypothese: Vom Wortschatz zum Modell",
+        "Die fünf Dimensionen: OCEAN",
+        "Offenheit für Erfahrung (Openness)",
+        "Gewissenhaftigkeit (Conscientiousness)",
+        "Extraversion (Extraversion)",
+        "Verträglichkeit (Agreeableness)",
+        "Neurotizismus (Neuroticism)",
+        "Messung des Big Five",
+        "NEO-PI-R",
+        "BFI (Big Five Inventory)",
+        "Kritiken und Kontroversen",
+        "Mischel's Person-Situations-Kontroverse",
+        "Bandbreite-Fidelity-Dilemma",
+        "HEXACO: Sechs statt fünf?",
+        "Kulturelle Replikation",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Fünf-Faktoren-Modell (Big Five)",
+        "OCEAN — Die fünf Dimensionen, die Persönlichkeit strukturieren",
+        "Die lexikalische Hypothese: Vom Wortschatz zum Modell",
+        "Fiske (1949), Norman (1963), Goldberg (1981)",
+        "Die Konvergenz verschiedener Forschungsgruppen auf dieselben fünf Dimensionen ist das stärkste empirische Argument für das Modell.",
+        "Goldbergs Übersichtsarbeit etablierte das Big Five als konsensfähiges Modell in der Persönlichkeitspsychologie.",
+        "John und Srivastava lieferten die vielleicht einflussreichste Darstellung der theoretischen Grundlagen und Forschungslage.",
+        "Offenheit für Erfahrung (Openness)",
+        "Facetten: Fantasie, Ästhetik, Gefühle, Handlungen, Ideen, Werte",
+        "Gewissenhaftigkeit (Conscientiousness)",
+        "Facetten: Kompetenz, Ordnung, Pflichtbewusstsein, Leistungsstreben, Selbstdisziplin, Besonnenheit",
+        "Facetten: Freundschaftlichkeit, Geselligkeit, Durchsetzungsvermögen, Aktivität, Aufregungssuche, Positive Gefühle",
+        "Verträglichkeit (Agreeableness)",
+        "Facetten: Vertrauen, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
+        "Facetten: Ängstlichkeit, Feindseligkeit, Depression, Selbstbewusstsein, Impulsivität, Verletzlichkeit",
+        "Costa und McCrae entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen.",
+        "Es gibt verschiedene etablierte Verfahren zur Erfassung der Big Five:",
+        "Übereinstimmung zwischen Selbst- und Fremdeinschätzung",
+        "Mischel's Person-Situations-Kontroverse",
+        "über viele Situationen aggregiert",
+        "Digmans Übersicht bestätigte die Replikation der fünf Faktoren über verschiedene Kulturen und Methoden hinweg.",
+        "Offenheit (O), Gewissenhaftigkeit (C), Extraversion (E), Verträglichkeit (A), Neurotizismus (N)",
+        "Kritische Perspektiven: HEXACO (+Honesty-Humility), kulturelle Variation und das Bandbreite-Fidelity-Dilemma erweitern die Debatte.",
+        "Handbook of personality: Theory and research",
+        "Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual"
+      ],
+      "definitions": [
+        {
+          "term": "Faktorenanalyse",
+          "definition": "Statistisches Verfahren, das Korrelationen zwischen Variablen analysiert und diese zu wenigen übergeordneten Faktoren zusammenfasst.",
+          "label": "Faktorenanalyse"
+        },
+        {
+          "term": "Honesty-Humility",
+          "definition": "Eine Persönlichkeitsdimension, die Ehrlichkeit, Bescheidenheit, Fairness und Gierverzicht umfasst. Korreliert negativ mit Manipulation und materiellem Ehrgeiz.",
+          "label": "Honesty-Humility"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Goldberg, L. R. (1993). The structure of phenotypic personality traits. *American Psychologist*, 48(1), 26–34.",
+          "excerpt": "Goldbergs Übersichtsarbeit etablierte das Big Five als konsensfähiges Modell in der Persönlichkeitspsychologie."
+        },
+        {
+          "citation": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy. In L. A. Pervin & O. P. John (Eds.), *Handbook of personality: Theory and research* (2nd ed., pp. 102–138). Guilford Press.",
+          "excerpt": "John und Srivastava lieferten die vielleicht einflussreichste Darstellung der theoretischen Grundlagen und Forschungslage."
+        },
+        {
+          "citation": "Costa, P. T., Jr., & McCrae, R. R. (1992). *Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual*. Psychological Assessment Resources.",
+          "excerpt": "Costa und McCrae entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen."
+        },
+        {
+          "citation": "Mischel, W. (1968). *Personality and assessment*. Wiley."
+        },
+        {
+          "citation": "Digman, J. M. (1990). Personality structure: Emergence of the five-factor model. *Annual Review of Psychology*, 41, 417–440.",
+          "excerpt": "Digmans Übersicht bestätigte die Replikation der fünf Faktoren über verschiedene Kulturen und Methoden hinweg."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-big-five-radar.png",
+          "publicSrc": "/recovered/analzy/illu-big-five-radar.png"
+        },
+        {
+          "assetName": "illu-big-five-traits.png",
+          "publicSrc": "/recovered/analzy/illu-big-five-traits.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/hexaco",
+          "label": "HEXACO-Modell"
+        },
+        {
+          "route": "/persoenlichkeitsstoerungen",
+          "label": "Persönlichkeitsstörungen"
+        },
+        {
+          "route": "/mischel",
+          "label": "Mischel: Person-Situation"
+        },
+        {
+          "route": "/persoenlichkeitstests",
+          "label": "Persönlichkeitstests"
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/08-big-five.bundle.txt"
+    },
+    {
+      "articleId": "09",
+      "canonicalSlug": "thema-09",
+      "component": "Versuchsplanung",
+      "recoveredRoute": "/versuchsplanung",
+      "title": "Experimentelle Versuchsplanung",
+      "categoryId": "research-methods",
+      "taxonomyPath": [
+        "Forschungsmethoden"
+      ],
+      "keywords": [
+        "validitaet",
+        "experiment",
+        "kontrolle"
+      ],
+      "leadCandidate": "Experimentelle Versuchsplanung",
+      "sectionHeadings": [
+        "1. Die drei Grundtypen des Forschungsdesigns",
+        "1. Experimentelles Design (Goldstandard)",
+        "2. Quasi-experimentelles Design",
+        "3. Korrelatives Design",
+        "2. Interne Validität: Können wir kausale Schlüsse ziehen?",
+        "3. Externe Validität: Generalisierbarkeit",
+        "Ökologische Validität",
+        "Populationsvalidität",
+        "4. Kontrollmethoden: So sichern wir Validität",
+        "Randomisierung",
+        "Matching",
+        "Counterbalancing",
+        "Kontrollgruppen",
+        "Blindheit: Wer weiß was?",
+        "Einfach verblindet",
+        "Doppelt verblindet",
+        "Dreifach verblindet",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen",
+        "Signifikanztestung & p-Werte",
+        "Psychometrische Gütekriterien"
+      ],
+      "textBlocks": [
+        "Experimentelle Versuchsplanung",
+        "Wie wir Kausalität erkennen — Die Kunst der Versuchsplanung",
+        "1. Die drei Grundtypen des Forschungsdesigns",
+        "Nicht jedes Design erlaubt kausale Schlüsse. Die Unterscheidung ist entscheidend:",
+        "1. Experimentelles Design (Goldstandard)",
+        "Randomisierte Kontrollgruppenstudie (RCT):",
+        "Die Variable, die vom Experimentator systematisch verändert wird (z. B. Medikament vs. Placebo).",
+        "Die Variable, die gemessen wird, um den Effekt der UV zu erfassen (z. B. Depressionswert nach 4 Wochen).",
+        "2. Quasi-experimentelles Design",
+        "Variablen, die konstant gehalten oder statistisch auspartialisiert werden, um ihre Wirkung auf die AV zu eliminieren.",
+        "2. Interne Validität: Können wir kausale Schlüsse ziehen?",
+        "Shadish, Cook & Campbell (2002)",
+        "3. Externe Validität: Generalisierbarkeit",
+        "Externe Validität fragt: Lassen sich die Ergebnisse auf andere Personen, Situationen und Zeiten übertragen? Ein perfekt intern valides Experiment nützt wenig, wenn es nur unter Laborbedingungen funktioniert.",
+        "Gilt das Ergebnis auch außerhalb des Labors? Ein Strooptest im Labor zeigt interference — aber gilt das auch im Straßenverkehr?",
+        "Lassen sich Ergebnisse von WEIRD-Probanden (Western, Educated, Industrialized, Rich, Democratic) auf die Weltbevölkerung übertragen?",
+        "4. Kontrollmethoden: So sichern wir Validität",
+        "Zufällige Zuordnung zu Gruppen. Der Goldstandard, der alle bekannten und unbekannten Störvariablen gleichmäßig verteilt.",
+        "Probanden werden paarweise nach relevanten Merkmalen (Alter, Geschlecht, IQ) zusammengeführt und dann randomisiert zugeordnet.",
+        "Bei wiederholter Messung: Die Reihenfolge der Bedingungen wird systematisch variiert, um Übungs- und Ermüdungseffekte auszugleichen.",
+        "Erwartungseffekte können Ergebnisse verfälschen — auf beiden Seiten:",
+        "Der Proband weiß nicht, welcher Bedingung er zugeordnet ist.",
+        "Zusätzlich weiß der Datenanalyst nicht die Gruppenzugehörigkeit.",
+        "Experimental and Quasi-Experimental Designs for Research",
+        "Experimental and Quasi-Experimental Designs for Generalized Causal Inference",
+        "Experimenter Effects in Behavioral Research",
+        "Behavioral and Brain Sciences, 33",
+        "Erkunde verwandte Themen der psychologischen Methodenlehre:",
+        "Wie wir aus Daten Schlüsse ziehen — und welche Fehler dabei lauern.",
+        "Was macht einen psychologischen Test wissenschaftlich?"
+      ],
+      "definitions": [
+        {
+          "term": "Unabhängige Variable (UV)",
+          "definition": "Ein zentrales Konzept in der Psychologie.",
+          "label": "Die Variable, die vom Experimentator systematisch verändert wird (z. B. Medikament vs. Placebo)."
+        },
+        {
+          "term": "Abhängige Variable (AV)",
+          "definition": "Ein zentrales Konzept in der Psychologie.",
+          "label": "Die Variable, die gemessen wird, um den Effekt der UV zu erfassen (z. B. Depressionswert nach 4 Wochen)."
+        },
+        {
+          "term": "Kontrollvariablen",
+          "definition": "Ein zentrales Konzept in der Psychologie.",
+          "label": "Variablen, die konstant gehalten oder statistisch auspartialisiert werden, um ihre Wirkung auf die AV zu eliminieren."
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Campbell, D. T. & Stanley, J. C. (1963). Experimental and Quasi-Experimental Designs for Research. Houghton Mifflin.",
+          "excerpt": "Campbell & Stanley (1963)"
+        },
+        {
+          "citation": "Shadish, W. R., Cook, T. D. & Campbell, D. T. (2002). Experimental and Quasi-Experimental Designs for Generalized Causal Inference. Houghton Mifflin.",
+          "excerpt": "Shadish, Cook & Campbell (2002)"
+        },
+        {
+          "citation": "Orne, M. T. (1962). On the social psychology of the psychological experiment. American Psychologist, 17(11), 776-783."
+        },
+        {
+          "citation": "Rosenthal, R. (1966). Experimenter Effects in Behavioral Research. Appleton-Century-Crofts."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-experimental-design.png",
+          "publicSrc": "/recovered/analzy/illu-experimental-design.png"
+        },
+        {
+          "assetName": "illu-hypothesis-testing.png",
+          "publicSrc": "/recovered/analzy/illu-hypothesis-testing.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/signifikanztestung",
+          "label": null
+        },
+        {
+          "route": "/psychometrie",
+          "label": null
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/09-versuchsplanung.bundle.txt"
+    },
+    {
+      "articleId": "10",
+      "canonicalSlug": "thema-10",
+      "component": "Signifikanztestung",
+      "recoveredRoute": "/signifikanztestung",
+      "title": "Signifikanztestung & p-Werte",
+      "categoryId": "statistics-and-psychometrics",
+      "taxonomyPath": [
+        "Statistik & Psychometrie"
+      ],
+      "keywords": [
+        "p-wert",
+        "alpha-fehler",
+        "beta-fehler"
+      ],
+      "leadCandidate": "Der p-Wert: Statistisches Werkzeug oder Ritual?",
+      "sectionHeadings": [
+        "1. Die Logik des Nullhypothesen-Signifikanztestens (NHST)",
+        "H₀ — Nullhypothese",
+        "H₁ — Alternativhypothese",
+        "2. Alpha- und Beta-Fehler: Die zwei Arten, sich zu irren",
+        "3. p-Werte richtig verstehen",
+        "Der häufigste Fehler in der Psychologie",
+        "Die Replikationskrise",
+        "4. Effektstärken: Was p-Werte verschweigen",
+        "Cohen's d — Konventionen",
+        "5. Die Replikationskrise in der Psychologie",
+        "Open Science Collaboration (2015)",
+        "Lösungsansätze",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen",
+        "Experimentelle Versuchsplanung",
+        "Psychometrische Gütekriterien"
+      ],
+      "textBlocks": [
+        "Der p-Wert: Statistisches Werkzeug oder Ritual?",
+        "1. Die Logik des Nullhypothesen-Signifikanztestens (NHST)",
+        "2. Alpha- und Beta-Fehler: Die zwei Arten, sich zu irren",
+        "In der Statistik können wir auf zwei Weisen falsch liegen. Die gute Nachricht: Wir können die Wahrscheinlichkeit beider Fehler kontrollieren.",
+        "Analogie: Ein Geigerszähler schlägt an, obwohl keine Strahlung vorhanden ist.",
+        "Analogie: Ein Metalldetektor übergeht einen vergrabenen Schatz.",
+        "Die Wahrscheinlichkeit, einen statistisch signifikanten Effekt zu finden, wenn ein echter Effekt existiert. Power = 1 − β.",
+        "Der häufigste Fehler in der Psychologie",
+        "Nicht die Wahrscheinlichkeit, dass die Nullhypothese wahr ist!",
+        "Die Verwechslung von P(A|B) mit P(B|A). Ein p-Wert gibt nicht an, wie wahrscheinlich die Nullhypothese ist — dafür bräuchte man Bayes'sche Statistik.",
+        "4. Effektstärken: Was p-Werte verschweigen",
+        "Unterschied von 0.2 Standardabweichungen",
+        "Halbe Standardabweichung Unterschied",
+        "0.8 Standardabweichungen Unterschied",
+        "5. Die Replikationskrise in der Psychologie",
+        "Viele klassische Befunde der Psychologie ließen sich nicht replizieren. Drei Studien schockierten die Disziplin:",
+        "Open Science Collaboration (2015)",
+        "In Disziplinen mit kleinen Effektstärken, Flexibilität in der Forschung und finanziellen Interessen ist die Mehrheit publizierter Befunde wahrscheinlich falsch.",
+        "Statistical Power Analysis for the Behavioral Sciences",
+        "Philosophical Transactions of the Royal Society A, 231",
+        "Vertiefe dein Verständnis für psychologische Methoden:",
+        "Experimentelle Versuchsplanung",
+        "Wie wir Kausalität durch Randomisierung und Kontrolle erkennen.",
+        "Objektivität, Reliabilität und Validität psychologischer Tests."
+      ],
+      "definitions": [
+        {
+          "term": "Power (Teststärke)",
+          "definition": "Ein zentrales Konzept in der Psychologie.",
+          "label": "Die Wahrscheinlichkeit, einen statistisch signifikanten Effekt zu finden, wenn ein echter Effekt existiert. Power = 1 − β."
+        },
+        {
+          "term": "Fehler der transconditionalen Wahrscheinlichkeit",
+          "definition": "Ein zentrales Konzept in der Psychologie.",
+          "label": "Die Verwechslung von P(A|B) mit P(B|A). Ein p-Wert gibt nicht an, wie wahrscheinlich die Nullhypothese ist — dafür bräuchte man Bayes'sche Statistik."
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Neyman, J. & Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses. Philosophical Transactions of the Royal Society A, 231, 289-337.",
+          "excerpt": "Neyman & Pearson (1933)"
+        },
+        {
+          "citation": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences (2nd ed.). Lawrence Erlbaum.",
+          "excerpt": "3. p-Werte richtig verstehen"
+        },
+        {
+          "citation": "Cohen, J. (1994). The earth is round (p < .05). American Psychologist, 49</em>(12), 997-1003."
+        },
+        {
+          "citation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-values: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
+          "excerpt": "Wasserstein & Lazar (2016)"
+        },
+        {
+          "citation": "Cumming, G. (2014). The New Statistics: Why and How. Psychological Science, 25</em>(1), 7-29."
+        },
+        {
+          "citation": "Benjamin, D. J. et al. (2018). Redefine statistical significance. Nature Human Behaviour, 2</em>, 6-10.",
+          "excerpt": "Benjamin et al. (2018)"
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-p-value.png",
+          "publicSrc": "/recovered/analzy/illu-p-value.png"
+        },
+        {
+          "assetName": "illu-error-types.png",
+          "publicSrc": "/recovered/analzy/illu-error-types.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/versuchsplanung",
+          "label": null
+        },
+        {
+          "route": "/psychometrie",
+          "label": null
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/10-signifikanztestung.bundle.txt"
+    },
+    {
+      "articleId": "11",
+      "canonicalSlug": "thema-11",
+      "component": "Psychometrie",
+      "recoveredRoute": "/psychometrie",
+      "title": "Psychometrische Gütekriterien",
+      "categoryId": "statistics-and-psychometrics",
+      "taxonomyPath": [
+        "Statistik & Psychometrie"
+      ],
+      "keywords": [
+        "objektivitaet",
+        "reliabilitaet",
+        "validitaet"
+      ],
+      "leadCandidate": "Gute Tests, schlechte Tests — Wie man psychologische Verfahren bewertet",
+      "sectionHeadings": [
+        "1. Objektivität: Unabhängigkeit vom Testleiter",
+        "Durchführungsobjektivität",
+        "Auswertungsobjektivität",
+        "Interpretationsobjektivität",
+        "2. Reliabilität: Zuverlässigkeit der Messung",
+        "3. Validität: Gültigkeit der Messung",
+        "Inhaltsvalidität",
+        "4. Die hierarchische Beziehung: Ein sequenzieller Aufbau",
+        "Objektivität",
+        "Reliabilität",
+        "Validität",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen",
+        "Experimentelle Versuchsplanung",
+        "Signifikanztestung & p-Werte"
+      ],
+      "textBlocks": [
+        "Gute Tests, schlechte Tests — Wie man psychologische Verfahren bewertet",
+        "1. Objektivität: Unabhängigkeit vom Testleiter",
+        "Gleiche Instruktionen für alle Probanden. Kein Spielraum für den Testleiter, das Vorgehen zu variieren.",
+        "Klare, eindeutige Scoring-Regeln. Zwei unabhängige Rater kommen zum selben Ergebnis.",
+        "Normbasierte Interpretation. Ein IQ von 115 bedeutet immer das Gleiche — unabhängig vom Psychologen.",
+        "2. Reliabilität: Zuverlässigkeit der Messung",
+        "wiederholter Anwendung unter gleichen Bedingungen",
+        "Korrelation zwischen den Ergebnissen desselben Tests, der zu zwei verschiedenen Zeitpunkten (z. B. mit 4 Wochen Abstand) durchgeführt wird.",
+        "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationskoeffizient zwischen beiden Messungen ist das Maß der Stabilität.",
+        "Korrelation zwischen zwei äquivalenten Testformen, die dieselbe Konstruktion messen, aber unterschiedliche Itemformulierungen verwenden.",
+        "Zwei verschiedene, aber inhaltlich äquivalente Testformen werden eingesetzt. Vermeidet Testwiederholungseffekte.",
+        "Der Test wird in zwei Hälften geteilt (z. B. ungerade vs. gerade Items) und die Korrelation zwischen beiden Hälften berechnet. Nach der Spearman-Brown-Formel korrigiert.",
+        "Ein Maß für die interne Konsistenz eines Tests. Gibt an, wie stark die Items eines Tests miteinander korrelieren. Werte ≥ .70 gelten als akzeptabel, ≥ .80 als gut, ≥ .90 als exzellent.",
+        "Cohen's Kappa (κ) korrigiert die Übereinstimmung zwischen zwei Ratern um den Zufall. κ = 0 bedeutet Zufallsübereinstimmung, κ = 1 bedeutet perfekte Übereinstimmung.",
+        "Wichtig bei Beurteilungsverfahren (z. B. klinische Diagnosen, Essays). Zwei unabhängige Rater bewerten dieselben Protokolle — ihre Übereinstimmung wird berechnet.",
+        "3. Validität: Gültigkeit der Messung",
+        "Deckt der Test das gesamte Konstrukt ab? Ein Intelligenztest, der nur mathematische Aufgaben enthält, hat keine Inhaltsvalidität für allgemeine Intelligenz.",
+        "Beurteilt durch Expertenpanel: Repräsentieren die Items das gesamte Definitionsmerkmal?",
+        "Der Zusammenhang zwischen Testwert und einem externen Kriterium. Kann konvergent (gleichzeitig) oder prädiktiv (zukünftig) sein.",
+        "Der Test misst das theoretische Konstrukt, das er messen soll. Beurteilt über konvergente und diskriminante Validität mittels MTMM-Matrizen.",
+        "Eine Matrix, die Korrelationen zwischen mehreren Traits (Konstrukten) und mehreren Messmethoden darstellt. Ermöglicht die Unterscheidung von trait-, method- und error-variance.",
+        "4. Die hierarchische Beziehung: Ein sequenzieller Aufbau",
+        "Cronbach's α ≥ .70 ist akzeptabel, ≥ .80 gut, ≥ .90 exzellent — aber höhere Reliabilität kann die Validität senken (Attenuation-Paradoxon).",
+        "Testtheorie und Fragebogenkonstruktion",
+        "Erweitere dein Wissen in der psychologischen Diagnostik:",
+        "Experimentelle Versuchsplanung",
+        "Wie wir Kausalität durch kontrollierte Designs erkennen.",
+        "Statistische Schlussfolgerungen: Was p-Werte bedeuten und was nicht."
+      ],
+      "definitions": [
+        {
+          "term": "Test-Retest-Reliabilität",
+          "definition": "Wiederholte Messung desselben Tests zu verschiedenen Zeitpunkten zur Bestimmung der zeitlichen Stabilität.",
+          "label": "Korrelation zwischen den Ergebnissen desselben Tests, der zu zwei verschiedenen Zeitpunkten (z. B. mit 4 Wochen Abstand) durchgeführt wird."
+        },
+        {
+          "term": "Paralleltest-Reliabilität",
+          "definition": "Vergleich zweier äquivalenter Testformen, um die Konsistenz über verschiedene Items zu prüfen.",
+          "label": "Korrelation zwischen zwei äquivalenten Testformen, die dieselbe Konstruktion messen, aber unterschiedliche Itemformulierungen verwenden."
+        },
+        {
+          "term": "Split-Half-Reliabilität",
+          "definition": "Aufteilung eines Tests in zwei Hälften und Korrelation der Ergebnisse (Bravais-Guttman-Formel).",
+          "label": "Der Test wird in zwei Hälften geteilt (z. B. ungerade vs. gerade Items) und die Korrelation zwischen beiden Hälften berechnet. Nach der Spearman-Brown-Formel korrigiert."
+        },
+        {
+          "term": "Cronbach's Alpha (α)",
+          "definition": "Ein zentrales Konzept in der Psychologie.",
+          "label": "Ein Maß für die interne Konsistenz eines Tests. Gibt an, wie stark die Items eines Tests miteinander korrelieren. Werte ≥ .70 gelten als akzeptabel, ≥ .80 als gut, ≥ .90 als exzellent."
+        },
+        {
+          "term": "Inter-Rater-Reliabilität (Cohen's κ)",
+          "definition": "Ein zentrales Konzept in der Psychologie.",
+          "label": "Cohen's Kappa (κ) korrigiert die Übereinstimmung zwischen zwei Ratern um den Zufall. κ = 0 bedeutet Zufallsübereinstimmung, κ = 1 bedeutet perfekte Übereinstimmung."
+        },
+        {
+          "term": "Kriteriumsvalidität",
+          "definition": "Zusammenhang zwischen Testwerten und einem externen Kriterium (konkurrent oder prädiktiv).",
+          "label": "Der Zusammenhang zwischen Testwert und einem externen Kriterium. Kann konvergent (gleichzeitig) oder prädiktiv (zukünftig) sein."
+        },
+        {
+          "term": "Konstruktvalidität",
+          "definition": "Messung des theoretischen Konstrukts durch konvergente und diskriminante Validität.",
+          "label": "Der Test misst das theoretische Konstrukt, das er messen soll. Beurteilt über konvergente und diskriminante Validität mittels MTMM-Matrizen."
+        },
+        {
+          "term": "MTMM-Matrix (Multitrait-Multimethod)",
+          "definition": "Ein zentrales Konzept in der Psychologie.",
+          "label": "Eine Matrix, die Korrelationen zwischen mehreren Traits (Konstrukten) und mehreren Messmethoden darstellt. Ermöglicht die Unterscheidung von trait-, method- und error-variance."
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Lienert, G. A. & Raatz, U. (1998). Testaufbau und Testanalyse (6. Aufl.). Psychologie Verlags Union.",
+          "excerpt": "Lienert & Raatz (1998)"
+        },
+        {
+          "citation": "Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16</em>(3), 297-334."
+        },
+        {
+          "citation": "Moosbrugger, H. & Kelava, A. (2012). Testtheorie und Fragebogenkonstruktion (2. Aufl.). Springer.",
+          "excerpt": "Moosbrugger & Kelava (2012)"
+        },
+        {
+          "citation": "Campbell, D. T. & Fiske, D. W. (1959). Convergent and discriminant validation by the multitrait-multimethod matrix. Psychological Bulletin, 56</em>(2), 81-105.",
+          "excerpt": "Campbell & Fiske (1959)"
+        },
+        {
+          "citation": "Messick, S. (1995). Validity of psychological assessment. American Psychologist, 50</em>(9), 741-749."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-reliability-validity.png",
+          "publicSrc": "/recovered/analzy/illu-reliability-validity.png"
+        },
+        {
+          "assetName": "illu-test-quality.png",
+          "publicSrc": "/recovered/analzy/illu-test-quality.png"
+        }
+      ],
+      "relatedRoutes": [
+        {
+          "route": "/versuchsplanung",
+          "label": null
+        },
+        {
+          "route": "/signifikanztestung",
+          "label": null
+        }
+      ],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/11-psychometrie.bundle.txt"
+    },
+    {
+      "articleId": "12",
+      "canonicalSlug": "thema-12",
+      "component": "MotivationEmotion",
+      "recoveredRoute": "/motivation-emotion",
+      "title": "Theorien der Motivation & Emotion",
+      "categoryId": "motivation-and-emotion",
+      "taxonomyPath": [
+        "Motivation & Emotion"
+      ],
+      "keywords": [
+        "motivation",
+        "emotion",
+        "theorie"
+      ],
+      "leadCandidate": "Theorien der Motivation & Emotion",
+      "sectionHeadings": [
+        "Was treibt uns an? — Motivationstheorien",
+        "Hulls Drive-Reduction-Theorie",
+        "Maslows Bedürfnishierarchie",
+        "Selbstbestimmungstheorie (SDT) nach Deci & Ryan",
+        "Was ist eine Emotion? — Emotionstheorien",
+        "James-Lange-Theorie",
+        "Cannon-Bard-Theorie",
+        "Schachter-Singer Zwei-Faktoren-Theorie",
+        "Lazarus' kognitive Bewertungstheorie",
+        "Neurobiologie der Emotion",
+        "Der Papez-Kreis",
+        "Die Amygdala und LeDoux' dualer Pfad",
+        "Integration: Motivation trifft Emotion",
+        "Zusammenfassung",
+        "Literatur",
+        "Zum Weiterforschen"
+      ],
+      "textBlocks": [
+        "Theorien der Motivation & Emotion",
+        "Warum wir tun, was wir tun — Und was wir dabei fühlen",
+        "Was treibt uns an? — Motivationstheorien",
+        "Motivation beschreibt die Kräfte, die ein Verhalten initiieren, lenken und aufrechterhalten. Verschiedene Theorien haben unterschiedliche Antworten darauf geliefert, was diese Kräfte genau sind.",
+        "Clark L. Hulls Behaviorismus-Modell",
+        "Selbstbestimmungstheorie (SDT) nach Deci & Ryan",
+        "Was ist eine Emotion? — Emotionstheorien",
+        "Emotionen sind komplexe Zustände aus subjektivem Erleben, physiologischer Erregung und ausdrucksverhalten. Doch welcher dieser Aspekte kommt zuerst? Die klassischen Emotionstheorien liefern unterschiedliche Antworten.",
+        "William James' bahnbrechende These",
+        "Wahrnehmung dieser Körperreaktion",
+        "Schachter-Singer Zwei-Faktoren-Theorie",
+        "Schachter und Singers klassisches Experiment",
+        "Lazarus' kognitive Bewertungstheorie",
+        "kognitive Bewertung kommt ERST",
+        "Emotionen werden durch ein komplexes Netzwerk von Hirnstrukturen generiert und reguliert. Zwei Systeme sind besonders wichtig.",
+        "Die Amygdala und LeDoux' dualer Pfad",
+        "Integration: Motivation trifft Emotion",
+        "Annäherungs-Vermeidungs-Motivation",
+        "Für die Psychologie des ersten Studienjahres ist entscheidend: Motivation und Emotion sind keine isolierten Konstrukte, sondern eng verflochtene Prozesse, die Kognition, Physiologie und Verhalten gleichermaßen beeinflussen. Das Verständnis beider Bereiche ist unerlässlich für klinische, pädagogische und arbeitspsychologische Anwendungen.",
+        "Motivation und Emotion sind eng verflochten: Bewertungsprozesse verbinden beide Systeme und bestimmen, wie wir Situationen erleben und darauf reagieren.",
+        "Organizational Behavior and Human Performance, 15",
+        "Intrinsic Motivation and Self-Determination in Human Behavior",
+        "American Journal of Psychology, 39",
+        "The Emotional Brain: The Mysterious Underpinnings of Emotional Life",
+        "Eternal Sunshine of the Spotless Mind (2004)",
+        "LeDoux, J. (2003): Das Netz der Gefühle. Wie Emotionen entstehen."
+      ],
+      "definitions": [
+        {
+          "term": "Homöostase",
+          "definition": "Der Bestreben eines Organismus, ein inneres Gleichgewicht und konstante Lebensbedingungen aufrechtzuerhalten.",
+          "label": "Homöostase"
+        },
+        {
+          "term": "Autonomie",
+          "definition": "Das Erleben von Handlungen als selbstbestimmt, willentlich und freiwillig, nicht durch äußere Zwänge kontrolliert.",
+          "label": "Autonomie"
+        },
+        {
+          "term": "Kompetenz",
+          "definition": "Das Grundbedürfnis, sich bei Handlungen als wirksam und fähig zu erleben, Herausforderungen zu meistern.",
+          "label": "Kompetenz"
+        },
+        {
+          "term": "Soziale Eingebundenheit",
+          "definition": "Das Grundbedürfnis nach sozialer Verbundenheit, Zugehörigkeit und wertschätzenden Beziehungen zu anderen Menschen.",
+          "label": "Soziale Eingebundenheit"
+        },
+        {
+          "term": "Brücken-Studie (Dutton & Aron, 1974)",
+          "definition": "Klassisches Experiment zur Fehlattribution von Erregung: Männer auf einer schwankenden Brücke fühlten mehr Attraktion gegenüber einer Frau als auf einer stabilen Brücke.",
+          "label": "Brücken-Studie"
+        },
+        {
+          "term": "Papez-Kreis",
+          "definition": "Neuronaler Schaltkreis in limbischen Strukturen (Hippocampus, Gyrus cinguli, Hypothalamus), der eine zentrale Rolle bei der Emotionsverarbeitung und -regulation spielt.",
+          "label": "Papez-Kreis"
+        },
+        {
+          "term": "Amygdala",
+          "definition": "Mandelkern im Temporallappen, zentral für die Verarbeitung von Angst, Bedrohung und emotionalen Erinnerungen.",
+          "label": "Amygdala"
+        }
+      ],
+      "citations": [
+        {
+          "citation": "Hull, C. L. (1943). Principles of Behavior. Appleton-Century-Crofts.",
+          "excerpt": "Clark L. Hulls Behaviorismus-Modell"
+        },
+        {
+          "citation": "Maslow, A. H. (1943). A theory of human motivation. Psychological Review, 50(4), 370–396."
+        },
+        {
+          "citation": "Wahba, M. A. & Bridwell, L. G. (1976). Maslow reconsidered: A review of research on the need hierarchy theory. Organizational Behavior and Human Performance, 15(2), 212–240.",
+          "excerpt": "Wahba & Bridwell (1976)"
+        },
+        {
+          "citation": "Deci, E. L. & Ryan, R. M. (1985). Intrinsic Motivation and Self-Determination in Human Behavior. Plenum Press.",
+          "excerpt": "Selbstbestimmungstheorie"
+        },
+        {
+          "citation": "Ryan, R. M. & Deci, E. L. (2000). Self-determination theory and the facilitation of intrinsic motivation, social development, and well-being. American Psychologist, 55(1), 68–78."
+        },
+        {
+          "citation": "James, W. (1884). What is an emotion?. Mind, 9(34), 188-205.",
+          "excerpt": "William James' bahnbrechende These"
+        },
+        {
+          "citation": "Cannon, W. B. (1927). The James-Lange theory of emotions: A critical examination and an alternative theory. American Journal of Psychology, 39(1/4), 106–124."
+        },
+        {
+          "citation": "Schachter, S. & Singer, J. E. (1962). Cognitive, social, and physiological determinants of emotional state. Psychological Review, 69(5), 379–399.",
+          "excerpt": "Schachter und Singers klassisches Experiment"
+        },
+        {
+          "citation": "Lazarus, R. S. (1991). Emotion and Adaptation. Oxford University Press.",
+          "excerpt": "kognitive Bewertung kommt ERST"
+        },
+        {
+          "citation": "LeDoux, J. E. (1996). The Emotional Brain: The Mysterious Underpinnings of Emotional Life. Simon & Schuster."
+        }
+      ],
+      "images": [
+        {
+          "assetName": "illu-maslow-pyramid.png",
+          "publicSrc": "/recovered/analzy/illu-maslow-pyramid.png"
+        },
+        {
+          "assetName": "illu-james-lange.png",
+          "publicSrc": "/recovered/analzy/illu-james-lange.png"
+        },
+        {
+          "assetName": "illu-schachter-singer.png",
+          "publicSrc": "/recovered/analzy/illu-schachter-singer.png"
+        }
+      ],
+      "relatedRoutes": [],
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/12-motivation-emotion.bundle.txt"
+    }
+  ]
+}

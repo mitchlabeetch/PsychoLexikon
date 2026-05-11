@@ -75,13 +75,46 @@ export const sourceSchema = z.object({
   }),
 })
 
-export const resourceSchema = z.object({
+export const externalResourceTargetSchema = z.object({
+  kind: z.literal('external-url'),
+  url: z.string().url(),
+})
+
+export const internalArticleTargetSchema = z.object({
+  kind: z.literal('internal-article'),
+  articleId: z.string().min(1),
+})
+
+export const internalCategoryTargetSchema = z.object({
+  kind: z.literal('internal-category'),
+  categoryId: z.string().min(1),
+})
+
+export const internalRouteTargetSchema = z.object({
+  kind: z.literal('internal-route'),
+  path: z.string().regex(/^\//),
+})
+
+export const resourceTargetSchema = z.discriminatedUnion('kind', [
+  externalResourceTargetSchema,
+  internalArticleTargetSchema,
+  internalCategoryTargetSchema,
+  internalRouteTargetSchema,
+])
+
+export const resourceSchema = z
+  .object({
   id: z.string().min(1),
   category: z.string().min(1),
   title: z.string().min(1),
   relevance: z.string().min(1),
-  url: z.string().url(),
+  url: z.string().url().optional(),
+  target: resourceTargetSchema.optional(),
 })
+  .refine((resource) => resource.url || resource.target, {
+    message: 'resource requires either url or target',
+    path: ['target'],
+  })
 
 export const articleTaxonomySchema = z.object({
   categoryId: z.string().min(1),
@@ -102,6 +135,25 @@ export const crmIntegrationSchema = z.object({
     keywords: z.array(z.string().min(1)).min(1),
   }),
 })
+
+export const svgComponentAssetSchema = z.object({
+  kind: z.literal('svg-component'),
+  assetId: z.string().min(1),
+  description: z.string().min(1).optional(),
+  alt: z.string().min(1).optional(),
+})
+
+export const imageFileAssetSchema = z.object({
+  kind: z.literal('image-file'),
+  src: z.string().min(1),
+  description: z.string().min(1).optional(),
+  alt: z.string().min(1),
+  credit: z.string().min(1).optional(),
+  width: z.number().int().positive().optional(),
+  height: z.number().int().positive().optional(),
+})
+
+export const visualAssetSchema = z.discriminatedUnion('kind', [svgComponentAssetSchema, imageFileAssetSchema])
 
 export const articleSectionSchema = z.discriminatedUnion('type', [
   z.object({
@@ -126,12 +178,7 @@ export const articleSectionSchema = z.discriminatedUnion('type', [
     id: z.string().min(1),
     type: z.literal('visual'),
     title: z.string().min(1).optional(),
-    asset: z.object({
-      kind: z.literal('svg-component'),
-      assetId: z.string().min(1),
-      description: z.string().min(1).optional(),
-      alt: z.string().min(1).optional(),
-    }),
+    asset: visualAssetSchema,
     caption: z.string().min(1).optional(),
   }),
   z.object({
@@ -164,6 +211,7 @@ export const articleSchema = z.object({
   }),
   meta: z.object({
     title: z.string().min(1),
+    subtitle: z.string().min(1).optional(),
     discipline: z.string().min(1),
     difficulty: z.string().min(1),
     tabColor: hexColorSchema,

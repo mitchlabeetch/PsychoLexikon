@@ -166,7 +166,14 @@ test('visual sections resolve through the canonical illustration registry', asyn
 
     for (const section of visualSections) {
       assert.ok(section.caption, `${article.slug} visual section ${section.id} is missing a caption`)
-      assert.ok(registeredAssetIds.has(section.asset.assetId), `${article.slug} references unknown illustration asset ${section.asset.assetId}`)
+
+      if (section.asset.kind === 'svg-component') {
+        assert.ok(registeredAssetIds.has(section.asset.assetId), `${article.slug} references unknown illustration asset ${section.asset.assetId}`)
+        continue
+      }
+
+      assert.ok(section.asset.src.startsWith('/'), `${article.slug} image asset ${section.id} should use an absolute public path`)
+      assert.match(section.asset.src, /\.(png|jpe?g|webp|gif|svg)$/i, `${article.slug} image asset ${section.id} should use a supported image format`)
     }
   }
 })

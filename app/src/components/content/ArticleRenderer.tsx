@@ -240,6 +240,26 @@ function renderTextSection(section: Exclude<ArticleSection, { type: 'visual' }>,
 }
 
 function renderVisualSection(section: Extract<ArticleSection, { type: 'visual' }>) {
+  if (section.asset.kind === 'image-file') {
+    return (
+      <figure key={section.id} className="my-8 text-center">
+        <img
+          src={section.asset.src}
+          alt={section.asset.alt}
+          width={section.asset.width}
+          height={section.asset.height}
+          className="mx-auto h-auto max-w-full rounded-lg border border-[#e8e2d6] bg-white shadow-sm"
+        />
+        {section.caption ? (
+          <figcaption className="font-body text-[0.875rem] italic text-text-secondary mt-3">
+            {section.caption}
+          </figcaption>
+        ) : null}
+        {section.asset.credit ? <p className="font-body text-[0.75rem] text-text-muted mt-2">Bildnachweis: {section.asset.credit}</p> : null}
+      </figure>
+    )
+  }
+
   const Illustration = articleIllustrationRegistry[section.asset.assetId]
   if (!Illustration) {
     return (
@@ -258,6 +278,54 @@ function renderVisualSection(section: Extract<ArticleSection, { type: 'visual' }
         </figcaption>
       ) : null}
     </figure>
+  )
+}
+
+function renderResourceLink(article: ArticleDocument, resource: ArticleDocument['relatedResources'][number]) {
+  if (resource.target?.kind === 'internal-article') {
+    return (
+      <Link
+        to={`/thema/${resource.target.articleId}`}
+        className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline"
+      >
+        Artikel oeffnen
+      </Link>
+    )
+  }
+
+  if (resource.target?.kind === 'internal-category') {
+    const category = getCategoryById(resource.target.categoryId)
+    const to = category ? buildCategoryPath(category.slug) : HOME_PATH
+
+    return (
+      <Link to={to} className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline">
+        Kategorie oeffnen
+      </Link>
+    )
+  }
+
+  if (resource.target?.kind === 'internal-route') {
+    return (
+      <Link to={resource.target.path} className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline">
+        Weiterfuehren
+      </Link>
+    )
+  }
+
+  const href = resource.target?.kind === 'external-url' ? resource.target.url : resource.url
+  if (!href) {
+    return null
+  }
+
+  return (
+    <a
+      href={href}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline"
+    >
+      {href} <ExternalLink size={12} />
+    </a>
   )
 }
 
@@ -291,6 +359,9 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
         <h1 className="font-display font-bold text-[1.5rem] sm:text-[2rem] leading-tight tracking-[-0.02em] text-text-primary mb-3 text-wrap">
           {article.meta.title}
         </h1>
+        {article.meta.subtitle ? (
+          <p className="font-body text-[0.95rem] sm:text-[1.05rem] leading-[1.6] text-text-secondary mb-4 text-wrap">{article.meta.subtitle}</p>
+        ) : null}
         <div className="flex flex-wrap items-center gap-3">
           <span
             className="inline-block font-body font-medium text-[0.65rem] sm:text-[0.75rem] uppercase tracking-wide px-2 sm:px-3 py-0.5 sm:py-1 rounded-full"
@@ -354,14 +425,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
                 </div>
                 <h4 className="font-body font-semibold text-[0.95rem] sm:text-[1rem] text-text-primary mb-1 text-wrap">{resource.title}</h4>
                 <p className="font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary leading-relaxed mb-2 text-wrap">{resource.relevance}</p>
-                <a
-                  href={resource.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline"
-                >
-                  {resource.url} <ExternalLink size={12} />
-                </a>
+                {renderResourceLink(article, resource)}
               </div>
             ))}
           </div>
