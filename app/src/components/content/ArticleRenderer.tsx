@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { ExternalLink } from 'lucide-react'
 import Tooltip from '@/components/Tooltip'
 import { articleIllustrationRegistry } from '@/components/svgs/articleIllustrations'
-import { getArticleCategory } from '@/content/api'
+import { getArticleAccentColor, getArticleCategory } from '@/content/api'
 import { buildCategoryPath, HOME_PATH } from '@/routing/routes'
 import type { Annotation, ArticleDocument, ArticleSection, RichText, SectionEntry } from '@/content/schema'
 
@@ -263,7 +263,7 @@ function renderVisualSection(section: Extract<ArticleSection, { type: 'visual' }
 
 export default function ArticleRenderer({ article }: ArticleRendererProps) {
   const primaryCategory = getArticleCategory(article)
-  const accentColor = primaryCategory?.color ?? article.meta.tabColor
+  const accentColor = getArticleAccentColor(article)
   const categoryLabel = primaryCategory?.label ?? article.meta.discipline
   const categoryHref = primaryCategory ? buildCategoryPath(primaryCategory.slug) : HOME_PATH
 

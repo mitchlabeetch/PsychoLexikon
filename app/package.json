@@ -8,7 +8,7 @@
     "build": "npm run content:validate && tsc -b && vite build",
     "content:migrate": "tsx scripts/migrate-legacy-content.ts --write",
     "content:migrate:dry": "tsx scripts/migrate-legacy-content.ts",
-    "content:validate": "node --import tsx --test scripts/validate-content.test.ts scripts/route-contract.test.ts",
+    "content:validate": "tsx --tsconfig tsconfig.app.json --test scripts/validate-content.test.ts scripts/route-contract.test.ts scripts/render-smoke.test.tsx scripts/migration-delta.test.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },

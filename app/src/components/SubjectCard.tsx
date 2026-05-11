@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { getArticleCategory } from '@/content/api'
+import { getArticleAccentColor, getArticleCategory } from '@/content/api'
 import { buildArticlePath } from '@/routing/routes'
 import type { ArticleDocument } from '@/content/schema'
 
@@ -12,7 +12,7 @@ export default function SubjectCard({ subject }: SubjectCardProps) {
   const { title } = meta
   const cleanTeaser = meta.leadTeaser.replace(/\*\*/g, '').replace(/\*/g, '')
   const category = getArticleCategory(subject)
-  const accentColor = category?.color ?? meta.tabColor
+  const accentColor = getArticleAccentColor(subject)
   const eyebrowLabel = category?.label ?? meta.discipline
 
   return (

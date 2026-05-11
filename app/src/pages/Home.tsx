@@ -4,9 +4,9 @@ import Footer from '@/components/Footer'
 import SubjectCard from '@/components/SubjectCard'
 import { listArticles } from '@/content/api'
 
-const articles = listArticles()
-
 export default function Home() {
+  const articles = listArticles()
+
   return (
     <div>
       <Navbar />

@@ -1,13 +1,32 @@
 import { articleSchema, type ArticleDocument } from './schema'
 import { getCategoryById, getCategoryBySlug } from './taxonomy'
 
-const rawArticleModules = import.meta.glob('./articles/*.json', {
-  eager: true,
-  import: 'default',
-}) as Record<string, unknown>
+function getRawArticleModules() {
+  if (typeof import.meta.glob === 'function') {
+    return import.meta.glob('./articles/*.json', {
+      eager: true,
+      import: 'default',
+    }) as Record<string, unknown>
+  }
+
+  return {}
+}
+
+const rawArticleModules = getRawArticleModules()
 
 let cachedArticles: ArticleDocument[] | null = null
 let cachedArticleMap: Map<string, ArticleDocument> | null = null
+
+function buildArticleMap(articles: ArticleDocument[]) {
+  const articleMap = new Map<string, ArticleDocument>()
+
+  for (const article of articles) {
+    articleMap.set(article.id, article)
+    articleMap.set(article.slug, article)
+  }
+
+  return articleMap
+}
 
 function loadArticles() {
   if (cachedArticles && cachedArticleMap) {
@@ -18,16 +37,23 @@ function loadArticles() {
     .map((moduleValue) => articleSchema.parse(moduleValue))
     .sort((left, right) => left.meta.tabNumber - right.meta.tabNumber)
 
-  const articleMap = new Map<string, ArticleDocument>()
-  for (const article of articles) {
-    articleMap.set(article.id, article)
-    articleMap.set(article.slug, article)
-  }
+  const articleMap = buildArticleMap(articles)
 
   cachedArticles = articles
   cachedArticleMap = articleMap
 
   return { articles, articleMap }
+}
+
+export function primeArticleCacheForTests(articles: ArticleDocument[]) {
+  const sortedArticles = [...articles].sort((left, right) => left.meta.tabNumber - right.meta.tabNumber)
+  cachedArticles = sortedArticles
+  cachedArticleMap = buildArticleMap(sortedArticles)
+}
+
+export function resetArticleCacheForTests() {
+  cachedArticles = null
+  cachedArticleMap = null
 }
 
 export function listArticles() {
@@ -36,6 +62,10 @@ export function listArticles() {
 
 export function getArticleCategory(article: ArticleDocument) {
   return getCategoryById(article.taxonomy.categoryId)
+}
+
+export function getArticleAccentColor(article: ArticleDocument) {
+  return getArticleCategory(article)?.color ?? article.meta.tabColor
 }
 
 export function listArticlesByCategory(categorySlugOrId: string) {

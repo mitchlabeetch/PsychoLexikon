@@ -4,8 +4,9 @@ import { readdir, readFile } from 'node:fs/promises'
 import path from 'node:path'
 import { fileURLToPath } from 'node:url'
 import { articleSchema, type Annotation, type ArticleDocument, type ArticleSection, type SectionEntry } from '../src/content/schema'
+import { articleIllustrationRegistry } from '../src/components/svgs/articleIllustrations'
 import { transformLegacyArticle, type LegacySubjectDocument } from '../src/content/transformers'
-import { getTaxonomyNode, listCategories } from '../src/content/taxonomy'
+import { getCategoryById, getTaxonomyNode, listCategories } from '../src/content/taxonomy'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
@@ -56,6 +57,10 @@ function entryContainsAnnotationText(entry: SectionEntry, annotationText: string
   return false
 }
 
+function getVisualSections(article: ArticleDocument) {
+  return article.sections.filter((section): section is Extract<ArticleSection, { type: 'visual' }> => section.type === 'visual')
+}
+
 test('all generated articles validate against the canonical schema', async () => {
   const { articles } = await readArticles()
   assert.equal(articles.length, 12)
@@ -75,13 +80,50 @@ test('category navigation registry stays within the intended 6 to 8 tab range', 
   assert.ok(categories.length <= 8, 'expected at most 8 navigation categories')
 })
 
+test('category navigation registry preserves stable ordering and unique slugs', () => {
+  const categories = listCategories()
+  const orders = categories.map((category) => category.order)
+  const slugs = categories.map((category) => category.slug)
+
+  assert.deepEqual(orders, [...orders].sort((left, right) => left - right), 'category order must be stable')
+  assert.equal(new Set(orders).size, orders.length, 'category order values must be unique')
+  assert.equal(new Set(slugs).size, slugs.length, 'category slugs must be unique')
+})
+
 test('every article resolves to exactly one canonical navigation category', async () => {
   const { articles } = await readArticles()
 
   for (const article of articles) {
+    const category = getCategoryById(article.taxonomy.categoryId)
+
     assert.ok(article.taxonomy.categoryId, `${article.slug} missing categoryId`)
     assert.ok(getTaxonomyNode(article.taxonomy.categoryId), `${article.slug} canonical category node missing`)
+    assert.ok(category, `${article.slug} canonical category missing`)
     assert.equal(article.crm.metadata.taxonomyPath.length, 1, `${article.slug} should expose a single canonical taxonomy label`)
+    assert.deepEqual(article.crm.metadata.taxonomyPath, [category.label], `${article.slug} taxonomy path should match its canonical category`)
+    assert.equal(article.meta.tabColor, category.color, `${article.slug} tabColor should stay aligned to canonical category color`)
+  }
+})
+
+test('category registry articleIds stay coherent with article taxonomy assignments', async () => {
+  const { articles } = await readArticles()
+  const articleIdsByCategory = new Map<string, string[]>()
+
+  for (const article of articles) {
+    const assignedIds = articleIdsByCategory.get(article.taxonomy.categoryId) ?? []
+    assignedIds.push(article.id)
+    articleIdsByCategory.set(article.taxonomy.categoryId, assignedIds)
+  }
+
+  for (const category of listCategories()) {
+    const assignedIds = [...(articleIdsByCategory.get(category.id) ?? [])].sort()
+    const registeredIds = [...category.articleIds].sort()
+
+    assert.deepEqual(
+      assignedIds,
+      registeredIds,
+      `${category.id} articleIds should match the category assignments declared by articles`,
+    )
   }
 })
 
@@ -108,6 +150,23 @@ test('citation annotations reference valid sources and all annotation terms are 
           }
         }
       }
+    }
+  }
+})
+
+test('visual sections resolve through the canonical illustration registry', async () => {
+  const { articles } = await readArticles()
+  const registeredAssetIds = new Set(Object.keys(articleIllustrationRegistry))
+
+  for (const article of articles) {
+    const visualSections = getVisualSections(article)
+
+    assert.ok(visualSections.length >= 1, `${article.slug} should include at least one inline SVG`)
+    assert.ok(visualSections.length <= 2, `${article.slug} should include at most two inline SVGs`)
+
+    for (const section of visualSections) {
+      assert.ok(section.caption, `${article.slug} visual section ${section.id} is missing a caption`)
+      assert.ok(registeredAssetIds.has(section.asset.assetId), `${article.slug} references unknown illustration asset ${section.asset.assetId}`)
     }
   }
 })
