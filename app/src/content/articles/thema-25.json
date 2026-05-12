@@ -8,13 +8,13 @@
   },
   "meta": {
     "title": "Gelernte Hilflosigkeit",
-    "subtitle": "Wenn wiederholter Kontrollverlust in Passivitaet und Rueckzug umschlaegt",
+    "subtitle": "Wenn wiederholter Kontrollverlust in Passivität und Rückzug umschlägt",
     "discipline": "Motivation & Emotion",
     "difficulty": "Vertiefungs-Knoten",
     "tabColor": "#d4a8a8",
     "tabNumber": 25,
     "estimatedReadMinutes": 3,
-    "leadTeaser": "Gelernte Hilflosigkeit beschreibt, wie wiederholte Erfahrungen von Unkontrollierbarkeit Motivation, Emotion und kuenftiges Handeln nachhaltig beeintraechtigen koennen."
+    "leadTeaser": "Gelernte Hilflosigkeit beschreibt, wie wiederholte Erfahrungen von Unkontrollierbarkeit Motivation, Emotion und künftiges Handeln nachhaltig beeinträchtigen können."
   },
   "taxonomy": {
     "categoryId": "motivation-and-emotion",
@@ -63,14 +63,14 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die recovered Route /lernen-hilflosigkeit wurde als Anschluss an die Attributionstheorie konserviert. Das legt nahe, Hilflosigkeit nicht nur als Zustand von Passivitaet, sondern als Folge bestimmter Deutungen von Kontrolle und Misserfolg zu lesen.",
+            "text": "Die recovered Route /lernen-hilflosigkeit wurde als Anschluss an die Attributionstheorie konserviert. Das legt nahe, Hilflosigkeit nicht nur als Zustand von Passivität, sondern als Folge bestimmter Deutungen von Kontrolle und Misserfolg zu lesen.",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem im Korpus bereits benannten Zusammenhang von Kontrollierbarkeit, Motivation und pessimistischen Erklaerungsmustern.",
+            "text": "Da kein eigenständiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem im Korpus bereits benannten Zusammenhang von Kontrollierbarkeit, Motivation und pessimistischen Erklärungsmustern.",
             "annotations": []
           }
         }
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Erleben, dass Ergebnisse nicht verlässlich durch eigenes Handeln beeinflusst werden koennen.",
+            "text": "Erleben, dass Ergebnisse nicht verlässlich durch eigenes Handeln beeinflusst werden können.",
             "annotations": []
           }
         }
@@ -117,7 +117,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Gelernte Hilflosigkeit entsteht, wenn Menschen oder Tiere wiederholt erleben, dass ihr Handeln keine sichtbare Wirkung hat. Mit der Zeit wird nicht nur die Situation, sondern die gesamte Erwartungshaltung veraendert: Neue Einflussmoeglichkeiten werden gar nicht mehr gesucht.",
+            "text": "Gelernte Hilflosigkeit entsteht, wenn Menschen oder Tiere wiederholt erleben, dass ihr Handeln keine sichtbare Wirkung hat. Mit der Zeit wird nicht nur die Situation, sondern die gesamte Erwartungshaltung verändert: Neue Einflussmöglichkeiten werden gar nicht mehr gesucht.",
             "annotations": []
           }
         },
@@ -128,7 +128,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Bei Menschen ist entscheidend, wie Misserfolge interpretiert werden. Werden negative Ereignisse als stabil, umfassend und unkontrollierbar gedeutet, steigt die Wahrscheinlichkeit, dass Motivation einbricht und Rueckzug einsetzt.",
+            "text": "Bei Menschen ist entscheidend, wie Misserfolge interpretiert werden. Werden negative Ereignisse als stabil, umfassend und unkontrollierbar gedeutet, steigt die Wahrscheinlichkeit, dass Motivation einbricht und Rückzug einsetzt.",
             "annotations": []
           }
         },
@@ -139,7 +139,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Hilflosigkeit betrifft nicht nur Leistung, sondern auch Emotion und Selbstbild. Genau deshalb ist der Begriff im recovered Attributionskontext so plausibel: Ursachenzuschreibungen, Gefuehle und kuenftiges Verhalten greifen hier direkt ineinander.",
+            "text": "Hilflosigkeit betrifft nicht nur Leistung, sondern auch Emotion und Selbstbild. Genau deshalb ist der Begriff im recovered Attributionskontext so plausibel: Ursachenzuschreibungen, Gefühle und künftiges Verhalten greifen hier direkt ineinander.",
             "annotations": []
           }
         }
@@ -154,11 +154,11 @@
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Gelernte Hilflosigkeit beschreibt den Uebergang von erlebter Wirkungslosigkeit zu verminderter Initiative.",
+              "text": "Gelernte Hilflosigkeit beschreibt den Übergang von erlebter Wirkungslosigkeit zu verminderter Initiative.",
               "annotations": []
             },
             {
-              "text": "Attributionsmuster bestimmen mit, ob Misserfolg als veraenderbar oder als unvermeidbar erlebt wird.",
+              "text": "Attributionsmuster bestimmen mit, ob Misserfolg als veränderbar oder als unvermeidbar erlebt wird.",
               "annotations": []
             },
             {
@@ -176,7 +176,7 @@
       "kind": "other",
       "shortCitation": "Recovered route reference in analzy deployment bundle: Gelernte Hilflosigkeit (o. J.)",
       "apaCitation": "Recovered route reference in analzy deployment bundle: Gelernte Hilflosigkeit (/lernen-hilflosigkeit) was linked from Attributionstheorie.",
-      "tooltip": "Die recovered Route entstand direkt aus einem Artikel ueber Ursachenzuschreibung und ihre motivationalen Folgen.",
+      "tooltip": "Die recovered Route entstand direkt aus einem Artikel über Ursachenzuschreibung und ihre motivationalen Folgen.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -201,8 +201,8 @@
       "id": "25-source-3",
       "kind": "empirical",
       "shortCitation": "Abramson et al. (1978)",
-      "apaCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
-      "tooltip": "Verknuepft Hilflosigkeit staerker mit menschlichen Attributionsmustern und Erwartungsbildung.",
+      "apaCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critiqü and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
+      "tooltip": "Verknüpft Hilflosigkeit stärker mit menschlichen Attributionsmustern und Erwartungsbildung.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -227,7 +227,7 @@
   "relatedResources": [
     {
       "id": "25-backlink-1",
-      "category": "rueckverweis",
+      "category": "rückverweis",
       "title": "Attributionstheorie",
       "relevance": "Recovered primary article that referenced Gelernte Hilflosigkeit.",
       "target": {
@@ -247,7 +247,7 @@
     },
     {
       "id": "25-bridge-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Selbstwirksamkeit nach Bandura",
       "relevance": "Hilflosigkeit wirkt wie das Gegenbild stabiler Kompetenz- und Kontrolleerwartungen.",
       "target": {
@@ -257,9 +257,9 @@
     },
     {
       "id": "25-bridge-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Leistungsmotivation",
-      "relevance": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdauer und Bereitschaft zu neuer Anstrengung.",
+      "relevance": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdaür und Bereitschaft zu neuer Anstrengung.",
       "target": {
         "kind": "internal-article",
         "articleId": "24"
@@ -267,9 +267,9 @@
     },
     {
       "id": "25-bridge-3",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Soziale Kognition",
-      "relevance": "Hilflosigkeit wird auch durch Deutungsmuster und Erwartungen ueber eigene Wirksamkeit sozial vermittelt.",
+      "relevance": "Hilflosigkeit wird auch durch Deutungsmuster und Erwartungen über eigene Wirksamkeit sozial vermittelt.",
       "target": {
         "kind": "internal-article",
         "articleId": "26"

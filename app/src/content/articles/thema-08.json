@@ -9,8 +9,8 @@
   "meta": {
     "title": "Fünf-Faktoren-Modell (Big Five)",
     "subtitle": "OCEAN — Die fünf Dimensionen, die Persönlichkeit strukturieren",
-    "discipline": "Differentielle & Persoenlichkeitspsychologie",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "discipline": "Differentielle & Persönlichkeitspsychologie",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#a8d8ea",
     "tabNumber": 8,
     "estimatedReadMinutes": 3,
@@ -21,7 +21,7 @@
     "keywords": [
       "big five",
       "traits",
-      "persoenlichkeit"
+      "persönlichkeit"
     ],
     "audience": [
       "erstsemester",
@@ -41,7 +41,7 @@
     "syncEnabled": false,
     "metadata": {
       "taxonomyPath": [
-        "Differentielle & Persoenlichkeitspsychologie"
+        "Differentielle & Persönlichkeitspsychologie"
       ],
       "audience": [
         "erstsemester",
@@ -51,7 +51,7 @@
       "keywords": [
         "big five",
         "traits",
-        "persoenlichkeit"
+        "persönlichkeit"
       ]
     }
   },
@@ -208,7 +208,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Facetten: Vertrauen, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
+            "text": "Facetten: Vertraün, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
             "annotations": []
           }
         },
@@ -303,7 +303,7 @@
     {
       "id": "08-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -398,7 +398,7 @@
   "relatedResources": [
     {
       "id": "08-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "HEXACO-Modell",
       "relevance": "Recovered internal concept link from /big-five.",
       "target": {
@@ -408,7 +408,7 @@
     },
     {
       "id": "08-connection-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Persönlichkeitsstörungen",
       "relevance": "Recovered internal concept link from /big-five.",
       "target": {
@@ -418,7 +418,7 @@
     },
     {
       "id": "08-connection-3",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Mischel: Person-Situation",
       "relevance": "Recovered internal concept link from /big-five.",
       "target": {
@@ -428,7 +428,7 @@
     },
     {
       "id": "08-connection-4",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Persönlichkeitstests",
       "relevance": "Recovered internal concept link from /big-five.",
       "target": {

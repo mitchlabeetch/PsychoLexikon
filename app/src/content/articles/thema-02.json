@@ -9,7 +9,7 @@
   "meta": {
     "title": "Gestaltgesetze & Prägnanzprinzip",
     "discipline": "Wahrnehmung & Kognition",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#c7b8ea",
     "tabNumber": 2,
     "estimatedReadMinutes": 3,
@@ -19,7 +19,7 @@
     "categoryId": "perception-and-cognition",
     "keywords": [
       "gestaltgesetze",
-      "praegnanz",
+      "prägnanz",
       "figur-grund"
     ],
     "audience": [
@@ -49,7 +49,7 @@
       ],
       "keywords": [
         "gestaltgesetze",
-        "praegnanz",
+        "prägnanz",
         "figur-grund"
       ]
     }
@@ -225,11 +225,11 @@
       "type": "visual",
       "asset": {
         "kind": "image-file",
-        "src": "/recovered/analzy/illu-praegnanz.png",
-        "description": "Recovered illustration illu-praegnanz.png from analzy deployment bundle.",
-        "alt": "Gestaltgesetze & Prägnanzprinzip: Praegnanz"
+        "src": "/recovered/analzy/illu-prägnanz.png",
+        "description": "Recovered illustration illu-prägnanz.png from analzy deployment bundle.",
+        "alt": "Gestaltgesetze & Prägnanzprinzip: Prägnanz"
       },
-      "caption": "Praegnanz"
+      "caption": "Prägnanz"
     },
     {
       "id": "02-visuals-3",
@@ -245,7 +245,7 @@
     {
       "id": "02-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -316,7 +316,7 @@
   "relatedResources": [
     {
       "id": "02-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "← Aktionspotential",
       "relevance": "Recovered internal concept link from /gestaltgesetze.",
       "target": {
@@ -326,7 +326,7 @@
     },
     {
       "id": "02-connection-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "← Arbeitsgedächtnis",
       "relevance": "Recovered internal concept link from /gestaltgesetze.",
       "target": {

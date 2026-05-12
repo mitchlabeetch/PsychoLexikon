@@ -9,8 +9,8 @@
   "meta": {
     "title": "Berliner Intelligenzstrukturmodell (BIS)",
     "subtitle": "Wie sich Intelligenz entfaltet — Jägers mehrdimensionales Modell",
-    "discipline": "Differentielle & Persoenlichkeitspsychologie",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "discipline": "Differentielle & Persönlichkeitspsychologie",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#a8d8ea",
     "tabNumber": 5,
     "estimatedReadMinutes": 3,
@@ -21,7 +21,7 @@
     "keywords": [
       "bis",
       "intelligenzstruktur",
-      "jaeger"
+      "jäger"
     ],
     "audience": [
       "erstsemester",
@@ -41,7 +41,7 @@
     "syncEnabled": false,
     "metadata": {
       "taxonomyPath": [
-        "Differentielle & Persoenlichkeitspsychologie"
+        "Differentielle & Persönlichkeitspsychologie"
       ],
       "audience": [
         "erstsemester",
@@ -51,7 +51,7 @@
       "keywords": [
         "bis",
         "intelligenzstruktur",
-        "jaeger"
+        "jäger"
       ]
     }
   },
@@ -137,7 +137,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektuellen Leistungsfähigkeit.",
+            "text": "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektüllen Leistungsfähigkeit.",
             "annotations": []
           }
         },
@@ -312,7 +312,7 @@
     {
       "id": "05-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -391,7 +391,7 @@
   "relatedResources": [
     {
       "id": "05-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Intelligenztheorien im Überblick",
       "relevance": "Recovered internal concept link from /bis-modell.",
       "target": {
@@ -401,7 +401,7 @@
     },
     {
       "id": "05-connection-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Faktorenanalyse",
       "relevance": "Recovered internal concept link from /bis-modell.",
       "target": {
@@ -411,7 +411,7 @@
     },
     {
       "id": "05-connection-3",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "IQ-Tests und Diagnostik",
       "relevance": "Recovered internal concept link from /bis-modell.",
       "target": {

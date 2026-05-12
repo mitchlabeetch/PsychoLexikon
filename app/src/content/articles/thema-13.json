@@ -8,19 +8,19 @@
   },
   "meta": {
     "title": "HEXACO-Modell",
-    "subtitle": "Sechs Dimensionen statt fuenf? Die Erweiterung des Big-Five-Rahmens um Honesty-Humility",
-    "discipline": "Differentielle & Persoenlichkeitspsychologie",
+    "subtitle": "Sechs Dimensionen statt fünf? Die Erweiterung des Big-Five-Rahmens um Honesty-Humility",
+    "discipline": "Differentielle & Persönlichkeitspsychologie",
     "difficulty": "Vertiefungs-Knoten",
     "tabColor": "#a8d8ea",
     "tabNumber": 13,
     "estimatedReadMinutes": 3,
-    "leadTeaser": "HEXACO ergaenzt das Fuenf-Faktoren-Modell um Honesty-Humility und macht Fairness, Bescheidenheit und Aufrichtigkeit als eigene Traitdimension sichtbar."
+    "leadTeaser": "HEXACO ergänzt das Fünf-Faktoren-Modell um Honesty-Humility und macht Fairness, Bescheidenheit und Aufrichtigkeit als eigene Traitdimension sichtbar."
   },
   "taxonomy": {
     "categoryId": "differential-and-personality",
     "keywords": [
       "hexaco",
-      "persoenlichkeit",
+      "persönlichkeit",
       "traits"
     ],
     "audience": [
@@ -41,7 +41,7 @@
     "syncEnabled": false,
     "metadata": {
       "taxonomyPath": [
-        "Differentielle & Persoenlichkeitspsychologie"
+        "Differentielle & Persönlichkeitspsychologie"
       ],
       "audience": [
         "selbststudium",
@@ -50,7 +50,7 @@
       ],
       "keywords": [
         "hexaco",
-        "persoenlichkeit",
+        "persönlichkeit",
         "traits"
       ]
     }
@@ -63,14 +63,14 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Im recovered Korpus blieb zu /hexaco kein eigenstaendiger Seitentext erhalten. Die kanonische Seite verdichtet deshalb den im Big-Five-Artikel bereits angelegten Vergleich zwischen Fuenf-Faktoren-Modell und HEXACO zu einem eigenen Vertiefungsknoten.",
+            "text": "Im recovered Korpus blieb zu /hexaco kein eigenständiger Seitentext erhalten. Die kanonische Seite verdichtet deshalb den im Big-Five-Artikel bereits angelegten Vergleich zwischen Fünf-Faktoren-Modell und HEXACO zu einem eigenen Vertiefungsknoten.",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "HEXACO uebernimmt grosse Teile der bekannten Traitstruktur, ergaenzt sie aber um Honesty-Humility und verschaerft damit die Frage, ob fuenf Faktoren fuer Persoenlichkeitsbeschreibung immer ausreichen.",
+            "text": "HEXACO übernimmt grosse Teile der bekannten Traitstruktur, ergänzt sie aber um Honesty-Humility und verschärft damit die Frage, ob fünf Faktoren für Persönlichkeitsbeschreibung immer ausreichen.",
             "annotations": []
           }
         }
@@ -88,7 +88,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die zusaetzliche HEXACO-Dimension beschreibt Aufrichtigkeit, Fairness, Bescheidenheit und den Verzicht auf Ausbeutung anderer.",
+            "text": "Die zusätzliche HEXACO-Dimension beschreibt Aufrichtigkeit, Fairness, Bescheidenheit und den Verzicht auf Ausbeutung anderer.",
             "annotations": []
           }
         },
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ein sechsdimensionales Persoenlichkeitsmodell, das an Big-Five-Strukturen anschliesst, diese aber um Honesty-Humility erweitert.",
+            "text": "Ein sechsdimensionales Persönlichkeitsmodell, das an Big-Five-Strukturen anschliesst, diese aber um Honesty-Humility erweitert.",
             "annotations": []
           }
         }
@@ -117,7 +117,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Der Big-Five-Ausgangsartikel markiert HEXACO ausdruecklich als kritische Erweiterung: Die fuenf etablierten Dimensionen bleiben zentral, aber Merkmale wie Aufrichtigkeit, Fairness und Bescheidenheit werden nicht mehr nur unter Vertraeglichkeit mitgefuehrt.",
+            "text": "Der Big-Five-Ausgangsartikel markiert HEXACO ausdrücklich als kritische Erweiterung: Die fünf etablierten Dimensionen bleiben zentral, aber Merkmale wie Aufrichtigkeit, Fairness und Bescheidenheit werden nicht mehr nur unter Verträglichkeit mitgeführt.",
             "annotations": []
           }
         },
@@ -128,7 +128,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Honesty-Humility trennt soziale Fairness von kooperativer Freundlichkeit. Dadurch lassen sich manipulative, ausbeuterische oder statusorientierte Tendenzen deutlicher von klassischer Vertraeglichkeit unterscheiden.",
+            "text": "Honesty-Humility trennt soziale Fairness von kooperativer Freundlichkeit. Dadurch lassen sich manipulative, ausbeuterische oder statusorientierte Tendenzen deutlicher von klassischer Verträglichkeit unterscheiden.",
             "annotations": []
           }
         },
@@ -139,7 +139,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Viele HEXACO-Dimensionen liegen weiterhin nahe an OCEAN. Der eigentliche Mehrwert liegt deshalb weniger in einem kompletten Neuentwurf als in einer anderen Gewichtung der sozialen und moralischen Komponenten von Persoenlichkeit.",
+            "text": "Viele HEXACO-Dimensionen liegen weiterhin nahe an OCEAN. Der eigentliche Mehrwert liegt deshalb weniger in einem kompletten Neuentwurf als in einer anderen Gewichtung der sozialen und moralischen Komponenten von Persönlichkeit.",
             "annotations": []
           }
         }
@@ -175,7 +175,7 @@
       "id": "13-recovered-source-1",
       "kind": "other",
       "shortCitation": "Recovered route reference in analzy deployment bundle: HEXACO-Modell (o. J.)",
-      "apaCitation": "Recovered route reference in analzy deployment bundle: HEXACO-Modell (/hexaco) was linked from Fuenf-Faktoren-Modell (Big Five).",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: HEXACO-Modell (/hexaco) was linked from Fünf-Faktoren-Modell (Big Five).",
       "tooltip": "Im recovered Korpus blieb nur die Verlinkung erhalten; die kanonische Seite rekonstruiert den Begriff aus dem Big-Five-Kontext und stabiler Standardliteratur.",
       "verification": {
         "status": "pending-review",
@@ -189,7 +189,7 @@
       "kind": "other",
       "shortCitation": "Goldberg & L. R. (1993)",
       "apaCitation": "Goldberg, L. R. (1993). The structure of phenotypic personality traits. American Psychologist, 48(1), 26-34.",
-      "tooltip": "Dient als Vergleichsfolie fuer die etablierte fuenfdimensionale Traitstruktur.",
+      "tooltip": "Dient als Vergleichsfolie für die etablierte fünfdimensionale Traitstruktur.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -202,7 +202,7 @@
       "kind": "review",
       "shortCitation": "Ashton et al. (2007)",
       "apaCitation": "Ashton, M. C., & Lee, K. (2007). Empirical, theoretical, and practical advantages of the HEXACO model of personality structure. Personality and Social Psychology Review, 11(2), 150-166.",
-      "tooltip": "Begruendet die sechste Dimension Honesty-Humility und ihre praktische Relevanz.",
+      "tooltip": "Begründet die sechste Dimension Honesty-Humility und ihre praktische Relevanz.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -214,7 +214,7 @@
   "relatedResources": [
     {
       "id": "13-backlink-1",
-      "category": "rueckverweis",
+      "category": "rückverweis",
       "title": "Fünf-Faktoren-Modell (Big Five)",
       "relevance": "Recovered primary article that referenced HEXACO-Modell.",
       "target": {
@@ -225,7 +225,7 @@
     {
       "id": "13-category-1",
       "category": "kategorie",
-      "title": "Differentielle & Persoenlichkeitspsychologie",
+      "title": "Differentielle & Persönlichkeitspsychologie",
       "relevance": "Canonical category placement for this derived concept node.",
       "target": {
         "kind": "internal-category",
@@ -234,7 +234,7 @@
     },
     {
       "id": "13-bridge-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Mischel: Person-Situation",
       "relevance": "Die Person-Situations-Debatte markiert eine klassische Kritik an globalen Traitmodellen.",
       "target": {
@@ -244,9 +244,9 @@
     },
     {
       "id": "13-bridge-2",
-      "category": "verknuepfung",
-      "title": "Persoenlichkeitstests",
-      "relevance": "Persoenlichkeitsdiagnostik zeigt, wie Traitmodelle in Frageboegen und Profile uebersetzt werden.",
+      "category": "verknüpfung",
+      "title": "Persönlichkeitstests",
+      "relevance": "Persönlichkeitsdiagnostik zeigt, wie Traitmodelle in Fragebögen und Profile übersetzt werden.",
       "target": {
         "kind": "internal-article",
         "articleId": "15"
