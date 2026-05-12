@@ -7,9 +7,9 @@
     "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
   },
   "meta": {
-    "title": "Intelligenztheorien im Ueberblick",
-    "subtitle": "g-Faktor, Primaerfaktoren, gf/gc, CHC und BIS im Vergleich",
-    "discipline": "Differentielle & Persoenlichkeitspsychologie",
+    "title": "Intelligenztheorien im Überblick",
+    "subtitle": "g-Faktor, Primärfaktoren, gf/gc, CHC und BIS im Vergleich",
+    "discipline": "Differentielle & Persönlichkeitspsychologie",
     "difficulty": "Vertiefungs-Knoten",
     "tabColor": "#a8d8ea",
     "tabNumber": 17,
@@ -41,7 +41,7 @@
     "syncEnabled": false,
     "metadata": {
       "taxonomyPath": [
-        "Differentielle & Persoenlichkeitspsychologie"
+        "Differentielle & Persönlichkeitspsychologie"
       ],
       "audience": [
         "selbststudium",
@@ -63,14 +63,14 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Der recovered Begriff /intelligenztheorien verweist auf eine Luecke, die im BIS-Artikel bereits vorbereitet ist: Intelligenz laesst sich nicht nur mit einem einzigen Modell beschreiben, sondern ueber mehrere konkurrierende Ordnungen.",
+            "text": "Der recovered Begriff /intelligenztheorien verweist auf eine Lücke, die im BIS-Artikel bereits vorbereitet ist: Intelligenz lässt sich nicht nur mit einem einzigen Modell beschreiben, sondern über mehrere konkurrierende Ordnungen.",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die kanonische Seite fasst diese Modellfamilien zusammen, ohne zu behaupten, dass fuer die recovered Route ein vollstaendiger Originaltext erhalten geblieben waere.",
+            "text": "Die kanonische Seite fasst diese Modellfamilien zusammen, ohne zu behaupten, dass für die recovered Route ein vollständiger Originaltext erhalten geblieben wäre.",
             "annotations": []
           }
         }
@@ -88,7 +88,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die Annahme einer allgemeinen Intelligenz, die Leistungen in sehr unterschiedlichen kognitiven Aufgaben mittraegt.",
+            "text": "Die Annahme einer allgemeinen Intelligenz, die Leistungen in sehr unterschiedlichen kognitiven Aufgaben mitträgt.",
             "annotations": []
           }
         },
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ein mehrschichtiges Intelligenzmodell, das breite und enge Faehigkeiten mit einem allgemeinen g verbindet und diagnostisch sehr einflussreich wurde.",
+            "text": "Ein mehrschichtiges Intelligenzmodell, das breite und enge Fähigkeiten mit einem allgemeinen g verbindet und diagnostisch sehr einflussreich wurde.",
             "annotations": []
           }
         },
@@ -110,7 +110,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Unterscheidung zwischen fluider und kristalliner Intelligenz; sie bildet eine wichtige Vorstufe spaeterer hierarchischer Modelle.",
+            "text": "Unterscheidung zwischen fluider und kristalliner Intelligenz; sie bildet eine wichtige Vorstufe späterer hierarchischer Modelle.",
             "annotations": []
           }
         }
@@ -123,12 +123,12 @@
       "entries": [
         {
           "kind": "subheading",
-          "text": "Von einem allgemeinen g zu mehreren Faehigkeiten"
+          "text": "Von einem allgemeinen g zu mehreren Fähigkeiten"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Einige Theorien betonen eine einzige uebergeordnete Intelligenz. Andere zerlegen Leistungen in mehrere relativ eigenstaendige Faehigkeiten oder ordnen sie hierarchisch in breite und enge Faktoren.",
+            "text": "Einige Theorien betonen eine einzige übergeordnete Intelligenz. Andere zerlegen Leistungen in mehrere relativ eigenständige Fähigkeiten oder ordnen sie hierarchisch in breite und enge Faktoren.",
             "annotations": []
           }
         },
@@ -139,7 +139,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die Unterscheidung zwischen fluider und kristalliner Intelligenz fuehrte zu integrativen Modellen, in denen breite Faehigkeiten unter einem allgemeinen Niveau zusammenlaufen. Das CHC-Modell wurde so zum Standard in vielen diagnostischen Anwendungen.",
+            "text": "Die Unterscheidung zwischen fluider und kristalliner Intelligenz führte zu integrativen Modellen, in denen breite Fähigkeiten unter einem allgemeinen Niveau zusammenlaufen. Das CHC-Modell wurde so zum Standard in vielen diagnostischen Anwendungen.",
             "annotations": []
           }
         },
@@ -150,7 +150,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Das BIS betont statt einer blossen Hierarchie die Kreuzung von Operationsarten und Inhaltsbereichen. Dadurch wirkt es weniger wie eine universelle Endformel und mehr wie eine spezifische Forschungsentscheidung darueber, wie Intelligenz strukturiert werden soll.",
+            "text": "Das BIS betont statt einer blossen Hierarchie die Kreuzung von Operationsarten und Inhaltsbereichen. Dadurch wirkt es weniger wie eine universelle Endformel und mehr wie eine spezifische Forschungsentscheidung darüber, wie Intelligenz strukturiert werden soll.",
             "annotations": []
           }
         }
@@ -164,7 +164,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die Wahl eines Intelligenzmodells entscheidet darueber, welche Aufgaben in Tests auftauchen, ob man eher Gesamtwerte oder Profilunterschiede interpretiert und wie stark kulturelle sowie bildungsnahe Einfluesse gewichtet werden.",
+            "text": "Die Wahl eines Intelligenzmodells entscheidet darüber, welche Aufgaben in Tests auftauchen, ob man eher Gesamtwerte oder Profilunterschiede interpretiert und wie stark kulturelle sowie bildungsnahe Einflüsse gewichtet werden.",
             "annotations": []
           }
         }
@@ -183,11 +183,11 @@
               "annotations": []
             },
             {
-              "text": "CHC ist international besonders praegend, waehrend das BIS eine markante deutschsprachige Alternative bleibt.",
+              "text": "CHC ist international besonders prägend, während das BIS eine markante deutschsprachige Alternative bleibt.",
               "annotations": []
             },
             {
-              "text": "Ohne Faktorenanalyse und Diagnostik lassen sich diese Modelle weder sauber begruenden noch praktisch vergleichen.",
+              "text": "Ohne Faktorenanalyse und Diagnostik lassen sich diese Modelle weder sauber begründen noch praktisch vergleichen.",
               "annotations": []
             }
           ]
@@ -199,9 +199,9 @@
     {
       "id": "17-recovered-source-1",
       "kind": "other",
-      "shortCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Ueberblick (o. J.)",
-      "apaCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Ueberblick (/intelligenztheorien) was linked from Berliner Intelligenzstrukturmodell (BIS).",
-      "tooltip": "Die recovered Verlinkung aus dem BIS-Artikel liefert den klaren Rekonstruktionsanker fuer diese Vergleichsseite.",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Überblick (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Überblick (/intelligenztheorien) was linked from Berliner Intelligenzstrukturmodell (BIS).",
+      "tooltip": "Die recovered Verlinkung aus dem BIS-Artikel liefert den klaren Rekonstruktionsanker für diese Vergleichsseite.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -212,8 +212,8 @@
     {
       "id": "17-source-2",
       "kind": "other",
-      "shortCitation": "Jaeger & A. O. (1982)",
-      "apaCitation": "Jaeger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
+      "shortCitation": "Jäger & A. O. (1982)",
+      "apaCitation": "Jäger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
       "tooltip": "Verortet das BIS als mehrdimensionales deutschsprachiges Alternativmodell.",
       "verification": {
         "status": "pending-review",
@@ -227,7 +227,7 @@
       "kind": "secondary",
       "shortCitation": "Carroll & J. B. (1993)",
       "apaCitation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press.",
-      "tooltip": "Synthetisiert g, Primaerfaktoren und hierarchische Modelle der Intelligenzforschung.",
+      "tooltip": "Synthetisiert g, Primärfaktoren und hierarchische Modelle der Intelligenzforschung.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -252,9 +252,9 @@
   "relatedResources": [
     {
       "id": "17-backlink-1",
-      "category": "rueckverweis",
+      "category": "rückverweis",
       "title": "Berliner Intelligenzstrukturmodell (BIS)",
-      "relevance": "Recovered primary article that referenced Intelligenztheorien im Ueberblick.",
+      "relevance": "Recovered primary article that referenced Intelligenztheorien im Überblick.",
       "target": {
         "kind": "internal-article",
         "articleId": "05"
@@ -263,7 +263,7 @@
     {
       "id": "17-category-1",
       "category": "kategorie",
-      "title": "Differentielle & Persoenlichkeitspsychologie",
+      "title": "Differentielle & Persönlichkeitspsychologie",
       "relevance": "Canonical category placement for this derived concept node.",
       "target": {
         "kind": "internal-category",
@@ -272,7 +272,7 @@
     },
     {
       "id": "17-bridge-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Faktorenanalyse",
       "relevance": "Die wichtigsten Intelligenzmodelle beruhen auf unterschiedlichen faktoranalytischen Lesarten derselben Leistungsdaten.",
       "target": {
@@ -282,9 +282,9 @@
     },
     {
       "id": "17-bridge-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "IQ-Tests und Diagnostik",
-      "relevance": "Welches Modell bevorzugt wird, entscheidet unmittelbar ueber Testaufbau und Profilinterpretation.",
+      "relevance": "Welches Modell bevorzugt wird, entscheidet unmittelbar über Testaufbau und Profilinterpretation.",
       "target": {
         "kind": "internal-article",
         "articleId": "19"

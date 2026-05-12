@@ -116,7 +116,7 @@ test('development concept routes render enriched comparative content', async () 
   const html = await renderAppAt('/thema/20')
 
   assert.match(html, /Vygotsky: Soziale Entwicklung/)
-  assert.match(html, /Zone der naechsten Entwicklung/)
+  assert.match(html, /Zone der nächsten Entwicklung/)
   assert.match(html, /Kontrast zu Piaget/)
   assert.match(html, /Sprache und Kooperation/)
 })

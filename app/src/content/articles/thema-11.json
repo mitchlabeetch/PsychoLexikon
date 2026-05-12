@@ -9,7 +9,7 @@
   "meta": {
     "title": "Psychometrische Gütekriterien",
     "discipline": "Statistik & Psychometrie",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#f2c6a0",
     "tabNumber": 11,
     "estimatedReadMinutes": 3,
@@ -18,9 +18,9 @@
   "taxonomy": {
     "categoryId": "statistics-and-psychometrics",
     "keywords": [
-      "objektivitaet",
-      "reliabilitaet",
-      "validitaet"
+      "objektivität",
+      "reliabilität",
+      "validität"
     ],
     "audience": [
       "erstsemester",
@@ -48,9 +48,9 @@
         "gui-authoring"
       ],
       "keywords": [
-        "objektivitaet",
-        "reliabilitaet",
-        "validitaet"
+        "objektivität",
+        "reliabilität",
+        "validität"
       ]
     }
   },
@@ -402,7 +402,7 @@
     {
       "id": "11-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -488,7 +488,7 @@
   "relatedResources": [
     {
       "id": "11-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "/versuchsplanung",
       "relevance": "Recovered internal concept link from /psychometrie.",
       "target": {
@@ -498,7 +498,7 @@
     },
     {
       "id": "11-connection-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "/signifikanztestung",
       "relevance": "Recovered internal concept link from /psychometrie.",
       "target": {

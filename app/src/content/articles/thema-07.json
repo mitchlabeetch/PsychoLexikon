@@ -10,7 +10,7 @@
     "title": "Attributionstheorie",
     "subtitle": "Warum Menschen das tun, was sie tun — Die Psychologie der Ursachenzuschreibung",
     "discipline": "Sozialpsychologie",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#b7d7f5",
     "tabNumber": 7,
     "estimatedReadMinutes": 3,
@@ -265,7 +265,7 @@
     {
       "id": "07-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -386,7 +386,7 @@
   "relatedResources": [
     {
       "id": "07-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Selbstwirksamkeit nach Bandura",
       "relevance": "Recovered internal concept link from /attribution.",
       "target": {
@@ -396,7 +396,7 @@
     },
     {
       "id": "07-connection-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Leistungsmotivation",
       "relevance": "Recovered internal concept link from /attribution.",
       "target": {
@@ -406,7 +406,7 @@
     },
     {
       "id": "07-connection-3",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Soziale Kognition",
       "relevance": "Recovered internal concept link from /attribution.",
       "target": {
@@ -416,7 +416,7 @@
     },
     {
       "id": "07-connection-4",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Gelernte Hilflosigkeit",
       "relevance": "Recovered internal concept link from /attribution.",
       "target": {

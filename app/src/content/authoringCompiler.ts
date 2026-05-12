@@ -188,7 +188,7 @@ export function compileAuthoringDraft(draft: AuthoringDraft): ArticleDocument {
       title: draft.header.title,
       subtitle: draft.header.subtitle,
       discipline: draft.header.discipline ?? category.label,
-      difficulty: draft.header.difficulty ?? 'Erstsemester-Komplexitaetsgrad',
+      difficulty: draft.header.difficulty ?? 'Erstsemester-Komplexitätsgrad',
       tabColor: category.color,
       tabNumber: Number.parseInt(articleId, 10),
       estimatedReadMinutes: draft.header.estimatedReadMinutes ?? 3,

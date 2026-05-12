@@ -9,7 +9,7 @@
   "meta": {
     "title": "Klassische & Operante Konditionierung",
     "discipline": "Lernen & Entwicklung",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#f4b8c5",
     "tabNumber": 4,
     "estimatedReadMinutes": 3,
@@ -19,7 +19,7 @@
     "categoryId": "learning-and-development",
     "keywords": [
       "konditionierung",
-      "verstaerkung",
+      "verstärkung",
       "lernen"
     ],
     "audience": [
@@ -49,7 +49,7 @@
       ],
       "keywords": [
         "konditionierung",
-        "verstaerkung",
+        "verstärkung",
         "lernen"
       ]
     }
@@ -254,7 +254,7 @@
     {
       "id": "04-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -334,7 +334,7 @@
   "relatedResources": [
     {
       "id": "04-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "← Arbeitsgedächtnis",
       "relevance": "Recovered internal concept link from /konditionierung.",
       "target": {

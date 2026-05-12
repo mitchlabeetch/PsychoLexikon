@@ -18,7 +18,7 @@
       "header": {
         "title": "Aktionspotential & Synaptische Transmission",
         "discipline": "Biologische Psychologie",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "biological-psychology",
         "keywords": [
           "aktionspotential",
@@ -244,7 +244,7 @@
       "connections": [
         {
           "id": "01-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "← Gestaltgesetze",
           "description": "Recovered internal concept link from /aktionspotential.",
           "target": {
@@ -332,7 +332,7 @@
         {
           "id": "01-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -368,11 +368,11 @@
       "header": {
         "title": "Gestaltgesetze & Prägnanzprinzip",
         "discipline": "Wahrnehmung & Kognition",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "perception-and-cognition",
         "keywords": [
           "gestaltgesetze",
-          "praegnanz",
+          "prägnanz",
           "figur-grund"
         ],
         "audience": [
@@ -461,24 +461,24 @@
           "caption": "Gestalt Grouping",
           "tags": [
             "gestaltgesetze",
-            "praegnanz",
+            "prägnanz",
             "figur-grund"
           ]
         },
         {
           "id": "02-asset-2",
-          "title": "Praegnanz",
+          "title": "Prägnanz",
           "placement": "inline",
           "asset": {
             "kind": "image-file",
-            "src": "/recovered/analzy/illu-praegnanz.png",
-            "description": "Recovered illustration illu-praegnanz.png from analzy deployment bundle.",
-            "alt": "Gestaltgesetze & Prägnanzprinzip: Praegnanz"
+            "src": "/recovered/analzy/illu-prägnanz.png",
+            "description": "Recovered illustration illu-prägnanz.png from analzy deployment bundle.",
+            "alt": "Gestaltgesetze & Prägnanzprinzip: Prägnanz"
           },
-          "caption": "Praegnanz",
+          "caption": "Prägnanz",
           "tags": [
             "gestaltgesetze",
-            "praegnanz",
+            "prägnanz",
             "figur-grund"
           ]
         },
@@ -495,7 +495,7 @@
           "caption": "Optical Illusions",
           "tags": [
             "gestaltgesetze",
-            "praegnanz",
+            "prägnanz",
             "figur-grund"
           ]
         }
@@ -503,7 +503,7 @@
       "connections": [
         {
           "id": "02-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "← Aktionspotential",
           "description": "Recovered internal concept link from /gestaltgesetze.",
           "target": {
@@ -513,7 +513,7 @@
         },
         {
           "id": "02-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "← Arbeitsgedächtnis",
           "description": "Recovered internal concept link from /gestaltgesetze.",
           "target": {
@@ -628,7 +628,7 @@
         {
           "id": "02-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -658,8 +658,8 @@
       "origin": {
         "kind": "recovered-bundle",
         "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js",
-        "recoveredRoute": "/arbeitsgedaechtnis",
-        "snapshotPath": "src/content/recovered/analzy-pages/03-arbeitsgedaechtnis.bundle.txt"
+        "recoveredRoute": "/arbeitsgedächtnis",
+        "snapshotPath": "src/content/recovered/analzy-pages/03-arbeitsgedächtnis.bundle.txt"
       },
       "identity": {
         "articleId": "03",
@@ -668,10 +668,10 @@
       "header": {
         "title": "Das Arbeitsgedächtnis nach Baddeley",
         "discipline": "Wahrnehmung & Kognition",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "perception-and-cognition",
         "keywords": [
-          "arbeitsgedaechtnis",
+          "arbeitsgedächtnis",
           "phonologische schleife",
           "zentrale exekutive"
         ],
@@ -754,7 +754,7 @@
           },
           "caption": "Working Memory",
           "tags": [
-            "arbeitsgedaechtnis",
+            "arbeitsgedächtnis",
             "phonologische schleife",
             "zentrale exekutive"
           ]
@@ -771,7 +771,7 @@
           },
           "caption": "Phonological Loop",
           "tags": [
-            "arbeitsgedaechtnis",
+            "arbeitsgedächtnis",
             "phonologische schleife",
             "zentrale exekutive"
           ]
@@ -780,9 +780,9 @@
       "connections": [
         {
           "id": "03-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "← Gestaltgesetze",
-          "description": "Recovered internal concept link from /arbeitsgedaechtnis.",
+          "description": "Recovered internal concept link from /arbeitsgedächtnis.",
           "target": {
             "kind": "internal-article",
             "articleId": "02"
@@ -790,9 +790,9 @@
         },
         {
           "id": "03-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Konditionierung →",
-          "description": "Recovered internal concept link from /arbeitsgedaechtnis.",
+          "description": "Recovered internal concept link from /arbeitsgedächtnis.",
           "target": {
             "kind": "internal-article",
             "articleId": "04"
@@ -888,7 +888,7 @@
         {
           "id": "03-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -908,7 +908,7 @@
       ],
       "notes": {
         "importedFrom": "analzy-deployment-v2",
-        "sourceSnapshotPath": "src/content/recovered/analzy-pages/03-arbeitsgedaechtnis.bundle.txt",
+        "sourceSnapshotPath": "src/content/recovered/analzy-pages/03-arbeitsgedächtnis.bundle.txt",
         "uiHint": "GUI authoring draft generated from recovered deploy bundle; review text ordering before publishing."
       }
     },
@@ -928,11 +928,11 @@
       "header": {
         "title": "Klassische & Operante Konditionierung",
         "discipline": "Lernen & Entwicklung",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "learning-and-development",
         "keywords": [
           "konditionierung",
-          "verstaerkung",
+          "verstärkung",
           "lernen"
         ],
         "audience": [
@@ -1022,7 +1022,7 @@
           "caption": "Classical Conditioning",
           "tags": [
             "konditionierung",
-            "verstaerkung",
+            "verstärkung",
             "lernen"
           ]
         },
@@ -1039,7 +1039,7 @@
           "caption": "Operant Conditioning",
           "tags": [
             "konditionierung",
-            "verstaerkung",
+            "verstärkung",
             "lernen"
           ]
         },
@@ -1056,7 +1056,7 @@
           "caption": "Skinner Box",
           "tags": [
             "konditionierung",
-            "verstaerkung",
+            "verstärkung",
             "lernen"
           ]
         }
@@ -1064,7 +1064,7 @@
       "connections": [
         {
           "id": "04-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "← Arbeitsgedächtnis",
           "description": "Recovered internal concept link from /konditionierung.",
           "target": {
@@ -1188,7 +1188,7 @@
         {
           "id": "04-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -1224,13 +1224,13 @@
       "header": {
         "title": "Berliner Intelligenzstrukturmodell (BIS)",
         "subtitle": "Wie sich Intelligenz entfaltet — Jägers mehrdimensionales Modell",
-        "discipline": "Differentielle & Persoenlichkeitspsychologie",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "discipline": "Differentielle & Persönlichkeitspsychologie",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "differential-and-personality",
         "keywords": [
           "bis",
           "intelligenzstruktur",
-          "jaeger"
+          "jäger"
         ],
         "audience": [
           "erstsemester",
@@ -1297,14 +1297,14 @@
           "tags": [
             "bis",
             "intelligenzstruktur",
-            "jaeger"
+            "jäger"
           ]
         }
       ],
       "connections": [
         {
           "id": "05-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Intelligenztheorien im Überblick",
           "description": "Recovered internal concept link from /bis-modell.",
           "target": {
@@ -1314,7 +1314,7 @@
         },
         {
           "id": "05-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Faktorenanalyse",
           "description": "Recovered internal concept link from /bis-modell.",
           "target": {
@@ -1324,7 +1324,7 @@
         },
         {
           "id": "05-connection-3",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "IQ-Tests und Diagnostik",
           "description": "Recovered internal concept link from /bis-modell.",
           "target": {
@@ -1558,7 +1558,7 @@
         {
           "id": "05-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -1603,7 +1603,7 @@
         "title": "Kognitive Entwicklung nach Piaget",
         "subtitle": "Vom Baby zum logischen Denker — Piagets Entwicklungsstufen",
         "discipline": "Lernen & Entwicklung",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "learning-and-development",
         "keywords": [
           "piaget",
@@ -1730,7 +1730,7 @@
       "connections": [
         {
           "id": "06-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Vygotsky: Soziale Entwicklung",
           "description": "Recovered internal concept link from /piaget.",
           "target": {
@@ -1740,7 +1740,7 @@
         },
         {
           "id": "06-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Sprachentwicklung im Kindesalter",
           "description": "Recovered internal concept link from /piaget.",
           "target": {
@@ -1750,7 +1750,7 @@
         },
         {
           "id": "06-connection-3",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Core Knowledge Theory",
           "description": "Recovered internal concept link from /piaget.",
           "target": {
@@ -1917,7 +1917,7 @@
         {
           "id": "06-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -1962,7 +1962,7 @@
         "title": "Attributionstheorie",
         "subtitle": "Warum Menschen das tun, was sie tun — Die Psychologie der Ursachenzuschreibung",
         "discipline": "Sozialpsychologie",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "social-psychology",
         "keywords": [
           "attribution",
@@ -2057,7 +2057,7 @@
       "connections": [
         {
           "id": "07-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Selbstwirksamkeit nach Bandura",
           "description": "Recovered internal concept link from /attribution.",
           "target": {
@@ -2067,7 +2067,7 @@
         },
         {
           "id": "07-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Leistungsmotivation",
           "description": "Recovered internal concept link from /attribution.",
           "target": {
@@ -2077,7 +2077,7 @@
         },
         {
           "id": "07-connection-3",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Soziale Kognition",
           "description": "Recovered internal concept link from /attribution.",
           "target": {
@@ -2087,7 +2087,7 @@
         },
         {
           "id": "07-connection-4",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Gelernte Hilflosigkeit",
           "description": "Recovered internal concept link from /attribution.",
           "target": {
@@ -2274,7 +2274,7 @@
         {
           "id": "07-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -2322,13 +2322,13 @@
       "header": {
         "title": "Fünf-Faktoren-Modell (Big Five)",
         "subtitle": "OCEAN — Die fünf Dimensionen, die Persönlichkeit strukturieren",
-        "discipline": "Differentielle & Persoenlichkeitspsychologie",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "discipline": "Differentielle & Persönlichkeitspsychologie",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "differential-and-personality",
         "keywords": [
           "big five",
           "traits",
-          "persoenlichkeit"
+          "persönlichkeit"
         ],
         "audience": [
           "erstsemester",
@@ -2397,7 +2397,7 @@
           "tags": [
             "big five",
             "traits",
-            "persoenlichkeit"
+            "persönlichkeit"
           ]
         },
         {
@@ -2414,14 +2414,14 @@
           "tags": [
             "big five",
             "traits",
-            "persoenlichkeit"
+            "persönlichkeit"
           ]
         }
       ],
       "connections": [
         {
           "id": "08-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "HEXACO-Modell",
           "description": "Recovered internal concept link from /big-five.",
           "target": {
@@ -2431,7 +2431,7 @@
         },
         {
           "id": "08-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Persönlichkeitsstörungen",
           "description": "Recovered internal concept link from /big-five.",
           "target": {
@@ -2441,7 +2441,7 @@
         },
         {
           "id": "08-connection-3",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Mischel: Person-Situation",
           "description": "Recovered internal concept link from /big-five.",
           "target": {
@@ -2451,7 +2451,7 @@
         },
         {
           "id": "08-connection-4",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Persönlichkeitstests",
           "description": "Recovered internal concept link from /big-five.",
           "target": {
@@ -2666,7 +2666,7 @@
         {
           "id": "08-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -2714,10 +2714,10 @@
       "header": {
         "title": "Experimentelle Versuchsplanung",
         "discipline": "Forschungsmethoden",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "research-methods",
         "keywords": [
-          "validitaet",
+          "validität",
           "experiment",
           "kontrolle"
         ],
@@ -2794,7 +2794,7 @@
           },
           "caption": "Experimental Design",
           "tags": [
-            "validitaet",
+            "validität",
             "experiment",
             "kontrolle"
           ]
@@ -2811,7 +2811,7 @@
           },
           "caption": "Hypothesis Testing",
           "tags": [
-            "validitaet",
+            "validität",
             "experiment",
             "kontrolle"
           ]
@@ -2820,7 +2820,7 @@
       "connections": [
         {
           "id": "09-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "/signifikanztestung",
           "description": "Recovered internal concept link from /versuchsplanung.",
           "target": {
@@ -2830,7 +2830,7 @@
         },
         {
           "id": "09-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "/psychometrie",
           "description": "Recovered internal concept link from /versuchsplanung.",
           "target": {
@@ -3096,7 +3096,7 @@
         {
           "id": "09-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -3136,7 +3136,7 @@
       "header": {
         "title": "Signifikanztestung & p-Werte",
         "discipline": "Statistik & Psychometrie",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "statistics-and-psychometrics",
         "keywords": [
           "p-wert",
@@ -3242,7 +3242,7 @@
       "connections": [
         {
           "id": "10-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "/versuchsplanung",
           "description": "Recovered internal concept link from /signifikanztestung.",
           "target": {
@@ -3252,7 +3252,7 @@
         },
         {
           "id": "10-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "/psychometrie",
           "description": "Recovered internal concept link from /signifikanztestung.",
           "target": {
@@ -3463,7 +3463,7 @@
         {
           "id": "10-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -3503,12 +3503,12 @@
       "header": {
         "title": "Psychometrische Gütekriterien",
         "discipline": "Statistik & Psychometrie",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "statistics-and-psychometrics",
         "keywords": [
-          "objektivitaet",
-          "reliabilitaet",
-          "validitaet"
+          "objektivität",
+          "reliabilität",
+          "validität"
         ],
         "audience": [
           "erstsemester",
@@ -3638,9 +3638,9 @@
           },
           "caption": "Reliability Validity",
           "tags": [
-            "objektivitaet",
-            "reliabilitaet",
-            "validitaet"
+            "objektivität",
+            "reliabilität",
+            "validität"
           ]
         },
         {
@@ -3655,16 +3655,16 @@
           },
           "caption": "Test Quality",
           "tags": [
-            "objektivitaet",
-            "reliabilitaet",
-            "validitaet"
+            "objektivität",
+            "reliabilität",
+            "validität"
           ]
         }
       ],
       "connections": [
         {
           "id": "11-connection-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "/versuchsplanung",
           "description": "Recovered internal concept link from /psychometrie.",
           "target": {
@@ -3674,7 +3674,7 @@
         },
         {
           "id": "11-connection-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "/signifikanztestung",
           "description": "Recovered internal concept link from /psychometrie.",
           "target": {
@@ -3923,7 +3923,7 @@
         {
           "id": "11-summary",
           "type": "summary",
-          "title": "Weiterfuehrende Verknuepfungen",
+          "title": "Weiterführende Verknüpfungen",
           "entries": [
             {
               "kind": "bullet_list",
@@ -3963,7 +3963,7 @@
       "header": {
         "title": "Theorien der Motivation & Emotion",
         "discipline": "Motivation & Emotion",
-        "difficulty": "Erstsemester-Komplexitaetsgrad",
+        "difficulty": "Erstsemester-Komplexitätsgrad",
         "categoryId": "motivation-and-emotion",
         "keywords": [
           "motivation",
@@ -4357,7 +4357,7 @@
       },
       "header": {
         "title": "Core Knowledge Theory",
-        "subtitle": "Fruehe Kernsysteme als Gegenentwurf zu Piagets Konstruktivismus",
+        "subtitle": "Frühe Kernsysteme als Gegenentwurf zu Piagets Konstruktivismus",
         "discipline": "Lernen & Entwicklung",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "learning-and-development",
@@ -4371,14 +4371,14 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Die Piaget-Seite verweist auf Core Knowledge als moderne Kritik: Einige Wissensstrukturen scheinen schon frueh verfuegbar zu sein und werden nicht vollstaendig erst konstruiert.",
+        "leadTeaser": "Die Piaget-Seite verweist auf Core Knowledge als moderne Kritik: Einige Wissensstrukturen scheinen schon früh verfügbar zu sein und werden nicht vollständig erst konstruiert.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
         {
           "id": "22-glossary-1",
           "term": "Core Knowledge Theory",
-          "definition": "Annahme, dass Saeuglinge bereits ueber fruehe, domaenenspezifische Kernsysteme verfuegen, etwa fuer Objekte, Zahlen oder soziale Agenten.",
+          "definition": "Annahme, dass Säuglinge bereits über frühe, domänenspezifische Kernsysteme verfügen, etwa für Objekte, Zahlen oder soziale Agenten.",
           "sourceIds": [
             "22-source-3"
           ]
@@ -4386,7 +4386,7 @@
         {
           "id": "22-glossary-2",
           "term": "Violation-of-Expectation-Paradigma",
-          "definition": "Versuchslogik, bei der laengeres Hinschauen auf unerwartete Ereignisse als Hinweis auf implizites Vorwissen interpretiert wird.",
+          "definition": "Versuchslogik, bei der längeres Hinschauen auf unerwartete Ereignisse als Hinweis auf implizites Vorwissen interpretiert wird.",
           "sourceIds": [
             "22-source-2"
           ]
@@ -4396,17 +4396,17 @@
         {
           "id": "22-recovered-source-1",
           "rawCitation": "Recovered route reference in analzy deployment bundle: Core Knowledge Theory (/core-knowledge) was linked from Kognitive Entwicklung nach Piaget.",
-          "notes": "Der Piaget-Artikel liefert den expliziten recovered Anker fuer diese Vertiefungsseite."
+          "notes": "Der Piaget-Artikel liefert den expliziten recovered Anker für diese Vertiefungsseite."
         },
         {
           "id": "22-source-2",
           "rawCitation": "Baillargeon, R. (1987). Object permanence in 3.5- and 4.5-month-old infants. Developmental Psychology, 23(5), 655-664.",
-          "notes": "Die fruehe Objektpermanenz wurde im Piaget-Artikel als zentrale empirische Herausforderung fuer spaetere Konstruktionsannahmen genannt."
+          "notes": "Die frühe Objektpermanenz wurde im Piaget-Artikel als zentrale empirische Herausforderung für spätere Konstruktionsannahmen genannt."
         },
         {
           "id": "22-source-3",
           "rawCitation": "Spelke, E. S., & Kinzler, K. D. (2007). Core knowledge. Developmental Science, 10(1), 89-96.",
-          "notes": "Formuliert die Kernidee domaenenspezifischer Anfangsstrukturen."
+          "notes": "Formuliert die Kernidee domänenspezifischer Anfangsstrukturen."
         },
         {
           "id": "22-source-4",
@@ -4418,7 +4418,7 @@
       "connections": [
         {
           "id": "22-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Kognitive Entwicklung nach Piaget",
           "description": "Recovered primary article that referenced Core Knowledge Theory.",
           "target": {
@@ -4438,9 +4438,9 @@
         },
         {
           "id": "22-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Vygotsky: Soziale Entwicklung",
-          "description": "Vygotsky verschiebt den Fokus von fruehen Kernsystemen auf sozial vermittelte Entwicklung.",
+          "description": "Vygotsky verschiebt den Fokus von frühen Kernsystemen auf sozial vermittelte Entwicklung.",
           "target": {
             "kind": "internal-article",
             "articleId": "20"
@@ -4448,9 +4448,9 @@
         },
         {
           "id": "22-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Sprachentwicklung im Kindesalter",
-          "description": "Die Frage nach angeborenen Kernsystemen fuehrt direkt in Debatten ueber sprachliche und begriffliche Entwicklung.",
+          "description": "Die Frage nach angeborenen Kernsystemen führt direkt in Debatten über sprachliche und begriffliche Entwicklung.",
           "target": {
             "kind": "internal-article",
             "articleId": "21"
@@ -4465,14 +4465,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Der recovered Link /core-knowledge wurde im Piaget-Artikel genau dort gesetzt, wo moderne Entwicklungspsychologie seine Stufentheorie kritisch weiterdenkt. Ein eigenstaendiger Originalseitentext blieb nicht erhalten, die konzeptionelle Stoerungslinie aber schon.",
+                "text": "Der recovered Link /core-knowledge wurde im Piaget-Artikel genau dort gesetzt, wo moderne Entwicklungspsychologie seine Stufentheorie kritisch weiterdenkt. Ein eigenständiger Originalseitentext blieb nicht erhalten, die konzeptionelle Störungslinie aber schon.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Core Knowledge Theory behauptet nicht, dass Entwicklung ueberfluessig wird. Sie verschiebt jedoch den Ausgangspunkt: Manche Wissensformen scheinen frueher vorhanden zu sein, als ein strenger Konstruktivismus erwarten wuerde.",
+                "text": "Core Knowledge Theory behauptet nicht, dass Entwicklung überflüssig wird. Sie verschiebt jedoch den Ausgangspunkt: Manche Wissensformen scheinen früher vorhanden zu sein, als ein strenger Konstruktivismus erwarten würde.",
                 "annotations": []
               }
             }
@@ -4485,23 +4485,23 @@
           "entries": [
             {
               "kind": "subheading",
-              "text": "Fruehe Kompetenzen statt spaeter Konstruktion"
+              "text": "Frühe Kompetenzen statt später Konstruktion"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Im Piaget-Kontext wird Baillargeons Forschung als Wendepunkt genannt: Saeuglinge reagieren bereits auf verletzte Objekterwartungen. Das spricht dafuer, dass zumindest manche kognitiven Grundordnungen frueh verfuegbar sind.",
+                "text": "Im Piaget-Kontext wird Baillargeons Forschung als Wendepunkt genannt: Säuglinge reagieren bereits auf verletzte Objekterwartungen. Das spricht dafür, dass zumindest manche kognitiven Grundordnungen früh verfügbar sind.",
                 "annotations": []
               }
             },
             {
               "kind": "subheading",
-              "text": "Domaenenspezifische Kernsysteme"
+              "text": "Domänenspezifische Kernsysteme"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Core Knowledge organisiert solche Befunde als fruehe Systeme fuer bestimmte Inhaltsbereiche, etwa Objekte oder Mengen. Entwicklung bedeutet dann nicht den Start bei null, sondern die Ausarbeitung und Koordination frueher Strukturen.",
+                "text": "Core Knowledge organisiert solche Befunde als frühe Systeme für bestimmte Inhaltsbereiche, etwa Objekte oder Mengen. Entwicklung bedeutet dann nicht den Start bei null, sondern die Ausarbeitung und Koordination früher Strukturen.",
                 "annotations": []
               }
             },
@@ -4527,15 +4527,15 @@
               "kind": "bullet_list",
               "items": [
                 {
-                  "text": "Core Knowledge verschiebt die Debatte von \"Wann wird etwas konstruiert?\" zu \"Was ist bereits frueh verfuegbar?\"",
+                  "text": "Core Knowledge verschiebt die Debatte von \"Wann wird etwas konstruiert?\" zu \"Was ist bereits früh verfügbar?\"",
                   "annotations": []
                 },
                 {
-                  "text": "Das Violation-of-Expectation-Paradigma lieferte dafuer im recovered Piaget-Kontext den wichtigsten empirischen Hebel.",
+                  "text": "Das Violation-of-Expectation-Paradigma lieferte dafür im recovered Piaget-Kontext den wichtigsten empirischen Hebel.",
                   "annotations": []
                 },
                 {
-                  "text": "Die Theorie ist kein Ersatz fuer Entwicklung, sondern eine andere Beschreibung ihrer Ausgangsbedingungen.",
+                  "text": "Die Theorie ist kein Ersatz für Entwicklung, sondern eine andere Beschreibung ihrer Ausgangsbedingungen.",
                   "annotations": []
                 }
               ]
@@ -4562,7 +4562,7 @@
       },
       "header": {
         "title": "Faktorenanalyse",
-        "subtitle": "Wie Korrelationsmuster zu latenten Faehigkeitsdimensionen werden",
+        "subtitle": "Wie Korrelationsmuster zu latenten Fähigkeitsdimensionen werden",
         "discipline": "Statistik & Psychometrie",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "statistics-and-psychometrics",
@@ -4576,14 +4576,14 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Faktorenanalyse verdichtet Korrelationen zwischen Einzelaufgaben zu uebergeordneten Dimensionen und macht damit Modelle wie BIS, Big Five oder CHC empirisch pruefbar.",
+        "leadTeaser": "Faktorenanalyse verdichtet Korrelationen zwischen Einzelaufgaben zu übergeordneten Dimensionen und macht damit Modelle wie BIS, Big Five oder CHC empirisch prüfbar.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
         {
           "id": "18-glossary-1",
           "term": "Faktorenanalyse",
-          "definition": "Statistisches Verfahren, das gemeinsame Varianz in vielen Einzelmerkmalen auf wenige latente Faktoren zurueckfuehrt.",
+          "definition": "Statistisches Verfahren, das gemeinsame Varianz in vielen Einzelmerkmalen auf wenige latente Faktoren zurückführt.",
           "sourceIds": [
             "18-source-2",
             "18-source-3"
@@ -4592,7 +4592,7 @@
         {
           "id": "18-glossary-2",
           "term": "Latenter Faktor",
-          "definition": "Eine nicht direkt beobachtbare Dimension, die aus systematischen Zusammenhaengen zwischen mehreren beobachtbaren Variablen erschlossen wird.",
+          "definition": "Eine nicht direkt beobachtbare Dimension, die aus systematischen Zusammenhängen zwischen mehreren beobachtbaren Variablen erschlossen wird.",
           "sourceIds": [
             "18-source-3"
           ]
@@ -4602,29 +4602,29 @@
         {
           "id": "18-recovered-source-1",
           "rawCitation": "Recovered route reference in analzy deployment bundle: Faktorenanalyse (/faktorenanalyse) was linked from Berliner Intelligenzstrukturmodell (BIS).",
-          "notes": "Der recovered Link stammt aus einem Artikel, der sein Modell ausdruecklich faktoranalytisch begruendet."
+          "notes": "Der recovered Link stammt aus einem Artikel, der sein Modell ausdrücklich faktoranalytisch begründet."
         },
         {
           "id": "18-source-2",
-          "rawCitation": "Jaeger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
-          "notes": "Zeigt die Rolle faktoranalytischer Auswertung fuer das Berliner Intelligenzstrukturmodell."
+          "rawCitation": "Jäger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
+          "notes": "Zeigt die Rolle faktoranalytischer Auswertung für das Berliner Intelligenzstrukturmodell."
         },
         {
           "id": "18-source-3",
           "rawCitation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press.",
-          "notes": "Demonstriert, wie grossflaechige Leistungsdaten in hierarchische Faehigkeitsmodelle uebersetzt werden."
+          "notes": "Demonstriert, wie grossflächige Leistungsdaten in hierarchische Fähigkeitsmodelle übersetzt werden."
         },
         {
           "id": "18-source-4",
           "rawCitation": "Goldberg, L. R. (1993). The structure of phenotypic personality traits. American Psychologist, 48(1), 26-34.",
-          "notes": "Faktorenanalyse ist nicht auf Intelligenz beschraenkt, sondern traegt auch die Struktur der Persoenlichkeitstaxonomie."
+          "notes": "Faktorenanalyse ist nicht auf Intelligenz beschränkt, sondern trägt auch die Struktur der Persönlichkeitstaxonomie."
         }
       ],
       "assets": [],
       "connections": [
         {
           "id": "18-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Berliner Intelligenzstrukturmodell (BIS)",
           "description": "Recovered primary article that referenced Faktorenanalyse.",
           "target": {
@@ -4644,8 +4644,8 @@
         },
         {
           "id": "18-bridge-1",
-          "category": "verknuepfung",
-          "title": "Intelligenztheorien im Ueberblick",
+          "category": "verknüpfung",
+          "title": "Intelligenztheorien im Überblick",
           "description": "Die Konkurrenz von Intelligenzmodellen ergibt sich oft aus unterschiedlichen faktoranalytischen Entscheidungen.",
           "target": {
             "kind": "internal-article",
@@ -4654,9 +4654,9 @@
         },
         {
           "id": "18-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "IQ-Tests und Diagnostik",
-          "description": "Diagnostische Testprofile sind nur so gut wie die Modellannahmen, die faktoranalytisch begruendet wurden.",
+          "description": "Diagnostische Testprofile sind nur so gut wie die Modellannahmen, die faktoranalytisch begründet wurden.",
           "target": {
             "kind": "internal-article",
             "articleId": "19"
@@ -4664,9 +4664,9 @@
         },
         {
           "id": "18-bridge-3",
-          "category": "verknuepfung",
-          "title": "Fuenf-Faktoren-Modell (Big Five)",
-          "description": "Auch die Persoenlichkeitspsychologie verdankt ihre Kernstruktur faktoranalytischer Verdichtung.",
+          "category": "verknüpfung",
+          "title": "Fünf-Faktoren-Modell (Big Five)",
+          "description": "Auch die Persönlichkeitspsychologie verdankt ihre Kernstruktur faktoranalytischer Verdichtung.",
           "target": {
             "kind": "internal-article",
             "articleId": "08"
@@ -4681,7 +4681,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Zu /faktorenanalyse wurde kein eigenstaendiger recovered Seitentext bewahrt, aber sowohl der BIS-Artikel als auch der Big-Five-Artikel setzen das Verfahren als methodisches Rueckgrat voraus.",
+                "text": "Zu /faktorenanalyse wurde kein eigenständiger recovered Seitentext bewahrt, aber sowohl der BIS-Artikel als auch der Big-Five-Artikel setzen das Verfahren als methodisches Rückgrat voraus.",
                 "annotations": []
               }
             },
@@ -4706,7 +4706,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Wenn viele Testaufgaben oder Adjektivratings miteinander korrelieren, versucht Faktorenanalyse, gemeinsame Muster zu finden. Diese Muster werden dann als latente Faehigkeiten oder Traits interpretiert.",
+                "text": "Wenn viele Testaufgaben oder Adjektivratings miteinander korrelieren, versucht Faktorenanalyse, gemeinsame Muster zu finden. Diese Muster werden dann als latente Fähigkeiten oder Traits interpretiert.",
                 "annotations": []
               }
             },
@@ -4717,13 +4717,13 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Dasselbe Datenmaterial kann unterschiedlich ausgewertet werden: Manche Forscher suchen eine starke allgemeine Hauptdimension, andere mehrere relativ eigenstaendige Faktoren oder hierarchische Ebenen.",
+                "text": "Dasselbe Datenmaterial kann unterschiedlich ausgewertet werden: Manche Forscher suchen eine starke allgemeine Hauptdimension, andere mehrere relativ eigenständige Faktoren oder hierarchische Ebenen.",
                 "annotations": []
               }
             },
             {
               "kind": "subheading",
-              "text": "Methodische Staerke und methodische Grenze"
+              "text": "Methodische Stärke und methodische Grenze"
             },
             {
               "kind": "paragraph",
@@ -4747,7 +4747,7 @@
                   "annotations": []
                 },
                 {
-                  "text": "Sie traegt sowohl Intelligenzmodelle als auch Traitmodelle der Persoenlichkeitspsychologie.",
+                  "text": "Sie trägt sowohl Intelligenzmodelle als auch Traitmodelle der Persönlichkeitspsychologie.",
                   "annotations": []
                 },
                 {
@@ -4778,13 +4778,13 @@
       },
       "header": {
         "title": "HEXACO-Modell",
-        "subtitle": "Sechs Dimensionen statt fuenf? Die Erweiterung des Big-Five-Rahmens um Honesty-Humility",
-        "discipline": "Differentielle & Persoenlichkeitspsychologie",
+        "subtitle": "Sechs Dimensionen statt fünf? Die Erweiterung des Big-Five-Rahmens um Honesty-Humility",
+        "discipline": "Differentielle & Persönlichkeitspsychologie",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "differential-and-personality",
         "keywords": [
           "hexaco",
-          "persoenlichkeit",
+          "persönlichkeit",
           "traits"
         ],
         "audience": [
@@ -4792,7 +4792,7 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "HEXACO ergaenzt das Fuenf-Faktoren-Modell um Honesty-Humility und macht Fairness, Bescheidenheit und Aufrichtigkeit als eigene Traitdimension sichtbar.",
+        "leadTeaser": "HEXACO ergänzt das Fünf-Faktoren-Modell um Honesty-Humility und macht Fairness, Bescheidenheit und Aufrichtigkeit als eigene Traitdimension sichtbar.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
@@ -4802,7 +4802,7 @@
           "aliases": [
             "Ehrlichkeit-Bescheidenheit"
           ],
-          "definition": "Die zusaetzliche HEXACO-Dimension beschreibt Aufrichtigkeit, Fairness, Bescheidenheit und den Verzicht auf Ausbeutung anderer.",
+          "definition": "Die zusätzliche HEXACO-Dimension beschreibt Aufrichtigkeit, Fairness, Bescheidenheit und den Verzicht auf Ausbeutung anderer.",
           "sourceIds": [
             "13-source-3"
           ]
@@ -4810,7 +4810,7 @@
         {
           "id": "13-glossary-2",
           "term": "HEXACO",
-          "definition": "Ein sechsdimensionales Persoenlichkeitsmodell, das an Big-Five-Strukturen anschliesst, diese aber um Honesty-Humility erweitert.",
+          "definition": "Ein sechsdimensionales Persönlichkeitsmodell, das an Big-Five-Strukturen anschliesst, diese aber um Honesty-Humility erweitert.",
           "sourceIds": [
             "13-source-2",
             "13-source-3"
@@ -4820,25 +4820,25 @@
       "sources": [
         {
           "id": "13-recovered-source-1",
-          "rawCitation": "Recovered route reference in analzy deployment bundle: HEXACO-Modell (/hexaco) was linked from Fuenf-Faktoren-Modell (Big Five).",
+          "rawCitation": "Recovered route reference in analzy deployment bundle: HEXACO-Modell (/hexaco) was linked from Fünf-Faktoren-Modell (Big Five).",
           "notes": "Im recovered Korpus blieb nur die Verlinkung erhalten; die kanonische Seite rekonstruiert den Begriff aus dem Big-Five-Kontext und stabiler Standardliteratur."
         },
         {
           "id": "13-source-2",
           "rawCitation": "Goldberg, L. R. (1993). The structure of phenotypic personality traits. American Psychologist, 48(1), 26-34.",
-          "notes": "Dient als Vergleichsfolie fuer die etablierte fuenfdimensionale Traitstruktur."
+          "notes": "Dient als Vergleichsfolie für die etablierte fünfdimensionale Traitstruktur."
         },
         {
           "id": "13-source-3",
           "rawCitation": "Ashton, M. C., & Lee, K. (2007). Empirical, theoretical, and practical advantages of the HEXACO model of personality structure. Personality and Social Psychology Review, 11(2), 150-166.",
-          "notes": "Begruendet die sechste Dimension Honesty-Humility und ihre praktische Relevanz."
+          "notes": "Begründet die sechste Dimension Honesty-Humility und ihre praktische Relevanz."
         }
       ],
       "assets": [],
       "connections": [
         {
           "id": "13-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Fünf-Faktoren-Modell (Big Five)",
           "description": "Recovered primary article that referenced HEXACO-Modell.",
           "target": {
@@ -4849,7 +4849,7 @@
         {
           "id": "13-category-1",
           "category": "kategorie",
-          "title": "Differentielle & Persoenlichkeitspsychologie",
+          "title": "Differentielle & Persönlichkeitspsychologie",
           "description": "Canonical category placement for this derived concept node.",
           "target": {
             "kind": "internal-category",
@@ -4858,7 +4858,7 @@
         },
         {
           "id": "13-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Mischel: Person-Situation",
           "description": "Die Person-Situations-Debatte markiert eine klassische Kritik an globalen Traitmodellen.",
           "target": {
@@ -4868,9 +4868,9 @@
         },
         {
           "id": "13-bridge-2",
-          "category": "verknuepfung",
-          "title": "Persoenlichkeitstests",
-          "description": "Persoenlichkeitsdiagnostik zeigt, wie Traitmodelle in Frageboegen und Profile uebersetzt werden.",
+          "category": "verknüpfung",
+          "title": "Persönlichkeitstests",
+          "description": "Persönlichkeitsdiagnostik zeigt, wie Traitmodelle in Fragebögen und Profile übersetzt werden.",
           "target": {
             "kind": "internal-article",
             "articleId": "15"
@@ -4885,14 +4885,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Im recovered Korpus blieb zu /hexaco kein eigenstaendiger Seitentext erhalten. Die kanonische Seite verdichtet deshalb den im Big-Five-Artikel bereits angelegten Vergleich zwischen Fuenf-Faktoren-Modell und HEXACO zu einem eigenen Vertiefungsknoten.",
+                "text": "Im recovered Korpus blieb zu /hexaco kein eigenständiger Seitentext erhalten. Die kanonische Seite verdichtet deshalb den im Big-Five-Artikel bereits angelegten Vergleich zwischen Fünf-Faktoren-Modell und HEXACO zu einem eigenen Vertiefungsknoten.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "HEXACO uebernimmt grosse Teile der bekannten Traitstruktur, ergaenzt sie aber um Honesty-Humility und verschaerft damit die Frage, ob fuenf Faktoren fuer Persoenlichkeitsbeschreibung immer ausreichen.",
+                "text": "HEXACO übernimmt grosse Teile der bekannten Traitstruktur, ergänzt sie aber um Honesty-Humility und verschärft damit die Frage, ob fünf Faktoren für Persönlichkeitsbeschreibung immer ausreichen.",
                 "annotations": []
               }
             }
@@ -4910,7 +4910,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Der Big-Five-Ausgangsartikel markiert HEXACO ausdruecklich als kritische Erweiterung: Die fuenf etablierten Dimensionen bleiben zentral, aber Merkmale wie Aufrichtigkeit, Fairness und Bescheidenheit werden nicht mehr nur unter Vertraeglichkeit mitgefuehrt.",
+                "text": "Der Big-Five-Ausgangsartikel markiert HEXACO ausdrücklich als kritische Erweiterung: Die fünf etablierten Dimensionen bleiben zentral, aber Merkmale wie Aufrichtigkeit, Fairness und Bescheidenheit werden nicht mehr nur unter Verträglichkeit mitgeführt.",
                 "annotations": []
               }
             },
@@ -4921,7 +4921,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Honesty-Humility trennt soziale Fairness von kooperativer Freundlichkeit. Dadurch lassen sich manipulative, ausbeuterische oder statusorientierte Tendenzen deutlicher von klassischer Vertraeglichkeit unterscheiden.",
+                "text": "Honesty-Humility trennt soziale Fairness von kooperativer Freundlichkeit. Dadurch lassen sich manipulative, ausbeuterische oder statusorientierte Tendenzen deutlicher von klassischer Verträglichkeit unterscheiden.",
                 "annotations": []
               }
             },
@@ -4932,7 +4932,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Viele HEXACO-Dimensionen liegen weiterhin nahe an OCEAN. Der eigentliche Mehrwert liegt deshalb weniger in einem kompletten Neuentwurf als in einer anderen Gewichtung der sozialen und moralischen Komponenten von Persoenlichkeit.",
+                "text": "Viele HEXACO-Dimensionen liegen weiterhin nahe an OCEAN. Der eigentliche Mehrwert liegt deshalb weniger in einem kompletten Neuentwurf als in einer anderen Gewichtung der sozialen und moralischen Komponenten von Persönlichkeit.",
                 "annotations": []
               }
             }
@@ -4981,9 +4981,9 @@
         "slug": "thema-17"
       },
       "header": {
-        "title": "Intelligenztheorien im Ueberblick",
-        "subtitle": "g-Faktor, Primaerfaktoren, gf/gc, CHC und BIS im Vergleich",
-        "discipline": "Differentielle & Persoenlichkeitspsychologie",
+        "title": "Intelligenztheorien im Überblick",
+        "subtitle": "g-Faktor, Primärfaktoren, gf/gc, CHC und BIS im Vergleich",
+        "discipline": "Differentielle & Persönlichkeitspsychologie",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "differential-and-personality",
         "keywords": [
@@ -5003,7 +5003,7 @@
         {
           "id": "17-glossary-1",
           "term": "g-Faktor",
-          "definition": "Die Annahme einer allgemeinen Intelligenz, die Leistungen in sehr unterschiedlichen kognitiven Aufgaben mittraegt.",
+          "definition": "Die Annahme einer allgemeinen Intelligenz, die Leistungen in sehr unterschiedlichen kognitiven Aufgaben mitträgt.",
           "sourceIds": [
             "17-source-3"
           ]
@@ -5011,7 +5011,7 @@
         {
           "id": "17-glossary-2",
           "term": "CHC-Modell",
-          "definition": "Ein mehrschichtiges Intelligenzmodell, das breite und enge Faehigkeiten mit einem allgemeinen g verbindet und diagnostisch sehr einflussreich wurde.",
+          "definition": "Ein mehrschichtiges Intelligenzmodell, das breite und enge Fähigkeiten mit einem allgemeinen g verbindet und diagnostisch sehr einflussreich wurde.",
           "sourceIds": [
             "17-source-4"
           ]
@@ -5019,7 +5019,7 @@
         {
           "id": "17-glossary-3",
           "term": "gf/gc",
-          "definition": "Unterscheidung zwischen fluider und kristalliner Intelligenz; sie bildet eine wichtige Vorstufe spaeterer hierarchischer Modelle.",
+          "definition": "Unterscheidung zwischen fluider und kristalliner Intelligenz; sie bildet eine wichtige Vorstufe späterer hierarchischer Modelle.",
           "sourceIds": [
             "17-source-3"
           ]
@@ -5028,18 +5028,18 @@
       "sources": [
         {
           "id": "17-recovered-source-1",
-          "rawCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Ueberblick (/intelligenztheorien) was linked from Berliner Intelligenzstrukturmodell (BIS).",
-          "notes": "Die recovered Verlinkung aus dem BIS-Artikel liefert den klaren Rekonstruktionsanker fuer diese Vergleichsseite."
+          "rawCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Überblick (/intelligenztheorien) was linked from Berliner Intelligenzstrukturmodell (BIS).",
+          "notes": "Die recovered Verlinkung aus dem BIS-Artikel liefert den klaren Rekonstruktionsanker für diese Vergleichsseite."
         },
         {
           "id": "17-source-2",
-          "rawCitation": "Jaeger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
+          "rawCitation": "Jäger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
           "notes": "Verortet das BIS als mehrdimensionales deutschsprachiges Alternativmodell."
         },
         {
           "id": "17-source-3",
           "rawCitation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press.",
-          "notes": "Synthetisiert g, Primaerfaktoren und hierarchische Modelle der Intelligenzforschung."
+          "notes": "Synthetisiert g, Primärfaktoren und hierarchische Modelle der Intelligenzforschung."
         },
         {
           "id": "17-source-4",
@@ -5051,9 +5051,9 @@
       "connections": [
         {
           "id": "17-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Berliner Intelligenzstrukturmodell (BIS)",
-          "description": "Recovered primary article that referenced Intelligenztheorien im Ueberblick.",
+          "description": "Recovered primary article that referenced Intelligenztheorien im Überblick.",
           "target": {
             "kind": "internal-article",
             "articleId": "05"
@@ -5062,7 +5062,7 @@
         {
           "id": "17-category-1",
           "category": "kategorie",
-          "title": "Differentielle & Persoenlichkeitspsychologie",
+          "title": "Differentielle & Persönlichkeitspsychologie",
           "description": "Canonical category placement for this derived concept node.",
           "target": {
             "kind": "internal-category",
@@ -5071,7 +5071,7 @@
         },
         {
           "id": "17-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Faktorenanalyse",
           "description": "Die wichtigsten Intelligenzmodelle beruhen auf unterschiedlichen faktoranalytischen Lesarten derselben Leistungsdaten.",
           "target": {
@@ -5081,9 +5081,9 @@
         },
         {
           "id": "17-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "IQ-Tests und Diagnostik",
-          "description": "Welches Modell bevorzugt wird, entscheidet unmittelbar ueber Testaufbau und Profilinterpretation.",
+          "description": "Welches Modell bevorzugt wird, entscheidet unmittelbar über Testaufbau und Profilinterpretation.",
           "target": {
             "kind": "internal-article",
             "articleId": "19"
@@ -5098,14 +5098,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Der recovered Begriff /intelligenztheorien verweist auf eine Luecke, die im BIS-Artikel bereits vorbereitet ist: Intelligenz laesst sich nicht nur mit einem einzigen Modell beschreiben, sondern ueber mehrere konkurrierende Ordnungen.",
+                "text": "Der recovered Begriff /intelligenztheorien verweist auf eine Lücke, die im BIS-Artikel bereits vorbereitet ist: Intelligenz lässt sich nicht nur mit einem einzigen Modell beschreiben, sondern über mehrere konkurrierende Ordnungen.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die kanonische Seite fasst diese Modellfamilien zusammen, ohne zu behaupten, dass fuer die recovered Route ein vollstaendiger Originaltext erhalten geblieben waere.",
+                "text": "Die kanonische Seite fasst diese Modellfamilien zusammen, ohne zu behaupten, dass für die recovered Route ein vollständiger Originaltext erhalten geblieben wäre.",
                 "annotations": []
               }
             }
@@ -5118,12 +5118,12 @@
           "entries": [
             {
               "kind": "subheading",
-              "text": "Von einem allgemeinen g zu mehreren Faehigkeiten"
+              "text": "Von einem allgemeinen g zu mehreren Fähigkeiten"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Einige Theorien betonen eine einzige uebergeordnete Intelligenz. Andere zerlegen Leistungen in mehrere relativ eigenstaendige Faehigkeiten oder ordnen sie hierarchisch in breite und enge Faktoren.",
+                "text": "Einige Theorien betonen eine einzige übergeordnete Intelligenz. Andere zerlegen Leistungen in mehrere relativ eigenständige Fähigkeiten oder ordnen sie hierarchisch in breite und enge Faktoren.",
                 "annotations": []
               }
             },
@@ -5134,7 +5134,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die Unterscheidung zwischen fluider und kristalliner Intelligenz fuehrte zu integrativen Modellen, in denen breite Faehigkeiten unter einem allgemeinen Niveau zusammenlaufen. Das CHC-Modell wurde so zum Standard in vielen diagnostischen Anwendungen.",
+                "text": "Die Unterscheidung zwischen fluider und kristalliner Intelligenz führte zu integrativen Modellen, in denen breite Fähigkeiten unter einem allgemeinen Niveau zusammenlaufen. Das CHC-Modell wurde so zum Standard in vielen diagnostischen Anwendungen.",
                 "annotations": []
               }
             },
@@ -5145,7 +5145,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Das BIS betont statt einer blossen Hierarchie die Kreuzung von Operationsarten und Inhaltsbereichen. Dadurch wirkt es weniger wie eine universelle Endformel und mehr wie eine spezifische Forschungsentscheidung darueber, wie Intelligenz strukturiert werden soll.",
+                "text": "Das BIS betont statt einer blossen Hierarchie die Kreuzung von Operationsarten und Inhaltsbereichen. Dadurch wirkt es weniger wie eine universelle Endformel und mehr wie eine spezifische Forschungsentscheidung darüber, wie Intelligenz strukturiert werden soll.",
                 "annotations": []
               }
             }
@@ -5159,7 +5159,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die Wahl eines Intelligenzmodells entscheidet darueber, welche Aufgaben in Tests auftauchen, ob man eher Gesamtwerte oder Profilunterschiede interpretiert und wie stark kulturelle sowie bildungsnahe Einfluesse gewichtet werden.",
+                "text": "Die Wahl eines Intelligenzmodells entscheidet darüber, welche Aufgaben in Tests auftauchen, ob man eher Gesamtwerte oder Profilunterschiede interpretiert und wie stark kulturelle sowie bildungsnahe Einflüsse gewichtet werden.",
                 "annotations": []
               }
             }
@@ -5178,11 +5178,11 @@
                   "annotations": []
                 },
                 {
-                  "text": "CHC ist international besonders praegend, waehrend das BIS eine markante deutschsprachige Alternative bleibt.",
+                  "text": "CHC ist international besonders prägend, während das BIS eine markante deutschsprachige Alternative bleibt.",
                   "annotations": []
                 },
                 {
-                  "text": "Ohne Faktorenanalyse und Diagnostik lassen sich diese Modelle weder sauber begruenden noch praktisch vergleichen.",
+                  "text": "Ohne Faktorenanalyse und Diagnostik lassen sich diese Modelle weder sauber begründen noch praktisch vergleichen.",
                   "annotations": []
                 }
               ]
@@ -5209,7 +5209,7 @@
       },
       "header": {
         "title": "IQ-Tests und Diagnostik",
-        "subtitle": "Wie Intelligenzmodelle in messbare Testprofile uebersetzt werden",
+        "subtitle": "Wie Intelligenzmodelle in messbare Testprofile übersetzt werden",
         "discipline": "Statistik & Psychometrie",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "statistics-and-psychometrics",
@@ -5223,7 +5223,7 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Verfahren wie BIS-4 oder CHC-orientierte Batterien sind keine neutralen Messgeraete, sondern operationalisieren jeweils ein bestimmtes Intelligenzmodell.",
+        "leadTeaser": "Verfahren wie BIS-4 oder CHC-orientierte Batterien sind keine neutralen Messgeräte, sondern operationalisieren jeweils ein bestimmtes Intelligenzmodell.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
@@ -5239,7 +5239,7 @@
         {
           "id": "19-glossary-2",
           "term": "Testbatterie",
-          "definition": "Zusammenstellung mehrerer Untertests, die unterschiedliche Faehigkeiten oder Facetten eines Modells abbilden sollen.",
+          "definition": "Zusammenstellung mehrerer Untertests, die unterschiedliche Fähigkeiten oder Facetten eines Modells abbilden sollen.",
           "sourceIds": [
             "19-source-2"
           ]
@@ -5249,17 +5249,17 @@
         {
           "id": "19-recovered-source-1",
           "rawCitation": "Recovered route reference in analzy deployment bundle: IQ-Tests und Diagnostik (/iq-tests) was linked from Berliner Intelligenzstrukturmodell (BIS).",
-          "notes": "Der recovered Link entstand direkt aus einem Artikel, der den Uebergang vom Modell zur Testform beschreibt."
+          "notes": "Der recovered Link entstand direkt aus einem Artikel, der den Übergang vom Modell zur Testform beschreibt."
         },
         {
           "id": "19-source-2",
-          "rawCitation": "Jaeger, A. O., Suess, H.-M., & Beauducel, A. (1997). Berliner Intelligenzstruktur-Test: BIS-Test, Form 4. Hogrefe.",
-          "notes": "Veranschaulicht, wie ein mehrdimensionales Modell in eine konkrete Testbatterie uebersetzt wird."
+          "rawCitation": "Jäger, A. O., Süss, H.-M., & Beauducel, A. (1997). Berliner Intelligenzstruktur-Test: BIS-Test, Form 4. Hogrefe.",
+          "notes": "Veranschaulicht, wie ein mehrdimensionales Modell in eine konkrete Testbatterie übersetzt wird."
         },
         {
           "id": "19-source-3",
           "rawCitation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press.",
-          "notes": "Liefert die modelltheoretische Vergleichsfolie fuer testdiagnostische Entscheidungen."
+          "notes": "Liefert die modelltheoretische Vergleichsfolie für testdiagnostische Entscheidungen."
         },
         {
           "id": "19-source-4",
@@ -5271,7 +5271,7 @@
       "connections": [
         {
           "id": "19-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Berliner Intelligenzstrukturmodell (BIS)",
           "description": "Recovered primary article that referenced IQ-Tests und Diagnostik.",
           "target": {
@@ -5291,8 +5291,8 @@
         },
         {
           "id": "19-bridge-1",
-          "category": "verknuepfung",
-          "title": "Intelligenztheorien im Ueberblick",
+          "category": "verknüpfung",
+          "title": "Intelligenztheorien im Überblick",
           "description": "Testverfahren operationalisieren immer ein vorausgesetztes Intelligenzmodell.",
           "target": {
             "kind": "internal-article",
@@ -5301,7 +5301,7 @@
         },
         {
           "id": "19-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Faktorenanalyse",
           "description": "Untertests und Gesamtwerte bleiben auf faktoranalytische Modellannahmen angewiesen.",
           "target": {
@@ -5318,14 +5318,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die recovered Route /iq-tests verweist auf den praktischen Punkt, an dem Theorie in Diagnostik uebergeht: Intelligenzmodelle muessen in Aufgaben, Normen und interpretierbare Profile uebersetzt werden.",
+                "text": "Die recovered Route /iq-tests verweist auf den praktischen Punkt, an dem Theorie in Diagnostik übergeht: Intelligenzmodelle müssen in Aufgaben, Normen und interpretierbare Profile übersetzt werden.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Weil fuer die Route kein eigenstaendiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsquellen.",
+                "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsquellen.",
                 "annotations": []
               }
             }
@@ -5343,7 +5343,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Ein IQ-Test ist immer an ein Modell gebunden: Soll ein Gesamtwert im Vordergrund stehen, mehrere breite Faehigkeiten oder ein Profil aus Operationen und Inhaltsbereichen? Erst diese Entscheidung bestimmt, welche Untertests sinnvoll sind.",
+                "text": "Ein IQ-Test ist immer an ein Modell gebunden: Soll ein Gesamtwert im Vordergrund stehen, mehrere breite Fähigkeiten oder ein Profil aus Operationen und Inhaltsbereichen? Erst diese Entscheidung bestimmt, welche Untertests sinnvoll sind.",
                 "annotations": []
               }
             },
@@ -5354,7 +5354,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Der BIS-4 zeigt, wie sich ein mehrdimensionales Modell in konkrete Aufgabentypen uebersetzen laesst. Damit wird Intelligenz nicht nur als Rangreihe, sondern als strukturierte Leistungslandschaft lesbar.",
+                "text": "Der BIS-4 zeigt, wie sich ein mehrdimensionales Modell in konkrete Aufgabentypen übersetzen lässt. Damit wird Intelligenz nicht nur als Rangreihe, sondern als strukturierte Leistungslandschaft lesbar.",
                 "annotations": []
               }
             },
@@ -5365,7 +5365,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Je staerker Testprofile fuer Bildungs-, Beratungs- oder Auswahlentscheidungen genutzt werden, desto wichtiger werden transparente Normen, Modellklarheit und eine vorsichtige Interpretation einzelner Kennwerte.",
+                "text": "Je stärker Testprofile für Bildungs-, Beratungs- oder Auswahlentscheidungen genutzt werden, desto wichtiger werden transparente Normen, Modellklarheit und eine vorsichtige Interpretation einzelner Kennwerte.",
                 "annotations": []
               }
             }
@@ -5388,7 +5388,7 @@
                   "annotations": []
                 },
                 {
-                  "text": "Diagnostische Guete haengt sowohl von Testqualitaet als auch von der theoretischen Passung des zugrunde liegenden Modells ab.",
+                  "text": "Diagnostische Güte hängt sowohl von Testqualität als auch von der theoretischen Passung des zugrunde liegenden Modells ab.",
                   "annotations": []
                 }
               ]
@@ -5415,7 +5415,7 @@
       },
       "header": {
         "title": "Leistungsmotivation",
-        "subtitle": "Warum Erfolgsmotive, Zielwahl und Attribution eng zusammenhaengen",
+        "subtitle": "Warum Erfolgsmotive, Zielwahl und Attribution eng zusammenhängen",
         "discipline": "Motivation & Emotion",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "motivation-and-emotion",
@@ -5429,14 +5429,14 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Leistungsmotivation beschreibt nicht nur den Wunsch nach Erfolg, sondern auch, wie Menschen Ziele waehlen, Rueckschlaege deuten und Anstrengung aufrechterhalten.",
+        "leadTeaser": "Leistungsmotivation beschreibt nicht nur den Wunsch nach Erfolg, sondern auch, wie Menschen Ziele wählen, Rückschläge deuten und Anstrengung aufrechterhalten.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
         {
           "id": "24-glossary-1",
           "term": "Leistungsmotivation",
-          "definition": "Motivationale Ausrichtung auf Aufgaben, bei denen Erfolg, Kompetenznachweis und persoenliche Standards eine wichtige Rolle spielen.",
+          "definition": "Motivationale Ausrichtung auf Aufgaben, bei denen Erfolg, Kompetenznachweis und persönliche Standards eine wichtige Rolle spielen.",
           "sourceIds": [
             "24-source-2",
             "24-source-3"
@@ -5445,7 +5445,7 @@
         {
           "id": "24-glossary-2",
           "term": "Erfolgsmotiv",
-          "definition": "Tendenz, herausfordernde Aufgaben aufzusuchen, um Kompetenz zu erleben und positive Leistungsrueckmeldungen zu erhalten.",
+          "definition": "Tendenz, herausfordernde Aufgaben aufzusuchen, um Kompetenz zu erleben und positive Leistungsrückmeldungen zu erhalten.",
           "sourceIds": [
             "24-source-2"
           ]
@@ -5455,29 +5455,29 @@
         {
           "id": "24-recovered-source-1",
           "rawCitation": "Recovered route reference in analzy deployment bundle: Leistungsmotivation (/leistungsmotivation) was linked from Attributionstheorie.",
-          "notes": "Die recovered Route zeigt, dass Leistungsmotivation im Korpus ueber Attributionen und Erfolgsdeutungen erschlossen wurde."
+          "notes": "Die recovered Route zeigt, dass Leistungsmotivation im Korpus über Attributionen und Erfolgsdeutungen erschlossen wurde."
         },
         {
           "id": "24-source-2",
           "rawCitation": "Atkinson, J. W. (1957). Motivational determinants of risk-taking behavior. Psychological Review, 64(6), 359-372.",
-          "notes": "Klassischer Ausgangspunkt fuer die Idee, dass Leistungsmotivation Aufgabenwahl und Risikopraeferenz beeinflusst."
+          "notes": "Klassischer Ausgangspunkt für die Idee, dass Leistungsmotivation Aufgabenwahl und Risikopräferenz beeinflusst."
         },
         {
           "id": "24-source-3",
           "rawCitation": "Weiner, B. (1985). An attributional theory of achievement motivation and emotion. Psychological Review, 92(4), 548-573.",
-          "notes": "Verknuepft Erfolg, Misserfolg, Emotion und motivationale Folgereaktionen ueber Attributionsprozesse."
+          "notes": "Verknüpft Erfolg, Misserfolg, Emotion und motivationale Folgereaktionen über Attributionsprozesse."
         },
         {
           "id": "24-source-4",
           "rawCitation": "Bandura, A. (1997). Self-efficacy: The exercise of control. Freeman.",
-          "notes": "Ergaenzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele ueberhaupt zutrauen."
+          "notes": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutrauen."
         }
       ],
       "assets": [],
       "connections": [
         {
           "id": "24-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Attributionstheorie",
           "description": "Recovered primary article that referenced Leistungsmotivation.",
           "target": {
@@ -5497,9 +5497,9 @@
         },
         {
           "id": "24-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Selbstwirksamkeit nach Bandura",
-          "description": "Leistungsziele werden anders gewaehlt, wenn Menschen sich die erfolgreiche Bewaeltigung zutrauen.",
+          "description": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutrauen.",
           "target": {
             "kind": "internal-article",
             "articleId": "23"
@@ -5507,9 +5507,9 @@
         },
         {
           "id": "24-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Gelernte Hilflosigkeit",
-          "description": "Wiederholte Misserfolgsdeutungen koennen Leistungsmotivation untergraben und in Rueckzug umschlagen.",
+          "description": "Wiederholte Misserfolgsdeutungen können Leistungsmotivation untergraben und in Rückzug umschlagen.",
           "target": {
             "kind": "internal-article",
             "articleId": "25"
@@ -5524,14 +5524,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die recovered Route /leistungsmotivation wurde aus der Attributionstheorie heraus verlinkt. Das ist sinnvoll, weil Leistung nicht nur von Faehigkeit oder Zielsetzung abhaengt, sondern stark davon, wie Menschen Erfolge und Misserfolge deuten.",
+                "text": "Die recovered Route /leistungsmotivation wurde aus der Attributionstheorie heraus verlinkt. Das ist sinnvoll, weil Leistung nicht nur von Fähigkeit oder Zielsetzung abhängt, sondern stark davon, wie Menschen Erfolge und Misserfolge deuten.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, entwickelt diese Seite Leistungsmotivation aus genau diesem erhaltenen Anschluss: Zielwahl, Anstrengung und Emotion werden ueber Attributionen und Kompetenzueberzeugungen lesbar.",
+                "text": "Da kein eigenständiger recovered Seitentext erhalten blieb, entwickelt diese Seite Leistungsmotivation aus genau diesem erhaltenen Anschluss: Zielwahl, Anstrengung und Emotion werden über Attributionen und Kompetenzüberzeugungen lesbar.",
                 "annotations": []
               }
             }
@@ -5544,12 +5544,12 @@
           "entries": [
             {
               "kind": "subheading",
-              "text": "Warum Menschen anspruchsvolle Aufgaben waehlen"
+              "text": "Warum Menschen anspruchsvolle Aufgaben wählen"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Leistungsmotivation betrifft die Bereitschaft, sich an Aufgaben zu binden, bei denen Erfolg nicht sicher ist. Zwischen leichter Sicherheit und fast sicherem Scheitern werden oft gerade jene Aufgaben attraktiv, die Kompetenz pruefbar machen.",
+                "text": "Leistungsmotivation betrifft die Bereitschaft, sich an Aufgaben zu binden, bei denen Erfolg nicht sicher ist. Zwischen leichter Sicherheit und fast sicherem Scheitern werden oft gerade jene Aufgaben attraktiv, die Kompetenz prüfbar machen.",
                 "annotations": []
               }
             },
@@ -5560,7 +5560,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Nach Erfolg oder Misserfolg entscheidet die Ursachenzuschreibung mit darueber, ob Anstrengung erhoeht, Ziele angepasst oder Aufgaben kuenftig gemieden werden. Gerade deshalb ist Leistungsmotivation im recovered Korpus an die Attributionstheorie angebunden.",
+                "text": "Nach Erfolg oder Misserfolg entscheidet die Ursachenzuschreibung mit darüber, ob Anstrengung erhöht, Ziele angepasst oder Aufgaben künftig gemieden werden. Gerade deshalb ist Leistungsmotivation im recovered Korpus an die Attributionstheorie angebunden.",
                 "annotations": []
               }
             },
@@ -5571,7 +5571,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Selbstwirksamkeit ergaenzt das Bild: Wer sich Erfolg zutraut, investiert eher Anstrengung, waehlt fordernde Ziele und bleibt bei Rueckschlaegen handlungsorientiert. Motivation ist deshalb eng mit Erwartung und Kontrolle verschraenkt.",
+                "text": "Selbstwirksamkeit ergänzt das Bild: Wer sich Erfolg zutraut, investiert eher Anstrengung, wählt fordernde Ziele und bleibt bei Rückschlägen handlungsorientiert. Motivation ist deshalb eng mit Erwartung und Kontrolle verschränkt.",
                 "annotations": []
               }
             }
@@ -5586,15 +5586,15 @@
               "kind": "bullet_list",
               "items": [
                 {
-                  "text": "Leistungsmotivation betrifft Zielwahl, Anstrengung und den Umgang mit Rueckmeldung.",
+                  "text": "Leistungsmotivation betrifft Zielwahl, Anstrengung und den Umgang mit Rückmeldung.",
                   "annotations": []
                 },
                 {
-                  "text": "Attributionen entscheiden mit, ob Misserfolg als Ansporn oder als Rueckzugssignal wirkt.",
+                  "text": "Attributionen entscheiden mit, ob Misserfolg als Ansporn oder als Rückzugssignal wirkt.",
                   "annotations": []
                 },
                 {
-                  "text": "Ohne Selbstwirksamkeit und Kontrollueberzeugung laesst sich Leistungsmotivation nur unvollstaendig verstehen.",
+                  "text": "Ohne Selbstwirksamkeit und Kontrollüberzeugung lässt sich Leistungsmotivation nur unvollständig verstehen.",
                   "annotations": []
                 }
               ]
@@ -5621,7 +5621,7 @@
       },
       "header": {
         "title": "Gelernte Hilflosigkeit",
-        "subtitle": "Wenn wiederholter Kontrollverlust in Passivitaet und Rueckzug umschlaegt",
+        "subtitle": "Wenn wiederholter Kontrollverlust in Passivität und Rückzug umschlägt",
         "discipline": "Motivation & Emotion",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "motivation-and-emotion",
@@ -5635,7 +5635,7 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Gelernte Hilflosigkeit beschreibt, wie wiederholte Erfahrungen von Unkontrollierbarkeit Motivation, Emotion und kuenftiges Handeln nachhaltig beeintraechtigen koennen.",
+        "leadTeaser": "Gelernte Hilflosigkeit beschreibt, wie wiederholte Erfahrungen von Unkontrollierbarkeit Motivation, Emotion und künftiges Handeln nachhaltig beeinträchtigen können.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
@@ -5651,7 +5651,7 @@
         {
           "id": "25-glossary-2",
           "term": "Unkontrollierbarkeit",
-          "definition": "Erleben, dass Ergebnisse nicht verlässlich durch eigenes Handeln beeinflusst werden koennen.",
+          "definition": "Erleben, dass Ergebnisse nicht verlässlich durch eigenes Handeln beeinflusst werden können.",
           "sourceIds": [
             "25-source-2"
           ]
@@ -5661,7 +5661,7 @@
         {
           "id": "25-recovered-source-1",
           "rawCitation": "Recovered route reference in analzy deployment bundle: Gelernte Hilflosigkeit (/lernen-hilflosigkeit) was linked from Attributionstheorie.",
-          "notes": "Die recovered Route entstand direkt aus einem Artikel ueber Ursachenzuschreibung und ihre motivationalen Folgen."
+          "notes": "Die recovered Route entstand direkt aus einem Artikel über Ursachenzuschreibung und ihre motivationalen Folgen."
         },
         {
           "id": "25-source-2",
@@ -5671,7 +5671,7 @@
         {
           "id": "25-source-3",
           "rawCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
-          "notes": "Verknuepft Hilflosigkeit staerker mit menschlichen Attributionsmustern und Erwartungsbildung."
+          "notes": "Verknüpft Hilflosigkeit stärker mit menschlichen Attributionsmustern und Erwartungsbildung."
         },
         {
           "id": "25-source-4",
@@ -5683,7 +5683,7 @@
       "connections": [
         {
           "id": "25-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Attributionstheorie",
           "description": "Recovered primary article that referenced Gelernte Hilflosigkeit.",
           "target": {
@@ -5703,7 +5703,7 @@
         },
         {
           "id": "25-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Selbstwirksamkeit nach Bandura",
           "description": "Hilflosigkeit wirkt wie das Gegenbild stabiler Kompetenz- und Kontrolleerwartungen.",
           "target": {
@@ -5713,7 +5713,7 @@
         },
         {
           "id": "25-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Leistungsmotivation",
           "description": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdauer und Bereitschaft zu neuer Anstrengung.",
           "target": {
@@ -5723,9 +5723,9 @@
         },
         {
           "id": "25-bridge-3",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Soziale Kognition",
-          "description": "Hilflosigkeit wird auch durch Deutungsmuster und Erwartungen ueber eigene Wirksamkeit sozial vermittelt.",
+          "description": "Hilflosigkeit wird auch durch Deutungsmuster und Erwartungen über eigene Wirksamkeit sozial vermittelt.",
           "target": {
             "kind": "internal-article",
             "articleId": "26"
@@ -5740,14 +5740,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die recovered Route /lernen-hilflosigkeit wurde als Anschluss an die Attributionstheorie konserviert. Das legt nahe, Hilflosigkeit nicht nur als Zustand von Passivitaet, sondern als Folge bestimmter Deutungen von Kontrolle und Misserfolg zu lesen.",
+                "text": "Die recovered Route /lernen-hilflosigkeit wurde als Anschluss an die Attributionstheorie konserviert. Das legt nahe, Hilflosigkeit nicht nur als Zustand von Passivität, sondern als Folge bestimmter Deutungen von Kontrolle und Misserfolg zu lesen.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem im Korpus bereits benannten Zusammenhang von Kontrollierbarkeit, Motivation und pessimistischen Erklaerungsmustern.",
+                "text": "Da kein eigenständiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem im Korpus bereits benannten Zusammenhang von Kontrollierbarkeit, Motivation und pessimistischen Erklärungsmustern.",
                 "annotations": []
               }
             }
@@ -5765,7 +5765,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Gelernte Hilflosigkeit entsteht, wenn Menschen oder Tiere wiederholt erleben, dass ihr Handeln keine sichtbare Wirkung hat. Mit der Zeit wird nicht nur die Situation, sondern die gesamte Erwartungshaltung veraendert: Neue Einflussmoeglichkeiten werden gar nicht mehr gesucht.",
+                "text": "Gelernte Hilflosigkeit entsteht, wenn Menschen oder Tiere wiederholt erleben, dass ihr Handeln keine sichtbare Wirkung hat. Mit der Zeit wird nicht nur die Situation, sondern die gesamte Erwartungshaltung verändert: Neue Einflussmöglichkeiten werden gar nicht mehr gesucht.",
                 "annotations": []
               }
             },
@@ -5776,7 +5776,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Bei Menschen ist entscheidend, wie Misserfolge interpretiert werden. Werden negative Ereignisse als stabil, umfassend und unkontrollierbar gedeutet, steigt die Wahrscheinlichkeit, dass Motivation einbricht und Rueckzug einsetzt.",
+                "text": "Bei Menschen ist entscheidend, wie Misserfolge interpretiert werden. Werden negative Ereignisse als stabil, umfassend und unkontrollierbar gedeutet, steigt die Wahrscheinlichkeit, dass Motivation einbricht und Rückzug einsetzt.",
                 "annotations": []
               }
             },
@@ -5787,7 +5787,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Hilflosigkeit betrifft nicht nur Leistung, sondern auch Emotion und Selbstbild. Genau deshalb ist der Begriff im recovered Attributionskontext so plausibel: Ursachenzuschreibungen, Gefuehle und kuenftiges Verhalten greifen hier direkt ineinander.",
+                "text": "Hilflosigkeit betrifft nicht nur Leistung, sondern auch Emotion und Selbstbild. Genau deshalb ist der Begriff im recovered Attributionskontext so plausibel: Ursachenzuschreibungen, Gefühle und künftiges Verhalten greifen hier direkt ineinander.",
                 "annotations": []
               }
             }
@@ -5802,11 +5802,11 @@
               "kind": "bullet_list",
               "items": [
                 {
-                  "text": "Gelernte Hilflosigkeit beschreibt den Uebergang von erlebter Wirkungslosigkeit zu verminderter Initiative.",
+                  "text": "Gelernte Hilflosigkeit beschreibt den Übergang von erlebter Wirkungslosigkeit zu verminderter Initiative.",
                   "annotations": []
                 },
                 {
-                  "text": "Attributionsmuster bestimmen mit, ob Misserfolg als veraenderbar oder als unvermeidbar erlebt wird.",
+                  "text": "Attributionsmuster bestimmen mit, ob Misserfolg als veränderbar oder als unvermeidbar erlebt wird.",
                   "annotations": []
                 },
                 {
@@ -5837,36 +5837,36 @@
       },
       "header": {
         "title": "Mischel: Person-Situation",
-        "subtitle": "Die Person-Situations-Debatte ueber Konsistenz und Vorhersage",
-        "discipline": "Differentielle & Persoenlichkeitspsychologie",
+        "subtitle": "Die Person-Situations-Debatte über Konsistenz und Vorhersage",
+        "discipline": "Differentielle & Persönlichkeitspsychologie",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "differential-and-personality",
         "keywords": [
           "mischel",
           "person-situation",
-          "persoenlichkeit"
+          "persönlichkeit"
         ],
         "audience": [
           "selbststudium",
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Mischels Kritik fragte, wie stabil Persoenlichkeit ueber Situationen hinweg wirklich ist, und zwang Traitmodelle zu praeziseren Vorhersagen.",
+        "leadTeaser": "Mischels Kritik fragte, wie stabil Persönlichkeit über Situationen hinweg wirklich ist, und zwang Traitmodelle zu präziseren Vorhersagen.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
         {
           "id": "14-glossary-1",
           "term": "Person-Situations-Debatte",
-          "definition": "Kontroverse darueber, ob Verhalten vor allem durch stabile Persoenlichkeitsmerkmale oder durch situative Bedingungen erklaert werden sollte.",
+          "definition": "Kontroverse darüber, ob Verhalten vor allem durch stabile Persönlichkeitsmerkmale oder durch situative Bedingungen erklärt werden sollte.",
           "sourceIds": [
             "14-source-2"
           ]
         },
         {
           "id": "14-glossary-2",
-          "term": "Aggregation ueber Situationen",
-          "definition": "Verhaltensdaten werden ueber viele Situationen hinweg zusammengefasst, damit stabile Traitunterschiede sichtbar werden.",
+          "term": "Aggregation über Situationen",
+          "definition": "Verhaltensdaten werden über viele Situationen hinweg zusammengefasst, damit stabile Traitunterschiede sichtbar werden.",
           "sourceIds": [
             "14-source-3"
           ]
@@ -5875,25 +5875,25 @@
       "sources": [
         {
           "id": "14-recovered-source-1",
-          "rawCitation": "Recovered route reference in analzy deployment bundle: Mischel: Person-Situation (/mischel) was linked from Fuenf-Faktoren-Modell (Big Five).",
+          "rawCitation": "Recovered route reference in analzy deployment bundle: Mischel: Person-Situation (/mischel) was linked from Fünf-Faktoren-Modell (Big Five).",
           "notes": "Die recovered Route blieb als Verweis aus dem Big-Five-Artikel erhalten."
         },
         {
           "id": "14-source-2",
           "rawCitation": "Mischel, W. (1968). Personality and assessment. Wiley.",
-          "notes": "Klassische Kritik an globalen Traits und ihrer begrenzten situationsuebergreifenden Vorhersage."
+          "notes": "Klassische Kritik an globalen Traits und ihrer begrenzten situationsübergreifenden Vorhersage."
         },
         {
           "id": "14-source-3",
           "rawCitation": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy. In L. A. Pervin & O. P. John (Eds.), Handbook of personality: Theory and research (2nd ed., pp. 102-138). Guilford Press.",
-          "notes": "Zeigt, warum Traits trotz Mischels Kritik stabil bleiben, wenn Verhalten ueber viele Situationen aggregiert wird."
+          "notes": "Zeigt, warum Traits trotz Mischels Kritik stabil bleiben, wenn Verhalten über viele Situationen aggregiert wird."
         }
       ],
       "assets": [],
       "connections": [
         {
           "id": "14-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Fünf-Faktoren-Modell (Big Five)",
           "description": "Recovered primary article that referenced Mischel: Person-Situation.",
           "target": {
@@ -5904,7 +5904,7 @@
         {
           "id": "14-category-1",
           "category": "kategorie",
-          "title": "Differentielle & Persoenlichkeitspsychologie",
+          "title": "Differentielle & Persönlichkeitspsychologie",
           "description": "Canonical category placement for this derived concept node.",
           "target": {
             "kind": "internal-category",
@@ -5913,9 +5913,9 @@
         },
         {
           "id": "14-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "HEXACO-Modell",
-          "description": "Auch differenziertere Traitmodelle muessen sich an situativer Variabilitaet messen lassen.",
+          "description": "Auch differenziertere Traitmodelle müssen sich an situativer Variabilität messen lassen.",
           "target": {
             "kind": "internal-article",
             "articleId": "13"
@@ -5923,9 +5923,9 @@
         },
         {
           "id": "14-bridge-2",
-          "category": "verknuepfung",
-          "title": "Persoenlichkeitstests",
-          "description": "Die Debatte betrifft unmittelbar, was Persoenlichkeitstests ueberhaupt beanspruchen duerfen.",
+          "category": "verknüpfung",
+          "title": "Persönlichkeitstests",
+          "description": "Die Debatte betrifft unmittelbar, was Persönlichkeitstests überhaupt beanspruchen dürfen.",
           "target": {
             "kind": "internal-article",
             "articleId": "15"
@@ -5940,14 +5940,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Auch zu /mischel blieb im recovered Korpus kein eigenstaendiger Seitentext erhalten. Der Big-Five-Artikel nennt die Person-Situations-Kontroverse jedoch explizit als zentrale Kritiklinie, aus der dieser Vertiefungsknoten rekonstruiert wird.",
+                "text": "Auch zu /mischel blieb im recovered Korpus kein eigenständiger Seitentext erhalten. Der Big-Five-Artikel nennt die Person-Situations-Kontroverse jedoch explizit als zentrale Kritiklinie, aus der dieser Vertiefungsknoten rekonstruiert wird.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Der Kern der Debatte lautet: Wenn Verhalten stark vom Kontext abhaengt, muessen Persoenlichkeitsmodelle genauer sagen, wann und wie stabile Unterschiede ueberhaupt beobachtbar werden.",
+                "text": "Der Kern der Debatte lautet: Wenn Verhalten stark vom Kontext abhängt, müssen Persönlichkeitsmodelle genauer sagen, wann und wie stabile Unterschiede überhaupt beobachtbar werden.",
                 "annotations": []
               }
             }
@@ -5965,7 +5965,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Mischel argumentierte, dass breite Persoenlichkeitsmerkmale einzelnes Verhalten oft nur begrenzt vorhersagen. Damit wurde die bequeme Annahme erschuettert, Menschen wuerden sich in jeder Situation traitkonsistent verhalten.",
+                "text": "Mischel argumentierte, dass breite Persönlichkeitsmerkmale einzelnes Verhalten oft nur begrenzt vorhersagen. Damit wurde die bequeme Annahme erschüttert, Menschen würden sich in jeder Situation traitkonsistent verhalten.",
                 "annotations": []
               }
             },
@@ -5976,18 +5976,18 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die spaetere Big-Five-Forschung hielt an Traits fest, aber mit einer wichtigen Praezisierung: Verlaessliche Stabilitaet zeigt sich eher in aggregierten Mustern ueber viele Situationen hinweg als in jeder einzelnen Szene.",
+                "text": "Die spätere Big-Five-Forschung hielt an Traits fest, aber mit einer wichtigen Präzisierung: Verlässliche Stabilität zeigt sich eher in aggregierten Mustern über viele Situationen hinweg als in jeder einzelnen Szene.",
                 "annotations": []
               }
             },
             {
               "kind": "subheading",
-              "text": "Folge fuer heutige Modelle"
+              "text": "Folge für heutige Modelle"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die Kontroverse zwang Persoenlichkeitspsychologie dazu, Traits, Situationen und ihre Wechselwirkung zusammenzudenken. Genau deshalb bleibt Mischel ein Scharnier zwischen klassischer Traitdiagnostik und moderner kontextsensitiver Forschung.",
+                "text": "Die Kontroverse zwang Persönlichkeitspsychologie dazu, Traits, Situationen und ihre Wechselwirkung zusammenzudenken. Genau deshalb bleibt Mischel ein Scharnier zwischen klassischer Traitdiagnostik und moderner kontextsensitiver Forschung.",
                 "annotations": []
               }
             }
@@ -6006,11 +6006,11 @@
                   "annotations": []
                 },
                 {
-                  "text": "Big-Five-Modelle bleiben robust, wenn Verhalten ueber viele Situationen aggregiert wird.",
+                  "text": "Big-Five-Modelle bleiben robust, wenn Verhalten über viele Situationen aggregiert wird.",
                   "annotations": []
                 },
                 {
-                  "text": "Die Debatte verbindet Persoenlichkeitsstruktur, Tests und konkrete Vorhersageansprueche.",
+                  "text": "Die Debatte verbindet Persönlichkeitsstruktur, Tests und konkrete Vorhersageansprüche.",
                   "annotations": []
                 }
               ]
@@ -6020,7 +6020,7 @@
       ],
       "notes": {
         "importedFrom": "analzy-deployment-v2",
-        "uiHint": "Enriched from the Big-Five critique section so GUI editors can extend the controversy with future person-by-situation examples."
+        "uiHint": "Enriched from the Big-Five critiqü section so GUI editors can extend the controversy with future person-by-situation examples."
       }
     },
     {
@@ -6029,36 +6029,36 @@
       "origin": {
         "kind": "recovered-bundle",
         "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js",
-        "recoveredRoute": "/persoenlichkeitsstoerungen"
+        "recoveredRoute": "/persönlichkeitsstörungen"
       },
       "identity": {
         "articleId": "16",
         "slug": "thema-16"
       },
       "header": {
-        "title": "Persoenlichkeitsstoerungen",
+        "title": "Persönlichkeitsstörungen",
         "subtitle": "Wo dimensionale Traitmodelle an klinisch relevante Muster grenzen",
-        "discipline": "Differentielle & Persoenlichkeitspsychologie",
+        "discipline": "Differentielle & Persönlichkeitspsychologie",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "differential-and-personality",
         "keywords": [
-          "persoenlichkeitsstoerungen",
+          "persönlichkeitsstörungen",
           "klinisch",
-          "persoenlichkeit"
+          "persönlichkeit"
         ],
         "audience": [
           "selbststudium",
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Persoenlichkeitsstoerungen markieren keinen voellig getrennten Bereich von Traits, sondern werfen die Frage auf, wann stabile Muster unflexibel, belastend und klinisch bedeutsam werden.",
+        "leadTeaser": "Persönlichkeitsstörungen markieren keinen völlig getrennten Bereich von Traits, sondern werfen die Frage auf, wann stabile Muster unflexibel, belastend und klinisch bedeutsam werden.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
         {
           "id": "16-glossary-1",
           "term": "Dimensionale Sicht",
-          "definition": "Perspektive, nach der Persoenlichkeitsmerkmale auf Kontinuen verteilt sind und klinische Auffaelligkeiten nicht strikt kategorial von Normalvariationen getrennt werden.",
+          "definition": "Perspektive, nach der Persönlichkeitsmerkmale auf Kontinuen verteilt sind und klinische Auffälligkeiten nicht strikt kategorial von Normalvariationen getrennt werden.",
           "sourceIds": [
             "16-source-2"
           ]
@@ -6066,7 +6066,7 @@
         {
           "id": "16-glossary-2",
           "term": "Maladaptives Traitprofil",
-          "definition": "Merkmalskonstellation, die dauerhaft unflexibel ist und zu deutlicher Beeintraechtigung, Konflikten oder Leidensdruck fuehrt.",
+          "definition": "Merkmalskonstellation, die dauerhaft unflexibel ist und zu deutlicher Beeinträchtigung, Konflikten oder Leidensdruck führt.",
           "sourceIds": [
             "16-source-3"
           ]
@@ -6075,32 +6075,32 @@
       "sources": [
         {
           "id": "16-recovered-source-1",
-          "rawCitation": "Recovered route reference in analzy deployment bundle: Persoenlichkeitsstoerungen (/persoenlichkeitsstoerungen) was linked from Fuenf-Faktoren-Modell (Big Five).",
+          "rawCitation": "Recovered route reference in analzy deployment bundle: Persönlichkeitsstörungen (/persönlichkeitsstörungen) was linked from Fünf-Faktoren-Modell (Big Five).",
           "notes": "Die recovered Verlinkung entstand aus einem Traitartikel und legt deshalb einen dimensionalen Zugang nahe."
         },
         {
           "id": "16-source-2",
           "rawCitation": "Widiger, T. A., & Costa, P. T., Jr. (1994). Personality and personality disorders. Journal of Abnormal Psychology, 103(1), 78-91.",
-          "notes": "Beschreibt die inhaltliche Naehe zwischen allgemeiner Persoenlichkeitsstruktur und klinischen Stoerungsbildern."
+          "notes": "Beschreibt die inhaltliche Nähe zwischen allgemeiner Persönlichkeitsstruktur und klinischen Störungsbildern."
         },
         {
           "id": "16-source-3",
           "rawCitation": "Widiger, T. A., & Trull, T. J. (2007). Plate tectonics in the classification of personality disorder. American Psychologist, 62(2), 71-83.",
-          "notes": "Begruendet den Wandel von starren Kategorien hin zu dimensionalen Traitmodellen in der klinischen Persoenlichkeitsforschung."
+          "notes": "Begründet den Wandel von starren Kategorien hin zu dimensionalen Traitmodellen in der klinischen Persönlichkeitsforschung."
         },
         {
           "id": "16-source-4",
           "rawCitation": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy. In L. A. Pervin & O. P. John (Eds.), Handbook of personality: Theory and research (2nd ed., pp. 102-138). Guilford Press.",
-          "notes": "Liefert die nicht-klinische Traitfolie, von der aus stoerungsnahe Extreme eingeordnet werden koennen."
+          "notes": "Liefert die nicht-klinische Traitfolie, von der aus störungsnahe Extreme eingeordnet werden können."
         }
       ],
       "assets": [],
       "connections": [
         {
           "id": "16-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Fünf-Faktoren-Modell (Big Five)",
-          "description": "Recovered primary article that referenced Persoenlichkeitsstoerungen.",
+          "description": "Recovered primary article that referenced Persönlichkeitsstörungen.",
           "target": {
             "kind": "internal-article",
             "articleId": "08"
@@ -6109,7 +6109,7 @@
         {
           "id": "16-category-1",
           "category": "kategorie",
-          "title": "Differentielle & Persoenlichkeitspsychologie",
+          "title": "Differentielle & Persönlichkeitspsychologie",
           "description": "Canonical category placement for this derived concept node.",
           "target": {
             "kind": "internal-category",
@@ -6118,9 +6118,9 @@
         },
         {
           "id": "16-bridge-1",
-          "category": "verknuepfung",
-          "title": "Persoenlichkeitstests",
-          "description": "Diagnostische Instrumente vermitteln zwischen alltaeglichen Traits und klinisch auffaelligen Mustern.",
+          "category": "verknüpfung",
+          "title": "Persönlichkeitstests",
+          "description": "Diagnostische Instrumente vermitteln zwischen alltäglichen Traits und klinisch auffälligen Mustern.",
           "target": {
             "kind": "internal-article",
             "articleId": "15"
@@ -6128,9 +6128,9 @@
         },
         {
           "id": "16-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "HEXACO-Modell",
-          "description": "Erweiterte Traitmodelle zeigen, dass auch klinisch relevante Muster aus differenzierteren Merkmalsachsen beschrieben werden koennen.",
+          "description": "Erweiterte Traitmodelle zeigen, dass auch klinisch relevante Muster aus differenzierteren Merkmalsachsen beschrieben werden können.",
           "target": {
             "kind": "internal-article",
             "articleId": "13"
@@ -6145,14 +6145,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die recovered Route /persoenlichkeitsstoerungen wurde aus dem Big-Five-Umfeld heraus verlinkt. Das spricht dafuer, dass der verlorene Kontext weniger eine rein klinische Sonderwelt meinte als die Frage, wie Traitdimensionen in problematische Extreme uebergehen.",
+                "text": "Die recovered Route /persönlichkeitsstörungen wurde aus dem Big-Five-Umfeld heraus verlinkt. Das spricht dafür, dass der verlorene Kontext weniger eine rein klinische Sonderwelt meinte als die Frage, wie Traitdimensionen in problematische Extreme übergehen.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, beschreibt diese Seite persoenlichkeitspsychologische Stoerungsnaehe bewusst als Bruecke zwischen normaler Merkmalsvariation und klinischer Beeintraechtigung.",
+                "text": "Da kein eigenständiger recovered Seitentext erhalten blieb, beschreibt diese Seite persönlichkeitspsychologische Störungsnähe bewusst als Brücke zwischen normaler Merkmalsvariation und klinischer Beeinträchtigung.",
                 "annotations": []
               }
             }
@@ -6165,12 +6165,12 @@
           "entries": [
             {
               "kind": "subheading",
-              "text": "Warum Traits hier ueberhaupt relevant sind"
+              "text": "Warum Traits hier überhaupt relevant sind"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Persoenlichkeitsstoerungen lassen sich nicht sinnvoll verstehen, wenn Persoenlichkeit und Klinik voellig getrennt gedacht werden. Viele stoerungsnahe Muster wirken vielmehr wie rigide, extreme oder unflexible Varianten allgemeiner Traits.",
+                "text": "Persönlichkeitsstörungen lassen sich nicht sinnvoll verstehen, wenn Persönlichkeit und Klinik völlig getrennt gedacht werden. Viele störungsnahe Muster wirken vielmehr wie rigide, extreme oder unflexible Varianten allgemeiner Traits.",
                 "annotations": []
               }
             },
@@ -6181,7 +6181,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die klinische Forschung bewegt sich deshalb zunehmend in Richtung dimensionaler Beschreibungen. Statt nur zu fragen, ob eine Stoerung vorhanden ist, wird genauer betrachtet, welche Merkmalsprofile, interpersonellen Probleme und Belastungen vorliegen.",
+                "text": "Die klinische Forschung bewegt sich deshalb zunehmend in Richtung dimensionaler Beschreibungen. Statt nur zu fragen, ob eine Störung vorhanden ist, wird genauer betrachtet, welche Merkmalsprofile, interpersonellen Probleme und Belastungen vorliegen.",
                 "annotations": []
               }
             },
@@ -6192,7 +6192,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Nicht jeder hohe oder niedrige Traitwert ist schon klinisch relevant. Entscheidend werden Dauer, Unflexibilitaet, Leidensdruck und Beeintraechtigung im Alltag. Die dimensional gedachte Bruecke soll Aufklaerung schaffen, keine vorschnelle Pathologisierung.",
+                "text": "Nicht jeder hohe oder niedrige Traitwert ist schon klinisch relevant. Entscheidend werden Dauer, Unflexibilität, Leidensdruck und Beeinträchtigung im Alltag. Die dimensional gedachte Brücke soll Aufklärung schaffen, keine vorschnelle Pathologisierung.",
                 "annotations": []
               }
             }
@@ -6207,15 +6207,15 @@
               "kind": "bullet_list",
               "items": [
                 {
-                  "text": "Persoenlichkeitsstoerungen lassen sich sinnvoll im Anschluss an allgemeine Traitmodelle betrachten.",
+                  "text": "Persönlichkeitsstörungen lassen sich sinnvoll im Anschluss an allgemeine Traitmodelle betrachten.",
                   "annotations": []
                 },
                 {
-                  "text": "Dimensionale Beschreibungen ergaenzen starre Kategorien, weil sie Abstufungen und Profile besser erfassen.",
+                  "text": "Dimensionale Beschreibungen ergänzen starre Kategorien, weil sie Abstufungen und Profile besser erfassen.",
                   "annotations": []
                 },
                 {
-                  "text": "Klinische Relevanz beginnt nicht bei jedem Extremwert, sondern bei dauerhafter Beeintraechtigung und Unflexibilitaet.",
+                  "text": "Klinische Relevanz beginnt nicht bei jedem Extremwert, sondern bei dauerhafter Beeinträchtigung und Unflexibilität.",
                   "annotations": []
                 }
               ]
@@ -6234,20 +6234,20 @@
       "origin": {
         "kind": "recovered-bundle",
         "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js",
-        "recoveredRoute": "/persoenlichkeitstests"
+        "recoveredRoute": "/persönlichkeitstests"
       },
       "identity": {
         "articleId": "15",
         "slug": "thema-15"
       },
       "header": {
-        "title": "Persoenlichkeitstests",
-        "subtitle": "Von Traitmodellen zu Frageboegen, Profilen und diagnostischen Grenzen",
-        "discipline": "Differentielle & Persoenlichkeitspsychologie",
+        "title": "Persönlichkeitstests",
+        "subtitle": "Von Traitmodellen zu Fragebögen, Profilen und diagnostischen Grenzen",
+        "discipline": "Differentielle & Persönlichkeitspsychologie",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "differential-and-personality",
         "keywords": [
-          "persoenlichkeitstests",
+          "persönlichkeitstests",
           "diagnostik",
           "traits"
         ],
@@ -6256,22 +6256,22 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Persoenlichkeitstests uebersetzen Modelle wie Big Five oder HEXACO in standardisierte Frageboegen, sind aber nur so gut wie ihre theoretische Basis und ihre Interpretation.",
+        "leadTeaser": "Persönlichkeitstests übersetzen Modelle wie Big Five oder HEXACO in standardisierte Fragebögen, sind aber nur so gut wie ihre theoretische Basis und ihre Interpretation.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
         {
           "id": "15-glossary-1",
           "term": "NEO-PI-R",
-          "definition": "Ein einflussreicher Persoenlichkeitsfragebogen, der die Big-Five-Dimensionen und ihre Facetten differenziert erfasst.",
+          "definition": "Ein einflussreicher Persönlichkeitsfragebogen, der die Big-Five-Dimensionen und ihre Facetten differenziert erfasst.",
           "sourceIds": [
             "15-source-2"
           ]
         },
         {
           "id": "15-glossary-2",
-          "term": "Selbst-Fremd-Uebereinstimmung",
-          "definition": "Grad, zu dem Selbstbeschreibungen einer Person mit Einschaetzungen durch andere Personen uebereinstimmen.",
+          "term": "Selbst-Fremd-Übereinstimmung",
+          "definition": "Grad, zu dem Selbstbeschreibungen einer Person mit Einschätzungen durch andere Personen übereinstimmen.",
           "sourceIds": [
             "15-source-3"
           ]
@@ -6280,32 +6280,32 @@
       "sources": [
         {
           "id": "15-recovered-source-1",
-          "rawCitation": "Recovered route reference in analzy deployment bundle: Persoenlichkeitstests (/persoenlichkeitstests) was linked from Fuenf-Faktoren-Modell (Big Five).",
-          "notes": "Die recovered Route blieb als weiterfuehrender Test- und Diagnostikbezug aus dem Big-Five-Artikel erhalten."
+          "rawCitation": "Recovered route reference in analzy deployment bundle: Persönlichkeitstests (/persönlichkeitstests) was linked from Fünf-Faktoren-Modell (Big Five).",
+          "notes": "Die recovered Route blieb als weiterführender Test- und Diagnostikbezug aus dem Big-Five-Artikel erhalten."
         },
         {
           "id": "15-source-2",
           "rawCitation": "Costa, P. T., Jr., & McCrae, R. R. (1992). Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual. Psychological Assessment Resources.",
-          "notes": "Klassischer Referenzpunkt fuer die operationalisierte Big-Five-Persoenlichkeitsdiagnostik."
+          "notes": "Klassischer Referenzpunkt für die operationalisierte Big-Five-Persönlichkeitsdiagnostik."
         },
         {
           "id": "15-source-3",
           "rawCitation": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy. In L. A. Pervin & O. P. John (Eds.), Handbook of personality: Theory and research (2nd ed., pp. 102-138). Guilford Press.",
-          "notes": "Rahmt Big-Five-Messung, Traitstabilitaet und Selbst-Fremd-Uebereinstimmung theoretisch ein."
+          "notes": "Rahmt Big-Five-Messung, Traitstabilität und Selbst-Fremd-Übereinstimmung theoretisch ein."
         },
         {
           "id": "15-source-4",
           "rawCitation": "Ashton, M. C., & Lee, K. (2007). Empirical, theoretical, and practical advantages of the HEXACO model of personality structure. Personality and Social Psychology Review, 11(2), 150-166.",
-          "notes": "Zeigt, dass Testverfahren direkt von der gewaehlten Traitarchitektur abhaengen."
+          "notes": "Zeigt, dass Testverfahren direkt von der gewählten Traitarchitektur abhängen."
         }
       ],
       "assets": [],
       "connections": [
         {
           "id": "15-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Fünf-Faktoren-Modell (Big Five)",
-          "description": "Recovered primary article that referenced Persoenlichkeitstests.",
+          "description": "Recovered primary article that referenced Persönlichkeitstests.",
           "target": {
             "kind": "internal-article",
             "articleId": "08"
@@ -6314,7 +6314,7 @@
         {
           "id": "15-category-1",
           "category": "kategorie",
-          "title": "Differentielle & Persoenlichkeitspsychologie",
+          "title": "Differentielle & Persönlichkeitspsychologie",
           "description": "Canonical category placement for this derived concept node.",
           "target": {
             "kind": "internal-category",
@@ -6323,9 +6323,9 @@
         },
         {
           "id": "15-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "HEXACO-Modell",
-          "description": "Andere Traitmodelle erzeugen andere Frageboegen und Schwerpunktsetzungen in der Diagnostik.",
+          "description": "Andere Traitmodelle erzeugen andere Fragebögen und Schwerpunktsetzungen in der Diagnostik.",
           "target": {
             "kind": "internal-article",
             "articleId": "13"
@@ -6333,9 +6333,9 @@
         },
         {
           "id": "15-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Mischel: Person-Situation",
-          "description": "Die Person-Situations-Debatte betrifft unmittelbar, wie stark Testwerte Verhalten vorhersagen duerfen.",
+          "description": "Die Person-Situations-Debatte betrifft unmittelbar, wie stark Testwerte Verhalten vorhersagen dürfen.",
           "target": {
             "kind": "internal-article",
             "articleId": "14"
@@ -6343,9 +6343,9 @@
         },
         {
           "id": "15-bridge-3",
-          "category": "verknuepfung",
-          "title": "Persoenlichkeitsstoerungen",
-          "description": "Klinische Diagnostik beruehrt die Frage, wo alltaegliche Traits in stoerungsrelevante Muster uebergehen.",
+          "category": "verknüpfung",
+          "title": "Persönlichkeitsstörungen",
+          "description": "Klinische Diagnostik berührt die Frage, wo alltägliche Traits in störungsrelevante Muster übergehen.",
           "target": {
             "kind": "internal-article",
             "articleId": "16"
@@ -6360,14 +6360,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Der recovered Link /persoenlichkeitstests entstand direkt aus dem Big-Five-Kontext. Das ist folgerichtig, denn Traitmodelle bleiben erst dann praktisch nutzbar, wenn sie in standardisierte Instrumente uebersetzt werden.",
+                "text": "Der recovered Link /persönlichkeitstests entstand direkt aus dem Big-Five-Kontext. Das ist folgerichtig, denn Traitmodelle bleiben erst dann praktisch nutzbar, wenn sie in standardisierte Instrumente übersetzt werden.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Ein eigenstaendiger recovered Seitentext blieb fuer diese Route nicht erhalten. Die kanonische Seite rekonstruiert den Knoten deshalb aus der vorhandenen Big-Five-Messlogik und ihrer diagnostischen Weiterfuehrung.",
+                "text": "Ein eigenständiger recovered Seitentext blieb für diese Route nicht erhalten. Die kanonische Seite rekonstruiert den Knoten deshalb aus der vorhandenen Big-Five-Messlogik und ihrer diagnostischen Weiterführung.",
                 "annotations": []
               }
             }
@@ -6376,27 +6376,27 @@
         {
           "id": "15-explanation",
           "type": "explanation",
-          "title": "Was Persoenlichkeitstests leisten sollen",
+          "title": "Was Persönlichkeitstests leisten sollen",
           "entries": [
             {
               "kind": "subheading",
-              "text": "Modelle muessen operationalisiert werden"
+              "text": "Modelle müssen operationalisiert werden"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Persoenlichkeitstests machen abstrakte Traits messbar. Verfahren wie NEO-PI-R oder kuerzere Inventare wie der BFI uebersetzen theoretische Dimensionen in Itembatterien, Profile und Vergleichswerte.",
+                "text": "Persönlichkeitstests machen abstrakte Traits messbar. Verfahren wie NEO-PI-R oder kürzere Inventare wie der BFI übersetzen theoretische Dimensionen in Itembatterien, Profile und Vergleichswerte.",
                 "annotations": []
               }
             },
             {
               "kind": "subheading",
-              "text": "Welche Guetekriterien wichtig werden"
+              "text": "Welche Gütekriterien wichtig werden"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Sinnvolle Testung verlangt mehr als einen Fragebogen: Reliabilitaet, Konstruktvaliditaet und eine brauchbare Uebereinstimmung zwischen Selbst- und Fremdeinschaetzung sind entscheidend, wenn Persoenlichkeitsurteile belastbar sein sollen.",
+                "text": "Sinnvolle Testung verlangt mehr als einen Fragebogen: Reliabilität, Konstruktvalidität und eine brauchbare Übereinstimmung zwischen Selbst- und Fremdeinschätzung sind entscheidend, wenn Persönlichkeitsurteile belastbar sein sollen.",
                 "annotations": []
               }
             },
@@ -6422,15 +6422,15 @@
               "kind": "bullet_list",
               "items": [
                 {
-                  "text": "Persoenlichkeitstests sind praktische Uebersetzungen theoretischer Traitmodelle.",
+                  "text": "Persönlichkeitstests sind praktische Übersetzungen theoretischer Traitmodelle.",
                   "annotations": []
                 },
                 {
-                  "text": "Ihre Aussagekraft haengt von Guetekriterien, sauberer Normierung und vorsichtiger Interpretation ab.",
+                  "text": "Ihre Aussagekraft hängt von Gütekriterien, sauberer Normierung und vorsichtiger Interpretation ab.",
                   "annotations": []
                 },
                 {
-                  "text": "Welches Modell vorausgesetzt wird, beeinflusst unmittelbar, was ueberhaupt gemessen und berichtet wird.",
+                  "text": "Welches Modell vorausgesetzt wird, beeinflusst unmittelbar, was überhaupt gemessen und berichtet wird.",
                   "annotations": []
                 }
               ]
@@ -6457,7 +6457,7 @@
       },
       "header": {
         "title": "Selbstwirksamkeit nach Bandura",
-        "subtitle": "Kompetenzueberzeugungen zwischen Attribution, Erwartung und Handlung",
+        "subtitle": "Kompetenzüberzeugungen zwischen Attribution, Erwartung und Handlung",
         "discipline": "Motivation & Emotion",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "motivation-and-emotion",
@@ -6471,14 +6471,14 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Im Kontext der Attributionstheorie markiert Selbstwirksamkeit den Schritt von der Ursachenzuschreibung zur Erwartung, ob man kuenftige Anforderungen bewaeltigen kann.",
+        "leadTeaser": "Im Kontext der Attributionstheorie markiert Selbstwirksamkeit den Schritt von der Ursachenzuschreibung zur Erwartung, ob man künftige Anforderungen bewältigen kann.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
         {
           "id": "23-glossary-1",
           "term": "Selbstwirksamkeit",
-          "definition": "Ueberzeugung, schwierige Anforderungen mit den eigenen Faehigkeiten erfolgreich bewaeltigen zu koennen.",
+          "definition": "Überzeugung, schwierige Anforderungen mit den eigenen Fähigkeiten erfolgreich bewältigen zu können.",
           "sourceIds": [
             "23-source-2",
             "23-source-3"
@@ -6487,7 +6487,7 @@
         {
           "id": "23-glossary-2",
           "term": "Kontrollierbarkeit",
-          "definition": "Attributionsdimension, die beschreibt, ob eine Ursache durch eigenes Handeln veraenderbar erscheint.",
+          "definition": "Attributionsdimension, die beschreibt, ob eine Ursache durch eigenes Handeln veränderbar erscheint.",
           "sourceIds": [
             "23-source-4"
           ]
@@ -6497,12 +6497,12 @@
         {
           "id": "23-recovered-source-1",
           "rawCitation": "Recovered route reference in analzy deployment bundle: Selbstwirksamkeit nach Bandura (/selbstwirksamkeit) was linked from Attributionstheorie.",
-          "notes": "Der recovered Link markiert die Stelle, an der Attributionsprozesse in Handlungserwartungen uebergehen."
+          "notes": "Der recovered Link markiert die Stelle, an der Attributionsprozesse in Handlungserwartungen übergehen."
         },
         {
           "id": "23-source-2",
           "rawCitation": "Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. Psychological Review, 84(2), 191-215.",
-          "notes": "Grundtext zur Rolle von Kompetenzueberzeugungen fuer Verhalten, Ausdauer und Zielwahl."
+          "notes": "Grundtext zur Rolle von Kompetenzüberzeugungen für Verhalten, Ausdauer und Zielwahl."
         },
         {
           "id": "23-source-3",
@@ -6519,7 +6519,7 @@
       "connections": [
         {
           "id": "23-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Attributionstheorie",
           "description": "Recovered primary article that referenced Selbstwirksamkeit nach Bandura.",
           "target": {
@@ -6539,9 +6539,9 @@
         },
         {
           "id": "23-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Leistungsmotivation",
-          "description": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdauer und den Umgang mit Rueckschlaegen.",
+          "description": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdauer und den Umgang mit Rückschlägen.",
           "target": {
             "kind": "internal-article",
             "articleId": "24"
@@ -6549,9 +6549,9 @@
         },
         {
           "id": "23-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Gelernte Hilflosigkeit",
-          "description": "Niedrige Kontroll- und Kompetenzueberzeugungen bilden eine wichtige Bruecke zur Hilflosigkeitsforschung.",
+          "description": "Niedrige Kontroll- und Kompetenzüberzeugungen bilden eine wichtige Brücke zur Hilflosigkeitsforschung.",
           "target": {
             "kind": "internal-article",
             "articleId": "25"
@@ -6559,9 +6559,9 @@
         },
         {
           "id": "23-bridge-3",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Soziale Kognition",
-          "description": "Selbstwirksamkeit entsteht auch durch die soziale Deutung von Erfolgen, Misserfolgen und Rueckmeldungen.",
+          "description": "Selbstwirksamkeit entsteht auch durch die soziale Deutung von Erfolgen, Misserfolgen und Rückmeldungen.",
           "target": {
             "kind": "internal-article",
             "articleId": "26"
@@ -6576,14 +6576,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die recovered Route /selbstwirksamkeit wurde aus dem Attributionsartikel heraus verlinkt. Das ist inhaltlich stimmig: Nach der Frage, warum etwas passiert ist, folgt oft sofort die Frage, ob man kuenftige Situationen selbst erfolgreich beeinflussen kann.",
+                "text": "Die recovered Route /selbstwirksamkeit wurde aus dem Attributionsartikel heraus verlinkt. Das ist inhaltlich stimmig: Nach der Frage, warum etwas passiert ist, folgt oft sofort die Frage, ob man künftige Situationen selbst erfolgreich beeinflussen kann.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Ein eigenstaendiger recovered Seitentext blieb fuer diese Route nicht erhalten. Die kanonische Seite nutzt deshalb den erhaltenen Kontext als Bruecke zwischen Attributionsforschung, Motivation und Banduras Selbstwirksamkeitskonzept.",
+                "text": "Ein eigenständiger recovered Seitentext blieb für diese Route nicht erhalten. Die kanonische Seite nutzt deshalb den erhaltenen Kontext als Brücke zwischen Attributionsforschung, Motivation und Banduras Selbstwirksamkeitskonzept.",
                 "annotations": []
               }
             }
@@ -6601,7 +6601,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Selbstwirksamkeit meint keine objektive Faehigkeit, sondern die subjektive Erwartung, Anforderungen bewaeltigen zu koennen. Gerade diese Erwartung entscheidet oft darueber, welche Aufgaben Menschen ueberhaupt angehen.",
+                "text": "Selbstwirksamkeit meint keine objektive Fähigkeit, sondern die subjektive Erwartung, Anforderungen bewältigen zu können. Gerade diese Erwartung entscheidet oft darüber, welche Aufgaben Menschen überhaupt angehen.",
                 "annotations": []
               }
             },
@@ -6612,18 +6612,18 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Attributionen formen Selbstwirksamkeit mit: Wer Erfolge als kontrollierbar und Misserfolge als veraenderbar interpretiert, behaelt eher die Erwartung, kuenftige Anforderungen aktiv beeinflussen zu koennen.",
+                "text": "Attributionen formen Selbstwirksamkeit mit: Wer Erfolge als kontrollierbar und Misserfolge als veränderbar interpretiert, behält eher die Erwartung, künftige Anforderungen aktiv beeinflussen zu können.",
                 "annotations": []
               }
             },
             {
               "kind": "subheading",
-              "text": "Folgen fuer Verhalten"
+              "text": "Folgen für Verhalten"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Hohe Selbstwirksamkeit foerdert Anstrengung, Ausdauer und den konstruktiven Umgang mit Rueckschlaegen. Niedrige Selbstwirksamkeit beguenstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
+                "text": "Hohe Selbstwirksamkeit fördert Anstrengung, Ausdauer und den konstruktiven Umgang mit Rückschlägen. Niedrige Selbstwirksamkeit begünstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
                 "annotations": []
               }
             }
@@ -6642,11 +6642,11 @@
                   "annotations": []
                 },
                 {
-                  "text": "Sie beeinflusst, welche Ziele gewaehlt werden und wie beharrlich Menschen bei Schwierigkeiten bleiben.",
+                  "text": "Sie beeinflusst, welche Ziele gewählt werden und wie beharrlich Menschen bei Schwierigkeiten bleiben.",
                   "annotations": []
                 },
                 {
-                  "text": "Im recovered Korpus bildet sie einen natuerlichen Uebergang von Attribution zu Leistungsmotivation und Hilflosigkeit.",
+                  "text": "Im recovered Korpus bildet sie einen natürlichen Übergang von Attribution zu Leistungsmotivation und Hilflosigkeit.",
                   "annotations": []
                 }
               ]
@@ -6687,14 +6687,14 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Soziale Kognition buendelt Prozesse wie Attribution, Personenwahrnehmung und Urteilsverzerrungen, also genau jene Mechanismen, die im Attributionsartikel bereits angelegt sind.",
+        "leadTeaser": "Soziale Kognition bündelt Prozesse wie Attribution, Personenwahrnehmung und Urteilsverzerrungen, also genau jene Mechanismen, die im Attributionsartikel bereits angelegt sind.",
         "estimatedReadMinutes": 3
       },
       "glossary": [
         {
           "id": "26-glossary-1",
           "term": "Soziale Kognition",
-          "definition": "Oberbegriff fuer mentale Prozesse, mit denen Menschen soziale Informationen wahrnehmen, interpretieren, speichern und fuer Urteile nutzen.",
+          "definition": "Oberbegriff für mentale Prozesse, mit denen Menschen soziale Informationen wahrnehmen, interpretieren, speichern und für Urteile nutzen.",
           "sourceIds": [
             "26-source-2"
           ]
@@ -6702,7 +6702,7 @@
         {
           "id": "26-glossary-2",
           "term": "Fundamentaler Attributionsfehler",
-          "definition": "Tendenz, Verhalten anderer zu stark auf dispositionelle Ursachen zurueckzufuehren und situative Bedingungen zu unterschaetzen.",
+          "definition": "Tendenz, Verhalten anderer zu stark auf dispositionelle Ursachen zurückzuführen und situative Bedingungen zu unterschätzen.",
           "sourceIds": [
             "26-source-3"
           ]
@@ -6717,7 +6717,7 @@
         {
           "id": "26-source-2",
           "rawCitation": "Heider, F. (1958). The psychology of interpersonal relations. Wiley.",
-          "notes": "Heider liefert den klassischen Ausgangspunkt fuer soziale Deutungsprozesse zwischen Person und Situation."
+          "notes": "Heider liefert den klassischen Ausgangspunkt für soziale Deutungsprozesse zwischen Person und Situation."
         },
         {
           "id": "26-source-3",
@@ -6734,7 +6734,7 @@
       "connections": [
         {
           "id": "26-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Attributionstheorie",
           "description": "Recovered primary article that referenced Soziale Kognition.",
           "target": {
@@ -6754,9 +6754,9 @@
         },
         {
           "id": "26-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Selbstwirksamkeit nach Bandura",
-          "description": "Soziale Deutungen von Erfolg und Misserfolg beeinflussen spaetere Kompetenzueberzeugungen.",
+          "description": "Soziale Deutungen von Erfolg und Misserfolg beeinflussen spätere Kompetenzüberzeugungen.",
           "target": {
             "kind": "internal-article",
             "articleId": "23"
@@ -6764,7 +6764,7 @@
         },
         {
           "id": "26-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Gelernte Hilflosigkeit",
           "description": "Pessimistische Deutungsmuster zeigen, wie soziale und motivationale Kognitionen zusammenlaufen.",
           "target": {
@@ -6781,14 +6781,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Der recovered Link /sozialkognition macht explizit, dass der Attributionsartikel nur einen Ausschnitt eines groesseren Feldes behandelt: Menschen muessen soziale Hinweise nicht nur erklaeren, sondern auch wahrnehmen, erinnern und bewerten.",
+                "text": "Der recovered Link /sozialkognition macht explizit, dass der Attributionsartikel nur einen Ausschnitt eines grösseren Feldes behandelt: Menschen müssen soziale Hinweise nicht nur erklären, sondern auch wahrnehmen, erinnern und bewerten.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite soziale Kognition als Oberbegriff fuer die im Korpus bereits sichtbaren Prozesse der Ursachenzuschreibung und Urteilsbildung.",
+                "text": "Da kein eigenständiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite soziale Kognition als Oberbegriff für die im Korpus bereits sichtbaren Prozesse der Ursachenzuschreibung und Urteilsbildung.",
                 "annotations": []
               }
             }
@@ -6806,7 +6806,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Soziale Kognition bezeichnet die Verarbeitung sozialer Information insgesamt: Wie wir andere Personen wahrnehmen, ihr Verhalten interpretieren, Erwartungen bilden und spaetere Urteile speichern.",
+                "text": "Soziale Kognition bezeichnet die Verarbeitung sozialer Information insgesamt: Wie wir andere Personen wahrnehmen, ihr Verhalten interpretieren, Erwartungen bilden und spätere Urteile speichern.",
                 "annotations": []
               }
             },
@@ -6817,7 +6817,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Attribution gehoert zu den sichtbarsten Teilprozessen sozialer Kognition, weil hier Ursachen fuer Verhalten vergeben werden. Der recovered Attributionsartikel liefert damit bereits einen kompakten Einstieg in das groessere Feld.",
+                "text": "Attribution gehört zu den sichtbarsten Teilprozessen sozialer Kognition, weil hier Ursachen für Verhalten vergeben werden. Der recovered Attributionsartikel liefert damit bereits einen kompakten Einstieg in das grössere Feld.",
                 "annotations": []
               }
             },
@@ -6828,7 +6828,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Fundamentaler Attributionsfehler, Akteur-Beobachter-Differenz und kulturelle Unterschiede zeigen, dass soziales Denken weder rein logisch noch kulturfrei verlaeuft. Genau diese Fehler- und Kontextmuster machen soziale Kognition psychologisch interessant.",
+                "text": "Fundamentaler Attributionsfehler, Akteur-Beobachter-Differenz und kulturelle Unterschiede zeigen, dass soziales Denken weder rein logisch noch kulturfrei verläuft. Genau diese Fehler- und Kontextmuster machen soziale Kognition psychologisch interessant.",
                 "annotations": []
               }
             }
@@ -6851,7 +6851,7 @@
                   "annotations": []
                 },
                 {
-                  "text": "Der recovered Verweis aus der Attributionstheorie laesst sich deshalb sinnvoll zu einer eigenstaendigen Vertiefungsseite ausbauen.",
+                  "text": "Der recovered Verweis aus der Attributionstheorie lässt sich deshalb sinnvoll zu einer eigenständigen Vertiefungsseite ausbauen.",
                   "annotations": []
                 }
               ]
@@ -6878,7 +6878,7 @@
       },
       "header": {
         "title": "Sprachentwicklung im Kindesalter",
-        "subtitle": "Wie Sprache mit Denken, sozialer Interaktion und fruehen Lernumwelten zusammenwaechst",
+        "subtitle": "Wie Sprache mit Denken, sozialer Interaktion und frühen Lernumwelten zusammenwächst",
         "discipline": "Lernen & Entwicklung",
         "difficulty": "Vertiefungs-Knoten",
         "categoryId": "learning-and-development",
@@ -6892,7 +6892,7 @@
           "vertiefung",
           "gui-authoring"
         ],
-        "leadTeaser": "Im Piaget-Kontext verweist Sprachentwicklung auf eine Schluesselfrage der Entwicklungspsychologie: Entsteht Sprache aus allgemeiner Kognition, aus sozialer Interaktion oder aus einem Zusammenspiel beider Prozesse?",
+        "leadTeaser": "Im Piaget-Kontext verweist Sprachentwicklung auf eine Schlüsselfrage der Entwicklungspsychologie: Entsteht Sprache aus allgemeiner Kognition, aus sozialer Interaktion oder aus einem Zusammenspiel beider Prozesse?",
         "estimatedReadMinutes": 3
       },
       "glossary": [
@@ -6908,7 +6908,7 @@
         {
           "id": "21-glossary-2",
           "term": "Gemeinsame Aufmerksamkeit",
-          "definition": "Geteilte Ausrichtung von Kind und Bezugsperson auf denselben Gegenstand oder dasselbe Ereignis; sie erleichtert fruehes Wortlernen.",
+          "definition": "Geteilte Ausrichtung von Kind und Bezugsperson auf denselben Gegenstand oder dasselbe Ereignis; sie erleichtert frühes Wortlernen.",
           "sourceIds": [
             "21-source-3"
           ]
@@ -6918,7 +6918,7 @@
         {
           "id": "21-recovered-source-1",
           "rawCitation": "Recovered route reference in analzy deployment bundle: Sprachentwicklung im Kindesalter (/sprachentwicklung) was linked from Kognitive Entwicklung nach Piaget.",
-          "notes": "Die recovered Route verankert Sprache als natuerliche Erweiterung des Piaget-Artikels."
+          "notes": "Die recovered Route verankert Sprache als natürliche Erweiterung des Piaget-Artikels."
         },
         {
           "id": "21-source-2",
@@ -6933,14 +6933,14 @@
         {
           "id": "21-source-4",
           "rawCitation": "Kuhl, P. K. (2004). Early language acquisition: Cracking the speech code. Nature Reviews Neuroscience, 5(11), 831-843.",
-          "notes": "Zeigt, wie fruehe Lautwahrnehmung und soziale Lernumgebung beim Spracherwerb zusammenwirken."
+          "notes": "Zeigt, wie frühe Lautwahrnehmung und soziale Lernumgebung beim Spracherwerb zusammenwirken."
         }
       ],
       "assets": [],
       "connections": [
         {
           "id": "21-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Kognitive Entwicklung nach Piaget",
           "description": "Recovered primary article that referenced Sprachentwicklung im Kindesalter.",
           "target": {
@@ -6960,7 +6960,7 @@
         },
         {
           "id": "21-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Vygotsky: Soziale Entwicklung",
           "description": "Sprache wird bei Vygotsky zum wichtigsten Medium kognitischer Vermittlung.",
           "target": {
@@ -6970,9 +6970,9 @@
         },
         {
           "id": "21-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Core Knowledge Theory",
-          "description": "Fragen nach fruehen Voraussetzungen betreffen auch den Erwerb sprachlicher Kategorien und Erwartungen.",
+          "description": "Fragen nach frühen Voraussetzungen betreffen auch den Erwerb sprachlicher Kategorien und Erwartungen.",
           "target": {
             "kind": "internal-article",
             "articleId": "22"
@@ -6987,14 +6987,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die recovered Route /sprachentwicklung wurde als Weiterfuehrung aus dem Piaget-Artikel bewahrt. Das passt dazu, dass Sprache eines der sichtbarsten Felder ist, in denen sich allgemeine Kognition, soziale Interaktion und Lernumwelt kreuzen.",
+                "text": "Die recovered Route /sprachentwicklung wurde als Weiterführung aus dem Piaget-Artikel bewahrt. Das passt dazu, dass Sprache eines der sichtbarsten Felder ist, in denen sich allgemeine Kognition, soziale Interaktion und Lernumwelt kreuzen.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Ein eigenstaendiger recovered Seitentext blieb fuer diese Route nicht erhalten. Die kanonische Seite beschreibt Sprachentwicklung deshalb als Anschlussknoten zwischen Piagets Entwicklungslogik, Vygotskys Sozialperspektive und modernerer Interaktionsforschung.",
+                "text": "Ein eigenständiger recovered Seitentext blieb für diese Route nicht erhalten. Die kanonische Seite beschreibt Sprachentwicklung deshalb als Anschlussknoten zwischen Piagets Entwicklungslogik, Vygotskys Sozialperspektive und modernerer Interaktionsforschung.",
                 "annotations": []
               }
             }
@@ -7012,7 +7012,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Sprachentwicklung umfasst nicht nur neue Woerter, sondern auch Grammatik, Lautunterscheidung, pragmatische Regeln und die Faehigkeit, Sprache zur Selbststeuerung und zum sozialen Austausch zu nutzen.",
+                "text": "Sprachentwicklung umfasst nicht nur neue Wörter, sondern auch Grammatik, Lautunterscheidung, pragmatische Regeln und die Fähigkeit, Sprache zur Selbststeuerung und zum sozialen Austausch zu nutzen.",
                 "annotations": []
               }
             },
@@ -7029,12 +7029,12 @@
             },
             {
               "kind": "subheading",
-              "text": "Fruehe Lernumwelten"
+              "text": "Frühe Lernumwelten"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Moderne Forschung betont zusaetzlich, wie stark gemeinsames Aufmerken, dialogische Routinen und sensible Lautwahrnehmung den Erwerb vorbereiten. Sprache entwickelt sich also weder isoliert im Kopf noch bloss durch Reifung allein.",
+                "text": "Moderne Forschung betont zusätzlich, wie stark gemeinsames Aufmerken, dialogische Routinen und sensible Lautwahrnehmung den Erwerb vorbereiten. Sprache entwickelt sich also weder isoliert im Kopf noch bloss durch Reifung allein.",
                 "annotations": []
               }
             }
@@ -7049,7 +7049,7 @@
               "kind": "bullet_list",
               "items": [
                 {
-                  "text": "Sprachentwicklung verbindet Kognition, soziale Interaktion und fruehe Lernumwelt.",
+                  "text": "Sprachentwicklung verbindet Kognition, soziale Interaktion und frühe Lernumwelt.",
                   "annotations": []
                 },
                 {
@@ -7104,8 +7104,8 @@
       "glossary": [
         {
           "id": "20-glossary-1",
-          "term": "Zone der naechsten Entwicklung",
-          "definition": "Bereich von Aufgaben, die ein Kind noch nicht allein, aber mit geeigneter Unterstuetzung durch kompetentere Andere loesen kann.",
+          "term": "Zone der nächsten Entwicklung",
+          "definition": "Bereich von Aufgaben, die ein Kind noch nicht allein, aber mit geeigneter Unterstützung durch kompetentere Andere lösen kann.",
           "sourceIds": [
             "20-source-2"
           ]
@@ -7113,7 +7113,7 @@
         {
           "id": "20-glossary-2",
           "term": "Scaffolding",
-          "definition": "Zeitlich begrenzte Hilfestellung, mit der Lernende schrittweise zu selbststaendigem Handeln gefuehrt werden.",
+          "definition": "Zeitlich begrenzte Hilfestellung, mit der Lernende schrittweise zu selbstständigem Handeln geführt werden.",
           "sourceIds": [
             "20-source-3"
           ]
@@ -7128,24 +7128,24 @@
         {
           "id": "20-source-2",
           "rawCitation": "Vygotsky, L. S. (1978). Mind in society. Harvard University Press.",
-          "notes": "Klassische Formulierung der sozial vermittelten Entwicklung und der Zone der naechsten Entwicklung."
+          "notes": "Klassische Formulierung der sozial vermittelten Entwicklung und der Zone der nächsten Entwicklung."
         },
         {
           "id": "20-source-3",
           "rawCitation": "Wood, D., Bruner, J. S., & Ross, G. (1976). The role of tutoring in problem solving. Journal of Child Psychology and Psychiatry, 17(2), 89-100.",
-          "notes": "Praegt den Gedanken des scaffolding als praktische Form sozialer Lernunterstuetzung."
+          "notes": "Prägt den Gedanken des scaffolding als praktische Form sozialer Lernunterstützung."
         },
         {
           "id": "20-source-4",
           "rawCitation": "Piaget, J. (1936). Origins of intelligence in the child. Routledge & Kegan Paul.",
-          "notes": "Bleibt der Vergleichspunkt fuer die individualkonstruktivistische Entwicklungslogik."
+          "notes": "Bleibt der Vergleichspunkt für die individualkonstruktivistische Entwicklungslogik."
         }
       ],
       "assets": [],
       "connections": [
         {
           "id": "20-backlink-1",
-          "category": "rueckverweis",
+          "category": "rückverweis",
           "title": "Kognitive Entwicklung nach Piaget",
           "description": "Recovered primary article that referenced Vygotsky: Soziale Entwicklung.",
           "target": {
@@ -7165,7 +7165,7 @@
         },
         {
           "id": "20-bridge-1",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Sprachentwicklung im Kindesalter",
           "description": "Bei Vygotsky wird Sprache selbst zum zentralen Medium kognitischer Entwicklung.",
           "target": {
@@ -7175,9 +7175,9 @@
         },
         {
           "id": "20-bridge-2",
-          "category": "verknuepfung",
+          "category": "verknüpfung",
           "title": "Core Knowledge Theory",
-          "description": "Auch Vygotsky kritisiert Piaget, aber ueber soziale Vermittlung statt ueber angeborene Kernsysteme.",
+          "description": "Auch Vygotsky kritisiert Piaget, aber über soziale Vermittlung statt über angeborene Kernsysteme.",
           "target": {
             "kind": "internal-article",
             "articleId": "22"
@@ -7192,14 +7192,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die recovered Route /vygotsky wurde im Piaget-Artikel als Gegen- und Weiterfuehrungspunkt markiert. Das passt zu einer klassischen Lehrkonstellation: Piaget betont die aktive Konstruktion im Kind, Vygotsky die soziale Vermittlung von Entwicklung.",
+                "text": "Die recovered Route /vygotsky wurde im Piaget-Artikel als Gegen- und Weiterführungspunkt markiert. Das passt zu einer klassischen Lehrkonstellation: Piaget betont die aktive Konstruktion im Kind, Vygotsky die soziale Vermittlung von Entwicklung.",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Da fuer /vygotsky kein eigenstaendiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite die Alternative aus dem bereits im Korpus angelegten Gegensatz zwischen individueller Reifung und kultureller Vermittlung.",
+                "text": "Da für /vygotsky kein eigenständiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite die Alternative aus dem bereits im Korpus angelegten Gegensatz zwischen individueller Reifung und kultureller Vermittlung.",
                 "annotations": []
               }
             }
@@ -7208,7 +7208,7 @@
         {
           "id": "20-explanation",
           "type": "explanation",
-          "title": "Warum Vygotsky eine andere Perspektive oeffnet",
+          "title": "Warum Vygotsky eine andere Perspektive öffnet",
           "entries": [
             {
               "kind": "subheading",
@@ -7217,18 +7217,18 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Vygotsky versteht kognitive Entwicklung nicht nur als Ergebnis individueller Konstruktion, sondern als Prozess, der in Kooperation, Sprache und kulturellen Werkzeugen stattfindet. Kinder lernen durch gefuehrte Teilhabe an sozialen Praktiken.",
+                "text": "Vygotsky versteht kognitive Entwicklung nicht nur als Ergebnis individueller Konstruktion, sondern als Prozess, der in Kooperation, Sprache und kulturellen Werkzeugen stattfindet. Kinder lernen durch geführte Teilhabe an sozialen Praktiken.",
                 "annotations": []
               }
             },
             {
               "kind": "subheading",
-              "text": "Zone der naechsten Entwicklung"
+              "text": "Zone der nächsten Entwicklung"
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Zentral ist die Frage, was ein Kind mit Unterstuetzung bereits leisten kann. Damit verschiebt sich der Blick von fertigen Kompetenzstufen auf Lernpotenziale, die in Interaktion sichtbar werden.",
+                "text": "Zentral ist die Frage, was ein Kind mit Unterstützung bereits leisten kann. Damit verschiebt sich der Blick von fertigen Kompetenzstufen auf Lernpotenziale, die in Interaktion sichtbar werden.",
                 "annotations": []
               }
             },
@@ -7239,7 +7239,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Piaget und Vygotsky sind keine blossen Gegensaetze, aber sie setzen andere Schwerpunkte. Piaget erklaert Entwicklung stark ueber interne Reorganisation; Vygotsky macht deutlicher, wie Denken durch Sprache, Anleitung und Kultur mitgeformt wird.",
+                "text": "Piaget und Vygotsky sind keine blossen Gegensätze, aber sie setzen andere Schwerpunkte. Piaget erklärt Entwicklung stark über interne Reorganisation; Vygotsky macht deutlicher, wie Denken durch Sprache, Anleitung und Kultur mitgeformt wird.",
                 "annotations": []
               }
             }
@@ -7258,7 +7258,7 @@
                   "annotations": []
                 },
                 {
-                  "text": "Die Zone der naechsten Entwicklung fragt nach Lernpotenzial unter geeigneter Unterstuetzung.",
+                  "text": "Die Zone der nächsten Entwicklung fragt nach Lernpotenzial unter geeigneter Unterstützung.",
                   "annotations": []
                 },
                 {
