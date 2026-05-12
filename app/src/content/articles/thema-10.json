@@ -3,17 +3,17 @@
   "id": "10",
   "slug": "thema-10",
   "legacy": {
-    "sourceFormat": "yaml-v1",
-    "sourcePath": "content/thema-10.yml"
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "src/content/recovered/analzy-pages/10-signifikanztestung.bundle.txt"
   },
   "meta": {
-    "title": "Signifikanztestung, p-Werte und Alpha-/Beta-Fehler",
-    "discipline": "Statistik / Methodenlehre",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "title": "Signifikanztestung & p-Werte",
+    "discipline": "Statistik & Psychometrie",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#f2c6a0",
     "tabNumber": 10,
-    "estimatedReadMinutes": 5,
-    "leadTeaser": "Ein Medikament wird als 'wirksam' verkauft, weil p < .05 — doch der Effekt ist minimal und die Studie wurde nur einmal durchgeführt. Signifikanz ist kein Siegel für Wahrheit, sondern ein Werkzeug mit scharfen Kanten. Wer die Logik dahinter nicht versteht, lässt sich von Zahlen täuschen."
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Der p-Wert: Statistisches Werkzeug oder Ritual?"
   },
   "taxonomy": {
     "categoryId": "statistics-and-psychometrics",
@@ -24,8 +24,8 @@
     ],
     "audience": [
       "erstsemester",
-      "adhs-freundlich",
-      "selbststudium"
+      "selbststudium",
+      "gui-authoring"
     ]
   },
   "crm": {
@@ -44,8 +44,8 @@
       ],
       "audience": [
         "erstsemester",
-        "adhs-freundlich",
-        "selbststudium"
+        "selbststudium",
+        "gui-authoring"
       ],
       "keywords": [
         "p-wert",
@@ -56,353 +56,259 @@
   },
   "sections": [
     {
-      "id": "10-lead-1",
+      "id": "10-lead",
       "type": "lead",
       "entries": [
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ein Medikament wird als 'wirksam' verkauft, weil p < .05 — doch der Effekt ist minimal und die Studie wurde nur einmal durchgeführt. Signifikanz ist kein Siegel für Wahrheit, sondern ein Werkzeug mit scharfen Kanten. Wer die Logik dahinter nicht versteht, lässt sich von Zahlen täuschen.",
+            "text": "Der p-Wert: Statistisches Werkzeug oder Ritual?",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "In der Statistik können wir auf zwei Weisen falsch liegen. Die gute Nachricht: Wir können die Wahrscheinlichkeit beider Fehler kontrollieren.",
             "annotations": []
           }
         }
       ]
     },
     {
-      "id": "10-definition-2",
+      "id": "10-generated-definition",
       "type": "definition",
-      "entries": [
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Die **Signifikanztestung** prüft, wie wahrscheinlich ein beobachtetes Ergebnis ist, wenn in Wahrheit kein Effekt existiert. Der **p-Wert** quantifiziert diese Wahrscheinlichkeit — er ist kein Maß für Effektgröße oder Wahrscheinlichkeit der Hypothese.",
-            "annotations": [
-              {
-                "id": "10-definition-2-def-1",
-                "text": "Signifikanztestung",
-                "kind": "definition",
-                "tooltip": "Ein statistisches Verfahren, das prüft, ob ein beobachteter Effekt so ungewöhnlich ist, dass er sich kaum durch Zufall erklären lässt — nicht ob die Hypothese wahr ist.",
-                "tone": "blue"
-              },
-              {
-                "id": "10-definition-2-def-2",
-                "text": "p-Wert",
-                "kind": "definition",
-                "tooltip": "Die Wahrscheinlichkeit, das beobachtete Ergebnis (oder ein extremeres) zu erhalten, wenn die Nullhypothese wahr ist — kein Maß für die Größe oder Wichtigkeit eines Effekts.",
-                "tone": "blue"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "10-explanation-3",
-      "type": "explanation",
+      "title": "Begriffe und Definitionen",
       "entries": [
         {
           "kind": "subheading",
-          "text": "Das logische Grundgerüst: Zwei sich ausschließende Hypothesen"
+          "text": "Power (Teststärke)"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Jeder Signifikanztest beginnt mit zwei rivalisierenden Behauptungen. Die **Nullhypothese** (H₀) postuliert, dass es keinen Unterschied und keinen Zusammenhang gibt — der neue Schlaftrunk wirkt nicht besser als Wasser. Die **Alternativhypothese** (H₁) behauptet das Gegenteil: Es gibt einen Effekt, eine Differenz, einen Zusammenhang.",
-            "annotations": [
-              {
-                "id": "10-explanation-3-def-1",
-                "text": "Nullhypothese",
-                "kind": "definition",
-                "tooltip": "Die Annahme, dass es keinen Unterschied und keinen Zusammenhang gibt — die Ausgangsbehauptung, die verworfen werden muss, um eine Wirkung nachzuweisen.",
-                "tone": "blue"
-              },
-              {
-                "id": "10-explanation-3-def-2",
-                "text": "Alternativhypothese",
-                "kind": "definition",
-                "tooltip": "Die Gegenthese zur Nullhypothese — sie behauptet, dass ein Effekt, ein Unterschied oder ein Zusammenhang tatsächlich existiert.",
-                "tone": "blue"
-              }
-            ]
-          }
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Das Experiment sammelt Daten, um zu entscheiden, ob die Evidenz stark genug ist, H₀ zu verwerfen.",
+            "text": "Ein zentrales Konzept in der Psychologie.",
             "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Der p-Wert als Zufallsbarometer — nicht als Wahrscheinlichkeitsmesser"
+          "text": "Fehler der transconditionalen Wahrscheinlichkeit"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Der **p-Wert** sagt: „Wenn H₀ wahr ist, wie wahrscheinlich ist es, dieses Ergebnis (oder ein extremeres) durch Zufall zu erhalten?“ Ein p-Wert von .03 bedeutet nicht, dass die Alternativhypothese zu 97 % wahr ist. **Cohen (1994)** kritisierte genau diesen ritualisierten Missbrauch: Forscher behandelten p < .05 als magische Grenze zwischen Wahrheit und Falschheit, obwohl der p-Wert nur die Inkonsistenz mit H₀ misst, nicht die Plausibilität von H₁.",
-            "annotations": [
-              {
-                "id": "10-explanation-3-def-2",
-                "text": "Alternativhypothese",
-                "kind": "definition",
-                "tooltip": "Die Gegenthese zur Nullhypothese — sie behauptet, dass ein Effekt, ein Unterschied oder ein Zusammenhang tatsächlich existiert.",
-                "tone": "blue"
-              },
-              {
-                "id": "10-explanation-3-src-9",
-                "text": "Cohen (1994) kritisierte genau diesen ritualisierten Missbrauch",
-                "kind": "citation",
-                "tooltip": "Cohen & J. (1994)",
-                "tone": "red",
-                "sourceIds": [
-                  "10-source-1"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Das **Signifikanzniveau** (α) wird vor dem Test festgelegt — meist auf 5 %. Es ist die Toleranzschwelle für den **Fehler 1. Art**: die fälschliche Verwerfung einer wahren Nullhypothese. Man sieht einen Effekt, wo in Wahrheit keiner existiert.",
-            "annotations": [
-              {
-                "id": "10-explanation-3-def-1",
-                "text": "Nullhypothese",
-                "kind": "definition",
-                "tooltip": "Die Annahme, dass es keinen Unterschied und keinen Zusammenhang gibt — die Ausgangsbehauptung, die verworfen werden muss, um eine Wirkung nachzuweisen.",
-                "tone": "blue"
-              },
-              {
-                "id": "10-explanation-3-def-3",
-                "text": "Signifikanzniveau",
-                "kind": "definition",
-                "tooltip": "Die vorab festgelegte Grenze (meist 5 %), unterhalb derer der p-Wert als 'signifikant' gilt und die Nullhypothese verworfen wird.",
-                "tone": "blue"
-              },
-              {
-                "id": "10-explanation-3-def-4",
-                "text": "Fehler 1. Art",
-                "kind": "definition",
-                "tooltip": "Der Fehler, eine wahre Nullhypothese fälschlich zu verwerfen — man sieht einen Effekt, wo in Wahrheit keiner ist.",
-                "tone": "blue"
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Der Fehler 2. Art: Wenn wahre Effekte unsichtbar bleiben"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Der **Fehler 2. Art** ist das Gegenteil: Man behält H₀ bei, obwohl H₁ wahr ist. Man übersieht einen tatsächlich vorhandenen Effekt. Die Wahrscheinlichkeit dafür nennt man β.",
-            "annotations": [
-              {
-                "id": "10-explanation-3-def-5",
-                "text": "Fehler 2. Art",
-                "kind": "definition",
-                "tooltip": "Der Fehler, eine falsche Nullhypothese beizubehalten — man übersieht einen tatsächlich vorhandenen Effekt.",
-                "tone": "blue"
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Teststärke: Die Wahrscheinlichkeit, einen wahren Effekt zu finden"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Die **Teststärke** (1 − β) gibt an, wie wahrscheinlich es ist, einen wahren Effekt auch tatsächlich zu entdecken. Teststärke hängt von drei Faktoren ab: dem **Signifikanzniveau** (strengeres α verringert Fehler 1. Art, aber erhöht β), der **Effektstärke** (größere Effekte sind leichter zu finden) und der Stichprobengröße (mehr Personen reduzieren Rauschen).",
-            "annotations": [
-              {
-                "id": "10-explanation-3-def-3",
-                "text": "Signifikanzniveau",
-                "kind": "definition",
-                "tooltip": "Die vorab festgelegte Grenze (meist 5 %), unterhalb derer der p-Wert als 'signifikant' gilt und die Nullhypothese verworfen wird.",
-                "tone": "blue"
-              },
-              {
-                "id": "10-explanation-3-def-4",
-                "text": "Fehler 1. Art",
-                "kind": "definition",
-                "tooltip": "Der Fehler, eine wahre Nullhypothese fälschlich zu verwerfen — man sieht einen Effekt, wo in Wahrheit keiner ist.",
-                "tone": "blue"
-              },
-              {
-                "id": "10-explanation-3-def-6",
-                "text": "Teststärke",
-                "kind": "definition",
-                "tooltip": "Die Wahrscheinlichkeit, einen wahren Effekt auch tatsächlich zu entdecken — abhängig von Effektgröße, Stichprobe und Signifikanzniveau.",
-                "tone": "blue"
-              },
-              {
-                "id": "10-explanation-3-def-7",
-                "text": "Effektstärke",
-                "kind": "definition",
-                "tooltip": "Ein standardisiertes Maß für die Größe eines Unterschieds oder Zusammenhangs — unabhängig von der Stichprobengröße und dem p-Wert.",
-                "tone": "blue"
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Effektstärke: Wie groß ist der Unterschied wirklich?"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Der p-Wert allein ist blind für die Größe eines Effekts. Die **Effektstärke** — etwa Cohens d oder Pearson r — standardisiert den Unterschied und macht ihn vergleichbar. Ein Medikament kann „signifikant“ wirken, weil es in einer riesigen Stichprobe getestet wurde, obwohl der klinische Nutzen minimal ist.",
-            "annotations": [
-              {
-                "id": "10-explanation-3-def-7",
-                "text": "Effektstärke",
-                "kind": "definition",
-                "tooltip": "Ein standardisiertes Maß für die Größe eines Unterschieds oder Zusammenhangs — unabhängig von der Stichprobengröße und dem p-Wert.",
-                "tone": "blue"
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Konfidenzintervall: Unsicherheit transparent machen"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Das **Konfidenzintervall** ergänzt dies: Es gibt einen Bereich an, in dem der wahre Parameter mit einer festgelegten Wahrscheinlichkeit (meist 95 %) liegt. Es zeigt Schätzunsicherheit und Effektgröße zugleich — und ist transparenter als ein isolierter p-Wert.",
-            "annotations": [
-              {
-                "id": "10-explanation-3-def-8",
-                "text": "Konfidenzintervall",
-                "kind": "definition",
-                "tooltip": "Ein Bereich, in dem der wahre Parameter mit einer bestimmten Wahrscheinlichkeit (meist 95 %) liegt — zeigt Schätzunsicherheit und Effektgröße zugleich.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Ein zentrales Konzept in der Psychologie.",
+            "annotations": []
           }
         }
       ]
     },
     {
-      "id": "10-visual-4",
+      "id": "10-explanation",
+      "type": "explanation",
+      "title": "Arbeitsfassung",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "1. Die Logik des Nullhypothesen-Signifikanztestens (NHST)"
+        },
+        {
+          "kind": "subheading",
+          "text": "H₀ — Nullhypothese"
+        },
+        {
+          "kind": "subheading",
+          "text": "H₁ — Alternativhypothese"
+        },
+        {
+          "kind": "subheading",
+          "text": "2. Alpha- und Beta-Fehler: Die zwei Arten, sich zu irren"
+        },
+        {
+          "kind": "subheading",
+          "text": "3. p-Werte richtig verstehen"
+        },
+        {
+          "kind": "subheading",
+          "text": "Der häufigste Fehler in der Psychologie"
+        },
+        {
+          "kind": "subheading",
+          "text": "Die Replikationskrise"
+        },
+        {
+          "kind": "subheading",
+          "text": "4. Effektstärken: Was p-Werte verschweigen"
+        },
+        {
+          "kind": "subheading",
+          "text": "Cohen's d — Konventionen"
+        },
+        {
+          "kind": "subheading",
+          "text": "5. Die Replikationskrise in der Psychologie"
+        },
+        {
+          "kind": "subheading",
+          "text": "Open Science Collaboration (2015)"
+        },
+        {
+          "kind": "subheading",
+          "text": "Lösungsansätze"
+        },
+        {
+          "kind": "subheading",
+          "text": "Experimentelle Versuchsplanung"
+        },
+        {
+          "kind": "subheading",
+          "text": "Psychometrische Gütekriterien"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Analogie: Ein Geigerszähler schlägt an, obwohl keine Strahlung vorhanden ist.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Analogie: Ein Metalldetektor übergeht einen vergrabenen Schatz.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die Wahrscheinlichkeit, einen statistisch signifikanten Effekt zu finden, wenn ein echter Effekt existiert. Power = 1 − β.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Nicht die Wahrscheinlichkeit, dass die Nullhypothese wahr ist!",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die Verwechslung von P(A|B) mit P(B|A). Ein p-Wert gibt nicht an, wie wahrscheinlich die Nullhypothese ist — dafür bräuchte man Bayes'sche Statistik.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Unterschied von 0.2 Standardabweichungen",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Halbe Standardabweichung Unterschied",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "0.8 Standardabweichungen Unterschied",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Viele klassische Befunde der Psychologie ließen sich nicht replizieren. Drei Studien schockierten die Disziplin:",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "In Disziplinen mit kleinen Effektstärken, Flexibilität in der Forschung und finanziellen Interessen ist die Mehrheit publizierter Befunde wahrscheinlich falsch.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Statistical Power Analysis for the Behavioral Sciences",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Philosophical Transactions of the Royal Society A, 231",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Vertiefe dein Verständnis für psychologische Methoden:",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Wie wir Kausalität durch Randomisierung und Kontrolle erkennen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Objektivität, Reliabilität und Validität psychologischer Tests.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "10-visuals-1",
+      "type": "visual",
+      "title": "Illustrationen",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-p-value.png",
+        "description": "Recovered illustration illu-p-value.png from analzy deployment bundle.",
+        "alt": "Signifikanztestung & p-Werte: P Value"
+      },
+      "caption": "P Value"
+    },
+    {
+      "id": "10-visuals-2",
       "type": "visual",
       "asset": {
-        "kind": "svg-component",
-        "assetId": "10-visual-1",
-        "description": "Clean line-art SVG, ViewBox 0 0 400 300, stroke #1a1a1a 2px. Zentrale 2x2-Matrix als Entscheidungstabelle. Oben Beschriftung 'Tatsächlicher Zustand', links Beschriftung 'Statistische Entscheidung'. Zellen: (1) Oben-links: 'H₀ beibehalten' + 'H₀ wahr' = Label 'Richtig'. (2) Oben-rechts: 'H₀ beibehalten' + 'H₁ wahr' = Label 'Fehler 2. Art (β)' in roter Schrift. (3) Unten-links: 'H₀ verwerfen' + 'H₀ wahr' = Label 'Fehler 1. Art (α)' in roter Schrift. (4) Unten-rechts: 'H₀ verwerfen' + 'H₁ wahr' = Label 'Richtig (Teststärke = 1−β)'. Rechts neben der Matrix ein vertikaler Pfeil von α auf β mit Beschriftung 'Wenn α sinkt, steigt β'. Unten ein schmaler Pfeil von links nach rechts mit Beschriftung 'Stichprobe ↑ → beide Fehler ↓'.",
-        "alt": "Die Matrix zeigt die vier möglichen Ergebnisse eines Hypothesentests — und warum α und β wie auf einer Wippe balancieren."
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-error-types.png",
+        "description": "Recovered illustration illu-error-types.png from analzy deployment bundle.",
+        "alt": "Signifikanztestung & p-Werte: Error Types"
       },
-      "caption": "Die Matrix zeigt die vier möglichen Ergebnisse eines Hypothesentests — und warum α und β wie auf einer Wippe balancieren."
+      "caption": "Error Types"
     },
     {
-      "id": "10-deep_dive-5",
-      "type": "deep_dive",
-      "entries": [
-        {
-          "kind": "subheading",
-          "text": "Cohens Kritik und die Zeremonie des Signifikanztestens"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "**Cohen (1994)** titelte sein berühmtes Papier „The earth is round (p < .05)“ — ein ironischer Verweis darauf, dass Forscher Signifikanz als Evidenz für eine wahre Behauptung missverstehen. Er wies nach, dass der p-Wert die a-posteriori-Wahrscheinlichkeit der Hypothese nicht liefert und dass die übliche Praxis, Signifikanz als „bewiesen“ zu werten, zu publizierten Artefakten führt. Cohen plädierte für die Berichterstattung von Effektstärken und Konfidenzintervallen statt für p-Wert-Ritualismus.",
-            "annotations": [
-              {
-                "id": "10-deep_dive-5-src-1",
-                "text": "Cohen (1994) titelte sein berühmtes Papier",
-                "kind": "citation",
-                "tooltip": "Cohen & J. (1994)",
-                "tone": "red",
-                "sourceIds": [
-                  "10-source-1"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Die Replikationskrise als empirisches Erdbeben"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "**Die Open Science Collaboration (2015)** publizierte die bislang größte Replikationsstudie der Psychologie: Von 100 Befunden hochrangiger Journale konnten nur 36 % erfolgreich repliziert werden. Die durchschnittliche Effektstärke der Replikationen lag auf etwa der Hälfte der Originalstudien. Dieses Ergebnis zeigt, dass p-Wert-Signifikanz allein keine Garantie für robuste Erkenntnis ist — sie entsteht oft durch Methodenflexibilität (p-Hacking), selektive Berichterstattung und unterpowered Studien.",
-            "annotations": [
-              {
-                "id": "10-deep_dive-5-src-2",
-                "text": "Die Open Science Collaboration (2015) publizierte die bislang größte Replikationsstudie",
-                "kind": "citation",
-                "tooltip": "Open Science Collaboration (2015)",
-                "tone": "red",
-                "sourceIds": [
-                  "10-source-2"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Die ASA-Erklärung und die Zukunft der Berichterstattung"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "**Wasserstein und Lazar (2016)** verfassten im Namen der American Statistical Association ein Statement, das sechs Prinzipien zum verantwortungsvollen Umgang mit p-Werten formulierte. Zentrale Botschaft: p-Werte zeigen die Inkonsistenz der Daten mit einem spezifischen Modell, nicht die Wahrscheinlichkeit, dass die Hypothese wahr ist. Sie plädierten für Transparenz, vollständige Berichterstattung und den Einsatz alternativer Analysemethoden — darunter Bayesianische Statistik und registered reports, bei denen die Analyseplanung vor Datenerhebung erfolgt.",
-            "annotations": [
-              {
-                "id": "10-deep_dive-5-src-3",
-                "text": "Wasserstein und Lazar (2016) verfassten im Namen der American Statistical Association ein Statement",
-                "kind": "citation",
-                "tooltip": "Wasserstein et al. (2016)",
-                "tone": "red",
-                "sourceIds": [
-                  "10-source-4"
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "10-example-6",
-      "type": "example",
-      "entries": [
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Du wirfst eine Münze zehnmal und erhältst achtmal Kopf — der p-Wert liegt bei etwa .05, knapp signifikant. Doch die Effektstärke ist winzig, die Stichprobe zu klein, und ein Fehler 1. Art wäre wahrscheinlich. Signifikanz allein rechtfertigt nicht den Verdacht auf eine gezinkte Münze — Kontext und Replikation zählen.",
-            "annotations": []
-          }
-        }
-      ]
-    },
-    {
-      "id": "10-summary-7",
+      "id": "10-summary",
       "type": "summary",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Der p-Wert misst die Wahrscheinlichkeit der Daten unter H₀ — nicht die Wahrscheinlichkeit, dass H₁ wahr ist.",
+              "text": "/versuchsplanung",
               "annotations": []
             },
             {
-              "text": "Fehler 1. Art und Fehler 2. Art balancieren wie auf einer Wippe; nur mehr Stichprobe oder weniger striktes α senkt beide zugleich.",
-              "annotations": []
-            },
-            {
-              "text": "Effektstärke und Konfidenzintervall liefern mehr Information als ein isolierter p-Wert — besonders nach Cohens Kritik und der Replikationskrise.",
+              "text": "/psychometrie",
               "annotations": []
             }
           ]
@@ -412,85 +318,102 @@
   ],
   "sources": [
     {
-      "id": "10-source-1",
-      "kind": "primary",
+      "id": "10-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Neyman et al. (1933)",
+      "apaCitation": "Neyman, J. & Pearson, E. S. (1933). On the problem of the most efficient tests of statistical hypotheses. Philosophical Transactions of the Royal Society A, 231, 289-337.",
+      "tooltip": "Neyman & Pearson (1933)",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "10-recovered-source-2",
+      "kind": "other",
+      "shortCitation": "Cohen & J. (1988)",
+      "apaCitation": "Cohen, J. (1988). Statistical Power Analysis for the Behavioral Sciences (2nd ed.). Lawrence Erlbaum.",
+      "tooltip": "3. p-Werte richtig verstehen",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "10-recovered-source-3",
+      "kind": "other",
       "shortCitation": "Cohen & J. (1994)",
-      "apaCitation": "Cohen, J. (1994). The earth is round (p < .05). American Psychologist, 49(12), 997–1003. https://doi.org/10.1037/0003-066X.49.12.997",
-      "tooltip": "Der programmatische Aufsatz, der den ritualisierten Missbrauch des p-Werts als Wahrheitskriterium methodisch entlarvt und Alternativen fordert.",
-      "url": "https://doi.org/10.1037/0003-066X.49.12.997",
-      "doi": "10.1037/0003-066X.49.12.997",
+      "apaCitation": "Cohen, J. (1994). The earth is round (p < .05). American Psychologist, 49</em>(12), 997-1003.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "10-source-2",
-      "kind": "primary",
-      "shortCitation": "Open Science Collaboration (2015)",
-      "apaCitation": "Open Science Collaboration. (2015). Estimating the reproducibility of psychological science. Science, 349(6251), aac4716. https://doi.org/10.1126/science.aac4716",
-      "tooltip": "Die größte systematische Replikationsstudie der Psychologie, die die Verlässlichkeit publizierter p-Wert-Befunde empirisch testete.",
-      "url": "https://doi.org/10.1126/science.aac4716",
-      "doi": "10.1126/science.aac4716",
-      "verification": {
-        "status": "legacy-imported",
-        "checkedAgainst": [
-          "legacy-source-list"
-        ]
-      }
-    },
-    {
-      "id": "10-source-3",
-      "kind": "secondary",
-      "shortCitation": "Eid et al. (2017)",
-      "apaCitation": "Eid, M., Gollwitzer, M., & Schmitt, M. (2017). Statistik und Forschungsmethoden: Mit Online-Materialien (5. Aufl.). Beltz PVU.",
-      "tooltip": "Deutschsprachiges Standardlehrbuch zur Inferenzstatistik, Testtheorie und Versuchsplanung mit didaktischen Übungen.",
-      "verification": {
-        "status": "legacy-imported",
-        "checkedAgainst": [
-          "legacy-source-list"
-        ]
-      }
-    },
-    {
-      "id": "10-source-4",
-      "kind": "review",
+      "id": "10-recovered-source-4",
+      "kind": "other",
       "shortCitation": "Wasserstein et al. (2016)",
-      "apaCitation": "Wasserstein, R. L., & Lazar, N. A. (2016). The ASA statement on p-values: Context, process, and purpose. The American Statistician, 70(2), 129–133. https://doi.org/10.1080/00031305.2016.1154108",
-      "tooltip": "Die offizielle Stellungnahme der American Statistical Association zum verantwortungsvollen Umgang mit p-Werten in der wissenschaftlichen Praxis.",
-      "url": "https://doi.org/10.1080/00031305.2016.1154108",
-      "doi": "10.1080/00031305.2016.1154108",
+      "apaCitation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-values: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
+      "tooltip": "Wasserstein & Lazar (2016)",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "10-recovered-source-5",
+      "kind": "other",
+      "shortCitation": "Cumming & G. (2014)",
+      "apaCitation": "Cumming, G. (2014). The New Statistics: Why and How. Psychological Science, 25</em>(1), 7-29.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "10-recovered-source-6",
+      "kind": "other",
+      "shortCitation": "Benjamin & D. J. et al. (2018)",
+      "apaCitation": "Benjamin, D. J. et al. (2018). Redefine statistical significance. Nature Human Behaviour, 2</em>, 6-10.",
+      "tooltip": "Benjamin et al. (2018)",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
         ]
       }
     }
   ],
   "relatedResources": [
     {
-      "id": "10-resource-1",
-      "category": "Buch",
-      "title": "Statistik und Forschungsmethoden",
-      "relevance": "Das deutschsprachige Standardlehrbuch zur Inferenzstatistik mit umfassenden Erklärungen zu Hypothesentests, Fehlerarten und Effektstärken.",
-      "url": "https://www.beltz.de/fachmedien/psychologie/buecher/produkt_produktdetails/37277-statistik_und_forschungsmethoden.html"
+      "id": "10-connection-1",
+      "category": "verknuepfung",
+      "title": "/versuchsplanung",
+      "relevance": "Recovered internal concept link from /signifikanztestung.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "09"
+      }
     },
     {
-      "id": "10-resource-2",
-      "category": "Forschung",
-      "title": "The earth is round (p < .05)",
-      "relevance": "Cohens einflussreicher programmatischer Aufsatz zur Kritik am p-Wert-Ritualismus — ein Muss für jeden Methodenstudenten.",
-      "url": "https://doi.org/10.1037/0003-066X.49.12.997"
-    },
-    {
-      "id": "10-resource-3",
-      "category": "Forschung",
-      "title": "Estimating the reproducibility of psychological science",
-      "relevance": "Die epochale Replikationsstudie, die die Verlässlichkeit psychologischer Befunde anhand von 100 Replikationsstudie der Psychologie, die die Verlässlichkeit publizierter p-Wert-Befunde empirisch testete.",
-      "url": "https://doi.org/10.1126/science.aac4716"
+      "id": "10-connection-2",
+      "category": "verknuepfung",
+      "title": "/psychometrie",
+      "relevance": "Recovered internal concept link from /signifikanztestung.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "11"
+      }
     }
   ]
 }

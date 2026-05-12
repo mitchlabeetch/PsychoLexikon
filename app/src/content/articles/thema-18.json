@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "18",
+  "slug": "thema-18",
+  "legacy": {
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+  },
+  "meta": {
+    "title": "Faktorenanalyse",
+    "subtitle": "Wie Korrelationsmuster zu latenten Faehigkeitsdimensionen werden",
+    "discipline": "Statistik & Psychometrie",
+    "difficulty": "Vertiefungs-Knoten",
+    "tabColor": "#f2c6a0",
+    "tabNumber": 18,
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Faktorenanalyse verdichtet Korrelationen zwischen Einzelaufgaben zu uebergeordneten Dimensionen und macht damit Modelle wie BIS, Big Five oder CHC empirisch pruefbar."
+  },
+  "taxonomy": {
+    "categoryId": "statistics-and-psychometrics",
+    "keywords": [
+      "faktorenanalyse",
+      "psychometrie",
+      "statistik"
+    ],
+    "audience": [
+      "selbststudium",
+      "vertiefung",
+      "gui-authoring"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-18",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-18",
+      "statistics-and-psychometrics"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Statistik & Psychometrie"
+      ],
+      "audience": [
+        "selbststudium",
+        "vertiefung",
+        "gui-authoring"
+      ],
+      "keywords": [
+        "faktorenanalyse",
+        "psychometrie",
+        "statistik"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "18-lead",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Zu /faktorenanalyse wurde kein eigenstaendiger recovered Seitentext bewahrt, aber sowohl der BIS-Artikel als auch der Big-Five-Artikel setzen das Verfahren als methodisches Rueckgrat voraus.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die kanonische Seite macht deshalb sichtbar, dass Modelle nicht direkt aus der Welt abgelesen werden, sondern durch statistische Verdichtung vieler Einzelbeobachtungen entstehen.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "18-generated-definition",
+      "type": "definition",
+      "title": "Begriffe und Definitionen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Faktorenanalyse"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Statistisches Verfahren, das gemeinsame Varianz in vielen Einzelmerkmalen auf wenige latente Faktoren zurueckfuehrt.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Latenter Faktor"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Eine nicht direkt beobachtbare Dimension, die aus systematischen Zusammenhaengen zwischen mehreren beobachtbaren Variablen erschlossen wird.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "18-explanation",
+      "type": "explanation",
+      "title": "Wozu Faktorenanalyse dient",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Von Aufgaben zu Dimensionen"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Wenn viele Testaufgaben oder Adjektivratings miteinander korrelieren, versucht Faktorenanalyse, gemeinsame Muster zu finden. Diese Muster werden dann als latente Faehigkeiten oder Traits interpretiert.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Warum verschiedene Modelle entstehen"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Dasselbe Datenmaterial kann unterschiedlich ausgewertet werden: Manche Forscher suchen eine starke allgemeine Hauptdimension, andere mehrere relativ eigenstaendige Faktoren oder hierarchische Ebenen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Methodische Staerke und methodische Grenze"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Faktorenanalyse ist ein sehr starkes Ordnungswerkzeug, liefert aber keine Theorie aus sich selbst. Welche Faktoren sinnvoll benannt werden, bleibt immer auch eine inhaltliche Forschungsentscheidung.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "18-summary",
+      "type": "summary",
+      "title": "Merkpunkte",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Faktorenanalyse reduziert komplexe Korrelationen auf wenige interpretierbare Strukturen.",
+              "annotations": []
+            },
+            {
+              "text": "Sie traegt sowohl Intelligenzmodelle als auch Traitmodelle der Persoenlichkeitspsychologie.",
+              "annotations": []
+            },
+            {
+              "text": "Statistische Faktoren werden erst durch theoretische Deutung zu psychologischen Konstrukten.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "18-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Faktorenanalyse (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Faktorenanalyse (/faktorenanalyse) was linked from Berliner Intelligenzstrukturmodell (BIS).",
+      "tooltip": "Der recovered Link stammt aus einem Artikel, der sein Modell ausdruecklich faktoranalytisch begruendet.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "18-source-2",
+      "kind": "other",
+      "shortCitation": "Jaeger & A. O. (1982)",
+      "apaCitation": "Jaeger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
+      "tooltip": "Zeigt die Rolle faktoranalytischer Auswertung fuer das Berliner Intelligenzstrukturmodell.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "18-source-3",
+      "kind": "secondary",
+      "shortCitation": "Carroll & J. B. (1993)",
+      "apaCitation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press.",
+      "tooltip": "Demonstriert, wie grossflaechige Leistungsdaten in hierarchische Faehigkeitsmodelle uebersetzt werden.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "18-source-4",
+      "kind": "other",
+      "shortCitation": "Goldberg & L. R. (1993)",
+      "apaCitation": "Goldberg, L. R. (1993). The structure of phenotypic personality traits. American Psychologist, 48(1), 26-34.",
+      "tooltip": "Faktorenanalyse ist nicht auf Intelligenz beschraenkt, sondern traegt auch die Struktur der Persoenlichkeitstaxonomie.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "18-backlink-1",
+      "category": "rueckverweis",
+      "title": "Berliner Intelligenzstrukturmodell (BIS)",
+      "relevance": "Recovered primary article that referenced Faktorenanalyse.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "05"
+      }
+    },
+    {
+      "id": "18-category-1",
+      "category": "kategorie",
+      "title": "Statistik & Psychometrie",
+      "relevance": "Canonical category placement for this derived concept node.",
+      "target": {
+        "kind": "internal-category",
+        "categoryId": "statistics-and-psychometrics"
+      }
+    },
+    {
+      "id": "18-bridge-1",
+      "category": "verknuepfung",
+      "title": "Intelligenztheorien im Ueberblick",
+      "relevance": "Die Konkurrenz von Intelligenzmodellen ergibt sich oft aus unterschiedlichen faktoranalytischen Entscheidungen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "17"
+      }
+    },
+    {
+      "id": "18-bridge-2",
+      "category": "verknuepfung",
+      "title": "IQ-Tests und Diagnostik",
+      "relevance": "Diagnostische Testprofile sind nur so gut wie die Modellannahmen, die faktoranalytisch begruendet wurden.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "19"
+      }
+    },
+    {
+      "id": "18-bridge-3",
+      "category": "verknuepfung",
+      "title": "Fuenf-Faktoren-Modell (Big Five)",
+      "relevance": "Auch die Persoenlichkeitspsychologie verdankt ihre Kernstruktur faktoranalytischer Verdichtung.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "08"
+      }
+    }
+  ]
+}

@@ -46,6 +46,121 @@ const pageArticleIdByComponent: Record<string, string> = {
   MotivationEmotion: '12',
 }
 
+const conceptRouteDefinitions: Record<
+  string,
+  {
+    articleId: string
+    categoryId: string
+    keywords: string[]
+    title: string
+    subtitle?: string
+  }
+> = {
+  '/hexaco': {
+    articleId: '13',
+    categoryId: 'differential-and-personality',
+    keywords: ['hexaco', 'persoenlichkeit', 'traits'],
+    title: 'HEXACO-Modell',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zur Persoenlichkeitsstruktur',
+  },
+  '/mischel': {
+    articleId: '14',
+    categoryId: 'differential-and-personality',
+    keywords: ['mischel', 'person-situation', 'persoenlichkeit'],
+    title: 'Mischel: Person-Situation',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zur Person-Situations-Debatte',
+  },
+  '/persoenlichkeitstests': {
+    articleId: '15',
+    categoryId: 'differential-and-personality',
+    keywords: ['persoenlichkeitstests', 'diagnostik', 'traits'],
+    title: 'Persoenlichkeitstests',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zur Persoenlichkeitsdiagnostik',
+  },
+  '/persoenlichkeitsstoerungen': {
+    articleId: '16',
+    categoryId: 'differential-and-personality',
+    keywords: ['persoenlichkeitsstoerungen', 'klinisch', 'persoenlichkeit'],
+    title: 'Persoenlichkeitsstoerungen',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff an der Schnittstelle von Persoenlichkeit und Klinik',
+  },
+  '/intelligenztheorien': {
+    articleId: '17',
+    categoryId: 'differential-and-personality',
+    keywords: ['intelligenz', 'theorien', 'diagnostik'],
+    title: 'Intelligenztheorien im Ueberblick',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zu konkurrierenden Intelligenzmodellen',
+  },
+  '/faktorenanalyse': {
+    articleId: '18',
+    categoryId: 'statistics-and-psychometrics',
+    keywords: ['faktorenanalyse', 'psychometrie', 'statistik'],
+    title: 'Faktorenanalyse',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zur dimensionsreduzierenden Testanalyse',
+  },
+  '/iq-tests': {
+    articleId: '19',
+    categoryId: 'statistics-and-psychometrics',
+    keywords: ['iq-tests', 'diagnostik', 'intelligenz'],
+    title: 'IQ-Tests und Diagnostik',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zur Intelligenzdiagnostik',
+  },
+  '/vygotsky': {
+    articleId: '20',
+    categoryId: 'learning-and-development',
+    keywords: ['vygotsky', 'soziale entwicklung', 'lernen'],
+    title: 'Vygotsky: Soziale Entwicklung',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zur sozial vermittelten Entwicklung',
+  },
+  '/sprachentwicklung': {
+    articleId: '21',
+    categoryId: 'learning-and-development',
+    keywords: ['sprachentwicklung', 'entwicklung', 'kindheit'],
+    title: 'Sprachentwicklung im Kindesalter',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zur sprachlichen Entwicklung',
+  },
+  '/core-knowledge': {
+    articleId: '22',
+    categoryId: 'learning-and-development',
+    keywords: ['core knowledge', 'entwicklung', 'kindheit'],
+    title: 'Core Knowledge Theory',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zu fruehen Wissensstrukturen',
+  },
+  '/selbstwirksamkeit': {
+    articleId: '23',
+    categoryId: 'motivation-and-emotion',
+    keywords: ['selbstwirksamkeit', 'bandura', 'motivation'],
+    title: 'Selbstwirksamkeit nach Bandura',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zu Kompetenzueberzeugungen',
+  },
+  '/leistungsmotivation': {
+    articleId: '24',
+    categoryId: 'motivation-and-emotion',
+    keywords: ['leistungsmotivation', 'motivation', 'zielorientierung'],
+    title: 'Leistungsmotivation',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zu Erfolg, Anstrengung und Zielverfolgung',
+  },
+  '/lernen-hilflosigkeit': {
+    articleId: '25',
+    categoryId: 'motivation-and-emotion',
+    keywords: ['gelernte hilflosigkeit', 'motivation', 'attribution'],
+    title: 'Gelernte Hilflosigkeit',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zu Kontrollverlust und Attribution',
+  },
+  '/sozialkognition': {
+    articleId: '26',
+    categoryId: 'social-psychology',
+    keywords: ['soziale kognition', 'soziales denken', 'attribution'],
+    title: 'Soziale Kognition',
+    subtitle: 'Wiederhergestellter Vertiefungsbegriff zu mentalen Prozessen im sozialen Kontext',
+  },
+}
+
+const routeArticleIdMap = new Map<string, string>([
+  ...Object.entries(pageRouteByComponent).map(([component, route]) => [route, pageArticleIdByComponent[component] ?? '']),
+  ...Object.entries(conceptRouteDefinitions).map(([route, definition]) => [route, definition.articleId]),
+].filter((entry) => entry[1]))
+
 interface PrimaryPageRecord {
   component: string
   route: string | null
@@ -121,6 +236,14 @@ interface AnalzyImportDraft {
 interface AnalzyImportDraftManifest {
   corpusId: string
   drafts: AnalzyImportDraft[]
+}
+
+interface ConceptBacklinkRecord {
+  route: string
+  label: string
+  sourceArticleId: string
+  sourceTitle: string
+  sourceCategoryId: string
 }
 
 function slugToTitle(value: string) {
@@ -284,6 +407,21 @@ function estimateReadMinutesFromTextBlocks(textBlocks: string[]) {
   return Math.max(3, Math.ceil(wordCount / 180))
 }
 
+function getInternalTargetForRoute(route: string) {
+  const articleId = routeArticleIdMap.get(route)
+  if (articleId) {
+    return {
+      kind: 'internal-article' as const,
+      articleId,
+    }
+  }
+
+  return {
+    kind: 'internal-route' as const,
+    path: route,
+  }
+}
+
 function buildAuthoringSections(draft: AnalzyImportDraft): AuthoringDraft['sections'] {
   const filteredNarrativeBlocks = draft.textBlocks.filter(
     (block) =>
@@ -312,7 +450,6 @@ function buildAuthoringSections(draft: AnalzyImportDraft): AuthoringDraft['secti
     })
   }
 
-  const explanationEntries: AuthoringDraft['sections'][number][] = []
   const explanationSectionEntries = [
     ...draft.sectionHeadings
       .filter((heading) => !sectionHeadingBlacklist.has(heading))
@@ -429,10 +566,7 @@ function buildAuthoringDrafts(importDrafts: AnalzyImportDraft[], bundlePath: str
       category: 'verknuepfung',
       title: route.label ?? route.route,
       description: `Recovered internal concept link from ${draft.recoveredRoute ?? draft.canonicalSlug}.`,
-      target: {
-        kind: 'internal-route',
-        path: route.route,
-      },
+      target: getInternalTargetForRoute(route.route),
     })),
     sections: buildAuthoringSections(draft),
     notes: {
@@ -441,6 +575,166 @@ function buildAuthoringDrafts(importDrafts: AnalzyImportDraft[], bundlePath: str
       uiHint: 'GUI authoring draft generated from recovered deploy bundle; review text ordering before publishing.',
     },
   }))
+}
+
+function buildConceptAuthoringDrafts(importDrafts: AnalzyImportDraft[], relatedRoutes: RelatedRouteRecord[], bundlePath: string): AuthoringDraft[] {
+  const backlinksByRoute = new Map<string, ConceptBacklinkRecord[]>()
+
+  for (const draft of importDrafts) {
+    for (const route of draft.relatedRoutes) {
+      const bucket = backlinksByRoute.get(route.route) ?? []
+      bucket.push({
+        route: route.route,
+        label: route.label ?? route.route,
+        sourceArticleId: draft.articleId,
+        sourceTitle: draft.title,
+        sourceCategoryId: draft.categoryId,
+      })
+      backlinksByRoute.set(route.route, bucket)
+    }
+  }
+
+  return relatedRoutes.flatMap((routeRecord) => {
+    const definition = conceptRouteDefinitions[routeRecord.route]
+    if (!definition) {
+      return []
+    }
+
+    const backlinks = backlinksByRoute.get(routeRecord.route) ?? []
+    const taxonomyPath = getTaxonomyPath(definition.categoryId).map((node) => node.label)
+    const displayTitle = definition.title || routeRecord.label || routeRecord.route
+    const leadTeaser = `${displayTitle} wurde im wiederhergestellten analzy-Korpus als weiterfuehrender Konzeptknoten referenziert.`
+    const backlinkItems = backlinks.map((backlink) => ({
+      text: `${backlink.sourceTitle} (${backlink.route})`,
+      annotations: [],
+    }))
+
+    return [
+      {
+        schemaVersion: '1.0.0',
+        pageType: 'knowledge-article-draft',
+        origin: {
+          kind: 'recovered-bundle',
+          sourcePath: bundlePath,
+          recoveredRoute: routeRecord.route,
+        },
+        identity: {
+          articleId: definition.articleId,
+          slug: `thema-${definition.articleId}`,
+        },
+        header: {
+          title: displayTitle,
+          subtitle: definition.subtitle,
+          discipline: taxonomyPath[0],
+          difficulty: 'Vertiefungs-Knoten',
+          categoryId: definition.categoryId,
+          keywords: definition.keywords,
+          audience: ['selbststudium', 'vertiefung', 'gui-authoring'],
+          leadTeaser,
+          estimatedReadMinutes: 2,
+        },
+        glossary: [],
+        sources: [
+          {
+            id: `${definition.articleId}-recovered-source-1`,
+            rawCitation: `Recovered route reference in analzy deployment bundle: ${displayTitle} (${routeRecord.route}) was linked from ${backlinks.map((backlink) => backlink.sourceTitle).join(', ')}.`,
+            notes: 'The recovered deployment preserved this concept as a navigable internal link but not as a standalone page body.',
+          },
+        ],
+        assets: [],
+        connections: [
+          ...backlinks.map((backlink, index) => ({
+            id: `${definition.articleId}-backlink-${index + 1}`,
+            category: 'rueckverweis',
+            title: backlink.sourceTitle,
+            description: `Recovered primary article that referenced ${displayTitle}.`,
+            target: {
+              kind: 'internal-article' as const,
+              articleId: backlink.sourceArticleId,
+            },
+          })),
+          {
+            id: `${definition.articleId}-category-1`,
+            category: 'kategorie',
+            title: taxonomyPath[0] ?? definition.categoryId,
+            description: 'Canonical category placement for this derived concept node.',
+            target: {
+              kind: 'internal-category' as const,
+              categoryId: definition.categoryId,
+            },
+          },
+        ],
+        sections: [
+          {
+            id: `${definition.articleId}-lead`,
+            type: 'lead',
+            entries: [
+              {
+                kind: 'paragraph',
+                content: {
+                  text: leadTeaser,
+                  annotations: [],
+                },
+              },
+              {
+                kind: 'paragraph',
+                content: {
+                  text: 'Eine eigenstaendige Quellseite fuer diesen Begriff wurde im wiederhergestellten Deploy-Bundle nicht erhalten. Die Seite bleibt dennoch als erster kanonischer Konzeptknoten bestehen, damit kuenftige GUI-Autorenschaft, neue Quellen und weitere Inhalte anschlussfaehig ergaenzt werden koennen.',
+                  annotations: [],
+                },
+              },
+            ],
+          },
+          {
+            id: `${definition.articleId}-explanation`,
+            type: 'explanation',
+            title: 'Wiederhergestellter Kontext',
+            entries: [
+              {
+                kind: 'paragraph',
+                content: {
+                  text: `Der recovered route slug lautet ${routeRecord.route} und wurde der Kategorie ${taxonomyPath[0] ?? definition.categoryId} zugeordnet.`,
+                  annotations: [],
+                },
+              },
+              {
+                kind: 'paragraph',
+                content: {
+                  text: backlinks.length > 0
+                    ? `Der Begriff war im recovered corpus mit ${backlinks.length} Rueckverweisen aus bereits migrierten Primärartikeln verbunden.`
+                    : 'Im recovered corpus wurde dieser Begriff als isolierter weiterfuehrender Link erkannt.',
+                  annotations: [],
+                },
+              },
+            ],
+          },
+          {
+            id: `${definition.articleId}-summary`,
+            type: 'summary',
+            title: 'Rueckverweise aus dem recovered corpus',
+            entries: [
+              {
+                kind: 'bullet_list',
+                items:
+                  backlinkItems.length > 0
+                    ? backlinkItems
+                    : [
+                        {
+                          text: 'Kein Rueckverweis aus einem erhaltenen Primärartikel gefunden.',
+                          annotations: [],
+                        },
+                      ],
+              },
+            ],
+          },
+        ],
+        notes: {
+          importedFrom: 'analzy-deployment-v2',
+          uiHint: 'Derived concept node generated from preserved internal route labels and backlinks; enrich with full prose when new source material becomes available.',
+        },
+      } satisfies AuthoringDraft,
+    ]
+  })
 }
 
 async function extractResearchFiles(researchDir: string) {
@@ -550,10 +844,11 @@ async function main() {
   const primaryPages = extractPrimaryPages(bundle)
   const relatedRoutes = extractRelatedRoutes(bundle)
   const importDrafts = buildImportDrafts(primaryPages, pageChunks, relatedRoutes)
+  const conceptAuthoringDrafts = buildConceptAuthoringDrafts(importDrafts, relatedRoutes, bundlePath)
   const authoringDrafts = authoringDraftCollectionSchema.parse({
     schemaVersion: '1.0.0',
     corpusId: 'analzy-deployment-v2',
-    drafts: buildAuthoringDrafts(importDrafts, bundlePath),
+    drafts: [...buildAuthoringDrafts(importDrafts, bundlePath), ...conceptAuthoringDrafts],
   })
   const imageAssets = (await readdir(deployDir))
     .filter((fileName) => /^(?:hero-bg|illu-[a-z0-9-]+)\.png$/i.test(fileName))

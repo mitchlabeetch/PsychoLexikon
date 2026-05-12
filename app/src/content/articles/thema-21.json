@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "21",
+  "slug": "thema-21",
+  "legacy": {
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+  },
+  "meta": {
+    "title": "Sprachentwicklung im Kindesalter",
+    "subtitle": "Wie Sprache mit Denken, sozialer Interaktion und fruehen Lernumwelten zusammenwaechst",
+    "discipline": "Lernen & Entwicklung",
+    "difficulty": "Vertiefungs-Knoten",
+    "tabColor": "#f4b8c5",
+    "tabNumber": 21,
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Im Piaget-Kontext verweist Sprachentwicklung auf eine Schluesselfrage der Entwicklungspsychologie: Entsteht Sprache aus allgemeiner Kognition, aus sozialer Interaktion oder aus einem Zusammenspiel beider Prozesse?"
+  },
+  "taxonomy": {
+    "categoryId": "learning-and-development",
+    "keywords": [
+      "sprachentwicklung",
+      "entwicklung",
+      "kindheit"
+    ],
+    "audience": [
+      "selbststudium",
+      "vertiefung",
+      "gui-authoring"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-21",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-21",
+      "learning-and-development"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Lernen & Entwicklung"
+      ],
+      "audience": [
+        "selbststudium",
+        "vertiefung",
+        "gui-authoring"
+      ],
+      "keywords": [
+        "sprachentwicklung",
+        "entwicklung",
+        "kindheit"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "21-lead",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die recovered Route /sprachentwicklung wurde als Weiterfuehrung aus dem Piaget-Artikel bewahrt. Das passt dazu, dass Sprache eines der sichtbarsten Felder ist, in denen sich allgemeine Kognition, soziale Interaktion und Lernumwelt kreuzen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein eigenstaendiger recovered Seitentext blieb fuer diese Route nicht erhalten. Die kanonische Seite beschreibt Sprachentwicklung deshalb als Anschlussknoten zwischen Piagets Entwicklungslogik, Vygotskys Sozialperspektive und modernerer Interaktionsforschung.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "21-generated-definition",
+      "type": "definition",
+      "title": "Begriffe und Definitionen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Sprachentwicklung"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Prozess, in dem Kinder Lautwahrnehmung, Wortschatz, Grammatik und pragmatische Sprachverwendung schrittweise aufbauen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Gemeinsame Aufmerksamkeit"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Geteilte Ausrichtung von Kind und Bezugsperson auf denselben Gegenstand oder dasselbe Ereignis; sie erleichtert fruehes Wortlernen.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "21-explanation",
+      "type": "explanation",
+      "title": "Warum Sprachentwicklung ein Scharnierbegriff ist",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Mehr als Wortschatzlernen"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Sprachentwicklung umfasst nicht nur neue Woerter, sondern auch Grammatik, Lautunterscheidung, pragmatische Regeln und die Faehigkeit, Sprache zur Selbststeuerung und zum sozialen Austausch zu nutzen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Bezug zu Piaget und Vygotsky"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Im Piaget-Kontext taucht Sprache als Folge wachsender kognitiver Strukturen auf. Vygotsky dreht die Perspektive teilweise um und zeigt, wie Sprache selbst Denken organisiert und durch soziale Interaktion getragen wird.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Fruehe Lernumwelten"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Moderne Forschung betont zusaetzlich, wie stark gemeinsames Aufmerken, dialogische Routinen und sensible Lautwahrnehmung den Erwerb vorbereiten. Sprache entwickelt sich also weder isoliert im Kopf noch bloss durch Reifung allein.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "21-summary",
+      "type": "summary",
+      "title": "Merkpunkte",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Sprachentwicklung verbindet Kognition, soziale Interaktion und fruehe Lernumwelt.",
+              "annotations": []
+            },
+            {
+              "text": "Sie ist deshalb ein idealer Anschlussknoten zwischen Piaget, Vygotsky und moderner Interaktionsforschung.",
+              "annotations": []
+            },
+            {
+              "text": "Wortlernen, Grammatik und pragmatische Nutzung wachsen gemeinsam statt nacheinander in strikt getrennten Modulen.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "21-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Sprachentwicklung im Kindesalter (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Sprachentwicklung im Kindesalter (/sprachentwicklung) was linked from Kognitive Entwicklung nach Piaget.",
+      "tooltip": "Die recovered Route verankert Sprache als natuerliche Erweiterung des Piaget-Artikels.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "21-source-2",
+      "kind": "secondary",
+      "shortCitation": "Vygotsky & L. S. (1986)",
+      "apaCitation": "Vygotsky, L. S. (1986). Thought and language. MIT Press.",
+      "tooltip": "Formuliert die enge Verschränkung von Sprache, Denken und sozialer Vermittlung.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "21-source-3",
+      "kind": "secondary",
+      "shortCitation": "Tomasello & M. (2003)",
+      "apaCitation": "Tomasello, M. (2003). Constructing a language: A usage-based theory of language acquisition. Harvard University Press.",
+      "tooltip": "Betont soziale Interaktion, gemeinsame Aufmerksamkeit und sprachlichen Gebrauch als Motoren der Sprachentwicklung.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "21-source-4",
+      "kind": "review",
+      "shortCitation": "Kuhl & P. K. (2004)",
+      "apaCitation": "Kuhl, P. K. (2004). Early language acquisition: Cracking the speech code. Nature Reviews Neuroscience, 5(11), 831-843.",
+      "tooltip": "Zeigt, wie fruehe Lautwahrnehmung und soziale Lernumgebung beim Spracherwerb zusammenwirken.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "21-backlink-1",
+      "category": "rueckverweis",
+      "title": "Kognitive Entwicklung nach Piaget",
+      "relevance": "Recovered primary article that referenced Sprachentwicklung im Kindesalter.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "06"
+      }
+    },
+    {
+      "id": "21-category-1",
+      "category": "kategorie",
+      "title": "Lernen & Entwicklung",
+      "relevance": "Canonical category placement for this derived concept node.",
+      "target": {
+        "kind": "internal-category",
+        "categoryId": "learning-and-development"
+      }
+    },
+    {
+      "id": "21-bridge-1",
+      "category": "verknuepfung",
+      "title": "Vygotsky: Soziale Entwicklung",
+      "relevance": "Sprache wird bei Vygotsky zum wichtigsten Medium kognitischer Vermittlung.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "20"
+      }
+    },
+    {
+      "id": "21-bridge-2",
+      "category": "verknuepfung",
+      "title": "Core Knowledge Theory",
+      "relevance": "Fragen nach fruehen Voraussetzungen betreffen auch den Erwerb sprachlicher Kategorien und Erwartungen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "22"
+      }
+    }
+  ]
+}

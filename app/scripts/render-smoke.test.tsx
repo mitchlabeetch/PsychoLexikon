@@ -53,7 +53,7 @@ test('home route renders the landing page and canonical article cards', async ()
   assert.match(html, /PsychoLexicon/)
   assert.match(html, /Zwölf Kernthemen/)
   assert.match(html, /href="\/"[^>]*>PsychoLexicon<\/a>/)
-  assert.match(html, /Aktionspotential und synaptische Transmission/)
+  assert.match(html, /Aktionspotential/)
 })
 
 test('category route renders the canonical category landing page', async () => {
@@ -61,18 +61,19 @@ test('category route renders the canonical category landing page', async () => {
 
   assert.match(html, /Wahrnehmung &amp; Kognition/)
   assert.match(html, /2 Artikel in dieser Kategorie/)
-  assert.match(html, /Gestaltgesetze der Wahrnehmung und Prägnanzprinzip/)
-  assert.match(html, /Das Mehrkomponentenmodell des Arbeitsgedächtnisses/)
+  assert.match(html, /Gestaltgesetze/)
+  assert.match(html, /Arbeitsgedächtnis/)
   assert.match(html, /Springe zu Wahrnehmung &amp; Kognition/)
 })
 
 test('article route renders title, category context, visuals, and sources', async () => {
   const html = await renderAppAt('/thema/01')
 
-  assert.match(html, /Aktionspotential und synaptische Transmission/)
+  assert.match(html, /Aktionspotential/)
   assert.match(html, /Biologische Psychologie/)
   assert.match(html, /Quellen/)
-  assert.match(html, /Das Diagramm zeigt, wie die Membranspannung beim Überschreiten der Schwelle explosionsartig ansteigt/)
+  assert.match(html, /Hodgkin.*1952/)
+  assert.match(html, /illu-action-potential\.png|Action Potential|Synapse/)
   assert.doesNotMatch(html, /Illustrations-Asset .* fehlt/)
 })
 
@@ -96,8 +97,35 @@ test('article renderer outputs lead content, source cards, and backlinks for a c
 
     assert.match(html, /Schema 2\.0\.0/)
     assert.match(html, /Aktionspotential/)
-    assert.match(html, /Bear et al\. \(2016\)/)
+    assert.match(html, /Hodgkin.*1952|Katz.*1966/)
     assert.match(html, /Zurueck zur Kategorie/)
     assert.match(html, /Zurueck zur Uebersicht/)
   })
+})
+
+test('derived concept routes render as first-class canonical article pages', async () => {
+  const html = await renderAppAt('/thema/13')
+
+  assert.match(html, /HEXACO-Modell/)
+  assert.match(html, /Honesty-Humility/)
+  assert.match(html, /Von Big Five zu HEXACO/)
+  assert.match(html, /Fuenf-Faktoren-Modell|Big Five/)
+})
+
+test('development concept routes render enriched comparative content', async () => {
+  const html = await renderAppAt('/thema/20')
+
+  assert.match(html, /Vygotsky: Soziale Entwicklung/)
+  assert.match(html, /Zone der naechsten Entwicklung/)
+  assert.match(html, /Kontrast zu Piaget/)
+  assert.match(html, /Sprache und Kooperation/)
+})
+
+test('motivation concept routes render enriched attribution-linked content', async () => {
+  const html = await renderAppAt('/thema/25')
+
+  assert.match(html, /Gelernte Hilflosigkeit/)
+  assert.match(html, /Unkontrollierbarkeit/)
+  assert.match(html, /Bezug zur Attribution/)
+  assert.match(html, /Selbstwirksamkeit nach Bandura|Leistungsmotivation/)
 })

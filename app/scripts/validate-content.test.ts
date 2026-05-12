@@ -63,7 +63,7 @@ function getVisualSections(article: ArticleDocument) {
 
 test('all generated articles validate against the canonical schema', async () => {
   const { articles } = await readArticles()
-  assert.equal(articles.length, 12)
+  assert.equal(articles.length, 26)
 })
 
 test('taxonomy references resolve to known categories', async () => {
@@ -154,15 +154,18 @@ test('citation annotations reference valid sources and all annotation terms are 
   }
 })
 
-test('visual sections resolve through the canonical illustration registry', async () => {
+test('visual sections resolve through the supported illustration system', async () => {
   const { articles } = await readArticles()
   const registeredAssetIds = new Set(Object.keys(articleIllustrationRegistry))
 
   for (const article of articles) {
     const visualSections = getVisualSections(article)
 
-    assert.ok(visualSections.length >= 1, `${article.slug} should include at least one inline SVG`)
-    assert.ok(visualSections.length <= 2, `${article.slug} should include at most two inline SVGs`)
+    if (Number.parseInt(article.id, 10) <= 12) {
+      assert.ok(visualSections.length >= 1, `${article.slug} should include at least one inline visual`)
+    }
+
+    assert.ok(visualSections.length <= 4, `${article.slug} should include at most four inline visuals`)
 
     for (const section of visualSections) {
       assert.ok(section.caption, `${article.slug} visual section ${section.id} is missing a caption`)

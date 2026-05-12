@@ -56,11 +56,15 @@ Primary runtime files:
 
 Content model and migration files:
 - `app/src/content/schema.ts`
+- `app/src/content/authoringSchema.ts`
 - `app/src/content/taxonomy.ts`
 - `app/src/content/api.ts`
 - `app/src/content/transformers.ts`
 - `app/scripts/migrate-legacy-content.ts`
 - `app/scripts/validate-content.test.ts`
+
+Authoring-language reference:
+- `app/JSON_SUBLANGUAGE_AUTHORING_SPEC.md`
 
 Illustration and visual asset files:
 - `app/src/components/svgs/articleIllustrations.tsx`
@@ -224,6 +228,10 @@ Every canonical article document currently contains:
 - `sources`
 - `relatedResources`
 
+GUI-oriented authoring drafts use a richer page-composition layer documented in:
+- `app/src/content/authoringSchema.ts`
+- `app/JSON_SUBLANGUAGE_AUTHORING_SPEC.md`
+
 ### 6.2 Section Types Used on Real Pages
 
 All legacy and current page content maps into these section types:
@@ -259,6 +267,24 @@ Currently exercised by legacy migration and active content:
 
 Available but not yet common in the current article corpus:
 - `highlight`
+
+### 6.5 Visual Asset Kinds
+
+Canonical and authoring schemas now support:
+- `svg-component`
+- `image-file`
+
+`image-file` exists specifically so future GUI-authored pages can use uploaded or recovered images without requiring new hardcoded React components.
+
+### 6.6 Related Link Targets
+
+Canonical related resources can now target:
+- external URLs
+- internal articles
+- internal categories
+- internal routes
+
+This keeps recovered concept links and future GUI-authored page graphs representable in JSON.
 
 ### 6.5 Legacy Tags and Their Migration Meaning
 

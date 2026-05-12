@@ -6,6 +6,7 @@ import { listArticles } from '@/content/api'
 
 export default function Home() {
   const articles = listArticles()
+  const featuredArticles = articles.filter((article) => article.meta.tabNumber <= 12)
 
   return (
     <div>
@@ -22,11 +23,11 @@ export default function Home() {
           PsychoLexicon
         </h1>
         <p className="font-body text-[0.75rem] sm:text-[1.125rem] text-text-secondary mb-6">
-          Zwölf Kernthemen — verständlich, fundiert, adhs-freundlich
+          Zwölf Kernthemen plus verknüpfte Vertiefungen — verständlich, fundiert, adhs-freundlich
         </p>
         <div className="w-[60%] h-px bg-[#ccc] mx-auto mb-[4px] sm:mb-6" />
         <p className="font-body text-[10px] sm:text-[1rem] text-text-primary max-w-[600px] mx-auto leading-relaxed">
-          PsychoLexicon bündelt zwölf Kernthemen des ersten Psychologie-Studienjahres. Jedes Thema ist auf ADHS-freundliches Lernen optimiert: kurze Absätze, klare Zwischentitel, erklärende Visualisierungen. Alle Inhalte sind wissenschaftlich fundiert und vollständig auf Deutsch.
+          PsychoLexicon bündelt zwölf Kernthemen des ersten Psychologie-Studienjahres und ergänzt sie um verknüpfte Konzeptseiten für Vertiefungen. Jedes Thema ist auf ADHS-freundliches Lernen optimiert: kurze Absätze, klare Zwischentitel, erklärende Visualisierungen. Alle Inhalte sind wissenschaftlich fundiert und vollständig auf Deutsch.
         </p>
       </motion.section>
 
@@ -44,7 +45,7 @@ export default function Home() {
           },
         }}
       >
-        {articles.map((subject) => (
+        {featuredArticles.map((subject) => (
           <motion.div
             key={subject.id}
             className="h-full"

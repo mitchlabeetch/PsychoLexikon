@@ -64,7 +64,7 @@ export const categories: Category[] = [
     description: 'Klassische Lernprinzipien und Modelle der kognitiven Entwicklung.',
     color: '#f4b8c5',
     order: 3,
-    articleIds: ['04', '06'],
+    articleIds: ['04', '06', '20', '21', '22'],
     metadata: {
       curriculumArea: 'Lernen und Entwicklung',
       keywords: ['konditionierung', 'entwicklung', 'piaget'],
@@ -78,7 +78,7 @@ export const categories: Category[] = [
     description: 'Individuelle Unterschiede, Intelligenzmodelle und Persoenlichkeitsstrukturen.',
     color: '#a8d8ea',
     order: 4,
-    articleIds: ['05', '08'],
+    articleIds: ['05', '08', '13', '14', '15', '16', '17'],
     metadata: {
       curriculumArea: 'Diagnostik und Persoenlichkeit',
       keywords: ['intelligenz', 'traits', 'big five'],
@@ -92,7 +92,7 @@ export const categories: Category[] = [
     description: 'Soziale Kognition, Attribution und motivationale Bewertungen im sozialen Kontext.',
     color: '#b7d7f5',
     order: 5,
-    articleIds: ['07'],
+    articleIds: ['07', '26'],
     metadata: {
       curriculumArea: 'Soziales Erleben',
       keywords: ['attribution', 'heider', 'weiner'],
@@ -120,7 +120,7 @@ export const categories: Category[] = [
     description: 'Signifikanztestung, Fehlerarten und psychometrische Guetekriterien.',
     color: '#f2c6a0',
     order: 7,
-    articleIds: ['10', '11'],
+    articleIds: ['10', '11', '18', '19'],
     metadata: {
       curriculumArea: 'Methoden und Diagnostik',
       keywords: ['p-wert', 'reliabilitaet', 'validitaet'],
@@ -134,7 +134,7 @@ export const categories: Category[] = [
     description: 'Theorien zu motivationalen Prozessen und emotionalen Bewertungen.',
     color: '#d4a8a8',
     order: 8,
-    articleIds: ['12'],
+    articleIds: ['12', '23', '24', '25'],
     metadata: {
       curriculumArea: 'Motivation',
       keywords: ['emotion', 'motivation', 'appraisal'],
@@ -182,6 +182,20 @@ export const articleCategoryMap: Record<string, { categoryId: string; keywords: 
   '10': { categoryId: 'statistics-and-psychometrics', keywords: ['p-wert', 'alpha-fehler', 'beta-fehler'] },
   '11': { categoryId: 'statistics-and-psychometrics', keywords: ['objektivitaet', 'reliabilitaet', 'validitaet'] },
   '12': { categoryId: 'motivation-and-emotion', keywords: ['motivation', 'emotion', 'theorie'] },
+  '13': { categoryId: 'differential-and-personality', keywords: ['hexaco', 'persoenlichkeit', 'traits'] },
+  '14': { categoryId: 'differential-and-personality', keywords: ['mischel', 'person-situation', 'persoenlichkeit'] },
+  '15': { categoryId: 'differential-and-personality', keywords: ['persoenlichkeitstests', 'diagnostik', 'traits'] },
+  '16': { categoryId: 'differential-and-personality', keywords: ['persoenlichkeitsstoerungen', 'klinisch', 'persoenlichkeit'] },
+  '17': { categoryId: 'differential-and-personality', keywords: ['intelligenz', 'theorien', 'diagnostik'] },
+  '18': { categoryId: 'statistics-and-psychometrics', keywords: ['faktorenanalyse', 'psychometrie', 'statistik'] },
+  '19': { categoryId: 'statistics-and-psychometrics', keywords: ['iq-tests', 'diagnostik', 'intelligenz'] },
+  '20': { categoryId: 'learning-and-development', keywords: ['vygotsky', 'soziale entwicklung', 'lernen'] },
+  '21': { categoryId: 'learning-and-development', keywords: ['sprachentwicklung', 'entwicklung', 'kindheit'] },
+  '22': { categoryId: 'learning-and-development', keywords: ['core knowledge', 'entwicklung', 'kindheit'] },
+  '23': { categoryId: 'motivation-and-emotion', keywords: ['selbstwirksamkeit', 'bandura', 'motivation'] },
+  '24': { categoryId: 'motivation-and-emotion', keywords: ['leistungsmotivation', 'motivation', 'zielorientierung'] },
+  '25': { categoryId: 'motivation-and-emotion', keywords: ['gelernte hilflosigkeit', 'motivation', 'attribution'] },
+  '26': { categoryId: 'social-psychology', keywords: ['soziale kognition', 'soziales denken', 'attribution'] },
 }
 
 const categoryMap = new Map(categories.map((category) => [category.id, category]))

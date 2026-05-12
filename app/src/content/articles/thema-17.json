@@ -1,0 +1,294 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "17",
+  "slug": "thema-17",
+  "legacy": {
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+  },
+  "meta": {
+    "title": "Intelligenztheorien im Ueberblick",
+    "subtitle": "g-Faktor, Primaerfaktoren, gf/gc, CHC und BIS im Vergleich",
+    "discipline": "Differentielle & Persoenlichkeitspsychologie",
+    "difficulty": "Vertiefungs-Knoten",
+    "tabColor": "#a8d8ea",
+    "tabNumber": 17,
+    "estimatedReadMinutes": 4,
+    "leadTeaser": "Der BIS-Artikel deutet bereits an, dass Intelligenzforschung aus konkurrierenden Ordnungen besteht: von einem allgemeinen g bis zu mehrdimensionalen Modellen wie CHC und BIS."
+  },
+  "taxonomy": {
+    "categoryId": "differential-and-personality",
+    "keywords": [
+      "intelligenz",
+      "theorien",
+      "diagnostik"
+    ],
+    "audience": [
+      "selbststudium",
+      "vertiefung",
+      "gui-authoring"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-17",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-17",
+      "differential-and-personality"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Differentielle & Persoenlichkeitspsychologie"
+      ],
+      "audience": [
+        "selbststudium",
+        "vertiefung",
+        "gui-authoring"
+      ],
+      "keywords": [
+        "intelligenz",
+        "theorien",
+        "diagnostik"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "17-lead",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Der recovered Begriff /intelligenztheorien verweist auf eine Luecke, die im BIS-Artikel bereits vorbereitet ist: Intelligenz laesst sich nicht nur mit einem einzigen Modell beschreiben, sondern ueber mehrere konkurrierende Ordnungen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die kanonische Seite fasst diese Modellfamilien zusammen, ohne zu behaupten, dass fuer die recovered Route ein vollstaendiger Originaltext erhalten geblieben waere.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "17-generated-definition",
+      "type": "definition",
+      "title": "Begriffe und Definitionen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "g-Faktor"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die Annahme einer allgemeinen Intelligenz, die Leistungen in sehr unterschiedlichen kognitiven Aufgaben mittraegt.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "CHC-Modell"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein mehrschichtiges Intelligenzmodell, das breite und enge Faehigkeiten mit einem allgemeinen g verbindet und diagnostisch sehr einflussreich wurde.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "gf/gc"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Unterscheidung zwischen fluider und kristalliner Intelligenz; sie bildet eine wichtige Vorstufe spaeterer hierarchischer Modelle.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "17-explanation",
+      "type": "explanation",
+      "title": "Zentrale Modellfamilien",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Von einem allgemeinen g zu mehreren Faehigkeiten"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Einige Theorien betonen eine einzige uebergeordnete Intelligenz. Andere zerlegen Leistungen in mehrere relativ eigenstaendige Faehigkeiten oder ordnen sie hierarchisch in breite und enge Faktoren.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "gf/gc und CHC als hierarchische Integration"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die Unterscheidung zwischen fluider und kristalliner Intelligenz fuehrte zu integrativen Modellen, in denen breite Faehigkeiten unter einem allgemeinen Niveau zusammenlaufen. Das CHC-Modell wurde so zum Standard in vielen diagnostischen Anwendungen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Wo das BIS steht"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Das BIS betont statt einer blossen Hierarchie die Kreuzung von Operationsarten und Inhaltsbereichen. Dadurch wirkt es weniger wie eine universelle Endformel und mehr wie eine spezifische Forschungsentscheidung darueber, wie Intelligenz strukturiert werden soll.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "17-deep-dive",
+      "type": "deep_dive",
+      "title": "Warum Modellvergleiche wichtig sind",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die Wahl eines Intelligenzmodells entscheidet darueber, welche Aufgaben in Tests auftauchen, ob man eher Gesamtwerte oder Profilunterschiede interpretiert und wie stark kulturelle sowie bildungsnahe Einfluesse gewichtet werden.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "17-summary",
+      "type": "summary",
+      "title": "Merkpunkte",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Intelligenztheorien unterscheiden sich vor allem darin, wie viel Einheit oder Vielfalt sie in kognitiven Leistungen annehmen.",
+              "annotations": []
+            },
+            {
+              "text": "CHC ist international besonders praegend, waehrend das BIS eine markante deutschsprachige Alternative bleibt.",
+              "annotations": []
+            },
+            {
+              "text": "Ohne Faktorenanalyse und Diagnostik lassen sich diese Modelle weder sauber begruenden noch praktisch vergleichen.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "17-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Ueberblick (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Ueberblick (/intelligenztheorien) was linked from Berliner Intelligenzstrukturmodell (BIS).",
+      "tooltip": "Die recovered Verlinkung aus dem BIS-Artikel liefert den klaren Rekonstruktionsanker fuer diese Vergleichsseite.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "17-source-2",
+      "kind": "other",
+      "shortCitation": "Jaeger & A. O. (1982)",
+      "apaCitation": "Jaeger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
+      "tooltip": "Verortet das BIS als mehrdimensionales deutschsprachiges Alternativmodell.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "17-source-3",
+      "kind": "secondary",
+      "shortCitation": "Carroll & J. B. (1993)",
+      "apaCitation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press.",
+      "tooltip": "Synthetisiert g, Primaerfaktoren und hierarchische Modelle der Intelligenzforschung.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "17-source-4",
+      "kind": "empirical",
+      "shortCitation": "McGrew & K. S. (2009)",
+      "apaCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychoeducational Assessment, 37(1), 8-14.",
+      "tooltip": "Zeigt, wie das CHC-Modell in der diagnostischen Praxis zum Referenzrahmen wurde.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "17-backlink-1",
+      "category": "rueckverweis",
+      "title": "Berliner Intelligenzstrukturmodell (BIS)",
+      "relevance": "Recovered primary article that referenced Intelligenztheorien im Ueberblick.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "05"
+      }
+    },
+    {
+      "id": "17-category-1",
+      "category": "kategorie",
+      "title": "Differentielle & Persoenlichkeitspsychologie",
+      "relevance": "Canonical category placement for this derived concept node.",
+      "target": {
+        "kind": "internal-category",
+        "categoryId": "differential-and-personality"
+      }
+    },
+    {
+      "id": "17-bridge-1",
+      "category": "verknuepfung",
+      "title": "Faktorenanalyse",
+      "relevance": "Die wichtigsten Intelligenzmodelle beruhen auf unterschiedlichen faktoranalytischen Lesarten derselben Leistungsdaten.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "18"
+      }
+    },
+    {
+      "id": "17-bridge-2",
+      "category": "verknuepfung",
+      "title": "IQ-Tests und Diagnostik",
+      "relevance": "Welches Modell bevorzugt wird, entscheidet unmittelbar ueber Testaufbau und Profilinterpretation.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "19"
+      }
+    }
+  ]
+}

@@ -3,17 +3,17 @@
   "id": "02",
   "slug": "thema-02",
   "legacy": {
-    "sourceFormat": "yaml-v1",
-    "sourcePath": "content/thema-02.yml"
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "src/content/recovered/analzy-pages/02-gestaltgesetze.bundle.txt"
   },
   "meta": {
-    "title": "Gestaltgesetze der Wahrnehmung und Prägnanzprinzip",
-    "discipline": "Wahrnehmungspsychologie",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "title": "Gestaltgesetze & Prägnanzprinzip",
+    "discipline": "Wahrnehmung & Kognition",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#c7b8ea",
     "tabNumber": 2,
-    "estimatedReadMinutes": 5,
-    "leadTeaser": "Wenn du eine Reihe von Lichtern am Nachthimmel als Sternbild erkennst oder eine Straßenansammlung automatisch als Verkehrsstau deutest, dann arbeiten die Gestaltgesetze der Wahrnehmung. Sie erklären, warum wir aus rohen Sinnesreizen sofort bedeutungsvolle Einheiten konstruieren."
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Warum wir mehr sehen, als vor unseren Augen ist"
   },
   "taxonomy": {
     "categoryId": "perception-and-cognition",
@@ -24,8 +24,8 @@
     ],
     "audience": [
       "erstsemester",
-      "adhs-freundlich",
-      "selbststudium"
+      "selbststudium",
+      "gui-authoring"
     ]
   },
   "crm": {
@@ -44,8 +44,8 @@
       ],
       "audience": [
         "erstsemester",
-        "adhs-freundlich",
-        "selbststudium"
+        "selbststudium",
+        "gui-authoring"
       ],
       "keywords": [
         "gestaltgesetze",
@@ -56,287 +56,206 @@
   },
   "sections": [
     {
-      "id": "02-lead-1",
+      "id": "02-lead",
       "type": "lead",
       "entries": [
         {
           "kind": "paragraph",
           "content": {
-            "text": "Wenn du eine Reihe von Lichtern am Nachthimmel als Sternbild erkennst oder eine Straßenansammlung automatisch als Verkehrsstau deutest, dann arbeiten die **Gestaltgesetze der Wahrnehmung**. Sie erklären, warum wir aus rohen Sinnesreizen sofort bedeutungsvolle Einheiten konstruieren.",
+            "text": "Warum wir mehr sehen, als vor unseren Augen ist",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ähnliche Elemente werden gruppiert — nach Farbe, Form, Größe oder Orientierung. Ein Schachbrettmuster aus schwarzen und weißen Kreisen wahrnehmen wir als Reihen gleicher Farbe, nicht als abwechselnde Diagonalen. In einem Scatterplot markieren wir verschiedene Gruppen mit unterschiedlichen Farben — genau weil unser visuelles System Ähnlichkeit nutzt.",
             "annotations": []
           }
         }
       ]
     },
     {
-      "id": "02-definition-2",
+      "id": "02-generated-definition",
       "type": "definition",
+      "title": "Begriffe und Definitionen",
       "entries": [
+        {
+          "kind": "subheading",
+          "text": "Figur"
+        },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Gestaltgesetze** sind beschreibende Regelmäßigkeiten der visuellen Wahrnehmung, nach denen wir Elemente zu übergeordneten Figuren gruppieren. Das übergeordnete **Prägnanzprinzip** besagt, dass wir Reize stets als möglichst einfache, symmetrische und stabile Gestalt organisieren.",
-            "annotations": [
-              {
-                "id": "02-definition-2-def-1",
-                "text": "Gestaltgesetze",
-                "kind": "definition",
-                "tooltip": "Psychologische Regeln, die beschreiben, wie unser visuelles System automatisch einzelne Reize zu sinnvollen Gruppen und Figuren zusammenfügt — vergleichbar mit einem unsichtbaren Organisator, der Chaos in Ordnung verwandelt.",
-                "tone": "blue"
-              },
-              {
-                "id": "02-definition-2-def-2",
-                "text": "Prägnanzprinzip",
-                "kind": "definition",
-                "tooltip": "Grundprinzip der Wahrnehmung: Unser Gehirn bevorzugt stets die einfachste, klarste und stabilste Deutung eines Reizes — wie ein Optimierungsalgorithmus, der nach der elegantesten Lösung sucht.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Der vordergründige, hervorgehobene Teil einer Wahrnehmung, auf den sich die Aufmerksamkeit richtet.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Grund"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Der unauffällige Hintergrund einer Wahrnehmung, gegen den sich die Figur abhebt.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Necker-Würfel"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Durchsichtige Zeichnung eines Würfels, bei der die Vorder- und Rückseite wechseln können — ein klassisches Beispiel für multistabile Wahrnehmung.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Wahrnehmungsset"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Bereitschaft, Reize in einer bestimmten Weise zu interpretieren, beeinflusst durch Erwartungen, Kontext und vorherige Erfahrungen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Affordanz"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Handlungsmöglichkeit, die ein Objekt oder eine Umgebung direkt anbietet — z. B. bietet eine Stuhlfläche das Sitzen an, ohne dass wir darüber nachdenken müssen.",
+            "annotations": []
           }
         }
       ]
     },
     {
-      "id": "02-explanation-3",
+      "id": "02-explanation",
       "type": "explanation",
+      "title": "Arbeitsfassung",
       "entries": [
         {
           "kind": "subheading",
-          "text": "Die historische Wurzel: Die Berliner Gestaltschule"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Max Wertheimer, Kurt Köhler und Wolfgang Köhler begründeten in den 1910er-Jahren die **Berliner Schule der Gestaltpsychologie**. Ihr zentrales Postulat lautete: Das Ganze ist anders als die Summe seiner Teile. Das bedeutet, dass Wahrnehmung nicht durch additives Zusammensetzen einzelner Reize entsteht, sondern durch eine emergente Organisation auf höherer Ebene (Wagemans et al., 2012).",
-            "annotations": [
-              {
-                "id": "02-explanation-3-src-9",
-                "text": "Max Wertheimer, Kurt Köhler und Wolfgang Köhler begründeten in den 1910er-Jahren die Berliner Schule der Gestaltpsychologie",
-                "kind": "citation",
-                "tooltip": "Wagemans et al. (2012)",
-                "tone": "red",
-                "sourceIds": [
-                  "02-source-4"
-                ]
-              }
-            ]
-          }
+          "text": "Die klassischen Gestaltgesetze"
         },
         {
           "kind": "subheading",
-          "text": "Die sechs klassischen Gestaltgesetze im Überblick"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Das **Gesetz der Nähe** besagt, dass Elemente, die räumlich oder zeitlich nahe beieinander liegen, als zusammengehörig wahrgenommen werden. Das **Gesetz der Ähnlichkeit** gruppiert Elemente nach gemeinsamen Eigenschaften wie Farbe, Form oder Größe. Das **Gesetz der guten Fortsetzung** führt Linien so weiter, dass möglichst glatte, geradlinige Verläufe entstehen — selbst wenn die physischen Reize unterbrochen sind. Das **Gesetz der Geschlossenheit** ergänzt unvollständige Formen zu vermeintlich geschlossenen Ganzen, weil geschlossene Figuren als stabiler und einfacher erlebt werden. Das **Gesetz der gemeinsamen Region** gruppiert alle Elemente, die sich innerhalb derselben abgegrenzten Fläche befinden, unabhängig von ihrer Entfernung zueinander (Todorovic, 2008). Schließlich führt das **Gesetz der gemeinsamen Bewegung** dazu, dass gleichzeitig und gleichgerichtet bewegte Elemente als Einheit wahrgenommen werden.",
-            "annotations": [
-              {
-                "id": "02-explanation-3-def-1",
-                "text": "Gesetz der Nähe",
-                "kind": "definition",
-                "tooltip": "Wir fassen Dinge, die nah beieinanderliegen, automatisch zusammen — wie Passanten auf einem Bürgersteig, die wir als Gruppe wahrnehmen, auch wenn sie sich nicht kennen.",
-                "tone": "blue"
-              },
-              {
-                "id": "02-explanation-3-def-2",
-                "text": "Gesetz der Ähnlichkeit",
-                "kind": "definition",
-                "tooltip": "Ähnlich aussehende Elemente werden zu einer Einheit gruppiert — gleiche Farben, Formen oder Größen verbinden sich in unserer Wahrnehmung wie von selbst.",
-                "tone": "blue"
-              },
-              {
-                "id": "02-explanation-3-def-3",
-                "text": "Gesetz der guten Fortsetzung",
-                "kind": "definition",
-                "tooltip": "Unser Auge zieht glatte, ununterbrochene Linien willkürlichen Knicken vor — eine unterbrochene Linie wird als geradlinig weiterlaufend ergänzt.",
-                "tone": "blue"
-              },
-              {
-                "id": "02-explanation-3-def-4",
-                "text": "Gesetz der Geschlossenheit",
-                "kind": "definition",
-                "tooltip": "Wir ergänzen unvollständige Formen zu geschlossenen Figuren, weil geschlossene Gestalten für unser Gehirn stabiler und verarbeitbarer sind.",
-                "tone": "blue"
-              },
-              {
-                "id": "02-explanation-3-def-5",
-                "text": "Gesetz der gemeinsamen Region",
-                "kind": "definition",
-                "tooltip": "Alles, was sich innerhalb desselben Rahmens oder auf derselben Fläche befindet, wird als zusammengehörig empfunden — unabhängig davon, wie weit die einzelnen Teile voneinander entfernt sind.",
-                "tone": "blue"
-              }
-            ]
-          }
+          "text": "Gesetz der Nähe"
         },
         {
           "kind": "subheading",
-          "text": "Das Prägnanzprinzip als übergeordnete Regel"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Metzger (2006) formulierte das Prägnanzprinzip als obersten Organisationszwang: Wir nehmen Reize stets als **gute Gestalt** wahr — das heißt als diejenige Organisation, die maximale Einfachheit, Symmetrie, Geschlossenheit und Konstanz aufweist. Wenn mehrere Organisationen eines Reizfeldes möglich sind, setzt sich die prägnanteste durch. Dieses Prinzip erklärt auch die **Figure-Grund-Organisation**: Ein Reizfeld spaltet sich spontan in eine Vordergrundfigur und einen Hintergrundgrund auf, wobei die Figur als beherrschende, geschlossene Gestalt hervortritt.",
-            "annotations": [
-              {
-                "id": "02-explanation-3-def-6",
-                "text": "gute Gestalt",
-                "kind": "definition",
-                "tooltip": "Die einfachste, symmetrischste und stabilste Organisation eines Reizes — diejenige Deutung, die unser Gehirn bevorzugt, weil sie am wenigsten kognitive Energie kostet.",
-                "tone": "blue"
-              },
-              {
-                "id": "02-explanation-3-def-7",
-                "text": "Figure-Grund-Organisation",
-                "kind": "definition",
-                "tooltip": "Spontane Aufteilung eines Sichtfeldes in einen dominanten Vordergrund und einen zurücktretenden Hintergrund — vergleichbar mit der Fokussierung auf ein Gesicht vor einer Wand.",
-                "tone": "blue"
-              },
-              {
-                "id": "02-explanation-3-src-11",
-                "text": "Metzger (2006) formulierte das Prägnanzprinzip als obersten Organisationszwang",
-                "kind": "citation",
-                "tooltip": "Metzger & W. (2006)",
-                "tone": "red",
-                "sourceIds": [
-                  "02-source-1"
-                ]
-              }
-            ]
-          }
+          "text": "Gesetz der Ähnlichkeit"
         },
         {
           "kind": "subheading",
-          "text": "Reversibilität: Wenn zwei Organisationen gleichberechtigt konkurrieren"
+          "text": "Gesetz der geschlossenen Form"
         },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "In bestimmten Reizkonfigurationen — wie der berühmten Vase-Gesicht-Figur oder dem Necker-Würfel — lassen sich zwei gleich prägnante Organisationen alternierend wahrnehmen. Diese **Reversibilität** zeigt, dass die Gestaltbildung kein statischer Prozess ist, sondern ein dynamisches Gleichgewicht zwischen konkurrierenden Wahrnehmungslösungen. Palmer (1999) betont, dass die Häufigkeit des Wechsels zwischen den Alternativen von der Aufmerksamkeit, der Erfahrung und den Anweisungen des Betrachters abhängt.",
-            "annotations": [
-              {
-                "id": "02-explanation-3-def-8",
-                "text": "Reversibilität",
-                "kind": "definition",
-                "tooltip": "Wechselnde Wahrnehmung bei mehrdeutigen Bildern, bei denen zwei gleich wahrscheinliche Organisationen abwechselnd dominieren — wie beim bekannten Vase-Gesicht-Phänomen.",
-                "tone": "blue"
-              },
-              {
-                "id": "02-explanation-3-src-10",
-                "text": "Palmer (1999) betont, dass die Häufigkeit des Wechsels zwischen den Alternativen von der Aufmerksamkeit, der Erfahrung und den Anweisungen des Betrachters abhängt",
-                "kind": "citation",
-                "tooltip": "Palmer & S. E. (1999)",
-                "tone": "red",
-                "sourceIds": [
-                  "02-source-3"
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "02-visual-4",
-      "type": "visual",
-      "asset": {
-        "kind": "svg-component",
-        "assetId": "02-visual-1",
-        "description": "SVG 1 — Gestaltgesetze-Demonstration (ViewBox 0 0 400 300, clean line-art, Wahrnehmung/Optik):\n- Panel A — Gesetz der Nähe: Zwei Reihen von je fünf Kreisen, horizontale Abstände klein, vertikale Abstände groß; Leser sieht Spalten statt Zeilen. Beschriftung: \"Gesetz der Nähe\"\n- Panel B — Gesetz der Ähnlichkeit: 3x3 Raster aus Kreisen, mittlere Reihe Quadrate statt Kreise; Leser sieht drei Zeilen, mittlere als separate Gruppe. Beschriftung: \"Gesetz der Ähnlichkeit\"\n- Panel C — Gesetz der guten Fortsetzung: Zwei überlappende wellenförmige Linien, die als zwei glatte Kurven wahrgenommen werden statt als vier zackige Segmente. Beschriftung: \"Gesetz der guten Fortsetzung\"\n- Panel D — Gesetz der Geschlossenheit: Vier Kreisbögen, die ein Quadrat andeuten, obwohl die Seiten fehlen. Beschriftung: \"Gesetz der Geschlossenheit\"\n- Panel E — Gesetz der gemeinsamen Region: Zwei Gruppen von Punkten, jede in einem abgerundeten Rechteck eingeschlossen. Beschriftung: \"Gesetz der gemeinsamen Region\"\n- Anordnung: 2x3 Raster, Panel E über zwei Spalten zentriert\n- Deutsche Beschriftungen in 12px DM Sans, Stroke #1a1a1a 2px, keine Füllung außer leichtem Tab-Farbton-Hintergrund für Regionen\nTitle: \"Demonstration der fünf klassischen Gestaltgesetze durch geometrische Anordnungen\"\nDesc: \"Fünf Panels zeigen, wie Nähe, Ähnlichkeit, gute Fortsetzung, Geschlossenheit und gemeinsame Region die automatische Gruppierung von Reizen steuern\"\n",
-        "alt": "Die Grafik zeigt, wie identische Reize je nach räumlicher Anordnung, Ähnlichkeit oder Kontext in völlig verschiedene Gruppen und Gestalten organisiert werden — die zentrale Leistung der visuellen Wahrnehmung."
-      },
-      "caption": "Die Grafik zeigt, wie identische Reize je nach räumlicher Anordnung, Ähnlichkeit oder Kontext in völlig verschiedene Gruppen und Gestalten organisiert werden — die zentrale Leistung der visuellen Wahrnehmung."
-    },
-    {
-      "id": "02-visual-5",
-      "type": "visual",
-      "asset": {
-        "kind": "svg-component",
-        "assetId": "02-visual-2",
-        "description": "SVG 2 — Figure-Grund-Reversibilität (ViewBox 0 0 400 200, clean line-art):\n- Klassische Vase-Gesicht-Figur in der Mitte: Zwei schwarze Profile von Angesichtern, die sich gegenüberstehen; der dazwischenliegende weiße Raum bildet eine Vase\n- Beschriftung links: \"Gesichter als Figur\", Beschriftung rechts: \"Vase als Figur\"\n- Pfeile deuten auf die jeweilige Figurorganisation hin\n- Gestrichelte Linie zeigt die Grenze zwischen Figur und Grund\n- Deutsche Beschriftung unten: \"Figure-Grund-Organisation und Reversibilität\"\n- Stroke #1a1a1a 2px, keine Farbfüllung außer schwarzen Profilen\nTitle: \"Klassische Vase-Gesicht-Figur als Demonstration der Reversibilität\"\nDesc: \"Zwei gegenüberliegende Gesichtsprofile erzeugen im Zwischenraum eine Vase — ein Paradebeispiel für wechselnde Figure-Grund-Organisation\"\n",
-        "alt": "Das Bild demonstriert, wie ein und dasselbe Reizfeld zwei gleichberechtigte Organisationen zulässt — Gesichter oder Vase — und damit die Reversibilität der Wahrnehmung anschaulich macht."
-      },
-      "caption": "Das Bild demonstriert, wie ein und dasselbe Reizfeld zwei gleichberechtigte Organisationen zulässt — Gesichter oder Vase — und damit die Reversibilität der Wahrnehmung anschaulich macht."
-    },
-    {
-      "id": "02-deep_dive-6",
-      "type": "deep_dive",
-      "entries": [
         {
           "kind": "subheading",
-          "text": "Neuronal korreliert: Wo im Gehirn Gestalten entstehen"
+          "text": "Gesetz der guten Fortsetzung"
+        },
+        {
+          "kind": "subheading",
+          "text": "Gesetz des gemeinsamen Schicksals"
+        },
+        {
+          "kind": "subheading",
+          "text": "Figur-Grund-Organisation"
+        },
+        {
+          "kind": "subheading",
+          "text": "Das Prägnanzprinzip: Das Ganze ist anders als die Summe seiner Teile"
+        },
+        {
+          "kind": "subheading",
+          "text": "Bottom-up vs. Top-down: Zwei Wege zur Wahrnehmung"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Wagemans et al. (2012) fassen drei Jahrzehnte neurophysiologische Forschung zusammen und zeigen, dass Gestaltgesetze nicht bloße Heuristiken des Betrachters sind, sondern in den frühen visuellen Arealen des Gehirns verankert sind. Neuronale Populationen im primären visuellen Kortex (V1) und in höheren Arealen wie V2 und V4 kodieren bereits Kontinuität, Geschlossenheit und gemeinsame Region als Populationencode. Dies bedeutet, dass Gestaltorganisation weitgehend preattentiv abläuft — bevor bewusste Aufmerksamkeit einsetzt.",
+            "text": "Linien werden so wahrgenommen, dass sie sich möglichst glatt fortsetzen. Wenn zwei Linien sich kreuzen, sehen wir nicht zwei spitze Winkel, sondern zwei durchgehende Linien, die sich überkreuzen. Das erklärt, warum wir verschlungene Schnüre als separate, kontinuierliche Fäden erkennen.",
             "annotations": []
           }
         },
         {
-          "kind": "subheading",
-          "text": "Kritik und moderne Erweiterung"
+          "kind": "paragraph",
+          "content": {
+            "text": "Elemente, die sich gemeinsam in dieselbe Richtung bewegen, werden als Einheit gesehen — unabhängig von ihrer räumlichen Nähe oder Ähnlichkeit. Ein Schwarm Vögel, der synchron durch den Himmel zieht, wird als eine Gruppe wahrgenommen, selbst wenn die einzelnen Vögel weit auseinanderliegen.",
+            "annotations": []
+          }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Todorovic (2008) weist darauf hin, dass die klassischen Gestaltgesetze deskriptiv bleiben und keine kausale Erklärung der zugrundeliegenden Mechanismen liefern. Die moderne computergestützte Bildanalyse nutzt Gestaltprinzipien jedoch erfolgreich für Objekterkennungsalgorithmen. Palmer (1999) argumentiert zudem, dass Erfahrung und Top-Down-Prozesse die Gestaltwahrnehmung modifizieren — ein Betrachter, der eine bestimmte Figur erwartet, neigt dazu, sie auch in ambigen Reizen zu finden. Diese Beobachtung relativiert die ursprüngliche Behauptung einer reinen, erfahrungsunabhängigen Gestaltorganisation.",
-            "annotations": [
-              {
-                "id": "02-deep_dive-6-src-2",
-                "text": "Todorovic (2008) weist darauf hin, dass die klassischen Gestaltgesetze deskriptiv bleiben und keine kausale Erklärung der zugrundeliegenden Mechanismen liefern",
-                "kind": "citation",
-                "tooltip": "Todorovic & D. (2008)",
-                "tone": "red",
-                "sourceIds": [
-                  "02-source-2"
-                ]
-              },
-              {
-                "id": "02-deep_dive-6-src-3",
-                "text": "Palmer (1999) argumentiert zudem, dass Erfahrung und Top-Down-Prozesse die Gestaltwahrnehmung modifizieren",
-                "kind": "citation",
-                "tooltip": "Palmer & S. E. (1999)",
-                "tone": "red",
-                "sourceIds": [
-                  "02-source-3"
-                ]
-              }
-            ]
+            "text": "The ecological approach to visual perception",
+            "annotations": []
           }
-        }
-      ]
-    },
-    {
-      "id": "02-example-7",
-      "type": "example",
-      "entries": [
+        },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Stell dir vor, du sitzt in einem vollen Wiener Kaffeehaus. Die vielen Stimmen, Tische und Gegenstände um dich herum würden chaotisch wirken, wenn dein visuelles System nicht automatisch gruppierte. Dank des Gesetzes der Nähe erkennst du, welche Tassen zu welchem Tisch gehören. Dank des Gesetzes der Ähnlichkeit hebst du die Kellner in ihren weißen Hemden aus dem Hintergrund hervor. Dank des Gesetzes der gemeinsamen Region erfasst du ein reserviertes Schild auf einem Tisch als zusammengehörige Einheit. Und wenn du durch die Fensterfront auf die Straße schaust, ergänzt dein Gehirn die teilweise verdeckten Gebäude zu vollständigen Formen — das Gesetz der Geschlossenheit in Aktion.",
+            "text": "Michael Bach: Optische Täuschungen",
             "annotations": []
           }
         }
       ]
     },
     {
-      "id": "02-summary-8",
+      "id": "02-visuals-1",
+      "type": "visual",
+      "title": "Illustrationen",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-gestalt-grouping.png",
+        "description": "Recovered illustration illu-gestalt-grouping.png from analzy deployment bundle.",
+        "alt": "Gestaltgesetze & Prägnanzprinzip: Gestalt Grouping"
+      },
+      "caption": "Gestalt Grouping"
+    },
+    {
+      "id": "02-visuals-2",
+      "type": "visual",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-praegnanz.png",
+        "description": "Recovered illustration illu-praegnanz.png from analzy deployment bundle.",
+        "alt": "Gestaltgesetze & Prägnanzprinzip: Praegnanz"
+      },
+      "caption": "Praegnanz"
+    },
+    {
+      "id": "02-visuals-3",
+      "type": "visual",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-optical-illusions.png",
+        "description": "Recovered illustration illu-optical-illusions.png from analzy deployment bundle.",
+        "alt": "Gestaltgesetze & Prägnanzprinzip: Optical Illusions"
+      },
+      "caption": "Optical Illusions"
+    },
+    {
+      "id": "02-summary",
       "type": "summary",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Die Gestaltgesetze beschreiben automatische Regelmäßigkeiten der visuellen Gruppierung: Nähe, Ähnlichkeit, gute Fortsetzung, Geschlossenheit und gemeinsame Region strukturieren rohe Reize zu bedeutsamen Figuren.",
+              "text": "← Aktionspotential",
               "annotations": []
             },
             {
-              "text": "Das Prägnanzprinzip besagt, dass wir stets die einfachste, symmetrischste und stabilste Organisation bevorzugen — dies erklärt auch die Figure-Grund-Aufteilung und die Reversibilität ambiger Reize.",
-              "annotations": []
-            },
-            {
-              "text": "Moderne Forschung zeigt, dass Gestaltprinzipien bereits in frühen visuellen Hirnarealen neuronal verankert sind, auch wenn ihre kausale Erklärung weiterhin offen bleibt.",
+              "text": "← Arbeitsgedächtnis",
               "annotations": []
             }
           ]
@@ -346,76 +265,74 @@
   ],
   "sources": [
     {
-      "id": "02-source-1",
-      "kind": "secondary",
-      "shortCitation": "Metzger & W. (2006)",
-      "apaCitation": "Metzger, W. (2006). Gesetze des Sehens (3. Aufl.). Waldemar Kramer. (Originalwerk 1936)",
-      "tooltip": "Klassisches Lehrbuch der Gestaltpsychologie, das die Gesetze des Sehens systematisch formulierte und das Prägnanzprinzip als obersten Organisationszwang etablierte.",
+      "id": "02-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Wertheimer & M. (1923)",
+      "apaCitation": "Wertheimer, M. (1923). Untersuchungen zur Lehre von der Gestalt. II. Psychologische Forschung, 4, 301–350.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "02-source-2",
-      "kind": "review",
-      "shortCitation": "Todorovic & D. (2008)",
-      "apaCitation": "Todorovic, D. (2008). Gestalt principles. Scholarpedia, 3(12), 5345. https://doi.org/10.4249/scholarpedia.5345",
-      "tooltip": "Peer-Review-Artikel, der die klassischen Gestaltgesetze systematisch darstellt und auf ihre deskriptive Natur sowie den Mangel kausaler Erklärungen hinweist.",
-      "url": "https://doi.org/10.4249/scholarpedia.5345",
-      "doi": "10.4249/scholarpedia.5345",
+      "id": "02-recovered-source-2",
+      "kind": "other",
+      "shortCitation": "Koffka & K. (1935)",
+      "apaCitation": "Koffka, K. (1935). Principles of Gestalt psychology. Harcourt, Brace and Company.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "02-source-3",
-      "kind": "secondary",
-      "shortCitation": "Palmer & S. E. (1999)",
-      "apaCitation": "Palmer, S. E. (1999). Vision science: Photons to phenomenology. MIT Press.",
-      "tooltip": "Umfassendes Lehrbuch der Sehwissenschaft, das die Gestaltprinzipien in den Kontext moderner visueller Kognition und neuronaler Verarbeitung einbettet.",
+      "id": "02-recovered-source-3",
+      "kind": "other",
+      "shortCitation": "Köhler & W. (1947)",
+      "apaCitation": "Köhler, W. (1947). Gestalt psychology. Liveright Publishing.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "02-source-4",
-      "kind": "review",
-      "shortCitation": "Wagemans et al. (2012)",
-      "apaCitation": "Wagemans, J., Elder, J. H., Kubovy, M., Palmer, S. E., Peterson, M. A., Singh, M., & von der Heydt, R. (2012). A century of Gestalt psychology in visual perception: I. Perceptual grouping and figure-ground organization. Psychological Bulletin, 138(6), 1172–1217. https://doi.org/10.1037/a0029333",
-      "tooltip": "Umfassender Review, der hundert Jahre Gestaltforschung zusammenfasst und die neuronalen Korrelate der Gestaltgesetze in frühen visuellen Kortexarealen darlegt.",
-      "url": "https://doi.org/10.1037/a0029333",
-      "doi": "10.1037/a0029333",
+      "id": "02-recovered-source-4",
+      "kind": "other",
+      "shortCitation": "Gibson & J. J. (1979)",
+      "apaCitation": "Gibson, J. J. (1979). The ecological approach to visual perception. Houghton Mifflin.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     }
   ],
   "relatedResources": [
     {
-      "id": "02-resource-1",
-      "category": "Kunstwerk",
-      "title": "M. C. Escher: Sky and Water I (1938)",
-      "relevance": "Demonstriert Reversibilität und Figure-Grund-Organisation in der bildenden Kunst und veranschaulicht die Prägnanzprinzipien jenseits des Laboratoriums.",
-      "url": "https://www.mcescher.com/gallery/recognition-of-similarity/"
+      "id": "02-connection-1",
+      "category": "verknuepfung",
+      "title": "← Aktionspotential",
+      "relevance": "Recovered internal concept link from /gestaltgesetze.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "01"
+      }
     },
     {
-      "id": "02-resource-2",
-      "category": "Buch",
-      "title": "Arnheim, R. (2004). Kunst und Sehen: Eine Psychologie des creativen Auges (Neuaufl.). Deutscher Taschenbuch Verlag.",
-      "relevance": "Verbindet Gestaltpsychologie mit ästhetischer Wahrnehmung und zeigt, wie die Gesetze des Sehens die Kunstgeschichte durchdringen.",
-      "url": "https://www.dtv.de/buch/rudolf-arnheim-kunst-und-sehen-73222"
+      "id": "02-connection-2",
+      "category": "verknuepfung",
+      "title": "← Arbeitsgedächtnis",
+      "relevance": "Recovered internal concept link from /gestaltgesetze.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "03"
+      }
     }
   ]
 }

@@ -3,17 +3,17 @@
   "id": "01",
   "slug": "thema-01",
   "legacy": {
-    "sourceFormat": "yaml-v1",
-    "sourcePath": "content/thema-01.yml"
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "src/content/recovered/analzy-pages/01-aktionspotential.bundle.txt"
   },
   "meta": {
-    "title": "Aktionspotential und synaptische Transmission",
-    "discipline": "Biologische Psychologie / Neuropsychologie",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "title": "Aktionspotential & Synaptische Transmission",
+    "discipline": "Biologische Psychologie",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#98d4bb",
     "tabNumber": 1,
-    "estimatedReadMinutes": 5,
-    "leadTeaser": "Jeder Gedanke, jedes Gefühl, jede Bewegung beginnt als elektrischer Impuls in einer Nervenzelle. Das Aktionspotential und die synaptische Übertragung bilden das biologische Fundament aller psychischen Prozesse."
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Wie Neurone miteinander kommunizieren — von der Ionenpumpe bis zur Synapse"
   },
   "taxonomy": {
     "categoryId": "biological-psychology",
@@ -24,8 +24,8 @@
     ],
     "audience": [
       "erstsemester",
-      "adhs-freundlich",
-      "selbststudium"
+      "selbststudium",
+      "gui-authoring"
     ]
   },
   "crm": {
@@ -44,8 +44,8 @@
       ],
       "audience": [
         "erstsemester",
-        "adhs-freundlich",
-        "selbststudium"
+        "selbststudium",
+        "gui-authoring"
       ],
       "keywords": [
         "aktionspotential",
@@ -56,420 +56,296 @@
   },
   "sections": [
     {
-      "id": "01-lead-1",
+      "id": "01-lead",
       "type": "lead",
       "entries": [
         {
           "kind": "paragraph",
           "content": {
-            "text": "Jeder Gedanke, jedes Gefühl, jede Bewegung beginnt als elektrischer Impuls in einer Nervenzelle. Das **Aktionspotential** und die **synaptische Übertragung** bilden das biologische Fundament aller psychischen Prozesse.",
+            "text": "Wie Neurone miteinander kommunizieren — von der Ionenpumpe bis zur Synapse",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Eine Nervenzelle in Ruhe trägt eine negative Ladung von etwa −70 Millivolt (mV) im Inneren relativ zum Außenraum. Diese Spannung entsteht durch drei Faktoren.",
             "annotations": []
           }
         }
       ]
     },
     {
-      "id": "01-definition-2",
+      "id": "01-generated-definition",
       "type": "definition",
-      "entries": [
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Das **Aktionspotential** ist ein kurzzeitiger, all-oder-nichts-Spannungsimpuls entlang einer Nervenfaser, der durch den gesteuerten Austausch von Natrium- und Kaliumionen über die Zellmembran zustande kommt.",
-            "annotations": [
-              {
-                "id": "01-definition-2-def-1",
-                "text": "Aktionspotential",
-                "kind": "definition",
-                "tooltip": "Elektrischer Nervenimpuls, der wie ein Wasserknopf funktioniert: Entweder er geht vollständig los oder gar nicht — es gibt keine halbe Stärke.",
-                "tone": "blue"
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "01-explanation-3",
-      "type": "explanation",
+      "title": "Begriffe und Definitionen",
       "entries": [
         {
           "kind": "subheading",
-          "text": "Das Ruhepotenzial: Die Voraussetzung für jede Erregung"
+          "text": "Na⁺/K⁺-ATPase"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "In Ruhe herrscht an der Membran eines Neurons eine elektrische Spannung von etwa −70 Millivolt. Dieses **Ruhepotenzial** entsteht, weil mehr positive Ionen außerhalb als innerhalb der Zelle vorhanden sind. Die Natrium-Kalium-Pumpe und die relative Undurchlässigkeit der Membran für geladene Teilchen halten diesen Zustand aufrecht (Schmidt et al., 2017).",
-            "annotations": [
-              {
-                "id": "01-explanation-3-def-1",
-                "text": "Ruhepotenzial",
-                "kind": "definition",
-                "tooltip": "Elektrische Spannung an der Nervenzellmembran im Ausgangszustand, vergleichbar mit einem aufgeladenen Akku, der auf den Auslöser wartet.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-src-10",
-                "text": "in Ruhe herrscht an der Membran eines Neurons eine elektrische Spannung von etwa −70 Millivolt",
-                "kind": "citation",
-                "tooltip": "Schmidt et al. (2017)",
-                "tone": "red",
-                "sourceIds": [
-                  "01-source-2"
-                ]
-              }
-            ]
+            "text": "Eine Energie verbrauchende Ionenpumpe, die 3 Natrium-Ionen (Na⁺) aus der Zelle pumpt und 2 Kalium-Ionen (K⁺) hineintransportiert — gegen deren Konzentrationsgradienten.",
+            "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Die Depolarisation: Der Punkt ohne Umkehr"
+          "text": "K⁺-Leak-Kanäle"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Wenn ein Reiz die Membranspannung auf etwa −55 mV anhebt, öffnen sich spannungsabhängige Natriumkanäle am **Axonhillock**. Es strömt Na⁺ in die Zelle ein — die Membran depolarisiert und kippt kurzzeitig ins Positive. Dieser Moment ist der entscheidende Schritt, der das Aktionspotential unvermeidlich auslöst. Die **all-oder-nichts-Regel** besagt: Erreicht der Reiz die Schwelle, entsteht stets ein vollständiges Aktionspotential; unterschreitet er sie, passiert nichts (Bear et al., 2016).",
-            "annotations": [
-              {
-                "id": "01-explanation-3-def-3",
-                "text": "all-oder-nichts-Regel",
-                "kind": "definition",
-                "tooltip": "Grundprinzip des Aktionspotentials: Entweder der Reiz überschreitet die Schwelle und ein voller Impuls entsteht, oder es passiert überhaupt nichts — wie bei einem Lichtschalter, nicht wie bei einem Dimmer.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-def-8",
-                "text": "Axonhillock",
-                "kind": "definition",
-                "tooltip": "Enger Übergangsbereich zwischen Zellkörper und Axon, an dem die Entscheidung fällt, ob ein Aktionspotential ausgelöst wird — der Schaltkreis des Neurons.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-src-11",
-                "text": "Die all-oder-nichts-Regel besagt: Erreicht der Reiz die Schwelle, entsteht stets ein vollständiges Aktionspotential",
-                "kind": "citation",
-                "tooltip": "Bear et al. (2016)",
-                "tone": "red",
-                "sourceIds": [
-                  "01-source-1"
-                ]
-              }
-            ]
+            "text": "Passiv geöffnete Ionenkanäle, die Kalium-Ionen (K⁺) aus der Zelle strömen lassen und so zur negativen Membranspannung beitragen.",
+            "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Repolarisation und Refraktärzeit: Die Erholungsphase"
+          "text": "Phospholipid-Doppelschicht"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Nach der Depolarisation schließen sich die Natriumkanäle, und Kaliumkanäle öffnen sich. K⁺ strömt aus der Zelle heraus, die Membran kehrt zu negativen Werten zurück — dies nennt man **Repolarisation**. Kurz darauf überschießt die Spannung kurzzeitig das Ruhepotenzial (**Hyperpolarisation**). Während der anschließenden **Refraktärzeit** ist das Neuron vorübergehend nicht oder nur schwer erregbar. Diese Phase verhindert, dass sich Impulse rückwärts ausbreiten und sichert die gerichtete Weiterleitung des Signals (Purves et al., 2018).",
-            "annotations": [
-              {
-                "id": "01-explanation-3-def-1",
-                "text": "Ruhepotenzial",
-                "kind": "definition",
-                "tooltip": "Elektrische Spannung an der Nervenzellmembran im Ausgangszustand, vergleichbar mit einem aufgeladenen Akku, der auf den Auslöser wartet.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-def-2",
-                "text": "Depolarisation",
-                "kind": "definition",
-                "tooltip": "Umkehr der Membranspannung durch Einstrom positiver Natriumionen — der Moment, in dem die Nervenzelle umschaltet von Ruhe auf Aktivität.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-def-4",
-                "text": "Repolarisation",
-                "kind": "definition",
-                "tooltip": "Rückkehr der Membranspannung zu negativen Werten durch Ausstrom von Kaliumionen — die Zelle stellt ihren Ausgangszustand wieder her.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-def-5",
-                "text": "Hyperpolarisation",
-                "kind": "definition",
-                "tooltip": "Kurzzeitige Überschreitung des Ruhepotenzials ins Negative — die Membran wird kurz noch undurchlässiger für neue Erregung.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-def-6",
-                "text": "Refraktärzeit",
-                "kind": "definition",
-                "tooltip": "Erholungsphase nach einem Aktionspotential, in der die Nervenzelle vorübergehend nicht oder nur schwer ein neues Signal auslösen kann — vergleichbar mit der Nachladezeit einer Kamera.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Doppelschicht aus Fettmolekülen, die die Zellmembran bildet und für deren elektrische Isolationsfähigkeit sorgt.",
+            "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Ionenkanäle als molekulare Schalter"
+          "text": "Ionenkanal"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Ionenkanäle** sind Proteine, die in die Zellmembran eingebettet sind und wie selektive Tore funktionieren. Hodgkin und Huxley (1952) formulierten das erste mathematische Modell dieser Kanäle und zeigten, dass der Ionenfluss präzise durch Spannungsänderungen gesteuert wird. Ihr Modell beschreibt drei Zustände: Ruhe (Kanäle geschlossen), Aktivierung (Kanäle geöffnet) und Inaktivierung (Kanäle blockiert trotz anhaltender Depolarisation).",
-            "annotations": [
-              {
-                "id": "01-explanation-3-def-2",
-                "text": "Depolarisation",
-                "kind": "definition",
-                "tooltip": "Umkehr der Membranspannung durch Einstrom positiver Natriumionen — der Moment, in dem die Nervenzelle umschaltet von Ruhe auf Aktivität.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-def-7",
-                "text": "Ionenkanäle",
-                "kind": "definition",
-                "tooltip": "Spezialisierte Proteine in der Zellmembran, die wie selektive Schleusen geladene Teilchen passieren lassen, aber nur bei bestimmten Bedingungen.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-3-src-9",
-                "text": "Hodgkin und Huxley (1952) formulierten das erste mathematische Modell dieser Kanäle",
-                "kind": "citation",
-                "tooltip": "Hodgkin et al. (1952)",
-                "tone": "red",
-                "sourceIds": [
-                  "01-source-3"
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "01-visual-4",
-      "type": "visual",
-      "asset": {
-        "kind": "svg-component",
-        "assetId": "01-visual-1",
-        "description": "SVG 1 — Aktionspotential-Verlauf (ViewBox 0 0 400 300, clean line-art):\n- X-Achse: Zeit in Millisekunden (Beschriftung: 0, 1, 2, 3, 4 ms)\n- Y-Achse: Membranspannung in mV (Beschriftung: −70, −55, 0, +40)\n- Kurve: Stetige Linie vom Ruhepotenzial (−70) steil ansteigend über Schwelle (−55, gestrichelte horizontale Linie) bis zum Peak (+40), dann steil abfallend unter −70 (Hyperpolarisation), schwingend zurück zu −70\n- Farbige Segmente entlang der Kurve: grüner Bereich für Depolarisation, roter Bereich für Repolarisation, blauer Bereich für Refraktärzeit\n- Beschriftungen in Deutsch: \"Ruhepotenzial\", \"Schwelle\", \"Depolarisation\", \"Repolarisation\", \"Hyperpolarisation\", \"Refraktärzeit\"\n- Keine Füllungen außer leichten Akzentflächen, Stroke #1a1a1a 2px\nTitle: \"Verlauf eines Aktionspotentials mit Depolarisation, Repolarisation und Refraktärzeit\"\nDesc: \"Diagramm zeigt den charakteristischen Spannungsverlauf eines Nervenimpulses über vier Millisekunden mit beschrifteten Phasen\"\n",
-        "alt": "Das Diagramm zeigt, wie die Membranspannung beim Überschreiten der Schwelle explosionsartig ansteigt und anschließend in die Refraktärzeit absinkt — die physikalische Basis der all-oder-nichts-Regel."
-      },
-      "caption": "Das Diagramm zeigt, wie die Membranspannung beim Überschreiten der Schwelle explosionsartig ansteigt und anschließend in die Refraktärzeit absinkt — die physikalische Basis der all-oder-nichts-Regel."
-    },
-    {
-      "id": "01-explanation-5",
-      "type": "explanation",
-      "entries": [
-        {
-          "kind": "subheading",
-          "text": "Von der elektrischen zur chemischen Signalübertragung"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Wenn das Aktionspotential die **präsynaptische Endigung** erreicht, öffnen sich dort spannungsabhängige Calciumkanäle. Ca²⁺ strömt in die Zelle und löst die Fusion von Synapsenvesikeln mit der Zellmembran aus. Darin gespeicherte **Neurotransmitter** — bei erregenden Synapsen vorwiegend **Glutamat**, bei hemmenden Synapsen vorwiegend **GABA** — werden in die **synaptische Spalt** freigesetzt (Purves et al., 2018).",
-            "annotations": [
-              {
-                "id": "01-explanation-5-def-1",
-                "text": "präsynaptische Endigung",
-                "kind": "definition",
-                "tooltip": "Endbereich des sendenden Neurons, in dem die Signalübertragung auf die nächste Zelle vorbereitet wird — vergleichbar mit einer Werkstatt, in der die Botenstoffe verpackt und versandfertig gemacht werden.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-5-def-2",
-                "text": "Neurotransmitter",
-                "kind": "definition",
-                "tooltip": "Chemische Botenstoffe, die als Brücke zwischen zwei Nervenzellen dienen und über den synaptischen Spalt hinweg Informationen weitergeben.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-5-def-3",
-                "text": "Glutamat",
-                "kind": "definition",
-                "tooltip": "Haupt-erregender Neurotransmitter im zentralen Nervensystem — er schaltet die nächste Zelle gewissermaßen ein und macht sie empfänglicher für weitere Signale.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-5-def-4",
-                "text": "GABA",
-                "kind": "definition",
-                "tooltip": "Haupt-hemmender Neurotransmitter im zentralen Nervensystem — er bremst die Aktivität der nachfolgenden Zelle und sorgt für Kontrolle und Balance.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-5-def-5",
-                "text": "synaptische Spalt",
-                "kind": "definition",
-                "tooltip": "Winziger Zwischenraum von etwa 20–40 Nanometern zwischen zwei Nervenzellen, den die chemischen Botenstoffe überqueren müssen, um das Signal weiterzugeben.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-5-src-10",
-                "text": "Ca²⁺ strömt in die Zelle und löst die Fusion von Synapsenvesikeln mit der Zellmembran aus",
-                "kind": "citation",
-                "tooltip": "Purves et al. (2018)",
-                "tone": "red",
-                "sourceIds": [
-                  "01-source-4"
-                ]
-              }
-            ]
+            "text": "Protein in der Zellmembran, das den Durchtritt bestimmter Ionen ermöglicht — oft gesteuert durch Spannung, Liganden oder mechanische Reize.",
+            "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Die Bindung an postsynaptische Rezeptoren"
+          "text": "Konzentrationsgradient"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die freigesetzten Moleküle diffundieren durch die synaptische Spalt — einen Raum von etwa 20–40 Nanometern — und binden an spezifische **postsynaptische Rezeptoren**. Diese Rezeptoren sind ebenfalls Ionenkanäle oder mit Ionenkanälen gekoppelte Proteine. Bei erregenden Synapsen öffnen sie für kurze Zeit den Weg für Na⁺, was die postsynaptische Membran depolarisiert (**exzitatorische postsynaptische Potential**, EPSP). Bei hemmenden Synapsen strömt Cl⁻ in die Zelle oder K⁺ heraus, was die Membran hyperpolarisiert (**inhibitorische postsynaptische Potential**, IPSP) (Bear et al., 2016).",
-            "annotations": [
-              {
-                "id": "01-explanation-5-def-5",
-                "text": "synaptische Spalt",
-                "kind": "definition",
-                "tooltip": "Winziger Zwischenraum von etwa 20–40 Nanometern zwischen zwei Nervenzellen, den die chemischen Botenstoffe überqueren müssen, um das Signal weiterzugeben.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-5-def-6",
-                "text": "postsynaptische Rezeptoren",
-                "kind": "definition",
-                "tooltip": "Spezifische Ankerstellen auf der empfangenden Zelle, an denen Neurotransmitter andocken — vergleichbar mit Schlössern, für die nur bestimmte Schlüssel passen.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-5-def-7",
-                "text": "exzitatorische postsynaptische Potential",
-                "kind": "definition",
-                "tooltip": "Kurzzeitige Erhöhung der Membranspannung auf der empfangenden Seite, die die Wahrscheinlichkeit erhöht, dass diese Zelle selbst ein Aktionspotential auslöst.",
-                "tone": "blue"
-              },
-              {
-                "id": "01-explanation-5-def-8",
-                "text": "inhibitorische postsynaptische Potential",
-                "kind": "definition",
-                "tooltip": "Kurzzeitige Absenkung der Membranspannung auf der empfangenden Seite, die die Wahrscheinlichkeit verringert, dass diese Zelle ein Aktionspotential auslöst.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Unterschied in der Ionenkonzentration zwischen Intra- und Extrazellulärraum, der als treibende Kraft für den passiven Ionenfluss wirkt.",
+            "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Exzitatorisch versus inhibitorisch: Das Gleichgewicht der Erregung"
+          "text": "Depolarisation"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ob ein Neuron letztlich selbst ein Aktionspotential auslöst, hängt von der zeitlichen und räumlichen Summation aller eingehenden EPSPs und IPSPs am Axonhillock ab. Schmidt et al. (2017) betonen, dass dieses Prinzip die biologische Grundlage für jede Informationsverarbeitung im Gehirn bildet — von einfachen Reflexen bis zu höchsten kognitiven Leistungen.",
-            "annotations": [
-              {
-                "id": "01-explanation-5-src-9",
-                "text": "Ob ein Neuron letztlich selbst ein Aktionspotential auslöst, hängt von der zeitlichen und räumlichen Summation aller eingehenden EPSPs und IPSPs am Axonhillock ab",
-                "kind": "citation",
-                "tooltip": "Schmidt et al. (2017)",
-                "tone": "red",
-                "sourceIds": [
-                  "01-source-2"
-                ]
-              }
-            ]
-          }
-        }
-      ]
-    },
-    {
-      "id": "01-visual-6",
-      "type": "visual",
-      "asset": {
-        "kind": "svg-component",
-        "assetId": "01-visual-2",
-        "description": "SVG 2 — Synapse im Querschnitt (ViewBox 0 0 400 400, clean line-art, anatomisch):\n- Oben: Präsynaptische Endigung mit runden Synapsenvesikeln darin, Calciumionen (Ca²⁺) als kleine Kreise von außen einströmend, Pfeil zeigt Ca²⁺-Fluss durch Membrankanäle\n- Mittig: Synaptische Spalt als breiter Zwischenraum mit schraffiertem Hintergrund, darin Neurotransmittermoleküle als kleine Kreuze/X-Symbole diffundierend\n- Unten: Postsynaptische Membran mit eingebetteten Rezeptoren als Y-förmige Strukturen, einige mit gebundenem Neurotransmitter\n- Beschriftungen in Deutsch: \"Präsynaptische Endigung\", \"Synapsenvesikel\", \"Ca²⁺-Kanäle\", \"Synaptische Spalt\", \"Neurotransmitter\", \"Postsynaptische Rezeptoren\", \"Postsynaptische Membran\"\n- Farbakzente: grün für erregende Übertragung (Na⁺-Pfeile), rot für Vesikel-Fusion\n- Zellmembranen als dicke Linien (3px), Organelle als einfache Konturen\nTitle: \"Anatomischer Querschnitt einer chemischen Synapse mit Neurotransmitter-Freisetzung\"\nDesc: \"Schematische Darstellung der Signalübertragung von der präsynaptischen zur postsynaptischen Zelle über den synaptischen Spalt\"\n",
-        "alt": "Das Bild verdeutlicht, wie Calciumionen die Freisetzung von Neurotransmittern auslösen und diese über die synaptische Spalt die postsynaptischen Rezeptoren erreichen — der Übergang vom elektrischen zum chemischen Signal."
-      },
-      "caption": "Das Bild verdeutlicht, wie Calciumionen die Freisetzung von Neurotransmittern auslösen und diese über die synaptische Spalt die postsynaptischen Rezeptoren erreichen — der Übergang vom elektrischen zum chemischen Signal."
-    },
-    {
-      "id": "01-deep_dive-7",
-      "type": "deep_dive",
-      "entries": [
-        {
-          "kind": "subheading",
-          "text": "Hodgkin-Huxley-Modell: Die mathematische Grundlage"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Hodgkin und Huxley (1952) entwickelten ein System von vier gekoppelten Differentialgleichungen, das den Zustand der Natrium- und Kaliumkanäle als Funktion der Membranspannung beschreibt. Dieses Modell erklärt nicht nur die Form des Aktionspotentials, sondern auch die Refraktärzeit und die Leitungsgeschwindigkeit entlang markhaltiger versus unmarkhaltiger Axone. Es gilt bis heute als Paradebeispiel für die mathematische Modellierung biologischer Prozesse und wurde 1963 mit dem Nobelpreis für Physiologie oder Medizin gewürdigt.",
-            "annotations": [
-              {
-                "id": "01-deep_dive-7-src-1",
-                "text": "Hodgkin und Huxley (1952) entwickelten ein System von vier gekoppelten Differentialgleichungen",
-                "kind": "citation",
-                "tooltip": "Hodgkin et al. (1952)",
-                "tone": "red",
-                "sourceIds": [
-                  "01-source-3"
-                ]
-              }
-            ]
+            "text": "Phase des Aktionspotentials, bei der die Membran durch Na⁺-Einstrom positiv wird (von −70 mV bis ca. +30 mV).",
+            "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Kritische Nuancen: Modifikationen des Grundmodells"
+          "text": "Repolarisation"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Purves et al. (2018) weisen darauf hin, dass das Hodgkin-Huxley-Modell am riesigen Axon des Tintenfischs kalibriert wurde und an menschlichen Neuronen Abweichungen zeigt. Moderne Erweiterungen berücksichtigen zusätzliche Ionenkanäle, intrazelluläre Signalkaskaden und die räumliche Verteilung von Kanälen entlang des Dendritenbaums. Dennoch bleibt das Grundprinzip — spannungsabhängige Kanäle erzeugen ein selbstverstärkendes Depolarisationsereignis — für alle erregbaren Zellen gültig.",
-            "annotations": [
-              {
-                "id": "01-deep_dive-7-src-2",
-                "text": "Purves et al. (2018) weisen darauf hin, dass das Hodgkin-Huxley-Modell am riesigen Axon des Tintenfischs kalibriert wurde",
-                "kind": "citation",
-                "tooltip": "Purves et al. (2018)",
-                "tone": "red",
-                "sourceIds": [
-                  "01-source-4"
-                ]
-              }
-            ]
+            "text": "Phase des Aktionspotentials, bei der K⁺-Ausstrom die Membran wieder negativ macht (Rückkehr zum Ruhepotential).",
+            "annotations": []
           }
-        }
-      ]
-    },
-    {
-      "id": "01-example-8",
-      "type": "example",
-      "entries": [
+        },
+        {
+          "kind": "subheading",
+          "text": "Hyperpolarisation"
+        },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Stell dir vor, du berührst heißen Herd. Die Schmerzreize laufen als Aktionspotentiale durch Sensornerven bis ins Rückenmark. Dort übertragen sie an Zwischenneuronen über Synapsen mit Glutamat als Neurotransmitter. Gleichzeitig senden hemmende Interneuronen GABA-gestützte IPSPs, die die Bewegung kontrollieren. Erst das exakt abgestimmte Zusammenspiel von Erregung und Hemmung löst den koordinierten Rückzugreflex aus — ein Vorgang, der in Millisekunden abläuft und auf Tausenden von Aktionspotentialen und synaptischen Übertragungen beruht.",
+            "text": "Phase, in der die Membran kurzzeitig negativer als das Ruhepotential wird (ca. −80 mV), da K⁺-Kanäle träge schließen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Refraktärzeit"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Zeitfenster nach einem Aktionspotential, in dem ein neues AP unmöglich (absolute Refraktärzeit) oder nur durch stärkere Reize ausgelöst werden kann (relative Refraktärzeit).",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Myelinisierung"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Umhüllung von Axonen durch Gliazellen (Oligodendrozyten im ZNS, Schwann-Zellen im PNS), die eine isolierende Fettschicht bildet.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Ranvier-Schnürring"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Lücken zwischen Myelinsegmenten, an denen das Aktionspotential regeneriert wird.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Exozytose"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Prozess, bei dem synaptische Vesikel mit der präsynaptischen Membran fusionieren und Neurotransmitter in den synaptischen Spalt freisetzen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Neurotransmitter"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Chemische Botenstoffe, die über den synaptischen Spalt diffundieren und an postsynaptische Rezeptoren binden — z. B. Glutamat (erregend) oder GABA (hemmend).",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Ionotroper Rezeptor"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ligandengesteuerter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Metabotroper Rezeptor"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "G-Protein-gekoppelter Rezeptor — langsame, indirekte Wirkung über Second-Messenger-Kaskaden (Sekunden bis Minuten).",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Reuptake-Transporter"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Proteine in der präsynaptischen Membran, die Neurotransmitter aus dem synaptischen Spalt zurück in die präsynaptische Zelle transportieren.",
             "annotations": []
           }
         }
       ]
     },
     {
-      "id": "01-summary-9",
+      "id": "01-explanation",
+      "type": "explanation",
+      "title": "Arbeitsfassung",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Das Ruhepotential: -70 mV"
+        },
+        {
+          "kind": "subheading",
+          "text": "Das Aktionspotential: Alles oder Nichts"
+        },
+        {
+          "kind": "subheading",
+          "text": "Saltatorische Erregungsleitung: Springen statt Kriechen"
+        },
+        {
+          "kind": "subheading",
+          "text": "Synaptische Transmission: Vom elektrischen zum chemischen Signal"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die Phasen des Aktionspotentials: Ruhepotential, Depolarisation, Repolarisation und Hyperpolarisation.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Chemische Synapse: Vesikel (1) fusionieren mit der Membran (2) und setzen Neurotransmitter frei (3), die an postsynaptische Rezeptoren (4) binden.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Kinetic models of synaptic transmission",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "01-visuals-1",
+      "type": "visual",
+      "title": "Illustrationen",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-neuron.png",
+        "description": "Recovered illustration illu-neuron.png from analzy deployment bundle.",
+        "alt": "Aktionspotential & Synaptische Transmission: Neuron"
+      },
+      "caption": "Neuron"
+    },
+    {
+      "id": "01-visuals-2",
+      "type": "visual",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-action-potential.png",
+        "description": "Recovered illustration illu-action-potential.png from analzy deployment bundle.",
+        "alt": "Aktionspotential & Synaptische Transmission: Action Potential"
+      },
+      "caption": "Action Potential"
+    },
+    {
+      "id": "01-visuals-3",
+      "type": "visual",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-synapse.png",
+        "description": "Recovered illustration illu-synapse.png from analzy deployment bundle.",
+        "alt": "Aktionspotential & Synaptische Transmission: Synapse"
+      },
+      "caption": "Synapse"
+    },
+    {
+      "id": "01-summary",
       "type": "summary",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Das Aktionspotential folgt der all-oder-nichts-Regel: Erreicht ein Reiz die Schwelle, entfaltet sich stets ein vollständiger Impuls mit charakteristischem Verlauf.",
-              "annotations": []
-            },
-            {
-              "text": "Die synaptische Transmission wandelt das elektrische Signal in einen chemischen Botenstoff um und zurück — wobei Glutamat erregend und GABA hemmend wirkt.",
-              "annotations": []
-            },
-            {
-              "text": "Die Summation exzitatorischer und inhibitorischer postsynaptischer Potentiale am Axonhillock entscheidet, ob ein Neuron selbst ein Aktionspotential generiert.",
+              "text": "← Gestaltgesetze",
               "annotations": []
             }
           ]
@@ -479,78 +355,43 @@
   ],
   "sources": [
     {
-      "id": "01-source-1",
-      "kind": "secondary",
-      "shortCitation": "Bear et al. (2016)",
-      "apaCitation": "Bear, M. F., Connors, B. W., & Paradiso, M. A. (2016). Neurowissenschaften: Ein grundlegendes Lehrbuch für Biologie, Medizin und Psychologie (6. Aufl., Übers. H. P. Lipp & J. Braun). Springer. https://doi.org/10.1007/978-3-662-49864-2",
-      "tooltip": "Standardlehrbuch der Neurowissenschaften für Psychologiestudierende, das das Aktionspotential und die synaptische Übertragung umfassend behandelt.",
-      "url": "https://doi.org/10.1007/978-3-662-49864-2",
-      "doi": "10.1007/978-3-662-49864-2",
-      "verification": {
-        "status": "legacy-imported",
-        "checkedAgainst": [
-          "legacy-source-list"
-        ]
-      }
-    },
-    {
-      "id": "01-source-2",
-      "kind": "secondary",
-      "shortCitation": "Schmidt et al. (2017)",
-      "apaCitation": "Schmidt, R. F., Lang, F., & Heckmann, M. (2017). Physiologie des Menschen: mit Pathophysiologie (32. Aufl.). Springer. https://doi.org/10.1007/978-3-662-55650-2",
-      "tooltip": "Klassisches Lehrbuch der Humanphysiologie mit detaillierten Darstellungen der Membranphysiologie und der Ionenkanäldynamik.",
-      "url": "https://doi.org/10.1007/978-3-662-55650-2",
-      "doi": "10.1007/978-3-662-55650-2",
-      "verification": {
-        "status": "legacy-imported",
-        "checkedAgainst": [
-          "legacy-source-list"
-        ]
-      }
-    },
-    {
-      "id": "01-source-3",
-      "kind": "primary",
+      "id": "01-recovered-source-1",
+      "kind": "empirical",
       "shortCitation": "Hodgkin et al. (1952)",
       "apaCitation": "Hodgkin, A. L., & Huxley, A. F. (1952). A quantitative description of membrane current and its application to conduction and excitation in nerve. The Journal of Physiology, 117(4), 500–544. https://doi.org/10.1113/jphysiol.1952.sp004764",
-      "tooltip": "Nobelpreisgekrönte Primärstudie, die das mathematische Modell der Ionenkanäle am Tintenfischaxon formulierte und das Aktionspotential quantitativ beschrieb.",
+      "tooltip": "Hodgkin & Huxley (1952)",
       "url": "https://doi.org/10.1113/jphysiol.1952.sp004764",
       "doi": "10.1113/jphysiol.1952.sp004764",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "01-source-4",
-      "kind": "secondary",
-      "shortCitation": "Purves et al. (2018)",
-      "apaCitation": "Purves, D., Augustine, G. J., Fitzpatrick, D., Hall, W. C., LaMantia, A. S., & White, L. E. (2018). Neuroscience (6. Aufl.). Sinauer Associates.",
-      "tooltip": "Englischsprachiges Grundlagenlehrbuch der Neuroscience mit aktuellen Darstellungen der synaptischen Transmission und ihrer Modifikationen.",
+      "id": "01-recovered-source-2",
+      "kind": "other",
+      "shortCitation": "Katz & B. (1966)",
+      "apaCitation": "Katz, B. (1966). Nerve, muscle, and synapse. McGraw-Hill.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     }
   ],
   "relatedResources": [
     {
-      "id": "01-resource-1",
-      "category": "Dokumentation",
-      "title": "Das Gehirn — Unser faszinierendes Kontrollzentrum",
-      "relevance": "Visualisiert die biologischen Grundlagen der Nervenkommunikation für ein breites Publikum und macht die Mikroprozesse im Gehirn greifbar.",
-      "url": "https://www.arte.tv/de/videos/RC-023719/das-gehirn-unser-faszinierendes-kontrollzentrum/"
-    },
-    {
-      "id": "01-resource-2",
-      "category": "Forschung",
-      "title": "Allen Institute for Brain Science: Cell Types Database",
-      "relevance": "Bietet frei zugängliche Daten zu Neuronentypen und ihrer elektrischen Eigenschaften für vertieftes Selbststudium.",
-      "url": "https://celltypes.brain-map.org/"
+      "id": "01-connection-1",
+      "category": "verknuepfung",
+      "title": "← Gestaltgesetze",
+      "relevance": "Recovered internal concept link from /aktionspotential.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "02"
+      }
     }
   ]
 }

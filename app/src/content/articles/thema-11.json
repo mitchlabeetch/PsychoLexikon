@@ -3,17 +3,17 @@
   "id": "11",
   "slug": "thema-11",
   "legacy": {
-    "sourceFormat": "yaml-v1",
-    "sourcePath": "content/thema-11.yml"
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "src/content/recovered/analzy-pages/11-psychometrie.bundle.txt"
   },
   "meta": {
     "title": "Psychometrische Gütekriterien",
-    "discipline": "Psychometrie",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "discipline": "Statistik & Psychometrie",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#f2c6a0",
     "tabNumber": 11,
-    "estimatedReadMinutes": 5,
-    "leadTeaser": "Ob ein IQ-Test tatsächlich Intelligenz misst oder nur Rechengeschwindigkeit erfasst, entscheiden drei Gütekriterien. Jeder psychologische Test muss objektiv, reliabel und valide sein, damit seine Ergebnisse wissenschaftlich verwertbar sind. Diese Kriterien bilden das Fundament diagnostischer Entscheidungen in Klinik, Bildung und Arbeitspsychologie."
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Gute Tests, schlechte Tests — Wie man psychologische Verfahren bewertet"
   },
   "taxonomy": {
     "categoryId": "statistics-and-psychometrics",
@@ -24,8 +24,8 @@
     ],
     "audience": [
       "erstsemester",
-      "adhs-freundlich",
-      "selbststudium"
+      "selbststudium",
+      "gui-authoring"
     ]
   },
   "crm": {
@@ -44,8 +44,8 @@
       ],
       "audience": [
         "erstsemester",
-        "adhs-freundlich",
-        "selbststudium"
+        "selbststudium",
+        "gui-authoring"
       ],
       "keywords": [
         "objektivitaet",
@@ -56,481 +56,363 @@
   },
   "sections": [
     {
-      "id": "11-lead-1",
+      "id": "11-lead",
       "type": "lead",
       "entries": [
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ob ein IQ-Test tatsächlich Intelligenz misst oder nur Rechengeschwindigkeit erfasst, entscheiden drei Gütekriterien. Jeder psychologische Test muss objektiv, reliabel und valide sein, damit seine Ergebnisse wissenschaftlich verwertbar sind. Diese Kriterien bilden das Fundament diagnostischer Entscheidungen in Klinik, Bildung und Arbeitspsychologie.",
+            "text": "Gute Tests, schlechte Tests — Wie man psychologische Verfahren bewertet",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Gleiche Instruktionen für alle Probanden. Kein Spielraum für den Testleiter, das Vorgehen zu variieren.",
             "annotations": []
           }
         }
       ]
     },
     {
-      "id": "11-definition-2",
+      "id": "11-generated-definition",
       "type": "definition",
+      "title": "Begriffe und Definitionen",
       "entries": [
+        {
+          "kind": "subheading",
+          "text": "Test-Retest-Reliabilität"
+        },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Objektivität** (Unabhängigkeit vom Tester), **Reliabilität** (Messgenauigkeit) und **Validität** (Gültigkeit) sind die drei Kardinaltugenden psychologischer Tests. Sie gewährleisten, dass Messwerte nicht vom Beobachter abhängen, bei Wiederholung stabil bleiben und tatsächlich das erfassen, was sie vorgeben zu messen.",
-            "annotations": [
-              {
-                "id": "11-definition-2-def-1",
-                "text": "Objektivität",
-                "kind": "definition",
-                "tooltip": "Eigenschaft eines Tests, bei dem Durchführung, Auswertung und Interpretation unabhängig von der testenden Person erfolgen — kein Spielraum für subjektive Einflüsse.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-definition-2-def-2",
-                "text": "Reliabilität",
-                "kind": "definition",
-                "tooltip": "Messgenauigkeit und Zuverlässigkeit eines Tests; ein reliabler Test liefert bei wiederholter Anwendung ähnliche Ergebnisse.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-definition-2-def-3",
-                "text": "Validität",
-                "kind": "definition",
-                "tooltip": "Gültigkeit eines Tests; der zentrale Nachweis, dass ein Test tatsächlich das misst, was er beansprucht.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Wiederholte Messung desselben Tests zu verschiedenen Zeitpunkten zur Bestimmung der zeitlichen Stabilität.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Paralleltest-Reliabilität"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Vergleich zweier äquivalenter Testformen, um die Konsistenz über verschiedene Items zu prüfen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Split-Half-Reliabilität"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Aufteilung eines Tests in zwei Hälften und Korrelation der Ergebnisse (Bravais-Guttman-Formel).",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Cronbach's Alpha (α)"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein zentrales Konzept in der Psychologie.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Inter-Rater-Reliabilität (Cohen's κ)"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein zentrales Konzept in der Psychologie.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Kriteriumsvalidität"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Zusammenhang zwischen Testwerten und einem externen Kriterium (konkurrent oder prädiktiv).",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Konstruktvalidität"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Messung des theoretischen Konstrukts durch konvergente und diskriminante Validität.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "MTMM-Matrix (Multitrait-Multimethod)"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein zentrales Konzept in der Psychologie.",
+            "annotations": []
           }
         }
       ]
     },
     {
-      "id": "11-explanation-3",
+      "id": "11-explanation",
       "type": "explanation",
+      "title": "Arbeitsfassung",
       "entries": [
         {
           "kind": "subheading",
-          "text": "Die drei Säulen psychometrischer Qualität"
+          "text": "1. Objektivität: Unabhängigkeit vom Testleiter"
+        },
+        {
+          "kind": "subheading",
+          "text": "Durchführungsobjektivität"
+        },
+        {
+          "kind": "subheading",
+          "text": "Auswertungsobjektivität"
+        },
+        {
+          "kind": "subheading",
+          "text": "Interpretationsobjektivität"
+        },
+        {
+          "kind": "subheading",
+          "text": "2. Reliabilität: Zuverlässigkeit der Messung"
+        },
+        {
+          "kind": "subheading",
+          "text": "3. Validität: Gültigkeit der Messung"
+        },
+        {
+          "kind": "subheading",
+          "text": "Inhaltsvalidität"
+        },
+        {
+          "kind": "subheading",
+          "text": "4. Die hierarchische Beziehung: Ein sequenzieller Aufbau"
+        },
+        {
+          "kind": "subheading",
+          "text": "Objektivität"
+        },
+        {
+          "kind": "subheading",
+          "text": "Reliabilität"
+        },
+        {
+          "kind": "subheading",
+          "text": "Validität"
+        },
+        {
+          "kind": "subheading",
+          "text": "Experimentelle Versuchsplanung"
+        },
+        {
+          "kind": "subheading",
+          "text": "Signifikanztestung & p-Werte"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Jeder psychologische Test muss drei Bedingungen erfüllen, um wissenschaftlich akzeptabel zu sein. **Objektivität** bedeutet, dass Testdurchführung, -auswertung und -interpretation unabhängig von der testenden Person sind. Eine objektive Auswertung liefert dieselben Ergebnisse, ob der Test von einer erfahrenen Psychologin oder einer geschulten Assistentin durchgeführt wird.",
+            "text": "Klare, eindeutige Scoring-Regeln. Zwei unabhängige Rater kommen zum selben Ergebnis.",
             "annotations": []
           }
         },
         {
-          "kind": "subheading",
-          "text": "Objektivität auf drei Ebenen"
-        },
-        {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Durchführungsobjektivität** verlangt eindeutige Instruktionen, die keinen Spielraum für individuelle Abweichungen lassen. Die **Auswertungsobjektivität** erfordert standardisierte Scoring-Regeln, die jede subjektive Interpretation ausschließen. Die **Interpretationsobjektivität** sichert, dass die Bedeutung der Ergebnisse nachvollziehbar und regelgeleitet ist.",
-            "annotations": [
-              {
-                "id": "11-explanation-3-def-1",
-                "text": "Durchführungsobjektivität",
-                "kind": "definition",
-                "tooltip": "Gleichbleibende Testbedingungen für alle Probanden — keine Abweichungen in Instruktion, Zeit oder Umgebung je nach Tester.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-2",
-                "text": "Auswertungsobjektivität",
-                "kind": "definition",
-                "tooltip": "Standardisierte Bewertungsregeln, die jedem Tester dieselben Ergebnisse liefern, unabhängig von Erfahrung oder Vorurteil.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-3",
-                "text": "Interpretationsobjektivität",
-                "kind": "definition",
-                "tooltip": "Nachvollziehbare, regelgeleitete Schlussfolgerungen aus Testwerten — keine willkürliche Deutung.",
-                "tone": "blue"
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Reliabilität: Wie stabil misst der Test?"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "**Reliabilität** bezeichnet die Messgenauigkeit und Zuverlässigkeit eines Verfahrens. Ein reliabler Test erzeugt bei wiederholter Anwendung unter gleichen Bedingungen ähnliche Ergebnisse. **Cronbach und Meehl (1955)** betonten, dass Reliabilität eine notwendige, aber keine hinreichende Bedingung für wissenschaftliche Brauchbarkeit ist.",
-            "annotations": [
-              {
-                "id": "11-explanation-3-src-15",
-                "text": "Cronbach und Meehl (1955) betonten, dass Reliabilität eine notwendige, aber keine hinreichende Bedingung für wissenschaftliche Brauchbarkeit ist",
-                "kind": "citation",
-                "tooltip": "Cronbach et al. (1955)",
-                "tone": "red",
-                "sourceIds": [
-                  "11-source-1"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Formen der Reliabilität"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Die **Test-Retest-Reliabilität** prüft die zeitliche Stabilität durch zwei Testungen derselben Personen. Die **interne Konsistenz** erfasst, ob alle Items eines Tests denselben Konstrukt messen, quantifiziert durch **Cronbachs α** (Alpha).",
-            "annotations": [
-              {
-                "id": "11-explanation-3-def-4",
-                "text": "Test-Retest-Reliabilität",
-                "kind": "definition",
-                "tooltip": "Stabilität der Messung über Zeit; gleicher Test wird nach einem Intervall erneut durchgeführt und die Ergebnisse korreliert.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-5",
-                "text": "interne Konsistenz",
-                "kind": "definition",
-                "tooltip": "Zusammengehörigkeit der Testfragen; alle Items sollten dasselbe Merkmal erfassen, nicht verschiedene Konstrukte.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-6",
-                "text": "Cronbachs α",
-                "kind": "definition",
-                "tooltip": "Statistischer Koeffizient zwischen 0 und 1, der angibt, wie stark die Items eines Tests miteinander zusammenhängen.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Normbasierte Interpretation. Ein IQ von 115 bedeutet immer das Gleiche — unabhängig vom Psychologen.",
+            "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Werte ab α = .80 gelten in der Regel als akzeptabel, Werte ab .90 als gut (Moosbrugger & Kelava, 2012).",
-            "annotations": [
-              {
-                "id": "11-explanation-3-src-16",
-                "text": "Werte ab α = .80 gelten in der Regel als akzeptabel, Werte ab .90 als gut",
-                "kind": "citation",
-                "tooltip": "Moosbrugger et al. (2012)",
-                "tone": "red",
-                "sourceIds": [
-                  "11-source-2"
-                ]
-              }
-            ]
+            "text": "wiederholter Anwendung unter gleichen Bedingungen",
+            "annotations": []
           }
-        },
-        {
-          "kind": "subheading",
-          "text": "Die Interrater-Reliabilität"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Interrater-Reliabilität** misst die Übereinstimmung unabhängiger Beurteiler bei der Auswertung offener Verfahren. Bei beobachtungsbasierten Diagnosen oder projektiven Tests ist diese Form besonders kritisch. Geringe Interrater-Übereinstimmung deutet auf mangelnde Auswertungsobjektivität hin.",
-            "annotations": [
-              {
-                "id": "11-explanation-3-def-2",
-                "text": "Auswertungsobjektivität",
-                "kind": "definition",
-                "tooltip": "Standardisierte Bewertungsregeln, die jedem Tester dieselben Ergebnisse liefern, unabhängig von Erfahrung oder Vorurteil.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-7",
-                "text": "Interrater-Reliabilität",
-                "kind": "definition",
-                "tooltip": "Übereinstimmung verschiedener unabhängiger Beurteiler bei der Auswertung offener oder interpretierbarer Verfahren.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Korrelation zwischen den Ergebnissen desselben Tests, der zu zwei verschiedenen Zeitpunkten (z. B. mit 4 Wochen Abstand) durchgeführt wird.",
+            "annotations": []
           }
-        },
-        {
-          "kind": "subheading",
-          "text": "Validität: Misst der Test das Richtige?"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "**Validität** ist die zentrale Frage, ob ein Test tatsächlich das misst, was er beansprucht. Sie gilt als der wichtigste Güteaspekt, da ein hochreliabler Test völlig irrelevante Dinge präzise messen kann. Die **AERA-Standards (2014)** definieren Validität als argumentativ gestützte Schlussfolgerung aus Testscores.",
-            "annotations": [
-              {
-                "id": "11-explanation-3-src-17",
-                "text": "AERA-Standards (2014) definieren Validität als argumentativ gestützte Schlussfolgerung aus Testscores",
-                "kind": "citation",
-                "tooltip": "American Educational Research Association et al. (2014)",
-                "tone": "red",
-                "sourceIds": [
-                  "11-source-3"
-                ]
-              }
-            ]
+            "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationskoeffizient zwischen beiden Messungen ist das Maß der Stabilität.",
+            "annotations": []
           }
-        },
-        {
-          "kind": "subheading",
-          "text": "Die drei Validitätsformen"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Inhaltsvalidität** beurteilt, ob die Testitems das zu messende Merkmalsuniversum repräsentativ abbilden. Die **Kriteriumsvalidität** prüft die statistische Beziehung zwischen Testwerten und einem externen Kriterium wie Schulnoten oder Berufserfolg. Die **Konstruktvalidität** untersucht, ob empirische Befunde mit der theoretischen Annahme über das gemessene Konstrukt übereinstimmen (Cronbach & Meehl, 1955).",
-            "annotations": [
-              {
-                "id": "11-explanation-3-def-8",
-                "text": "Inhaltsvalidität",
-                "kind": "definition",
-                "tooltip": "Repräsentativität der Testaufgaben für das gesamte zu messende Fähigkeits- oder Merkmalsgebiet.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-9",
-                "text": "Kriteriumsvalidität",
-                "kind": "definition",
-                "tooltip": "Statistische Vorhersagekraft des Tests für ein externes Erfolgskriterium wie Schulnoten oder Berufsleistung.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-10",
-                "text": "Konstruktvalidität",
-                "kind": "definition",
-                "tooltip": "Nachweis, dass ein Test ein theoretisch postuliertes Konstrukt tatsächlich erfasst — der Goldstandard der Validität.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Korrelation zwischen zwei äquivalenten Testformen, die dieselbe Konstruktion messen, aber unterschiedliche Itemformulierungen verwenden.",
+            "annotations": []
           }
-        },
-        {
-          "kind": "subheading",
-          "text": "Konstruktvalidität im Detail"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "**Cronbach und Meehl (1955)** etablierten die **Konstruktvalidität** als den übergeordneten Validitätsbegriff. Sie erfordert die Integration verschiedener empirischer Evidenzen zu einem kohärenten theoretischen Netz. Das Konzept umfasst **konvergente Validität** (hohe Korrelation mit verwandten Messungen) und **diskriminante Validität** (geringe Korrelation mit unabhängigen Konstrukten).",
-            "annotations": [
-              {
-                "id": "11-explanation-3-def-10",
-                "text": "Konstruktvalidität",
-                "kind": "definition",
-                "tooltip": "Nachweis, dass ein Test ein theoretisch postuliertes Konstrukt tatsächlich erfasst — der Goldstandard der Validität.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-11",
-                "text": "konvergente Validität",
-                "kind": "definition",
-                "tooltip": "Hohe Übereinstimmung mit anderen Messungen desselben Konstrukts; zeigt, dass der Test das Richtige trifft.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-12",
-                "text": "diskriminante Validität",
-                "kind": "definition",
-                "tooltip": "Geringe Korrelation mit unabhängigen Konstrukten; belegt, dass der Test nicht etwas anderes mitmisst.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-src-18",
-                "text": "Cronbach und Meehl (1955) etablierten die Konstruktvalidität als den übergeordneten Validitätsbegriff",
-                "kind": "citation",
-                "tooltip": "Cronbach et al. (1955)",
-                "tone": "red",
-                "sourceIds": [
-                  "11-source-1"
-                ]
-              }
-            ]
+            "text": "Zwei verschiedene, aber inhaltlich äquivalente Testformen werden eingesetzt. Vermeidet Testwiederholungseffekte.",
+            "annotations": []
           }
-        },
-        {
-          "kind": "subheading",
-          "text": "Multitrait-Multimethod-Matrix"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Multitrait-Multimethod-Matrix** ist ein systematisches Schema zur Prüfung von Konstruktvalidität. Sie korreliert mehrere Merkmale, die jeweils mit mehreren Methoden erfasst wurden, miteinander. Hohe Monotrait-Monomethod-Korrelationen bei gleichzeitig niedrigen Heterotrait-Korrelationen bestätigen die konvergente und diskriminante Validität eines Konstrukts (Moosbrugger & Kelava, 2012).",
-            "annotations": [
-              {
-                "id": "11-explanation-3-def-10",
-                "text": "Konstruktvalidität",
-                "kind": "definition",
-                "tooltip": "Nachweis, dass ein Test ein theoretisch postuliertes Konstrukt tatsächlich erfasst — der Goldstandard der Validität.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-12",
-                "text": "diskriminante Validität",
-                "kind": "definition",
-                "tooltip": "Geringe Korrelation mit unabhängigen Konstrukten; belegt, dass der Test nicht etwas anderes mitmisst.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-13",
-                "text": "Multitrait-Multimethod-Matrix",
-                "kind": "definition",
-                "tooltip": "Systematische Korrelationsmatrix, die mehrere Merkmale mit mehreren Methoden kreuzt, um Validität zu prüfen.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-src-19",
-                "text": "Hohe Monotrait-Monomethod-Korrelationen bei gleichzeitig niedrigen Heterotrait-Korrelationen bestätigen die konvergente und diskriminante Validität",
-                "kind": "citation",
-                "tooltip": "Moosbrugger et al. (2012)",
-                "tone": "red",
-                "sourceIds": [
-                  "11-source-2"
-                ]
-              }
-            ]
+            "text": "Der Test wird in zwei Hälften geteilt (z. B. ungerade vs. gerade Items) und die Korrelation zwischen beiden Hälften berechnet. Nach der Spearman-Brown-Formel korrigiert.",
+            "annotations": []
           }
-        },
-        {
-          "kind": "subheading",
-          "text": "Face Validity versus Construct Validity"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Face Validity** (oberflächliche Validität) beschreibt den subjektiven Eindruck, ob ein Test das Richtige misst. Sie ist keine echte psychometrische Eigenschaft, sondern eine pragmatische Anmutung, die die Testmotivation der Probanden beeinflusst. Die **Konstruktvalidität** hingegen ist ein streng wissenschaftlicher Nachweis, der empirische Evidenz und theoretische Argumentation verbindet.",
-            "annotations": [
-              {
-                "id": "11-explanation-3-def-10",
-                "text": "Konstruktvalidität",
-                "kind": "definition",
-                "tooltip": "Nachweis, dass ein Test ein theoretisch postuliertes Konstrukt tatsächlich erfasst — der Goldstandard der Validität.",
-                "tone": "blue"
-              },
-              {
-                "id": "11-explanation-3-def-14",
-                "text": "Face Validity",
-                "kind": "definition",
-                "tooltip": "Oberflächlicher Eindruck der Probanden, ob ein Test sinnvoll erscheint — wichtig für Kooperation, aber kein wissenschaftlicher Gütewert.",
-                "tone": "blue"
-              }
-            ]
+            "text": "Ein Maß für die interne Konsistenz eines Tests. Gibt an, wie stark die Items eines Tests miteinander korrelieren. Werte ≥ .70 gelten als akzeptabel, ≥ .80 als gut, ≥ .90 als exzellent.",
+            "annotations": []
           }
-        }
-      ]
-    },
-    {
-      "id": "11-visual-4",
-      "type": "visual",
-      "asset": {
-        "kind": "svg-component",
-        "assetId": "11-visual-1",
-        "description": "Clean line-art process flow. Vertical stack of three rounded rectangles (rx=4) connected by upward arrows. Bottom rectangle: \"Objektivität\" with three sub-labels beneath: \"Durchführung\", \"Auswertung\", \"Interpretation\". Middle rectangle: \"Reliabilität\" with three sub-labels: \"Test-Retest\", \"Interne Konsistenz (α)\", \"Interrater\". Top rectangle: \"Validität\" with three sub-labels: \"Inhalt\", \"Kriterium\", \"Konstrukt\". Dashed arrow from Reliabilität to Validität labeled \"notwendig, aber nicht hinreichend\". Dotted frame around Validität labeled \"wissenschaftliche Brauchbarkeit\". All text in German. ViewBox 0 0 400 400. Stroke #1a1a1a, 2px main lines, 1px sub-lines. No fill except light #d4a8a8 at 10% opacity behind Validität box.\n",
-        "alt": "Die drei Gütekriterien bilden eine Hierarchie: Objektivität ist Grundvoraussetzung, Reliabilität sichert Messgenauigkeit, Validität begründet den wissenschaftlichen Nutzen — wobei jede höhere Stufe die darunterliegende voraussetzt, aber nicht automatisch erfüllt.\n"
-      },
-      "caption": "Die drei Gütekriterien bilden eine Hierarchie: Objektivität ist Grundvoraussetzung, Reliabilität sichert Messgenauigkeit, Validität begründet den wissenschaftlichen Nutzen — wobei jede höhere Stufe die darunterliegende voraussetzt, aber nicht automatisch erfüllt.\n"
-    },
-    {
-      "id": "11-visual-5",
-      "type": "visual",
-      "asset": {
-        "kind": "svg-component",
-        "assetId": "11-visual-2",
-        "description": "Clean line-art matrix grid. 4x4 grid representing a Multitrait-Multimethod-Matrix schematic. Rows labeled: \"Extraversion (Fragebogen)\", \"Extraversion (Beobachtung)\", \"Neurotizismus (Fragebogen)\", \"Neurotizismus (Beobachtung)\". Same labels for columns. Diagonal cells (Monotrait-Monomethod) have bold borders and \"++\" symbol. Off-diagonal same-trait cells (Monotrait-Heteromethod) have medium borders and \"+\". Heterotrait cells have light borders and \"o\". German legend at bottom: \"++ = konvergente Validität\", \"+ = methodenspezifischer Einfluss\", \"o = diskriminante Validität\". ViewBox 0 0 500 400. Stroke #1a1a1a, 2px grid lines, 1px internal. No fill except light #d4a8a8 at 10% in diagonal cells.\n",
-        "alt": "Die Multitrait-Multimethod-Matrix zeigt, wie ein Konstrukt nur dann valide ist, wenn Messungen desselben Merkmals mit verschiedenen Methoden einander ähnlich sind — nicht jedoch Messungen verschiedener Merkmale.\n"
-      },
-      "caption": "Die Multitrait-Multimethod-Matrix zeigt, wie ein Konstrukt nur dann valide ist, wenn Messungen desselben Merkmals mit verschiedenen Methoden einander ähnlich sind — nicht jedoch Messungen verschiedener Merkmale.\n"
-    },
-    {
-      "id": "11-deep_dive-6",
-      "type": "deep_dive",
-      "entries": [
-        {
-          "kind": "subheading",
-          "text": "Der logische Status der Validität"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "**Cronbach und Meehl (1955)** stellten die Konstruktvalidität in den Mittelpunkt psychometrischen Denkens. Sie verstanden Validität nicht als statische Eigenschaft, sondern als kontinuierlichen Evidenzprozess. Jeder neue empirische Befund kann die Validitätsannahme eines Tests bestätigen oder infrage stellen.",
-            "annotations": [
-              {
-                "id": "11-deep_dive-6-src-1",
-                "text": "Cronbach und Meehl (1955) stellten die Konstruktvalidität in den Mittelpunkt psychometrischen Denkens",
-                "kind": "citation",
-                "tooltip": "Cronbach et al. (1955)",
-                "tone": "red",
-                "sourceIds": [
-                  "11-source-1"
-                ]
-              }
-            ]
+            "text": "Cohen's Kappa (κ) korrigiert die Übereinstimmung zwischen zwei Ratern um den Zufall. κ = 0 bedeutet Zufallsübereinstimmung, κ = 1 bedeutet perfekte Übereinstimmung.",
+            "annotations": []
           }
-        },
-        {
-          "kind": "subheading",
-          "text": "Die AERA-Standards und aktuelle Praxis"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die **Standards for Educational and Psychological Testing (AERA et al., 2014)** fassen alle Validitätsformen unter dem Validitätsbegriff zusammen. Sie betonen, dass Validität keine direkt beobachtbare Eigenschaft ist, sondern eine Schlussfolgerung aus dem Gesamtevidenznetz. **Wilkinson und die APA Task Force (1999)** forderten transparente Berichterstattung psychometrischer Kennwerte in allen Publikationen.",
-            "annotations": [
-              {
-                "id": "11-deep_dive-6-src-2",
-                "text": "Standards for Educational and Psychological Testing (AERA et al., 2014) fassen alle Validitätsformen unter dem Validitätsbegriff zusammen",
-                "kind": "citation",
-                "tooltip": "American Educational Research Association et al. (2014)",
-                "tone": "red",
-                "sourceIds": [
-                  "11-source-3"
-                ]
-              },
-              {
-                "id": "11-deep_dive-6-src-3",
-                "text": "Wilkinson und die APA Task Force (1999) forderten transparente Berichterstattung psychometrischer Kennwerte",
-                "kind": "citation",
-                "tooltip": "Wilkinson et al. (1999)",
-                "tone": "red",
-                "sourceIds": [
-                  "11-source-4"
-                ]
-              }
-            ]
+            "text": "Wichtig bei Beurteilungsverfahren (z. B. klinische Diagnosen, Essays). Zwei unabhängige Rater bewerten dieselben Protokolle — ihre Übereinstimmung wird berechnet.",
+            "annotations": []
           }
-        }
-      ]
-    },
-    {
-      "id": "11-example-7",
-      "type": "example",
-      "entries": [
+        },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ein deutscher Gymnasiast absolviert einen Begabungstest für die Hochschulzulassung. Wenn verschiedene Testleiter unterschiedliche Anweisungen geben, verletzt das die **Objektivität**. Wenn derselbe Test nach zwei Wochen völlig andere Ergebnisse liefert, fehlt **Reliabilität**. Und wenn der Test hervorragend Mathematikleistung vorhersagt, aber als \"Kreativitätstest\" verkauft wird, scheitert er an der **Validität**.",
+            "text": "Deckt der Test das gesamte Konstrukt ab? Ein Intelligenztest, der nur mathematische Aufgaben enthält, hat keine Inhaltsvalidität für allgemeine Intelligenz.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Beurteilt durch Expertenpanel: Repräsentieren die Items das gesamte Definitionsmerkmal?",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Der Zusammenhang zwischen Testwert und einem externen Kriterium. Kann konvergent (gleichzeitig) oder prädiktiv (zukünftig) sein.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Der Test misst das theoretische Konstrukt, das er messen soll. Beurteilt über konvergente und diskriminante Validität mittels MTMM-Matrizen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Eine Matrix, die Korrelationen zwischen mehreren Traits (Konstrukten) und mehreren Messmethoden darstellt. Ermöglicht die Unterscheidung von trait-, method- und error-variance.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Cronbach's α ≥ .70 ist akzeptabel, ≥ .80 gut, ≥ .90 exzellent — aber höhere Reliabilität kann die Validität senken (Attenuation-Paradoxon).",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Testtheorie und Fragebogenkonstruktion",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Erweitere dein Wissen in der psychologischen Diagnostik:",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Wie wir Kausalität durch kontrollierte Designs erkennen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Statistische Schlussfolgerungen: Was p-Werte bedeuten und was nicht.",
             "annotations": []
           }
         }
       ]
     },
     {
-      "id": "11-summary-8",
+      "id": "11-visuals-1",
+      "type": "visual",
+      "title": "Illustrationen",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-reliability-validity.png",
+        "description": "Recovered illustration illu-reliability-validity.png from analzy deployment bundle.",
+        "alt": "Psychometrische Gütekriterien: Reliability Validity"
+      },
+      "caption": "Reliability Validity"
+    },
+    {
+      "id": "11-visuals-2",
+      "type": "visual",
+      "asset": {
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-test-quality.png",
+        "description": "Recovered illustration illu-test-quality.png from analzy deployment bundle.",
+        "alt": "Psychometrische Gütekriterien: Test Quality"
+      },
+      "caption": "Test Quality"
+    },
+    {
+      "id": "11-summary",
       "type": "summary",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Objektivität, Reliabilität und Validität bilden die unverzichtbare Dreifaltigkeit psychologischer Tests.",
+              "text": "/versuchsplanung",
               "annotations": []
             },
             {
-              "text": "Reliabilität ist notwendig, aber nicht hinreichend für Validität: Ein präziser Schuss ins Leere bleibt ein Fehlschuss.",
-              "annotations": []
-            },
-            {
-              "text": "Konstruktvalidität ist der Goldstandard, da sie empirische Befunde und theoretische Annahmen in ein kohärentes Netz integriert.",
+              "text": "/signifikanztestung",
               "annotations": []
             }
           ]
@@ -540,78 +422,89 @@
   ],
   "sources": [
     {
-      "id": "11-source-1",
-      "kind": "primary",
-      "shortCitation": "Cronbach et al. (1955)",
-      "apaCitation": "Cronbach, L. J., & Meehl, P. E. (1955). Construct validity in psychological tests. Psychological Bulletin, 52(4), 281–302. https://doi.org/10.1037/h0040957",
-      "tooltip": "Der klassische Aufsatz, der Konstruktvalidität als zentrales Gütemerkmal etablierte und das nomologische Netz einführte.",
-      "url": "https://doi.org/10.1037/h0040957",
-      "doi": "10.1037/h0040957",
+      "id": "11-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Lienert et al. (1998)",
+      "apaCitation": "Lienert, G. A. & Raatz, U. (1998). Testaufbau und Testanalyse (6. Aufl.). Psychologie Verlags Union.",
+      "tooltip": "Lienert & Raatz (1998)",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "11-source-2",
-      "kind": "secondary",
+      "id": "11-recovered-source-2",
+      "kind": "other",
+      "shortCitation": "Cronbach & L. J. (1951)",
+      "apaCitation": "Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16</em>(3), 297-334.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "11-recovered-source-3",
+      "kind": "other",
       "shortCitation": "Moosbrugger et al. (2012)",
-      "apaCitation": "Moosbrugger, H., & Kelava, A. (2012). Testtheorie und Fragebogenkonstruktion (2., aktual. u. überarb. Aufl.). Springer. https://doi.org/10.1007/978-3-642-20072-4",
-      "tooltip": "Standardlehrbuch der deutschsprachigen Testpsychologie mit ausführlichen Kriterien zur Item- und Testkonstruktion.",
-      "url": "https://doi.org/10.1007/978-3-642-20072-4",
-      "doi": "10.1007/978-3-642-20072-4",
+      "apaCitation": "Moosbrugger, H. & Kelava, A. (2012). Testtheorie und Fragebogenkonstruktion (2. Aufl.). Springer.",
+      "tooltip": "Moosbrugger & Kelava (2012)",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "11-source-3",
-      "kind": "standard",
-      "shortCitation": "American Educational Research Association et al. (2014)",
-      "apaCitation": "American Educational Research Association, American Psychological Association, & National Council on Measurement in Education. (2014). Standards for educational and psychological testing. AERA.",
-      "tooltip": "Die international anerkannten Standards für die Konstruktion, Evaluation und Anwendung psychologischer Tests.",
+      "id": "11-recovered-source-4",
+      "kind": "other",
+      "shortCitation": "Campbell et al. (1959)",
+      "apaCitation": "Campbell, D. T. & Fiske, D. W. (1959). Convergent and discriminant validation by the multitrait-multimethod matrix. Psychological Bulletin, 56</em>(2), 81-105.",
+      "tooltip": "Campbell & Fiske (1959)",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "11-source-4",
-      "kind": "review",
-      "shortCitation": "Wilkinson et al. (1999)",
-      "apaCitation": "Wilkinson, L., & APA Task Force on Statistical Inference. (1999). Statistical methods in psychology journals: Guidelines and explanations. American Psychologist, 54(8), 594–604. https://doi.org/10.1037/0003-066X.54.8.594",
-      "tooltip": "APA-Leitlinien zur transparenten Berichterstattung statistischer Kennwerte und Effektstärken in psychologischen Publikationen.",
-      "url": "https://doi.org/10.1037/0003-066X.54.8.594",
-      "doi": "10.1037/0003-066X.54.8.594",
+      "id": "11-recovered-source-5",
+      "kind": "other",
+      "shortCitation": "Messick & S. (1995)",
+      "apaCitation": "Messick, S. (1995). Validity of psychological assessment. American Psychologist, 50</em>(9), 741-749.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     }
   ],
   "relatedResources": [
     {
-      "id": "11-resource-1",
-      "category": "Buch",
-      "title": "Testtheorie und Fragebogenkonstruktion",
-      "relevance": "Das Standardwerk für alle, die selbst psychologische Verfahren konstruieren oder bewerten möchten.",
-      "url": "https://doi.org/10.1007/978-3-642-20072-4"
+      "id": "11-connection-1",
+      "category": "verknuepfung",
+      "title": "/versuchsplanung",
+      "relevance": "Recovered internal concept link from /psychometrie.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "09"
+      }
     },
     {
-      "id": "11-resource-2",
-      "category": "Forschung",
-      "title": "Standards for Educational and Psychological Testing",
-      "relevance": "Die unverzichtbare Referenz für ethische und methodische Standards in der Testanwendung.",
-      "url": "https://www.testingstandards.net/"
+      "id": "11-connection-2",
+      "category": "verknuepfung",
+      "title": "/signifikanztestung",
+      "relevance": "Recovered internal concept link from /psychometrie.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "10"
+      }
     }
   ]
 }

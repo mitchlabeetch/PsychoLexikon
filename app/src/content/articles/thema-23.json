@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "23",
+  "slug": "thema-23",
+  "legacy": {
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+  },
+  "meta": {
+    "title": "Selbstwirksamkeit nach Bandura",
+    "subtitle": "Kompetenzueberzeugungen zwischen Attribution, Erwartung und Handlung",
+    "discipline": "Motivation & Emotion",
+    "difficulty": "Vertiefungs-Knoten",
+    "tabColor": "#d4a8a8",
+    "tabNumber": 23,
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Im Kontext der Attributionstheorie markiert Selbstwirksamkeit den Schritt von der Ursachenzuschreibung zur Erwartung, ob man kuenftige Anforderungen bewaeltigen kann."
+  },
+  "taxonomy": {
+    "categoryId": "motivation-and-emotion",
+    "keywords": [
+      "selbstwirksamkeit",
+      "bandura",
+      "motivation"
+    ],
+    "audience": [
+      "selbststudium",
+      "vertiefung",
+      "gui-authoring"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-23",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-23",
+      "motivation-and-emotion"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Motivation & Emotion"
+      ],
+      "audience": [
+        "selbststudium",
+        "vertiefung",
+        "gui-authoring"
+      ],
+      "keywords": [
+        "selbstwirksamkeit",
+        "bandura",
+        "motivation"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "23-lead",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die recovered Route /selbstwirksamkeit wurde aus dem Attributionsartikel heraus verlinkt. Das ist inhaltlich stimmig: Nach der Frage, warum etwas passiert ist, folgt oft sofort die Frage, ob man kuenftige Situationen selbst erfolgreich beeinflussen kann.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein eigenstaendiger recovered Seitentext blieb fuer diese Route nicht erhalten. Die kanonische Seite nutzt deshalb den erhaltenen Kontext als Bruecke zwischen Attributionsforschung, Motivation und Banduras Selbstwirksamkeitskonzept.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "23-generated-definition",
+      "type": "definition",
+      "title": "Begriffe und Definitionen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Selbstwirksamkeit"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ueberzeugung, schwierige Anforderungen mit den eigenen Faehigkeiten erfolgreich bewaeltigen zu koennen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Kontrollierbarkeit"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Attributionsdimension, die beschreibt, ob eine Ursache durch eigenes Handeln veraenderbar erscheint.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "23-explanation",
+      "type": "explanation",
+      "title": "Selbstwirksamkeit im Motivationskontext",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Was Selbstwirksamkeit beschreibt"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Selbstwirksamkeit meint keine objektive Faehigkeit, sondern die subjektive Erwartung, Anforderungen bewaeltigen zu koennen. Gerade diese Erwartung entscheidet oft darueber, welche Aufgaben Menschen ueberhaupt angehen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Bezug zur Attribution"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Attributionen formen Selbstwirksamkeit mit: Wer Erfolge als kontrollierbar und Misserfolge als veraenderbar interpretiert, behaelt eher die Erwartung, kuenftige Anforderungen aktiv beeinflussen zu koennen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Folgen fuer Verhalten"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Hohe Selbstwirksamkeit foerdert Anstrengung, Ausdauer und den konstruktiven Umgang mit Rueckschlaegen. Niedrige Selbstwirksamkeit beguenstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "23-summary",
+      "type": "summary",
+      "title": "Merkpunkte",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Selbstwirksamkeit verbindet Ursachenzuschreibung mit zukunftsgerichteter Handlungserwartung.",
+              "annotations": []
+            },
+            {
+              "text": "Sie beeinflusst, welche Ziele gewaehlt werden und wie beharrlich Menschen bei Schwierigkeiten bleiben.",
+              "annotations": []
+            },
+            {
+              "text": "Im recovered Korpus bildet sie einen natuerlichen Uebergang von Attribution zu Leistungsmotivation und Hilflosigkeit.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "23-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Selbstwirksamkeit nach Bandura (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Selbstwirksamkeit nach Bandura (/selbstwirksamkeit) was linked from Attributionstheorie.",
+      "tooltip": "Der recovered Link markiert die Stelle, an der Attributionsprozesse in Handlungserwartungen uebergehen.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "23-source-2",
+      "kind": "review",
+      "shortCitation": "Bandura & A. (1977)",
+      "apaCitation": "Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. Psychological Review, 84(2), 191-215.",
+      "tooltip": "Grundtext zur Rolle von Kompetenzueberzeugungen fuer Verhalten, Ausdauer und Zielwahl.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "23-source-3",
+      "kind": "secondary",
+      "shortCitation": "Bandura & A. (1997)",
+      "apaCitation": "Bandura, A. (1997). Self-efficacy: The exercise of control. Freeman.",
+      "tooltip": "Vertieft Selbstwirksamkeit als breit einsetzbares Motivations- und Regulationskonzept.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "23-source-4",
+      "kind": "other",
+      "shortCitation": "Weiner & B. (1986)",
+      "apaCitation": "Weiner, B. (1986). An attributional theory of motivation and emotion. Springer.",
+      "tooltip": "Verbindet Attributionen, Kontrollierbarkeit und motivationale Folgen.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "23-backlink-1",
+      "category": "rueckverweis",
+      "title": "Attributionstheorie",
+      "relevance": "Recovered primary article that referenced Selbstwirksamkeit nach Bandura.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "07"
+      }
+    },
+    {
+      "id": "23-category-1",
+      "category": "kategorie",
+      "title": "Motivation & Emotion",
+      "relevance": "Canonical category placement for this derived concept node.",
+      "target": {
+        "kind": "internal-category",
+        "categoryId": "motivation-and-emotion"
+      }
+    },
+    {
+      "id": "23-bridge-1",
+      "category": "verknuepfung",
+      "title": "Leistungsmotivation",
+      "relevance": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdauer und den Umgang mit Rueckschlaegen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "24"
+      }
+    },
+    {
+      "id": "23-bridge-2",
+      "category": "verknuepfung",
+      "title": "Gelernte Hilflosigkeit",
+      "relevance": "Niedrige Kontroll- und Kompetenzueberzeugungen bilden eine wichtige Bruecke zur Hilflosigkeitsforschung.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "25"
+      }
+    },
+    {
+      "id": "23-bridge-3",
+      "category": "verknuepfung",
+      "title": "Soziale Kognition",
+      "relevance": "Selbstwirksamkeit entsteht auch durch die soziale Deutung von Erfolgen, Misserfolgen und Rueckmeldungen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "26"
+      }
+    }
+  ]
+}

@@ -206,7 +206,7 @@ export const articleSchema = z.object({
   id: z.string().regex(/^\d{2}$/),
   slug: z.string().regex(/^thema-\d{2}$/),
   legacy: z.object({
-    sourceFormat: z.enum(['yaml-v1', 'ts-v1']),
+    sourceFormat: z.enum(['yaml-v1', 'ts-v1', 'authoring-v1']),
     sourcePath: z.string().min(1),
   }),
   meta: z.object({

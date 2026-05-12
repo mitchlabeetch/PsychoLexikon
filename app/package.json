@@ -6,11 +6,13 @@
   "scripts": {
     "dev": "vite",
     "build": "npm run content:validate && tsc -b && vite build",
+    "content:compile:authoring": "tsx scripts/compile-authoring-content.ts --write",
+    "content:compile:authoring:dry": "tsx scripts/compile-authoring-content.ts",
     "content:migrate": "tsx scripts/migrate-legacy-content.ts --write",
     "content:migrate:dry": "tsx scripts/migrate-legacy-content.ts",
     "content:extract:analzy": "tsx scripts/extract-analzy-corpus.ts --write",
     "content:extract:analzy:dry": "tsx scripts/extract-analzy-corpus.ts",
-    "content:validate": "tsx --tsconfig tsconfig.app.json --test scripts/validate-content.test.ts scripts/route-contract.test.ts scripts/render-smoke.test.tsx scripts/migration-delta.test.ts scripts/analzy-import.test.ts",
+    "content:validate": "tsx --tsconfig tsconfig.app.json --test scripts/validate-content.test.ts scripts/route-contract.test.ts scripts/render-smoke.test.tsx scripts/migration-delta.test.ts scripts/analzy-import.test.ts scripts/authoring-schema.test.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },

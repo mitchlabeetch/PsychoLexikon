@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "24",
+  "slug": "thema-24",
+  "legacy": {
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+  },
+  "meta": {
+    "title": "Leistungsmotivation",
+    "subtitle": "Warum Erfolgsmotive, Zielwahl und Attribution eng zusammenhaengen",
+    "discipline": "Motivation & Emotion",
+    "difficulty": "Vertiefungs-Knoten",
+    "tabColor": "#d4a8a8",
+    "tabNumber": 24,
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Leistungsmotivation beschreibt nicht nur den Wunsch nach Erfolg, sondern auch, wie Menschen Ziele waehlen, Rueckschlaege deuten und Anstrengung aufrechterhalten."
+  },
+  "taxonomy": {
+    "categoryId": "motivation-and-emotion",
+    "keywords": [
+      "leistungsmotivation",
+      "motivation",
+      "zielorientierung"
+    ],
+    "audience": [
+      "selbststudium",
+      "vertiefung",
+      "gui-authoring"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-24",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-24",
+      "motivation-and-emotion"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Motivation & Emotion"
+      ],
+      "audience": [
+        "selbststudium",
+        "vertiefung",
+        "gui-authoring"
+      ],
+      "keywords": [
+        "leistungsmotivation",
+        "motivation",
+        "zielorientierung"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "24-lead",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die recovered Route /leistungsmotivation wurde aus der Attributionstheorie heraus verlinkt. Das ist sinnvoll, weil Leistung nicht nur von Faehigkeit oder Zielsetzung abhaengt, sondern stark davon, wie Menschen Erfolge und Misserfolge deuten.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, entwickelt diese Seite Leistungsmotivation aus genau diesem erhaltenen Anschluss: Zielwahl, Anstrengung und Emotion werden ueber Attributionen und Kompetenzueberzeugungen lesbar.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "24-generated-definition",
+      "type": "definition",
+      "title": "Begriffe und Definitionen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Leistungsmotivation"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Motivationale Ausrichtung auf Aufgaben, bei denen Erfolg, Kompetenznachweis und persoenliche Standards eine wichtige Rolle spielen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Erfolgsmotiv"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Tendenz, herausfordernde Aufgaben aufzusuchen, um Kompetenz zu erleben und positive Leistungsrueckmeldungen zu erhalten.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "24-explanation",
+      "type": "explanation",
+      "title": "Leistung als motivationale Entscheidung",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Warum Menschen anspruchsvolle Aufgaben waehlen"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Leistungsmotivation betrifft die Bereitschaft, sich an Aufgaben zu binden, bei denen Erfolg nicht sicher ist. Zwischen leichter Sicherheit und fast sicherem Scheitern werden oft gerade jene Aufgaben attraktiv, die Kompetenz pruefbar machen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Attributionen steuern die Folgereaktion"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Nach Erfolg oder Misserfolg entscheidet die Ursachenzuschreibung mit darueber, ob Anstrengung erhoeht, Ziele angepasst oder Aufgaben kuenftig gemieden werden. Gerade deshalb ist Leistungsmotivation im recovered Korpus an die Attributionstheorie angebunden.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Bezug zu Selbstwirksamkeit"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Selbstwirksamkeit ergaenzt das Bild: Wer sich Erfolg zutraut, investiert eher Anstrengung, waehlt fordernde Ziele und bleibt bei Rueckschlaegen handlungsorientiert. Motivation ist deshalb eng mit Erwartung und Kontrolle verschraenkt.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "24-summary",
+      "type": "summary",
+      "title": "Merkpunkte",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Leistungsmotivation betrifft Zielwahl, Anstrengung und den Umgang mit Rueckmeldung.",
+              "annotations": []
+            },
+            {
+              "text": "Attributionen entscheiden mit, ob Misserfolg als Ansporn oder als Rueckzugssignal wirkt.",
+              "annotations": []
+            },
+            {
+              "text": "Ohne Selbstwirksamkeit und Kontrollueberzeugung laesst sich Leistungsmotivation nur unvollstaendig verstehen.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "24-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Leistungsmotivation (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Leistungsmotivation (/leistungsmotivation) was linked from Attributionstheorie.",
+      "tooltip": "Die recovered Route zeigt, dass Leistungsmotivation im Korpus ueber Attributionen und Erfolgsdeutungen erschlossen wurde.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "24-source-2",
+      "kind": "review",
+      "shortCitation": "Atkinson & J. W. (1957)",
+      "apaCitation": "Atkinson, J. W. (1957). Motivational determinants of risk-taking behavior. Psychological Review, 64(6), 359-372.",
+      "tooltip": "Klassischer Ausgangspunkt fuer die Idee, dass Leistungsmotivation Aufgabenwahl und Risikopraeferenz beeinflusst.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "24-source-3",
+      "kind": "review",
+      "shortCitation": "Weiner & B. (1985)",
+      "apaCitation": "Weiner, B. (1985). An attributional theory of achievement motivation and emotion. Psychological Review, 92(4), 548-573.",
+      "tooltip": "Verknuepft Erfolg, Misserfolg, Emotion und motivationale Folgereaktionen ueber Attributionsprozesse.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "24-source-4",
+      "kind": "secondary",
+      "shortCitation": "Bandura & A. (1997)",
+      "apaCitation": "Bandura, A. (1997). Self-efficacy: The exercise of control. Freeman.",
+      "tooltip": "Ergaenzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele ueberhaupt zutrauen.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "24-backlink-1",
+      "category": "rueckverweis",
+      "title": "Attributionstheorie",
+      "relevance": "Recovered primary article that referenced Leistungsmotivation.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "07"
+      }
+    },
+    {
+      "id": "24-category-1",
+      "category": "kategorie",
+      "title": "Motivation & Emotion",
+      "relevance": "Canonical category placement for this derived concept node.",
+      "target": {
+        "kind": "internal-category",
+        "categoryId": "motivation-and-emotion"
+      }
+    },
+    {
+      "id": "24-bridge-1",
+      "category": "verknuepfung",
+      "title": "Selbstwirksamkeit nach Bandura",
+      "relevance": "Leistungsziele werden anders gewaehlt, wenn Menschen sich die erfolgreiche Bewaeltigung zutrauen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "23"
+      }
+    },
+    {
+      "id": "24-bridge-2",
+      "category": "verknuepfung",
+      "title": "Gelernte Hilflosigkeit",
+      "relevance": "Wiederholte Misserfolgsdeutungen koennen Leistungsmotivation untergraben und in Rueckzug umschlagen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "25"
+      }
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "15",
+  "slug": "thema-15",
+  "legacy": {
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+  },
+  "meta": {
+    "title": "Persoenlichkeitstests",
+    "subtitle": "Von Traitmodellen zu Frageboegen, Profilen und diagnostischen Grenzen",
+    "discipline": "Differentielle & Persoenlichkeitspsychologie",
+    "difficulty": "Vertiefungs-Knoten",
+    "tabColor": "#a8d8ea",
+    "tabNumber": 15,
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Persoenlichkeitstests uebersetzen Modelle wie Big Five oder HEXACO in standardisierte Frageboegen, sind aber nur so gut wie ihre theoretische Basis und ihre Interpretation."
+  },
+  "taxonomy": {
+    "categoryId": "differential-and-personality",
+    "keywords": [
+      "persoenlichkeitstests",
+      "diagnostik",
+      "traits"
+    ],
+    "audience": [
+      "selbststudium",
+      "vertiefung",
+      "gui-authoring"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-15",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-15",
+      "differential-and-personality"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Differentielle & Persoenlichkeitspsychologie"
+      ],
+      "audience": [
+        "selbststudium",
+        "vertiefung",
+        "gui-authoring"
+      ],
+      "keywords": [
+        "persoenlichkeitstests",
+        "diagnostik",
+        "traits"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "15-lead",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Der recovered Link /persoenlichkeitstests entstand direkt aus dem Big-Five-Kontext. Das ist folgerichtig, denn Traitmodelle bleiben erst dann praktisch nutzbar, wenn sie in standardisierte Instrumente uebersetzt werden.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein eigenstaendiger recovered Seitentext blieb fuer diese Route nicht erhalten. Die kanonische Seite rekonstruiert den Knoten deshalb aus der vorhandenen Big-Five-Messlogik und ihrer diagnostischen Weiterfuehrung.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "15-generated-definition",
+      "type": "definition",
+      "title": "Begriffe und Definitionen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "NEO-PI-R"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein einflussreicher Persoenlichkeitsfragebogen, der die Big-Five-Dimensionen und ihre Facetten differenziert erfasst.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Selbst-Fremd-Uebereinstimmung"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Grad, zu dem Selbstbeschreibungen einer Person mit Einschaetzungen durch andere Personen uebereinstimmen.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "15-explanation",
+      "type": "explanation",
+      "title": "Was Persoenlichkeitstests leisten sollen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Modelle muessen operationalisiert werden"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Persoenlichkeitstests machen abstrakte Traits messbar. Verfahren wie NEO-PI-R oder kuerzere Inventare wie der BFI uebersetzen theoretische Dimensionen in Itembatterien, Profile und Vergleichswerte.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Welche Guetekriterien wichtig werden"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Sinnvolle Testung verlangt mehr als einen Fragebogen: Reliabilitaet, Konstruktvaliditaet und eine brauchbare Uebereinstimmung zwischen Selbst- und Fremdeinschaetzung sind entscheidend, wenn Persoenlichkeitsurteile belastbar sein sollen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Grenzen der Interpretation"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Testwerte beschreiben Wahrscheinlichkeiten und Muster, keine mechanischen Verhaltensgarantien. Genau deshalb bleibt der Bezug zur Person-Situations-Debatte wichtig, sobald aus Traitprofilen allzu direkte Vorhersagen abgeleitet werden.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "15-summary",
+      "type": "summary",
+      "title": "Merkpunkte",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Persoenlichkeitstests sind praktische Uebersetzungen theoretischer Traitmodelle.",
+              "annotations": []
+            },
+            {
+              "text": "Ihre Aussagekraft haengt von Guetekriterien, sauberer Normierung und vorsichtiger Interpretation ab.",
+              "annotations": []
+            },
+            {
+              "text": "Welches Modell vorausgesetzt wird, beeinflusst unmittelbar, was ueberhaupt gemessen und berichtet wird.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "15-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Persoenlichkeitstests (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Persoenlichkeitstests (/persoenlichkeitstests) was linked from Fuenf-Faktoren-Modell (Big Five).",
+      "tooltip": "Die recovered Route blieb als weiterfuehrender Test- und Diagnostikbezug aus dem Big-Five-Artikel erhalten.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "15-source-2",
+      "kind": "other",
+      "shortCitation": "Costa et al. (1992)",
+      "apaCitation": "Costa, P. T., Jr., & McCrae, R. R. (1992). Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual. Psychological Assessment Resources.",
+      "tooltip": "Klassischer Referenzpunkt fuer die operationalisierte Big-Five-Persoenlichkeitsdiagnostik.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "15-source-3",
+      "kind": "secondary",
+      "shortCitation": "John et al. (1999)",
+      "apaCitation": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy. In L. A. Pervin & O. P. John (Eds.), Handbook of personality: Theory and research (2nd ed., pp. 102-138). Guilford Press.",
+      "tooltip": "Rahmt Big-Five-Messung, Traitstabilitaet und Selbst-Fremd-Uebereinstimmung theoretisch ein.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "15-source-4",
+      "kind": "review",
+      "shortCitation": "Ashton et al. (2007)",
+      "apaCitation": "Ashton, M. C., & Lee, K. (2007). Empirical, theoretical, and practical advantages of the HEXACO model of personality structure. Personality and Social Psychology Review, 11(2), 150-166.",
+      "tooltip": "Zeigt, dass Testverfahren direkt von der gewaehlten Traitarchitektur abhaengen.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "15-backlink-1",
+      "category": "rueckverweis",
+      "title": "Fünf-Faktoren-Modell (Big Five)",
+      "relevance": "Recovered primary article that referenced Persoenlichkeitstests.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "08"
+      }
+    },
+    {
+      "id": "15-category-1",
+      "category": "kategorie",
+      "title": "Differentielle & Persoenlichkeitspsychologie",
+      "relevance": "Canonical category placement for this derived concept node.",
+      "target": {
+        "kind": "internal-category",
+        "categoryId": "differential-and-personality"
+      }
+    },
+    {
+      "id": "15-bridge-1",
+      "category": "verknuepfung",
+      "title": "HEXACO-Modell",
+      "relevance": "Andere Traitmodelle erzeugen andere Frageboegen und Schwerpunktsetzungen in der Diagnostik.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "13"
+      }
+    },
+    {
+      "id": "15-bridge-2",
+      "category": "verknuepfung",
+      "title": "Mischel: Person-Situation",
+      "relevance": "Die Person-Situations-Debatte betrifft unmittelbar, wie stark Testwerte Verhalten vorhersagen duerfen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "14"
+      }
+    },
+    {
+      "id": "15-bridge-3",
+      "category": "verknuepfung",
+      "title": "Persoenlichkeitsstoerungen",
+      "relevance": "Klinische Diagnostik beruehrt die Frage, wo alltaegliche Traits in stoerungsrelevante Muster uebergehen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "16"
+      }
+    }
+  ]
+}

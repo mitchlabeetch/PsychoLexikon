@@ -4,6 +4,7 @@ import { ExternalLink } from 'lucide-react'
 import Tooltip from '@/components/Tooltip'
 import { articleIllustrationRegistry } from '@/components/svgs/articleIllustrations'
 import { getArticleAccentColor, getArticleCategory } from '@/content/api'
+import { getCategoryById } from '@/content/taxonomy'
 import { buildCategoryPath, HOME_PATH } from '@/routing/routes'
 import type { Annotation, ArticleDocument, ArticleSection, RichText, SectionEntry } from '@/content/schema'
 
@@ -281,7 +282,7 @@ function renderVisualSection(section: Extract<ArticleSection, { type: 'visual' }
   )
 }
 
-function renderResourceLink(article: ArticleDocument, resource: ArticleDocument['relatedResources'][number]) {
+function renderResourceLink(resource: ArticleDocument['relatedResources'][number]) {
   if (resource.target?.kind === 'internal-article') {
     return (
       <Link
@@ -425,7 +426,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
                 </div>
                 <h4 className="font-body font-semibold text-[0.95rem] sm:text-[1rem] text-text-primary mb-1 text-wrap">{resource.title}</h4>
                 <p className="font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary leading-relaxed mb-2 text-wrap">{resource.relevance}</p>
-                {renderResourceLink(article, resource)}
+                {renderResourceLink(resource)}
               </div>
             ))}
           </div>

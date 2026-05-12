@@ -3,17 +3,18 @@
   "id": "07",
   "slug": "thema-07",
   "legacy": {
-    "sourceFormat": "yaml-v1",
-    "sourcePath": "content/thema-07.yml"
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "src/content/recovered/analzy-pages/07-attribution.bundle.txt"
   },
   "meta": {
     "title": "Attributionstheorie",
-    "discipline": "Sozialpsychologie / Motivationspsychologie",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "subtitle": "Warum Menschen das tun, was sie tun — Die Psychologie der Ursachenzuschreibung",
+    "discipline": "Sozialpsychologie",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#b7d7f5",
     "tabNumber": 7,
-    "estimatedReadMinutes": 4,
-    "leadTeaser": "Warum antwortet dein:e Freund:in nicht auf deine Nachricht? Die Attributionstheorie erklärt, wie Menschen Ursachen für Verhalten zuschreiben – und wie diese Zuschreibungen Gefühle, Motivation und zwischenmenschliche Beziehungen steuern."
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Heiders Buch gilt als Gründungswerk der Attributionstheorie und beeinflusst die Sozialpsychologie bis heute."
   },
   "taxonomy": {
     "categoryId": "social-psychology",
@@ -24,8 +25,8 @@
     ],
     "audience": [
       "erstsemester",
-      "adhs-freundlich",
-      "selbststudium"
+      "selbststudium",
+      "gui-authoring"
     ]
   },
   "crm": {
@@ -44,8 +45,8 @@
       ],
       "audience": [
         "erstsemester",
-        "adhs-freundlich",
-        "selbststudium"
+        "selbststudium",
+        "gui-authoring"
       ],
       "keywords": [
         "attribution",
@@ -56,422 +57,233 @@
   },
   "sections": [
     {
-      "id": "07-lead-1",
+      "id": "07-lead",
       "type": "lead",
       "entries": [
         {
           "kind": "paragraph",
           "content": {
-            "text": "Warum antwortet dein:e Freund:in nicht auf deine Nachricht? Die Attributionstheorie erklärt, wie Menschen Ursachen für Verhalten zuschreiben – und wie diese Zuschreibungen Gefühle, Motivation und zwischenmenschliche Beziehungen steuern.",
+            "text": "Heiders Buch gilt als Gründungswerk der Attributionstheorie und beeinflusst die Sozialpsychologie bis heute.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Kelley formulierte das Kovariationsprinzip als systematisches Modell für Alltagsattributionen.",
             "annotations": []
           }
         }
       ]
     },
     {
-      "id": "07-definition-2",
+      "id": "07-generated-definition",
       "type": "definition",
+      "title": "Begriffe und Definitionen",
       "entries": [
+        {
+          "kind": "subheading",
+          "text": "Attribution"
+        },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Attribution ist der kognitive Prozess, durch den Menschen Erklärungen für eigenes und fremdes Verhalten generieren. Das Modell von Weiner ordnet Ursachen entlang dreier Dimensionen: Locus, Stabilität und Kontrollierbarkeit. Diese Dimensionen bestimmen, welche Emotionen und Handlungsbereitschaften entstehen.",
-            "annotations": [
-              {
-                "id": "07-definition-2-def-1",
-                "text": "Attribution",
-                "kind": "definition",
-                "tooltip": "Wenn du dir erklärst, warum jemand so handelt – etwa ob die schlechte Note auf Faulheit oder eine schwere Prüfung zurückgeht",
-                "tone": "blue"
-              },
-              {
-                "id": "07-definition-2-def-2",
-                "text": "Locus",
-                "kind": "definition",
-                "tooltip": "Die Unterscheidung, ob eine Ursache in der Person selbst liegt (Fähigkeit) oder außerhalb (Pech)",
-                "tone": "blue"
-              },
-              {
-                "id": "07-definition-2-def-3",
-                "text": "Stabilität",
-                "kind": "definition",
-                "tooltip": "Die Frage, ob eine Ursache dauerhaft besteht (Intelligenz) oder vorübergehend ist (Krankheit)",
-                "tone": "blue"
-              },
-              {
-                "id": "07-definition-2-def-4",
-                "text": "Kontrollierbarkeit",
-                "kind": "definition",
-                "tooltip": "Das Maß, in dem man eine Ursache willentlich beeinflussen kann (Lernen ja, Wetter nein)",
-                "tone": "blue"
-              }
-            ]
+            "text": "Die Zuweisung von Ursachen zu Verhalten oder Ereignissen. Die Attribution beeinflusst Emotionen, Erwartungen und zukünftiges Verhalten.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Gelernte Hilflosigkeit"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein Zustand, in dem Menschen aufhören, aktiv Probleme zu lösen, weil sie gelernt haben, dass ihre Handlungen keine Wirkung haben. Ursprünglich bei Hunden experimentell nachgewiesen.",
+            "annotations": []
           }
         }
       ]
     },
     {
-      "id": "07-explanation-3",
+      "id": "07-explanation",
       "type": "explanation",
+      "title": "Arbeitsfassung",
       "entries": [
         {
           "kind": "subheading",
-          "text": "Heiders naive Psychologie: Die Wurzeln der Ursachensuche"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Menschen sind intuitive Psychologen. Heider (1958) argumentierte, dass Alltagsmenschen systematisch Ursachen für Verhalten suchen, um ihre soziale Umwelt vorhersagbar zu machen. Diese spontane Ursachenzuschreibung nennt er Attribution.",
-            "annotations": [
-              {
-                "id": "07-explanation-3-def-1",
-                "text": "Attribution",
-                "kind": "definition",
-                "tooltip": "Wenn du dir erklärst, warum jemand so handelt – etwa ob die schlechte Note auf Faulheit oder eine schwere Prüfung zurückgeht",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-src-9",
-                "text": "Heider (1958) argumentierte, dass Alltagsmenschen systematisch Ursachen für Verhalten suchen",
-                "kind": "citation",
-                "tooltip": "Heider & F. (1958)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-1"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Heider (1958) unterschied interne Ursachen wie Fähigkeiten und Einstellungen von externen Ursachen wie Situationsdruck oder Zufall. Ein Beobachter muss entscheiden, ob das Durchfallen bei einer Prüfung auf mangelnde Fähigkeit oder eine zu schwere Aufgabe zurückzuführen ist. Diese Dichotomie bildet den Kern aller späteren Attributionstheorien.",
-            "annotations": [
-              {
-                "id": "07-explanation-3-def-1",
-                "text": "Attribution",
-                "kind": "definition",
-                "tooltip": "Wenn du dir erklärst, warum jemand so handelt – etwa ob die schlechte Note auf Faulheit oder eine schwere Prüfung zurückgeht",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-src-10",
-                "text": "Heider (1958) unterschied interne Ursachen wie Fähigkeiten und Einstellungen von externen Ursachen wie Situationsdruck oder Zufall",
-                "kind": "citation",
-                "tooltip": "Heider & F. (1958)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-1"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Försterling (2001) systematisiert neben Heiders Modell auch Kelleys Kovariationsprinzip. Dieses besagt, dass Menschen Ursachen anhand dreier Informationen ableiten: Konsens, Distinktheit und Konsistenz. Werden alle drei Kriterien erfüllt, erfolgt eine externe Attribution; bei niedrigem Konsens und niedriger Distinktheit eine interne.",
-            "annotations": [
-              {
-                "id": "07-explanation-3-def-1",
-                "text": "Attribution",
-                "kind": "definition",
-                "tooltip": "Wenn du dir erklärst, warum jemand so handelt – etwa ob die schlechte Note auf Faulheit oder eine schwere Prüfung zurückgeht",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-src-11",
-                "text": "Försterling (2001) systematisiert neben Heiders Modell auch Kelleys Kovariationsprinzip",
-                "kind": "citation",
-                "tooltip": "Försterling & F. (2001)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-3"
-                ]
-              }
-            ]
-          }
+          "text": "Interne (dispositionelle) Attribution"
         },
         {
           "kind": "subheading",
-          "text": "Weiners dreidimensionales Modell: Locus, Stabilität, Kontrollierbarkeit"
+          "text": "Externe (situationale) Attribution"
+        },
+        {
+          "kind": "subheading",
+          "text": "Kelleys Kovariationsmodell"
+        },
+        {
+          "kind": "subheading",
+          "text": "Konsistenz"
+        },
+        {
+          "kind": "subheading",
+          "text": "Unterscheidbarkeit (Distinctiveness)"
+        },
+        {
+          "kind": "subheading",
+          "text": "Konsens"
+        },
+        {
+          "kind": "subheading",
+          "text": "Weiners dreidimensionales Attributionsmodell"
+        },
+        {
+          "kind": "subheading",
+          "text": "Die drei Dimensionen"
+        },
+        {
+          "kind": "subheading",
+          "text": "Beispiel: Attributionen für Prüfungserfolg"
+        },
+        {
+          "kind": "subheading",
+          "text": "Attribution und Leistung: Optimistisch vs. pessimistisch"
+        },
+        {
+          "kind": "subheading",
+          "text": "Optimistischer Stil"
+        },
+        {
+          "kind": "subheading",
+          "text": "Pessimistischer Stil"
+        },
+        {
+          "kind": "subheading",
+          "text": "Systematische Fehler in der Attribution"
+        },
+        {
+          "kind": "subheading",
+          "text": "Fundamentaler Attributionsfehler"
+        },
+        {
+          "kind": "subheading",
+          "text": "Akteur-Beobachter-Differenz"
+        },
+        {
+          "kind": "subheading",
+          "text": "Selbstwertdienliche Verzerrung"
+        },
+        {
+          "kind": "subheading",
+          "text": "Kulturelle Unterschiede"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Weiner (1986) erweiterte Heiders Dichotomie zu einem dreidimensionalen System. Ursachen lassen sich entlang der Dimensionen Locus (intern vs. extern), Stabilität (stabil vs. instabil) und Kontrollierbarkeit (kontrollierbar vs. unkontrollierbar) klassifizieren. Fähigkeit ist intern, stabil und unkontrollierbar; Anstrengung ist intern, instabil und kontrollierbar.",
-            "annotations": [
-              {
-                "id": "07-explanation-3-def-2",
-                "text": "Locus",
-                "kind": "definition",
-                "tooltip": "Die Unterscheidung, ob eine Ursache in der Person selbst liegt (Fähigkeit) oder außerhalb (Pech)",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-def-3",
-                "text": "Stabilität",
-                "kind": "definition",
-                "tooltip": "Die Frage, ob eine Ursache dauerhaft besteht (Intelligenz) oder vorübergehend ist (Krankheit)",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-def-4",
-                "text": "Kontrollierbarkeit",
-                "kind": "definition",
-                "tooltip": "Das Maß, in dem man eine Ursache willentlich beeinflussen kann (Lernen ja, Wetter nein)",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-src-12",
-                "text": "Weiner (1986) erweiterte Heiders Dichotomie zu einem dreidimensionalen System",
-                "kind": "citation",
-                "tooltip": "Weiner & B. (1986)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-2"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Diese drei Dimensionen generieren spezifische Emotionen und Handlungsbereitschaften. Misserfolg, der auf interne, stabile, unkontrollierbare Ursachen zurückgeführt wird, löst Scham aus und reduziert die zukünftige Anstrengung. Erfolg, der auf interne, stabile Ursachen attribuiert wird, erzeugt Stolz und fördert die Persistenz.",
+            "text": "Kontrollierbar ↔ Nicht kontrollierbar",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Selbstwertdienliche Attribution zeigt sich darin, dass Menschen Erfolg eher intern und Misserfolg eher extern zuschreiben. Dieser Bias schützt das Selbstwertgefühl, ist jedoch in seiner Extremform realitätsverzerrend. Försterling (2001) ordnet diesen Effekt in die Kategorie motivationaler Verzerrungen ein.",
-            "annotations": [
-              {
-                "id": "07-explanation-3-def-1",
-                "text": "Attribution",
-                "kind": "definition",
-                "tooltip": "Wenn du dir erklärst, warum jemand so handelt – etwa ob die schlechte Note auf Faulheit oder eine schwere Prüfung zurückgeht",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-def-5",
-                "text": "Selbstwertdienliche Attribution",
-                "kind": "definition",
-                "tooltip": "Die Tendenz, Erfolg eigener Leistung zuzuschreiben und Misserfolg äußeren Umständen",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-src-13",
-                "text": "Försterling (2001) ordnet diesen Effekt in die Kategorie motivationaler Verzerrungen ein",
-                "kind": "citation",
-                "tooltip": "Försterling & F. (2001)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-3"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Der fundamentale Attributionfehler: Systematische Fremdeinschätzung"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Der fundamentale Attributionfehler beschreibt die systematische Tendenz, das Verhalten anderer stärker auf deren Persönlichkeit als auf die Situation zurückzuführen. Försterling (2001) zeigt, dass dieser Fehler besonders bei negativem Verhalten fremder Personen auftritt. Dagegen erklären Menschen ihr eigenes Verhalten eher situationsbedingt.",
-            "annotations": [
-              {
-                "id": "07-explanation-3-def-1",
-                "text": "Attribution",
-                "kind": "definition",
-                "tooltip": "Wenn du dir erklärst, warum jemand so handelt – etwa ob die schlechte Note auf Faulheit oder eine schwere Prüfung zurückgeht",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-src-14",
-                "text": "Försterling (2001) zeigt, dass dieser Fehler besonders bei negativem Verhalten fremder Personen auftritt",
-                "kind": "citation",
-                "tooltip": "Försterling & F. (2001)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-3"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Dieser Unterschied zwischen Eigen- und Fremdperspektive ist eine der robustesten Befunde der Sozialpsychologie. Er erklärt, warum Beobachter den Fahrer eines überholenden Autos als aggressiv einschätzen, während der Fahrer selbst eine Notlage anführt. Die asymmetrische Informationslage ist ein verbreiteter Erklärungsansatz.",
+            "text": "warum Attributionen gefühle und Verhalten beeinflussen",
             "annotations": []
           }
         },
         {
-          "kind": "subheading",
-          "text": "Attributionaler Stil und gelernte Hilflosigkeit"
-        },
-        {
           "kind": "paragraph",
           "content": {
-            "text": "Der attributionale Stil bezeichnet relativ stabile Neigungen, bestimmte Ursachenmuster zu bevorzugen. Ein pessimistischer attributionaler Stil führt Misserfolg auf interne, stabile, globale Ursachen zurück und begünstigt depressive Symptome. Graham und Folkes (1990) wenden die Attributionstheorie auf schulisches Leistungsverhalten und psychische Gesundheit an.",
-            "annotations": [
-              {
-                "id": "07-explanation-3-def-1",
-                "text": "Attribution",
-                "kind": "definition",
-                "tooltip": "Wenn du dir erklärst, warum jemand so handelt – etwa ob die schlechte Note auf Faulheit oder eine schwere Prüfung zurückgeht",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-def-7",
-                "text": "Attributionaler Stil",
-                "kind": "definition",
-                "tooltip": "Die persönliche Gewohnheit, Erfolg und Misserfolg nach bestimmten Mustern zu erklären",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-src-15",
-                "text": "Graham und Folkes (1990) wenden die Attributionstheorie auf schulisches Leistungsverhalten und psychische Gesundheit an",
-                "kind": "citation",
-                "tooltip": "Graham et al. (1990)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-4"
-                ]
-              }
-            ]
+            "text": "Weiners Artikel ist der einflussreichste theoretische Beitrag zur Attributionsforschung in der Leistungsmotivation.",
+            "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Graham und Folkes (1990) zeigen in ihrem Review, dass attributionale Retraining-Programme bei Lernenden mit Hilflosigkeitsmustern die Leistungsmotivation steigern können. Durch Umstrukturierung der Ursachenzuschreibung wird eine instabile, kontrollierbare Attribution gefördert. Diese Intervention ist besonders wirksam bei Kindern mit Lernschwierigkeiten.",
-            "annotations": [
-              {
-                "id": "07-explanation-3-def-1",
-                "text": "Attribution",
-                "kind": "definition",
-                "tooltip": "Wenn du dir erklärst, warum jemand so handelt – etwa ob die schlechte Note auf Faulheit oder eine schwere Prüfung zurückgeht",
-                "tone": "blue"
-              },
-              {
-                "id": "07-explanation-3-src-16",
-                "text": "Graham und Folkes (1990) zeigen in ihrem Review, dass attributionale Retraining-Programme bei Lernenden mit Hilflosigkeitsmustern die Leistungsmotivation steigern können",
-                "kind": "citation",
-                "tooltip": "Graham et al. (1990)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-4"
-                ]
-              }
-            ]
+            "text": "In seinem Buch führt Weiner das 3D-Modell vollständig aus und verbindet es mit Emotionen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Seligmans Monografie etablierte die gelernte Hilflosigkeit als zentrales Konzept der klinischen und Motivationspsychologie.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Menschen folgen beim Attribuieren nicht immer logischen Regeln. Drei besonders robuste Fehlermuster:",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Morris und Peng zeigten kulturelle Unterschiede in der Attribution mit Zeitungsanalysen von Gewalttaten — Amerikaner attribuierten stärker dispositionell.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Nebraska Symposium on Motivation",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "An attributional theory of motivation and emotion",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Selbstwirksamkeit nach Bandura",
+            "annotations": []
           }
         }
       ]
     },
     {
-      "id": "07-visual-4",
+      "id": "07-visuals-1",
       "type": "visual",
+      "title": "Illustrationen",
       "asset": {
-        "kind": "svg-component",
-        "assetId": "07-visual-1",
-        "description": "Clean line-art flow diagram (viewBox 0 0 400 300, stroke #1a1a1a, 2px main lines, 1px secondary lines, transparent background).\nCenter: A horizontal process flow with four connected rounded boxes (rx=\"4\") from left to right.\nBox 1 (80x40, left): \"Ereignis\" with sublabel \"(Erfolg / Misserfolg)\".\nArrow → Box 2 (140x70, center, larger): \"Attribution\" with three internal horizontal tiers:\n  - Tier 1: \"Locus: intern ↔ extern\"\n  - Tier 2: \"Stabilität: stabil ↔ instabil\"\n  - Tier 3: \"Kontrollierbarkeit: ja ↔ nein\"\nArrow → Box 3 (80x40): \"Emotion\" with sublabel \"(Stolz / Scham / Ärger)\".\nArrow → Box 4 (80x40): \"Verhalten\" with sublabel \"(Anstrengung steigt / sinkt)\".\nBelow main flow: Two example pathways as thinner lines with labels.\nPathway A (success, dashed line, green-tinted #a8d8ea stroke): Erfolg → intern/stabil/kontrollierbar → Stolz → Persistenz.\nPathway B (failure, dotted line): Misserfolg → intern/stabil/unkontrollierbar → Scham → Rückzug.\nAll labels in German, 11px DM Sans sans-serif. No decorative elements.\nTitle element: \"Attributionsprozess nach Weiner\".\nDesc element: \"Flussdiagramm der drei Attributiondimensionen und ihrer Auswirkungen auf Emotion und Verhalten.\"\n",
-        "alt": "Das Diagramm zeigt, wie Weiners drei Dimensionen dieselbe Situation in unterschiedliche emotionale und motivationale Folgen überführen."
+        "kind": "image-file",
+        "src": "/recovered/analzy/illu-attribution-dimensions.png",
+        "description": "Recovered illustration illu-attribution-dimensions.png from analzy deployment bundle.",
+        "alt": "Attributionstheorie: Attribution Dimensions"
       },
-      "caption": "Das Diagramm zeigt, wie Weiners drei Dimensionen dieselbe Situation in unterschiedliche emotionale und motivationale Folgen überführen."
+      "caption": "Attribution Dimensions"
     },
     {
-      "id": "07-deep_dive-5",
-      "type": "deep_dive",
-      "entries": [
-        {
-          "kind": "subheading",
-          "text": "Das Akteur-Beobachter-Problem und seine Auflösung"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Das Akteur-Beobachter-Asymmetrie beschreibt, dass Handelnde ihre Taten situativ erklären, während Beobachtende dispositionale Attributionen bevorzugen. Försterling (2001) systematisiert die Erklärungsansätze für diesen Effekt, darunter die unterschiedliche Informationslage und die unterschiedliche Wahrnehmungsperspektive. Die Asymmetrie ist somit kein kognitiver Automatismus, sondern durch Informationsstand und Motivation moderiert.",
-            "annotations": [
-              {
-                "id": "07-deep_dive-5-src-1",
-                "text": "Försterling (2001) systematisiert die Erklärungsansätze für diesen Effekt, darunter die unterschiedliche Informationslage und die unterschiedliche Wahrnehmungsperspektive",
-                "kind": "citation",
-                "tooltip": "Försterling & F. (2001)",
-                "tone": "red",
-                "sourceIds": [
-                  "07-source-3"
-                ]
-              }
-            ]
-          }
-        },
-        {
-          "kind": "subheading",
-          "text": "Grenzen der Attributionstheorie"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Kritiker werfen dem Ansatz eine übermäßige Kognitivierung sozialen Verhaltens vor. Emotionale und implizite Prozesse werden in klassischen Attributionstheorien unterrepräsentiert. Weiners Modell bleibt dennoch das dominante Rahmenwerk für interventionsbasierte Forschung in Bildung und Klinischer Psychologie.",
-            "annotations": []
-          }
-        }
-      ]
-    },
-    {
-      "id": "07-example-6",
-      "type": "example",
-      "entries": [
-        {
-          "kind": "subheading",
-          "text": "Alltagsbeispiel: Die verpasste Prüfungsanmeldung"
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Du hast die Anmeldefrist für eine Klausur verpasst. Deine Attribution bestimmt deine Reaktion: Schreibst du dem Prüfungsamt (externe, instabile Ursache: \"Das System war unübersichtlich\") oder verfällst du in Selbstvorwürfe (interne, stabile Ursache: \"Ich bin chaotisch\")?",
-            "annotations": []
-          }
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Die erste Attribution führt zu Ärger und Korrekturversuchen, die zweite zu Scham und Vermeidung. Weiners Modell erklärt, warum dieselbe Situation bei verschiedenen Personen unterschiedliche Emotionen und Handlungsbereitschaften auslöst.",
-            "annotations": []
-          }
-        },
-        {
-          "kind": "paragraph",
-          "content": {
-            "text": "Ein pessimistischer attributionale Stil würde den Fehler verallgemeinern: \"Ich versage immer bei organisatorischen Dingen.\" Ein optimistischer Stil hingegen attributiert spezifisch und variabel: \"Dieses Semester war die Anmeldephase ungewöhnlich früh.\" Die unterscheidliche Zukunftserwartung ist der entscheidende Motivationshebel.",
-            "annotations": []
-          }
-        }
-      ]
-    },
-    {
-      "id": "07-summary-7",
+      "id": "07-summary",
       "type": "summary",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Attribution ist die kognitive Zuschreibung von Ursachen für Verhalten; sie strukturiert unser soziales Verstehen.",
+              "text": "Selbstwirksamkeit nach Bandura",
               "annotations": []
             },
             {
-              "text": "Weiners drei Dimensionen (Locus, Stabilität, Kontrollierbarkeit) verbinden Attribution mit spezifischen Emotionen und Motivation.",
+              "text": "Leistungsmotivation",
               "annotations": []
             },
             {
-              "text": "Der fundamentale Attributionfehler und der attributionale Stil erklären systematische Verzerrungen in der Alltagspsychologie.",
+              "text": "Soziale Kognition",
+              "annotations": []
+            },
+            {
+              "text": "Gelernte Hilflosigkeit",
               "annotations": []
             }
           ]
@@ -481,74 +293,136 @@
   ],
   "sources": [
     {
-      "id": "07-source-1",
-      "kind": "primary",
+      "id": "07-recovered-source-1",
+      "kind": "other",
       "shortCitation": "Heider & F. (1958)",
-      "apaCitation": "Heider, F. (1958). The psychology of interpersonal relations. Wiley.",
-      "tooltip": "Heiders primäres Werk begründete die systematische Erforschung alltäglicher Ursachenzuschreibungen.",
+      "apaCitation": "Heider, F. (1958). *The psychology of interpersonal relations*. Wiley.",
+      "tooltip": "Heiders Buch gilt als Gründungswerk der Attributionstheorie und beeinflusst die Sozialpsychologie bis heute.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "07-source-2",
+      "id": "07-recovered-source-2",
       "kind": "secondary",
-      "shortCitation": "Weiner & B. (1986)",
-      "apaCitation": "Weiner, B. (1986). An attributional theory of motivation and emotion. Springer. https://doi.org/10.1007/978-1-4612-4948-1",
-      "tooltip": "Weiners Monographie formalisiert die drei Attributiondimensionen und ihre motivationalen Konsequenzen.",
-      "url": "https://doi.org/10.1007/978-1-4612-4948-1",
-      "doi": "10.1007/978-1-4612-4948-1",
+      "shortCitation": "Kelley & H. H. (1967)",
+      "apaCitation": "Kelley, H. H. (1967). Attribution theory in social psychology. In D. Levine (Ed.), *Nebraska Symposium on Motivation* (Vol. 15, pp. 192–238). University of Nebraska Press.",
+      "tooltip": "Kelley formulierte das Kovariationsprinzip als systematisches Modell für Alltagsattributionen.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
         ]
       }
     },
     {
-      "id": "07-source-3",
-      "kind": "secondary",
-      "shortCitation": "Försterling & F. (2001)",
-      "apaCitation": "Försterling, F. (2001). Attribution: Eine Einführung in die neueren Theorien (4. Aufl.). Beltz PVU.",
-      "tooltip": "Försterlings Lehrbuch systematisiert klassische und moderne Attributionstheorien für das deutschsprachige Studium.",
-      "verification": {
-        "status": "legacy-imported",
-        "checkedAgainst": [
-          "legacy-source-list"
-        ]
-      }
-    },
-    {
-      "id": "07-source-4",
+      "id": "07-recovered-source-3",
       "kind": "review",
-      "shortCitation": "Graham et al. (1990)",
-      "apaCitation": "Graham, S., & Folkes, V. S. (Hrsg.). (1990). Attribution theory: Applications to achievement, mental health, and interpersonal conflict. Lawrence Erlbaum.",
-      "tooltip": "Dieser Sammelband verbindet Attributionstheorie mit Bildungs-, Klinischer und Sozialpsychologie.",
+      "shortCitation": "Weiner & B. (1985)",
+      "apaCitation": "Weiner, B. (1985). An attributional theory of achievement motivation and emotion. *Psychological Review*, 92(4), 548–573.",
+      "tooltip": "Weiners Artikel ist der einflussreichste theoretische Beitrag zur Attributionsforschung in der Leistungsmotivation.",
       "verification": {
-        "status": "legacy-imported",
+        "status": "pending-review",
         "checkedAgainst": [
-          "legacy-source-list"
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "07-recovered-source-4",
+      "kind": "other",
+      "shortCitation": "Weiner & B. (1986)",
+      "apaCitation": "Weiner, B. (1986). *An attributional theory of motivation and emotion*. Springer.",
+      "tooltip": "In seinem Buch führt Weiner das 3D-Modell vollständig aus und verbindet es mit Emotionen.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "07-recovered-source-5",
+      "kind": "secondary",
+      "shortCitation": "Seligman & M. E. P. (1975)",
+      "apaCitation": "Seligman, M. E. P. (1975). *Helplessness: On depression, development, and death*. W. H. Freeman.",
+      "tooltip": "Seligmans Monografie etablierte die gelernte Hilflosigkeit als zentrales Konzept der klinischen und Motivationspsychologie.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "07-recovered-source-6",
+      "kind": "secondary",
+      "shortCitation": "Ross & L. (1977)",
+      "apaCitation": "Ross, L. (1977). The intuitive psychologist and his shortcomings. In L. Berkowitz (Ed.), *Advances in experimental social psychology* (Vol. 10, pp. 173–220). Academic Press.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "07-recovered-source-7",
+      "kind": "empirical",
+      "shortCitation": "Morris et al. (1994)",
+      "apaCitation": "Morris, M. W., & Peng, K. (1994). Culture and cause: American and Chinese attributions for social and physical events. *Journal of Personality and Social Psychology*, 67(6), 949–971.",
+      "tooltip": "Morris und Peng zeigten kulturelle Unterschiede in der Attribution mit Zeitungsanalysen von Gewalttaten — Amerikaner attribuierten stärker dispositionell.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
         ]
       }
     }
   ],
   "relatedResources": [
     {
-      "id": "07-resource-1",
-      "category": "Film",
-      "title": "Die 12 Geschworenen (12 Angry Men, 1957)",
-      "relevance": "Die Deliberation der Geschworenen zeigt, wie Attributionen über Schuld und Charakter die Entscheidungsfindung in Gruppen steuern.",
-      "url": "https://www.imdb.com/title/tt0050083/"
+      "id": "07-connection-1",
+      "category": "verknuepfung",
+      "title": "Selbstwirksamkeit nach Bandura",
+      "relevance": "Recovered internal concept link from /attribution.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "23"
+      }
     },
     {
-      "id": "07-resource-2",
-      "category": "Buch",
-      "title": "Försterling, F. (2001). Attribution: Eine Einführung in die neueren Theorien",
-      "relevance": "Das Standardlehrbuch für das deutschsprachige Studium vertieft alle klassischen Modelle mit Alltagsbeispielen.",
-      "url": "https://www.beltz.de/fachmedien/psychologie/"
+      "id": "07-connection-2",
+      "category": "verknuepfung",
+      "title": "Leistungsmotivation",
+      "relevance": "Recovered internal concept link from /attribution.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "24"
+      }
+    },
+    {
+      "id": "07-connection-3",
+      "category": "verknuepfung",
+      "title": "Soziale Kognition",
+      "relevance": "Recovered internal concept link from /attribution.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "26"
+      }
+    },
+    {
+      "id": "07-connection-4",
+      "category": "verknuepfung",
+      "title": "Gelernte Hilflosigkeit",
+      "relevance": "Recovered internal concept link from /attribution.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "25"
+      }
     }
   ]
 }

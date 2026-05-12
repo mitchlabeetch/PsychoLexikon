@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "26",
+  "slug": "thema-26",
+  "legacy": {
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+  },
+  "meta": {
+    "title": "Soziale Kognition",
+    "subtitle": "Wie Menschen soziale Hinweise wahrnehmen, deuten und erinnern",
+    "discipline": "Sozialpsychologie",
+    "difficulty": "Vertiefungs-Knoten",
+    "tabColor": "#b7d7f5",
+    "tabNumber": 26,
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Soziale Kognition buendelt Prozesse wie Attribution, Personenwahrnehmung und Urteilsverzerrungen, also genau jene Mechanismen, die im Attributionsartikel bereits angelegt sind."
+  },
+  "taxonomy": {
+    "categoryId": "social-psychology",
+    "keywords": [
+      "soziale kognition",
+      "soziales denken",
+      "attribution"
+    ],
+    "audience": [
+      "selbststudium",
+      "vertiefung",
+      "gui-authoring"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-26",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-26",
+      "social-psychology"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Sozialpsychologie"
+      ],
+      "audience": [
+        "selbststudium",
+        "vertiefung",
+        "gui-authoring"
+      ],
+      "keywords": [
+        "soziale kognition",
+        "soziales denken",
+        "attribution"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "26-lead",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Der recovered Link /sozialkognition macht explizit, dass der Attributionsartikel nur einen Ausschnitt eines groesseren Feldes behandelt: Menschen muessen soziale Hinweise nicht nur erklaeren, sondern auch wahrnehmen, erinnern und bewerten.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite soziale Kognition als Oberbegriff fuer die im Korpus bereits sichtbaren Prozesse der Ursachenzuschreibung und Urteilsbildung.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "26-generated-definition",
+      "type": "definition",
+      "title": "Begriffe und Definitionen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Soziale Kognition"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Oberbegriff fuer mentale Prozesse, mit denen Menschen soziale Informationen wahrnehmen, interpretieren, speichern und fuer Urteile nutzen.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Fundamentaler Attributionsfehler"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Tendenz, Verhalten anderer zu stark auf dispositionelle Ursachen zurueckzufuehren und situative Bedingungen zu unterschaetzen.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "26-explanation",
+      "type": "explanation",
+      "title": "Vom Attributionsurteil zum sozialen Denken",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Was soziale Kognition umfasst"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Soziale Kognition bezeichnet die Verarbeitung sozialer Information insgesamt: Wie wir andere Personen wahrnehmen, ihr Verhalten interpretieren, Erwartungen bilden und spaetere Urteile speichern.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Attribution als Teilbereich"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Attribution gehoert zu den sichtbarsten Teilprozessen sozialer Kognition, weil hier Ursachen fuer Verhalten vergeben werden. Der recovered Attributionsartikel liefert damit bereits einen kompakten Einstieg in das groessere Feld.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Typische Verzerrungen und kulturelle Einbettung"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Fundamentaler Attributionsfehler, Akteur-Beobachter-Differenz und kulturelle Unterschiede zeigen, dass soziales Denken weder rein logisch noch kulturfrei verlaeuft. Genau diese Fehler- und Kontextmuster machen soziale Kognition psychologisch interessant.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "26-summary",
+      "type": "summary",
+      "title": "Merkpunkte",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "Soziale Kognition ist der breitere Rahmen, in dem Attribution als Spezialfall erscheint.",
+              "annotations": []
+            },
+            {
+              "text": "Urteilsverzerrungen zeigen, dass soziales Denken systematisch vereinfacht und nicht bloss objektiv abbildet.",
+              "annotations": []
+            },
+            {
+              "text": "Der recovered Verweis aus der Attributionstheorie laesst sich deshalb sinnvoll zu einer eigenstaendigen Vertiefungsseite ausbauen.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "26-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Soziale Kognition (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Soziale Kognition (/sozialkognition) was linked from Attributionstheorie.",
+      "tooltip": "Der recovered Verweis verankert soziale Kognition als Oberbegriff des bereits migrierten Attributionsstoffs.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "26-source-2",
+      "kind": "other",
+      "shortCitation": "Heider & F. (1958)",
+      "apaCitation": "Heider, F. (1958). The psychology of interpersonal relations. Wiley.",
+      "tooltip": "Heider liefert den klassischen Ausgangspunkt fuer soziale Deutungsprozesse zwischen Person und Situation.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "26-source-3",
+      "kind": "secondary",
+      "shortCitation": "Ross & L. (1977)",
+      "apaCitation": "Ross, L. (1977). The intuitive psychologist and his shortcomings. In L. Berkowitz (Ed.), Advances in experimental social psychology (Vol. 10, pp. 173-220). Academic Press.",
+      "tooltip": "Beschreibt robuste Urteilsverzerrungen, die als Kernthema sozialer Kognition gelten.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "26-source-4",
+      "kind": "empirical",
+      "shortCitation": "Morris et al. (1994)",
+      "apaCitation": "Morris, M. W., & Peng, K. (1994). Culture and cause: American and Chinese attributions for social and physical events. Journal of Personality and Social Psychology, 67(6), 949-971.",
+      "tooltip": "Verdeutlicht, dass soziale Kognition kulturell gerahmt ist und nicht nur individuelle Informationsverarbeitung beschreibt.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "26-backlink-1",
+      "category": "rueckverweis",
+      "title": "Attributionstheorie",
+      "relevance": "Recovered primary article that referenced Soziale Kognition.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "07"
+      }
+    },
+    {
+      "id": "26-category-1",
+      "category": "kategorie",
+      "title": "Sozialpsychologie",
+      "relevance": "Canonical category placement for this derived concept node.",
+      "target": {
+        "kind": "internal-category",
+        "categoryId": "social-psychology"
+      }
+    },
+    {
+      "id": "26-bridge-1",
+      "category": "verknuepfung",
+      "title": "Selbstwirksamkeit nach Bandura",
+      "relevance": "Soziale Deutungen von Erfolg und Misserfolg beeinflussen spaetere Kompetenzueberzeugungen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "23"
+      }
+    },
+    {
+      "id": "26-bridge-2",
+      "category": "verknuepfung",
+      "title": "Gelernte Hilflosigkeit",
+      "relevance": "Pessimistische Deutungsmuster zeigen, wie soziale und motivationale Kognitionen zusammenlaufen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "25"
+      }
+    }
+  ]
+}

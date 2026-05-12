@@ -1,0 +1,269 @@
+{
+  "schemaVersion": "2.0.0",
+  "id": "19",
+  "slug": "thema-19",
+  "legacy": {
+    "sourceFormat": "authoring-v1",
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+  },
+  "meta": {
+    "title": "IQ-Tests und Diagnostik",
+    "subtitle": "Wie Intelligenzmodelle in messbare Testprofile uebersetzt werden",
+    "discipline": "Statistik & Psychometrie",
+    "difficulty": "Vertiefungs-Knoten",
+    "tabColor": "#f2c6a0",
+    "tabNumber": 19,
+    "estimatedReadMinutes": 3,
+    "leadTeaser": "Verfahren wie BIS-4 oder CHC-orientierte Batterien sind keine neutralen Messgeraete, sondern operationalisieren jeweils ein bestimmtes Intelligenzmodell."
+  },
+  "taxonomy": {
+    "categoryId": "statistics-and-psychometrics",
+    "keywords": [
+      "iq-tests",
+      "diagnostik",
+      "intelligenz"
+    ],
+    "audience": [
+      "selbststudium",
+      "vertiefung",
+      "gui-authoring"
+    ]
+  },
+  "crm": {
+    "system": "content-hub",
+    "externalId": "thema-19",
+    "recordType": "knowledge-article",
+    "pipelineStage": "published",
+    "cacheTags": [
+      "thema-19",
+      "statistics-and-psychometrics"
+    ],
+    "syncEnabled": false,
+    "metadata": {
+      "taxonomyPath": [
+        "Statistik & Psychometrie"
+      ],
+      "audience": [
+        "selbststudium",
+        "vertiefung",
+        "gui-authoring"
+      ],
+      "keywords": [
+        "iq-tests",
+        "diagnostik",
+        "intelligenz"
+      ]
+    }
+  },
+  "sections": [
+    {
+      "id": "19-lead",
+      "type": "lead",
+      "entries": [
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Die recovered Route /iq-tests verweist auf den praktischen Punkt, an dem Theorie in Diagnostik uebergeht: Intelligenzmodelle muessen in Aufgaben, Normen und interpretierbare Profile uebersetzt werden.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Weil fuer die Route kein eigenstaendiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsquellen.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "19-generated-definition",
+      "type": "definition",
+      "title": "Begriffe und Definitionen",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Intelligenzdiagnostik"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Systematische Erfassung kognitiver Leistungsunterschiede mit standardisierten Aufgaben, Profilen und Interpretationsregeln.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Testbatterie"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Zusammenstellung mehrerer Untertests, die unterschiedliche Faehigkeiten oder Facetten eines Modells abbilden sollen.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "19-explanation",
+      "type": "explanation",
+      "title": "Vom Modell zum Test",
+      "entries": [
+        {
+          "kind": "subheading",
+          "text": "Testverfahren messen nie voraussetzungslos"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Ein IQ-Test ist immer an ein Modell gebunden: Soll ein Gesamtwert im Vordergrund stehen, mehrere breite Faehigkeiten oder ein Profil aus Operationen und Inhaltsbereichen? Erst diese Entscheidung bestimmt, welche Untertests sinnvoll sind.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "BIS-4 als Beispiel"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Der BIS-4 zeigt, wie sich ein mehrdimensionales Modell in konkrete Aufgabentypen uebersetzen laesst. Damit wird Intelligenz nicht nur als Rangreihe, sondern als strukturierte Leistungslandschaft lesbar.",
+            "annotations": []
+          }
+        },
+        {
+          "kind": "subheading",
+          "text": "Diagnostische Verantwortung"
+        },
+        {
+          "kind": "paragraph",
+          "content": {
+            "text": "Je staerker Testprofile fuer Bildungs-, Beratungs- oder Auswahlentscheidungen genutzt werden, desto wichtiger werden transparente Normen, Modellklarheit und eine vorsichtige Interpretation einzelner Kennwerte.",
+            "annotations": []
+          }
+        }
+      ]
+    },
+    {
+      "id": "19-summary",
+      "type": "summary",
+      "title": "Merkpunkte",
+      "entries": [
+        {
+          "kind": "bullet_list",
+          "items": [
+            {
+              "text": "IQ-Tests operationalisieren Modelle; sie sind nicht modellfrei.",
+              "annotations": []
+            },
+            {
+              "text": "BIS-orientierte und CHC-orientierte Verfahren setzen unterschiedliche Schwerpunkte in der Profilbildung.",
+              "annotations": []
+            },
+            {
+              "text": "Diagnostische Guete haengt sowohl von Testqualitaet als auch von der theoretischen Passung des zugrunde liegenden Modells ab.",
+              "annotations": []
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "19-recovered-source-1",
+      "kind": "other",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: IQ-Tests und Diagnostik (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: IQ-Tests und Diagnostik (/iq-tests) was linked from Berliner Intelligenzstrukturmodell (BIS).",
+      "tooltip": "Der recovered Link entstand direkt aus einem Artikel, der den Uebergang vom Modell zur Testform beschreibt.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "19-source-2",
+      "kind": "secondary",
+      "shortCitation": "Jaeger et al. (1997)",
+      "apaCitation": "Jaeger, A. O., Suess, H.-M., & Beauducel, A. (1997). Berliner Intelligenzstruktur-Test: BIS-Test, Form 4. Hogrefe.",
+      "tooltip": "Veranschaulicht, wie ein mehrdimensionales Modell in eine konkrete Testbatterie uebersetzt wird.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "19-source-3",
+      "kind": "secondary",
+      "shortCitation": "Carroll & J. B. (1993)",
+      "apaCitation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press.",
+      "tooltip": "Liefert die modelltheoretische Vergleichsfolie fuer testdiagnostische Entscheidungen.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    },
+    {
+      "id": "19-source-4",
+      "kind": "empirical",
+      "shortCitation": "McGrew & K. S. (2009)",
+      "apaCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychoeducational Assessment, 37(1), 8-14.",
+      "tooltip": "Zeigt, warum CHC in der diagnostischen Praxis eine besonders starke Stellung erhielt.",
+      "verification": {
+        "status": "pending-review",
+        "checkedAgainst": [
+          "authoring-draft"
+        ]
+      }
+    }
+  ],
+  "relatedResources": [
+    {
+      "id": "19-backlink-1",
+      "category": "rueckverweis",
+      "title": "Berliner Intelligenzstrukturmodell (BIS)",
+      "relevance": "Recovered primary article that referenced IQ-Tests und Diagnostik.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "05"
+      }
+    },
+    {
+      "id": "19-category-1",
+      "category": "kategorie",
+      "title": "Statistik & Psychometrie",
+      "relevance": "Canonical category placement for this derived concept node.",
+      "target": {
+        "kind": "internal-category",
+        "categoryId": "statistics-and-psychometrics"
+      }
+    },
+    {
+      "id": "19-bridge-1",
+      "category": "verknuepfung",
+      "title": "Intelligenztheorien im Ueberblick",
+      "relevance": "Testverfahren operationalisieren immer ein vorausgesetztes Intelligenzmodell.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "17"
+      }
+    },
+    {
+      "id": "19-bridge-2",
+      "category": "verknuepfung",
+      "title": "Faktorenanalyse",
+      "relevance": "Untertests und Gesamtwerte bleiben auf faktoranalytische Modellannahmen angewiesen.",
+      "target": {
+        "kind": "internal-article",
+        "articleId": "18"
+      }
+    }
+  ]
+}
