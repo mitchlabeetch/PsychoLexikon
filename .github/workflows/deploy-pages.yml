@@ -38,6 +38,8 @@ jobs:
 
       - name: Build application
         working-directory: app
+        env:
+          CONTENT_DATABASE_URL: ${{ secrets.CONTENT_DATABASE_URL }}
         run: npm run build
 
       - name: Upload GitHub Pages artifact

@@ -9,8 +9,10 @@ Production app for the PsychoLexicon learning platform. The canonical runtime no
 
 ## Canonical Architecture
 
-- Runtime source of truth: `src/content/articles/*.json`
+- Published runtime source of truth: Neon-backed `public.article_documents` when `CONTENT_DATABASE_URL` is configured for build/test hydration
+- Checked-in runtime snapshot: `src/content/articles/*.json`
 - Schema and validation: `src/content/schema.ts`
+- Neon record mapping and validation: `src/content/neonContent.ts`
 - Taxonomy registry: `src/content/taxonomy.ts`
 - Content API, cache, and CRM sync boundary: `src/content/api.ts`
 - Generic article renderer: `src/components/content/ArticleRenderer.tsx`
@@ -25,6 +27,7 @@ Production app for the PsychoLexicon learning platform. The canonical runtime no
 - Added structured sections, paragraph entries, inline definitions, source-backed citations, and custom highlight support.
 - Added a module-level article cache and an explicit CRM payload boundary for future backend sync.
 - Added migration and validation tooling so legacy YAML can be converted and revalidated deterministically.
+- Added a Neon sync lane so the static bundle can hydrate canonical article JSON from a database-backed published corpus during build.
 
 ## Content Schema
 
@@ -68,6 +71,22 @@ The migration script:
 - Resolves inline citations against the structured source list
 - Writes validated output to `src/content/articles/`
 
+## Neon Sync Workflow
+
+The app is still deployed as a static GitHub Pages bundle, so browser code does not connect to Neon directly. Instead, the build/test pipeline can hydrate the checked-in JSON snapshot from Neon before validation and bundling:
+
+```bash
+npm run content:push:neon
+npm run content:pull:neon
+npm run content:hydrate
+```
+
+- `content:push:neon` upserts canonical `src/content/articles/*.json` into `public.article_documents`
+- `content:pull:neon` replaces the local JSON snapshot with the published Neon corpus
+- `content:hydrate` behaves like `pull`, but safely skips when `CONTENT_DATABASE_URL` is not configured
+
+Set `CONTENT_DATABASE_URL` in a local `.env` file or CI secret so the static build can use Neon without exposing credentials to the browser.
+
 ## Validation Workflow
 
 Validation is part of the production build:
@@ -80,6 +99,7 @@ npm run build
 The validation suite checks:
 
 - schema conformance for all generated JSON articles
+- Neon row-to-document mapping invariants
 - taxonomy references
 - citation-to-source integrity
 - CRM cache-tag and external-ID stability
@@ -100,6 +120,7 @@ This keeps the frontend compatible with a future backend API without hard-coding
 npm install
 npm run dev
 npm run lint
+npm run content:hydrate
 npm run content:validate
 npm run build
 npm run preview
