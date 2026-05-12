@@ -258,7 +258,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationsköffizient zwischen beiden Messungen ist das Maß der Stabilität.",
+            "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationskoeffizient zwischen beiden Messungen ist das Maß der Stabilität.",
             "annotations": []
           }
         },

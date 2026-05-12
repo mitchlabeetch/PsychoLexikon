@@ -123,7 +123,7 @@
         },
         {
           "kind": "subheading",
-          "text": "Attributionen steürn die Folgereaktion"
+          "text": "Attributionen steuern die Folgereaktion"
         },
         {
           "kind": "paragraph",
@@ -215,7 +215,7 @@
       "kind": "secondary",
       "shortCitation": "Bandura & A. (1997)",
       "apaCitation": "Bandura, A. (1997). Self-efficacy: The exercise of control. Freeman.",
-      "tooltip": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutraün.",
+      "tooltip": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutrauen.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -249,7 +249,7 @@
       "id": "24-bridge-1",
       "category": "verknüpfung",
       "title": "Selbstwirksamkeit nach Bandura",
-      "relevance": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutraün.",
+      "relevance": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutrauen.",
       "target": {
         "kind": "internal-article",
         "articleId": "23"

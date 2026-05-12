@@ -201,7 +201,7 @@
       "id": "25-source-3",
       "kind": "empirical",
       "shortCitation": "Abramson et al. (1978)",
-      "apaCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critiqü and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
+      "apaCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
       "tooltip": "Verknüpft Hilflosigkeit stärker mit menschlichen Attributionsmustern und Erwartungsbildung.",
       "verification": {
         "status": "pending-review",
@@ -259,7 +259,7 @@
       "id": "25-bridge-2",
       "category": "verknüpfung",
       "title": "Leistungsmotivation",
-      "relevance": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdaür und Bereitschaft zu neuer Anstrengung.",
+      "relevance": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdauer und Bereitschaft zu neuer Anstrengung.",
       "target": {
         "kind": "internal-article",
         "articleId": "24"

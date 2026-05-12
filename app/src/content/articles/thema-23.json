@@ -139,7 +139,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Hohe Selbstwirksamkeit fördert Anstrengung, Ausdaür und den konstruktiven Umgang mit Rückschlägen. Niedrige Selbstwirksamkeit begünstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
+            "text": "Hohe Selbstwirksamkeit fördert Anstrengung, Ausdauer und den konstruktiven Umgang mit Rückschlägen. Niedrige Selbstwirksamkeit begünstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
             "annotations": []
           }
         }
@@ -189,7 +189,7 @@
       "kind": "review",
       "shortCitation": "Bandura & A. (1977)",
       "apaCitation": "Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. Psychological Review, 84(2), 191-215.",
-      "tooltip": "Grundtext zur Rolle von Kompetenzüberzeugungen für Verhalten, Ausdaür und Zielwahl.",
+      "tooltip": "Grundtext zur Rolle von Kompetenzüberzeugungen für Verhalten, Ausdauer und Zielwahl.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -249,7 +249,7 @@
       "id": "23-bridge-1",
       "category": "verknüpfung",
       "title": "Leistungsmotivation",
-      "relevance": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdaür und den Umgang mit Rückschlägen.",
+      "relevance": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdauer und den Umgang mit Rückschlägen.",
       "target": {
         "kind": "internal-article",
         "articleId": "24"

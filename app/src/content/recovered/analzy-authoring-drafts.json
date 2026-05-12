@@ -1386,7 +1386,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektüllen Leistungsfähigkeit.",
+                "text": "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektuellen Leistungsfähigkeit.",
                 "annotations": []
               }
             },
@@ -1660,7 +1660,7 @@
           "term": "Violation-of-Expectation-Paradigma",
           "label": "Violation-of-Expectation-Paradigma",
           "aliases": [],
-          "definition": "Ein experimentelles Verfahren, das misst, ob Säuglinge länger zu unerwarteten Ereignissen schaün als zu erwarteten — als Indikator für implizites Wissen.",
+          "definition": "Ein experimentelles Verfahren, das misst, ob Säuglinge länger zu unerwarteten Ereignissen schauen als zu erwarteten — als Indikator für implizites Wissen.",
           "sourceIds": []
         }
       ],
@@ -2584,7 +2584,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Facetten: Vertraün, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
+                "text": "Facetten: Vertrauen, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
                 "annotations": []
               }
             },
@@ -3792,7 +3792,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationsköffizient zwischen beiden Messungen ist das Maß der Stabilität.",
+                "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationskoeffizient zwischen beiden Messungen ist das Maß der Stabilität.",
                 "annotations": []
               }
             },
@@ -3984,7 +3984,7 @@
           "term": "Homöostase",
           "label": "Homöostase",
           "aliases": [],
-          "definition": "Der Bestreben eines Organismus, ein inneres Gleichgewicht und konstante Lebensbedingungen aufrechtzürhalten.",
+          "definition": "Der Bestreben eines Organismus, ein inneres Gleichgewicht und konstante Lebensbedingungen aufrechtzuerhalten.",
           "sourceIds": []
         },
         {
@@ -4386,7 +4386,7 @@
         {
           "id": "22-glossary-2",
           "term": "Violation-of-Expectation-Paradigma",
-          "definition": "Versuchslogik, bei der längeres Hinschaün auf unerwartete Ereignisse als Hinweis auf implizites Vorwissen interpretiert wird.",
+          "definition": "Versuchslogik, bei der längeres Hinschauen auf unerwartete Ereignisse als Hinweis auf implizites Vorwissen interpretiert wird.",
           "sourceIds": [
             "22-source-2"
           ]
@@ -5325,7 +5325,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsqüllen.",
+                "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsquellen.",
                 "annotations": []
               }
             }
@@ -5470,7 +5470,7 @@
         {
           "id": "24-source-4",
           "rawCitation": "Bandura, A. (1997). Self-efficacy: The exercise of control. Freeman.",
-          "notes": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutraün."
+          "notes": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutrauen."
         }
       ],
       "assets": [],
@@ -5499,7 +5499,7 @@
           "id": "24-bridge-1",
           "category": "verknüpfung",
           "title": "Selbstwirksamkeit nach Bandura",
-          "description": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutraün.",
+          "description": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutrauen.",
           "target": {
             "kind": "internal-article",
             "articleId": "23"
@@ -5555,7 +5555,7 @@
             },
             {
               "kind": "subheading",
-              "text": "Attributionen steürn die Folgereaktion"
+              "text": "Attributionen steuern die Folgereaktion"
             },
             {
               "kind": "paragraph",
@@ -5670,7 +5670,7 @@
         },
         {
           "id": "25-source-3",
-          "rawCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critiqü and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
+          "rawCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
           "notes": "Verknüpft Hilflosigkeit stärker mit menschlichen Attributionsmustern und Erwartungsbildung."
         },
         {
@@ -5715,7 +5715,7 @@
           "id": "25-bridge-2",
           "category": "verknüpfung",
           "title": "Leistungsmotivation",
-          "description": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdaür und Bereitschaft zu neuer Anstrengung.",
+          "description": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdauer und Bereitschaft zu neuer Anstrengung.",
           "target": {
             "kind": "internal-article",
             "articleId": "24"
@@ -6502,7 +6502,7 @@
         {
           "id": "23-source-2",
           "rawCitation": "Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. Psychological Review, 84(2), 191-215.",
-          "notes": "Grundtext zur Rolle von Kompetenzüberzeugungen für Verhalten, Ausdaür und Zielwahl."
+          "notes": "Grundtext zur Rolle von Kompetenzüberzeugungen für Verhalten, Ausdauer und Zielwahl."
         },
         {
           "id": "23-source-3",
@@ -6541,7 +6541,7 @@
           "id": "23-bridge-1",
           "category": "verknüpfung",
           "title": "Leistungsmotivation",
-          "description": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdaür und den Umgang mit Rückschlägen.",
+          "description": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdauer und den Umgang mit Rückschlägen.",
           "target": {
             "kind": "internal-article",
             "articleId": "24"
@@ -6623,7 +6623,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Hohe Selbstwirksamkeit fördert Anstrengung, Ausdaür und den konstruktiven Umgang mit Rückschlägen. Niedrige Selbstwirksamkeit begünstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
+                "text": "Hohe Selbstwirksamkeit fördert Anstrengung, Ausdauer und den konstruktiven Umgang mit Rückschlägen. Niedrige Selbstwirksamkeit begünstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
                 "annotations": []
               }
             }
@@ -7012,7 +7012,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Sprachentwicklung umfasst nicht nur neue Wörter, sondern auch Grammatik, Lautunterscheidung, pragmatische Regeln und die Fähigkeit, Sprache zur Selbststeürung und zum sozialen Austausch zu nutzen.",
+                "text": "Sprachentwicklung umfasst nicht nur neue Wörter, sondern auch Grammatik, Lautunterscheidung, pragmatische Regeln und die Fähigkeit, Sprache zur Selbststeuerung und zum sozialen Austausch zu nutzen.",
                 "annotations": []
               }
             },
