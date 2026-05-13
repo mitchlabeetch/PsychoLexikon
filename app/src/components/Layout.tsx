@@ -71,7 +71,7 @@ export default function Layout({ children }: LayoutProps) {
         <div className="mb-4 flex gap-2 overflow-x-auto pb-2 lg:hidden">
           {categories.map((tab) => renderCompactTab(tab))}
         </div>
-        <div className="relative flex items-start gap-1.5 sm:gap-3">
+        <div className="relative flex items-stretch gap-1.5 sm:gap-3">
           {/* Book — higher stacking order so it covers the tabs */}
           <div className="relative min-w-0 flex-1 min-h-[100dvh] bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible z-10">
             <NotebookPage>
@@ -82,7 +82,7 @@ export default function Layout({ children }: LayoutProps) {
           </div>
 
           {/* Tabs — sibling of the book, lower z-index so book overlaps them */}
-          <div className="absolute top-0 right-0 hidden h-full z-0 lg:block" style={{ transform: 'translateX(50%)' }}>
+          <div className="hidden lg:block z-0 shrink-0" style={{ transform: 'translateX(50%)' }}>
             <div className="sticky top-6 flex flex-col gap-1 sm:gap-3 ml-2 sm:ml-4 mt-6 pointer-events-auto">
               {categories.map((tab) => renderTab(tab))}
             </div>
