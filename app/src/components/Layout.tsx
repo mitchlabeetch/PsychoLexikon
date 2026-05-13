@@ -73,7 +73,7 @@ export default function Layout({ children }: LayoutProps) {
         </div>
         <div className="relative flex items-start gap-1.5 sm:gap-3">
           {/* Book — higher stacking order so it covers the tabs */}
-          <div className="relative min-w-0 flex-1 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible z-10">
+          <div className="relative min-w-0 flex-1 min-h-[100dvh] bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible z-10">
             <NotebookPage>
               <div className="px-1.5 py-8 text-[10px] sm:px-10 sm:py-12 sm:text-base lg:px-16 lg:py-12">
                 {children}
