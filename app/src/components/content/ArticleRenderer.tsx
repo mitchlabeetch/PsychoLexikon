@@ -343,24 +343,6 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
 
   return (
     <article className="font-body text-text-primary">
-      <nav className="mb-6" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-1 sm:gap-2 font-body text-[0.75rem] sm:text-[0.875rem] text-text-muted flex-wrap text-wrap">
-          <li>
-            <Link to={HOME_PATH} className="hover:underline">
-              PsychoLexicon
-            </Link>
-          </li>
-          <li>/</li>
-          <li className="truncate">
-            <Link to={categoryHref} className="hover:underline">
-              {categoryLabel}
-            </Link>
-          </li>
-          <li>/</li>
-          <li className="truncate max-w-[150px]">{article.meta.title}</li>
-        </ol>
-      </nav>
-
       <header className="mb-8">
         <h1 className="font-display font-bold text-[1.5rem] sm:text-[2rem] leading-tight tracking-[-0.02em] text-text-primary mb-3 text-wrap">
           {article.meta.title}
