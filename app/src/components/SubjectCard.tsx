@@ -29,18 +29,18 @@ export default function SubjectCard({ subject }: SubjectCardProps) {
 
       <div className="flex flex-col h-full">
         <span
-          className="font-body font-medium text-[8px] sm:text-[0.75rem] uppercase tracking-[0.05em] mb-2"
+          className="font-body font-medium text-xs uppercase tracking-[0.05em] mb-2"
           style={{ color: accentColor }}
         >
           {eyebrowLabel}
         </span>
-        <h3 className="font-display font-bold text-[12px] sm:text-[1.25rem] text-text-primary mb-2 leading-tight group-hover:text-opacity-80 transition-colors">
+        <h3 className="font-display font-bold text-base sm:text-xl text-text-primary mb-2 leading-tight group-hover:text-opacity-80 transition-colors">
           {title}
         </h3>
-        <p className="font-body text-[10px] sm:text-[0.875rem] text-text-secondary leading-relaxed line-clamp-3 mb-4 flex-grow">
+        <p className="font-body text-xs sm:text-sm text-text-secondary leading-relaxed line-clamp-3 mb-4 flex-grow">
           {cleanTeaser}
         </p>
-        <span className="font-body font-medium text-[10px] sm:text-[0.875rem] text-text-primary group-hover:underline inline-flex items-center gap-1 mt-auto">
+        <span className="font-body font-medium text-xs sm:text-sm text-text-primary group-hover:underline inline-flex items-center gap-1 mt-auto">
           Mehr lesen
           <span aria-hidden="true">→</span>
         </span>
