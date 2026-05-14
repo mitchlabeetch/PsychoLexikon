@@ -62,7 +62,7 @@ export default function Layout({ children }: LayoutProps) {
 
           {/* Tabs — always on the right, vertical at all breakpoints */}
           <div className="z-0 shrink-0" style={{ marginLeft: '12px' }}>
-            <div className="sticky top-6 flex flex-col gap-1 sm:gap-3 mt-6 pointer-events-auto" style={{ marginLeft: '-16px' }}>
+            <div className="sticky top-6 flex flex-col gap-1 sm:gap-3 mt-6 pointer-events-auto" style={{ marginLeft: '-16px', marginBottom: '36px' }}>
               {categories.map((tab) => renderTab(tab))}
             </div>
           </div>
