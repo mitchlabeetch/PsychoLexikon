@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
 import { Link } from 'react-router-dom'
 import { ExternalLink } from 'lucide-react'
-import { Tooltip, TooltipTrigger, TooltipContent, TooltipProvider } from '@/components/ui/tooltip'
+import { Tooltip, TooltipTrigger, TooltipContent } from '@/components/ui/tooltip'
 import { articleIllustrationRegistry } from '@/components/svgs/articleIllustrations'
 import { getArticleAccentColor, getArticleCategory } from '@/content/api'
 import { getCategoryById } from '@/content/taxonomy'
@@ -121,18 +121,16 @@ function renderAnnotation(annotation: Annotation, content: ReactNode, key: strin
   const tooltipVariant = annotation.kind === 'citation' ? 'red' : 'blue'
 
   return (
-    <TooltipProvider key={key}>
-      <Tooltip>
-        <TooltipTrigger asChild>
-          <mark className="rounded px-1 bg-transparent" style={getAnnotationMarkStyle(annotation)}>
-            {content}
-          </mark>
-        </TooltipTrigger>
-        <TooltipContent className={tooltipVariant === 'red' ? 'bg-red-600 text-white' : 'bg-[#1a1a1a] text-white'}>
-          {annotation.tooltip ?? annotation.text}
-        </TooltipContent>
-      </Tooltip>
-    </TooltipProvider>
+    <Tooltip key={key}>
+      <TooltipTrigger asChild>
+        <mark className="rounded px-1 bg-transparent" style={getAnnotationMarkStyle(annotation)}>
+          {content}
+        </mark>
+      </TooltipTrigger>
+      <TooltipContent className={tooltipVariant === 'red' ? 'bg-red-600 text-white' : 'bg-[#1a1a1a] text-white'}>
+        {annotation.tooltip ?? annotation.text}
+      </TooltipContent>
+    </Tooltip>
   )
 }
 
