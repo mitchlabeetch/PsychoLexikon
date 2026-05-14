@@ -29,7 +29,7 @@ export default function SubjectCard({ subject }: SubjectCardProps) {
 
       <div className="flex flex-col h-full">
         <span
-          className="font-body font-medium text-[10px] sm:text-xs uppercase tracking-[0.05em] mb-2"
+          className="font-body font-medium text-xs uppercase tracking-[0.05em] mb-2"
           style={{ color: accentColor }}
         >
           {eyebrowLabel}
