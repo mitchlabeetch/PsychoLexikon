@@ -26,7 +26,7 @@ export default function Home() {
           Zwölf Kernthemen plus verknüpfte Vertiefungen — verständlich, fundiert, adhs-freundlich
         </p>
         <div className="w-[60%] h-px bg-[#ccc] mx-auto mb-[4px] sm:mb-6" />
-        <p className="font-body text-[10px] sm:text-[1rem] text-text-primary max-w-[600px] mx-auto leading-relaxed">
+        <p className="font-body text-sm sm:text-base text-text-primary max-w-[600px] mx-auto leading-relaxed">
           PsychoLexicon bündelt zwölf Kernthemen des ersten Psychologie-Studienjahres und ergänzt sie um verknüpfte Konzeptseiten für Vertiefungen. Jedes Thema ist auf ADHS-freundliches Lernen optimiert: kurze Absätze, klare Zwischentitel, erklärende Visualisierungen. Alle Inhalte sind wissenschaftlich fundiert und vollständig auf Deutsch.
         </p>
       </motion.section>
