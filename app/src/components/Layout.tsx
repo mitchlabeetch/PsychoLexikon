@@ -1,4 +1,5 @@
 import type { ReactNode } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { NavLink, useLocation } from 'react-router-dom'
 import { getArticleById, getArticleCategory } from '@/content/api'
 import { buildCategoryPath } from '@/routing/routes'
@@ -11,6 +12,9 @@ interface LayoutProps {
 
 export default function Layout({ children }: LayoutProps) {
   const { pathname } = useLocation()
+  const bookRef = useRef<HTMLDivElement>(null)
+  const tabsContainerRef = useRef<HTMLDivElement>(null)
+  const [translateX, setTranslateX] = useState(0)
   const categories = listCategories()
   const activeCategoryId = (() => {
     const categoryMatch = pathname.match(/^\/kategorie\/([^/]+)$/)
@@ -26,6 +30,28 @@ export default function Layout({ children }: LayoutProps) {
 
     return undefined
   })()
+
+  // Calculate dynamic position for tabs based on book div's right edge
+  useEffect(() => {
+    const updatePosition = () => {
+      if (bookRef.current && tabsContainerRef.current) {
+        const bookRect = bookRef.current.getBoundingClientRect()
+        const tabsRect = tabsContainerRef.current.getBoundingClientRect()
+        
+        // Position tabs to start 16px left of book's right edge
+        const bookRightEdge = bookRect.right
+        const desiredTabsLeft = bookRightEdge - 16
+        const currentTabsLeft = tabsRect.left
+        
+        const offset = desiredTabsLeft - currentTabsLeft
+        setTranslateX(offset)
+      }
+    }
+
+    updatePosition()
+    window.addEventListener('resize', updatePosition)
+    return () => window.removeEventListener('resize', updatePosition)
+  }, [])
 
   const renderTab = (tab: (typeof categories)[number]) => (
     <NavLink
@@ -52,7 +78,7 @@ export default function Layout({ children }: LayoutProps) {
       <div className="w-full max-w-[1100px] relative">
         <div className="relative flex items-stretch gap-0">
           {/* Book — higher stacking order so it covers the tabs */}
-          <div className="relative min-w-0 flex-1 pb-16 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible z-10">
+          <div ref={bookRef} className="relative min-w-0 flex-1 pb-16 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible z-10">
             <NotebookPage>
               <div className="px-1.5 py-8 text-[10px] sm:px-10 sm:py-12 sm:text-base lg:px-16 lg:py-12">
                 {children}
@@ -61,7 +87,7 @@ export default function Layout({ children }: LayoutProps) {
           </div>
 
           {/* Tabs — always on the right, vertical at all breakpoints */}
-          <div className="z-0 shrink-0" style={{ transform: 'translateX(50%)' }}>
+          <div ref={tabsContainerRef} className="z-0 shrink-0" style={{ transform: `translateX(${translateX}px)` }}>
             <div className="sticky top-6 flex flex-col gap-1 sm:gap-3 mt-6 pointer-events-auto">
               {categories.map((tab) => renderTab(tab))}
             </div>
