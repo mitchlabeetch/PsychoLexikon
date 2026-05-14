@@ -128,7 +128,7 @@ function renderAnnotation(annotation: Annotation, content: ReactNode, key: strin
             {content}
           </mark>
         </TooltipTrigger>
-        <TooltipContent className={tooltipVariant === 'red' ? 'bg-[#dc2626] text-white' : 'bg-[#1a1a1a] text-white'}>
+        <TooltipContent className={tooltipVariant === 'red' ? 'bg-red-600 text-white' : 'bg-[#1a1a1a] text-white'}>
           {annotation.tooltip ?? annotation.text}
         </TooltipContent>
       </Tooltip>
