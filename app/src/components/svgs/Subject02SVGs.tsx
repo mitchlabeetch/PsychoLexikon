@@ -74,7 +74,7 @@ export function FigureGrundReversibilität() {
       {/* Hintergrund-Linie für Grenze */}
       <line x1="200" y1="30" x2="200" y2="170" stroke="#ccc" strokeWidth="1" strokeDasharray="4,4" />
 
-      {/* Linke Gesichtsprofil-Silhoütte */}
+      {/* Linke Gesichtsprofil-Silhouette */}
       <path
         d="M 200 60
            C 180 60, 160 70, 150 90
@@ -84,7 +84,7 @@ export function FigureGrundReversibilität() {
         fill="#1a1a1a"
       />
 
-      {/* Rechte Gesichtsprofil-Silhoütte */}
+      {/* Rechte Gesichtsprofil-Silhouette */}
       <path
         d="M 200 60
            C 220 60, 240 70, 250 90

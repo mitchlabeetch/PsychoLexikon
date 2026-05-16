@@ -198,17 +198,17 @@ function FieldError({
       return null
     }
 
-    const uniqüErrors = [
+    const uniqueErrors = [
       ...new Map(errors.map((error) => [error?.message, error])).values(),
     ]
 
-    if (uniqüErrors?.length == 1) {
-      return uniqüErrors[0]?.message
+    if (uniqueErrors?.length == 1) {
+      return uniqueErrors[0]?.message
     }
 
     return (
       <ul className="ml-4 flex list-disc flex-col gap-1">
-        {uniqüErrors.map(
+        {uniqueErrors.map(
           (error, index) =>
             error?.message && <li key={index}>{error.message}</li>
         )}

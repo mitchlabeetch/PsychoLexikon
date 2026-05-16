@@ -389,7 +389,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
                   rel="noopener noreferrer"
                   className="mt-2 inline-flex items-center gap-1 font-body text-[0.75rem] text-text-secondary hover:text-text-primary hover:underline"
                 >
-                  Qülle öffnen <ExternalLink size={12} />
+                  Quelle öffnen <ExternalLink size={12} />
                 </a>
               ) : null}
             </div>
@@ -432,7 +432,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
             to={HOME_PATH}
             className="inline-flex items-center gap-2 font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
           >
-            <span>←</span> Zurück zur Uebersicht
+            <span>←</span> Zurück zur Übersicht
           </Link>
         </div>
       </div>

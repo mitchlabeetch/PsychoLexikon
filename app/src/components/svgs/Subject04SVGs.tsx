@@ -44,7 +44,7 @@ export function KonditionierungVergleich() {
       <text x="300" y="98" fontSize="10" fontFamily="DM Sans, sans-serif" fill="#1a1a1a" textAnchor="middle" fontWeight="600">Verhalten</text>
       <text x="300" y="112" fontSize="9" fontFamily="DM Sans, sans-serif" fill="#555" textAnchor="middle">(Hund hebt Pfote)</text>
 
-      {/* Pfeil zu Konseqünzen */}
+      {/* Pfeil zu Konsequenzen */}
       <line x1="300" y1="120" x2="300" y2="145" stroke="#1a1a1a" strokeWidth="1.5" markerEnd="url(#kondArrow)" />
 
       {/* Verstärkung */}

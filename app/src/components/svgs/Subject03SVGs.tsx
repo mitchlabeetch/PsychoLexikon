@@ -18,9 +18,9 @@ export function ArbeitsgedächtnisModell() {
       <text x="100" y="145" fontSize="12" fontFamily="DM Sans, sans-serif" fill="#1a1a1a" textAnchor="middle" fontWeight="600">Phonologische Schleife</text>
       <text x="100" y="162" fontSize="9" fontFamily="DM Sans, sans-serif" fill="#555" textAnchor="middle">Sprachspeicher</text>
 
-      {/* Visüll-räumlicher Notizblock */}
+      {/* Visuell-räumlicher Notizblock */}
       <rect x="220" y="120" width="160" height="55" rx="4" stroke="#1a1a1a" strokeWidth="2" fill="#a8d8ea" fillOpacity="0.2" />
-      <text x="300" y="145" fontSize="12" fontFamily="DM Sans, sans-serif" fill="#1a1a1a" textAnchor="middle" fontWeight="600">Visüll-räumlicher</text>
+      <text x="300" y="145" fontSize="12" fontFamily="DM Sans, sans-serif" fill="#1a1a1a" textAnchor="middle" fontWeight="600">Visuell-räumlicher</text>
       <text x="300" y="160" fontSize="12" fontFamily="DM Sans, sans-serif" fill="#1a1a1a" textAnchor="middle" fontWeight="600">Notizblock</text>
       <text x="300" y="175" fontSize="9" fontFamily="DM Sans, sans-serif" fill="#555" textAnchor="middle">Bildspeicher</text>
 

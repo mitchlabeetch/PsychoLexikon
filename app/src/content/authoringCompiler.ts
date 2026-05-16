@@ -12,13 +12,13 @@ import type { AuthoringDraft, AuthoringDraftCollection } from './authoringSchema
 function buildShortCitation(citation: string) {
   const yearMatch = citation.match(/\((\d{4})\)/)
   const year = yearMatch?.[1] ?? 'o. J.'
-  const authorChunk = citation.split('(')[0]?.trim() ?? 'Qülle'
+  const authorChunk = citation.split('(')[0]?.trim() ?? 'Quelle'
   const authors = authorChunk
     .split(',')
     .map((part) => part.trim())
     .filter(Boolean)
 
-  const firstAuthor = authors[0]?.replace(/\.$/, '') ?? 'Qülle'
+  const firstAuthor = authors[0]?.replace(/\.$/, '') ?? 'Quelle'
   if (authors.length >= 3) {
     return `${firstAuthor} et al. (${year})`
   }
