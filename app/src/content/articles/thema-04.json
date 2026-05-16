@@ -4,7 +4,7 @@
   "slug": "thema-04",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "src/content/recovered/analzy-pages/04-konditionierung.bundle.txt"
   },
   "meta": {
     "title": "Klassische & Operante Konditionierung",
@@ -224,7 +224,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-classical-conditioning.png",
-        "description": "",
+        "description": "Recovered illustration illu-classical-conditioning.png from analzy deployment bundle.",
         "alt": "Klassische & Operante Konditionierung: Classical Conditioning"
       },
       "caption": "Classical Conditioning"
@@ -235,7 +235,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-operant-conditioning.png",
-        "description": "",
+        "description": "Recovered illustration illu-operant-conditioning.png from analzy deployment bundle.",
         "alt": "Klassische & Operante Konditionierung: Operant Conditioning"
       },
       "caption": "Operant Conditioning"
@@ -246,7 +246,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-skinner-box.png",
-        "description": "",
+        "description": "Recovered illustration illu-skinner-box.png from analzy deployment bundle.",
         "alt": "Klassische & Operante Konditionierung: Skinner Box"
       },
       "caption": "Skinner Box"
@@ -336,7 +336,7 @@
       "id": "04-connection-1",
       "category": "verknüpfung",
       "title": "← Arbeitsgedächtnis",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /konditionierung.",
       "target": {
         "kind": "internal-article",
         "articleId": "03"

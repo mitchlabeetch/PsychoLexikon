@@ -4,7 +4,7 @@
   "slug": "thema-15",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
   },
   "meta": {
     "title": "Persönlichkeitstests",
@@ -128,7 +128,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Sinnvolle Testung verlangt mehr als einen Fragebogen: Reliabilität, Konstruktvalidität und eine brauchbare Uebereinstimmung zwischen Selbst- und Fremdeinschätzung sind entscheidend, wenn Persönlichkeitsurteile belastbar sein sollen.",
+            "text": "Sinnvolle Testung verlangt mehr als einen Fragebogen: Reliabilität, Konstruktvalidität und eine brauchbare Übereinstimmung zwischen Selbst- und Fremdeinschätzung sind entscheidend, wenn Persönlichkeitsurteile belastbar sein sollen.",
             "annotations": []
           }
         },
@@ -154,7 +154,7 @@
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Persönlichkeitstests sind praktische Uebersetzungen theoretischer Traitmodelle.",
+              "text": "Persönlichkeitstests sind praktische Übersetzungen theoretischer Traitmodelle.",
               "annotations": []
             },
             {
@@ -202,7 +202,7 @@
       "kind": "secondary",
       "shortCitation": "John et al. (1999)",
       "apaCitation": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy. In L. A. Pervin & O. P. John (Eds.), Handbook of personality: Theory and research (2nd ed., pp. 102-138). Guilford Press.",
-      "tooltip": "Rahmt Big-Five-Messung, Traitstabilität und Selbst-Fremd-Uebereinstimmung theoretisch ein.",
+      "tooltip": "Rahmt Big-Five-Messung, Traitstabilität und Selbst-Fremd-Übereinstimmung theoretisch ein.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [

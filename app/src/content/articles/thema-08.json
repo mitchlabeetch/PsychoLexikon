@@ -4,7 +4,7 @@
   "slug": "thema-08",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "src/content/recovered/analzy-pages/08-big-five.bundle.txt"
   },
   "meta": {
     "title": "Fünf-Faktoren-Modell (Big Five)",
@@ -284,7 +284,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-big-five-radar.png",
-        "description": "",
+        "description": "Recovered illustration illu-big-five-radar.png from analzy deployment bundle.",
         "alt": "Fünf-Faktoren-Modell (Big Five): Big Five Radar"
       },
       "caption": "Big Five Radar"
@@ -295,7 +295,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-big-five-traits.png",
-        "description": "",
+        "description": "Recovered illustration illu-big-five-traits.png from analzy deployment bundle.",
         "alt": "Fünf-Faktoren-Modell (Big Five): Big Five Traits"
       },
       "caption": "Big Five Traits"
@@ -400,7 +400,7 @@
       "id": "08-connection-1",
       "category": "verknüpfung",
       "title": "HEXACO-Modell",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /big-five.",
       "target": {
         "kind": "internal-article",
         "articleId": "13"
@@ -410,7 +410,7 @@
       "id": "08-connection-2",
       "category": "verknüpfung",
       "title": "Persönlichkeitsstörungen",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /big-five.",
       "target": {
         "kind": "internal-article",
         "articleId": "16"
@@ -420,7 +420,7 @@
       "id": "08-connection-3",
       "category": "verknüpfung",
       "title": "Mischel: Person-Situation",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /big-five.",
       "target": {
         "kind": "internal-article",
         "articleId": "14"
@@ -430,7 +430,7 @@
       "id": "08-connection-4",
       "category": "verknüpfung",
       "title": "Persönlichkeitstests",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /big-five.",
       "target": {
         "kind": "internal-article",
         "articleId": "15"

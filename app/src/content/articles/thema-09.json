@@ -4,7 +4,7 @@
   "slug": "thema-09",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "src/content/recovered/analzy-pages/09-versuchsplanung.bundle.txt"
   },
   "meta": {
     "title": "Experimentelle Versuchsplanung",
@@ -345,7 +345,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-experimental-design.png",
-        "description": "",
+        "description": "Recovered illustration illu-experimental-design.png from analzy deployment bundle.",
         "alt": "Experimentelle Versuchsplanung: Experimental Design"
       },
       "caption": "Experimental Design"
@@ -356,7 +356,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-hypothesis-testing.png",
-        "description": "",
+        "description": "Recovered illustration illu-hypothesis-testing.png from analzy deployment bundle.",
         "alt": "Experimentelle Versuchsplanung: Hypothesis Testing"
       },
       "caption": "Hypothesis Testing"
@@ -439,7 +439,7 @@
       "id": "09-connection-1",
       "category": "verknüpfung",
       "title": "/signifikanztestung",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /versuchsplanung.",
       "target": {
         "kind": "internal-article",
         "articleId": "10"
@@ -449,7 +449,7 @@
       "id": "09-connection-2",
       "category": "verknüpfung",
       "title": "/psychometrie",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /versuchsplanung.",
       "target": {
         "kind": "internal-article",
         "articleId": "11"

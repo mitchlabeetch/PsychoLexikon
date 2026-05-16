@@ -4,7 +4,7 @@
   "slug": "thema-12",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "src/content/recovered/analzy-pages/12-motivation-emotion.bundle.txt"
   },
   "meta": {
     "title": "Theorien der Motivation & Emotion",
@@ -330,7 +330,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-maslow-pyramid.png",
-        "description": "",
+        "description": "Recovered illustration illu-maslow-pyramid.png from analzy deployment bundle.",
         "alt": "Theorien der Motivation & Emotion: Maslow Pyramid"
       },
       "caption": "Maslow Pyramid"
@@ -341,7 +341,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-james-lange.png",
-        "description": "",
+        "description": "Recovered illustration illu-james-lange.png from analzy deployment bundle.",
         "alt": "Theorien der Motivation & Emotion: James Lange"
       },
       "caption": "James Lange"
@@ -352,7 +352,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-schachter-singer.png",
-        "description": "",
+        "description": "Recovered illustration illu-schachter-singer.png from analzy deployment bundle.",
         "alt": "Theorien der Motivation & Emotion: Schachter Singer"
       },
       "caption": "Schachter Singer"

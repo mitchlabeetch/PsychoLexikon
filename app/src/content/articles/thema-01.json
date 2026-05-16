@@ -4,7 +4,7 @@
   "slug": "thema-01",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "src/content/recovered/analzy-pages/01-aktionspotential.bundle.txt"
   },
   "meta": {
     "title": "Aktionspotential & Synaptische Transmission",
@@ -230,7 +230,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ligandengesteürter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
+            "text": "Ligandengesteuerter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
             "annotations": []
           }
         },
@@ -309,7 +309,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-neuron.png",
-        "description": "",
+        "description": "Recovered illustration illu-neuron.png from analzy deployment bundle.",
         "alt": "Aktionspotential & Synaptische Transmission: Neuron"
       },
       "caption": "Neuron"
@@ -320,7 +320,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-action-potential.png",
-        "description": "",
+        "description": "Recovered illustration illu-action-potential.png from analzy deployment bundle.",
         "alt": "Aktionspotential & Synaptische Transmission: Action Potential"
       },
       "caption": "Action Potential"
@@ -331,7 +331,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-synapse.png",
-        "description": "",
+        "description": "Recovered illustration illu-synapse.png from analzy deployment bundle.",
         "alt": "Aktionspotential & Synaptische Transmission: Synapse"
       },
       "caption": "Synapse"
@@ -387,7 +387,7 @@
       "id": "01-connection-1",
       "category": "verknüpfung",
       "title": "← Gestaltgesetze",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /aktionspotential.",
       "target": {
         "kind": "internal-article",
         "articleId": "02"

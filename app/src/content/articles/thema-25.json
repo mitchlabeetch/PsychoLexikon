@@ -4,7 +4,7 @@
   "slug": "thema-25",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
   },
   "meta": {
     "title": "Gelernte Hilflosigkeit",
@@ -154,7 +154,7 @@
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Gelernte Hilflosigkeit beschreibt den Uebergang von erlebter Wirkungslosigkeit zu verminderter Initiative.",
+              "text": "Gelernte Hilflosigkeit beschreibt den Übergang von erlebter Wirkungslosigkeit zu verminderter Initiative.",
               "annotations": []
             },
             {
@@ -189,7 +189,7 @@
       "kind": "secondary",
       "shortCitation": "Seligman & M. E. P. (1975)",
       "apaCitation": "Seligman, M. E. P. (1975). Helplessness: On depression, development, and death. W. H. Freeman.",
-      "tooltip": "Klassische Monografie zur Hilflosigkeitsforschung und ihren motivationalen Konseqünzen.",
+      "tooltip": "Klassische Monografie zur Hilflosigkeitsforschung und ihren motivationalen Konsequenzen.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [

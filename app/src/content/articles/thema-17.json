@@ -4,7 +4,7 @@
   "slug": "thema-17",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
   },
   "meta": {
     "title": "Intelligenztheorien im Überblick",
@@ -199,8 +199,8 @@
     {
       "id": "17-recovered-source-1",
       "kind": "other",
-      "shortCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Ueberblick (o. J.)",
-      "apaCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Ueberblick (/intelligenztheorien) was linked from Berliner Intelligenzstrukturmodell (BIS).",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Überblick (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Intelligenztheorien im Überblick (/intelligenztheorien) was linked from Berliner Intelligenzstrukturmodell (BIS).",
       "tooltip": "Die recovered Verlinkung aus dem BIS-Artikel liefert den klaren Rekonstruktionsanker für diese Vergleichsseite.",
       "verification": {
         "status": "pending-review",
@@ -239,7 +239,7 @@
       "id": "17-source-4",
       "kind": "empirical",
       "shortCitation": "McGrew & K. S. (2009)",
-      "apaCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychöducational Assessment, 37(1), 8-14.",
+      "apaCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychoeducational Assessment, 37(1), 8-14.",
       "tooltip": "Zeigt, wie das CHC-Modell in der diagnostischen Praxis zum Referenzrahmen wurde.",
       "verification": {
         "status": "pending-review",
@@ -254,7 +254,7 @@
       "id": "17-backlink-1",
       "category": "rückverweis",
       "title": "Berliner Intelligenzstrukturmodell (BIS)",
-      "relevance": "Recovered primary article that referenced Intelligenztheorien im Ueberblick.",
+      "relevance": "Recovered primary article that referenced Intelligenztheorien im Überblick.",
       "target": {
         "kind": "internal-article",
         "articleId": "05"
