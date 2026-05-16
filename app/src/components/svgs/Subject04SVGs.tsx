@@ -2,7 +2,7 @@ export function KonditionierungVergleich() {
   return (
     <svg viewBox="0 0 400 300" className="w-full h-auto" role="img" aria-labelledby="kondTitle kondDesc">
       <title id="kondTitle">Klassische und Operante Konditionierung im Vergleich</title>
-      <desc id="kondDesc">Diagramm zeigt den Lernprozess bei klassischer Konditionierung durch Reizpaarung und bei operanter Konditionierung durch Verhaltenskonsequenzen</desc>
+      <desc id="kondDesc">Diagramm zeigt den Lernprozess bei klassischer Konditionierung durch Reizpaarung und bei operanter Konditionierung durch Verhaltenskonseqünzen</desc>
 
       {/* Trennlinie */}
       <line x1="200" y1="20" x2="200" y2="280" stroke="#ccc" strokeWidth="1" />
@@ -44,7 +44,7 @@ export function KonditionierungVergleich() {
       <text x="300" y="98" fontSize="10" fontFamily="DM Sans, sans-serif" fill="#1a1a1a" textAnchor="middle" fontWeight="600">Verhalten</text>
       <text x="300" y="112" fontSize="9" fontFamily="DM Sans, sans-serif" fill="#555" textAnchor="middle">(Hund hebt Pfote)</text>
 
-      {/* Pfeil zu Konsequenzen */}
+      {/* Pfeil zu Konseqünzen */}
       <line x1="300" y1="120" x2="300" y2="145" stroke="#1a1a1a" strokeWidth="1.5" markerEnd="url(#kondArrow)" />
 
       {/* Verstärkung */}

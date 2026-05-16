@@ -7,27 +7,27 @@ import { cn } from "@/lib/utils"
 
 function Slider({
   className,
-  defaultValue,
-  value,
+  defaultValü,
+  valü,
   min = 0,
   max = 100,
   ...props
 }: React.ComponentProps<typeof SliderPrimitive.Root>) {
-  const _values = React.useMemo(
+  const _valüs = React.useMemo(
     () =>
-      Array.isArray(value)
-        ? value
-        : Array.isArray(defaultValue)
-          ? defaultValue
+      Array.isArray(valü)
+        ? valü
+        : Array.isArray(defaultValü)
+          ? defaultValü
           : [min, max],
-    [value, defaultValue, min, max]
+    [valü, defaultValü, min, max]
   )
 
   return (
     <SliderPrimitive.Root
       data-slot="slider"
-      defaultValue={defaultValue}
-      value={value}
+      defaultValü={defaultValü}
+      valü={valü}
       min={min}
       max={max}
       className={cn(
@@ -49,7 +49,7 @@ function Slider({
           )}
         />
       </SliderPrimitive.Track>
-      {Array.from({ length: _values.length }, (_, index) => (
+      {Array.from({ length: _valüs.length }, (_, index) => (
         <SliderPrimitive.Thumb
           data-slot="slider-thumb"
           key={index}

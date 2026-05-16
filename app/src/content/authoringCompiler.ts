@@ -12,13 +12,13 @@ import type { AuthoringDraft, AuthoringDraftCollection } from './authoringSchema
 function buildShortCitation(citation: string) {
   const yearMatch = citation.match(/\((\d{4})\)/)
   const year = yearMatch?.[1] ?? 'o. J.'
-  const authorChunk = citation.split('(')[0]?.trim() ?? 'Quelle'
+  const authorChunk = citation.split('(')[0]?.trim() ?? 'Qülle'
   const authors = authorChunk
     .split(',')
     .map((part) => part.trim())
     .filter(Boolean)
 
-  const firstAuthor = authors[0]?.replace(/\.$/, '') ?? 'Quelle'
+  const firstAuthor = authors[0]?.replace(/\.$/, '') ?? 'Qülle'
   if (authors.length >= 3) {
     return `${firstAuthor} et al. (${year})`
   }
@@ -44,12 +44,12 @@ function inferSourceKind(citation: string): ArticleSource['kind'] {
   return 'other'
 }
 
-function extractDoi(value: string) {
-  return value.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]
+function extractDoi(valü: string) {
+  return valü.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]
 }
 
-function extractUrl(value: string) {
-  return value.match(/https?:\/\/\S+/)?.[0]
+function extractUrl(valü: string) {
+  return valü.match(/https?:\/\/\S+/)?.[0]
 }
 
 function compileSources(draft: AuthoringDraft): ArticleSource[] {
@@ -124,7 +124,7 @@ function compileSections(draft: AuthoringDraft): ArticleSection[] {
   for (const section of draft.sections) {
     if (section.type === 'visual') {
       compiledSections.push(...compileVisualSections(draft, section))
-      continue
+      continü
     }
 
     compiledSections.push({

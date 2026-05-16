@@ -63,14 +63,14 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die recovered Route /vygotsky wurde im Piaget-Artikel als Gegen- und Weiterfuehrungspunkt markiert. Das passt zu einer klassischen Lehrkonstellation: Piaget betont die aktive Konstruktion im Kind, Vygotsky die soziale Vermittlung von Entwicklung.",
+            "text": "Die recovered Route /vygotsky wurde im Piaget-Artikel als Gegen- und Weiterführungspunkt markiert. Das passt zu einer klassischen Lehrkonstellation: Piaget betont die aktive Konstruktion im Kind, Vygotsky die soziale Vermittlung von Entwicklung.",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Da fuer /vygotsky kein eigenstaendiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite die Alternative aus dem bereits im Korpus angelegten Gegensatz zwischen individueller Reifung und kultureller Vermittlung.",
+            "text": "Da für /vygotsky kein eigenständiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite die Alternative aus dem bereits im Korpus angelegten Gegensatz zwischen individüller Reifung und kultureller Vermittlung.",
             "annotations": []
           }
         }
@@ -83,12 +83,12 @@
       "entries": [
         {
           "kind": "subheading",
-          "text": "Zone der naechsten Entwicklung"
+          "text": "Zone der nächsten Entwicklung"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Bereich von Aufgaben, die ein Kind noch nicht allein, aber mit geeigneter Unterstuetzung durch kompetentere Andere loesen kann.",
+            "text": "Bereich von Aufgaben, die ein Kind noch nicht allein, aber mit geeigneter Unterstützung durch kompetentere Andere lösen kann.",
             "annotations": []
           }
         },
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Zeitlich begrenzte Hilfestellung, mit der Lernende schrittweise zu selbststaendigem Handeln gefuehrt werden.",
+            "text": "Zeitlich begrenzte Hilfestellung, mit der Lernende schrittweise zu selbstständigem Handeln geführt werden.",
             "annotations": []
           }
         }
@@ -108,7 +108,7 @@
     {
       "id": "20-explanation",
       "type": "explanation",
-      "title": "Warum Vygotsky eine andere Perspektive oeffnet",
+      "title": "Warum Vygotsky eine andere Perspektive öffnet",
       "entries": [
         {
           "kind": "subheading",
@@ -117,18 +117,18 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Vygotsky versteht kognitive Entwicklung nicht nur als Ergebnis individueller Konstruktion, sondern als Prozess, der in Kooperation, Sprache und kulturellen Werkzeugen stattfindet. Kinder lernen durch gefuehrte Teilhabe an sozialen Praktiken.",
+            "text": "Vygotsky versteht kognitive Entwicklung nicht nur als Ergebnis individüller Konstruktion, sondern als Prozess, der in Kooperation, Sprache und kulturellen Werkzeugen stattfindet. Kinder lernen durch geführte Teilhabe an sozialen Praktiken.",
             "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Zone der naechsten Entwicklung"
+          "text": "Zone der nächsten Entwicklung"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Zentral ist die Frage, was ein Kind mit Unterstuetzung bereits leisten kann. Damit verschiebt sich der Blick von fertigen Kompetenzstufen auf Lernpotenziale, die in Interaktion sichtbar werden.",
+            "text": "Zentral ist die Frage, was ein Kind mit Unterstützung bereits leisten kann. Damit verschiebt sich der Blick von fertigen Kompetenzstufen auf Lernpotenziale, die in Interaktion sichtbar werden.",
             "annotations": []
           }
         },
@@ -139,7 +139,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Piaget und Vygotsky sind keine blossen Gegensaetze, aber sie setzen andere Schwerpunkte. Piaget erklaert Entwicklung stark ueber interne Reorganisation; Vygotsky macht deutlicher, wie Denken durch Sprache, Anleitung und Kultur mitgeformt wird.",
+            "text": "Piaget und Vygotsky sind keine blossen Gegensätze, aber sie setzen andere Schwerpunkte. Piaget erklärt Entwicklung stark über interne Reorganisation; Vygotsky macht deutlicher, wie Denken durch Sprache, Anleitung und Kultur mitgeformt wird.",
             "annotations": []
           }
         }
@@ -158,7 +158,7 @@
               "annotations": []
             },
             {
-              "text": "Die Zone der naechsten Entwicklung fragt nach Lernpotenzial unter geeigneter Unterstuetzung.",
+              "text": "Die Zone der nächsten Entwicklung fragt nach Lernpotenzial unter geeigneter Unterstützung.",
               "annotations": []
             },
             {
@@ -189,7 +189,7 @@
       "kind": "secondary",
       "shortCitation": "Vygotsky & L. S. (1978)",
       "apaCitation": "Vygotsky, L. S. (1978). Mind in society. Harvard University Press.",
-      "tooltip": "Klassische Formulierung der sozial vermittelten Entwicklung und der Zone der naechsten Entwicklung.",
+      "tooltip": "Klassische Formulierung der sozial vermittelten Entwicklung und der Zone der nächsten Entwicklung.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -202,7 +202,7 @@
       "kind": "empirical",
       "shortCitation": "Wood et al. (1976)",
       "apaCitation": "Wood, D., Bruner, J. S., & Ross, G. (1976). The role of tutoring in problem solving. Journal of Child Psychology and Psychiatry, 17(2), 89-100.",
-      "tooltip": "Praegt den Gedanken des scaffolding als praktische Form sozialer Lernunterstuetzung.",
+      "tooltip": "Prägt den Gedanken des scaffolding als praktische Form sozialer Lernunterstützung.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -215,7 +215,7 @@
       "kind": "other",
       "shortCitation": "Piaget & J. (1936)",
       "apaCitation": "Piaget, J. (1936). Origins of intelligence in the child. Routledge & Kegan Paul.",
-      "tooltip": "Bleibt der Vergleichspunkt fuer die individualkonstruktivistische Entwicklungslogik.",
+      "tooltip": "Bleibt der Vergleichspunkt für die individualkonstruktivistische Entwicklungslogik.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -227,7 +227,7 @@
   "relatedResources": [
     {
       "id": "20-backlink-1",
-      "category": "rueckverweis",
+      "category": "rückverweis",
       "title": "Kognitive Entwicklung nach Piaget",
       "relevance": "Recovered primary article that referenced Vygotsky: Soziale Entwicklung.",
       "target": {
@@ -247,7 +247,7 @@
     },
     {
       "id": "20-bridge-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Sprachentwicklung im Kindesalter",
       "relevance": "Bei Vygotsky wird Sprache selbst zum zentralen Medium kognitischer Entwicklung.",
       "target": {
@@ -257,9 +257,9 @@
     },
     {
       "id": "20-bridge-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Core Knowledge Theory",
-      "relevance": "Auch Vygotsky kritisiert Piaget, aber ueber soziale Vermittlung statt ueber angeborene Kernsysteme.",
+      "relevance": "Auch Vygotsky kritisiert Piaget, aber über soziale Vermittlung statt über angeborene Kernsysteme.",
       "target": {
         "kind": "internal-article",
         "articleId": "22"

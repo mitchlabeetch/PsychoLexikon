@@ -8,7 +8,7 @@ export function BigFiveDimensionsSVG() {
     >
       <title>Big-Five-Dimensionen OCEAN</title>
       <desc>
-        Matrix der fuenf Persoenlichkeitsdimensionen mit ihren jeweiligen Polen.
+        Matrix der fünf Persönlichkeitsdimensionen mit ihren jeweiligen Polen.
       </desc>
 
       {/* Title */}
@@ -21,7 +21,7 @@ export function BigFiveDimensionsSVG() {
         fontFamily="'Bodoni Moda', serif"
         fill="#1a1a1a"
       >
-        Die fuenf Dimensionen des Big-Five-Modells (OCEAN)
+        Die fünf Dimensionen des Big-Five-Modells (OCEAN)
       </text>
 
       {/* Row backgrounds alternating */}
@@ -99,9 +99,9 @@ export function BigFiveDimensionsSVG() {
         Gesellig
       </text>
 
-      {/* Row 4: A - Vertraeglichkeit */}
+      {/* Row 4: A - Verträglichkeit */}
       <text x="25" y="240" fontSize="12" fontWeight="600" fontFamily="DM Sans, sans-serif" fill="#1a1a1a">
-        A – Vertraeglichkeit
+        A – Verträglichkeit
       </text>
       {/* Continuum line with ticks */}
       <line x1="140" y1="234" x2="360" y2="234" stroke="#1a1a1a" strokeWidth="1.5" />

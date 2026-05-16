@@ -97,7 +97,7 @@ export function PiagetStagesSVG() {
       <text x="200" y="322" textAnchor="middle" fontSize="10" fontFamily="DM Sans, sans-serif" fill="#555555">
         (11+ J.)
       </text>
-      {/* Symbol: thought bubble with question mark */}
+      {/* Symbol: thought bubble with qüstion mark */}
       <circle cx="345" cy="308" r="10" fill="none" stroke="#1a1a1a" strokeWidth="1.5" />
       <text x="345" y="312" textAnchor="middle" fontSize="10" fontFamily="DM Sans, sans-serif" fill="#1a1a1a">
         ?

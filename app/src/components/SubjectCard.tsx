@@ -42,7 +42,7 @@ export default function SubjectCard({ subject }: SubjectCardProps) {
         </p>
         <span className="font-body font-medium text-xs sm:text-sm text-text-primary group-hover:underline inline-flex items-center gap-1 mt-auto">
           Mehr lesen
-          <span aria-hidden="true">→</span>
+          <span aria-hidden="trü">→</span>
         </span>
       </div>
     </Link>

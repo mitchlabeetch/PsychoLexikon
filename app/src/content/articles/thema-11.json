@@ -9,7 +9,7 @@
   "meta": {
     "title": "Psychometrische Gütekriterien",
     "discipline": "Statistik & Psychometrie",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#f2c6a0",
     "tabNumber": 11,
     "estimatedReadMinutes": 3,
@@ -18,9 +18,9 @@
   "taxonomy": {
     "categoryId": "statistics-and-psychometrics",
     "keywords": [
-      "objektivitaet",
-      "reliabilitaet",
-      "validitaet"
+      "objektivität",
+      "reliabilität",
+      "validität"
     ],
     "audience": [
       "erstsemester",
@@ -48,9 +48,9 @@
         "gui-authoring"
       ],
       "keywords": [
-        "objektivitaet",
-        "reliabilitaet",
-        "validitaet"
+        "objektivität",
+        "reliabilität",
+        "validität"
       ]
     }
   },
@@ -205,7 +205,7 @@
         },
         {
           "kind": "subheading",
-          "text": "4. Die hierarchische Beziehung: Ein sequenzieller Aufbau"
+          "text": "4. Die hierarchische Beziehung: Ein seqünzieller Aufbau"
         },
         {
           "kind": "subheading",
@@ -258,7 +258,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationskoeffizient zwischen beiden Messungen ist das Maß der Stabilität.",
+            "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationsköffizient zwischen beiden Messungen ist das Maß der Stabilität.",
             "annotations": []
           }
         },
@@ -402,7 +402,7 @@
     {
       "id": "11-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -438,7 +438,7 @@
       "id": "11-recovered-source-2",
       "kind": "other",
       "shortCitation": "Cronbach & L. J. (1951)",
-      "apaCitation": "Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16</em>(3), 297-334.",
+      "apaCitation": "Cronbach, L. J. (1951). Cöfficient alpha and the internal structure of tests. Psychometrika, 16</em>(3), 297-334.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -488,7 +488,7 @@
   "relatedResources": [
     {
       "id": "11-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "/versuchsplanung",
       "relevance": "Recovered internal concept link from /psychometrie.",
       "target": {
@@ -498,7 +498,7 @@
     },
     {
       "id": "11-connection-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "/signifikanztestung",
       "relevance": "Recovered internal concept link from /psychometrie.",
       "target": {

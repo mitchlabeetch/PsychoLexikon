@@ -28,19 +28,19 @@
       "title": "Gestaltgesetze & Prägnanzprinzip",
       "imageAssets": [
         "illu-gestalt-grouping.png",
-        "illu-praegnanz.png",
+        "illu-prägnanz.png",
         "illu-optical-illusions.png"
       ],
       "citationCount": 4,
       "definitionCount": 5,
       "relatedRoutes": [
         "/aktionspotential",
-        "/arbeitsgedaechtnis"
+        "/arbeitsgedächtnis"
       ]
     },
     {
-      "component": "Arbeitsgedaechtnis",
-      "route": "/arbeitsgedaechtnis",
+      "component": "Arbeitsgedächtnis",
+      "route": "/arbeitsgedächtnis",
       "title": "Das Arbeitsgedächtnis nach Baddeley",
       "imageAssets": [
         "illu-working-memory.png",
@@ -65,7 +65,7 @@
       "citationCount": 5,
       "definitionCount": 5,
       "relatedRoutes": [
-        "/arbeitsgedaechtnis"
+        "/arbeitsgedächtnis"
       ]
     },
     {
@@ -131,9 +131,9 @@
       "definitionCount": 2,
       "relatedRoutes": [
         "/hexaco",
-        "/persoenlichkeitsstoerungen",
+        "/persönlichkeitsstörungen",
         "/mischel",
-        "/persoenlichkeitstests"
+        "/persönlichkeitstests"
       ]
     },
     {
@@ -156,7 +156,7 @@
       "route": "/signifikanztestung",
       "title": "Signifikanztestung & p-Werte",
       "imageAssets": [
-        "illu-p-value.png",
+        "illu-p-valü.png",
         "illu-error-types.png"
       ],
       "citationCount": 6,
@@ -201,7 +201,7 @@
       "label": "← Aktionspotential"
     },
     {
-      "route": "/arbeitsgedaechtnis",
+      "route": "/arbeitsgedächtnis",
       "label": "← Arbeitsgedächtnis"
     },
     {
@@ -245,11 +245,11 @@
       "label": "Mischel: Person-Situation"
     },
     {
-      "route": "/persoenlichkeitsstoerungen",
+      "route": "/persönlichkeitsstörungen",
       "label": "Persönlichkeitsstörungen"
     },
     {
-      "route": "/persoenlichkeitstests",
+      "route": "/persönlichkeitstests",
       "label": "Persönlichkeitstests"
     },
     {
@@ -288,10 +288,10 @@
     "illu-neuron.png",
     "illu-operant-conditioning.png",
     "illu-optical-illusions.png",
-    "illu-p-value.png",
+    "illu-p-valü.png",
     "illu-phonological-loop.png",
     "illu-piaget-stages.png",
-    "illu-praegnanz.png",
+    "illu-prägnanz.png",
     "illu-reliability-validity.png",
     "illu-schachter-singer.png",
     "illu-skinner-box.png",

@@ -7,21 +7,21 @@
     "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
   },
   "meta": {
-    "title": "Persoenlichkeitsstoerungen",
+    "title": "Persönlichkeitsstörungen",
     "subtitle": "Wo dimensionale Traitmodelle an klinisch relevante Muster grenzen",
-    "discipline": "Differentielle & Persoenlichkeitspsychologie",
+    "discipline": "Differentielle & Persönlichkeitspsychologie",
     "difficulty": "Vertiefungs-Knoten",
     "tabColor": "#a8d8ea",
     "tabNumber": 16,
     "estimatedReadMinutes": 3,
-    "leadTeaser": "Persoenlichkeitsstoerungen markieren keinen voellig getrennten Bereich von Traits, sondern werfen die Frage auf, wann stabile Muster unflexibel, belastend und klinisch bedeutsam werden."
+    "leadTeaser": "Persönlichkeitsstörungen markieren keinen völlig getrennten Bereich von Traits, sondern werfen die Frage auf, wann stabile Muster unflexibel, belastend und klinisch bedeutsam werden."
   },
   "taxonomy": {
     "categoryId": "differential-and-personality",
     "keywords": [
-      "persoenlichkeitsstoerungen",
+      "persönlichkeitsstörungen",
       "klinisch",
-      "persoenlichkeit"
+      "persönlichkeit"
     ],
     "audience": [
       "selbststudium",
@@ -41,7 +41,7 @@
     "syncEnabled": false,
     "metadata": {
       "taxonomyPath": [
-        "Differentielle & Persoenlichkeitspsychologie"
+        "Differentielle & Persönlichkeitspsychologie"
       ],
       "audience": [
         "selbststudium",
@@ -49,9 +49,9 @@
         "gui-authoring"
       ],
       "keywords": [
-        "persoenlichkeitsstoerungen",
+        "persönlichkeitsstörungen",
         "klinisch",
-        "persoenlichkeit"
+        "persönlichkeit"
       ]
     }
   },
@@ -63,14 +63,14 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die recovered Route /persoenlichkeitsstoerungen wurde aus dem Big-Five-Umfeld heraus verlinkt. Das spricht dafuer, dass der verlorene Kontext weniger eine rein klinische Sonderwelt meinte als die Frage, wie Traitdimensionen in problematische Extreme uebergehen.",
+            "text": "Die recovered Route /persönlichkeitsstörungen wurde aus dem Big-Five-Umfeld heraus verlinkt. Das spricht dafür, dass der verlorene Kontext weniger eine rein klinische Sonderwelt meinte als die Frage, wie Traitdimensionen in problematische Extreme übergehen.",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, beschreibt diese Seite persoenlichkeitspsychologische Stoerungsnaehe bewusst als Bruecke zwischen normaler Merkmalsvariation und klinischer Beeintraechtigung.",
+            "text": "Da kein eigenständiger recovered Seitentext erhalten blieb, beschreibt diese Seite persönlichkeitspsychologische Störungsnähe bewusst als Brücke zwischen normaler Merkmalsvariation und klinischer Beeinträchtigung.",
             "annotations": []
           }
         }
@@ -88,7 +88,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Perspektive, nach der Persoenlichkeitsmerkmale auf Kontinuen verteilt sind und klinische Auffaelligkeiten nicht strikt kategorial von Normalvariationen getrennt werden.",
+            "text": "Perspektive, nach der Persönlichkeitsmerkmale auf Kontinün verteilt sind und klinische Auffälligkeiten nicht strikt kategorial von Normalvariationen getrennt werden.",
             "annotations": []
           }
         },
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Merkmalskonstellation, die dauerhaft unflexibel ist und zu deutlicher Beeintraechtigung, Konflikten oder Leidensdruck fuehrt.",
+            "text": "Merkmalskonstellation, die daürhaft unflexibel ist und zu deutlicher Beeinträchtigung, Konflikten oder Leidensdruck führt.",
             "annotations": []
           }
         }
@@ -112,12 +112,12 @@
       "entries": [
         {
           "kind": "subheading",
-          "text": "Warum Traits hier ueberhaupt relevant sind"
+          "text": "Warum Traits hier überhaupt relevant sind"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Persoenlichkeitsstoerungen lassen sich nicht sinnvoll verstehen, wenn Persoenlichkeit und Klinik voellig getrennt gedacht werden. Viele stoerungsnahe Muster wirken vielmehr wie rigide, extreme oder unflexible Varianten allgemeiner Traits.",
+            "text": "Persönlichkeitsstörungen lassen sich nicht sinnvoll verstehen, wenn Persönlichkeit und Klinik völlig getrennt gedacht werden. Viele störungsnahe Muster wirken vielmehr wie rigide, extreme oder unflexible Varianten allgemeiner Traits.",
             "annotations": []
           }
         },
@@ -128,7 +128,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die klinische Forschung bewegt sich deshalb zunehmend in Richtung dimensionaler Beschreibungen. Statt nur zu fragen, ob eine Stoerung vorhanden ist, wird genauer betrachtet, welche Merkmalsprofile, interpersonellen Probleme und Belastungen vorliegen.",
+            "text": "Die klinische Forschung bewegt sich deshalb zunehmend in Richtung dimensionaler Beschreibungen. Statt nur zu fragen, ob eine Störung vorhanden ist, wird genaür betrachtet, welche Merkmalsprofile, interpersonellen Probleme und Belastungen vorliegen.",
             "annotations": []
           }
         },
@@ -139,7 +139,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Nicht jeder hohe oder niedrige Traitwert ist schon klinisch relevant. Entscheidend werden Dauer, Unflexibilitaet, Leidensdruck und Beeintraechtigung im Alltag. Die dimensional gedachte Bruecke soll Aufklaerung schaffen, keine vorschnelle Pathologisierung.",
+            "text": "Nicht jeder hohe oder niedrige Traitwert ist schon klinisch relevant. Entscheidend werden Daür, Unflexibilität, Leidensdruck und Beeinträchtigung im Alltag. Die dimensional gedachte Brücke soll Aufklärung schaffen, keine vorschnelle Pathologisierung.",
             "annotations": []
           }
         }
@@ -154,15 +154,15 @@
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Persoenlichkeitsstoerungen lassen sich sinnvoll im Anschluss an allgemeine Traitmodelle betrachten.",
+              "text": "Persönlichkeitsstörungen lassen sich sinnvoll im Anschluss an allgemeine Traitmodelle betrachten.",
               "annotations": []
             },
             {
-              "text": "Dimensionale Beschreibungen ergaenzen starre Kategorien, weil sie Abstufungen und Profile besser erfassen.",
+              "text": "Dimensionale Beschreibungen ergänzen starre Kategorien, weil sie Abstufungen und Profile besser erfassen.",
               "annotations": []
             },
             {
-              "text": "Klinische Relevanz beginnt nicht bei jedem Extremwert, sondern bei dauerhafter Beeintraechtigung und Unflexibilitaet.",
+              "text": "Klinische Relevanz beginnt nicht bei jedem Extremwert, sondern bei daürhafter Beeinträchtigung und Unflexibilität.",
               "annotations": []
             }
           ]
@@ -174,8 +174,8 @@
     {
       "id": "16-recovered-source-1",
       "kind": "other",
-      "shortCitation": "Recovered route reference in analzy deployment bundle: Persoenlichkeitsstoerungen (o. J.)",
-      "apaCitation": "Recovered route reference in analzy deployment bundle: Persoenlichkeitsstoerungen (/persoenlichkeitsstoerungen) was linked from Fuenf-Faktoren-Modell (Big Five).",
+      "shortCitation": "Recovered route reference in analzy deployment bundle: Persönlichkeitsstörungen (o. J.)",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Persönlichkeitsstörungen (/persönlichkeitsstörungen) was linked from Fünf-Faktoren-Modell (Big Five).",
       "tooltip": "Die recovered Verlinkung entstand aus einem Traitartikel und legt deshalb einen dimensionalen Zugang nahe.",
       "verification": {
         "status": "pending-review",
@@ -189,7 +189,7 @@
       "kind": "empirical",
       "shortCitation": "Widiger et al. (1994)",
       "apaCitation": "Widiger, T. A., & Costa, P. T., Jr. (1994). Personality and personality disorders. Journal of Abnormal Psychology, 103(1), 78-91.",
-      "tooltip": "Beschreibt die inhaltliche Naehe zwischen allgemeiner Persoenlichkeitsstruktur und klinischen Stoerungsbildern.",
+      "tooltip": "Beschreibt die inhaltliche Nähe zwischen allgemeiner Persönlichkeitsstruktur und klinischen Störungsbildern.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -202,7 +202,7 @@
       "kind": "other",
       "shortCitation": "Widiger et al. (2007)",
       "apaCitation": "Widiger, T. A., & Trull, T. J. (2007). Plate tectonics in the classification of personality disorder. American Psychologist, 62(2), 71-83.",
-      "tooltip": "Begruendet den Wandel von starren Kategorien hin zu dimensionalen Traitmodellen in der klinischen Persoenlichkeitsforschung.",
+      "tooltip": "Begründet den Wandel von starren Kategorien hin zu dimensionalen Traitmodellen in der klinischen Persönlichkeitsforschung.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -215,7 +215,7 @@
       "kind": "secondary",
       "shortCitation": "John et al. (1999)",
       "apaCitation": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy. In L. A. Pervin & O. P. John (Eds.), Handbook of personality: Theory and research (2nd ed., pp. 102-138). Guilford Press.",
-      "tooltip": "Liefert die nicht-klinische Traitfolie, von der aus stoerungsnahe Extreme eingeordnet werden koennen.",
+      "tooltip": "Liefert die nicht-klinische Traitfolie, von der aus störungsnahe Extreme eingeordnet werden können.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -227,9 +227,9 @@
   "relatedResources": [
     {
       "id": "16-backlink-1",
-      "category": "rueckverweis",
+      "category": "rückverweis",
       "title": "Fünf-Faktoren-Modell (Big Five)",
-      "relevance": "Recovered primary article that referenced Persoenlichkeitsstoerungen.",
+      "relevance": "Recovered primary article that referenced Persönlichkeitsstörungen.",
       "target": {
         "kind": "internal-article",
         "articleId": "08"
@@ -238,7 +238,7 @@
     {
       "id": "16-category-1",
       "category": "kategorie",
-      "title": "Differentielle & Persoenlichkeitspsychologie",
+      "title": "Differentielle & Persönlichkeitspsychologie",
       "relevance": "Canonical category placement for this derived concept node.",
       "target": {
         "kind": "internal-category",
@@ -247,9 +247,9 @@
     },
     {
       "id": "16-bridge-1",
-      "category": "verknuepfung",
-      "title": "Persoenlichkeitstests",
-      "relevance": "Diagnostische Instrumente vermitteln zwischen alltaeglichen Traits und klinisch auffaelligen Mustern.",
+      "category": "verknüpfung",
+      "title": "Persönlichkeitstests",
+      "relevance": "Diagnostische Instrumente vermitteln zwischen alltäglichen Traits und klinisch auffälligen Mustern.",
       "target": {
         "kind": "internal-article",
         "articleId": "15"
@@ -257,9 +257,9 @@
     },
     {
       "id": "16-bridge-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "HEXACO-Modell",
-      "relevance": "Erweiterte Traitmodelle zeigen, dass auch klinisch relevante Muster aus differenzierteren Merkmalsachsen beschrieben werden koennen.",
+      "relevance": "Erweiterte Traitmodelle zeigen, dass auch klinisch relevante Muster aus differenzierteren Merkmalsachsen beschrieben werden können.",
       "target": {
         "kind": "internal-article",
         "articleId": "13"

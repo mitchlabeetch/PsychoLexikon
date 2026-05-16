@@ -4,12 +4,12 @@
   "slug": "thema-03",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/03-arbeitsgedaechtnis.bundle.txt"
+    "sourcePath": "src/content/recovered/analzy-pages/03-arbeitsgedächtnis.bundle.txt"
   },
   "meta": {
     "title": "Das Arbeitsgedächtnis nach Baddeley",
     "discipline": "Wahrnehmung & Kognition",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#c7b8ea",
     "tabNumber": 3,
     "estimatedReadMinutes": 3,
@@ -18,7 +18,7 @@
   "taxonomy": {
     "categoryId": "perception-and-cognition",
     "keywords": [
-      "arbeitsgedaechtnis",
+      "arbeitsgedächtnis",
       "phonologische schleife",
       "zentrale exekutive"
     ],
@@ -48,7 +48,7 @@
         "gui-authoring"
       ],
       "keywords": [
-        "arbeitsgedaechtnis",
+        "arbeitsgedächtnis",
         "phonologische schleife",
         "zentrale exekutive"
       ]
@@ -109,7 +109,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Zeitlich begrenzte, zusammenhängende Darstellung eines Ereignisses, die Informationen aus verschiedenen Quellen integriert.",
+            "text": "Zeitlich begrenzte, zusammenhängende Darstellung eines Ereignisses, die Informationen aus verschiedenen Qüllen integriert.",
             "annotations": []
           }
         }
@@ -130,7 +130,7 @@
         },
         {
           "kind": "subheading",
-          "text": "Der visuell-räumliche Notizblock"
+          "text": "Der visüll-räumliche Notizblock"
         },
         {
           "kind": "subheading",
@@ -196,7 +196,7 @@
     {
       "id": "03-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -275,9 +275,9 @@
   "relatedResources": [
     {
       "id": "03-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "← Gestaltgesetze",
-      "relevance": "Recovered internal concept link from /arbeitsgedaechtnis.",
+      "relevance": "Recovered internal concept link from /arbeitsgedächtnis.",
       "target": {
         "kind": "internal-article",
         "articleId": "02"
@@ -285,9 +285,9 @@
     },
     {
       "id": "03-connection-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Konditionierung →",
-      "relevance": "Recovered internal concept link from /arbeitsgedaechtnis.",
+      "relevance": "Recovered internal concept link from /arbeitsgedächtnis.",
       "target": {
         "kind": "internal-article",
         "articleId": "04"

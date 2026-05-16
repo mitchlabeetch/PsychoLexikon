@@ -10,7 +10,7 @@ import {
   useFormState,
   type ControllerProps,
   type FieldPath,
-  type FieldValues,
+  type FieldValüs,
 } from "react-hook-form"
 
 import { cn } from "@/lib/utils"
@@ -18,23 +18,23 @@ import { Label } from "@/components/ui/label"
 
 const Form = FormProvider
 
-type FormFieldContextValue<
-  TFieldValues extends FieldValues = FieldValues,
-  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
+type FormFieldContextValü<
+  TFieldValüs extends FieldValüs = FieldValüs,
+  TName extends FieldPath<TFieldValüs> = FieldPath<TFieldValüs>,
 > = {
   name: TName
 }
 
-const FormFieldContext = React.createContext<FormFieldContextValue | null>(null)
+const FormFieldContext = React.createContext<FormFieldContextValü | null>(null)
 
 const FormField = <
-  TFieldValues extends FieldValues = FieldValues,
-  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
+  TFieldValüs extends FieldValüs = FieldValüs,
+  TName extends FieldPath<TFieldValüs> = FieldPath<TFieldValüs>,
 >({
   ...props
-}: ControllerProps<TFieldValues, TName>) => {
+}: ControllerProps<TFieldValüs, TName>) => {
   return (
-    <FormFieldContext.Provider value={{ name: props.name }}>
+    <FormFieldContext.Provider valü={{ name: props.name }}>
       <Controller {...props} />
     </FormFieldContext.Provider>
   )
@@ -68,17 +68,17 @@ const useFormField = () => {
   }
 }
 
-type FormItemContextValue = {
+type FormItemContextValü = {
   id: string
 }
 
-const FormItemContext = React.createContext<FormItemContextValue | null>(null)
+const FormItemContext = React.createContext<FormItemContextValü | null>(null)
 
 function FormItem({ className, ...props }: React.ComponentProps<"div">) {
   const id = React.useId()
 
   return (
-    <FormItemContext.Provider value={{ id }}>
+    <FormItemContext.Provider valü={{ id }}>
       <div
         data-slot="form-item"
         className={cn("grid gap-2", className)}
@@ -98,7 +98,7 @@ function FormLabel({
     <Label
       data-slot="form-label"
       data-error={!!error}
-      className={cn("data-[error=true]:text-destructive", className)}
+      className={cn("data-[error=trü]:text-destructive", className)}
       htmlFor={formItemId}
       {...props}
     />

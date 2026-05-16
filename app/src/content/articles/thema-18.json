@@ -8,13 +8,13 @@
   },
   "meta": {
     "title": "Faktorenanalyse",
-    "subtitle": "Wie Korrelationsmuster zu latenten Faehigkeitsdimensionen werden",
+    "subtitle": "Wie Korrelationsmuster zu latenten Fähigkeitsdimensionen werden",
     "discipline": "Statistik & Psychometrie",
     "difficulty": "Vertiefungs-Knoten",
     "tabColor": "#f2c6a0",
     "tabNumber": 18,
     "estimatedReadMinutes": 3,
-    "leadTeaser": "Faktorenanalyse verdichtet Korrelationen zwischen Einzelaufgaben zu uebergeordneten Dimensionen und macht damit Modelle wie BIS, Big Five oder CHC empirisch pruefbar."
+    "leadTeaser": "Faktorenanalyse verdichtet Korrelationen zwischen Einzelaufgaben zu übergeordneten Dimensionen und macht damit Modelle wie BIS, Big Five oder CHC empirisch prüfbar."
   },
   "taxonomy": {
     "categoryId": "statistics-and-psychometrics",
@@ -63,7 +63,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Zu /faktorenanalyse wurde kein eigenstaendiger recovered Seitentext bewahrt, aber sowohl der BIS-Artikel als auch der Big-Five-Artikel setzen das Verfahren als methodisches Rueckgrat voraus.",
+            "text": "Zu /faktorenanalyse wurde kein eigenständiger recovered Seitentext bewahrt, aber sowohl der BIS-Artikel als auch der Big-Five-Artikel setzen das Verfahren als methodisches Rückgrat voraus.",
             "annotations": []
           }
         },
@@ -88,7 +88,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Statistisches Verfahren, das gemeinsame Varianz in vielen Einzelmerkmalen auf wenige latente Faktoren zurueckfuehrt.",
+            "text": "Statistisches Verfahren, das gemeinsame Varianz in vielen Einzelmerkmalen auf wenige latente Faktoren zurückführt.",
             "annotations": []
           }
         },
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Eine nicht direkt beobachtbare Dimension, die aus systematischen Zusammenhaengen zwischen mehreren beobachtbaren Variablen erschlossen wird.",
+            "text": "Eine nicht direkt beobachtbare Dimension, die aus systematischen Zusammenhängen zwischen mehreren beobachtbaren Variablen erschlossen wird.",
             "annotations": []
           }
         }
@@ -117,7 +117,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Wenn viele Testaufgaben oder Adjektivratings miteinander korrelieren, versucht Faktorenanalyse, gemeinsame Muster zu finden. Diese Muster werden dann als latente Faehigkeiten oder Traits interpretiert.",
+            "text": "Wenn viele Testaufgaben oder Adjektivratings miteinander korrelieren, versucht Faktorenanalyse, gemeinsame Muster zu finden. Diese Muster werden dann als latente Fähigkeiten oder Traits interpretiert.",
             "annotations": []
           }
         },
@@ -128,13 +128,13 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Dasselbe Datenmaterial kann unterschiedlich ausgewertet werden: Manche Forscher suchen eine starke allgemeine Hauptdimension, andere mehrere relativ eigenstaendige Faktoren oder hierarchische Ebenen.",
+            "text": "Dasselbe Datenmaterial kann unterschiedlich ausgewertet werden: Manche Forscher suchen eine starke allgemeine Hauptdimension, andere mehrere relativ eigenständige Faktoren oder hierarchische Ebenen.",
             "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Methodische Staerke und methodische Grenze"
+          "text": "Methodische Stärke und methodische Grenze"
         },
         {
           "kind": "paragraph",
@@ -158,7 +158,7 @@
               "annotations": []
             },
             {
-              "text": "Sie traegt sowohl Intelligenzmodelle als auch Traitmodelle der Persoenlichkeitspsychologie.",
+              "text": "Sie trägt sowohl Intelligenzmodelle als auch Traitmodelle der Persönlichkeitspsychologie.",
               "annotations": []
             },
             {
@@ -176,7 +176,7 @@
       "kind": "other",
       "shortCitation": "Recovered route reference in analzy deployment bundle: Faktorenanalyse (o. J.)",
       "apaCitation": "Recovered route reference in analzy deployment bundle: Faktorenanalyse (/faktorenanalyse) was linked from Berliner Intelligenzstrukturmodell (BIS).",
-      "tooltip": "Der recovered Link stammt aus einem Artikel, der sein Modell ausdruecklich faktoranalytisch begruendet.",
+      "tooltip": "Der recovered Link stammt aus einem Artikel, der sein Modell ausdrücklich faktoranalytisch begründet.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -187,9 +187,9 @@
     {
       "id": "18-source-2",
       "kind": "other",
-      "shortCitation": "Jaeger & A. O. (1982)",
-      "apaCitation": "Jaeger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
-      "tooltip": "Zeigt die Rolle faktoranalytischer Auswertung fuer das Berliner Intelligenzstrukturmodell.",
+      "shortCitation": "Jäger & A. O. (1982)",
+      "apaCitation": "Jäger, A. O. (1982). Mehrmodale Klassifikation von Intelligenzleistungen. Diagnostica, 28, 195-225.",
+      "tooltip": "Zeigt die Rolle faktoranalytischer Auswertung für das Berliner Intelligenzstrukturmodell.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -202,7 +202,7 @@
       "kind": "secondary",
       "shortCitation": "Carroll & J. B. (1993)",
       "apaCitation": "Carroll, J. B. (1993). Human cognitive abilities: A survey of factor-analytic studies. Cambridge University Press.",
-      "tooltip": "Demonstriert, wie grossflaechige Leistungsdaten in hierarchische Faehigkeitsmodelle uebersetzt werden.",
+      "tooltip": "Demonstriert, wie grossflächige Leistungsdaten in hierarchische Fähigkeitsmodelle übersetzt werden.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -215,7 +215,7 @@
       "kind": "other",
       "shortCitation": "Goldberg & L. R. (1993)",
       "apaCitation": "Goldberg, L. R. (1993). The structure of phenotypic personality traits. American Psychologist, 48(1), 26-34.",
-      "tooltip": "Faktorenanalyse ist nicht auf Intelligenz beschraenkt, sondern traegt auch die Struktur der Persoenlichkeitstaxonomie.",
+      "tooltip": "Faktorenanalyse ist nicht auf Intelligenz beschränkt, sondern trägt auch die Struktur der Persönlichkeitstaxonomie.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -227,7 +227,7 @@
   "relatedResources": [
     {
       "id": "18-backlink-1",
-      "category": "rueckverweis",
+      "category": "rückverweis",
       "title": "Berliner Intelligenzstrukturmodell (BIS)",
       "relevance": "Recovered primary article that referenced Faktorenanalyse.",
       "target": {
@@ -247,7 +247,7 @@
     },
     {
       "id": "18-bridge-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "Intelligenztheorien im Ueberblick",
       "relevance": "Die Konkurrenz von Intelligenzmodellen ergibt sich oft aus unterschiedlichen faktoranalytischen Entscheidungen.",
       "target": {
@@ -257,9 +257,9 @@
     },
     {
       "id": "18-bridge-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "IQ-Tests und Diagnostik",
-      "relevance": "Diagnostische Testprofile sind nur so gut wie die Modellannahmen, die faktoranalytisch begruendet wurden.",
+      "relevance": "Diagnostische Testprofile sind nur so gut wie die Modellannahmen, die faktoranalytisch begründet wurden.",
       "target": {
         "kind": "internal-article",
         "articleId": "19"
@@ -267,9 +267,9 @@
     },
     {
       "id": "18-bridge-3",
-      "category": "verknuepfung",
-      "title": "Fuenf-Faktoren-Modell (Big Five)",
-      "relevance": "Auch die Persoenlichkeitspsychologie verdankt ihre Kernstruktur faktoranalytischer Verdichtung.",
+      "category": "verknüpfung",
+      "title": "Fünf-Faktoren-Modell (Big Five)",
+      "relevance": "Auch die Persönlichkeitspsychologie verdankt ihre Kernstruktur faktoranalytischer Verdichtung.",
       "target": {
         "kind": "internal-article",
         "articleId": "08"

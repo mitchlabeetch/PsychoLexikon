@@ -75,7 +75,7 @@ export function AktionspotentialGraph() {
 export function SynapseDiagram() {
   return (
     <svg viewBox="0 0 400 400" className="w-full h-auto" role="img" aria-labelledby="synTitle synDesc">
-      <title id="synTitle">Anatomischer Querschnitt einer chemischen Synapse mit Neurotransmitter-Freisetzung</title>
+      <title id="synTitle">Anatomischer Qürschnitt einer chemischen Synapse mit Neurotransmitter-Freisetzung</title>
       <desc id="synDesc">Schematische Darstellung der Signalübertragung von der präsynaptischen zur postsynaptischen Zelle über den synaptischen Spalt</desc>
 
       {/* Präsynaptische Membran */}

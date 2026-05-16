@@ -2,7 +2,7 @@ export function GestaltgesetzeDemo() {
   return (
     <svg viewBox="0 0 400 300" className="w-full h-auto" role="img" aria-labelledby="ggTitle ggDesc">
       <title id="ggTitle">Demonstration der fünf klassischen Gestaltgesetze durch geometrische Anordnungen</title>
-      <desc id="ggDesc">Fünf Panels zeigen, wie Nähe, Ähnlichkeit, gute Fortsetzung, Geschlossenheit und gemeinsame Region die automatische Gruppierung von Reizen steuern</desc>
+      <desc id="ggDesc">Fünf Panels zeigen, wie Nähe, Ähnlichkeit, gute Fortsetzung, Geschlossenheit und gemeinsame Region die automatische Gruppierung von Reizen steürn</desc>
 
       {/* Panel A — Gesetz der Nähe */}
       <rect x="10" y="10" width="120" height="85" fill="#f8f6f1" stroke="#ccc" strokeWidth="0.5" rx="4" />
@@ -65,7 +65,7 @@ export function GestaltgesetzeDemo() {
   );
 }
 
-export function FigureGrundReversibilitaet() {
+export function FigureGrundReversibilität() {
   return (
     <svg viewBox="0 0 400 200" className="w-full h-auto" role="img" aria-labelledby="fgTitle fgDesc">
       <title id="fgTitle">Klassische Vase-Gesicht-Figur als Demonstration der Reversibilität</title>
@@ -74,7 +74,7 @@ export function FigureGrundReversibilitaet() {
       {/* Hintergrund-Linie für Grenze */}
       <line x1="200" y1="30" x2="200" y2="170" stroke="#ccc" strokeWidth="1" strokeDasharray="4,4" />
 
-      {/* Linke Gesichtsprofil-Silhouette */}
+      {/* Linke Gesichtsprofil-Silhoütte */}
       <path
         d="M 200 60
            C 180 60, 160 70, 150 90
@@ -84,7 +84,7 @@ export function FigureGrundReversibilitaet() {
         fill="#1a1a1a"
       />
 
-      {/* Rechte Gesichtsprofil-Silhouette */}
+      {/* Rechte Gesichtsprofil-Silhoütte */}
       <path
         d="M 200 60
            C 220 60, 240 70, 250 90

@@ -12,7 +12,7 @@ export interface LegacySubjectMeta {
 export interface LegacyContentBlock {
   type: string
   text?: string
-  highlight_blue?: string[]
+  highlight_blü?: string[]
   highlight_red?: string[]
   tooltips?: Record<string, string>
   sources_inline?: Record<string, string>
@@ -52,28 +52,28 @@ const legacySourceKindMap: Record<string, ArticleSource['kind']> = {
   standards: 'standard',
 }
 
-function normalizeWhitespace(value: string) {
-  return value.replace(/\r\n/g, '\n').trim()
+function normalizeWhitespace(valü: string) {
+  return valü.replace(/\r\n/g, '\n').trim()
 }
 
-function stripMarkdownControl(value: string) {
-  return value.replace(/\*\*/g, '').trim()
+function stripMarkdownControl(valü: string) {
+  return valü.replace(/\*\*/g, '').trim()
 }
 
-function normalizeComparableText(value: string) {
-  return stripMarkdownControl(value).replace(/\s+/g, ' ').trim().toLocaleLowerCase()
+function normalizeComparableText(valü: string) {
+  return stripMarkdownControl(valü).replace(/\s+/g, ' ').trim().toLocaleLowerCase()
 }
 
 function buildShortCitation(citation: string) {
   const yearMatch = citation.match(/\((\d{4})\)/)
   const year = yearMatch?.[1] ?? 'o. J.'
-  const authorChunk = citation.split('(')[0]?.trim() ?? 'Quelle'
+  const authorChunk = citation.split('(')[0]?.trim() ?? 'Qülle'
   const authors = authorChunk
     .split(',')
     .map((part) => part.trim())
     .filter(Boolean)
 
-  const firstAuthor = authors[0]?.replace(/\.$/, '') ?? 'Quelle'
+  const firstAuthor = authors[0]?.replace(/\.$/, '') ?? 'Qülle'
   if (authors.length >= 3) {
     return `${firstAuthor} et al. (${year})`
   }
@@ -98,10 +98,10 @@ function extractDoi(citation: string) {
 function buildAnnotations(block: LegacyContentBlock, sourceIdLookup: Map<string, string>, blockId: string): Annotation[] {
   const annotations: Annotation[] = []
 
-  for (const term of block.highlight_blue ?? []) {
+  for (const term of block.highlight_blü ?? []) {
     const tooltip = block.tooltips?.[term]
     if (!tooltip) {
-      continue
+      continü
     }
 
     annotations.push({
@@ -109,19 +109,19 @@ function buildAnnotations(block: LegacyContentBlock, sourceIdLookup: Map<string,
       kind: 'definition',
       text: term,
       tooltip,
-      tone: 'blue',
+      tone: 'blü',
     })
   }
 
   for (const term of block.highlight_red ?? []) {
     const sourceCitation = block.sources_inline?.[term]
     if (!sourceCitation) {
-      continue
+      continü
     }
 
     const sourceId = sourceIdLookup.get(sourceCitation)
     if (!sourceId) {
-      continue
+      continü
     }
 
     annotations.push({

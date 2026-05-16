@@ -9,7 +9,7 @@
   "meta": {
     "title": "Signifikanztestung & p-Werte",
     "discipline": "Statistik & Psychometrie",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#f2c6a0",
     "tabNumber": 10,
     "estimatedReadMinutes": 3,
@@ -278,11 +278,11 @@
       "title": "Illustrationen",
       "asset": {
         "kind": "image-file",
-        "src": "/recovered/analzy/illu-p-value.png",
-        "description": "Recovered illustration illu-p-value.png from analzy deployment bundle.",
-        "alt": "Signifikanztestung & p-Werte: P Value"
+        "src": "/recovered/analzy/illu-p-valü.png",
+        "description": "Recovered illustration illu-p-valü.png from analzy deployment bundle.",
+        "alt": "Signifikanztestung & p-Werte: P Valü"
       },
-      "caption": "P Value"
+      "caption": "P Valü"
     },
     {
       "id": "10-visuals-2",
@@ -298,7 +298,7 @@
     {
       "id": "10-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -359,7 +359,7 @@
       "id": "10-recovered-source-4",
       "kind": "other",
       "shortCitation": "Wasserstein et al. (2016)",
-      "apaCitation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-values: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
+      "apaCitation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-valüs: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
       "tooltip": "Wasserstein & Lazar (2016)",
       "verification": {
         "status": "pending-review",
@@ -397,7 +397,7 @@
   "relatedResources": [
     {
       "id": "10-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "/versuchsplanung",
       "relevance": "Recovered internal concept link from /signifikanztestung.",
       "target": {
@@ -407,7 +407,7 @@
     },
     {
       "id": "10-connection-2",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "/psychometrie",
       "relevance": "Recovered internal concept link from /signifikanztestung.",
       "target": {

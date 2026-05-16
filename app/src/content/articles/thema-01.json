@@ -9,7 +9,7 @@
   "meta": {
     "title": "Aktionspotential & Synaptische Transmission",
     "discipline": "Biologische Psychologie",
-    "difficulty": "Erstsemester-Komplexitaetsgrad",
+    "difficulty": "Erstsemester-Komplexitätsgrad",
     "tabColor": "#98d4bb",
     "tabNumber": 1,
     "estimatedReadMinutes": 3,
@@ -120,7 +120,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Protein in der Zellmembran, das den Durchtritt bestimmter Ionen ermöglicht — oft gesteuert durch Spannung, Liganden oder mechanische Reize.",
+            "text": "Protein in der Zellmembran, das den Durchtritt bestimmter Ionen ermöglicht — oft gesteürt durch Spannung, Liganden oder mechanische Reize.",
             "annotations": []
           }
         },
@@ -175,7 +175,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Zeitfenster nach einem Aktionspotential, in dem ein neues AP unmöglich (absolute Refraktärzeit) oder nur durch stärkere Reize ausgelöst werden kann (relative Refraktärzeit).",
+            "text": "Zeitfenster nach einem Aktionspotential, in dem ein neüs AP unmöglich (absolute Refraktärzeit) oder nur durch stärkere Reize ausgelöst werden kann (relative Refraktärzeit).",
             "annotations": []
           }
         },
@@ -230,7 +230,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ligandengesteuerter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
+            "text": "Ligandengesteürter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
             "annotations": []
           }
         },
@@ -339,7 +339,7 @@
     {
       "id": "01-summary",
       "type": "summary",
-      "title": "Weiterfuehrende Verknuepfungen",
+      "title": "Weiterführende Verknüpfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -385,7 +385,7 @@
   "relatedResources": [
     {
       "id": "01-connection-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "← Gestaltgesetze",
       "relevance": "Recovered internal concept link from /aktionspotential.",
       "target": {

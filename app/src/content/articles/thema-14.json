@@ -8,20 +8,20 @@
   },
   "meta": {
     "title": "Mischel: Person-Situation",
-    "subtitle": "Die Person-Situations-Debatte ueber Konsistenz und Vorhersage",
-    "discipline": "Differentielle & Persoenlichkeitspsychologie",
+    "subtitle": "Die Person-Situations-Debatte über Konsistenz und Vorhersage",
+    "discipline": "Differentielle & Persönlichkeitspsychologie",
     "difficulty": "Vertiefungs-Knoten",
     "tabColor": "#a8d8ea",
     "tabNumber": 14,
     "estimatedReadMinutes": 3,
-    "leadTeaser": "Mischels Kritik fragte, wie stabil Persoenlichkeit ueber Situationen hinweg wirklich ist, und zwang Traitmodelle zu praeziseren Vorhersagen."
+    "leadTeaser": "Mischels Kritik fragte, wie stabil Persönlichkeit über Situationen hinweg wirklich ist, und zwang Traitmodelle zu präziseren Vorhersagen."
   },
   "taxonomy": {
     "categoryId": "differential-and-personality",
     "keywords": [
       "mischel",
       "person-situation",
-      "persoenlichkeit"
+      "persönlichkeit"
     ],
     "audience": [
       "selbststudium",
@@ -41,7 +41,7 @@
     "syncEnabled": false,
     "metadata": {
       "taxonomyPath": [
-        "Differentielle & Persoenlichkeitspsychologie"
+        "Differentielle & Persönlichkeitspsychologie"
       ],
       "audience": [
         "selbststudium",
@@ -51,7 +51,7 @@
       "keywords": [
         "mischel",
         "person-situation",
-        "persoenlichkeit"
+        "persönlichkeit"
       ]
     }
   },
@@ -63,14 +63,14 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Auch zu /mischel blieb im recovered Korpus kein eigenstaendiger Seitentext erhalten. Der Big-Five-Artikel nennt die Person-Situations-Kontroverse jedoch explizit als zentrale Kritiklinie, aus der dieser Vertiefungsknoten rekonstruiert wird.",
+            "text": "Auch zu /mischel blieb im recovered Korpus kein eigenständiger Seitentext erhalten. Der Big-Five-Artikel nennt die Person-Situations-Kontroverse jedoch explizit als zentrale Kritiklinie, aus der dieser Vertiefungsknoten rekonstruiert wird.",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Der Kern der Debatte lautet: Wenn Verhalten stark vom Kontext abhaengt, muessen Persoenlichkeitsmodelle genauer sagen, wann und wie stabile Unterschiede ueberhaupt beobachtbar werden.",
+            "text": "Der Kern der Debatte lautet: Wenn Verhalten stark vom Kontext abhängt, müssen Persönlichkeitsmodelle genaür sagen, wann und wie stabile Unterschiede überhaupt beobachtbar werden.",
             "annotations": []
           }
         }
@@ -88,18 +88,18 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Kontroverse darueber, ob Verhalten vor allem durch stabile Persoenlichkeitsmerkmale oder durch situative Bedingungen erklaert werden sollte.",
+            "text": "Kontroverse darüber, ob Verhalten vor allem durch stabile Persönlichkeitsmerkmale oder durch situative Bedingungen erklärt werden sollte.",
             "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Aggregation ueber Situationen"
+          "text": "Aggregation über Situationen"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Verhaltensdaten werden ueber viele Situationen hinweg zusammengefasst, damit stabile Traitunterschiede sichtbar werden.",
+            "text": "Verhaltensdaten werden über viele Situationen hinweg zusammengefasst, damit stabile Traitunterschiede sichtbar werden.",
             "annotations": []
           }
         }
@@ -117,7 +117,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Mischel argumentierte, dass breite Persoenlichkeitsmerkmale einzelnes Verhalten oft nur begrenzt vorhersagen. Damit wurde die bequeme Annahme erschuettert, Menschen wuerden sich in jeder Situation traitkonsistent verhalten.",
+            "text": "Mischel argumentierte, dass breite Persönlichkeitsmerkmale einzelnes Verhalten oft nur begrenzt vorhersagen. Damit wurde die beqüme Annahme erschüttert, Menschen würden sich in jeder Situation traitkonsistent verhalten.",
             "annotations": []
           }
         },
@@ -128,18 +128,18 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die spaetere Big-Five-Forschung hielt an Traits fest, aber mit einer wichtigen Praezisierung: Verlaessliche Stabilitaet zeigt sich eher in aggregierten Mustern ueber viele Situationen hinweg als in jeder einzelnen Szene.",
+            "text": "Die spätere Big-Five-Forschung hielt an Traits fest, aber mit einer wichtigen Präzisierung: Verlässliche Stabilität zeigt sich eher in aggregierten Mustern über viele Situationen hinweg als in jeder einzelnen Szene.",
             "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Folge fuer heutige Modelle"
+          "text": "Folge für heutige Modelle"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die Kontroverse zwang Persoenlichkeitspsychologie dazu, Traits, Situationen und ihre Wechselwirkung zusammenzudenken. Genau deshalb bleibt Mischel ein Scharnier zwischen klassischer Traitdiagnostik und moderner kontextsensitiver Forschung.",
+            "text": "Die Kontroverse zwang Persönlichkeitspsychologie dazu, Traits, Situationen und ihre Wechselwirkung zusammenzudenken. Genau deshalb bleibt Mischel ein Scharnier zwischen klassischer Traitdiagnostik und moderner kontextsensitiver Forschung.",
             "annotations": []
           }
         }
@@ -158,11 +158,11 @@
               "annotations": []
             },
             {
-              "text": "Big-Five-Modelle bleiben robust, wenn Verhalten ueber viele Situationen aggregiert wird.",
+              "text": "Big-Five-Modelle bleiben robust, wenn Verhalten über viele Situationen aggregiert wird.",
               "annotations": []
             },
             {
-              "text": "Die Debatte verbindet Persoenlichkeitsstruktur, Tests und konkrete Vorhersageansprueche.",
+              "text": "Die Debatte verbindet Persönlichkeitsstruktur, Tests und konkrete Vorhersageansprüche.",
               "annotations": []
             }
           ]
@@ -175,7 +175,7 @@
       "id": "14-recovered-source-1",
       "kind": "other",
       "shortCitation": "Recovered route reference in analzy deployment bundle: Mischel: Person-Situation (o. J.)",
-      "apaCitation": "Recovered route reference in analzy deployment bundle: Mischel: Person-Situation (/mischel) was linked from Fuenf-Faktoren-Modell (Big Five).",
+      "apaCitation": "Recovered route reference in analzy deployment bundle: Mischel: Person-Situation (/mischel) was linked from Fünf-Faktoren-Modell (Big Five).",
       "tooltip": "Die recovered Route blieb als Verweis aus dem Big-Five-Artikel erhalten.",
       "verification": {
         "status": "pending-review",
@@ -189,7 +189,7 @@
       "kind": "other",
       "shortCitation": "Mischel & W. (1968)",
       "apaCitation": "Mischel, W. (1968). Personality and assessment. Wiley.",
-      "tooltip": "Klassische Kritik an globalen Traits und ihrer begrenzten situationsuebergreifenden Vorhersage.",
+      "tooltip": "Klassische Kritik an globalen Traits und ihrer begrenzten situationsübergreifenden Vorhersage.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -202,7 +202,7 @@
       "kind": "secondary",
       "shortCitation": "John et al. (1999)",
       "apaCitation": "John, O. P., & Srivastava, S. (1999). The Big Five trait taxonomy. In L. A. Pervin & O. P. John (Eds.), Handbook of personality: Theory and research (2nd ed., pp. 102-138). Guilford Press.",
-      "tooltip": "Zeigt, warum Traits trotz Mischels Kritik stabil bleiben, wenn Verhalten ueber viele Situationen aggregiert wird.",
+      "tooltip": "Zeigt, warum Traits trotz Mischels Kritik stabil bleiben, wenn Verhalten über viele Situationen aggregiert wird.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -214,7 +214,7 @@
   "relatedResources": [
     {
       "id": "14-backlink-1",
-      "category": "rueckverweis",
+      "category": "rückverweis",
       "title": "Fünf-Faktoren-Modell (Big Five)",
       "relevance": "Recovered primary article that referenced Mischel: Person-Situation.",
       "target": {
@@ -225,7 +225,7 @@
     {
       "id": "14-category-1",
       "category": "kategorie",
-      "title": "Differentielle & Persoenlichkeitspsychologie",
+      "title": "Differentielle & Persönlichkeitspsychologie",
       "relevance": "Canonical category placement for this derived concept node.",
       "target": {
         "kind": "internal-category",
@@ -234,9 +234,9 @@
     },
     {
       "id": "14-bridge-1",
-      "category": "verknuepfung",
+      "category": "verknüpfung",
       "title": "HEXACO-Modell",
-      "relevance": "Auch differenziertere Traitmodelle muessen sich an situativer Variabilitaet messen lassen.",
+      "relevance": "Auch differenziertere Traitmodelle müssen sich an situativer Variabilität messen lassen.",
       "target": {
         "kind": "internal-article",
         "articleId": "13"
@@ -244,9 +244,9 @@
     },
     {
       "id": "14-bridge-2",
-      "category": "verknuepfung",
-      "title": "Persoenlichkeitstests",
-      "relevance": "Die Debatte betrifft unmittelbar, was Persoenlichkeitstests ueberhaupt beanspruchen duerfen.",
+      "category": "verknüpfung",
+      "title": "Persönlichkeitstests",
+      "relevance": "Die Debatte betrifft unmittelbar, was Persönlichkeitstests überhaupt beanspruchen dürfen.",
       "target": {
         "kind": "internal-article",
         "articleId": "15"

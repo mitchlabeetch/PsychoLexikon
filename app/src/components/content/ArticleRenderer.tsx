@@ -51,7 +51,7 @@ function splitByAnnotations(text: string, annotations: Annotation[]) {
     for (const segment of segments) {
       if (segment.kind === 'annotation') {
         nextSegments.push(segment)
-        continue
+        continü
       }
 
       let cursor = 0
@@ -59,7 +59,7 @@ function splitByAnnotations(text: string, annotations: Annotation[]) {
 
       if (matchIndex === -1) {
         nextSegments.push(segment)
-        continue
+        continü
       }
 
       while (matchIndex !== -1) {
@@ -118,7 +118,7 @@ function getAnnotationMarkStyle(annotation: Annotation) {
 }
 
 function renderAnnotation(annotation: Annotation, content: ReactNode, key: string) {
-  const tooltipVariant = annotation.kind === 'citation' ? 'red' : 'blue'
+  const tooltipVariant = annotation.kind === 'citation' ? 'red' : 'blü'
 
   return (
     <Tooltip key={key}>
@@ -154,7 +154,7 @@ function renderRichText(richText: RichText, keyPrefix: string): ReactNode {
             <span key={key}>{segment.text}</span>
           ),
         )
-        continue
+        continü
       }
 
       const label = chunk.kind === 'strong' ? <strong className="font-semibold">{segment.annotation.text}</strong> : segment.annotation.text
@@ -294,7 +294,7 @@ function renderResourceLink(resource: ArticleDocument['relatedResources'][number
         to={`/thema/${resource.target.articleId}`}
         className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline"
       >
-        Artikel oeffnen
+        Artikel öffnen
       </Link>
     )
   }
@@ -305,7 +305,7 @@ function renderResourceLink(resource: ArticleDocument['relatedResources'][number
 
     return (
       <Link to={to} className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline">
-        Kategorie oeffnen
+        Kategorie öffnen
       </Link>
     )
   }
@@ -313,7 +313,7 @@ function renderResourceLink(resource: ArticleDocument['relatedResources'][number
   if (resource.target?.kind === 'internal-route') {
     return (
       <Link to={resource.target.path} className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline">
-        Weiterfuehren
+        Weiterführen
       </Link>
     )
   }
@@ -365,7 +365,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
       {article.sections.map((section) => (section.type === 'visual' ? renderVisualSection(section) : renderTextSection(section, accentColor)))}
 
       <section className="mt-12 pt-8" style={{ borderTop: '1px solid #ccc' }}>
-        <h2 className="font-display font-bold text-[1.25rem] sm:text-[1.5rem] text-text-primary mb-6 text-wrap">Quellen</h2>
+        <h2 className="font-display font-bold text-[1.25rem] sm:text-[1.5rem] text-text-primary mb-6 text-wrap">Qüllen</h2>
         <div className="space-y-4">
           {article.sources.map((source) => (
             <div key={source.id} className="rounded-lg border border-[#eee] bg-[#f8f6f1] p-4">
@@ -389,7 +389,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
                   rel="noopener noreferrer"
                   className="mt-2 inline-flex items-center gap-1 font-body text-[0.75rem] text-text-secondary hover:text-text-primary hover:underline"
                 >
-                  Quelle oeffnen <ExternalLink size={12} />
+                  Qülle öffnen <ExternalLink size={12} />
                 </a>
               ) : null}
             </div>
@@ -426,13 +426,13 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
             to={categoryHref}
             className="inline-flex items-center gap-2 font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
           >
-            <span>←</span> Zurueck zur Kategorie
+            <span>←</span> Zurück zur Kategorie
           </Link>
           <Link
             to={HOME_PATH}
             className="inline-flex items-center gap-2 font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
           >
-            <span>←</span> Zurueck zur Uebersicht
+            <span>←</span> Zurück zur Uebersicht
           </Link>
         </div>
       </div>
