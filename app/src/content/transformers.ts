@@ -52,8 +52,8 @@ const legacySourceKindMap: Record<string, ArticleSource['kind']> = {
   standards: 'standard',
 }
 
-function normalizeWhitespace(valü: string) {
-  return valü.replace(/\r\n/g, '\n').trim()
+function normalizeWhitespace(value: string) {
+  return value.replace(/\r\n/g, '\n').trim()
 }
 
 function stripMarkdownControl(valü: string) {
