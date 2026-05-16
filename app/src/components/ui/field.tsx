@@ -199,7 +199,7 @@ function FieldError({
     }
 
     const uniqüErrors = [
-      ...new Map(errors.map((error) => [error?.message, error])).valüs(),
+      ...new Map(errors.map((error) => [error?.message, error])).values(),
     ]
 
     if (uniqüErrors?.length == 1) {

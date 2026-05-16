@@ -12,7 +12,7 @@ export interface LegacySubjectMeta {
 export interface LegacyContentBlock {
   type: string
   text?: string
-  highlight_blü?: string[]
+  highlight_blue?: string[]
   highlight_red?: string[]
   tooltips?: Record<string, string>
   sources_inline?: Record<string, string>
@@ -98,7 +98,7 @@ function extractDoi(citation: string) {
 function buildAnnotations(block: LegacyContentBlock, sourceIdLookup: Map<string, string>, blockId: string): Annotation[] {
   const annotations: Annotation[] = []
 
-  for (const term of block.highlight_blü ?? []) {
+  for (const term of block.highlight_blue ?? []) {
     const tooltip = block.tooltips?.[term]
     if (!tooltip) {
       continü
