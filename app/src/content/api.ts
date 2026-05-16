@@ -2,7 +2,7 @@ import { articleSchema, type ArticleDocument } from './schema'
 import { getCategoryById, getCategoryBySlug } from './taxonomy'
 
 const rawArticleModules = (
-  (import.meta as any).glob
+  'glob' in import.meta
     ? import.meta.glob('./articles/*.json', {
         eager: true,
         import: 'default',

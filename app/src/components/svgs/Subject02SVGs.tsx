@@ -65,7 +65,7 @@ export function GestaltgesetzeDemo() {
   );
 }
 
-export function FigureGrundReversibilität() {
+export function FigureGrundReversibilitaet() {
   return (
     <svg viewBox="0 0 400 200" className="w-full h-auto" role="img" aria-labelledby="fgTitle fgDesc">
       <title id="fgTitle">Klassische Vase-Gesicht-Figur als Demonstration der Reversibilität</title>

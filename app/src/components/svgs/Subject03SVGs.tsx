@@ -1,4 +1,4 @@
-export function ArbeitsgedächtnisModell() {
+export function ArbeitsgedaechtnisModell() {
   return (
     <svg viewBox="0 0 400 300" className="w-full h-auto" role="img" aria-labelledby="agTitle agDesc">
       <title id="agTitle">Mehrkomponentenmodell des Arbeitsgedächtnisses</title>
