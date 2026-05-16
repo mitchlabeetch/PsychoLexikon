@@ -44,8 +44,8 @@ function inferSourceKind(citation: string): ArticleSource['kind'] {
   return 'other'
 }
 
-function extractDoi(valü: string) {
-  return valü.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]
+function extractDoi(value: string) {
+  return value.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]
 }
 
 function extractUrl(valü: string) {
