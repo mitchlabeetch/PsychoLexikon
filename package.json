@@ -3,9 +3,12 @@
   "private": true,
   "version": "0.0.0",
   "scripts": {
-    "dev": "npm --prefix app run dev",
-    "build": "npm --prefix app run build",
-    "preview": "npm --prefix app run preview",
-    "install:app": "npm --prefix app install"
+    "dev": "cd app && node_modules/.bin/vite --host 0.0.0.0",
+    "build": "cd app && node_modules/.bin/vite build",
+    "preview": "cd app && node_modules/.bin/vite preview"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^6.0.2",
+    "vite": "^8.0.13"
   }
 }
