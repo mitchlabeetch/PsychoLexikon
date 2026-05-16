@@ -2,7 +2,7 @@ export function GestaltgesetzeDemo() {
   return (
     <svg viewBox="0 0 400 300" className="w-full h-auto" role="img" aria-labelledby="ggTitle ggDesc">
       <title id="ggTitle">Demonstration der fünf klassischen Gestaltgesetze durch geometrische Anordnungen</title>
-      <desc id="ggDesc">Fünf Panels zeigen, wie Nähe, Ähnlichkeit, gute Fortsetzung, Geschlossenheit und gemeinsame Region die automatische Gruppierung von Reizen steürn</desc>
+      <desc id="ggDesc">Fünf Panels zeigen, wie Nähe, Ähnlichkeit, gute Fortsetzung, Geschlossenheit und gemeinsame Region die automatische Gruppierung von Reizen steuern</desc>
 
       {/* Panel A — Gesetz der Nähe */}
       <rect x="10" y="10" width="120" height="85" fill="#f8f6f1" stroke="#ccc" strokeWidth="0.5" rx="4" />
