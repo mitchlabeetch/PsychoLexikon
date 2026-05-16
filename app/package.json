@@ -3,8 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "npm@10.8.2",
   "scripts": {
-    "dev": "vite --host 0.0.0.0 --port 3000",
+    "dev": "vite",
     "build": "npm run content:push:neon && npm run content:hydrate && npm run content:validate && tsc -b && vite build",
     "content:compile:authoring": "tsx scripts/compile-authoring-content.ts --write",
     "content:compile:authoring:dry": "tsx scripts/compile-authoring-content.ts",
