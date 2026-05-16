@@ -70,7 +70,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsqüllen.",
+            "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsquellen.",
             "annotations": []
           }
         }
@@ -214,7 +214,7 @@
       "id": "19-source-4",
       "kind": "empirical",
       "shortCitation": "McGrew & K. S. (2009)",
-      "apaCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychöducational Assessment, 37(1), 8-14.",
+      "apaCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychoeducational Assessment, 37(1), 8-14.",
       "tooltip": "Zeigt, warum CHC in der diagnostischen Praxis eine besonders starke Stellung erhielt.",
       "verification": {
         "status": "pending-review",
