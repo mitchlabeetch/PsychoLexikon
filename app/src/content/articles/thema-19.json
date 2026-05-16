@@ -4,7 +4,7 @@
   "slug": "thema-19",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
   },
   "meta": {
     "title": "IQ-Tests und Diagnostik",
@@ -70,7 +70,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsquellen.",
+            "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsqüllen.",
             "annotations": []
           }
         }
@@ -176,7 +176,7 @@
       "kind": "other",
       "shortCitation": "Recovered route reference in analzy deployment bundle: IQ-Tests und Diagnostik (o. J.)",
       "apaCitation": "Recovered route reference in analzy deployment bundle: IQ-Tests und Diagnostik (/iq-tests) was linked from Berliner Intelligenzstrukturmodell (BIS).",
-      "tooltip": "Der recovered Link entstand direkt aus einem Artikel, der den Uebergang vom Modell zur Testform beschreibt.",
+      "tooltip": "Der recovered Link entstand direkt aus einem Artikel, der den Übergang vom Modell zur Testform beschreibt.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -248,7 +248,7 @@
     {
       "id": "19-bridge-1",
       "category": "verknüpfung",
-      "title": "Intelligenztheorien im Ueberblick",
+      "title": "Intelligenztheorien im Überblick",
       "relevance": "Testverfahren operationalisieren immer ein vorausgesetztes Intelligenzmodell.",
       "target": {
         "kind": "internal-article",

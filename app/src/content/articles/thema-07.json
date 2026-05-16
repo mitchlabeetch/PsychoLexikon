@@ -4,7 +4,7 @@
   "slug": "thema-07",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "src/content/recovered/analzy-pages/07-attribution.bundle.txt"
   },
   "meta": {
     "title": "Attributionstheorie",
@@ -257,7 +257,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-attribution-dimensions.png",
-        "description": "",
+        "description": "Recovered illustration illu-attribution-dimensions.png from analzy deployment bundle.",
         "alt": "Attributionstheorie: Attribution Dimensions"
       },
       "caption": "Attribution Dimensions"
@@ -388,7 +388,7 @@
       "id": "07-connection-1",
       "category": "verknüpfung",
       "title": "Selbstwirksamkeit nach Bandura",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /attribution.",
       "target": {
         "kind": "internal-article",
         "articleId": "23"
@@ -398,7 +398,7 @@
       "id": "07-connection-2",
       "category": "verknüpfung",
       "title": "Leistungsmotivation",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /attribution.",
       "target": {
         "kind": "internal-article",
         "articleId": "24"
@@ -408,7 +408,7 @@
       "id": "07-connection-3",
       "category": "verknüpfung",
       "title": "Soziale Kognition",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /attribution.",
       "target": {
         "kind": "internal-article",
         "articleId": "26"
@@ -418,7 +418,7 @@
       "id": "07-connection-4",
       "category": "verknüpfung",
       "title": "Gelernte Hilflosigkeit",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /attribution.",
       "target": {
         "kind": "internal-article",
         "articleId": "25"

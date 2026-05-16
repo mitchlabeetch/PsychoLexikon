@@ -4,7 +4,7 @@
   "slug": "thema-06",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "src/content/recovered/analzy-pages/06-piaget.bundle.txt"
   },
   "meta": {
     "title": "Kognitive Entwicklung nach Piaget",
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Ein Zustand psychischer Unstimmigkeit, der entsteht, wenn neue Informationen mit bestehenden Überzeugungen kollidieren.",
+            "text": "Ein Zustand psychischer Unstimmigkeit, der entsteht, wenn neü Informationen mit bestehenden Überzeugungen kollidieren.",
             "annotations": []
           }
         },
@@ -269,7 +269,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-piaget-stages.png",
-        "description": "",
+        "description": "Recovered illustration illu-piaget-stages.png from analzy deployment bundle.",
         "alt": "Kognitive Entwicklung nach Piaget: Piaget Stages"
       },
       "caption": "Piaget Stages"
@@ -280,7 +280,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-conservation-task.png",
-        "description": "",
+        "description": "Recovered illustration illu-conservation-task.png from analzy deployment bundle.",
         "alt": "Kognitive Entwicklung nach Piaget: Conservation Task"
       },
       "caption": "Conservation Task"
@@ -382,7 +382,7 @@
       "id": "06-connection-1",
       "category": "verknüpfung",
       "title": "Vygotsky: Soziale Entwicklung",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /piaget.",
       "target": {
         "kind": "internal-article",
         "articleId": "20"
@@ -392,7 +392,7 @@
       "id": "06-connection-2",
       "category": "verknüpfung",
       "title": "Sprachentwicklung im Kindesalter",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /piaget.",
       "target": {
         "kind": "internal-article",
         "articleId": "21"
@@ -402,7 +402,7 @@
       "id": "06-connection-3",
       "category": "verknüpfung",
       "title": "Core Knowledge Theory",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /piaget.",
       "target": {
         "kind": "internal-article",
         "articleId": "22"

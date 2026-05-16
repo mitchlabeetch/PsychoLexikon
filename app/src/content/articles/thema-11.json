@@ -4,7 +4,7 @@
   "slug": "thema-11",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": ""
+    "sourcePath": "src/content/recovered/analzy-pages/11-psychometrie.bundle.txt"
   },
   "meta": {
     "title": "Psychometrische Gütekriterien",
@@ -205,7 +205,7 @@
         },
         {
           "kind": "subheading",
-          "text": "4. Die hierarchische Beziehung: Ein sequenzieller Aufbau"
+          "text": "4. Die hierarchische Beziehung: Ein seqünzieller Aufbau"
         },
         {
           "kind": "subheading",
@@ -383,7 +383,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-reliability-validity.png",
-        "description": "",
+        "description": "Recovered illustration illu-reliability-validity.png from analzy deployment bundle.",
         "alt": "Psychometrische Gütekriterien: Reliability Validity"
       },
       "caption": "Reliability Validity"
@@ -394,7 +394,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-test-quality.png",
-        "description": "",
+        "description": "Recovered illustration illu-test-quality.png from analzy deployment bundle.",
         "alt": "Psychometrische Gütekriterien: Test Quality"
       },
       "caption": "Test Quality"
@@ -490,7 +490,7 @@
       "id": "11-connection-1",
       "category": "verknüpfung",
       "title": "/versuchsplanung",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /psychometrie.",
       "target": {
         "kind": "internal-article",
         "articleId": "09"
@@ -500,7 +500,7 @@
       "id": "11-connection-2",
       "category": "verknüpfung",
       "title": "/signifikanztestung",
-      "relevance": "Weiterführende Lektüre",
+      "relevance": "Recovered internal concept link from /psychometrie.",
       "target": {
         "kind": "internal-article",
         "articleId": "10"
