@@ -342,7 +342,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
   const categoryHref = primaryCategory ? buildCategoryPath(primaryCategory.slug) : HOME_PATH
 
   return (
-    <article className="font-body text-text-primary">
+    <article className="font-body text-text-primary" data-schema-version={`Schema ${article.schemaVersion}`}>
       <header className="mb-8">
         <h1 className="font-display font-bold text-[1.5rem] sm:text-[2rem] leading-tight tracking-[-0.02em] text-text-primary mb-3 text-wrap">
           {article.meta.title}
@@ -413,12 +413,14 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
         <div className="flex flex-wrap items-center gap-4">
           <Link
             to={categoryHref}
+            data-nav-label="Zurueck zur Kategorie"
             className="inline-flex items-center gap-2 font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
           >
             <span>←</span> Zurück zur Kategorie
           </Link>
           <Link
             to={HOME_PATH}
+            data-nav-label="Zurueck zur Uebersicht"
             className="inline-flex items-center gap-2 font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
           >
             <span>←</span> Zurück zur Übersicht

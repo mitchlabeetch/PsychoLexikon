@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
-import { NavLink, useLocation } from 'react-router-dom'
+import { Link, NavLink, useLocation } from 'react-router-dom'
 import { getArticleById, getArticleCategory } from '@/content/api'
-import { buildCategoryPath } from '@/routing/routes'
+import { buildCategoryPath, HOME_PATH } from '@/routing/routes'
 import { getCategoryBySlug, listCategories } from '@/content/taxonomy'
 import NotebookPage from './NotebookPage'
 
@@ -35,6 +35,11 @@ export default function Layout({ children }: LayoutProps) {
           <div className="relative min-w-0 flex-1 pb-16 bg-bg-page rounded-lg shadow-[0_4px_20px_rgba(0,0,0,0.15)] overflow-visible z-10">
             <NotebookPage>
               <div className="px-1.5 py-8 text-[10px] sm:px-10 sm:py-12 sm:text-base lg:px-16 lg:py-12">
+                <header className="mb-6 sm:mb-8">
+                  <Link to={HOME_PATH} className="font-display font-bold text-[0.8rem] sm:text-[1rem] text-text-secondary hover:text-text-primary transition-colors">
+                    PsychoLexicon
+                  </Link>
+                </header>
                 {children}
               </div>
             </NotebookPage>
