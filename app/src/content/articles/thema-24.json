@@ -4,7 +4,7 @@
   "slug": "thema-24",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Leistungsmotivation",
@@ -215,7 +215,7 @@
       "kind": "secondary",
       "shortCitation": "Bandura & A. (1997)",
       "apaCitation": "Bandura, A. (1997). Self-efficacy: The exercise of control. Freeman.",
-      "tooltip": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutrauen.",
+      "tooltip": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutraün.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -249,7 +249,7 @@
       "id": "24-bridge-1",
       "category": "verknüpfung",
       "title": "Selbstwirksamkeit nach Bandura",
-      "relevance": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutrauen.",
+      "relevance": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutraün.",
       "target": {
         "kind": "internal-article",
         "articleId": "23"

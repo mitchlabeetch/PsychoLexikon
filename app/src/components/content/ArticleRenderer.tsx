@@ -294,7 +294,7 @@ function renderResourceLink(resource: ArticleDocument['relatedResources'][number
         to={`/thema/${resource.target.articleId}`}
         className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline"
       >
-        Artikel oeffnen
+        Artikel öffnen
       </Link>
     )
   }
@@ -305,7 +305,7 @@ function renderResourceLink(resource: ArticleDocument['relatedResources'][number
 
     return (
       <Link to={to} className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline">
-        Kategorie oeffnen
+        Kategorie öffnen
       </Link>
     )
   }
@@ -313,7 +313,7 @@ function renderResourceLink(resource: ArticleDocument['relatedResources'][number
   if (resource.target?.kind === 'internal-route') {
     return (
       <Link to={resource.target.path} className="inline-flex items-center gap-1 font-body text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline">
-        Weiterfuehren
+        Weiterführen
       </Link>
     )
   }
@@ -343,24 +343,6 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
 
   return (
     <article className="font-body text-text-primary">
-      <nav className="mb-6" aria-label="Breadcrumb">
-        <ol className="flex items-center gap-1 sm:gap-2 font-body text-[0.75rem] sm:text-[0.875rem] text-text-muted flex-wrap text-wrap">
-          <li>
-            <Link to={HOME_PATH} className="hover:underline">
-              PsychoLexicon
-            </Link>
-          </li>
-          <li>/</li>
-          <li className="truncate">
-            <Link to={categoryHref} className="hover:underline">
-              {categoryLabel}
-            </Link>
-          </li>
-          <li>/</li>
-          <li className="truncate max-w-[150px]">{article.meta.title}</li>
-        </ol>
-      </nav>
-
       <header className="mb-8">
         <h1 className="font-display font-bold text-[1.5rem] sm:text-[2rem] leading-tight tracking-[-0.02em] text-text-primary mb-3 text-wrap">
           {article.meta.title}
@@ -376,7 +358,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
             {categoryLabel}
           </span>
           <span className="text-[0.75rem] text-text-secondary">{article.meta.estimatedReadMinutes} Min. Lesezeit</span>
-          <span className="text-[0.75rem] text-text-secondary">Schema {article.schemaVersion}</span>
+
         </div>
       </header>
 
@@ -387,17 +369,6 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
         <div className="space-y-4">
           {article.sources.map((source) => (
             <div key={source.id} className="rounded-lg border border-[#eee] bg-[#f8f6f1] p-4">
-              <div className="mb-2 flex flex-wrap items-center gap-2">
-                <span className="inline-block font-body font-medium text-[0.75rem] uppercase px-2 py-0.5 rounded bg-[#eee] text-text-secondary">
-                  {source.kind}
-                </span>
-                <span className="inline-block font-body font-medium text-[0.75rem] uppercase px-2 py-0.5 rounded bg-[#edf2ff] text-[#334155]">
-                  {source.shortCitation}
-                </span>
-                <span className="inline-block font-body font-medium text-[0.75rem] uppercase px-2 py-0.5 rounded bg-[#ecfdf3] text-[#166534]">
-                  {source.verification.status}
-                </span>
-              </div>
               <p className="font-body text-[0.8rem] sm:text-[0.875rem] text-text-primary leading-relaxed mb-2 text-wrap">{source.apaCitation}</p>
               {source.tooltip ? <p className="font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary leading-relaxed">{source.tooltip}</p> : null}
               {source.url ? (
@@ -407,7 +378,7 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
                   rel="noopener noreferrer"
                   className="mt-2 inline-flex items-center gap-1 font-body text-[0.75rem] text-text-secondary hover:text-text-primary hover:underline"
                 >
-                  Quelle oeffnen <ExternalLink size={12} />
+                  Quelle öffnen <ExternalLink size={12} />
                 </a>
               ) : null}
             </div>
@@ -444,13 +415,13 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
             to={categoryHref}
             className="inline-flex items-center gap-2 font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
           >
-            <span>←</span> Zurueck zur Kategorie
+            <span>←</span> Zurück zur Kategorie
           </Link>
           <Link
             to={HOME_PATH}
             className="inline-flex items-center gap-2 font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary hover:text-text-primary hover:underline transition-colors"
           >
-            <span>←</span> Zurueck zur Uebersicht
+            <span>←</span> Zurück zur Übersicht
           </Link>
         </div>
       </div>

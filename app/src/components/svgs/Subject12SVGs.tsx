@@ -104,7 +104,7 @@ export function Subject12SVG2() {
 
       {/* James-Lange - oben */}
       <text x="60" y="40" fontSize="11" fill="#1a1a1a" fontFamily="DM Sans, sans-serif" fontWeight="600">James-Lange</text>
-      <text x="60" y="55" fontSize="9" fill="#555555" fontFamily="DM Sans, sans-serif">Korper zuerst</text>
+      <text x="60" y="55" fontSize="9" fill="#555555" fontFamily="DM Sans, sans-serif">Körper zuerst</text>
 
       {/* Reiz */}
       <rect x="60" y="70" width="50" height="25" rx="3" fill="none" stroke="#1a1a1a" strokeWidth="1.5" />

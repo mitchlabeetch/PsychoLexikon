@@ -4,7 +4,7 @@
   "slug": "thema-16",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Persönlichkeitsstörungen",
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Merkmalskonstellation, die dauerhaft unflexibel ist und zu deutlicher Beeinträchtigung, Konflikten oder Leidensdruck führt.",
+            "text": "Merkmalskonstellation, die daürhaft unflexibel ist und zu deutlicher Beeinträchtigung, Konflikten oder Leidensdruck führt.",
             "annotations": []
           }
         }
@@ -128,7 +128,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Die klinische Forschung bewegt sich deshalb zunehmend in Richtung dimensionaler Beschreibungen. Statt nur zu fragen, ob eine Störung vorhanden ist, wird genauer betrachtet, welche Merkmalsprofile, interpersonellen Probleme und Belastungen vorliegen.",
+            "text": "Die klinische Forschung bewegt sich deshalb zunehmend in Richtung dimensionaler Beschreibungen. Statt nur zu fragen, ob eine Störung vorhanden ist, wird genaür betrachtet, welche Merkmalsprofile, interpersonellen Probleme und Belastungen vorliegen.",
             "annotations": []
           }
         },
@@ -139,7 +139,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Nicht jeder hohe oder niedrige Traitwert ist schon klinisch relevant. Entscheidend werden Dauer, Unflexibilität, Leidensdruck und Beeinträchtigung im Alltag. Die dimensional gedachte Brücke soll Aufklärung schaffen, keine vorschnelle Pathologisierung.",
+            "text": "Nicht jeder hohe oder niedrige Traitwert ist schon klinisch relevant. Entscheidend werden Daür, Unflexibilität, Leidensdruck und Beeinträchtigung im Alltag. Die dimensional gedachte Brücke soll Aufklärung schaffen, keine vorschnelle Pathologisierung.",
             "annotations": []
           }
         }
@@ -162,7 +162,7 @@
               "annotations": []
             },
             {
-              "text": "Klinische Relevanz beginnt nicht bei jedem Extremwert, sondern bei dauerhafter Beeinträchtigung und Unflexibilität.",
+              "text": "Klinische Relevanz beginnt nicht bei jedem Extremwert, sondern bei daürhafter Beeinträchtigung und Unflexibilität.",
               "annotations": []
             }
           ]

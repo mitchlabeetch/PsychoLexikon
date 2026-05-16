@@ -4,7 +4,7 @@
   "slug": "thema-12",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/12-motivation-emotion.bundle.txt"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Theorien der Motivation & Emotion",
@@ -226,7 +226,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Emotionen sind komplexe Zustände aus subjektivem Erleben, physiologischer Erregung und ausdrucksverhalten. Doch welcher dieser Aspekte kommt zuerst? Die klassischen Emotionstheorien liefern unterschiedliche Antworten.",
+            "text": "Emotionen sind komplexe Zustände aus subjektivem Erleben, physiologischer Erregung und ausdrucksverhalten. Doch welcher dieser Aspekte kommt zürst? Die klassischen Emotionstheorien liefern unterschiedliche Antworten.",
             "annotations": []
           }
         },
@@ -330,7 +330,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-maslow-pyramid.png",
-        "description": "Recovered illustration illu-maslow-pyramid.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Theorien der Motivation & Emotion: Maslow Pyramid"
       },
       "caption": "Maslow Pyramid"
@@ -341,7 +341,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-james-lange.png",
-        "description": "Recovered illustration illu-james-lange.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Theorien der Motivation & Emotion: James Lange"
       },
       "caption": "James Lange"
@@ -352,7 +352,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-schachter-singer.png",
-        "description": "Recovered illustration illu-schachter-singer.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Theorien der Motivation & Emotion: Schachter Singer"
       },
       "caption": "Schachter Singer"

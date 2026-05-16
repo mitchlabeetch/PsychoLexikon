@@ -37,7 +37,7 @@ export function AttributionFlowSVG() {
       {/* Tier 2 */}
       <line x1="130" y1="132" x2="260" y2="132" stroke="#1a1a1a" strokeWidth="0.5" />
       <text x="195" y="146" textAnchor="middle" fontSize="9" fontFamily="DM Sans, sans-serif" fill="#555555">
-        Stabilitaet: stabil ↔ instabil
+        Stabilität: stabil ↔ instabil
       </text>
       {/* Tier 3 */}
       <line x1="130" y1="156" x2="260" y2="156" stroke="#1a1a1a" strokeWidth="0.5" />
@@ -77,7 +77,7 @@ export function AttributionFlowSVG() {
 
       {/* Pathway B: Failure */}
       <text x="20" y="282" fontSize="9" fontFamily="DM Sans, sans-serif" fill="#1a1a1a">
-        <tspan fontWeight="600">Misserfolg:</tspan> intern / stabil / unkontrollierbar → Scham → Rueckzug
+        <tspan fontWeight="600">Misserfolg:</tspan> intern / stabil / unkontrollierbar → Scham → Rückzug
       </text>
 
       <defs>

@@ -84,7 +84,7 @@
         },
         {
           "term": "Refraktärzeit",
-          "definition": "Zeitfenster nach einem Aktionspotential, in dem ein neues AP unmöglich (absolute Refraktärzeit) oder nur durch stärkere Reize ausgelöst werden kann (relative Refraktärzeit).",
+          "definition": "Zeitfenster nach einem Aktionspotential, in dem ein neüs AP unmöglich (absolute Refraktärzeit) oder nur durch stärkere Reize ausgelöst werden kann (relative Refraktärzeit).",
           "label": "Refraktärzeit"
         },
         {
@@ -109,7 +109,7 @@
         },
         {
           "term": "Ionotroper Rezeptor",
-          "definition": "Ligandengesteuerter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
+          "definition": "Ligandengesteürter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
           "label": "ionotrope Rezeptoren"
         },
         {
@@ -166,7 +166,7 @@
       ],
       "keywords": [
         "gestaltgesetze",
-        "praegnanz",
+        "prägnanz",
         "figur-grund"
       ],
       "leadCandidate": "Gestaltgesetze & Prägnanzprinzip",
@@ -188,7 +188,7 @@
         "Gestaltgesetze & Prägnanzprinzip",
         "Warum wir mehr sehen, als vor unseren Augen ist",
         "Die klassischen Gestaltgesetze",
-        "Ähnliche Elemente werden gruppiert — nach Farbe, Form, Größe oder Orientierung. Ein Schachbrettmuster aus schwarzen und weißen Kreisen wahrnehmen wir als Reihen gleicher Farbe, nicht als abwechselnde Diagonalen. In einem Scatterplot markieren wir verschiedene Gruppen mit unterschiedlichen Farben — genau weil unser visuelles System Ähnlichkeit nutzt.",
+        "Ähnliche Elemente werden gruppiert — nach Farbe, Form, Größe oder Orientierung. Ein Schachbrettmuster aus schwarzen und weißen Kreisen wahrnehmen wir als Reihen gleicher Farbe, nicht als abwechselnde Diagonalen. In einem Scatterplot markieren wir verschiedene Gruppen mit unterschiedlichen Farben — genau weil unser visülles System Ähnlichkeit nutzt.",
         "Linien werden so wahrgenommen, dass sie sich möglichst glatt fortsetzen. Wenn zwei Linien sich kreuzen, sehen wir nicht zwei spitze Winkel, sondern zwei durchgehende Linien, die sich überkreuzen. Das erklärt, warum wir verschlungene Schnüre als separate, kontinuierliche Fäden erkennen.",
         "Gesetz des gemeinsamen Schicksals",
         "Elemente, die sich gemeinsam in dieselbe Richtung bewegen, werden als Einheit gesehen — unabhängig von ihrer räumlichen Nähe oder Ähnlichkeit. Ein Schwarm Vögel, der synchron durch den Himmel zieht, wird als eine Gruppe wahrgenommen, selbst wenn die einzelnen Vögel weit auseinanderliegen.",
@@ -196,7 +196,7 @@
         "Bottom-up vs. Top-down: Zwei Wege zur Wahrnehmung",
         "Principles of Gestalt psychology",
         "The ecological approach to visual perception",
-        "Michael Bach: Optische Täuschungen",
+        "Michäl Bach: Optische Täuschungen",
         "Verywell Mind: Gestalt Psychology"
       ],
       "definitions": [
@@ -260,7 +260,7 @@
           "label": "← Aktionspotential"
         },
         {
-          "route": "/arbeitsgedaechtnis",
+          "route": "/arbeitsgedächtnis",
           "label": "← Arbeitsgedächtnis"
         }
       ],
@@ -269,15 +269,15 @@
     {
       "articleId": "03",
       "canonicalSlug": "thema-03",
-      "component": "Arbeitsgedaechtnis",
-      "recoveredRoute": "/arbeitsgedaechtnis",
+      "component": "Arbeitsgedächtnis",
+      "recoveredRoute": "/arbeitsgedächtnis",
       "title": "Das Arbeitsgedächtnis nach Baddeley",
       "categoryId": "perception-and-cognition",
       "taxonomyPath": [
         "Wahrnehmung & Kognition"
       ],
       "keywords": [
-        "arbeitsgedaechtnis",
+        "arbeitsgedächtnis",
         "phonologische schleife",
         "zentrale exekutive"
       ],
@@ -285,7 +285,7 @@
       "sectionHeadings": [
         "Vom Kurzzeitgedächtnis zum Arbeitsgedächtnis",
         "Die phonologische Schleife",
-        "Der visuell-räumliche Notizblock",
+        "Der visüll-räumliche Notizblock",
         "Die zentrale Exekutive: Der Dirigent im Kopf",
         "Der episodische Puffer: Die multimodale Brücke",
         "Zusammenfassung",
@@ -297,7 +297,7 @@
         "Dein geistiger Arbeitsplatz — wie dein Gehirn Informationen am Laufen hält",
         "Vom Kurzzeitgedächtnis zum Arbeitsgedächtnis",
         "artikulatorische Unterdrückung",
-        "Der visuell-räumliche Notizblock",
+        "Der visüll-räumliche Notizblock",
         "K.F. (Shallice & Warrington, 1970)",
         "Die zentrale Exekutive: Der Dirigent im Kopf",
         "Der episodische Puffer: Die multimodale Brücke",
@@ -322,7 +322,7 @@
         },
         {
           "term": "Episodische Repräsentation",
-          "definition": "Zeitlich begrenzte, zusammenhängende Darstellung eines Ereignisses, die Informationen aus verschiedenen Quellen integriert.",
+          "definition": "Zeitlich begrenzte, zusammenhängende Darstellung eines Ereignisses, die Informationen aus verschiedenen Qüllen integriert.",
           "label": "episodischen Repräsentationen"
         }
       ],
@@ -362,7 +362,7 @@
           "label": "Konditionierung →"
         }
       ],
-      "sourceSnapshotPath": "src/content/recovered/analzy-pages/03-arbeitsgedaechtnis.bundle.txt"
+      "sourceSnapshotPath": "src/content/recovered/analzy-pages/03-arbeitsgedächtnis.bundle.txt"
     },
     {
       "articleId": "04",
@@ -376,7 +376,7 @@
       ],
       "keywords": [
         "konditionierung",
-        "verstaerkung",
+        "verstärkung",
         "lernen"
       ],
       "leadCandidate": "Klassische & Operante Konditionierung",
@@ -472,7 +472,7 @@
       ],
       "relatedRoutes": [
         {
-          "route": "/arbeitsgedaechtnis",
+          "route": "/arbeitsgedächtnis",
           "label": "← Arbeitsgedächtnis"
         }
       ],
@@ -487,12 +487,12 @@
       "subtitle": "Wie sich Intelligenz entfaltet — Jägers mehrdimensionales Modell",
       "categoryId": "differential-and-personality",
       "taxonomyPath": [
-        "Differentielle & Persoenlichkeitspsychologie"
+        "Differentielle & Persönlichkeitspsychologie"
       ],
       "keywords": [
         "bis",
         "intelligenzstruktur",
-        "jaeger"
+        "jäger"
       ],
       "leadCandidate": "Berliner Intelligenzstrukturmodell (BIS)",
       "sectionHeadings": [
@@ -514,7 +514,7 @@
         "Operative Fähigkeiten (4 Faktoren)",
         "Einfallsreichtum / Kreativität",
         "Inhaltliche Fähigkeiten (3 Faktoren)",
-        "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektuellen Leistungsfähigkeit.",
+        "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektüllen Leistungsfähigkeit.",
         "Jäger publizierte das Modell erstmals 1982 in der Fachzeitschrift Diagnostica.",
         "Jägers Forschungsprogramm: Von der Idee zum Test",
         "Das BIS ist kein theoretisches Gedankenspiel — es ruht auf einem der umfangreichsten Forschungsprogramme der deutschsprachigen Psychologie:",
@@ -538,7 +538,7 @@
         "Das BIS steht im Dialog mit g-Faktor, Thurstones Primärfaktoren, Cattells gf/gc und dem CHC-Modell — als eigenständige deutschsprachige Alternative.",
         "Berliner Intelligenzstruktur-Test: BIS-Test, Form 4",
         "Human cognitive abilities: A survey of factor-analytic studies",
-        "Journal of Psychoeducational Assessment",
+        "Journal of Psychöducational Assessment",
         "Intelligenztheorien im Überblick"
       ],
       "definitions": [
@@ -567,7 +567,7 @@
           "excerpt": "Carrolls Three-Stratum-Modell ist die vielleicht einflussreichste integrative Arbeit der Intelligenzforschung."
         },
         {
-          "citation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. *Journal of Psychoeducational Assessment*, 37(1), 8–14.",
+          "citation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. *Journal of Psychöducational Assessment*, 37(1), 8–14.",
           "excerpt": "McGrew erweiterte das CHC-Modell (Cattell-Horn-Carroll) und machte es zum Standard in der diagnostischen Praxis."
         }
       ],
@@ -658,7 +658,7 @@
         },
         {
           "term": "kognitives Dissonanz",
-          "definition": "Ein Zustand psychischer Unstimmigkeit, der entsteht, wenn neue Informationen mit bestehenden Überzeugungen kollidieren.",
+          "definition": "Ein Zustand psychischer Unstimmigkeit, der entsteht, wenn neü Informationen mit bestehenden Überzeugungen kollidieren.",
           "label": "kognitives Ungleichgewicht"
         },
         {
@@ -673,7 +673,7 @@
         },
         {
           "term": "Violation-of-Expectation-Paradigma",
-          "definition": "Ein experimentelles Verfahren, das misst, ob Säuglinge länger zu unerwarteten Ereignissen schauen als zu erwarteten — als Indikator für implizites Wissen.",
+          "definition": "Ein experimentelles Verfahren, das misst, ob Säuglinge länger zu unerwarteten Ereignissen schaün als zu erwarteten — als Indikator für implizites Wissen.",
           "label": "Violation-of-Expectation-Paradigma"
         }
       ],
@@ -870,12 +870,12 @@
       "subtitle": "OCEAN — Die fünf Dimensionen, die Persönlichkeit strukturieren",
       "categoryId": "differential-and-personality",
       "taxonomyPath": [
-        "Differentielle & Persoenlichkeitspsychologie"
+        "Differentielle & Persönlichkeitspsychologie"
       ],
       "keywords": [
         "big five",
         "traits",
-        "persoenlichkeit"
+        "persönlichkeit"
       ],
       "leadCandidate": "Fünf-Faktoren-Modell (Big Five)",
       "sectionHeadings": [
@@ -912,9 +912,9 @@
         "Facetten: Kompetenz, Ordnung, Pflichtbewusstsein, Leistungsstreben, Selbstdisziplin, Besonnenheit",
         "Facetten: Freundschaftlichkeit, Geselligkeit, Durchsetzungsvermögen, Aktivität, Aufregungssuche, Positive Gefühle",
         "Verträglichkeit (Agreeableness)",
-        "Facetten: Vertrauen, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
+        "Facetten: Vertraün, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
         "Facetten: Ängstlichkeit, Feindseligkeit, Depression, Selbstbewusstsein, Impulsivität, Verletzlichkeit",
-        "Costa und McCrae entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen.",
+        "Costa und McCrä entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen.",
         "Es gibt verschiedene etablierte Verfahren zur Erfassung der Big Five:",
         "Übereinstimmung zwischen Selbst- und Fremdeinschätzung",
         "Mischel's Person-Situations-Kontroverse",
@@ -947,8 +947,8 @@
           "excerpt": "John und Srivastava lieferten die vielleicht einflussreichste Darstellung der theoretischen Grundlagen und Forschungslage."
         },
         {
-          "citation": "Costa, P. T., Jr., & McCrae, R. R. (1992). *Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual*. Psychological Assessment Resources.",
-          "excerpt": "Costa und McCrae entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen."
+          "citation": "Costa, P. T., Jr., & McCrä, R. R. (1992). *Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual*. Psychological Assessment Resources.",
+          "excerpt": "Costa und McCrä entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen."
         },
         {
           "citation": "Mischel, W. (1968). *Personality and assessment*. Wiley."
@@ -974,7 +974,7 @@
           "label": "HEXACO-Modell"
         },
         {
-          "route": "/persoenlichkeitsstoerungen",
+          "route": "/persönlichkeitsstörungen",
           "label": "Persönlichkeitsstörungen"
         },
         {
@@ -982,7 +982,7 @@
           "label": "Mischel: Person-Situation"
         },
         {
-          "route": "/persoenlichkeitstests",
+          "route": "/persönlichkeitstests",
           "label": "Persönlichkeitstests"
         }
       ],
@@ -999,7 +999,7 @@
         "Forschungsmethoden"
       ],
       "keywords": [
-        "validitaet",
+        "validität",
         "experiment",
         "kontrolle"
       ],
@@ -1057,7 +1057,7 @@
         "Experimenter Effects in Behavioral Research",
         "Behavioral and Brain Sciences, 33",
         "Erkunde verwandte Themen der psychologischen Methodenlehre:",
-        "Wie wir aus Daten Schlüsse ziehen — und welche Fehler dabei lauern.",
+        "Wie wir aus Daten Schlüsse ziehen — und welche Fehler dabei laürn.",
         "Was macht einen psychologischen Test wissenschaftlich?"
       ],
       "definitions": [
@@ -1201,7 +1201,7 @@
           "citation": "Cohen, J. (1994). The earth is round (p < .05). American Psychologist, 49</em>(12), 997-1003."
         },
         {
-          "citation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-values: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
+          "citation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-valüs: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
           "excerpt": "Wasserstein & Lazar (2016)"
         },
         {
@@ -1245,9 +1245,9 @@
         "Statistik & Psychometrie"
       ],
       "keywords": [
-        "objektivitaet",
-        "reliabilitaet",
-        "validitaet"
+        "objektivität",
+        "reliabilität",
+        "validität"
       ],
       "leadCandidate": "Gute Tests, schlechte Tests — Wie man psychologische Verfahren bewertet",
       "sectionHeadings": [
@@ -1258,7 +1258,7 @@
         "2. Reliabilität: Zuverlässigkeit der Messung",
         "3. Validität: Gültigkeit der Messung",
         "Inhaltsvalidität",
-        "4. Die hierarchische Beziehung: Ein sequenzieller Aufbau",
+        "4. Die hierarchische Beziehung: Ein seqünzieller Aufbau",
         "Objektivität",
         "Reliabilität",
         "Validität",
@@ -1277,7 +1277,7 @@
         "2. Reliabilität: Zuverlässigkeit der Messung",
         "wiederholter Anwendung unter gleichen Bedingungen",
         "Korrelation zwischen den Ergebnissen desselben Tests, der zu zwei verschiedenen Zeitpunkten (z. B. mit 4 Wochen Abstand) durchgeführt wird.",
-        "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationskoeffizient zwischen beiden Messungen ist das Maß der Stabilität.",
+        "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationsköffizient zwischen beiden Messungen ist das Maß der Stabilität.",
         "Korrelation zwischen zwei äquivalenten Testformen, die dieselbe Konstruktion messen, aber unterschiedliche Itemformulierungen verwenden.",
         "Zwei verschiedene, aber inhaltlich äquivalente Testformen werden eingesetzt. Vermeidet Testwiederholungseffekte.",
         "Der Test wird in zwei Hälften geteilt (z. B. ungerade vs. gerade Items) und die Korrelation zwischen beiden Hälften berechnet. Nach der Spearman-Brown-Formel korrigiert.",
@@ -1290,7 +1290,7 @@
         "Der Zusammenhang zwischen Testwert und einem externen Kriterium. Kann konvergent (gleichzeitig) oder prädiktiv (zukünftig) sein.",
         "Der Test misst das theoretische Konstrukt, das er messen soll. Beurteilt über konvergente und diskriminante Validität mittels MTMM-Matrizen.",
         "Eine Matrix, die Korrelationen zwischen mehreren Traits (Konstrukten) und mehreren Messmethoden darstellt. Ermöglicht die Unterscheidung von trait-, method- und error-variance.",
-        "4. Die hierarchische Beziehung: Ein sequenzieller Aufbau",
+        "4. Die hierarchische Beziehung: Ein seqünzieller Aufbau",
         "Cronbach's α ≥ .70 ist akzeptabel, ≥ .80 gut, ≥ .90 exzellent — aber höhere Reliabilität kann die Validität senken (Attenuation-Paradoxon).",
         "Testtheorie und Fragebogenkonstruktion",
         "Erweitere dein Wissen in der psychologischen Diagnostik:",
@@ -1346,7 +1346,7 @@
           "excerpt": "Lienert & Raatz (1998)"
         },
         {
-          "citation": "Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16</em>(3), 297-334."
+          "citation": "Cronbach, L. J. (1951). Cöfficient alpha and the internal structure of tests. Psychometrika, 16</em>(3), 297-334."
         },
         {
           "citation": "Moosbrugger, H. & Kelava, A. (2012). Testtheorie und Fragebogenkonstruktion (2. Aufl.). Springer.",
@@ -1424,7 +1424,7 @@
         "Clark L. Hulls Behaviorismus-Modell",
         "Selbstbestimmungstheorie (SDT) nach Deci & Ryan",
         "Was ist eine Emotion? — Emotionstheorien",
-        "Emotionen sind komplexe Zustände aus subjektivem Erleben, physiologischer Erregung und ausdrucksverhalten. Doch welcher dieser Aspekte kommt zuerst? Die klassischen Emotionstheorien liefern unterschiedliche Antworten.",
+        "Emotionen sind komplexe Zustände aus subjektivem Erleben, physiologischer Erregung und ausdrucksverhalten. Doch welcher dieser Aspekte kommt zürst? Die klassischen Emotionstheorien liefern unterschiedliche Antworten.",
         "William James' bahnbrechende These",
         "Wahrnehmung dieser Körperreaktion",
         "Schachter-Singer Zwei-Faktoren-Theorie",
@@ -1447,7 +1447,7 @@
       "definitions": [
         {
           "term": "Homöostase",
-          "definition": "Der Bestreben eines Organismus, ein inneres Gleichgewicht und konstante Lebensbedingungen aufrechtzuerhalten.",
+          "definition": "Der Bestreben eines Organismus, ein inneres Gleichgewicht und konstante Lebensbedingungen aufrechtzürhalten.",
           "label": "Homöostase"
         },
         {

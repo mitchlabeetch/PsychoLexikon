@@ -109,7 +109,7 @@
           "term": "Refraktärzeit",
           "label": "Refraktärzeit",
           "aliases": [],
-          "definition": "Zeitfenster nach einem Aktionspotential, in dem ein neues AP unmöglich (absolute Refraktärzeit) oder nur durch stärkere Reize ausgelöst werden kann (relative Refraktärzeit).",
+          "definition": "Zeitfenster nach einem Aktionspotential, in dem ein neüs AP unmöglich (absolute Refraktärzeit) oder nur durch stärkere Reize ausgelöst werden kann (relative Refraktärzeit).",
           "sourceIds": []
         },
         {
@@ -153,7 +153,7 @@
           "aliases": [
             "ionotrope Rezeptoren"
           ],
-          "definition": "Ligandengesteuerter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
+          "definition": "Ligandengesteürter Ionenkanal — schnelle, direkte Antwort (Millisekunden), z. B. AMPA-Rezeptor für Glutamat.",
           "sourceIds": []
         },
         {
@@ -537,7 +537,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Ähnliche Elemente werden gruppiert — nach Farbe, Form, Größe oder Orientierung. Ein Schachbrettmuster aus schwarzen und weißen Kreisen wahrnehmen wir als Reihen gleicher Farbe, nicht als abwechselnde Diagonalen. In einem Scatterplot markieren wir verschiedene Gruppen mit unterschiedlichen Farben — genau weil unser visuelles System Ähnlichkeit nutzt.",
+                "text": "Ähnliche Elemente werden gruppiert — nach Farbe, Form, Größe oder Orientierung. Ein Schachbrettmuster aus schwarzen und weißen Kreisen wahrnehmen wir als Reihen gleicher Farbe, nicht als abwechselnde Diagonalen. In einem Scatterplot markieren wir verschiedene Gruppen mit unterschiedlichen Farben — genau weil unser visülles System Ähnlichkeit nutzt.",
                 "annotations": []
               }
             }
@@ -608,7 +608,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Michael Bach: Optische Täuschungen",
+                "text": "Michäl Bach: Optische Täuschungen",
                 "annotations": []
               }
             }
@@ -711,7 +711,7 @@
           "aliases": [
             "episodischen Repräsentationen"
           ],
-          "definition": "Zeitlich begrenzte, zusammenhängende Darstellung eines Ereignisses, die Informationen aus verschiedenen Quellen integriert.",
+          "definition": "Zeitlich begrenzte, zusammenhängende Darstellung eines Ereignisses, die Informationen aus verschiedenen Qüllen integriert.",
           "sourceIds": []
         }
       ],
@@ -835,7 +835,7 @@
             },
             {
               "kind": "subheading",
-              "text": "Der visuell-räumliche Notizblock"
+              "text": "Der visüll-räumliche Notizblock"
             },
             {
               "kind": "subheading",
@@ -1278,7 +1278,7 @@
         },
         {
           "id": "05-recovered-source-4",
-          "rawCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. *Journal of Psychoeducational Assessment*, 37(1), 8–14.",
+          "rawCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. *Journal of Psychöducational Assessment*, 37(1), 8–14.",
           "excerpt": "McGrew erweiterte das CHC-Modell (Cattell-Horn-Carroll) und machte es zum Standard in der diagnostischen Praxis."
         }
       ],
@@ -1386,7 +1386,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektuellen Leistungsfähigkeit.",
+                "text": "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektüllen Leistungsfähigkeit.",
                 "annotations": []
               }
             },
@@ -1634,7 +1634,7 @@
           "aliases": [
             "kognitives Ungleichgewicht"
           ],
-          "definition": "Ein Zustand psychischer Unstimmigkeit, der entsteht, wenn neue Informationen mit bestehenden Überzeugungen kollidieren.",
+          "definition": "Ein Zustand psychischer Unstimmigkeit, der entsteht, wenn neü Informationen mit bestehenden Überzeugungen kollidieren.",
           "sourceIds": []
         },
         {
@@ -1660,7 +1660,7 @@
           "term": "Violation-of-Expectation-Paradigma",
           "label": "Violation-of-Expectation-Paradigma",
           "aliases": [],
-          "definition": "Ein experimentelles Verfahren, das misst, ob Säuglinge länger zu unerwarteten Ereignissen schauen als zu erwarteten — als Indikator für implizites Wissen.",
+          "definition": "Ein experimentelles Verfahren, das misst, ob Säuglinge länger zu unerwarteten Ereignissen schaün als zu erwarteten — als Indikator für implizites Wissen.",
           "sourceIds": []
         }
       ],
@@ -2369,8 +2369,8 @@
         },
         {
           "id": "08-recovered-source-3",
-          "rawCitation": "Costa, P. T., Jr., & McCrae, R. R. (1992). *Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual*. Psychological Assessment Resources.",
-          "excerpt": "Costa und McCrae entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen."
+          "rawCitation": "Costa, P. T., Jr., & McCrä, R. R. (1992). *Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual*. Psychological Assessment Resources.",
+          "excerpt": "Costa und McCrä entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen."
         },
         {
           "id": "08-recovered-source-4",
@@ -2584,14 +2584,14 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Facetten: Vertrauen, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
+                "text": "Facetten: Vertraün, Geradlinigkeit, Altruismus, Entgegenkommen, Bescheidenheit, Mitgefühl",
                 "annotations": []
               }
             },
             {
               "kind": "paragraph",
               "content": {
-                "text": "Costa und McCrae entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen.",
+                "text": "Costa und McCrä entwickelten das NEO-PI-R, den am häufigsten verwendeten Big Five-Fragebogen.",
                 "annotations": []
               }
             },
@@ -3070,7 +3070,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Wie wir aus Daten Schlüsse ziehen — und welche Fehler dabei lauern.",
+                "text": "Wie wir aus Daten Schlüsse ziehen — und welche Fehler dabei laürn.",
                 "annotations": []
               }
             },
@@ -3190,7 +3190,7 @@
         },
         {
           "id": "10-recovered-source-4",
-          "rawCitation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-values: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
+          "rawCitation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-valüs: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
           "excerpt": "Wasserstein & Lazar (2016)"
         },
         {
@@ -3206,15 +3206,15 @@
       "assets": [
         {
           "id": "10-asset-1",
-          "title": "P Value",
+          "title": "P Valü",
           "placement": "hero",
           "asset": {
             "kind": "image-file",
             "src": "/recovered/analzy/illu-p-value.png",
             "description": "Recovered illustration illu-p-value.png from analzy deployment bundle.",
-            "alt": "Signifikanztestung & p-Werte: P Value"
+            "alt": "Signifikanztestung & p-Werte: P Valü"
           },
-          "caption": "P Value",
+          "caption": "P Valü",
           "tags": [
             "p-wert",
             "alpha-fehler",
@@ -3608,7 +3608,7 @@
         },
         {
           "id": "11-recovered-source-2",
-          "rawCitation": "Cronbach, L. J. (1951). Coefficient alpha and the internal structure of tests. Psychometrika, 16</em>(3), 297-334."
+          "rawCitation": "Cronbach, L. J. (1951). Cöfficient alpha and the internal structure of tests. Psychometrika, 16</em>(3), 297-334."
         },
         {
           "id": "11-recovered-source-3",
@@ -3739,7 +3739,7 @@
             },
             {
               "kind": "subheading",
-              "text": "4. Die hierarchische Beziehung: Ein sequenzieller Aufbau"
+              "text": "4. Die hierarchische Beziehung: Ein seqünzieller Aufbau"
             },
             {
               "kind": "subheading",
@@ -3792,7 +3792,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationskoeffizient zwischen beiden Messungen ist das Maß der Stabilität.",
+                "text": "Derselbe Test wird nach einem Zeitintervall erneut durchgeführt. Der Korrelationsköffizient zwischen beiden Messungen ist das Maß der Stabilität.",
                 "annotations": []
               }
             },
@@ -3984,7 +3984,7 @@
           "term": "Homöostase",
           "label": "Homöostase",
           "aliases": [],
-          "definition": "Der Bestreben eines Organismus, ein inneres Gleichgewicht und konstante Lebensbedingungen aufrechtzuerhalten.",
+          "definition": "Der Bestreben eines Organismus, ein inneres Gleichgewicht und konstante Lebensbedingungen aufrechtzürhalten.",
           "sourceIds": []
         },
         {
@@ -4228,7 +4228,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Emotionen sind komplexe Zustände aus subjektivem Erleben, physiologischer Erregung und ausdrucksverhalten. Doch welcher dieser Aspekte kommt zuerst? Die klassischen Emotionstheorien liefern unterschiedliche Antworten.",
+                "text": "Emotionen sind komplexe Zustände aus subjektivem Erleben, physiologischer Erregung und ausdrucksverhalten. Doch welcher dieser Aspekte kommt zürst? Die klassischen Emotionstheorien liefern unterschiedliche Antworten.",
                 "annotations": []
               }
             },
@@ -4386,7 +4386,7 @@
         {
           "id": "22-glossary-2",
           "term": "Violation-of-Expectation-Paradigma",
-          "definition": "Versuchslogik, bei der längeres Hinschauen auf unerwartete Ereignisse als Hinweis auf implizites Vorwissen interpretiert wird.",
+          "definition": "Versuchslogik, bei der längeres Hinschaün auf unerwartete Ereignisse als Hinweis auf implizites Vorwissen interpretiert wird.",
           "sourceIds": [
             "22-source-2"
           ]
@@ -4932,7 +4932,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Viele HEXACO-Dimensionen liegen weiterhin nahe an OCEAN. Der eigentliche Mehrwert liegt deshalb weniger in einem kompletten Neuentwurf als in einer anderen Gewichtung der sozialen und moralischen Komponenten von Persönlichkeit.",
+                "text": "Viele HEXACO-Dimensionen liegen weiterhin nahe an OCEAN. Der eigentliche Mehrwert liegt deshalb weniger in einem kompletten Neüntwurf als in einer anderen Gewichtung der sozialen und moralischen Komponenten von Persönlichkeit.",
                 "annotations": []
               }
             }
@@ -5043,7 +5043,7 @@
         },
         {
           "id": "17-source-4",
-          "rawCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychoeducational Assessment, 37(1), 8-14.",
+          "rawCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychöducational Assessment, 37(1), 8-14.",
           "notes": "Zeigt, wie das CHC-Modell in der diagnostischen Praxis zum Referenzrahmen wurde."
         }
       ],
@@ -5263,7 +5263,7 @@
         },
         {
           "id": "19-source-4",
-          "rawCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychoeducational Assessment, 37(1), 8-14.",
+          "rawCitation": "McGrew, K. S. (2009). CHC theory and the human cognitive abilities project. Journal of Psychöducational Assessment, 37(1), 8-14.",
           "notes": "Zeigt, warum CHC in der diagnostischen Praxis eine besonders starke Stellung erhielt."
         }
       ],
@@ -5325,7 +5325,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsquellen.",
+                "text": "Weil für die Route kein eigenständiger Seitentext erhalten blieb, rekonstruiert diese Seite den Begriff aus dem BIS-Kontext und aus den im Korpus bereits vorhandenen diagnostischen Vergleichsqüllen.",
                 "annotations": []
               }
             }
@@ -5470,7 +5470,7 @@
         {
           "id": "24-source-4",
           "rawCitation": "Bandura, A. (1997). Self-efficacy: The exercise of control. Freeman.",
-          "notes": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutrauen."
+          "notes": "Ergänzt Leistungsmotivation durch die Frage, ob Menschen sich anspruchsvolle Ziele überhaupt zutraün."
         }
       ],
       "assets": [],
@@ -5499,7 +5499,7 @@
           "id": "24-bridge-1",
           "category": "verknüpfung",
           "title": "Selbstwirksamkeit nach Bandura",
-          "description": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutrauen.",
+          "description": "Leistungsziele werden anders gewählt, wenn Menschen sich die erfolgreiche Bewältigung zutraün.",
           "target": {
             "kind": "internal-article",
             "articleId": "23"
@@ -5666,11 +5666,11 @@
         {
           "id": "25-source-2",
           "rawCitation": "Seligman, M. E. P. (1975). Helplessness: On depression, development, and death. W. H. Freeman.",
-          "notes": "Klassische Monografie zur Hilflosigkeitsforschung und ihren motivationalen Konsequenzen."
+          "notes": "Klassische Monografie zur Hilflosigkeitsforschung und ihren motivationalen Konseqünzen."
         },
         {
           "id": "25-source-3",
-          "rawCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critique and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
+          "rawCitation": "Abramson, L. Y., Seligman, M. E. P., & Teasdale, J. D. (1978). Learned helplessness in humans: Critiqü and reformulation. Journal of Abnormal Psychology, 87(1), 49-74.",
           "notes": "Verknüpft Hilflosigkeit stärker mit menschlichen Attributionsmustern und Erwartungsbildung."
         },
         {
@@ -5765,7 +5765,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Gelernte Hilflosigkeit entsteht, wenn Menschen oder Tiere wiederholt erleben, dass ihr Handeln keine sichtbare Wirkung hat. Mit der Zeit wird nicht nur die Situation, sondern die gesamte Erwartungshaltung verändert: Neue Einflussmöglichkeiten werden gar nicht mehr gesucht.",
+                "text": "Gelernte Hilflosigkeit entsteht, wenn Menschen oder Tiere wiederholt erleben, dass ihr Handeln keine sichtbare Wirkung hat. Mit der Zeit wird nicht nur die Situation, sondern die gesamte Erwartungshaltung verändert: Neü Einflussmöglichkeiten werden gar nicht mehr gesucht.",
                 "annotations": []
               }
             },
@@ -5947,7 +5947,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Der Kern der Debatte lautet: Wenn Verhalten stark vom Kontext abhängt, müssen Persönlichkeitsmodelle genauer sagen, wann und wie stabile Unterschiede überhaupt beobachtbar werden.",
+                "text": "Der Kern der Debatte lautet: Wenn Verhalten stark vom Kontext abhängt, müssen Persönlichkeitsmodelle genaür sagen, wann und wie stabile Unterschiede überhaupt beobachtbar werden.",
                 "annotations": []
               }
             }
@@ -5965,7 +5965,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Mischel argumentierte, dass breite Persönlichkeitsmerkmale einzelnes Verhalten oft nur begrenzt vorhersagen. Damit wurde die bequeme Annahme erschüttert, Menschen würden sich in jeder Situation traitkonsistent verhalten.",
+                "text": "Mischel argumentierte, dass breite Persönlichkeitsmerkmale einzelnes Verhalten oft nur begrenzt vorhersagen. Damit wurde die beqüme Annahme erschüttert, Menschen würden sich in jeder Situation traitkonsistent verhalten.",
                 "annotations": []
               }
             },
@@ -6058,7 +6058,7 @@
         {
           "id": "16-glossary-1",
           "term": "Dimensionale Sicht",
-          "definition": "Perspektive, nach der Persönlichkeitsmerkmale auf Kontinuen verteilt sind und klinische Auffälligkeiten nicht strikt kategorial von Normalvariationen getrennt werden.",
+          "definition": "Perspektive, nach der Persönlichkeitsmerkmale auf Kontinün verteilt sind und klinische Auffälligkeiten nicht strikt kategorial von Normalvariationen getrennt werden.",
           "sourceIds": [
             "16-source-2"
           ]
@@ -6066,7 +6066,7 @@
         {
           "id": "16-glossary-2",
           "term": "Maladaptives Traitprofil",
-          "definition": "Merkmalskonstellation, die dauerhaft unflexibel ist und zu deutlicher Beeinträchtigung, Konflikten oder Leidensdruck führt.",
+          "definition": "Merkmalskonstellation, die daürhaft unflexibel ist und zu deutlicher Beeinträchtigung, Konflikten oder Leidensdruck führt.",
           "sourceIds": [
             "16-source-3"
           ]
@@ -6181,7 +6181,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Die klinische Forschung bewegt sich deshalb zunehmend in Richtung dimensionaler Beschreibungen. Statt nur zu fragen, ob eine Störung vorhanden ist, wird genauer betrachtet, welche Merkmalsprofile, interpersonellen Probleme und Belastungen vorliegen.",
+                "text": "Die klinische Forschung bewegt sich deshalb zunehmend in Richtung dimensionaler Beschreibungen. Statt nur zu fragen, ob eine Störung vorhanden ist, wird genaür betrachtet, welche Merkmalsprofile, interpersonellen Probleme und Belastungen vorliegen.",
                 "annotations": []
               }
             },
@@ -6192,7 +6192,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Nicht jeder hohe oder niedrige Traitwert ist schon klinisch relevant. Entscheidend werden Dauer, Unflexibilität, Leidensdruck und Beeinträchtigung im Alltag. Die dimensional gedachte Brücke soll Aufklärung schaffen, keine vorschnelle Pathologisierung.",
+                "text": "Nicht jeder hohe oder niedrige Traitwert ist schon klinisch relevant. Entscheidend werden Daür, Unflexibilität, Leidensdruck und Beeinträchtigung im Alltag. Die dimensional gedachte Brücke soll Aufklärung schaffen, keine vorschnelle Pathologisierung.",
                 "annotations": []
               }
             }
@@ -6215,7 +6215,7 @@
                   "annotations": []
                 },
                 {
-                  "text": "Klinische Relevanz beginnt nicht bei jedem Extremwert, sondern bei dauerhafter Beeinträchtigung und Unflexibilität.",
+                  "text": "Klinische Relevanz beginnt nicht bei jedem Extremwert, sondern bei daürhafter Beeinträchtigung und Unflexibilität.",
                   "annotations": []
                 }
               ]
@@ -6285,7 +6285,7 @@
         },
         {
           "id": "15-source-2",
-          "rawCitation": "Costa, P. T., Jr., & McCrae, R. R. (1992). Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual. Psychological Assessment Resources.",
+          "rawCitation": "Costa, P. T., Jr., & McCrä, R. R. (1992). Revised NEO Personality Inventory (NEO-PI-R) and NEO Five-Factor Inventory (NEO-FFI) professional manual. Psychological Assessment Resources.",
           "notes": "Klassischer Referenzpunkt für die operationalisierte Big-Five-Persönlichkeitsdiagnostik."
         },
         {
@@ -6727,7 +6727,7 @@
         {
           "id": "26-source-4",
           "rawCitation": "Morris, M. W., & Peng, K. (1994). Culture and cause: American and Chinese attributions for social and physical events. Journal of Personality and Social Psychology, 67(6), 949-971.",
-          "notes": "Verdeutlicht, dass soziale Kognition kulturell gerahmt ist und nicht nur individuelle Informationsverarbeitung beschreibt."
+          "notes": "Verdeutlicht, dass soziale Kognition kulturell gerahmt ist und nicht nur individülle Informationsverarbeitung beschreibt."
         }
       ],
       "assets": [],
@@ -6851,7 +6851,7 @@
                   "annotations": []
                 },
                 {
-                  "text": "Der recovered Verweis aus der Attributionstheorie lässt sich deshalb sinnvoll zu einer eigenständigen Vertiefungsseite ausbauen.",
+                  "text": "Der recovered Verweis aus der Attributionstheorie lässt sich deshalb sinnvoll zu einer eigenständigen Vertiefungsseite ausbaün.",
                   "annotations": []
                 }
               ]
@@ -6899,7 +6899,7 @@
         {
           "id": "21-glossary-1",
           "term": "Sprachentwicklung",
-          "definition": "Prozess, in dem Kinder Lautwahrnehmung, Wortschatz, Grammatik und pragmatische Sprachverwendung schrittweise aufbauen.",
+          "definition": "Prozess, in dem Kinder Lautwahrnehmung, Wortschatz, Grammatik und pragmatische Sprachverwendung schrittweise aufbaün.",
           "sourceIds": [
             "21-source-2",
             "21-source-3"
@@ -7012,7 +7012,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Sprachentwicklung umfasst nicht nur neue Wörter, sondern auch Grammatik, Lautunterscheidung, pragmatische Regeln und die Fähigkeit, Sprache zur Selbststeuerung und zum sozialen Austausch zu nutzen.",
+                "text": "Sprachentwicklung umfasst nicht nur neü Wörter, sondern auch Grammatik, Lautunterscheidung, pragmatische Regeln und die Fähigkeit, Sprache zur Selbststeürung und zum sozialen Austausch zu nutzen.",
                 "annotations": []
               }
             },
@@ -7199,7 +7199,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Da für /vygotsky kein eigenständiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite die Alternative aus dem bereits im Korpus angelegten Gegensatz zwischen individueller Reifung und kultureller Vermittlung.",
+                "text": "Da für /vygotsky kein eigenständiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite die Alternative aus dem bereits im Korpus angelegten Gegensatz zwischen individüller Reifung und kultureller Vermittlung.",
                 "annotations": []
               }
             }
@@ -7217,7 +7217,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Vygotsky versteht kognitive Entwicklung nicht nur als Ergebnis individueller Konstruktion, sondern als Prozess, der in Kooperation, Sprache und kulturellen Werkzeugen stattfindet. Kinder lernen durch geführte Teilhabe an sozialen Praktiken.",
+                "text": "Vygotsky versteht kognitive Entwicklung nicht nur als Ergebnis individüller Konstruktion, sondern als Prozess, der in Kooperation, Sprache und kulturellen Werkzeugen stattfindet. Kinder lernen durch geführte Teilhabe an sozialen Praktiken.",
                 "annotations": []
               }
             },

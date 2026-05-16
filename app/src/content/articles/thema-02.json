@@ -4,7 +4,7 @@
   "slug": "thema-02",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/02-gestaltgesetze.bundle.txt"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Gestaltgesetze & Prägnanzprinzip",
@@ -202,7 +202,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Michael Bach: Optische Täuschungen",
+            "text": "Michäl Bach: Optische Täuschungen",
             "annotations": []
           }
         }
@@ -215,7 +215,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-gestalt-grouping.png",
-        "description": "Recovered illustration illu-gestalt-grouping.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Gestaltgesetze & Prägnanzprinzip: Gestalt Grouping"
       },
       "caption": "Gestalt Grouping"
@@ -226,7 +226,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-praegnanz.png",
-        "description": "Recovered illustration illu-praegnanz.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Gestaltgesetze & Prägnanzprinzip: Prägnanz"
       },
       "caption": "Prägnanz"
@@ -237,7 +237,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-optical-illusions.png",
-        "description": "Recovered illustration illu-optical-illusions.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Gestaltgesetze & Prägnanzprinzip: Optical Illusions"
       },
       "caption": "Optical Illusions"
@@ -318,7 +318,7 @@
       "id": "02-connection-1",
       "category": "verknüpfung",
       "title": "← Aktionspotential",
-      "relevance": "Recovered internal concept link from /gestaltgesetze.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "01"
@@ -328,7 +328,7 @@
       "id": "02-connection-2",
       "category": "verknüpfung",
       "title": "← Arbeitsgedächtnis",
-      "relevance": "Recovered internal concept link from /gestaltgesetze.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "03"

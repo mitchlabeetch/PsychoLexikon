@@ -35,12 +35,12 @@
       "definitionCount": 5,
       "relatedRoutes": [
         "/aktionspotential",
-        "/arbeitsgedaechtnis"
+        "/arbeitsgedächtnis"
       ]
     },
     {
-      "component": "Arbeitsgedaechtnis",
-      "route": "/arbeitsgedaechtnis",
+      "component": "Arbeitsgedächtnis",
+      "route": "/arbeitsgedächtnis",
       "title": "Das Arbeitsgedächtnis nach Baddeley",
       "imageAssets": [
         "illu-working-memory.png",
@@ -65,7 +65,7 @@
       "citationCount": 5,
       "definitionCount": 5,
       "relatedRoutes": [
-        "/arbeitsgedaechtnis"
+        "/arbeitsgedächtnis"
       ]
     },
     {
@@ -131,9 +131,9 @@
       "definitionCount": 2,
       "relatedRoutes": [
         "/hexaco",
-        "/persoenlichkeitsstoerungen",
+        "/persönlichkeitsstörungen",
         "/mischel",
-        "/persoenlichkeitstests"
+        "/persönlichkeitstests"
       ]
     },
     {
@@ -201,7 +201,7 @@
       "label": "← Aktionspotential"
     },
     {
-      "route": "/arbeitsgedaechtnis",
+      "route": "/arbeitsgedächtnis",
       "label": "← Arbeitsgedächtnis"
     },
     {
@@ -245,11 +245,11 @@
       "label": "Mischel: Person-Situation"
     },
     {
-      "route": "/persoenlichkeitsstoerungen",
+      "route": "/persönlichkeitsstörungen",
       "label": "Persönlichkeitsstörungen"
     },
     {
-      "route": "/persoenlichkeitstests",
+      "route": "/persönlichkeitstests",
       "label": "Persönlichkeitstests"
     },
     {

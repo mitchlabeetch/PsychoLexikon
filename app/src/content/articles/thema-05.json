@@ -4,7 +4,7 @@
   "slug": "thema-05",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/05-bis-modell.bundle.txt"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Berliner Intelligenzstrukturmodell (BIS)",
@@ -137,7 +137,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektuellen Leistungsfähigkeit.",
+            "text": "Jede der 12 Zellen (z. B. verbal + Merkfähigkeit, numerisch + Bearbeitungsgeschwindigkeit) lässt sich mit spezifischen Aufgabentypen messen. So entsteht ein fein strukturiertes Bild der intellektüllen Leistungsfähigkeit.",
             "annotations": []
           }
         },
@@ -304,7 +304,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-bis-radex.png",
-        "description": "Recovered illustration illu-bis-radex.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Berliner Intelligenzstrukturmodell (BIS): Bis Radex"
       },
       "caption": "Bis Radex"
@@ -393,7 +393,7 @@
       "id": "05-connection-1",
       "category": "verknüpfung",
       "title": "Intelligenztheorien im Überblick",
-      "relevance": "Recovered internal concept link from /bis-modell.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "17"
@@ -403,7 +403,7 @@
       "id": "05-connection-2",
       "category": "verknüpfung",
       "title": "Faktorenanalyse",
-      "relevance": "Recovered internal concept link from /bis-modell.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "18"
@@ -413,7 +413,7 @@
       "id": "05-connection-3",
       "category": "verknüpfung",
       "title": "IQ-Tests und Diagnostik",
-      "relevance": "Recovered internal concept link from /bis-modell.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "19"

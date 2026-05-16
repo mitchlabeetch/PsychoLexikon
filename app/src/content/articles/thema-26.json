@@ -4,7 +4,7 @@
   "slug": "thema-26",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Soziale Kognition",
@@ -215,7 +215,7 @@
       "kind": "empirical",
       "shortCitation": "Morris et al. (1994)",
       "apaCitation": "Morris, M. W., & Peng, K. (1994). Culture and cause: American and Chinese attributions for social and physical events. Journal of Personality and Social Psychology, 67(6), 949-971.",
-      "tooltip": "Verdeutlicht, dass soziale Kognition kulturell gerahmt ist und nicht nur individuelle Informationsverarbeitung beschreibt.",
+      "tooltip": "Verdeutlicht, dass soziale Kognition kulturell gerahmt ist und nicht nur individülle Informationsverarbeitung beschreibt.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [

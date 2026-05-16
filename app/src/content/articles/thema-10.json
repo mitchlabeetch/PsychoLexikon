@@ -4,7 +4,7 @@
   "slug": "thema-10",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/10-signifikanztestung.bundle.txt"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Signifikanztestung & p-Werte",
@@ -279,7 +279,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-p-value.png",
-        "description": "Recovered illustration illu-p-value.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Signifikanztestung & p-Werte: P Value"
       },
       "caption": "P Value"
@@ -290,7 +290,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-error-types.png",
-        "description": "Recovered illustration illu-error-types.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Signifikanztestung & p-Werte: Error Types"
       },
       "caption": "Error Types"
@@ -359,7 +359,7 @@
       "id": "10-recovered-source-4",
       "kind": "other",
       "shortCitation": "Wasserstein et al. (2016)",
-      "apaCitation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-values: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
+      "apaCitation": "Wasserstein, R. L. & Lazar, N. A. (2016). The ASA's statement on p-valüs: Context, process, and purpose. The American Statistician, 70</em>(2), 129-133.",
       "tooltip": "Wasserstein & Lazar (2016)",
       "verification": {
         "status": "pending-review",
@@ -399,7 +399,7 @@
       "id": "10-connection-1",
       "category": "verknüpfung",
       "title": "/versuchsplanung",
-      "relevance": "Recovered internal concept link from /signifikanztestung.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "09"
@@ -409,7 +409,7 @@
       "id": "10-connection-2",
       "category": "verknüpfung",
       "title": "/psychometrie",
-      "relevance": "Recovered internal concept link from /signifikanztestung.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "11"
