@@ -35,7 +35,7 @@ function inferSourceKind(citation: string): ArticleSource['kind'] {
   if (normalized.includes('review')) {
     return 'review'
   }
-  if (normalized.includes('journal') || normalized.includes('doi.org')) {
+  if (normalized.includes('journal') || containsDoiHost(citation)) {
     return 'empirical'
   }
   if (normalized.includes('press') || normalized.includes('publisher') || normalized.includes('freeman') || normalized.includes('hogrefe')) {
@@ -46,6 +46,19 @@ function inferSourceKind(citation: string): ArticleSource['kind'] {
 
 function extractDoi(value: string) {
   return value.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]
+}
+
+function containsDoiHost(value: string) {
+  const urls = value.match(/https?:\/\/\S+/g) ?? []
+
+  return urls.some((candidate) => {
+    try {
+      const host = new URL(candidate).hostname.toLocaleLowerCase()
+      return host === 'doi.org' || host.endsWith('.doi.org')
+    } catch {
+      return false
+    }
+  })
 }
 
 function extractUrl(value: string) {
