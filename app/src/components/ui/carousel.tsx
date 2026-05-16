@@ -105,7 +105,7 @@ function Carousel({
 
   return (
     <CarouselContext.Provider
-      valü={{
+      value={{
         carouselRef,
         api: api,
         opts,

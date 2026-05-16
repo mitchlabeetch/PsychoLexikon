@@ -4,7 +4,7 @@
   "slug": "thema-01",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/01-aktionspotential.bundle.txt"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Aktionspotential & Synaptische Transmission",
@@ -309,7 +309,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-neuron.png",
-        "description": "Recovered illustration illu-neuron.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Aktionspotential & Synaptische Transmission: Neuron"
       },
       "caption": "Neuron"
@@ -320,7 +320,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-action-potential.png",
-        "description": "Recovered illustration illu-action-potential.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Aktionspotential & Synaptische Transmission: Action Potential"
       },
       "caption": "Action Potential"
@@ -331,7 +331,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-synapse.png",
-        "description": "Recovered illustration illu-synapse.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Aktionspotential & Synaptische Transmission: Synapse"
       },
       "caption": "Synapse"
@@ -387,7 +387,7 @@
       "id": "01-connection-1",
       "category": "verknüpfung",
       "title": "← Gestaltgesetze",
-      "relevance": "Recovered internal concept link from /aktionspotential.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "02"

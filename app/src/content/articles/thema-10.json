@@ -4,7 +4,7 @@
   "slug": "thema-10",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/10-signifikanztestung.bundle.txt"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Signifikanztestung & p-Werte",
@@ -279,7 +279,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-p-valü.png",
-        "description": "Recovered illustration illu-p-valü.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Signifikanztestung & p-Werte: P Valü"
       },
       "caption": "P Valü"
@@ -290,7 +290,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-error-types.png",
-        "description": "Recovered illustration illu-error-types.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Signifikanztestung & p-Werte: Error Types"
       },
       "caption": "Error Types"
@@ -399,7 +399,7 @@
       "id": "10-connection-1",
       "category": "verknüpfung",
       "title": "/versuchsplanung",
-      "relevance": "Recovered internal concept link from /signifikanztestung.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "09"
@@ -409,7 +409,7 @@
       "id": "10-connection-2",
       "category": "verknüpfung",
       "title": "/psychometrie",
-      "relevance": "Recovered internal concept link from /signifikanztestung.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "11"

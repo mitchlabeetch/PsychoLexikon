@@ -4,7 +4,7 @@
   "slug": "thema-11",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/11-psychometrie.bundle.txt"
+    "sourcePath": ""
   },
   "meta": {
     "title": "Psychometrische Gütekriterien",
@@ -383,7 +383,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-reliability-validity.png",
-        "description": "Recovered illustration illu-reliability-validity.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Psychometrische Gütekriterien: Reliability Validity"
       },
       "caption": "Reliability Validity"
@@ -394,7 +394,7 @@
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-test-quality.png",
-        "description": "Recovered illustration illu-test-quality.png from analzy deployment bundle.",
+        "description": "",
         "alt": "Psychometrische Gütekriterien: Test Quality"
       },
       "caption": "Test Quality"
@@ -490,7 +490,7 @@
       "id": "11-connection-1",
       "category": "verknüpfung",
       "title": "/versuchsplanung",
-      "relevance": "Recovered internal concept link from /psychometrie.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "09"
@@ -500,7 +500,7 @@
       "id": "11-connection-2",
       "category": "verknüpfung",
       "title": "/signifikanztestung",
-      "relevance": "Recovered internal concept link from /psychometrie.",
+      "relevance": "Weiterführende Lektüre",
       "target": {
         "kind": "internal-article",
         "articleId": "10"

@@ -51,7 +51,7 @@ function splitByAnnotations(text: string, annotations: Annotation[]) {
     for (const segment of segments) {
       if (segment.kind === 'annotation') {
         nextSegments.push(segment)
-        continü
+        continue
       }
 
       let cursor = 0
@@ -59,7 +59,7 @@ function splitByAnnotations(text: string, annotations: Annotation[]) {
 
       if (matchIndex === -1) {
         nextSegments.push(segment)
-        continü
+        continue
       }
 
       while (matchIndex !== -1) {
@@ -118,7 +118,7 @@ function getAnnotationMarkStyle(annotation: Annotation) {
 }
 
 function renderAnnotation(annotation: Annotation, content: ReactNode, key: string) {
-  const tooltipVariant = annotation.kind === 'citation' ? 'red' : 'blü'
+  const tooltipVariant = annotation.kind === 'citation' ? 'red' : 'blue'
 
   return (
     <Tooltip key={key}>
@@ -154,7 +154,7 @@ function renderRichText(richText: RichText, keyPrefix: string): ReactNode {
             <span key={key}>{segment.text}</span>
           ),
         )
-        continü
+        continue
       }
 
       const label = chunk.kind === 'strong' ? <strong className="font-semibold">{segment.annotation.text}</strong> : segment.annotation.text
@@ -358,28 +358,17 @@ export default function ArticleRenderer({ article }: ArticleRendererProps) {
             {categoryLabel}
           </span>
           <span className="text-[0.75rem] text-text-secondary">{article.meta.estimatedReadMinutes} Min. Lesezeit</span>
-          <span className="text-[0.75rem] text-text-secondary">Schema {article.schemaVersion}</span>
+
         </div>
       </header>
 
       {article.sections.map((section) => (section.type === 'visual' ? renderVisualSection(section) : renderTextSection(section, accentColor)))}
 
       <section className="mt-12 pt-8" style={{ borderTop: '1px solid #ccc' }}>
-        <h2 className="font-display font-bold text-[1.25rem] sm:text-[1.5rem] text-text-primary mb-6 text-wrap">Qüllen</h2>
+        <h2 className="font-display font-bold text-[1.25rem] sm:text-[1.5rem] text-text-primary mb-6 text-wrap">Quellen</h2>
         <div className="space-y-4">
           {article.sources.map((source) => (
             <div key={source.id} className="rounded-lg border border-[#eee] bg-[#f8f6f1] p-4">
-              <div className="mb-2 flex flex-wrap items-center gap-2">
-                <span className="inline-block font-body font-medium text-[0.75rem] uppercase px-2 py-0.5 rounded bg-[#eee] text-text-secondary">
-                  {source.kind}
-                </span>
-                <span className="inline-block font-body font-medium text-[0.75rem] uppercase px-2 py-0.5 rounded bg-[#edf2ff] text-[#334155]">
-                  {source.shortCitation}
-                </span>
-                <span className="inline-block font-body font-medium text-[0.75rem] uppercase px-2 py-0.5 rounded bg-[#ecfdf3] text-[#166534]">
-                  {source.verification.status}
-                </span>
-              </div>
               <p className="font-body text-[0.8rem] sm:text-[0.875rem] text-text-primary leading-relaxed mb-2 text-wrap">{source.apaCitation}</p>
               {source.tooltip ? <p className="font-body text-[0.8rem] sm:text-[0.875rem] text-text-secondary leading-relaxed">{source.tooltip}</p> : null}
               {source.url ? (
