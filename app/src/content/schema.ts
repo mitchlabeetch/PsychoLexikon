@@ -18,7 +18,7 @@ const annotationBaseSchema = z.object({
 export const definitionAnnotationSchema = annotationBaseSchema.extend({
   kind: z.literal('definition'),
   tooltip: z.string().min(1),
-  tone: z.literal('blü').default('blü'),
+  tone: z.literal('blue').default('blue'),
 })
 
 export const citationAnnotationSchema = annotationBaseSchema.extend({
