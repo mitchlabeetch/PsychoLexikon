@@ -19,9 +19,6 @@ export default function Home() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6, ease: [0.16, 1, 0.3, 1] as [number, number, number, number] }}
       >
-        <h1 className="font-display font-bold text-[1rem] sm:text-[3rem] text-text-primary tracking-[-0.02em] leading-tight mb-3">
-          PsychoLexicon
-        </h1>
         <p className="font-body text-[0.75rem] sm:text-[1.125rem] text-text-secondary mb-6">
           Zwölf Kernthemen plus verknüpfte Vertiefungen — verständlich, fundiert, adhs-freundlich
         </p>
