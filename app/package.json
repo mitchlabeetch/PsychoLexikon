@@ -6,7 +6,7 @@
   "packageManager": "npm@10.8.2",
   "scripts": {
     "dev": "vite",
-    "build": "npm run content:hydrate && npm run content:validate && tsc -b && vite build",
+    "build": "npm run content:push:neon && npm run content:hydrate && npm run content:validate && tsc -b && vite build",
     "content:compile:authoring": "tsx scripts/compile-authoring-content.ts --write",
     "content:compile:authoring:dry": "tsx scripts/compile-authoring-content.ts",
     "content:migrate": "tsx scripts/migrate-legacy-content.ts --write",

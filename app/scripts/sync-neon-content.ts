@@ -147,8 +147,8 @@ async function pullArticles(sql: postgres.Sql) {
 async function runSync(mode: SyncMode): Promise<SyncSummary> {
   const sql = createSqlClient()
   if (!sql) {
-    if (mode === 'hydrate') {
-      console.log('skip: CONTENT_DATABASE_URL not configured; using checked-in article snapshot')
+    if (mode === 'hydrate' || mode === 'push') {
+      console.log(`skip: CONTENT_DATABASE_URL not configured; ${mode === 'hydrate' ? 'using checked-in article snapshot' : 'skipping push to Neon'}`)
       return {
         mode,
         articleCount: 0,

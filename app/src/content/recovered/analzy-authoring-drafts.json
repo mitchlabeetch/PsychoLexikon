@@ -6665,7 +6665,8 @@
       "origin": {
         "kind": "recovered-bundle",
         "sourcePath": "C:\\Users\\tanag\\Desktop\\PsychoLexikon\\PsychoLexikon\\analzy\\Kimi_Agent_Deployment_v2\\assets\\index-Z0dFe4vz.js",
-        "recoveredRoute": "/sozialkognition"
+        "recoveredRoute": "/sozialkognition",
+        "snapshotPath": "analzy/Kimi_Agent_Deployment_v2/assets/index-Z0dFe4vz.js"
       },
       "identity": {
         "articleId": "26",
