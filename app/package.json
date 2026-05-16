@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "packageManager": "npm@10.8.2",
   "scripts": {
     "dev": "vite",
     "build": "npm run content:push:neon && npm run content:hydrate && npm run content:validate && tsc -b && vite build",
