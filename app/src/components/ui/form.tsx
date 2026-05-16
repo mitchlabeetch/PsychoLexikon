@@ -18,23 +18,23 @@ import { Label } from "@/components/ui/label"
 
 const Form = FormProvider
 
-type FormFieldContextValü<
-  TFieldValüs extends FieldValüs = FieldValüs,
-  TName extends FieldPath<TFieldValüs> = FieldPath<TFieldValüs>,
+type FormFieldContextValue<
+  TFieldValues extends FieldValues = FieldValues,
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
 > = {
   name: TName
 }
 
-const FormFieldContext = React.createContext<FormFieldContextValü | null>(null)
+const FormFieldContext = React.createContext<FormFieldContextValue | null>(null)
 
 const FormField = <
-  TFieldValüs extends FieldValüs = FieldValüs,
-  TName extends FieldPath<TFieldValüs> = FieldPath<TFieldValüs>,
+  TFieldValues extends FieldValues = FieldValues,
+  TName extends FieldPath<TFieldValues> = FieldPath<TFieldValues>,
 >({
   ...props
-}: ControllerProps<TFieldValüs, TName>) => {
+}: ControllerProps<TFieldValues, TName>) => {
   return (
-    <FormFieldContext.Provider valü={{ name: props.name }}>
+    <FormFieldContext.Provider value={{ name: props.name }}>
       <Controller {...props} />
     </FormFieldContext.Provider>
   )
@@ -68,17 +68,17 @@ const useFormField = () => {
   }
 }
 
-type FormItemContextValü = {
+type FormItemContextValue = {
   id: string
 }
 
-const FormItemContext = React.createContext<FormItemContextValü | null>(null)
+const FormItemContext = React.createContext<FormItemContextValue | null>(null)
 
 function FormItem({ className, ...props }: React.ComponentProps<"div">) {
   const id = React.useId()
 
   return (
-    <FormItemContext.Provider valü={{ id }}>
+    <FormItemContext.Provider value={{ id }}>
       <div
         data-slot="form-item"
         className={cn("grid gap-2", className)}

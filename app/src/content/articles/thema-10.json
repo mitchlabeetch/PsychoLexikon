@@ -278,11 +278,11 @@
       "title": "Illustrationen",
       "asset": {
         "kind": "image-file",
-        "src": "/recovered/analzy/illu-p-valü.png",
+        "src": "/recovered/analzy/illu-p-value.png",
         "description": "",
-        "alt": "Signifikanztestung & p-Werte: P Valü"
+        "alt": "Signifikanztestung & p-Werte: P Value"
       },
-      "caption": "P Valü"
+      "caption": "P Value"
     },
     {
       "id": "10-visuals-2",

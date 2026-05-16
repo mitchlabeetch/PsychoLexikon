@@ -471,8 +471,8 @@
           "placement": "inline",
           "asset": {
             "kind": "image-file",
-            "src": "/recovered/analzy/illu-prägnanz.png",
-            "description": "Recovered illustration illu-prägnanz.png from analzy deployment bundle.",
+            "src": "/recovered/analzy/illu-praegnanz.png",
+            "description": "Recovered illustration illu-praegnanz.png from analzy deployment bundle.",
             "alt": "Gestaltgesetze & Prägnanzprinzip: Prägnanz"
           },
           "caption": "Prägnanz",
@@ -1381,7 +1381,7 @@
             },
             {
               "kind": "subheading",
-              "text": "Kritik und aktülle Bedeutung"
+              "text": "Kritik und aktuelle Bedeutung"
             },
             {
               "kind": "paragraph",
@@ -3210,8 +3210,8 @@
           "placement": "hero",
           "asset": {
             "kind": "image-file",
-            "src": "/recovered/analzy/illu-p-valü.png",
-            "description": "Recovered illustration illu-p-valü.png from analzy deployment bundle.",
+            "src": "/recovered/analzy/illu-p-value.png",
+            "description": "Recovered illustration illu-p-value.png from analzy deployment bundle.",
             "alt": "Signifikanztestung & p-Werte: P Valü"
           },
           "caption": "P Valü",
@@ -5555,7 +5555,7 @@
             },
             {
               "kind": "subheading",
-              "text": "Attributionen steürn die Folgereaktion"
+              "text": "Attributionen steuern die Folgereaktion"
             },
             {
               "kind": "paragraph",
@@ -5715,7 +5715,7 @@
           "id": "25-bridge-2",
           "category": "verknüpfung",
           "title": "Leistungsmotivation",
-          "description": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdaür und Bereitschaft zu neür Anstrengung.",
+          "description": "Wenn Kontrolle verloren wirkt, sinken Zielbindung, Ausdauer und Bereitschaft zu neuer Anstrengung.",
           "target": {
             "kind": "internal-article",
             "articleId": "24"
@@ -6502,7 +6502,7 @@
         {
           "id": "23-source-2",
           "rawCitation": "Bandura, A. (1977). Self-efficacy: Toward a unifying theory of behavioral change. Psychological Review, 84(2), 191-215.",
-          "notes": "Grundtext zur Rolle von Kompetenzüberzeugungen für Verhalten, Ausdaür und Zielwahl."
+          "notes": "Grundtext zur Rolle von Kompetenzüberzeugungen für Verhalten, Ausdauer und Zielwahl."
         },
         {
           "id": "23-source-3",
@@ -6541,7 +6541,7 @@
           "id": "23-bridge-1",
           "category": "verknüpfung",
           "title": "Leistungsmotivation",
-          "description": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdaür und den Umgang mit Rückschlägen.",
+          "description": "Selbstwirksamkeit beeinflusst Zielwahl, Ausdauer und den Umgang mit Rückschlägen.",
           "target": {
             "kind": "internal-article",
             "articleId": "24"
@@ -6623,7 +6623,7 @@
             {
               "kind": "paragraph",
               "content": {
-                "text": "Hohe Selbstwirksamkeit fördert Anstrengung, Ausdaür und den konstruktiven Umgang mit Rückschlägen. Niedrige Selbstwirksamkeit begünstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
+                "text": "Hohe Selbstwirksamkeit fördert Anstrengung, Ausdauer und den konstruktiven Umgang mit Rückschlägen. Niedrige Selbstwirksamkeit begünstigt Vermeidung, defensive Zielwahl oder hilflose Reaktionen.",
                 "annotations": []
               }
             }

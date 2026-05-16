@@ -2,7 +2,7 @@ export function KonditionierungVergleich() {
   return (
     <svg viewBox="0 0 400 300" className="w-full h-auto" role="img" aria-labelledby="kondTitle kondDesc">
       <title id="kondTitle">Klassische und Operante Konditionierung im Vergleich</title>
-      <desc id="kondDesc">Diagramm zeigt den Lernprozess bei klassischer Konditionierung durch Reizpaarung und bei operanter Konditionierung durch Verhaltenskonseqünzen</desc>
+      <desc id="kondDesc">Diagramm zeigt den Lernprozess bei klassischer Konditionierung durch Reizpaarung und bei operanter Konditionierung durch Verhaltenskonsequenzen</desc>
 
       {/* Trennlinie */}
       <line x1="200" y1="20" x2="200" y2="280" stroke="#ccc" strokeWidth="1" />

@@ -48,8 +48,8 @@ function extractDoi(value: string) {
   return value.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]
 }
 
-function extractUrl(valü: string) {
-  return valü.match(/https?:\/\/\S+/)?.[0]
+function extractUrl(value: string) {
+  return value.match(/https?:\/\/\S+/)?.[0]
 }
 
 function compileSources(draft: AuthoringDraft): ArticleSource[] {
@@ -124,7 +124,7 @@ function compileSections(draft: AuthoringDraft): ArticleSection[] {
   for (const section of draft.sections) {
     if (section.type === 'visual') {
       compiledSections.push(...compileVisualSections(draft, section))
-      continü
+      continue
     }
 
     compiledSections.push({

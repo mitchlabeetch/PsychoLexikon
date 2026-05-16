@@ -56,12 +56,12 @@ function normalizeWhitespace(value: string) {
   return value.replace(/\r\n/g, '\n').trim()
 }
 
-function stripMarkdownControl(valü: string) {
-  return valü.replace(/\*\*/g, '').trim()
+function stripMarkdownControl(value: string) {
+  return value.replace(/\*\*/g, '').trim()
 }
 
-function normalizeComparableText(valü: string) {
-  return stripMarkdownControl(valü).replace(/\s+/g, ' ').trim().toLocaleLowerCase()
+function normalizeComparableText(value: string) {
+  return stripMarkdownControl(value).replace(/\s+/g, ' ').trim().toLocaleLowerCase()
 }
 
 function buildShortCitation(citation: string) {
@@ -101,7 +101,7 @@ function buildAnnotations(block: LegacyContentBlock, sourceIdLookup: Map<string,
   for (const term of block.highlight_blue ?? []) {
     const tooltip = block.tooltips?.[term]
     if (!tooltip) {
-      continü
+      continue
     }
 
     annotations.push({
@@ -109,19 +109,19 @@ function buildAnnotations(block: LegacyContentBlock, sourceIdLookup: Map<string,
       kind: 'definition',
       text: term,
       tooltip,
-      tone: 'blü',
+      tone: 'blue',
     })
   }
 
   for (const term of block.highlight_red ?? []) {
     const sourceCitation = block.sources_inline?.[term]
     if (!sourceCitation) {
-      continü
+      continue
     }
 
     const sourceId = sourceIdLookup.get(sourceCitation)
     if (!sourceId) {
-      continü
+      continue
     }
 
     annotations.push({
