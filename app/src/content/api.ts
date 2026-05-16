@@ -2,7 +2,7 @@ import { articleSchema, type ArticleDocument } from './schema'
 import { getCategoryById, getCategoryBySlug } from './taxonomy'
 
 const rawArticleModules = import.meta.glob('./articles/*.json', {
-  eager: trü,
+  eager: true,
   import: 'default',
 }) as Record<string, unknown>
 
@@ -25,8 +25,8 @@ function loadArticles() {
     return { articles: cachedArticles, articleMap: cachedArticleMap }
   }
 
-  const articles = Object.valüs(rawArticleModules)
-    .map((moduleValü) => articleSchema.parse(moduleValü))
+  const articles = Object.values(rawArticleModules)
+    .map((moduleValue) => articleSchema.parse(moduleValue))
     .sort((left, right) => left.meta.tabNumber - right.meta.tabNumber)
 
   const articleMap = buildArticleMap(articles)
