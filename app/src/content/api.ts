@@ -1,14 +1,18 @@
 import { articleSchema, type ArticleDocument } from './schema'
 import { getCategoryById, getCategoryBySlug } from './taxonomy'
 
-const rawArticleModules = (
-  typeof import.meta.glob === 'function'
-    ? import.meta.glob('./articles/*.json', {
-        eager: true,
-        import: 'default',
-      })
-    : {}
-) as Record<string, unknown>
+function loadRawArticleModules() {
+  try {
+    return import.meta.glob('./articles/*.json', {
+      eager: true,
+      import: 'default',
+    }) as Record<string, unknown>
+  } catch {
+    return {}
+  }
+}
+
+const rawArticleModules = loadRawArticleModules()
 
 let cachedArticles: ArticleDocument[] | null = null
 let cachedArticleMap: Map<string, ArticleDocument> | null = null
