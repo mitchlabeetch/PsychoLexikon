@@ -9,7 +9,7 @@
   "meta": {
     "title": "Aktionspotential & Synaptische Transmission",
     "discipline": "Biologische Psychologie",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#98d4bb",
     "tabNumber": 1,
     "estimatedReadMinutes": 3,
@@ -339,7 +339,7 @@
     {
       "id": "01-summary",
       "type": "summary",
-      "title": "Weiterführende Verknüpfungen",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -385,7 +385,7 @@
   "relatedResources": [
     {
       "id": "01-connection-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "← Gestaltgesetze",
       "relevance": "Recovered internal concept link from /aktionspotential.",
       "target": {

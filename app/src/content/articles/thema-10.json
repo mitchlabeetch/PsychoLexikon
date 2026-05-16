@@ -9,7 +9,7 @@
   "meta": {
     "title": "Signifikanztestung & p-Werte",
     "discipline": "Statistik & Psychometrie",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#f2c6a0",
     "tabNumber": 10,
     "estimatedReadMinutes": 3,
@@ -298,7 +298,7 @@
     {
       "id": "10-summary",
       "type": "summary",
-      "title": "Weiterführende Verknüpfungen",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -397,7 +397,7 @@
   "relatedResources": [
     {
       "id": "10-connection-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "/versuchsplanung",
       "relevance": "Recovered internal concept link from /signifikanztestung.",
       "target": {
@@ -407,7 +407,7 @@
     },
     {
       "id": "10-connection-2",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "/psychometrie",
       "relevance": "Recovered internal concept link from /signifikanztestung.",
       "target": {

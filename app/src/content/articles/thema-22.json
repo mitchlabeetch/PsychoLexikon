@@ -8,13 +8,13 @@
   },
   "meta": {
     "title": "Core Knowledge Theory",
-    "subtitle": "Frühe Kernsysteme als Gegenentwurf zu Piagets Konstruktivismus",
+    "subtitle": "Fruehe Kernsysteme als Gegenentwurf zu Piagets Konstruktivismus",
     "discipline": "Lernen & Entwicklung",
     "difficulty": "Vertiefungs-Knoten",
     "tabColor": "#f4b8c5",
     "tabNumber": 22,
     "estimatedReadMinutes": 3,
-    "leadTeaser": "Die Piaget-Seite verweist auf Core Knowledge als moderne Kritik: Einige Wissensstrukturen scheinen schon früh verfügbar zu sein und werden nicht vollständig erst konstruiert."
+    "leadTeaser": "Die Piaget-Seite verweist auf Core Knowledge als moderne Kritik: Einige Wissensstrukturen scheinen schon frueh verfuegbar zu sein und werden nicht vollstaendig erst konstruiert."
   },
   "taxonomy": {
     "categoryId": "learning-and-development",
@@ -63,14 +63,14 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Der recovered Link /core-knowledge wurde im Piaget-Artikel genau dort gesetzt, wo moderne Entwicklungspsychologie seine Stufentheorie kritisch weiterdenkt. Ein eigenständiger Originalseitentext blieb nicht erhalten, die konzeptionelle Störungslinie aber schon.",
+            "text": "Der recovered Link /core-knowledge wurde im Piaget-Artikel genau dort gesetzt, wo moderne Entwicklungspsychologie seine Stufentheorie kritisch weiterdenkt. Ein eigenstaendiger Originalseitentext blieb nicht erhalten, die konzeptionelle Stoerungslinie aber schon.",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Core Knowledge Theory behauptet nicht, dass Entwicklung überflüssig wird. Sie verschiebt jedoch den Ausgangspunkt: Manche Wissensformen scheinen früher vorhanden zu sein, als ein strenger Konstruktivismus erwarten würde.",
+            "text": "Core Knowledge Theory behauptet nicht, dass Entwicklung ueberfluessig wird. Sie verschiebt jedoch den Ausgangspunkt: Manche Wissensformen scheinen frueher vorhanden zu sein, als ein strenger Konstruktivismus erwarten wuerde.",
             "annotations": []
           }
         }
@@ -88,7 +88,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Annahme, dass Säuglinge bereits über frühe, domänenspezifische Kernsysteme verfügen, etwa für Objekte, Zahlen oder soziale Agenten.",
+            "text": "Annahme, dass Saeuglinge bereits ueber fruehe, domaenenspezifische Kernsysteme verfuegen, etwa fuer Objekte, Zahlen oder soziale Agenten.",
             "annotations": []
           }
         },
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Versuchslogik, bei der längeres Hinschauen auf unerwartete Ereignisse als Hinweis auf implizites Vorwissen interpretiert wird.",
+            "text": "Versuchslogik, bei der laengeres Hinschauen auf unerwartete Ereignisse als Hinweis auf implizites Vorwissen interpretiert wird.",
             "annotations": []
           }
         }
@@ -112,23 +112,23 @@
       "entries": [
         {
           "kind": "subheading",
-          "text": "Frühe Kompetenzen statt später Konstruktion"
+          "text": "Fruehe Kompetenzen statt spaeter Konstruktion"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Im Piaget-Kontext wird Baillargeons Forschung als Wendepunkt genannt: Säuglinge reagieren bereits auf verletzte Objekterwartungen. Das spricht dafür, dass zumindest manche kognitiven Grundordnungen früh verfügbar sind.",
+            "text": "Im Piaget-Kontext wird Baillargeons Forschung als Wendepunkt genannt: Saeuglinge reagieren bereits auf verletzte Objekterwartungen. Das spricht dafuer, dass zumindest manche kognitiven Grundordnungen frueh verfuegbar sind.",
             "annotations": []
           }
         },
         {
           "kind": "subheading",
-          "text": "Domänenspezifische Kernsysteme"
+          "text": "Domaenenspezifische Kernsysteme"
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Core Knowledge organisiert solche Befunde als frühe Systeme für bestimmte Inhaltsbereiche, etwa Objekte oder Mengen. Entwicklung bedeutet dann nicht den Start bei null, sondern die Ausarbeitung und Koordination früher Strukturen.",
+            "text": "Core Knowledge organisiert solche Befunde als fruehe Systeme fuer bestimmte Inhaltsbereiche, etwa Objekte oder Mengen. Entwicklung bedeutet dann nicht den Start bei null, sondern die Ausarbeitung und Koordination frueher Strukturen.",
             "annotations": []
           }
         },
@@ -154,15 +154,15 @@
           "kind": "bullet_list",
           "items": [
             {
-              "text": "Core Knowledge verschiebt die Debatte von \"Wann wird etwas konstruiert?\" zu \"Was ist bereits früh verfügbar?\"",
+              "text": "Core Knowledge verschiebt die Debatte von \"Wann wird etwas konstruiert?\" zu \"Was ist bereits frueh verfuegbar?\"",
               "annotations": []
             },
             {
-              "text": "Das Violation-of-Expectation-Paradigma lieferte dafür im recovered Piaget-Kontext den wichtigsten empirischen Hebel.",
+              "text": "Das Violation-of-Expectation-Paradigma lieferte dafuer im recovered Piaget-Kontext den wichtigsten empirischen Hebel.",
               "annotations": []
             },
             {
-              "text": "Die Theorie ist kein Ersatz für Entwicklung, sondern eine andere Beschreibung ihrer Ausgangsbedingungen.",
+              "text": "Die Theorie ist kein Ersatz fuer Entwicklung, sondern eine andere Beschreibung ihrer Ausgangsbedingungen.",
               "annotations": []
             }
           ]
@@ -176,7 +176,7 @@
       "kind": "other",
       "shortCitation": "Recovered route reference in analzy deployment bundle: Core Knowledge Theory (o. J.)",
       "apaCitation": "Recovered route reference in analzy deployment bundle: Core Knowledge Theory (/core-knowledge) was linked from Kognitive Entwicklung nach Piaget.",
-      "tooltip": "Der Piaget-Artikel liefert den expliziten recovered Anker für diese Vertiefungsseite.",
+      "tooltip": "Der Piaget-Artikel liefert den expliziten recovered Anker fuer diese Vertiefungsseite.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -189,7 +189,7 @@
       "kind": "other",
       "shortCitation": "Baillargeon & R. (1987)",
       "apaCitation": "Baillargeon, R. (1987). Object permanence in 3.5- and 4.5-month-old infants. Developmental Psychology, 23(5), 655-664.",
-      "tooltip": "Die frühe Objektpermanenz wurde im Piaget-Artikel als zentrale empirische Herausforderung für spätere Konstruktionsannahmen genannt.",
+      "tooltip": "Die fruehe Objektpermanenz wurde im Piaget-Artikel als zentrale empirische Herausforderung fuer spaetere Konstruktionsannahmen genannt.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -202,7 +202,7 @@
       "kind": "other",
       "shortCitation": "Spelke et al. (2007)",
       "apaCitation": "Spelke, E. S., & Kinzler, K. D. (2007). Core knowledge. Developmental Science, 10(1), 89-96.",
-      "tooltip": "Formuliert die Kernidee domänenspezifischer Anfangsstrukturen.",
+      "tooltip": "Formuliert die Kernidee domaenenspezifischer Anfangsstrukturen.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -227,7 +227,7 @@
   "relatedResources": [
     {
       "id": "22-backlink-1",
-      "category": "rückverweis",
+      "category": "rueckverweis",
       "title": "Kognitive Entwicklung nach Piaget",
       "relevance": "Recovered primary article that referenced Core Knowledge Theory.",
       "target": {
@@ -247,9 +247,9 @@
     },
     {
       "id": "22-bridge-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Vygotsky: Soziale Entwicklung",
-      "relevance": "Vygotsky verschiebt den Fokus von frühen Kernsystemen auf sozial vermittelte Entwicklung.",
+      "relevance": "Vygotsky verschiebt den Fokus von fruehen Kernsystemen auf sozial vermittelte Entwicklung.",
       "target": {
         "kind": "internal-article",
         "articleId": "20"
@@ -257,9 +257,9 @@
     },
     {
       "id": "22-bridge-2",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Sprachentwicklung im Kindesalter",
-      "relevance": "Die Frage nach angeborenen Kernsystemen führt direkt in Debatten über sprachliche und begriffliche Entwicklung.",
+      "relevance": "Die Frage nach angeborenen Kernsystemen fuehrt direkt in Debatten ueber sprachliche und begriffliche Entwicklung.",
       "target": {
         "kind": "internal-article",
         "articleId": "21"

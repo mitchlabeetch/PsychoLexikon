@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = path.dirname(__filename)
 const appRoot = path.resolve(__dirname, '..')
 const articlesDir = path.join(appRoot, 'src', 'content', 'articles')
-const connectionString = process.env.CONTENT_DATABASE_URL
+const connectionString = process.env.CONTENT_DATABASE_URL ?? process.env.DATABASE_URL
 
 type SyncMode = 'push' | 'pull' | 'hydrate'
 

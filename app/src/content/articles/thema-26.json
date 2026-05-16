@@ -14,7 +14,7 @@
     "tabColor": "#b7d7f5",
     "tabNumber": 26,
     "estimatedReadMinutes": 3,
-    "leadTeaser": "Soziale Kognition bündelt Prozesse wie Attribution, Personenwahrnehmung und Urteilsverzerrungen, also genau jene Mechanismen, die im Attributionsartikel bereits angelegt sind."
+    "leadTeaser": "Soziale Kognition buendelt Prozesse wie Attribution, Personenwahrnehmung und Urteilsverzerrungen, also genau jene Mechanismen, die im Attributionsartikel bereits angelegt sind."
   },
   "taxonomy": {
     "categoryId": "social-psychology",
@@ -63,14 +63,14 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Der recovered Link /sozialkognition macht explizit, dass der Attributionsartikel nur einen Ausschnitt eines grösseren Feldes behandelt: Menschen müssen soziale Hinweise nicht nur erklären, sondern auch wahrnehmen, erinnern und bewerten.",
+            "text": "Der recovered Link /sozialkognition macht explizit, dass der Attributionsartikel nur einen Ausschnitt eines groesseren Feldes behandelt: Menschen muessen soziale Hinweise nicht nur erklaeren, sondern auch wahrnehmen, erinnern und bewerten.",
             "annotations": []
           }
         },
         {
           "kind": "paragraph",
           "content": {
-            "text": "Da kein eigenständiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite soziale Kognition als Oberbegriff für die im Korpus bereits sichtbaren Prozesse der Ursachenzuschreibung und Urteilsbildung.",
+            "text": "Da kein eigenstaendiger recovered Seitentext erhalten blieb, rekonstruiert diese Seite soziale Kognition als Oberbegriff fuer die im Korpus bereits sichtbaren Prozesse der Ursachenzuschreibung und Urteilsbildung.",
             "annotations": []
           }
         }
@@ -88,7 +88,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Oberbegriff für mentale Prozesse, mit denen Menschen soziale Informationen wahrnehmen, interpretieren, speichern und für Urteile nutzen.",
+            "text": "Oberbegriff fuer mentale Prozesse, mit denen Menschen soziale Informationen wahrnehmen, interpretieren, speichern und fuer Urteile nutzen.",
             "annotations": []
           }
         },
@@ -99,7 +99,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Tendenz, Verhalten anderer zu stark auf dispositionelle Ursachen zurückzuführen und situative Bedingungen zu unterschätzen.",
+            "text": "Tendenz, Verhalten anderer zu stark auf dispositionelle Ursachen zurueckzufuehren und situative Bedingungen zu unterschaetzen.",
             "annotations": []
           }
         }
@@ -117,7 +117,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Soziale Kognition bezeichnet die Verarbeitung sozialer Information insgesamt: Wie wir andere Personen wahrnehmen, ihr Verhalten interpretieren, Erwartungen bilden und spätere Urteile speichern.",
+            "text": "Soziale Kognition bezeichnet die Verarbeitung sozialer Information insgesamt: Wie wir andere Personen wahrnehmen, ihr Verhalten interpretieren, Erwartungen bilden und spaetere Urteile speichern.",
             "annotations": []
           }
         },
@@ -128,7 +128,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Attribution gehört zu den sichtbarsten Teilprozessen sozialer Kognition, weil hier Ursachen für Verhalten vergeben werden. Der recovered Attributionsartikel liefert damit bereits einen kompakten Einstieg in das grössere Feld.",
+            "text": "Attribution gehoert zu den sichtbarsten Teilprozessen sozialer Kognition, weil hier Ursachen fuer Verhalten vergeben werden. Der recovered Attributionsartikel liefert damit bereits einen kompakten Einstieg in das groessere Feld.",
             "annotations": []
           }
         },
@@ -139,7 +139,7 @@
         {
           "kind": "paragraph",
           "content": {
-            "text": "Fundamentaler Attributionsfehler, Akteur-Beobachter-Differenz und kulturelle Unterschiede zeigen, dass soziales Denken weder rein logisch noch kulturfrei verläuft. Genau diese Fehler- und Kontextmuster machen soziale Kognition psychologisch interessant.",
+            "text": "Fundamentaler Attributionsfehler, Akteur-Beobachter-Differenz und kulturelle Unterschiede zeigen, dass soziales Denken weder rein logisch noch kulturfrei verlaeuft. Genau diese Fehler- und Kontextmuster machen soziale Kognition psychologisch interessant.",
             "annotations": []
           }
         }
@@ -162,7 +162,7 @@
               "annotations": []
             },
             {
-              "text": "Der recovered Verweis aus der Attributionstheorie lässt sich deshalb sinnvoll zu einer eigenständigen Vertiefungsseite ausbauen.",
+              "text": "Der recovered Verweis aus der Attributionstheorie laesst sich deshalb sinnvoll zu einer eigenstaendigen Vertiefungsseite ausbauen.",
               "annotations": []
             }
           ]
@@ -189,7 +189,7 @@
       "kind": "other",
       "shortCitation": "Heider & F. (1958)",
       "apaCitation": "Heider, F. (1958). The psychology of interpersonal relations. Wiley.",
-      "tooltip": "Heider liefert den klassischen Ausgangspunkt für soziale Deutungsprozesse zwischen Person und Situation.",
+      "tooltip": "Heider liefert den klassischen Ausgangspunkt fuer soziale Deutungsprozesse zwischen Person und Situation.",
       "verification": {
         "status": "pending-review",
         "checkedAgainst": [
@@ -227,7 +227,7 @@
   "relatedResources": [
     {
       "id": "26-backlink-1",
-      "category": "rückverweis",
+      "category": "rueckverweis",
       "title": "Attributionstheorie",
       "relevance": "Recovered primary article that referenced Soziale Kognition.",
       "target": {
@@ -247,9 +247,9 @@
     },
     {
       "id": "26-bridge-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Selbstwirksamkeit nach Bandura",
-      "relevance": "Soziale Deutungen von Erfolg und Misserfolg beeinflussen spätere Kompetenzüberzeugungen.",
+      "relevance": "Soziale Deutungen von Erfolg und Misserfolg beeinflussen spaetere Kompetenzueberzeugungen.",
       "target": {
         "kind": "internal-article",
         "articleId": "23"
@@ -257,7 +257,7 @@
     },
     {
       "id": "26-bridge-2",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Gelernte Hilflosigkeit",
       "relevance": "Pessimistische Deutungsmuster zeigen, wie soziale und motivationale Kognitionen zusammenlaufen.",
       "target": {

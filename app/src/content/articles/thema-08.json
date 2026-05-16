@@ -9,8 +9,8 @@
   "meta": {
     "title": "Fünf-Faktoren-Modell (Big Five)",
     "subtitle": "OCEAN — Die fünf Dimensionen, die Persönlichkeit strukturieren",
-    "discipline": "Differentielle & Persönlichkeitspsychologie",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "discipline": "Differentielle & Persoenlichkeitspsychologie",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#a8d8ea",
     "tabNumber": 8,
     "estimatedReadMinutes": 3,
@@ -21,7 +21,7 @@
     "keywords": [
       "big five",
       "traits",
-      "persönlichkeit"
+      "persoenlichkeit"
     ],
     "audience": [
       "erstsemester",
@@ -41,7 +41,7 @@
     "syncEnabled": false,
     "metadata": {
       "taxonomyPath": [
-        "Differentielle & Persönlichkeitspsychologie"
+        "Differentielle & Persoenlichkeitspsychologie"
       ],
       "audience": [
         "erstsemester",
@@ -51,7 +51,7 @@
       "keywords": [
         "big five",
         "traits",
-        "persönlichkeit"
+        "persoenlichkeit"
       ]
     }
   },
@@ -303,7 +303,7 @@
     {
       "id": "08-summary",
       "type": "summary",
-      "title": "Weiterführende Verknüpfungen",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -398,7 +398,7 @@
   "relatedResources": [
     {
       "id": "08-connection-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "HEXACO-Modell",
       "relevance": "Recovered internal concept link from /big-five.",
       "target": {
@@ -408,7 +408,7 @@
     },
     {
       "id": "08-connection-2",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Persönlichkeitsstörungen",
       "relevance": "Recovered internal concept link from /big-five.",
       "target": {
@@ -418,7 +418,7 @@
     },
     {
       "id": "08-connection-3",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Mischel: Person-Situation",
       "relevance": "Recovered internal concept link from /big-five.",
       "target": {
@@ -428,7 +428,7 @@
     },
     {
       "id": "08-connection-4",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Persönlichkeitstests",
       "relevance": "Recovered internal concept link from /big-five.",
       "target": {

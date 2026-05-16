@@ -9,7 +9,7 @@
   "meta": {
     "title": "Experimentelle Versuchsplanung",
     "discipline": "Forschungsmethoden",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#ffe6a7",
     "tabNumber": 9,
     "estimatedReadMinutes": 3,
@@ -18,7 +18,7 @@
   "taxonomy": {
     "categoryId": "research-methods",
     "keywords": [
-      "validität",
+      "validitaet",
       "experiment",
       "kontrolle"
     ],
@@ -48,7 +48,7 @@
         "gui-authoring"
       ],
       "keywords": [
-        "validität",
+        "validitaet",
         "experiment",
         "kontrolle"
       ]
@@ -364,7 +364,7 @@
     {
       "id": "09-summary",
       "type": "summary",
-      "title": "Weiterführende Verknüpfungen",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -437,7 +437,7 @@
   "relatedResources": [
     {
       "id": "09-connection-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "/signifikanztestung",
       "relevance": "Recovered internal concept link from /versuchsplanung.",
       "target": {
@@ -447,7 +447,7 @@
     },
     {
       "id": "09-connection-2",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "/psychometrie",
       "relevance": "Recovered internal concept link from /versuchsplanung.",
       "target": {

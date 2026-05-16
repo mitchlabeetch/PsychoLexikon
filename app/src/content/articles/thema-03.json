@@ -4,12 +4,12 @@
   "slug": "thema-03",
   "legacy": {
     "sourceFormat": "authoring-v1",
-    "sourcePath": "src/content/recovered/analzy-pages/03-arbeitsgedächtnis.bundle.txt"
+    "sourcePath": "src/content/recovered/analzy-pages/03-arbeitsgedaechtnis.bundle.txt"
   },
   "meta": {
     "title": "Das Arbeitsgedächtnis nach Baddeley",
     "discipline": "Wahrnehmung & Kognition",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#c7b8ea",
     "tabNumber": 3,
     "estimatedReadMinutes": 3,
@@ -18,7 +18,7 @@
   "taxonomy": {
     "categoryId": "perception-and-cognition",
     "keywords": [
-      "arbeitsgedächtnis",
+      "arbeitsgedaechtnis",
       "phonologische schleife",
       "zentrale exekutive"
     ],
@@ -48,7 +48,7 @@
         "gui-authoring"
       ],
       "keywords": [
-        "arbeitsgedächtnis",
+        "arbeitsgedaechtnis",
         "phonologische schleife",
         "zentrale exekutive"
       ]
@@ -196,7 +196,7 @@
     {
       "id": "03-summary",
       "type": "summary",
-      "title": "Weiterführende Verknüpfungen",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -275,9 +275,9 @@
   "relatedResources": [
     {
       "id": "03-connection-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "← Gestaltgesetze",
-      "relevance": "Recovered internal concept link from /arbeitsgedächtnis.",
+      "relevance": "Recovered internal concept link from /arbeitsgedaechtnis.",
       "target": {
         "kind": "internal-article",
         "articleId": "02"
@@ -285,9 +285,9 @@
     },
     {
       "id": "03-connection-2",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Konditionierung →",
-      "relevance": "Recovered internal concept link from /arbeitsgedächtnis.",
+      "relevance": "Recovered internal concept link from /arbeitsgedaechtnis.",
       "target": {
         "kind": "internal-article",
         "articleId": "04"

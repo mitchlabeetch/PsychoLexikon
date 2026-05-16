@@ -9,8 +9,8 @@
   "meta": {
     "title": "Berliner Intelligenzstrukturmodell (BIS)",
     "subtitle": "Wie sich Intelligenz entfaltet — Jägers mehrdimensionales Modell",
-    "discipline": "Differentielle & Persönlichkeitspsychologie",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "discipline": "Differentielle & Persoenlichkeitspsychologie",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#a8d8ea",
     "tabNumber": 5,
     "estimatedReadMinutes": 3,
@@ -21,7 +21,7 @@
     "keywords": [
       "bis",
       "intelligenzstruktur",
-      "jäger"
+      "jaeger"
     ],
     "audience": [
       "erstsemester",
@@ -41,7 +41,7 @@
     "syncEnabled": false,
     "metadata": {
       "taxonomyPath": [
-        "Differentielle & Persönlichkeitspsychologie"
+        "Differentielle & Persoenlichkeitspsychologie"
       ],
       "audience": [
         "erstsemester",
@@ -51,7 +51,7 @@
       "keywords": [
         "bis",
         "intelligenzstruktur",
-        "jäger"
+        "jaeger"
       ]
     }
   },
@@ -312,7 +312,7 @@
     {
       "id": "05-summary",
       "type": "summary",
-      "title": "Weiterführende Verknüpfungen",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -391,7 +391,7 @@
   "relatedResources": [
     {
       "id": "05-connection-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Intelligenztheorien im Überblick",
       "relevance": "Recovered internal concept link from /bis-modell.",
       "target": {
@@ -401,7 +401,7 @@
     },
     {
       "id": "05-connection-2",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Faktorenanalyse",
       "relevance": "Recovered internal concept link from /bis-modell.",
       "target": {
@@ -411,7 +411,7 @@
     },
     {
       "id": "05-connection-3",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "IQ-Tests und Diagnostik",
       "relevance": "Recovered internal concept link from /bis-modell.",
       "target": {

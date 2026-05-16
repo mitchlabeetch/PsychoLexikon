@@ -10,7 +10,7 @@
     "title": "Kognitive Entwicklung nach Piaget",
     "subtitle": "Vom Baby zum logischen Denker — Piagets Entwicklungsstufen",
     "discipline": "Lernen & Entwicklung",
-    "difficulty": "Erstsemester-Komplexitätsgrad",
+    "difficulty": "Erstsemester-Komplexitaetsgrad",
     "tabColor": "#f4b8c5",
     "tabNumber": 6,
     "estimatedReadMinutes": 3,
@@ -288,7 +288,7 @@
     {
       "id": "06-summary",
       "type": "summary",
-      "title": "Weiterführende Verknüpfungen",
+      "title": "Weiterfuehrende Verknuepfungen",
       "entries": [
         {
           "kind": "bullet_list",
@@ -380,7 +380,7 @@
   "relatedResources": [
     {
       "id": "06-connection-1",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Vygotsky: Soziale Entwicklung",
       "relevance": "Recovered internal concept link from /piaget.",
       "target": {
@@ -390,7 +390,7 @@
     },
     {
       "id": "06-connection-2",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Sprachentwicklung im Kindesalter",
       "relevance": "Recovered internal concept link from /piaget.",
       "target": {
@@ -400,7 +400,7 @@
     },
     {
       "id": "06-connection-3",
-      "category": "verknüpfung",
+      "category": "verknuepfung",
       "title": "Core Knowledge Theory",
       "relevance": "Recovered internal concept link from /piaget.",
       "target": {
