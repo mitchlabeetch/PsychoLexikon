@@ -185,6 +185,7 @@
     {
       "id": "03-visuals-2",
       "type": "visual",
+      "title": "Illustrationen (Fortsetzung)",
       "asset": {
         "kind": "image-file",
         "src": "/recovered/analzy/illu-phonological-loop.png",
