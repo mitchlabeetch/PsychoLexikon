@@ -73,7 +73,7 @@ export const categories: Category[] = [
   },
   {
     id: 'differential-and-personality',
-    slug: 'differentielle-und-persönlichkeitspsychologie',
+    slug: 'differentielle-und-persoenlichkeitspsychologie',
     label: 'Differentielle & Persönlichkeitspsychologie',
     description: 'Individuelle Unterschiede, Intelligenzmodelle und Persönlichkeitsstrukturen.',
     color: '#a8d8ea',
