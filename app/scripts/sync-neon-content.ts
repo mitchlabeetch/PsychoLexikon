@@ -27,12 +27,14 @@ function getMode(rawMode: string | undefined): SyncMode {
   throw new Error('Expected one of: push, pull, hydrate')
 }
 
-function createSqlClient() {
-  if (!connectionString) {
+function createSqlClient(connectionStringParam?: string | null) {
+  const connStr = connectionStringParam !== undefined ? connectionStringParam : connectionString
+  if (!connStr) {
+
     return null
   }
 
-  return postgres(connectionString, {
+  return postgres(connStr, {
     max: 1,
     prepare: false,
   })
@@ -144,8 +146,8 @@ async function pullArticles(sql: postgres.Sql) {
     .map((record) => record.document)
 }
 
-async function runSync(mode: SyncMode): Promise<SyncSummary> {
-  const sql = createSqlClient()
+export async function runSync(mode: SyncMode, connectionStringOverride?: string | null): Promise<SyncSummary> {
+  const sql = createSqlClient(connectionStringOverride)
   if (!sql) {
     if (mode === 'hydrate' || mode === 'push') {
       console.log(`skip: CONTENT_DATABASE_URL not configured; ${mode === 'hydrate' ? 'using checked-in article snapshot' : 'skipping push to Neon'}`)
@@ -184,5 +186,7 @@ async function runSync(mode: SyncMode): Promise<SyncSummary> {
   }
 }
 
-const mode = getMode(process.argv[2])
-await runSync(mode)
+if (process.argv[1] === fileURLToPath(import.meta.url)) {
+  const mode = getMode(process.argv[2])
+  await runSync(mode)
+}
