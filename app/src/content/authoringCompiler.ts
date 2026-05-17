@@ -133,9 +133,9 @@ function compileVisualSections(draft: AuthoringDraft, section: Extract<Authoring
 function compileTextSection(section: Exclude<AuthoringDraft['sections'][number], { type: 'visual' }>): Exclude<ArticleSection, { type: 'visual' }> {
   return {
     id: section.id,
-    type: section.type as any, // Cast type to avoid complex discriminated union mismatch during map
+    type: section.type,
     title: section.title,
-    entries: section.entries as any,
+    entries: section.entries,
   } as unknown as Exclude<ArticleSection, { type: 'visual' }>
 }
 
