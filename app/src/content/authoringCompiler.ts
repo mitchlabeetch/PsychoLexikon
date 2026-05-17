@@ -130,13 +130,13 @@ function compileVisualSections(draft: AuthoringDraft, section: Extract<Authoring
   return compiledSections
 }
 
-function compileTextSection(section: Exclude<AuthoringDraft['sections'][number], { type: 'visual' }>) {
+function compileTextSection(section: Exclude<AuthoringDraft['sections'][number], { type: 'visual' }>): Exclude<ArticleSection, { type: 'visual' }> {
   return {
     id: section.id,
-    type: section.type,
+    type: section.type as any, // Cast type to avoid complex discriminated union mismatch during map
     title: section.title,
-    entries: section.entries,
-  } satisfies Exclude<ArticleSection, { type: 'visual' }>
+    entries: section.entries as any,
+  } as unknown as Exclude<ArticleSection, { type: 'visual' }>
 }
 
 function insertGeneratedDefinitionSection(
@@ -147,9 +147,13 @@ function insertGeneratedDefinitionSection(
     return sections
   }
 
-  const result = sections.flatMap((section) =>
-    section.type === 'lead' ? [section, generatedDefinitionSection] : [section]
-  )
+  const result: ArticleSection[] = []
+  for (const section of sections) {
+    result.push(section)
+    if (section.type === 'lead') {
+      result.push(generatedDefinitionSection)
+    }
+  }
 
   if (!result.some((section) => section.type === 'definition')) {
     result.unshift(generatedDefinitionSection)
@@ -161,8 +165,8 @@ function insertGeneratedDefinitionSection(
 function compileSections(draft: AuthoringDraft): ArticleSection[] {
   const generatedDefinitionSection = compileGeneratedDefinitionSection(draft)
 
-  const initialSections = draft.sections.flatMap((section) =>
-    section.type === 'visual' ? compileVisualSections(draft, section) : compileTextSection(section)
+  const initialSections: ArticleSection[] = draft.sections.flatMap((section): ArticleSection | ArticleSection[] =>
+    section.type === 'visual' ? compileVisualSections(draft, section as Extract<AuthoringDraft['sections'][number], { type: 'visual' }>) : compileTextSection(section as Exclude<AuthoringDraft['sections'][number], { type: 'visual' }>)
   )
 
   return insertGeneratedDefinitionSection(initialSections, generatedDefinitionSection)
