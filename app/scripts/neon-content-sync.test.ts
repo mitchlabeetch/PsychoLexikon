@@ -1,3 +1,4 @@
+import { runSync } from './sync-neon-content'
 import test from 'node:test'
 import assert from 'node:assert/strict'
 import { articleSchema } from '../src/content/schema'
@@ -107,5 +108,12 @@ test('parseNeonArticleRow rejects mismatched Neon metadata', () => {
         document: sampleArticle,
       }),
     /mismatched category metadata/i,
+  )
+})
+
+test('sync-neon-content pull mode throws error when CONTENT_DATABASE_URL is missing', async () => {
+  await assert.rejects(
+    runSync('pull', null),
+    { message: 'CONTENT_DATABASE_URL is required for Neon content sync' }
   )
 })
