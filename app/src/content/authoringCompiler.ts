@@ -1,3 +1,4 @@
+import { buildShortCitation, extractUrl, extractDoi } from "./utils"
 import {
   ARTICLE_SCHEMA_VERSION,
   articleSchema,
@@ -9,26 +10,6 @@ import {
 import { getCategoryById } from './taxonomy'
 import type { AuthoringDraft, AuthoringDraftCollection } from './authoringSchema'
 
-function buildShortCitation(citation: string) {
-  const yearMatch = citation.match(/\((\d{4})\)/)
-  const year = yearMatch?.[1] ?? 'o. J.'
-  const authorChunk = citation.split('(')[0]?.trim() ?? 'Quelle'
-  const authors = authorChunk
-    .split(',')
-    .map((part) => part.trim())
-    .filter(Boolean)
-
-  const firstAuthor = authors[0]?.replace(/\.$/, '') ?? 'Quelle'
-  if (authors.length >= 3) {
-    return `${firstAuthor} et al. (${year})`
-  }
-
-  if (authors.length === 2) {
-    return `${authors[0]} & ${authors[1]} (${year})`
-  }
-
-  return `${firstAuthor} (${year})`
-}
 
 function inferSourceKind(citation: string): ArticleSource['kind'] {
   const normalized = citation.toLocaleLowerCase()
@@ -44,9 +25,6 @@ function inferSourceKind(citation: string): ArticleSource['kind'] {
   return 'other'
 }
 
-function extractDoi(value: string) {
-  return value.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]
-}
 
 function containsDoiHost(value: string) {
   const urls = value.match(/https?:\/\/\S+/g) ?? []
@@ -61,9 +39,6 @@ function containsDoiHost(value: string) {
   })
 }
 
-function extractUrl(value: string) {
-  return value.match(/https?:\/\/\S+/)?.[0]
-}
 
 function compileSources(draft: AuthoringDraft): ArticleSource[] {
   return draft.sources.map((source) => ({
