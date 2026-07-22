@@ -24,5 +24,5 @@ export function extractUrl(value: string) {
 }
 
 export function extractDoi(value: string) {
-  return value.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]
+  return value.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)?.[0]?.replace(/[.,;!]+$/, '')
 }
