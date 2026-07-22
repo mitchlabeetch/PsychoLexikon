@@ -3,9 +3,11 @@ import Footer from '@/components/Footer'
 import SubjectCard from '@/components/SubjectCard'
 import { listArticles } from '@/content/api'
 
+import { useMemo } from 'react'
+
 export default function Home() {
   const articles = listArticles()
-  const featuredArticles = articles.filter((article) => article.meta.tabNumber <= 12)
+  const featuredArticles = useMemo(() => articles.filter((article) => article.meta.tabNumber <= 12), [articles])
 
   return (
     <div>
