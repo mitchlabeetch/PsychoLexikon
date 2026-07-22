@@ -104,33 +104,46 @@ function compileVisualSections(draft: AuthoringDraft, section: Extract<Authoring
   return compiledSections
 }
 
+function compileTextSection(section: Exclude<AuthoringDraft['sections'][number], { type: 'visual' }>): Exclude<ArticleSection, { type: 'visual' }> {
+  return {
+    id: section.id,
+    type: section.type,
+    title: section.title,
+    entries: section.entries,
+  } as unknown as Exclude<ArticleSection, { type: 'visual' }>
+}
+
+function insertGeneratedDefinitionSection(
+  sections: ArticleSection[],
+  generatedDefinitionSection: Extract<ArticleSection, { type: 'definition' }> | null
+): ArticleSection[] {
+  if (!generatedDefinitionSection) {
+    return sections
+  }
+
+  const result: ArticleSection[] = []
+  for (const section of sections) {
+    result.push(section)
+    if (section.type === 'lead') {
+      result.push(generatedDefinitionSection)
+    }
+  }
+
+  if (!result.some((section) => section.type === 'definition')) {
+    result.unshift(generatedDefinitionSection)
+  }
+
+  return result
+}
+
 function compileSections(draft: AuthoringDraft): ArticleSection[] {
-  const compiledSections: ArticleSection[] = []
   const generatedDefinitionSection = compileGeneratedDefinitionSection(draft)
 
-  for (const section of draft.sections) {
-    if (section.type === 'visual') {
-      compiledSections.push(...compileVisualSections(draft, section))
-      continue
-    }
+  const initialSections: ArticleSection[] = draft.sections.flatMap((section): ArticleSection | ArticleSection[] =>
+    section.type === 'visual' ? compileVisualSections(draft, section as Extract<AuthoringDraft['sections'][number], { type: 'visual' }>) : compileTextSection(section as Exclude<AuthoringDraft['sections'][number], { type: 'visual' }>)
+  )
 
-    compiledSections.push({
-      id: section.id,
-      type: section.type,
-      title: section.title,
-      entries: section.entries,
-    } satisfies Exclude<ArticleSection, { type: 'visual' }>)
-
-    if (section.type === 'lead' && generatedDefinitionSection) {
-      compiledSections.push(generatedDefinitionSection)
-    }
-  }
-
-  if (!compiledSections.some((section) => section.type === 'definition') && generatedDefinitionSection) {
-    compiledSections.unshift(generatedDefinitionSection)
-  }
-
-  return compiledSections
+  return insertGeneratedDefinitionSection(initialSections, generatedDefinitionSection)
 }
 
 function compileRelatedResources(draft: AuthoringDraft) {
