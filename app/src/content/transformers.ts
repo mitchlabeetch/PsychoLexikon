@@ -1,4 +1,4 @@
-import { buildShortCitation, extractUrl, extractDoi } from "./utils"
+import { buildShortCitation, extractUrl, extractDoi } from './utils'
 import { articleSchema, ARTICLE_SCHEMA_VERSION, type Annotation, type ArticleDocument, type ArticleSource, type RichText, type SectionEntry } from './schema'
 import { articleCategoryMap, getTaxonomyPath } from './taxonomy'
 
