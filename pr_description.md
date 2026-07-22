@@ -1,0 +1,4 @@
+🎯 **What:** The code health issue addressed was duplicate logic for parsing DOIs and short citations.
+💡 **Why:** `extractDoi` and `buildShortCitation` were identical functions duplicated across `app/src/content/authoringCompiler.ts` and `app/src/content/transformers.ts`. Extracting them into a shared utility (`citationUtils.ts`) reduces code duplication, improving maintainability and ensuring that any future parsing improvements apply globally.
+✅ **Verification:** I confirmed the change is safe by running the comprehensive `npm run content:validate` test suite, which ensures that schema, content mapping, UI rendering, and legacy migrations all remain functionally equivalent and byte-for-byte aligned. All tests passed perfectly.
+✨ **Result:** The codebase is cleaner and follows better DRY principles without any change to the application's runtime or content behavior.
