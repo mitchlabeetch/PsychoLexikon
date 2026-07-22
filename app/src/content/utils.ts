@@ -20,7 +20,7 @@ export function buildShortCitation(citation: string) {
 }
 
 export function extractUrl(value: string) {
-  return value.match(/https?:\/\/\S+/)?.[0]
+  return value.match(/https?:\/\/\S+$/)?.[0]
 }
 
 export function extractDoi(value: string) {
