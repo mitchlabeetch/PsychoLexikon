@@ -1,3 +1,4 @@
+import { buildShortCitation, extractUrl, extractDoi } from './utils'
 import {
   ARTICLE_SCHEMA_VERSION,
   articleSchema,
