@@ -16,7 +16,7 @@
     "content:pull:neon": "tsx scripts/sync-neon-content.ts pull",
     "content:push:neon": "tsx scripts/sync-neon-content.ts push",
     "content:hydrate": "tsx scripts/sync-neon-content.ts hydrate",
-    "content:validate": "tsx --tsconfig tsconfig.app.json --test scripts/validate-content.test.ts scripts/route-contract.test.ts scripts/render-smoke.test.tsx scripts/migration-delta.test.ts scripts/analzy-import.test.ts scripts/authoring-schema.test.ts scripts/neon-content-sync.test.ts",
+    "content:validate": "tsx --tsconfig tsconfig.app.json --test scripts/api.test.ts scripts/validate-content.test.ts scripts/route-contract.test.ts scripts/render-smoke.test.tsx scripts/migration-delta.test.ts scripts/analzy-import.test.ts scripts/authoring-schema.test.ts scripts/neon-content-sync.test.ts",
     "lint": "eslint .",
     "preview": "vite preview"
   },

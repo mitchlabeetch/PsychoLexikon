@@ -1,5 +1,6 @@
 import { articleSchema, ARTICLE_SCHEMA_VERSION, type Annotation, type ArticleDocument, type ArticleSource, type RichText, type SectionEntry } from './schema'
 import { articleCategoryMap, getTaxonomyPath } from './taxonomy'
+import { buildShortCitation, extractDoi, extractUrl } from './citations'
 
 export interface LegacySubjectMeta {
   title: string
@@ -62,37 +63,6 @@ function stripMarkdownControl(value: string) {
 
 function normalizeComparableText(value: string) {
   return stripMarkdownControl(value).replace(/\s+/g, ' ').trim().toLocaleLowerCase()
-}
-
-function buildShortCitation(citation: string) {
-  const yearMatch = citation.match(/\((\d{4})\)/)
-  const year = yearMatch?.[1] ?? 'o. J.'
-  const authorChunk = citation.split('(')[0]?.trim() ?? 'Quelle'
-  const authors = authorChunk
-    .split(',')
-    .map((part) => part.trim())
-    .filter(Boolean)
-
-  const firstAuthor = authors[0]?.replace(/\.$/, '') ?? 'Quelle'
-  if (authors.length >= 3) {
-    return `${firstAuthor} et al. (${year})`
-  }
-
-  if (authors.length === 2) {
-    return `${authors[0]} & ${authors[1]} (${year})`
-  }
-
-  return `${firstAuthor} (${year})`
-}
-
-function extractUrl(citation: string) {
-  const urlMatch = citation.match(/https?:\/\/\S+$/)
-  return urlMatch?.[0]
-}
-
-function extractDoi(citation: string) {
-  const doiMatch = citation.match(/10\.\d{4,9}\/[-._;()/:A-Z0-9]+/i)
-  return doiMatch?.[0]
 }
 
 function buildAnnotations(block: LegacyContentBlock, sourceIdLookup: Map<string, string>, blockId: string): Annotation[] {
