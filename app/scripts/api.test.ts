@@ -18,7 +18,7 @@ test('api tests', async () => {
   const code = fs.readFileSync(codePath, 'utf8');
   const patchedCode = code.replace(/import\.meta\.env/g, '(globalThis.mockEnv || {})');
 
-  const tmpPath = path.resolve(__dirname, '../src/content/api.test-tmp.ts');
+  const tmpPath = path.resolve(__dirname, `../src/content/api.test-tmp-${process.pid}.ts`);
   fs.writeFileSync(tmpPath, patchedCode);
 
   try {
