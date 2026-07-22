@@ -1,6 +1,7 @@
 import { buildShortCitation, extractUrl, extractDoi } from './utils'
 import { articleSchema, ARTICLE_SCHEMA_VERSION, type Annotation, type ArticleDocument, type ArticleSource, type RichText, type SectionEntry } from './schema'
 import { articleCategoryMap, getTaxonomyPath } from './taxonomy'
+import { buildShortCitation, extractDoi, extractUrl } from './citations'
 
 export interface LegacySubjectMeta {
   title: string
@@ -64,9 +65,6 @@ function stripMarkdownControl(value: string) {
 function normalizeComparableText(value: string) {
   return stripMarkdownControl(value).replace(/\s+/g, ' ').trim().toLocaleLowerCase()
 }
-
-
-
 
 function buildAnnotations(block: LegacyContentBlock, sourceIdLookup: Map<string, string>, blockId: string): Annotation[] {
   const annotations: Annotation[] = []

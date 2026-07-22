@@ -1,5 +1,5 @@
 import { articleSchema, type ArticleDocument } from './schema'
-import { getCategoryById, getCategoryBySlug } from './taxonomy'
+import { getCategoryById, getCategoryBySlug, getCanonicalCategoryId } from './taxonomy'
 
 function loadRawArticleModules() {
   try {
@@ -74,7 +74,10 @@ export function listArticlesByCategory(categorySlugOrId: string) {
     return []
   }
 
-  return loadArticles().articles.filter((article) => getArticleCategory(article)?.id === category.id)
+  const categoryId = category.id
+  return loadArticles().articles.filter((article) => {
+    return getCanonicalCategoryId(article.taxonomy.categoryId) === categoryId
+  })
 }
 
 export function getArticleById(id: string) {
